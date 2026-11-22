@@ -10,6 +10,27 @@
     "RPG"
   ],
   "status": "available",
+  "dlc": "base",
+  "dlcs": [
+    {
+      "id": "base",
+      "name": "Jogo Base",
+      "shortLabel": "Base",
+      "accentColor": "#E4252F"
+    },
+    {
+      "id": "hearts-of-stone",
+      "name": "Hearts of Stone",
+      "shortLabel": "HoS",
+      "accentColor": "#38BDF8"
+    },
+    {
+      "id": "blood-and-wine",
+      "name": "Blood and Wine",
+      "shortLabel": "B&W",
+      "accentColor": "#C084FC"
+    }
+  ],
   "assets": {
     "coverImage": "/games/the-witcher-3-wild-hunt/cover.webp",
     "bannerImage": "/games/the-witcher-3-wild-hunt/banner.webp",

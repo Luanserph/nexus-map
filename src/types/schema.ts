@@ -27,10 +27,18 @@ export interface GameTheme {
   badgeStyle?: BadgeStyle;
 }
 
+export interface GameDlc {
+  id: string;
+  name: string;
+  shortLabel?: string;
+  accentColor?: string;
+}
+
 export interface GameMapLayer {
   id: string;
   name: string;
   pinsCount: number;
+  dlc?: string;
   icon?: string;
   tileUrlTemplate?: string;
   minZoom?: number;
@@ -77,12 +85,38 @@ export interface MapMarker {
   /** Cartographic coordinates [x, y] in L.CRS.Simple planar space. */
   coords: [number, number];
   region?: string;
+  dlc?: string;
   imageUrl?: string;
   wikiUrl?: string;
   level?: number;
   tags?: string[];
   checklist?: MarkerChecklistItem[];
   metadata?: Record<string, string | number | boolean | string[]>;
+}
+
+export interface GuidedRouteStep {
+  stepNumber: number;
+  markerId: string;
+  tip: string;
+}
+
+export interface GuidedRoute {
+  id: string;
+  mapId: string;
+  title: string;
+  description: string;
+  dlc?: string;
+  color?: string;
+  steps: GuidedRouteStep[];
+}
+
+export interface LivePlayerTelemetry {
+  game: string;
+  mapId: string;
+  x: number;
+  y: number;
+  /** Heading in degrees (0 = North/Up, 90 = East/Right, 180 = South/Down, 270 = West/Left). */
+  heading: number;
 }
 
 export interface UserPinState {
@@ -93,7 +127,21 @@ export interface UserPinState {
   note?: string;
 }
 
-export type MapInteractionMode = 'explore' | 'add-note' | 'draw-route';
+export type MapInteractionMode =
+  | 'explore'
+  | 'add-note'
+  | 'draw-route'
+  | 'pick-guide-start';
+
+export type GuideScope = 'all' | 'base' | 'dlcs';
+
+export type GuideFocus =
+  | 'all'
+  | 'skills-power'
+  | 'gear-treasures'
+  | 'quests-contracts';
+
+export type GuideStartMode = 'fast-travel' | 'map-click' | 'live-player';
 
 export interface FoundMarkerRecord {
   /** Composite key: `${gameSlug}:${markerId}` */
@@ -150,6 +198,8 @@ export interface GameManifest {
   releaseYear: number;
   genres: string[];
   status: GameCatalogStatus;
+  dlc?: string;
+  dlcs?: GameDlc[];
   assets: GameAssets;
   theme: GameTheme;
   maps: GameMapLayer[];

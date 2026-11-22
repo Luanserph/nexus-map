@@ -7,6 +7,21 @@
   "releaseYear": 2020,
   "genres": ["Action RPG", "Sci-Fi", "Mundo Aberto"],
   "status": "available",
+  "dlc": "base",
+  "dlcs": [
+    {
+      "id": "base",
+      "name": "Jogo Base",
+      "shortLabel": "Base",
+      "accentColor": "#FCEE0A"
+    },
+    {
+      "id": "phantom-liberty",
+      "name": "Phantom Liberty",
+      "shortLabel": "PL",
+      "accentColor": "#FF003C"
+    }
+  ],
   "assets": {},
   "theme": {
     "accentPrimary": "#FCEE0A",
@@ -35,6 +50,7 @@
       "id": "dogtown",
       "name": "Dogtown (Phantom Liberty)",
       "pinsCount": 440,
+      "dlc": "phantom-liberty",
       "icon": "shield-alert",
       "tileUrlTemplate": "/tiles/cyberpunk-2077/dogtown/{z}/{x}/{y}.webp",
       "minZoom": -1,

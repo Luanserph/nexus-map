@@ -34,7 +34,11 @@ O formato segue o padrão [Keep a Changelog](https://keepachangelog.com/pt-BR/1.
   - Sidebar expandida com 6 grupos de categorias recolhíveis, ícones distintos por categoria, **Presets Rápidos** orientados a manifesto (*Essenciais*, *Exploração 100%*, *Caça a Equipamentos*) e toggle de **Clusterização**.
   - Performance otimizada no `InteractiveMap` para 500–1.000+ pins a 60 FPS usando **viewport culling** + **clusterização espacial em grade O(N)** estilizada em Neon Glassmorphism.
   - CLI `scripts/import-markers/` (`npm run import-markers`) com calibração linear por 2 pontos de referência (`--ref`), parser para datasets JSON e `witcher3map` JS, tradução/padronização em PT-BR e enriquecimento opcional via MediaWiki API.
-  - Mapa **Velen & Novigrad** (`the-witcher-3-wild-hunt`) populado com centenas de marcadores reais calibrados contra os tiles `.webp`.
+  - Mapa **Velen & Novigrad** (`the-witcher-3-wild-hunt`) populado com 469 marcadores reais calibrados contra os tiles `.webp`.
+- **Evolução MapGenie+ (`v1.2.0`)**:
+  - **Suporte Nativo a DLCs e Expansões**: `dlc` e `dlcs` em `GameManifest`, `GameMapLayer` e `MapMarker`; badges de DLC no seletor de camadas e filtro de progresso na Sidebar separando Jogo Base de expansões (ex: *Hearts of Stone*, *Shadow of the Erdtree*, *Phantom Liberty*).
+  - **Gerador Dinâmico de Rota 100% (`src/core/routing/routeOptimizer.ts` + `GuidedRoutePanel`)**: algoritmo Nearest Neighbor com afinidade por região/nível + refino **2-opt** que gera rotas contínuas cobrindo 100% dos objetivos pendentes para qualquer jogo, mapa e DLC; inclui seletores de **Escopo** (`Tudo 100%`, `Jogo Base`, `DLCs`), **Foco** (`Tudo`, `Habilidades & Poder`, `Equipamentos & Tesouros`, `Missões & Contratos`), escolha de **Ponto de Partida** (`Viagem Rápida`, `Escolher no Mapa`, `Live Player`), destaque neon em alto brilho nos próximos 5 passos e atualização em tempo real no IndexedDB ao clicar em **"Concluir e Próximo"**.
+  - **Live Telemetry WebSocket (`src/core/telemetry/useLivePlayer.ts` + `LiveTelemetryWidget`)**: marcador direcional do jogador com cone de visão e glow neon no `InteractiveMap`, widget no HUD com status `Offline`/`Live`/`Simulado`, toggle **"Seguir Câmera"**, botão **"Simular Movimento (Dev)"** e documentação do protocolo em `docs/LIVE_TELEMETRY.md`.
 
 ---
 

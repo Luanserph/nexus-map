@@ -147,3 +147,67 @@ export function createRouteVertexIcon(color: string, index: number): L.DivIcon {
     iconAnchor: [10, 10],
   });
 }
+
+export function createGuidedStepIcon(
+  stepNumber: number,
+  isActive: boolean,
+  isDone: boolean,
+  color: string
+): L.DivIcon {
+  const classes = [
+    'nexus-guide-step-pin',
+    isActive ? 'is-active' : '',
+    isDone ? 'is-done' : '',
+  ]
+    .filter(Boolean)
+    .join(' ');
+
+  const html = `
+    <div class="${classes}" style="--guide-color: ${color};">
+      ${isActive ? '<span class="nexus-guide-pulse"></span>' : ''}
+      <span class="nexus-guide-step-core">${isDone ? '✓' : stepNumber}</span>
+    </div>
+  `;
+
+  return L.divIcon({
+    html,
+    className: 'nexus-map-pin-wrapper',
+    iconSize: [30, 30],
+    iconAnchor: [15, 15],
+  });
+}
+
+export function createLivePlayerIcon(heading: number): L.DivIcon {
+  const html = `
+    <div class="nexus-player-marker">
+      <div class="nexus-player-rotator" style="transform: rotate(${heading}deg);">
+        <svg viewBox="0 0 64 64" width="56" height="56" aria-hidden="true">
+          <defs>
+            <linearGradient id="nexus-cone-grad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="var(--accent-primary)" stop-opacity="0" />
+              <stop offset="100%" stop-color="var(--accent-primary)" stop-opacity="0.48" />
+            </linearGradient>
+          </defs>
+          <!-- Vision Cone pointing North (0 deg) -->
+          <path d="M 32 32 L 16 4 A 30 30 0 0 1 48 4 Z" fill="url(#nexus-cone-grad)" />
+          <!-- Directional Arrow -->
+          <polygon
+            points="32,16 42,40 32,34 22,40"
+            fill="var(--accent-primary)"
+            stroke="#07090d"
+            stroke-width="2"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+      <span class="nexus-player-beacon"></span>
+    </div>
+  `;
+
+  return L.divIcon({
+    html,
+    className: 'nexus-map-pin-wrapper',
+    iconSize: [56, 56],
+    iconAnchor: [28, 28],
+  });
+}

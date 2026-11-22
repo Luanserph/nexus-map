@@ -1,0 +1,62 @@
+[
+  {
+    "id": "velen-novigrad-100-starter",
+    "mapId": "main",
+    "title": "Rota Essencial: Velen & Novigrad",
+    "description": "Percurso otimizado em 10 passos cobrindo pontos de viagem rápida estratégicos, Locais de Poder iniciais e acessos a Oxenfurt e Novigrad.",
+    "dlc": "base",
+    "color": "#5AE297",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "markerId": "the-witcher-3-wild-hunt-main-signpost-49",
+        "tip": "Ponto de chegada em Velen. Inspecione os arredores da Árvore do Enforcado para pegar o livro inicial e ativar sua primeira viagem rápida."
+      },
+      {
+        "stepNumber": 2,
+        "markerId": "the-witcher-3-wild-hunt-main-innkeep-9",
+        "tip": "Siga para sudoeste até a Estalagem da Encruzilhada. Converse com o estalajadeiro, compre cartas de Gwent e avance a pista de Hendrik."
+      },
+      {
+        "stepNumber": 3,
+        "markerId": "the-witcher-3-wild-hunt-main-signpost-58",
+        "tip": "Desbloqueie o povoado de Blackbough e fale com o ferreiro local para reparar suas espadas antes de explorar o sul de Velen."
+      },
+      {
+        "stepNumber": 4,
+        "markerId": "the-witcher-3-wild-hunt-main-signpost-64",
+        "tip": "Passe por Midcopse, pegue os contratos no quadro de avisos e obtenha a pista da bruxa local (Keira Metz)."
+      },
+      {
+        "stepNumber": 5,
+        "markerId": "the-witcher-3-wild-hunt-main-pop-5",
+        "tip": "Desvio rápido ao sul de Midcopse para extrair +1 Ponto de Habilidade gratuito neste Local de Poder."
+      },
+      {
+        "stepNumber": 6,
+        "markerId": "the-witcher-3-wild-hunt-main-signpost-76",
+        "tip": "Use um barco até a Ilha Fyke para desbloquear a viagem rápida da torre e preparar a missão secundária de Keira."
+      },
+      {
+        "stepNumber": 7,
+        "markerId": "the-witcher-3-wild-hunt-main-abandoned-6",
+        "tip": "Suba em direção a Oxenfurt limpando o Local Abandonado próximo à margem do Pontar para liberar novos mercadores e XP fácil."
+      },
+      {
+        "stepNumber": 8,
+        "markerId": "the-witcher-3-wild-hunt-main-innkeep-5",
+        "tip": "Na estrada para Novigrad, pare na Estalagem dos Sete Gatos para comprar cartas raras de Gwent e o mapa de tesouro da Escola do Gato."
+      },
+      {
+        "stepNumber": 9,
+        "markerId": "the-witcher-3-wild-hunt-main-signpost-1",
+        "tip": "Chegue à Praça do Hierarca em Novigrad — ponto central para trocar florins no Banco Vivaldi e acessar os melhores armeiros."
+      },
+      {
+        "stepNumber": 10,
+        "markerId": "the-witcher-3-wild-hunt-main-pop-1",
+        "tip": "Feche a rota na Ilha do Templo ao norte de Novigrad extraindo mais +1 Ponto de Habilidade no Local de Poder com vista panorâmica da cidade."
+      }
+    ]
+  }
+]

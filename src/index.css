@@ -254,6 +254,94 @@
     0 8px 20px rgba(0, 0, 0, 0.85);
 }
 
+/* Guided 100% Route Step Beacons */
+.nexus-guide-step-pin {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.nexus-guide-step-core {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 9999px;
+  background-color: rgba(7, 9, 13, 0.92);
+  border: 2px solid var(--guide-color, var(--accent-primary));
+  color: var(--guide-color, var(--accent-primary));
+  font-family: var(--nexus-font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  box-shadow: 0 0 12px color-mix(in srgb, var(--guide-color, var(--accent-primary)) 55%, transparent);
+}
+
+.nexus-guide-step-pin.is-active .nexus-guide-step-core {
+  background-color: var(--guide-color, var(--accent-primary));
+  color: #07090d;
+  transform: scale(1.15);
+  box-shadow: 0 0 20px var(--guide-color, var(--accent-primary));
+}
+
+.nexus-guide-step-pin.is-done .nexus-guide-step-core {
+  opacity: 0.7;
+}
+
+.nexus-guide-pulse {
+  position: absolute;
+  inset: -4px;
+  border-radius: 9999px;
+  border: 2px solid var(--guide-color, var(--accent-primary));
+  animation: nexus-radar-pulse 1.6s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+}
+
+@keyframes nexus-radar-pulse {
+  0% {
+    transform: scale(0.75);
+    opacity: 0.95;
+  }
+  100% {
+    transform: scale(1.85);
+    opacity: 0;
+  }
+}
+
+/* Live Telemetry Player Arrow + Vision Cone */
+.nexus-player-marker {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  pointer-events: none;
+}
+
+.nexus-player-rotator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  filter: drop-shadow(0 0 10px var(--accent-glow));
+  transition: transform 90ms linear;
+}
+
+.nexus-player-beacon {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+  background-color: #ffffff;
+  box-shadow: 0 0 12px var(--accent-primary);
+}
+
 .nexus-map-pin-pulse {
   position: absolute;
   inset: 2px;

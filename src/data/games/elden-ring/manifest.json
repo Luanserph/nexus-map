@@ -7,6 +7,21 @@
   "releaseYear": 2022,
   "genres": ["Action RPG", "Soulslike", "Mundo Aberto"],
   "status": "available",
+  "dlc": "base",
+  "dlcs": [
+    {
+      "id": "base",
+      "name": "Jogo Base",
+      "shortLabel": "Base",
+      "accentColor": "#D4AF37"
+    },
+    {
+      "id": "shadow-of-the-erdtree",
+      "name": "Shadow of the Erdtree",
+      "shortLabel": "SotE",
+      "accentColor": "#F59E0B"
+    }
+  ],
   "assets": {},
   "theme": {
     "accentPrimary": "#D4AF37",
@@ -47,6 +62,7 @@
       "id": "shadow-realm",
       "name": "Reino das Sombras",
       "pinsCount": 960,
+      "dlc": "shadow-of-the-erdtree",
       "icon": "flame",
       "tileUrlTemplate": "/tiles/elden-ring/shadow-realm/{z}/{x}/{y}.webp",
       "minZoom": -1,

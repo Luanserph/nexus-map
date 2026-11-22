@@ -49,7 +49,10 @@ import {
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { ChangeEvent, ReactNode } from 'react';
 import { InteractiveMap } from '../../core/engine';
-import type { InteractiveMapHandle } from '../../core/engine';
+import type {
+  ActiveGuidedRouteOverlay,
+  InteractiveMapHandle,
+} from '../../core/engine';
 import {
   deleteCustomRoute,
   deleteUserNote,
@@ -57,15 +60,23 @@ import {
   importBackupJson,
   saveCustomRoute,
   saveUserNote,
+  setMarkerFound,
   toggleChecklistItem,
   toggleMarkerFound,
   useGameMapStorage,
 } from '../../core/storage';
+import { generateOptimized100Route } from '../../core/routing';
+import type { OptimizedRouteResult } from '../../core/routing';
+import { useLivePlayer } from '../../core/telemetry';
 import { useGameTheme } from '../../core/theme-engine';
 import { getMarkersByMap } from '../../data/games';
 import type {
   Category,
   CategoryPreset,
+  GameDlc,
+  GuideFocus,
+  GuideScope,
+  GuideStartMode,
   HubGameEntry,
   MapInteractionMode,
   MapMarker,
@@ -73,6 +84,8 @@ import type {
 } from '../../types/schema';
 import { GlassBadge, GlassInput, GlassPanel, NeonButton } from '../glass';
 import { GameCoverArt } from '../hub/GameCoverArt';
+import { GuidedRoutePanel } from './GuidedRoutePanel';
+import { LiveTelemetryWidget } from './LiveTelemetryWidget';
 import { MapToolbar } from './MapToolbar';
 import { MarkerDetailCard } from './MarkerDetailCard';
 import { NoteEditorCard } from './NoteEditorCard';
@@ -165,12 +178,22 @@ export function MapWorkspace({
 
   const currentMapId = activeLayer?.id ?? manifest.maps[0]?.id ?? 'default';
 
+  // Live IndexedDB storage
   const { foundMarkerIds, checkedChecklistKeys, notes, routes } =
     useGameMapStorage(manifest.slug, currentMapId);
 
+  // Live Player Telemetry (WebSocket + Dev Simulator)
+  const telemetry = useLivePlayer({
+    gameSlug: manifest.slug,
+    mapId: currentMapId,
+    bounds: activeLayer?.bounds,
+  });
+
+  // Sidebar & filter state
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [pinSearchQuery, setPinSearchQuery] = useState('');
   const [hideFound, setHideFound] = useState(false);
+  const [selectedDlcFilter, setSelectedDlcFilter] = useState<string>('all');
   const [clusteringEnabled, setClusteringEnabled] = useState(true);
   const [activePresetId, setActivePresetId] = useState<string | null>(null);
   const [collapsedGroups, setCollapsedGroups] = useState<Record<string, boolean>>({});
@@ -186,6 +209,21 @@ export function MapWorkspace({
     }
   );
 
+  // Dynamic Guided 100% Route Optimizer state
+  const [isGuideOpen, setIsGuideOpen] = useState(false);
+  const [guideScope, setGuideScope] = useState<GuideScope>('all');
+  const [guideFocus, setGuideFocus] = useState<GuideFocus>('all');
+  const [guideStartMode, setGuideStartMode] =
+    useState<GuideStartMode>('fast-travel');
+  const [guideCustomStartCoords, setGuideCustomStartCoords] = useState<
+    [number, number] | null
+  >(null);
+  const [guideRespectFilters, setGuideRespectFilters] = useState(false);
+  const [generatedRoute, setGeneratedRoute] =
+    useState<OptimizedRouteResult | null>(null);
+  const [activeGuideStepIndex, setActiveGuideStepIndex] = useState<number>(0);
+
+  // Selection, Notes & Route Drawing state
   const [interactionMode, setInteractionMode] =
     useState<MapInteractionMode>('explore');
   const [selectedMarker, setSelectedMarker] = useState<MapMarker | null>(null);
@@ -214,6 +252,14 @@ export function MapWorkspace({
 
   const badgeStyle = activeTheme.badgeStyle ?? 'minimal';
 
+  const dlcsById = useMemo(() => {
+    const map: Record<string, GameDlc> = {};
+    for (const dlc of manifest.dlcs ?? []) {
+      map[dlc.id] = dlc;
+    }
+    return map;
+  }, [manifest.dlcs]);
+
   const categoriesById = useMemo(() => {
     const map: Record<string, Category> = {};
     for (const group of manifest.categoryGroups) {
@@ -228,31 +274,45 @@ export function MapWorkspace({
     return getMarkersByMap(manifest.slug, currentMapId);
   }, [manifest.slug, currentMapId]);
 
+  // DLC-scoped markers (separates Base Game vs DLC progress cleanly)
+  const dlcScopedMarkers = useMemo(() => {
+    if (selectedDlcFilter === 'all') return layerMarkers;
+    return layerMarkers.filter((m) => (m.dlc ?? 'base') === selectedDlcFilter);
+  }, [layerMarkers, selectedDlcFilter]);
+
+  const availableLayerDlcs = useMemo(() => {
+    const present = new Set<string>();
+    for (const m of layerMarkers) {
+      present.add(m.dlc ?? 'base');
+    }
+    return (manifest.dlcs ?? []).filter((d) => present.has(d.id));
+  }, [layerMarkers, manifest.dlcs]);
+
   const layerStats = useMemo(() => {
     const totalByCat: Record<string, number> = {};
     const foundByCat: Record<string, number> = {};
-    let foundInLayer = 0;
+    let foundInScope = 0;
 
-    for (const marker of layerMarkers) {
+    for (const marker of dlcScopedMarkers) {
       totalByCat[marker.category] = (totalByCat[marker.category] ?? 0) + 1;
       if (foundMarkerIds.has(marker.id)) {
         foundByCat[marker.category] = (foundByCat[marker.category] ?? 0) + 1;
-        foundInLayer += 1;
+        foundInScope += 1;
       }
     }
 
-    const layerPercent =
-      layerMarkers.length > 0
-        ? Math.round((foundInLayer / layerMarkers.length) * 100)
+    const scopePercent =
+      dlcScopedMarkers.length > 0
+        ? Math.round((foundInScope / dlcScopedMarkers.length) * 100)
         : 0;
 
-    return { totalByCat, foundByCat, foundInLayer, layerPercent };
-  }, [layerMarkers, foundMarkerIds]);
+    return { totalByCat, foundByCat, foundInScope, scopePercent };
+  }, [dlcScopedMarkers, foundMarkerIds]);
 
   const normalizedPinSearch = pinSearchQuery.trim().toLowerCase();
 
   const filteredMarkers = useMemo(() => {
-    return layerMarkers.filter((marker) => {
+    return dlcScopedMarkers.filter((marker) => {
       if (!visibleCategories[marker.category]) return false;
       if (hideFound && foundMarkerIds.has(marker.id)) return false;
       if (!normalizedPinSearch) return true;
@@ -271,12 +331,35 @@ export function MapWorkspace({
       return haystack.includes(normalizedPinSearch);
     });
   }, [
-    layerMarkers,
+    dlcScopedMarkers,
     visibleCategories,
     hideFound,
     foundMarkerIds,
     normalizedPinSearch,
     categoriesById,
+  ]);
+
+  // Dynamic Guided 100% Route overlay for InteractiveMap
+  const guidedOverlay: ActiveGuidedRouteOverlay | null = useMemo(() => {
+    if (!isGuideOpen || !generatedRoute || generatedRoute.steps.length === 0) {
+      return null;
+    }
+    return {
+      color: activeTheme.accentSecondary,
+      activeStepIndex: Math.min(
+        activeGuideStepIndex,
+        generatedRoute.steps.length - 1
+      ),
+      steps: generatedRoute.steps.map((s) => ({
+        stepNumber: s.stepNumber,
+        marker: s.marker,
+      })),
+    };
+  }, [
+    isGuideOpen,
+    generatedRoute,
+    activeGuideStepIndex,
+    activeTheme.accentSecondary,
   ]);
 
   useEffect(() => {
@@ -303,6 +386,10 @@ export function MapWorkspace({
           setDraftNoteCoords(null);
           return;
         }
+        if (isGuideOpen) {
+          setIsGuideOpen(false);
+          return;
+        }
         if (interactionMode !== 'explore') {
           setInteractionMode('explore');
         }
@@ -316,6 +403,7 @@ export function MapWorkspace({
     selectedMarker,
     selectedNote,
     draftNoteCoords,
+    isGuideOpen,
     interactionMode,
   ]);
 
@@ -331,6 +419,9 @@ export function MapWorkspace({
     setSelectedNote(null);
     setDraftNoteCoords(null);
     setDraftRoutePoints([]);
+    setIsGuideOpen(false);
+    setGeneratedRoute(null);
+    setSelectedDlcFilter('all');
     onSelectLayer(layerId);
   }
 
@@ -345,7 +436,107 @@ export function MapWorkspace({
     mapHandleRef.current?.flyToMarker(marker);
   }
 
+  function runRouteGenerator(overrides?: {
+    scope?: GuideScope;
+    focus?: GuideFocus;
+    startMode?: GuideStartMode;
+    customStartCoords?: [number, number] | null;
+    respectVisibleCategories?: boolean;
+  }) {
+    const nextScope = overrides?.scope ?? guideScope;
+    const nextFocus = overrides?.focus ?? guideFocus;
+    const nextStartMode = overrides?.startMode ?? guideStartMode;
+    const nextCustomCoords =
+      overrides?.customStartCoords !== undefined
+        ? overrides.customStartCoords
+        : guideCustomStartCoords;
+    const nextRespectFilters =
+      overrides?.respectVisibleCategories ?? guideRespectFilters;
+
+    const result = generateOptimized100Route({
+      markers: layerMarkers,
+      foundMarkerIds,
+      categoriesById,
+      scope: nextScope,
+      focus: nextFocus,
+      startMode: nextStartMode,
+      customStartCoords: nextCustomCoords,
+      livePlayerCoords: telemetry.player
+        ? [telemetry.player.x, telemetry.player.y]
+        : null,
+      visibleCategories,
+      respectVisibleCategories: nextRespectFilters,
+    });
+
+    setGeneratedRoute(result);
+    setActiveGuideStepIndex(0);
+
+    if (result.steps[0]) {
+      mapHandleRef.current?.flyToMarker(result.steps[0].marker);
+    }
+  }
+
+  function handleToggleGuideMode() {
+    if (isGuideOpen) {
+      setIsGuideOpen(false);
+      if (interactionMode === 'pick-guide-start') {
+        setInteractionMode('explore');
+      }
+      return;
+    }
+
+    setSelectedMarker(null);
+    setSelectedNote(null);
+    setDraftNoteCoords(null);
+    setIsGuideOpen(true);
+    runRouteGenerator();
+  }
+
+  function handleSelectGuideStep(idx: number) {
+    const steps = generatedRoute?.steps ?? [];
+    if (steps.length === 0) return;
+    const clamped = Math.max(0, Math.min(steps.length - 1, idx));
+    setActiveGuideStepIndex(clamped);
+    const step = steps[clamped];
+    if (step) {
+      mapHandleRef.current?.flyToMarker(step.marker);
+    }
+  }
+
+  async function handleCompleteAndNextGuideStep() {
+    const steps = generatedRoute?.steps ?? [];
+    const currentStep = steps[activeGuideStepIndex];
+    if (!currentStep) return;
+
+    await setMarkerFound(manifest.slug, currentStep.marker.id, true);
+
+    if (activeGuideStepIndex < steps.length - 1) {
+      const nextIdx = activeGuideStepIndex + 1;
+      setActiveGuideStepIndex(nextIdx);
+      const nextStep = steps[nextIdx];
+      if (nextStep) {
+        mapHandleRef.current?.flyToMarker(nextStep.marker);
+      }
+    } else {
+      showToast('Rota 100% concluída!');
+    }
+  }
+
   function handleMapClick(coords: [number, number]) {
+    if (interactionMode === 'pick-guide-start') {
+      setGuideStartMode('map-click');
+      setGuideCustomStartCoords(coords);
+      setInteractionMode('explore');
+      runRouteGenerator({
+        startMode: 'map-click',
+        customStartCoords: coords,
+      });
+      showToast(
+        `Ponto de partida definido em [${coords[0].toFixed(1)}, ${coords[1].toFixed(1)}].`
+      );
+      return;
+    }
+
     if (interactionMode === 'add-note') {
       setSelectedMarker(null);
       setSelectedNote(null);
@@ -475,10 +666,14 @@ export function MapWorkspace({
     setVisibleCategories(next);
   }
 
+  const showRightPanel = Boolean(
+    selectedMarker || selectedNote || draftNoteCoords || isGuideOpen
+  );
+
   return (
     <div className="relative h-svh w-screen overflow-hidden bg-[var(--surface-base)] text-[var(--text-primary)] select-none transition-colors duration-300">
       {/* ================================================================= */}
-      {/* INTERACTIVE LEAFLET MAP ENGINE (VIEWPORT CULLING + CLUSTERING)    */}
+      {/* INTERACTIVE LEAFLET MAP ENGINE                                    */}
       {/* ================================================================= */}
       <div className="relative z-0 h-full w-full">
         {activeLayer && (
@@ -492,6 +687,10 @@ export function MapWorkspace({
             selectedMarkerId={selectedMarker?.id}
             onSelectMarker={handleSelectMarker}
             clusteringEnabled={clusteringEnabled}
+            guidedRoute={guidedOverlay}
+            onSelectGuidedStep={handleSelectGuideStep}
+            livePlayer={telemetry.player}
+            followLivePlayer={telemetry.followCamera}
             userNotes={notes}
             selectedNoteId={selectedNote?.id}
             onSelectNote={(note) => {
@@ -512,7 +711,7 @@ export function MapWorkspace({
       </div>
 
       {/* ================================================================= */}
-      {/* FLOATING TOPBAR (NEON GLASSMORPHISM)                              */}
+      {/* FLOATING TOPBAR (BACK + TITLE + LAYERS WITH DLC BADGES + GUIDE)   */}
       {/* ================================================================= */}
       <header className="pointer-events-none fixed inset-x-4 top-4 z-30 flex flex-wrap items-center justify-between gap-3">
         <GlassPanel
@@ -556,40 +755,74 @@ export function MapWorkspace({
           </div>
         </GlassPanel>
 
-        <GlassPanel
-          variant="elevated"
-          padding="none"
-          className="pointer-events-auto max-w-full overflow-x-auto"
-        >
-          <div
-            className="flex items-center gap-1.5 px-2.5 py-2"
-            role="tablist"
-            aria-label="Seletor de camadas do mapa"
-          >
-            <span className="hidden items-center gap-1.5 pr-1 pl-1 font-mono text-[10px] uppercase tracking-wider text-[var(--text-muted)] md:inline-flex">
-              <Layers className="h-3.5 w-3.5 text-[var(--accent-primary)]" />
-              Camada
-            </span>
-            {manifest.maps.map((mapLayer) => {
-              const isActive = activeLayer?.id === mapLayer.id;
-              return (
+        <div className="pointer-events-auto flex flex-wrap items-center gap-2">
+          {/* Dynamic Guided 100% Route Generator Trigger (available on every game/map) */}
+          {layerMarkers.length > 0 && (
+            <GlassPanel variant="elevated" padding="none">
+              <div className="px-2 py-2">
                 <NeonButton
-                  key={mapLayer.id}
                   size="sm"
                   variant="glass"
-                  active={isActive}
-                  onClick={() => handleSelectLayer(mapLayer.id)}
+                  active={isGuideOpen}
+                  onClick={handleToggleGuideMode}
+                  leftIcon={
+                    <Compass className="h-3.5 w-3.5 text-[var(--accent-primary)]" />
+                  }
                 >
-                  <span>{mapLayer.name}</span>
+                  Modo Guia 100%
                 </NeonButton>
-              );
-            })}
-          </div>
-        </GlassPanel>
+              </div>
+            </GlassPanel>
+          )}
+
+          {/* Layer / Map Switcher with DLC Badges */}
+          <GlassPanel
+            variant="elevated"
+            padding="none"
+            className="max-w-full overflow-x-auto"
+          >
+            <div
+              className="flex items-center gap-1.5 px-2.5 py-2"
+              role="tablist"
+              aria-label="Seletor de camadas do mapa"
+            >
+              <span className="hidden items-center gap-1.5 pr-1 pl-1 font-mono text-[10px] uppercase tracking-wider text-[var(--text-muted)] md:inline-flex">
+                <Layers className="h-3.5 w-3.5 text-[var(--accent-primary)]" />
+                Camada
+              </span>
+              {manifest.maps.map((mapLayer) => {
+                const isActive = activeLayer?.id === mapLayer.id;
+                const layerDlc = mapLayer.dlc ? dlcsById[mapLayer.dlc] : undefined;
+                return (
+                  <NeonButton
+                    key={mapLayer.id}
+                    size="sm"
+                    variant="glass"
+                    active={isActive}
+                    onClick={() => handleSelectLayer(mapLayer.id)}
+                  >
+                    <span>{mapLayer.name}</span>
+                    {layerDlc && layerDlc.id !== 'base' && (
+                      <span
+                        className="ml-1.5 rounded px-1 py-0.5 font-mono text-[9px] font-semibold uppercase"
+                        style={{
+                          backgroundColor: `color-mix(in srgb, ${layerDlc.accentColor ?? 'var(--accent-secondary)'} 20%, transparent)`,
+                          color: layerDlc.accentColor ?? 'var(--accent-secondary)',
+                        }}
+                      >
+                        {layerDlc.shortLabel ?? 'DLC'}
+                      </span>
+                    )}
+                  </NeonButton>
+                );
+              })}
+            </div>
+          </GlassPanel>
+        </div>
       </header>
 
       {/* ================================================================= */}
-      {/* RETRACTABLE LEFT SIDEBAR (SEARCH, PRESETS, FILTERS, BACKUP)       */}
+      {/* RETRACTABLE LEFT SIDEBAR (DLC FILTER, SEARCH, PRESETS, FILTERS)   */}
       {/* ================================================================= */}
       <aside className="pointer-events-none fixed top-20 bottom-4 left-4 z-20 flex items-start gap-2.5">
         {isSidebarOpen ? (
@@ -599,7 +832,7 @@ export function MapWorkspace({
             cornerMarks
             className="pointer-events-auto flex max-h-full w-[316px] flex-col sm:w-[344px]"
           >
-            {/* Sidebar Header Banner + Active Map Progress */}
+            {/* Sidebar Header Banner + Active Scope Progress */}
             <div className="relative">
               <GameCoverArt
                 title={manifest.title}
@@ -623,20 +856,23 @@ export function MapWorkspace({
                 <div className="flex items-center justify-between gap-2">
                   <span className="truncate text-xs font-medium text-white/95">
                     {activeLayer?.name}
+                    {selectedDlcFilter !== 'all' && dlcsById[selectedDlcFilter]
+                      ? ` · ${dlcsById[selectedDlcFilter].shortLabel ?? dlcsById[selectedDlcFilter].name}`
+                      : ''}
                   </span>
                   <GlassBadge variant="accent" badgeStyle={badgeStyle} size="sm">
-                    {layerStats.foundInLayer}/{layerMarkers.length} ·{' '}
-                    {layerStats.layerPercent}%
+                    {layerStats.foundInScope}/{dlcScopedMarkers.length} ·{' '}
+                    {layerStats.scopePercent}%
                   </GlassBadge>
                 </div>
                 <div className="mt-1.5 h-1.5 w-full overflow-hidden rounded-full bg-white/15">
                   <div
                     className="h-full rounded-full transition-all duration-500"
                     style={{
-                      width: `${layerStats.layerPercent}%`,
+                      width: `${layerStats.scopePercent}%`,
                       backgroundColor: 'var(--accent-primary)',
                       boxShadow:
-                        layerStats.layerPercent > 0
+                        layerStats.scopePercent > 0
                           ? '0 0 10px var(--accent-glow)'
                           : 'none',
                     }}
@@ -647,6 +883,44 @@ export function MapWorkspace({
 
             {/* Sidebar Body */}
             <div className="flex flex-1 flex-col gap-3 overflow-y-auto p-3.5">
+              {/* DLC Filter Strip (separates Base Game vs DLCs) */}
+              {availableLayerDlcs.length > 1 && (
+                <div className="space-y-1.5">
+                  <div className="font-mono text-[10px] uppercase tracking-wider text-[var(--text-muted)]">
+                    Conteúdo / DLC
+                  </div>
+                  <div className="flex flex-wrap gap-1.5">
+                    <NeonButton
+                      size="sm"
+                      variant="glass"
+                      active={selectedDlcFilter === 'all'}
+                      onClick={() => setSelectedDlcFilter('all')}
+                    >
+                      Todos ({layerMarkers.length})
+                    </NeonButton>
+                    {availableLayerDlcs.map((dlc) => {
+                      const count = layerMarkers.filter(
+                        (m) => (m.dlc ?? 'base') === dlc.id
+                      ).length;
+                      return (
+                        <NeonButton
+                          key={dlc.id}
+                          size="sm"
+                          variant="glass"
+                          active={selectedDlcFilter === dlc.id}
+                          onClick={() => setSelectedDlcFilter(dlc.id)}
+                        >
+                          <span>{dlc.shortLabel ?? dlc.name}</span>
+                          <span className="ml-1 font-mono text-[10px] opacity-70">
+                            {count}
+                          </span>
+                        </NeonButton>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+
               {/* Instant Pin Search */}
               <GlassInput
                 inputRef={searchInputRef}
@@ -724,7 +998,7 @@ export function MapWorkspace({
                 </div>
               )}
 
-              {/* Quick Presets (data-driven from manifest.presets) */}
+              {/* Quick Presets */}
               {manifest.presets && manifest.presets.length > 0 && (
                 <div className="space-y-1.5">
                   <div className="font-mono text-[10px] uppercase tracking-wider text-[var(--text-muted)]">
@@ -950,12 +1224,12 @@ export function MapWorkspace({
       </aside>
 
       {/* ================================================================= */}
-      {/* FLOATING RIGHT PANEL: RICH MARKER CARD OR PERSONAL NOTE EDITOR    */}
+      {/* FLOATING RIGHT PANEL: MARKER CARD, NOTE EDITOR OR GUIDED MODE     */}
       {/* ================================================================= */}
-      {(selectedMarker || selectedNote || draftNoteCoords) && (
+      {showRightPanel && (
         <div className="pointer-events-none fixed top-20 right-4 z-30">
           <div className="pointer-events-auto">
-            {selectedMarker && (
+            {selectedMarker ? (
               <MarkerDetailCard
                 marker={selectedMarker}
                 category={categoriesById[selectedMarker.category]}
@@ -974,9 +1248,7 @@ export function MapWorkspace({
                 }
                 onClose={() => setSelectedMarker(null)}
               />
-            )}
-
-            {(selectedNote || draftNoteCoords) && (
+            ) : selectedNote || draftNoteCoords ? (
               <NoteEditorCard
                 key={selectedNote?.id ?? `draft-${draftNoteCoords?.join(',')}`}
                 note={selectedNote ?? undefined}
@@ -988,7 +1260,60 @@ export function MapWorkspace({
                   setDraftNoteCoords(null);
                 }}
               />
-            )}
+            ) : isGuideOpen ? (
+              <GuidedRoutePanel
+                routeResult={generatedRoute}
+                activeStepIndex={activeGuideStepIndex}
+                foundMarkerIds={foundMarkerIds}
+                categoriesById={categoriesById}
+                scope={guideScope}
+                onChangeScope={(nextScope) => {
+                  setGuideScope(nextScope);
+                  runRouteGenerator({ scope: nextScope });
+                }}
+                focus={guideFocus}
+                onChangeFocus={(nextFocus) => {
+                  setGuideFocus(nextFocus);
+                  runRouteGenerator({ focus: nextFocus });
+                }}
+                startMode={guideStartMode}
+                onChangeStartMode={(nextMode) => {
+                  setGuideStartMode(nextMode);
+                  setInteractionMode('explore');
+                  runRouteGenerator({ startMode: nextMode });
+                }}
+                isPickingStartOnMap={interactionMode === 'pick-guide-start'}
+                onPickStartOnMap={() => {
+                  setInteractionMode(
+                    interactionMode === 'pick-guide-start'
+                      ? 'explore'
+                      : 'pick-guide-start'
+                  );
+                }}
+                hasLivePlayer={Boolean(telemetry.player)}
+                respectVisibleCategories={guideRespectFilters}
+                onToggleRespectVisibleCategories={() => {
+                  const next = !guideRespectFilters;
+                  setGuideRespectFilters(next);
+                  runRouteGenerator({ respectVisibleCategories: next });
+                }}
+                onGenerateRoute={() => runRouteGenerator()}
+                onSelectStep={handleSelectGuideStep}
+                onPreviousStep={() =>
+                  handleSelectGuideStep(activeGuideStepIndex - 1)
+                }
+                onCompleteAndNext={() => void handleCompleteAndNextGuideStep()}
+                onFocusCurrentStep={() =>
+                  handleSelectGuideStep(activeGuideStepIndex)
+                }
+                onClose={() => {
+                  setIsGuideOpen(false);
+                  if (interactionMode === 'pick-guide-start') {
+                    setInteractionMode('explore');
+                  }
+                }}
+              />
+            ) : null}
           </div>
         </div>
       )}
@@ -1017,63 +1342,67 @@ export function MapWorkspace({
       />
 
       {/* ================================================================= */}
-      {/* BOTTOM-RIGHT TACTICAL HUD: ZOOM CONTROLS + REAL-TIME COORDS [X,Y] */}
+      {/* BOTTOM-RIGHT TACTICAL HUD: LIVE TELEMETRY + ZOOM + COORDS [X,Y]   */}
       {/* ================================================================= */}
       <div className="pointer-events-none fixed right-4 bottom-4 z-20 flex flex-col items-end gap-2.5">
-        <GlassPanel variant="elevated" padding="none" className="pointer-events-auto">
-          <div className="flex flex-col divide-y divide-white/[0.07]">
-            <button
-              type="button"
-              onClick={() => mapHandleRef.current?.zoomIn()}
-              aria-label="Aproximar zoom"
-              className="neon-focus-ring flex h-9 w-9 cursor-pointer items-center justify-center text-[var(--text-secondary)] transition-colors hover:bg-white/[0.05] hover:text-[var(--accent-primary)]"
-            >
-              <Plus className="h-4 w-4" />
-            </button>
-            <button
-              type="button"
-              onClick={() => mapHandleRef.current?.zoomOut()}
-              aria-label="Afastar zoom"
-              className="neon-focus-ring flex h-9 w-9 cursor-pointer items-center justify-center text-[var(--text-secondary)] transition-colors hover:bg-white/[0.05] hover:text-[var(--accent-primary)]"
-            >
-              <Minus className="h-4 w-4" />
-            </button>
-            <button
-              type="button"
-              onClick={() => mapHandleRef.current?.resetView()}
-              aria-label="Resetar visão"
-              title="Resetar visão"
-              className="neon-focus-ring flex h-9 w-9 cursor-pointer items-center justify-center text-[var(--text-secondary)] transition-colors hover:bg-white/[0.05] hover:text-[var(--accent-primary)]"
-            >
-              <RotateCcw className="h-3.5 w-3.5" />
-            </button>
-          </div>
-        </GlassPanel>
+        <LiveTelemetryWidget telemetry={telemetry} />
 
-        <GlassPanel variant="elevated" padding="none" className="pointer-events-auto">
-          <div className="flex items-center gap-3 px-3 py-1.5 font-mono text-[11px] text-[var(--text-secondary)]">
-            <span>
-              X:{' '}
-              <strong className="font-semibold text-[var(--text-primary)]">
-                {cursorCoords.x.toFixed(1)}
-              </strong>
-            </span>
-            <span className="text-white/20">|</span>
-            <span>
-              Y:{' '}
-              <strong className="font-semibold text-[var(--text-primary)]">
-                {cursorCoords.y.toFixed(1)}
-              </strong>
-            </span>
-            <span className="text-white/20">|</span>
-            <span>
-              Z:{' '}
-              <strong className="font-semibold text-[var(--accent-primary)]">
-                {zoomLevel.toFixed(2)}
-              </strong>
-            </span>
-          </div>
-        </GlassPanel>
+        <div className="flex items-end gap-2.5">
+          <GlassPanel variant="elevated" padding="none" className="pointer-events-auto">
+            <div className="flex items-center gap-3 px-3 py-1.5 font-mono text-[11px] text-[var(--text-secondary)]">
+              <span>
+                X:{' '}
+                <strong className="font-semibold text-[var(--text-primary)]">
+                  {cursorCoords.x.toFixed(1)}
+                </strong>
+              </span>
+              <span className="text-white/20">|</span>
+              <span>
+                Y:{' '}
+                <strong className="font-semibold text-[var(--text-primary)]">
+                  {cursorCoords.y.toFixed(1)}
+                </strong>
+              </span>
+              <span className="text-white/20">|</span>
+              <span>
+                Z:{' '}
+                <strong className="font-semibold text-[var(--accent-primary)]">
+                  {zoomLevel.toFixed(2)}
+                </strong>
+              </span>
+            </div>
+          </GlassPanel>
+
+          <GlassPanel variant="elevated" padding="none" className="pointer-events-auto">
+            <div className="flex flex-col divide-y divide-white/[0.07]">
+              <button
+                type="button"
+                onClick={() => mapHandleRef.current?.zoomIn()}
+                aria-label="Aproximar zoom"
+                className="neon-focus-ring flex h-9 w-9 cursor-pointer items-center justify-center text-[var(--text-secondary)] transition-colors hover:bg-white/[0.05] hover:text-[var(--accent-primary)]"
+              >
+                <Plus className="h-4 w-4" />
+              </button>
+              <button
+                type="button"
+                onClick={() => mapHandleRef.current?.zoomOut()}
+                aria-label="Afastar zoom"
+                className="neon-focus-ring flex h-9 w-9 cursor-pointer items-center justify-center text-[var(--text-secondary)] transition-colors hover:bg-white/[0.05] hover:text-[var(--accent-primary)]"
+              >
+                <Minus className="h-4 w-4" />
+              </button>
+              <button
+                type="button"
+                onClick={() => mapHandleRef.current?.resetView()}
+                aria-label="Resetar visão"
+                title="Resetar visão"
+                className="neon-focus-ring flex h-9 w-9 cursor-pointer items-center justify-center text-[var(--text-secondary)] transition-colors hover:bg-white/[0.05] hover:text-[var(--accent-primary)]"
+              >
+                <RotateCcw className="h-3.5 w-3.5" />
+              </button>
+            </div>
+          </GlassPanel>
+        </div>
       </div>
     </div>
   );

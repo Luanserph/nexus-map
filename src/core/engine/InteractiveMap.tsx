@@ -6,6 +6,7 @@ import type {
   CustomRouteRecord,
   GameMapLayer,
   GameTheme,
+  LivePlayerTelemetry,
   MapInteractionMode,
   MapMarker,
   UserNoteRecord,
@@ -14,9 +15,20 @@ import { createTacticalTileLayer } from './createFallbackTileLayer';
 import {
   createCategoryPinIcon,
   createClusterPinIcon,
+  createGuidedStepIcon,
+  createLivePlayerIcon,
   createPersonalNoteIcon,
   createRouteVertexIcon,
 } from './markerIcons';
+
+export interface ActiveGuidedRouteOverlay {
+  color: string;
+  activeStepIndex: number;
+  steps: Array<{
+    stepNumber: number;
+    marker: MapMarker;
+  }>;
+}
 
 export interface InteractiveMapHandle {
   zoomIn: () => void;
@@ -35,6 +47,10 @@ export interface InteractiveMapProps {
   selectedMarkerId?: string | null;
   onSelectMarker: (marker: MapMarker) => void;
   clusteringEnabled?: boolean;
+  guidedRoute?: ActiveGuidedRouteOverlay | null;
+  onSelectGuidedStep?: (stepIndex: number) => void;
+  livePlayer?: LivePlayerTelemetry | null;
+  followLivePlayer?: boolean;
   userNotes: UserNoteRecord[];
   selectedNoteId?: string | null;
   onSelectNote: (note: UserNoteRecord) => void;
@@ -69,6 +85,10 @@ export function InteractiveMap({
   selectedMarkerId,
   onSelectMarker,
   clusteringEnabled = true,
+  guidedRoute = null,
+  onSelectGuidedStep,
+  livePlayer = null,
+  followLivePlayer = false,
   userNotes,
   selectedNoteId,
   onSelectNote,
@@ -88,12 +108,15 @@ export function InteractiveMap({
   const markersLayerRef = useRef<L.LayerGroup | null>(null);
   const notesLayerRef = useRef<L.LayerGroup | null>(null);
   const routesLayerRef = useRef<L.LayerGroup | null>(null);
+  const guidedLayerRef = useRef<L.LayerGroup | null>(null);
+  const playerMarkerRef = useRef<L.Marker | null>(null);
 
   const onCursorMoveRef = useRef(onCursorMove);
   const onZoomChangeRef = useRef(onZoomChange);
   const onMapClickRef = useRef(onMapClick);
   const onSelectMarkerRef = useRef(onSelectMarker);
   const onSelectNoteRef = useRef(onSelectNote);
+  const onSelectGuidedStepRef = useRef(onSelectGuidedStep);
   const interactionModeRef = useRef(interactionMode);
 
   useEffect(() => {
@@ -102,6 +125,7 @@ export function InteractiveMap({
     onMapClickRef.current = onMapClick;
     onSelectMarkerRef.current = onSelectMarker;
     onSelectNoteRef.current = onSelectNote;
+    onSelectGuidedStepRef.current = onSelectGuidedStep;
     interactionModeRef.current = interactionMode;
   }, [
     onCursorMove,
@@ -109,6 +133,7 @@ export function InteractiveMap({
     onMapClick,
     onSelectMarker,
     onSelectNote,
+    onSelectGuidedStep,
     interactionMode,
   ]);
 
@@ -311,6 +336,7 @@ export function InteractiveMap({
     });
 
     const routesGroup = L.layerGroup().addTo(map);
+    const guidedGroup = L.layerGroup().addTo(map);
     const markerGroup = L.layerGroup().addTo(map);
     const notesGroup = L.layerGroup().addTo(map);
 
@@ -342,6 +368,7 @@ export function InteractiveMap({
 
     leafletMapRef.current = map;
     routesLayerRef.current = routesGroup;
+    guidedLayerRef.current = guidedGroup;
     markersLayerRef.current = markerGroup;
     notesLayerRef.current = notesGroup;
     onZoomChangeRef.current?.(map.getZoom());
@@ -353,6 +380,8 @@ export function InteractiveMap({
       markersLayerRef.current = null;
       notesLayerRef.current = null;
       routesLayerRef.current = null;
+      guidedLayerRef.current = null;
+      playerMarkerRef.current = null;
     };
     // Mount-only initialization; dynamic layer/bounds updates happen below.
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -508,7 +537,141 @@ export function InteractiveMap({
     }
   }, [routes, hiddenRouteIds, draftRoutePoints, draftRouteColor]);
 
-  // 6. Expose imperative controls to MapWorkspace HUD
+  // 6. Render Dynamic Guided 100% Route:
+  //    - Subtle full path polyline (zero visual clutter even with 400+ steps)
+  //    - High-glow highlighted segment for the next 5 steps + numbered beacons
+  useEffect(() => {
+    const group = guidedLayerRef.current;
+    if (!group) return;
+
+    group.clearLayers();
+    if (!guidedRoute || guidedRoute.steps.length === 0) return;
+
+    const allLatLngs = guidedRoute.steps.map(({ marker }) =>
+      L.latLng(marker.coords[1], marker.coords[0])
+    );
+
+    // Subtle full-route line across the entire 100% path
+    if (allLatLngs.length >= 2) {
+      L.polyline(allLatLngs, {
+        color: guidedRoute.color,
+        weight: 2,
+        opacity: 0.2,
+        dashArray: '4 8',
+        lineCap: 'round',
+        lineJoin: 'round',
+        interactive: false,
+      }).addTo(group);
+    }
+
+    // Highlighted window: current step + next 5 steps
+    const startIdx = Math.max(
+      0,
+      Math.min(guidedRoute.activeStepIndex, guidedRoute.steps.length - 1)
+    );
+    const windowEnd = Math.min(guidedRoute.steps.length, startIdx + 6);
+    const windowSteps = guidedRoute.steps.slice(startIdx, windowEnd);
+    const windowLatLngs = windowSteps.map(({ marker }) =>
+      L.latLng(marker.coords[1], marker.coords[0])
+    );
+
+    if (windowLatLngs.length >= 2) {
+      // High-glow ambient outer stroke
+      L.polyline(windowLatLngs, {
+        color: guidedRoute.color,
+        weight: 10,
+        opacity: 0.28,
+        lineCap: 'round',
+        lineJoin: 'round',
+        interactive: false,
+      }).addTo(group);
+
+      // Crisp bright core line for the next 5 steps
+      L.polyline(windowLatLngs, {
+        color: guidedRoute.color,
+        weight: 3.5,
+        opacity: 0.98,
+        lineCap: 'round',
+        lineJoin: 'round',
+        interactive: false,
+      }).addTo(group);
+    }
+
+    // Render numbered beacons only for the active window (current + next 5)
+    windowSteps.forEach((step, offset) => {
+      const absoluteIdx = startIdx + offset;
+      const isActive = offset === 0;
+      const isDone = foundMarkerIds.has(step.marker.id);
+
+      const stepMarker = L.marker(
+        L.latLng(step.marker.coords[1], step.marker.coords[0]),
+        {
+          icon: createGuidedStepIcon(
+            step.stepNumber,
+            isActive,
+            isDone,
+            guidedRoute.color
+          ),
+          zIndexOffset: isActive ? 950 : 500 - offset * 10,
+        }
+      );
+
+      stepMarker.bindTooltip(
+        `<span class="nexus-tooltip-title">Passo ${step.stepNumber}: ${escapeHtml(step.marker.title)}</span>`,
+        {
+          direction: 'top',
+          offset: L.point(0, -16),
+          className: 'nexus-leaflet-tooltip',
+          opacity: 1,
+        }
+      );
+
+      stepMarker.on('click', (event) => {
+        L.DomEvent.stopPropagation(event);
+        onSelectGuidedStepRef.current?.(absoluteIdx);
+      });
+
+      stepMarker.addTo(group);
+    });
+  }, [guidedRoute, foundMarkerIds]);
+
+  // 7. Render Live Telemetry Player directional arrow (60 FPS smooth update)
+  useEffect(() => {
+    const map = leafletMapRef.current;
+    if (!map) return;
+
+    if (!livePlayer) {
+      if (playerMarkerRef.current) {
+        map.removeLayer(playerMarkerRef.current);
+        playerMarkerRef.current = null;
+      }
+      return;
+    }
+
+    const nextLatLng = L.latLng(livePlayer.y, livePlayer.x);
+
+    if (!playerMarkerRef.current) {
+      const marker = L.marker(nextLatLng, {
+        icon: createLivePlayerIcon(livePlayer.heading),
+        zIndexOffset: 1200,
+        interactive: false,
+      }).addTo(map);
+      playerMarkerRef.current = marker;
+    } else {
+      playerMarkerRef.current.setLatLng(nextLatLng);
+      const el = playerMarkerRef.current.getElement();
+      const rotator = el?.querySelector<HTMLElement>('.nexus-player-rotator');
+      if (rotator) {
+        rotator.style.transform = `rotate(${livePlayer.heading}deg)`;
+      }
+    }
+
+    if (followLivePlayer) {
+      map.panTo(nextLatLng, { animate: true, duration: 0.25, noMoveStart: true });
+    }
+  }, [livePlayer, followLivePlayer]);
+
+  // 8. Expose imperative controls to MapWorkspace HUD
   useImperativeHandle(
     mapRef,
     () => ({

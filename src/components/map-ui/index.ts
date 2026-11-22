@@ -1,3 +1,7 @@
+export { GuidedRoutePanel } from './GuidedRoutePanel';
+export type { GuidedRoutePanelProps } from './GuidedRoutePanel';
+export { LiveTelemetryWidget } from './LiveTelemetryWidget';
+export type { LiveTelemetryWidgetProps } from './LiveTelemetryWidget';
 export { MapToolbar } from './MapToolbar';
 export type { MapToolbarProps } from './MapToolbar';
 export { MapWorkspace } from './MapWorkspace';
