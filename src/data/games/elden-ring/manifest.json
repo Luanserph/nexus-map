@@ -5,7 +5,11 @@
   "subtitle": "Terras Intermédias & Reino das Sombras",
   "studio": "FromSoftware",
   "releaseYear": 2022,
-  "genres": ["Action RPG", "Soulslike", "Mundo Aberto"],
+  "genres": [
+    "Action RPG",
+    "Soulslike",
+    "Mundo Aberto"
+  ],
   "status": "available",
   "dlc": "base",
   "dlcs": [
@@ -22,7 +26,11 @@
       "accentColor": "#F59E0B"
     }
   ],
-  "assets": {},
+  "assets": {
+    "coverImage": "/games/elden-ring/cover.webp",
+    "bannerImage": "/games/elden-ring/banner.webp",
+    "logoImage": "/games/elden-ring/logo.webp"
+  },
   "theme": {
     "accentPrimary": "#D4AF37",
     "accentSecondary": "#48D1CC",
@@ -35,100 +43,255 @@
   },
   "maps": [
     {
-      "id": "surface",
+      "id": "lands-between",
       "name": "Terras Intermédias",
-      "pinsCount": 1940,
+      "pinsCount": 1300,
+      "dlc": "base",
       "icon": "compass",
-      "tileUrlTemplate": "/tiles/elden-ring/surface/{z}/{x}/{y}.webp",
-      "minZoom": -1,
+      "tileUrlTemplate": "/tiles/elden-ring/lands-between/{z}/{x}/{y}.webp",
+      "minZoom": 1,
       "maxZoom": 4,
-      "bounds": [0, 0, 1024, 1024],
-      "defaultCenter": [512, 512],
-      "defaultZoom": 0
+      "bounds": [
+        0,
+        -164,
+        164,
+        0
+      ],
+      "defaultCenter": [
+        82,
+        -82
+      ],
+      "defaultZoom": 2
     },
     {
       "id": "underground",
-      "name": "Subterrâneo (Siofra & Ainsel)",
-      "pinsCount": 520,
+      "name": "Subterrâneo",
+      "pinsCount": 108,
+      "dlc": "base",
       "icon": "layers",
       "tileUrlTemplate": "/tiles/elden-ring/underground/{z}/{x}/{y}.webp",
-      "minZoom": -1,
+      "minZoom": 1,
       "maxZoom": 4,
-      "bounds": [0, 0, 1024, 1024],
-      "defaultCenter": [512, 512],
-      "defaultZoom": 0
+      "bounds": [
+        0,
+        -164,
+        164,
+        0
+      ],
+      "defaultCenter": [
+        82,
+        -82
+      ],
+      "defaultZoom": 2
     },
     {
-      "id": "shadow-realm",
+      "id": "shadow-of-the-erdtree",
       "name": "Reino das Sombras",
-      "pinsCount": 960,
+      "pinsCount": 400,
       "dlc": "shadow-of-the-erdtree",
       "icon": "flame",
-      "tileUrlTemplate": "/tiles/elden-ring/shadow-realm/{z}/{x}/{y}.webp",
-      "minZoom": -1,
+      "tileUrlTemplate": "/tiles/elden-ring/shadow-of-the-erdtree/{z}/{x}/{y}.webp",
+      "minZoom": 1,
       "maxZoom": 4,
-      "bounds": [0, 0, 1024, 1024],
-      "defaultCenter": [512, 512],
-      "defaultZoom": 0
+      "bounds": [
+        0,
+        -164,
+        164,
+        0
+      ],
+      "defaultCenter": [
+        82,
+        -82
+      ],
+      "defaultZoom": 2
     }
   ],
   "categoryGroups": [
     {
-      "id": "locations",
-      "label": "Locais",
+      "id": "progress",
+      "label": "Progresso & Chefes",
       "categories": [
         {
-          "id": "site-of-grace",
-          "groupId": "locations",
+          "id": "grace",
+          "groupId": "progress",
           "name": "Local de Graça",
           "icon": "sparkles",
           "color": "#D4AF37",
           "defaultVisible": true
         },
         {
-          "id": "dungeon",
-          "groupId": "locations",
-          "name": "Catacumbas & Masmorras",
-          "icon": "landmark",
-          "color": "#B89B5E",
-          "defaultVisible": true
-        }
-      ]
-    },
-    {
-      "id": "bosses",
-      "label": "Chefes",
-      "categories": [
-        {
-          "id": "demigod-boss",
-          "groupId": "bosses",
-          "name": "Semideuses & Chefes Principais",
+          "id": "boss",
+          "groupId": "progress",
+          "name": "Chefes",
           "icon": "skull",
           "color": "#E05A47",
           "defaultVisible": true
         },
         {
-          "id": "field-boss",
-          "groupId": "bosses",
-          "name": "Chefes de Campo",
-          "icon": "swords",
-          "color": "#F59E0B",
+          "id": "npc",
+          "groupId": "progress",
+          "name": "NPCs de Missão",
+          "icon": "compass",
+          "color": "#C084FC",
           "defaultVisible": true
         }
       ]
     },
     {
-      "id": "collectibles",
-      "label": "Colecionáveis",
+      "id": "upgrades",
+      "label": "Melhorias de Frasco",
       "categories": [
         {
-          "id": "golden-seed",
-          "groupId": "collectibles",
+          "id": "golden",
+          "groupId": "upgrades",
           "name": "Semente Dourada",
           "icon": "sprout",
-          "color": "#48D1CC",
+          "color": "#FACC15",
           "defaultVisible": true
+        },
+        {
+          "id": "tear",
+          "groupId": "upgrades",
+          "name": "Lágrima Sagrada",
+          "icon": "flask-conical",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "crystal",
+          "groupId": "upgrades",
+          "name": "Lágrima de Cristal",
+          "icon": "gem",
+          "color": "#E879F9",
+          "defaultVisible": false
         }
+      ]
+    },
+    {
+      "id": "gear",
+      "label": "Equipamentos & Magias",
+      "categories": [
+        {
+          "id": "weapon",
+          "groupId": "gear",
+          "name": "Armas",
+          "icon": "swords",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "talisman",
+          "groupId": "gear",
+          "name": "Talismãs",
+          "icon": "crown",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "spirit",
+          "groupId": "gear",
+          "name": "Cinzas de Espírito",
+          "icon": "flame",
+          "color": "#48D1CC",
+          "defaultVisible": false
+        },
+        {
+          "id": "ash",
+          "groupId": "gear",
+          "name": "Cinzas de Guerra",
+          "icon": "scroll-text",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "spell",
+          "groupId": "gear",
+          "name": "Feitiços & Encantamentos",
+          "icon": "sparkles",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "armor",
+          "groupId": "gear",
+          "name": "Armaduras",
+          "icon": "shield",
+          "color": "#94A3B8",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "key-items",
+      "label": "Itens Chave",
+      "categories": [
+        {
+          "id": "greatrune",
+          "groupId": "key-items",
+          "name": "Grandes Runas",
+          "icon": "crown",
+          "color": "#FDE047",
+          "defaultVisible": true
+        },
+        {
+          "id": "larval",
+          "groupId": "key-items",
+          "name": "Lágrimas Larvais",
+          "icon": "gem",
+          "color": "#D8B4FE",
+          "defaultVisible": false
+        },
+        {
+          "id": "memory",
+          "groupId": "key-items",
+          "name": "Pedras da Memória",
+          "icon": "bookmark",
+          "color": "#93C5FD",
+          "defaultVisible": false
+        },
+        {
+          "id": "whetblade",
+          "groupId": "key-items",
+          "name": "Lâminas de Amolar",
+          "icon": "hammer",
+          "color": "#CBD5E1",
+          "defaultVisible": false
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "id": "essentials",
+      "label": "Essenciais",
+      "description": "Locais de Graça, Chefes, NPCs de Missão e Grandes Runas",
+      "categoryIds": [
+        "grace",
+        "boss",
+        "npc",
+        "greatrune"
+      ]
+    },
+    {
+      "id": "completionist",
+      "label": "Exploração 100%",
+      "description": "Exibe todos os marcadores datamined do mapa ativo",
+      "categoryIds": [
+        "*"
+      ]
+    },
+    {
+      "id": "upgrades-gear",
+      "label": "Melhorias & Equipamentos",
+      "description": "Sementes Douradas, Lágrimas Sagradas, Talismãs, Armas e Cinzas",
+      "categoryIds": [
+        "golden",
+        "tear",
+        "crystal",
+        "talisman",
+        "weapon",
+        "spirit",
+        "ash"
       ]
     }
   ]

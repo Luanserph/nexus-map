@@ -68,6 +68,90 @@
       "defaultZoom": 2
     },
     {
+      "id": "white-orchard",
+      "name": "Pomar Branco",
+      "pinsCount": 57,
+      "dlc": "base",
+      "icon": "compass",
+      "tileUrlTemplate": "/tiles/the-witcher-3-wild-hunt/white-orchard/{z}/{x}/{y}.webp",
+      "minZoom": 1,
+      "maxZoom": 4,
+      "bounds": [
+        0,
+        -128,
+        160,
+        0
+      ],
+      "defaultCenter": [
+        80,
+        -64
+      ],
+      "defaultZoom": 2
+    },
+    {
+      "id": "skellige",
+      "name": "Ilhas Skellige",
+      "pinsCount": 367,
+      "dlc": "base",
+      "icon": "compass",
+      "tileUrlTemplate": "/tiles/the-witcher-3-wild-hunt/skellige/{z}/{x}/{y}.webp",
+      "minZoom": 1,
+      "maxZoom": 3,
+      "bounds": [
+        0,
+        -256,
+        256,
+        0
+      ],
+      "defaultCenter": [
+        128,
+        -128
+      ],
+      "defaultZoom": 2
+    },
+    {
+      "id": "kaer-morhen",
+      "name": "Kaer Morhen",
+      "pinsCount": 30,
+      "dlc": "base",
+      "icon": "compass",
+      "tileUrlTemplate": "/tiles/the-witcher-3-wild-hunt/kaer-morhen/{z}/{x}/{y}.webp",
+      "minZoom": 1,
+      "maxZoom": 4,
+      "bounds": [
+        0,
+        -160,
+        128,
+        0
+      ],
+      "defaultCenter": [
+        64,
+        -80
+      ],
+      "defaultZoom": 2
+    },
+    {
+      "id": "toussaint",
+      "name": "Toussaint",
+      "pinsCount": 296,
+      "dlc": "blood-and-wine",
+      "icon": "crown",
+      "tileUrlTemplate": "/tiles/the-witcher-3-wild-hunt/toussaint/{z}/{x}/{y}.webp",
+      "minZoom": 1,
+      "maxZoom": 4,
+      "bounds": [
+        0,
+        -144,
+        144,
+        0
+      ],
+      "defaultCenter": [
+        72,
+        -72
+      ],
+      "defaultZoom": 2
+    },
+    {
       "id": "fyke-tower-interior",
       "name": "Torre da Ilha Fyke (Interior)",
       "pinsCount": 2,
