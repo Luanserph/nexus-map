@@ -15,9 +15,10 @@
   /* Core Dynamic Tokens (Theme Engine Contract) */
   --surface-base: #07090d;
   --surface-elevated: #0d1118;
-  --glass-bg: rgba(13, 17, 24, 0.72);
-  --glass-bg-elevated: rgba(17, 22, 31, 0.84);
-  --glass-bg-subtle: rgba(13, 17, 24, 0.48);
+  --glass-tint: rgba(13, 17, 24, 0.72);
+  --glass-bg: var(--glass-tint);
+  --glass-bg-elevated: color-mix(in srgb, var(--glass-tint) 92%, rgba(255, 255, 255, 0.06));
+  --glass-bg-subtle: color-mix(in srgb, var(--glass-tint) 68%, transparent);
   --glass-border: rgba(255, 255, 255, 0.09);
   --glass-border-strong: rgba(255, 255, 255, 0.16);
   --glass-rim-top: rgba(255, 255, 255, 0.14);
@@ -52,6 +53,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+    transition: background-color 320ms ease, color 220ms ease;
   }
 
   #root {

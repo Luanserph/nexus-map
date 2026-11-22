@@ -1,27 +1,28 @@
 {
+  "id": "game-hollow-knight",
   "slug": "hollow-knight",
   "title": "Hollow Knight",
   "subtitle": "Reino Caído de Hallownest",
-  "developer": "Team Cherry",
+  "studio": "Team Cherry",
   "releaseYear": 2017,
-  "genre": ["Metroidvania", "Indie", "Ação"],
-  "totalMarkersCount": 740,
+  "genres": ["Metroidvania", "Indie", "Ação"],
+  "status": "available",
+  "assets": {},
   "theme": {
-    "id": "hollow-knight",
     "accentPrimary": "#7CC6FE",
     "accentSecondary": "#E8EEF5",
     "accentGlow": "rgba(124, 198, 254, 0.34)",
+    "glassTint": "rgba(10, 15, 24, 0.80)",
     "surfaceBase": "#06090F",
-    "glassBg": "rgba(10, 15, 24, 0.80)",
-    "glassBorder": "rgba(124, 198, 254, 0.24)",
     "fontDisplay": "'Space Grotesk', sans-serif",
-    "badgeStyle": "minimal",
-    "coverMotif": "abyssal-contours"
+    "backgroundPattern": "abyssal-contours",
+    "badgeStyle": "minimal"
   },
-  "layers": [
+  "maps": [
     {
       "id": "hallownest",
       "name": "Hallownest",
+      "pinsCount": 610,
       "icon": "map",
       "tileUrlTemplate": "/tiles/hollow-knight/hallownest/{z}/{x}/{y}.webp",
       "minZoom": 0,
@@ -33,6 +34,7 @@
     {
       "id": "godhome",
       "name": "Lar dos Deuses",
+      "pinsCount": 130,
       "icon": "crown",
       "tileUrlTemplate": "/tiles/hollow-knight/godhome/{z}/{x}/{y}.webp",
       "minZoom": 0,
@@ -75,6 +77,14 @@
           "name": "Larva",
           "icon": "gem",
           "color": "#6EE7B7",
+          "defaultVisible": true
+        },
+        {
+          "id": "charm",
+          "groupId": "collectibles",
+          "name": "Amuleto",
+          "icon": "sparkles",
+          "color": "#93C5FD",
           "defaultVisible": true
         }
       ]

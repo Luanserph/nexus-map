@@ -1,27 +1,28 @@
 {
+  "id": "game-cyberpunk-2077",
   "slug": "cyberpunk-2077",
   "title": "Cyberpunk 2077",
   "subtitle": "Night City & Dogtown",
-  "developer": "CD PROJEKT RED",
+  "studio": "CD PROJEKT RED",
   "releaseYear": 2020,
-  "genre": ["Action RPG", "Sci-Fi", "Mundo Aberto"],
-  "totalMarkersCount": 1860,
+  "genres": ["Action RPG", "Sci-Fi", "Mundo Aberto"],
+  "status": "available",
+  "assets": {},
   "theme": {
-    "id": "cyberpunk-2077",
     "accentPrimary": "#FCEE0A",
     "accentSecondary": "#FF003C",
     "accentGlow": "rgba(252, 238, 10, 0.32)",
+    "glassTint": "rgba(16, 11, 18, 0.80)",
     "surfaceBase": "#09060A",
-    "glassBg": "rgba(16, 11, 18, 0.80)",
-    "glassBorder": "rgba(252, 238, 10, 0.24)",
     "fontDisplay": "'Rajdhani', sans-serif",
-    "badgeStyle": "chamfered",
-    "coverMotif": "cyber-grid"
+    "backgroundPattern": "cyber-grid",
+    "badgeStyle": "chamfered"
   },
-  "layers": [
+  "maps": [
     {
       "id": "night-city",
       "name": "Night City",
+      "pinsCount": 1420,
       "icon": "cpu",
       "tileUrlTemplate": "/tiles/cyberpunk-2077/night-city/{z}/{x}/{y}.webp",
       "minZoom": 0,
@@ -33,6 +34,7 @@
     {
       "id": "dogtown",
       "name": "Dogtown (Phantom Liberty)",
+      "pinsCount": 440,
       "icon": "shield-alert",
       "tileUrlTemplate": "/tiles/cyberpunk-2077/dogtown/{z}/{x}/{y}.webp",
       "minZoom": 0,
@@ -75,6 +77,14 @@
           "name": "Grafite de Tarô",
           "icon": "sparkles",
           "color": "#FF003C",
+          "defaultVisible": true
+        },
+        {
+          "id": "cyberpsycho",
+          "groupId": "contracts",
+          "name": "Ciberpsicopata",
+          "icon": "alert-triangle",
+          "color": "#FB7185",
           "defaultVisible": true
         }
       ]

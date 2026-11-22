@@ -1,14 +1,18 @@
 import { ArrowUpRight, CheckCircle2, Clock, Layers, MapPin } from 'lucide-react';
 import type { CSSProperties } from 'react';
-import { getCompletionPercent, getGameStatus } from '../../data/games/registry';
+import { DEFAULT_FONT_DISPLAY } from '../../core/theme-engine';
+import {
+  getCompletionPercent,
+  getGameStatus,
+  getTotalPinsCount,
+} from '../../data/games';
 import type { HubGameEntry } from '../../types/schema';
 import { GlassBadge, GlassPanel } from '../glass';
 import { GameCoverArt } from './GameCoverArt';
 
 export interface GameCardProps {
   entry: HubGameEntry;
-  isSelected?: boolean;
-  onSelect: (entry: HubGameEntry) => void;
+  onOpenGame: (slug: string, layerId?: string) => void;
 }
 
 const statusConfig = {
@@ -26,30 +30,38 @@ const statusConfig = {
   },
 };
 
-export function GameCard({ entry, isSelected = false, onSelect }: GameCardProps) {
+export function GameCard({ entry, onOpenGame }: GameCardProps) {
   const { manifest, progress } = entry;
   const { theme } = manifest;
+  const totalPins = getTotalPinsCount(manifest);
   const percent = getCompletionPercent(entry);
   const status = getGameStatus(entry);
   const statusMeta = statusConfig[status];
+  const badgeStyle = theme.badgeStyle ?? 'minimal';
 
   /**
-   * Scoped theme variables directly from manifest.json — zero hardcoded game styles.
+   * Scoped theme preview variables from manifest.json — keeps the Hub neutral
+   * while previewing each game's chromatic signature on hover.
    */
   const scopedThemeVars = {
     '--accent-primary': theme.accentPrimary,
     '--accent-secondary': theme.accentSecondary,
     '--accent-glow': theme.accentGlow,
-    '--glass-bg': theme.glassBg,
-    '--nexus-font-display': theme.fontDisplay,
+    '--glass-tint': theme.glassTint,
+    '--glass-bg': theme.glassTint,
+    '--nexus-font-display': theme.fontDisplay ?? DEFAULT_FONT_DISPLAY,
   } as CSSProperties;
+
+  function handleOpen() {
+    onOpenGame(manifest.slug, progress.activeLayerId ?? manifest.maps[0]?.id);
+  }
 
   return (
     <GlassPanel
       padding="none"
-      accentActive={isSelected}
       style={scopedThemeVars}
-      className="group/card nexus-game-card flex h-full flex-col"
+      onClick={handleOpen}
+      className="group/card nexus-game-card flex h-full cursor-pointer flex-col"
     >
       {/* Top 2px identity accent bar */}
       <div
@@ -61,22 +73,19 @@ export function GameCard({ entry, isSelected = false, onSelect }: GameCardProps)
         }}
       />
 
-      {/* Cover Art & Floating Badges */}
+      {/* Cover Art (real coverImage with automatic procedural fallback) & Floating Badges */}
       <div className="relative">
         <GameCoverArt
           title={manifest.title}
+          imageUrl={manifest.assets.coverImage ?? manifest.assets.bannerImage}
           theme={theme}
-          layersCount={manifest.layers.length}
+          layersCount={manifest.maps.length}
           releaseYear={manifest.releaseYear}
         />
 
         {/* Top-left Status Badge */}
         <div className="absolute top-3 left-3 flex items-center gap-2">
-          <GlassBadge
-            variant={statusMeta.variant}
-            badgeStyle={theme.badgeStyle}
-            dot
-          >
+          <GlassBadge variant={statusMeta.variant} badgeStyle={badgeStyle} dot>
             {statusMeta.label}
           </GlassBadge>
         </div>
@@ -105,7 +114,7 @@ export function GameCard({ entry, isSelected = false, onSelect }: GameCardProps)
 
       {/* Card Body */}
       <div className="flex flex-1 flex-col gap-4 p-5">
-        {/* Title & Developer */}
+        {/* Title & Studio */}
         <div>
           <div className="flex items-start justify-between gap-3">
             <h2
@@ -125,13 +134,13 @@ export function GameCard({ entry, isSelected = false, onSelect }: GameCardProps)
             {manifest.subtitle}
           </p>
           <p className="mt-1 font-mono text-[11px] text-[var(--text-muted)]">
-            {manifest.developer}
+            {manifest.studio}
           </p>
         </div>
 
         {/* Genre Chips */}
         <div className="flex flex-wrap gap-1.5">
-          {manifest.genre.map((genre) => (
+          {manifest.genres.map((genre) => (
             <GlassBadge key={genre} variant="muted" size="sm">
               {genre}
             </GlassBadge>
@@ -144,7 +153,7 @@ export function GameCard({ entry, isSelected = false, onSelect }: GameCardProps)
             <Layers className="h-3.5 w-3.5 shrink-0 text-[var(--accent-primary)] opacity-85" />
             <div className="min-w-0">
               <div className="font-mono text-xs font-semibold text-[var(--text-primary)]">
-                {manifest.layers.length}
+                {manifest.maps.length}
               </div>
               <div className="text-[10px] uppercase tracking-wider text-[var(--text-muted)]">
                 Camadas
@@ -156,7 +165,7 @@ export function GameCard({ entry, isSelected = false, onSelect }: GameCardProps)
             <MapPin className="h-3.5 w-3.5 shrink-0 text-[var(--accent-primary)] opacity-85" />
             <div className="min-w-0">
               <div className="font-mono text-xs font-semibold text-[var(--text-primary)]">
-                {manifest.totalMarkersCount.toLocaleString('pt-BR')}
+                {totalPins.toLocaleString('pt-BR')}
               </div>
               <div className="text-[10px] uppercase tracking-wider text-[var(--text-muted)]">
                 Pins totais
@@ -173,7 +182,7 @@ export function GameCard({ entry, isSelected = false, onSelect }: GameCardProps)
               <span className="text-[var(--accent-primary)]">{percent}%</span>
               <span className="ml-1.5 text-[11px] text-[var(--text-muted)]">
                 ({progress.foundMarkersCount.toLocaleString('pt-BR')}/
-                {manifest.totalMarkersCount.toLocaleString('pt-BR')})
+                {totalPins.toLocaleString('pt-BR')})
               </span>
             </span>
           </div>
@@ -206,7 +215,10 @@ export function GameCard({ entry, isSelected = false, onSelect }: GameCardProps)
 
           <button
             type="button"
-            onClick={() => onSelect(entry)}
+            onClick={(event) => {
+              event.stopPropagation();
+              handleOpen();
+            }}
             className="neon-focus-ring inline-flex cursor-pointer items-center gap-1.5 rounded-md border border-white/[0.10] bg-white/[0.04] px-3 py-1.5 text-xs font-medium text-[var(--text-primary)] transition-all duration-200 hover:border-[color-mix(in_srgb,var(--accent-primary)_60%,transparent)] hover:bg-[color-mix(in_srgb,var(--accent-primary)_14%,transparent)] hover:text-white hover:shadow-[0_0_16px_-4px_var(--accent-glow)]"
           >
             <span>{status === 'not-started' ? 'Explorar' : 'Continuar'}</span>

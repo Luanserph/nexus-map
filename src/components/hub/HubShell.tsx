@@ -1,22 +1,24 @@
-import { Compass, Layers, MapPin, RotateCcw, Sparkles, X } from 'lucide-react';
-import { useEffect, useMemo, useState } from 'react';
-import type { CSSProperties } from 'react';
+import { Compass, Layers, MapPin, RotateCcw } from 'lucide-react';
+import { useMemo, useState } from 'react';
 import {
   HUB_GAMES,
   getAllGenres,
-  getCompletionPercent,
   getGameStatus,
-} from '../../data/games/registry';
-import type { ExplorationStatus, HubGameEntry } from '../../types/schema';
+  getTotalPinsCount,
+} from '../../data/games';
+import type { ExplorationStatus } from '../../types/schema';
 import { GlassBadge, GlassPanel, NeonButton } from '../glass';
 import { GameCard } from './GameCard';
 import { HubNavbar } from './HubNavbar';
 
-export function HubShell() {
+export interface HubShellProps {
+  onOpenGame: (slug: string, layerId?: string) => void;
+}
+
+export function HubShell({ onOpenGame }: HubShellProps) {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedGenre, setSelectedGenre] = useState<string>('all');
   const [selectedStatus, setSelectedStatus] = useState<ExplorationStatus>('all');
-  const [selectedGame, setSelectedGame] = useState<HubGameEntry | null>(null);
 
   const availableGenres = useMemo(() => getAllGenres(HUB_GAMES), []);
 
@@ -30,7 +32,7 @@ export function HubShell() {
         return false;
       }
 
-      if (selectedGenre !== 'all' && !manifest.genre.includes(selectedGenre)) {
+      if (selectedGenre !== 'all' && !manifest.genres.includes(selectedGenre)) {
         return false;
       }
 
@@ -39,9 +41,9 @@ export function HubShell() {
       const haystack = [
         manifest.title,
         manifest.subtitle,
-        manifest.developer,
-        ...manifest.genre,
-        ...manifest.layers.map((layer) => layer.name),
+        manifest.studio,
+        ...manifest.genres,
+        ...manifest.maps.map((mapLayer) => mapLayer.name),
       ]
         .join(' ')
         .toLowerCase();
@@ -51,9 +53,9 @@ export function HubShell() {
   }, [searchQuery, selectedGenre, selectedStatus]);
 
   const hubTelemetry = useMemo(() => {
-    const totalLayers = HUB_GAMES.reduce((acc, g) => acc + g.manifest.layers.length, 0);
+    const totalLayers = HUB_GAMES.reduce((acc, g) => acc + g.manifest.maps.length, 0);
     const totalMarkers = HUB_GAMES.reduce(
-      (acc, g) => acc + g.manifest.totalMarkersCount,
+      (acc, g) => acc + getTotalPinsCount(g.manifest),
       0
     );
     const totalFound = HUB_GAMES.reduce(
@@ -66,19 +68,6 @@ export function HubShell() {
     return { totalLayers, totalMarkers, totalFound, globalPercent };
   }, []);
 
-  useEffect(() => {
-    if (!selectedGame) return;
-
-    function handleEsc(event: KeyboardEvent) {
-      if (event.key === 'Escape') {
-        setSelectedGame(null);
-      }
-    }
-
-    window.addEventListener('keydown', handleEsc);
-    return () => window.removeEventListener('keydown', handleEsc);
-  }, [selectedGame]);
-
   const hasActiveFilters =
     searchQuery.trim() !== '' || selectedGenre !== 'all' || selectedStatus !== 'all';
 
@@ -89,10 +78,7 @@ export function HubShell() {
   }
 
   return (
-    <div
-      data-game-theme="hub-default"
-      className="relative min-h-svh overflow-x-clip bg-[var(--surface-base)] text-[var(--text-primary)]"
-    >
+    <div className="relative min-h-svh overflow-x-clip bg-[var(--surface-base)] text-[var(--text-primary)] transition-colors duration-300">
       {/* Background Architectural Layers: Tactical Grid + Subtle Ambient Top Glow + Micro-Noise */}
       <div
         aria-hidden="true"
@@ -130,10 +116,10 @@ export function HubShell() {
           <div className="max-w-2xl">
             <div className="mb-2.5 flex items-center gap-2">
               <GlassBadge variant="accent" size="sm" dot>
-                Atlas Interativo v0.1
+                Atlas Interativo v0.2
               </GlassBadge>
               <span className="font-mono text-[11px] uppercase tracking-widest text-[var(--text-muted)]">
-                Data-Driven Manifests
+                Dynamic Theme Engine
               </span>
             </div>
             <h1
@@ -144,8 +130,8 @@ export function HubShell() {
             </h1>
             <p className="mt-2 text-sm leading-relaxed text-[var(--text-secondary)]">
               Cada mapa carrega seu próprio manifesto de camadas, marcadores e
-              identidade visual. Passe o cursor sobre um jogo para antecipar sua
-              assinatura cromática.
+              identidade visual. Passe o cursor sobre um card para pré-visualizar sua
+              assinatura cromática ou clique para abrir o workspace dedicado.
             </p>
           </div>
 
@@ -212,10 +198,9 @@ export function HubShell() {
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
               {filteredGames.map((entry) => (
                 <GameCard
-                  key={entry.manifest.slug}
+                  key={entry.manifest.id}
                   entry={entry}
-                  isSelected={selectedGame?.manifest.slug === entry.manifest.slug}
-                  onSelect={setSelectedGame}
+                  onOpenGame={onOpenGame}
                 />
               ))}
             </div>
@@ -255,132 +240,9 @@ export function HubShell() {
             NEXUS MAPS // TACTICAL NEON GLASSMORPHISM
           </span>
           <span>
-            Progresso salvo localmente (mock na Etapa 1 · IndexedDB nas próximas etapas)
+            Manifestos dinâmicos ativos · Persistência offline-first em IndexedDB nas próximas etapas
           </span>
         </footer>
-      </div>
-
-      {/* Manifest & Dynamic Theme Preview Modal */}
-      {selectedGame && (
-        <GameManifestPreviewModal
-          entry={selectedGame}
-          onClose={() => setSelectedGame(null)}
-        />
-      )}
-    </div>
-  );
-}
-
-function GameManifestPreviewModal({
-  entry,
-  onClose,
-}: {
-  entry: HubGameEntry;
-  onClose: () => void;
-}) {
-  const { manifest, progress } = entry;
-  const { theme } = manifest;
-  const percent = getCompletionPercent(entry);
-
-  const scopedThemeVars = {
-    '--accent-primary': theme.accentPrimary,
-    '--accent-secondary': theme.accentSecondary,
-    '--accent-glow': theme.accentGlow,
-    '--glass-bg-elevated': theme.glassBg,
-    '--nexus-font-display': theme.fontDisplay,
-  } as CSSProperties;
-
-  return (
-    <div
-      role="dialog"
-      aria-modal="true"
-      aria-labelledby="manifest-preview-title"
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4 backdrop-blur-sm"
-      onClick={onClose}
-    >
-      <div
-        style={scopedThemeVars}
-        className="w-full max-w-lg"
-        onClick={(event) => event.stopPropagation()}
-      >
-        <GlassPanel variant="elevated" padding="lg" cornerMarks accentActive>
-          <div className="flex items-start justify-between gap-4">
-            <div>
-              <div className="mb-2 flex items-center gap-2">
-                <GlassBadge
-                  variant="accent"
-                  badgeStyle={theme.badgeStyle}
-                  icon={<Sparkles className="h-3 w-3" />}
-                >
-                  Theme Engine Preview
-                </GlassBadge>
-                <span className="font-mono text-[11px] text-[var(--text-muted)]">
-                  manifest.json
-                </span>
-              </div>
-              <h2
-                id="manifest-preview-title"
-                className="text-2xl font-bold text-[var(--text-primary)]"
-                style={{ fontFamily: 'var(--nexus-font-display)' }}
-              >
-                {manifest.title}
-              </h2>
-              <p className="mt-0.5 text-sm text-[var(--text-secondary)]">
-                {manifest.subtitle} · {manifest.developer} ({manifest.releaseYear})
-              </p>
-            </div>
-
-            <button
-              type="button"
-              onClick={onClose}
-              aria-label="Fechar pré-visualização"
-              className="neon-focus-ring flex h-8 w-8 cursor-pointer items-center justify-center rounded-lg border border-white/10 bg-white/[0.04] text-[var(--text-secondary)] transition-colors hover:text-white"
-            >
-              <X className="h-4 w-4" />
-            </button>
-          </div>
-
-          {/* Layers List */}
-          <div className="mt-5 space-y-2">
-            <h3 className="font-mono text-[11px] uppercase tracking-wider text-[var(--text-muted)]">
-              Camadas declaradas ({manifest.layers.length})
-            </h3>
-            <div className="space-y-1.5">
-              {manifest.layers.map((layer) => (
-                <div
-                  key={layer.id}
-                  className="flex items-center justify-between rounded-lg border border-white/[0.07] bg-black/30 px-3 py-2 text-xs"
-                >
-                  <span className="font-medium text-[var(--text-primary)]">
-                    {layer.name}
-                  </span>
-                  <span className="font-mono text-[11px] text-[var(--text-muted)]">
-                    z:{layer.minZoom}–{layer.maxZoom}
-                  </span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Progress & Next Stage Info */}
-          <div className="mt-5 rounded-lg border border-[color-mix(in_srgb,var(--accent-primary)_30%,transparent)] bg-[color-mix(in_srgb,var(--accent-primary)_8%,rgba(7,9,13,0.6))] p-3.5 text-xs text-[var(--text-secondary)]">
-            <p className="font-medium text-[var(--text-primary)]">
-              Progresso local mockado: {percent}% (
-              {progress.foundMarkersCount.toLocaleString('pt-BR')} de{' '}
-              {manifest.totalMarkersCount.toLocaleString('pt-BR')} pins)
-            </p>
-            <p className="mt-1 text-[var(--text-secondary)]">
-              A viewport interativa WebGL (MapLibre + Tile Pyramid) será conectada a
-              este manifesto nas próximas etapas.
-            </p>
-          </div>
-
-          <div className="mt-5 flex justify-end gap-2">
-            <NeonButton variant="glass" onClick={onClose}>
-              Fechar (ESC)
-            </NeonButton>
-          </div>
-        </GlassPanel>
       </div>
     </div>
   );

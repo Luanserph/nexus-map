@@ -1,27 +1,28 @@
 {
+  "id": "game-elden-ring",
   "slug": "elden-ring",
   "title": "Elden Ring",
   "subtitle": "Terras Intermédias & Reino das Sombras",
-  "developer": "FromSoftware",
+  "studio": "FromSoftware",
   "releaseYear": 2022,
-  "genre": ["Action RPG", "Soulslike", "Mundo Aberto"],
-  "totalMarkersCount": 3420,
+  "genres": ["Action RPG", "Soulslike", "Mundo Aberto"],
+  "status": "available",
+  "assets": {},
   "theme": {
-    "id": "elden-ring",
     "accentPrimary": "#D4AF37",
     "accentSecondary": "#48D1CC",
     "accentGlow": "rgba(212, 175, 55, 0.36)",
+    "glassTint": "rgba(18, 16, 12, 0.78)",
     "surfaceBase": "#0B0A08",
-    "glassBg": "rgba(18, 16, 12, 0.78)",
-    "glassBorder": "rgba(212, 175, 55, 0.24)",
     "fontDisplay": "'Cinzel', Georgia, serif",
-    "badgeStyle": "ornate",
-    "coverMotif": "topographic-rings"
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "ornate"
   },
-  "layers": [
+  "maps": [
     {
       "id": "surface",
       "name": "Terras Intermédias",
+      "pinsCount": 1940,
       "icon": "compass",
       "tileUrlTemplate": "/tiles/elden-ring/surface/{z}/{x}/{y}.webp",
       "minZoom": 0,
@@ -33,6 +34,7 @@
     {
       "id": "underground",
       "name": "Subterrâneo (Siofra & Ainsel)",
+      "pinsCount": 520,
       "icon": "layers",
       "tileUrlTemplate": "/tiles/elden-ring/underground/{z}/{x}/{y}.webp",
       "minZoom": 0,
@@ -43,7 +45,8 @@
     },
     {
       "id": "shadow-realm",
-      "name": "Terra das Sombras",
+      "name": "Reino das Sombras",
+      "pinsCount": 960,
       "icon": "flame",
       "tileUrlTemplate": "/tiles/elden-ring/shadow-realm/{z}/{x}/{y}.webp",
       "minZoom": 0,
@@ -86,6 +89,14 @@
           "name": "Semideuses & Chefes Principais",
           "icon": "skull",
           "color": "#E05A47",
+          "defaultVisible": true
+        },
+        {
+          "id": "field-boss",
+          "groupId": "bosses",
+          "name": "Chefes de Campo",
+          "icon": "swords",
+          "color": "#D97706",
           "defaultVisible": true
         }
       ]

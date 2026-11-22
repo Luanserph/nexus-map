@@ -1,34 +1,43 @@
 export type BadgeStyle = 'chamfered' | 'ornate' | 'minimal';
 
+export type BackgroundPattern =
+  | 'tactical-grid'
+  | 'topographic-rings'
+  | 'cyber-grid'
+  | 'abyssal-contours';
+
+export type GameCatalogStatus = 'available' | 'beta' | 'coming-soon';
+
 export type ExplorationStatus = 'all' | 'in-progress' | 'completed' | 'not-started';
 
+export interface GameAssets {
+  coverImage?: string;
+  bannerImage?: string;
+  logoImage?: string;
+}
+
 export interface GameTheme {
-  id: string;
   accentPrimary: string;
   accentSecondary: string;
   accentGlow: string;
+  glassTint: string;
   surfaceBase: string;
-  glassBg: string;
-  glassBorder: string;
-  fontDisplay: string;
-  badgeStyle: BadgeStyle;
-  /** Optional key-art URL; when omitted, a procedural cartographic cover is rendered using theme tokens. */
-  bannerUrl?: string;
-  logoUrl?: string;
-  /** Atmospheric motif identifier for the procedural cartographic cover fallback. */
-  coverMotif: 'topographic-rings' | 'cyber-grid' | 'abyssal-contours';
+  fontDisplay?: string;
+  backgroundPattern: BackgroundPattern;
+  badgeStyle?: BadgeStyle;
 }
 
-export interface MapLayer {
+export interface GameMapLayer {
   id: string;
   name: string;
-  icon: string;
-  tileUrlTemplate: string;
-  minZoom: number;
-  maxZoom: number;
-  bounds: [number, number, number, number];
-  defaultCenter: [number, number];
-  defaultZoom: number;
+  pinsCount: number;
+  icon?: string;
+  tileUrlTemplate?: string;
+  minZoom?: number;
+  maxZoom?: number;
+  bounds?: [number, number, number, number];
+  defaultCenter?: [number, number];
+  defaultZoom?: number;
 }
 
 export interface Category {
@@ -73,15 +82,17 @@ export interface UserPinState {
 }
 
 export interface GameManifest {
+  id: string;
   slug: string;
   title: string;
   subtitle: string;
-  developer: string;
+  studio: string;
   releaseYear: number;
-  genre: string[];
-  totalMarkersCount: number;
+  genres: string[];
+  status: GameCatalogStatus;
+  assets: GameAssets;
   theme: GameTheme;
-  layers: MapLayer[];
+  maps: GameMapLayer[];
   categoryGroups: CategoryGroup[];
 }
 
