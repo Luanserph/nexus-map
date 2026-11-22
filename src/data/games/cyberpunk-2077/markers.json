@@ -1,0 +1,82 @@
+[
+  {
+    "id": "cp-dt-megabuilding",
+    "mapId": "night-city",
+    "category": "dataterm",
+    "title": "Megaprédio H10: Átrio",
+    "description": "Terminal de viagem rápida na base do apartamento inicial de V em Watson.",
+    "coords": [412, 742],
+    "region": "Watson",
+    "metadata": { "district": "Little China" }
+  },
+  {
+    "id": "cp-rip-viktor",
+    "mapId": "night-city",
+    "category": "ripperdoc",
+    "title": "Clínica do Viktor Vektor",
+    "description": "Medicânico de confiança nos fundos da loja de Misty. Instala o Kiroshi Óptica Mk.1.",
+    "coords": [448, 708],
+    "region": "Watson",
+    "metadata": { "npc": "Viktor Vektor" }
+  },
+  {
+    "id": "cp-tarot-fool",
+    "mapId": "night-city",
+    "category": "tarot",
+    "title": "Tarô: O Louco",
+    "description": "Grafite holográfico na parede ao lado da porta do apartamento de V.",
+    "coords": [424, 756],
+    "region": "Watson",
+    "metadata": { "arcana": "0 - The Fool" }
+  },
+  {
+    "id": "cp-psycho-blood-ritual",
+    "mapId": "night-city",
+    "category": "cyberpsycho",
+    "title": "Avistamento: Ritual Sangrento",
+    "description": "Encontro noturno com integrante do Maelstrom em ritual cibernético em Northside.",
+    "coords": [342, 838],
+    "region": "Northside",
+    "metadata": { "fixer": "Regina Jones" }
+  },
+  {
+    "id": "cp-dt-afterlife",
+    "mapId": "night-city",
+    "category": "dataterm",
+    "title": "Afterlife",
+    "description": "Ponto de encontro lendário de mercenários de Night City, comandado por Rogue.",
+    "coords": [518, 634],
+    "region": "Watson",
+    "metadata": { "landmark": true }
+  },
+  {
+    "id": "cp-tarot-tower",
+    "mapId": "night-city",
+    "category": "tarot",
+    "title": "Tarô: A Torre",
+    "description": "Mural localizado no Memorial da Torre Arasaka no centro corporativo.",
+    "coords": [546, 512],
+    "region": "Centro da Cidade",
+    "metadata": { "arcana": "XVI - The Tower" }
+  },
+  {
+    "id": "cp-dog-stadium",
+    "mapId": "dogtown",
+    "category": "dataterm",
+    "title": "Mercado Negro do Estádio EBM",
+    "description": "Centro comercial clandestino de Dogtown com armas icônicas e melhorias Relic.",
+    "coords": [542, 586],
+    "region": "Dogtown",
+    "metadata": { "dlc": "Phantom Liberty" }
+  },
+  {
+    "id": "cp-dog-ripper",
+    "mapId": "dogtown",
+    "category": "ripperdoc",
+    "title": "Medicânico — Farida",
+    "description": "Especialista em implantes militares de Dogtown capaz de instalar cibernética icônica.",
+    "coords": [436, 464],
+    "region": "Dogtown",
+    "metadata": { "dlc": "Phantom Liberty" }
+  }
+]

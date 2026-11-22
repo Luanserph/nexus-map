@@ -1,0 +1,82 @@
+[
+  {
+    "id": "hk-bench-dirtmouth",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco de Dirtmouth",
+    "description": "Banco central da cidade silenciosa na superfície, próximo à loja de Iselda e Cornifer.",
+    "coords": [498, 822],
+    "region": "Dirtmouth",
+    "metadata": { "safeZone": true }
+  },
+  {
+    "id": "hk-stag-crossroads",
+    "mapId": "hallownest",
+    "category": "stag-station",
+    "title": "Estação da Encruzilhada Esquecida",
+    "description": "Primeira estação da rede do Último Besouro, conectando o subsolo à superfície.",
+    "coords": [534, 684],
+    "region": "Encruzilhada Esquecida",
+    "metadata": { "costGeo": 50 }
+  },
+  {
+    "id": "hk-grub-crossroads",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Poço do Guarda Casca",
+    "description": "Larva aprisionada em jarro de vidro atrás de um Guarda Casca na ala oeste da Encruzilhada.",
+    "coords": [422, 658],
+    "region": "Encruzilhada Esquecida",
+    "metadata": { "reward": "Geo do Pai Larva" }
+  },
+  {
+    "id": "hk-charm-wayward",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Bússola Caprichosa",
+    "description": "Amuleto essencial vendido por Iselda que revela a posição exata do Cavaleiro no mapa.",
+    "coords": [536, 826],
+    "region": "Dirtmouth",
+    "metadata": { "notches": 1, "costGeo": 220 }
+  },
+  {
+    "id": "hk-stag-greenpath",
+    "mapId": "hallownest",
+    "category": "stag-station",
+    "title": "Estação do Caminho Verde",
+    "description": "Estação tomada por musgo próxima ao santuário onde ocorre o primeiro duelo contra Hornet.",
+    "coords": [264, 646],
+    "region": "Caminho Verde",
+    "metadata": { "costGeo": 140 }
+  },
+  {
+    "id": "hk-bench-city",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco da Cidade das Lágrimas",
+    "description": "Banco panorâmico sob a chuva eterna, ao lado de Quirrel contemplando a capital submersa.",
+    "coords": [642, 448],
+    "region": "Cidade das Lágrimas",
+    "metadata": { "npc": "Quirrel" }
+  },
+  {
+    "id": "hk-god-bench-atrium",
+    "mapId": "godhome",
+    "category": "bench",
+    "title": "Banco do Átrio dos Panteões",
+    "description": "Ponto de preparação para ajustar amuletos antes de desafiar os Panteões dos Deuses.",
+    "coords": [512, 468],
+    "region": "Lar dos Deuses",
+    "metadata": { "dlc": "Godmaster" }
+  },
+  {
+    "id": "hk-god-hall",
+    "mapId": "godhome",
+    "category": "charm",
+    "title": "Salão dos Deuses",
+    "description": "Galeria de estátuas para treinar contra cada chefe de Hallownest em dificuldades crescentes.",
+    "coords": [512, 342],
+    "region": "Lar dos Deuses",
+    "metadata": { "modes": ["Sintonizado", "Ascendido", "Radiante"] }
+  }
+]

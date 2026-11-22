@@ -1,0 +1,202 @@
+[
+  {
+    "id": "er-grace-first-step",
+    "mapId": "surface",
+    "category": "site-of-grace",
+    "title": "O Primeiro Passo",
+    "description": "Primeiro Local de Graça ao emergir do Cemitério Abandonado em Limgrave. Ponto de encontro inicial com Varré.",
+    "coords": [438, 286],
+    "region": "Limgrave",
+    "metadata": { "fastTravel": true, "difficulty": "Iniciante" }
+  },
+  {
+    "id": "er-boss-tree-sentinel",
+    "mapId": "surface",
+    "category": "field-boss",
+    "title": "Sentinela da Árvore",
+    "description": "Cavaleiro dourado montado que patrulha a estrada entre O Primeiro Passo e a Igreja de Elleh. Concede a Alabarda Dourada.",
+    "coords": [468, 322],
+    "region": "Limgrave",
+    "metadata": { "runes": 3200, "drop": "Alabarda Dourada" }
+  },
+  {
+    "id": "er-grace-elleh",
+    "mapId": "surface",
+    "category": "site-of-grace",
+    "title": "Igreja de Elleh",
+    "description": "Ruínas da igreja onde o Mercador Kalé oferece o Kit de Produção e Renna entrega o Sino de Invocação de Espíritos à noite.",
+    "coords": [454, 366],
+    "region": "Limgrave",
+    "metadata": { "fastTravel": true, "npc": "Kalé / Ranni" }
+  },
+  {
+    "id": "er-dungeon-stormfoot",
+    "mapId": "surface",
+    "category": "dungeon",
+    "title": "Catacumbas do Pé da Tempestade",
+    "description": "Masmorra inicial protegida por diabretes de pedra e armadilhas de fogo. Chefe: Cão de Guarda da Térvore.",
+    "coords": [396, 398],
+    "region": "Limgrave",
+    "metadata": { "boss": "Cão de Guarda da Térvore", "reward": "Cinzas de Feiticeiro Nobre" }
+  },
+  {
+    "id": "er-boss-margit",
+    "mapId": "surface",
+    "category": "demigod-boss",
+    "title": "Margit, o Agouro Caído",
+    "description": "Guardião da entrada do Castelo Tempesvéu. Derrotá-lo libera a Bolsa de Talismã adicional.",
+    "coords": [372, 468],
+    "region": "Colina da Tempestade",
+    "metadata": { "runes": 12000, "reward": "Bolsa de Talismã" }
+  },
+  {
+    "id": "er-seed-stormveil",
+    "mapId": "surface",
+    "category": "golden-seed",
+    "title": "Semente Dourada — Pátio de Tempesvéu",
+    "description": "Árvore ilusória dourada situada no pátio próximo à sala do trono antes do confronto contra Godrick.",
+    "coords": [348, 514],
+    "region": "Castelo Tempesvéu",
+    "metadata": { "upgrade": "Frasco Sagrado" }
+  },
+  {
+    "id": "er-boss-godrick",
+    "mapId": "surface",
+    "category": "demigod-boss",
+    "title": "Godrick, o Enxertado",
+    "description": "Portador da primeira Grande Runa principal no topo do Castelo Tempesvéu.",
+    "coords": [332, 542],
+    "region": "Castelo Tempesvéu",
+    "metadata": { "runes": 20000, "greatRune": "Grande Runa de Godrick" }
+  },
+  {
+    "id": "er-grace-liurnia-cliffs",
+    "mapId": "surface",
+    "category": "site-of-grace",
+    "title": "Penhascos com Vista para o Lago",
+    "description": "Vista panorâmica da Academia de Raya Lucaria envolta em névoa sobre Liurnia dos Lagos.",
+    "coords": [310, 612],
+    "region": "Liurnia dos Lagos",
+    "metadata": { "fastTravel": true }
+  },
+  {
+    "id": "er-boss-rennala",
+    "mapId": "surface",
+    "category": "demigod-boss",
+    "title": "Rennala, Rainha da Lua Cheia",
+    "description": "Chefe da Grande Biblioteca de Raya Lucaria. Habilita o Renascimento (reset de atributos).",
+    "coords": [278, 694],
+    "region": "Academia de Raya Lucaria",
+    "metadata": { "runes": 40000, "greatRune": "Grande Runa dos Não-Nascidos" }
+  },
+  {
+    "id": "er-seed-academy",
+    "mapId": "surface",
+    "category": "golden-seed",
+    "title": "Semente Dourada — Portão da Academia",
+    "description": "Localizada na ponte quebrada ao norte do portão principal de Raya Lucaria.",
+    "coords": [318, 728],
+    "region": "Liurnia dos Lagos",
+    "metadata": { "upgrade": "Frasco Sagrado" }
+  },
+  {
+    "id": "er-dungeon-caelid-tunnel",
+    "mapId": "surface",
+    "category": "dungeon",
+    "title": "Túnel de Cristal de Sellia",
+    "description": "Mina de pedras brilhantes infestada por parentes da podridão. Excelente fonte de Pedras de Forja [5].",
+    "coords": [692, 424],
+    "region": "Caelid",
+    "metadata": { "boss": "Besta da Estrela Cadente" }
+  },
+  {
+    "id": "er-boss-radahn",
+    "mapId": "surface",
+    "category": "demigod-boss",
+    "title": "Flagelo Estelar Radahn",
+    "description": "Festival de Radahn nas Dunas Lamentáveis ao leste do Castelo da Juba Vermelha. Derrotá-lo abre a cratera para Nokron.",
+    "coords": [812, 344],
+    "region": "Caelid",
+    "metadata": { "runes": 70000, "greatRune": "Grande Runa de Radahn" }
+  },
+  {
+    "id": "er-grace-altus-junction",
+    "mapId": "surface",
+    "category": "site-of-grace",
+    "title": "Entroncamento da Estrada de Altus",
+    "description": "Cruzamento central do Platô Altus que liga o Grande Elevador de Dectus, Monte Gelmir e a Capital Real.",
+    "coords": [468, 796],
+    "region": "Platô Altus",
+    "metadata": { "fastTravel": true }
+  },
+  {
+    "id": "er-seed-leyndell",
+    "mapId": "surface",
+    "category": "golden-seed",
+    "title": "Semente Dourada — Muralha Externa",
+    "description": "Duas Sementes Douradas juntas sob a grande árvore ilusória perto dos portões de Leyndell.",
+    "coords": [548, 842],
+    "region": "Capital Real Leyndell",
+    "metadata": { "quantity": 2, "upgrade": "Frasco Sagrado" }
+  },
+  {
+    "id": "er-boss-morgott",
+    "mapId": "surface",
+    "category": "demigod-boss",
+    "title": "Morgott, o Rei Agouro",
+    "description": "Defensor do trono de Leyndell aos pés da Térvore. Libera o caminho para as Montanhas dos Gigantes.",
+    "coords": [602, 876],
+    "region": "Capital Real Leyndell",
+    "metadata": { "runes": 120000, "greatRune": "Grande Runa de Morgott" }
+  },
+  {
+    "id": "er-ug-grace-siofra",
+    "mapId": "underground",
+    "category": "site-of-grace",
+    "title": "Margem do Rio Siofra",
+    "description": "Céu estrelado subterrâneo com pilares antigos e os oito braseiros para despertar o Espírito Ancestral.",
+    "coords": [562, 418],
+    "region": "Rio Siofra",
+    "metadata": { "fastTravel": true }
+  },
+  {
+    "id": "er-ug-boss-ancestor",
+    "mapId": "underground",
+    "category": "field-boss",
+    "title": "Espírito Ancestral",
+    "description": "Entidade espectral invocada nos Terrenos Consagrados após acender todos os obeliscos de Siofra.",
+    "coords": [648, 492],
+    "region": "Rio Siofra",
+    "metadata": { "runes": 13000, "reward": "Cinzas de Seguidor Ancestral" }
+  },
+  {
+    "id": "er-ug-boss-astel",
+    "mapId": "underground",
+    "category": "demigod-boss",
+    "title": "Astel, Filho Natural do Vazio",
+    "description": "Aberração cósmica ao final do Lago da Podridão, passo decisivo da missão de Ranni.",
+    "coords": [312, 624],
+    "region": "Grande Claustro",
+    "metadata": { "runes": 80000, "quest": "Ranni" }
+  },
+  {
+    "id": "er-sr-grace-gravesite",
+    "mapId": "shadow-realm",
+    "category": "site-of-grace",
+    "title": "Planície das Lápides",
+    "description": "Ponto de chegada no Reino das Sombras com vista direta para a Umbrárvore velada.",
+    "coords": [482, 318],
+    "region": "Planície das Lápides",
+    "metadata": { "fastTravel": true, "dlc": "Shadow of the Erdtree" }
+  },
+  {
+    "id": "er-sr-boss-messmer",
+    "mapId": "shadow-realm",
+    "category": "demigod-boss",
+    "title": "Messmer, o Empalador",
+    "description": "Senhor da Fortaleza das Sombras. Concede o Pavio de Messmer para incendiar a árvore selada.",
+    "coords": [546, 684],
+    "region": "Fortaleza das Sombras",
+    "metadata": { "runes": 400000, "dlc": "Shadow of the Erdtree" }
+  }
+]

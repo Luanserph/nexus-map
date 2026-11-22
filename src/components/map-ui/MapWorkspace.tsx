@@ -2,12 +2,12 @@ import {
   ArrowLeft,
   ChevronDown,
   ChevronRight,
-  Crosshair,
   Eye,
   EyeOff,
   Layers,
   MapPin,
   Minus,
+  Navigation,
   PanelLeftClose,
   PanelLeftOpen,
   Plus,
@@ -16,12 +16,17 @@ import {
   X,
 } from 'lucide-react';
 import { useEffect, useMemo, useRef, useState } from 'react';
-import type { MouseEvent } from 'react';
+import { InteractiveMap } from '../../core/engine';
+import type { InteractiveMapHandle } from '../../core/engine';
 import { useGameTheme } from '../../core/theme-engine';
-import { getCompletionPercent, getTotalPinsCount } from '../../data/games';
-import type { HubGameEntry } from '../../types/schema';
+import {
+  getCompletionPercent,
+  getMarkersByMap,
+  getTotalPinsCount,
+} from '../../data/games';
+import type { Category, HubGameEntry } from '../../types/schema';
 import { GlassBadge, GlassInput, GlassPanel, NeonButton } from '../glass';
-import { GameCoverArt, ProceduralCartographicArt } from '../hub/GameCoverArt';
+import { GameCoverArt } from '../hub/GameCoverArt';
 
 export interface MapWorkspaceProps {
   entry: HubGameEntry;
@@ -61,22 +66,62 @@ export function MapWorkspace({
       return initial;
     }
   );
-  const [zoomByLayer, setZoomByLayer] = useState<Record<string, number>>({});
+  const [zoomLevel, setZoomLevel] = useState<number>(activeLayer?.defaultZoom ?? 0);
   const [cursorCoords, setCursorCoords] = useState<{ x: number; y: number }>({
-    x: 0,
-    y: 0,
+    x: activeLayer?.defaultCenter?.[0] ?? 512,
+    y: activeLayer?.defaultCenter?.[1] ?? 512,
   });
 
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const mapHandleRef = useRef<InteractiveMapHandle>(null);
+
   const totalPins = getTotalPinsCount(manifest);
   const percent = getCompletionPercent(entry);
   const badgeStyle = activeTheme.badgeStyle ?? 'minimal';
-  const currentLayerKey = activeLayer?.id ?? 'default';
-  const zoomLevel = zoomByLayer[currentLayerKey] ?? activeLayer?.defaultZoom ?? 2;
 
-  function updateZoom(nextValue: number) {
-    setZoomByLayer((prev) => ({ ...prev, [currentLayerKey]: nextValue }));
-  }
+  const categoriesById = useMemo(() => {
+    const map: Record<string, Category> = {};
+    for (const group of manifest.categoryGroups) {
+      for (const category of group.categories) {
+        map[category.id] = category;
+      }
+    }
+    return map;
+  }, [manifest.categoryGroups]);
+
+  const layerMarkers = useMemo(() => {
+    if (!activeLayer) return [];
+    return getMarkersByMap(manifest.slug, activeLayer.id);
+  }, [manifest.slug, activeLayer]);
+
+  const markerCountByCategory = useMemo(() => {
+    const counts: Record<string, number> = {};
+    for (const marker of layerMarkers) {
+      counts[marker.category] = (counts[marker.category] ?? 0) + 1;
+    }
+    return counts;
+  }, [layerMarkers]);
+
+  const normalizedPinSearch = pinSearchQuery.trim().toLowerCase();
+
+  const filteredMarkers = useMemo(() => {
+    return layerMarkers.filter((marker) => {
+      if (!visibleCategories[marker.category]) return false;
+      if (!normalizedPinSearch) return true;
+
+      const categoryName = categoriesById[marker.category]?.name ?? '';
+      const haystack = [
+        marker.title,
+        marker.description,
+        marker.region ?? '',
+        categoryName,
+      ]
+        .join(' ')
+        .toLowerCase();
+
+      return haystack.includes(normalizedPinSearch);
+    });
+  }, [layerMarkers, visibleCategories, normalizedPinSearch, categoriesById]);
 
   useEffect(() => {
     function handleKeyDown(event: KeyboardEvent) {
@@ -99,21 +144,6 @@ export function MapWorkspace({
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [pinSearchQuery]);
 
-  function handleViewportMouseMove(event: MouseEvent<HTMLDivElement>) {
-    const rect = event.currentTarget.getBoundingClientRect();
-    const relX = (event.clientX - rect.left) / rect.width - 0.5;
-    const relY = 0.5 - (event.clientY - rect.top) / rect.height;
-
-    const bounds = activeLayer?.bounds ?? [-4096, -4096, 4096, 4096];
-    const spanX = bounds[2] - bounds[0];
-    const spanY = bounds[3] - bounds[1];
-
-    const worldX = Math.round(relX * spanX * 10) / 10;
-    const worldY = Math.round(relY * spanY * 10) / 10;
-
-    setCursorCoords({ x: worldX, y: worldY });
-  }
-
   function toggleGroup(groupId: string) {
     setCollapsedGroups((prev) => ({ ...prev, [groupId]: !prev[groupId] }));
   }
@@ -132,118 +162,29 @@ export function MapWorkspace({
     setVisibleCategories(next);
   }
 
-  const minZoom = activeLayer?.minZoom ?? 0;
-  const maxZoom = activeLayer?.maxZoom ?? 6;
-  const visibleCount = Object.values(visibleCategories).filter(Boolean).length;
+  const visibleCategoryCount = Object.values(visibleCategories).filter(Boolean).length;
   const totalCategoryCount = manifest.categoryGroups.reduce(
     (sum, g) => sum + g.categories.length,
     0
   );
 
-  const normalizedPinSearch = pinSearchQuery.trim().toLowerCase();
-  const filteredCategoryGroups = useMemo(() => {
-    if (!normalizedPinSearch) return manifest.categoryGroups;
-    return manifest.categoryGroups
-      .map((group) => ({
-        ...group,
-        categories: group.categories.filter(
-          (cat) =>
-            cat.name.toLowerCase().includes(normalizedPinSearch) ||
-            group.label.toLowerCase().includes(normalizedPinSearch)
-        ),
-      }))
-      .filter((group) => group.categories.length > 0);
-  }, [manifest.categoryGroups, normalizedPinSearch]);
-
   return (
     <div className="relative h-svh w-screen overflow-hidden bg-[var(--surface-base)] text-[var(--text-primary)] select-none transition-colors duration-300">
       {/* ================================================================= */}
-      {/* FULL-BLEED INTERACTIVE MAP VIEWPORT PLACEHOLDER (ETAPA 3 READY)   */}
+      {/* INTERACTIVE LEAFLET MAP ENGINE (L.CRS.Simple + Canvas + Fallback) */}
       {/* ================================================================= */}
-      <div
-        onMouseMove={handleViewportMouseMove}
-        className="relative h-full w-full cursor-crosshair overflow-hidden"
-      >
-        {/* Tactical Grid */}
-        <div
-          aria-hidden="true"
-          className="nexus-tactical-grid pointer-events-none absolute inset-0 opacity-90"
-        />
-
-        {/* Procedural Game Background Pattern Watermark */}
-        <div
-          aria-hidden="true"
-          className="pointer-events-none absolute inset-0 opacity-35"
-        >
-          <ProceduralCartographicArt pattern={activeTheme.backgroundPattern} />
-        </div>
-
-        {/* Ambient Radial Glow Driven by Active Game's --accent-primary */}
-        <div
-          aria-hidden="true"
-          className="pointer-events-none absolute inset-0"
-          style={{
-            background:
-              'radial-gradient(ellipse 65% 55% at 55% 48%, color-mix(in srgb, var(--accent-primary) 10%, transparent), transparent 72%), radial-gradient(ellipse 45% 40% at 85% 85%, color-mix(in srgb, var(--accent-secondary) 8%, transparent), transparent 70%)',
-          }}
-        />
-
-        {/* Micro-Noise Overlay */}
-        <div
-          aria-hidden="true"
-          className="nexus-noise-layer pointer-events-none absolute inset-0 opacity-[0.03]"
-        />
-
-        {/* Subtle Center Axis Lines */}
-        <div
-          aria-hidden="true"
-          className="pointer-events-none absolute inset-x-0 top-1/2 h-px bg-white/[0.04]"
-        />
-        <div
-          aria-hidden="true"
-          className="pointer-events-none absolute inset-y-0 left-1/2 w-px bg-white/[0.04]"
-        />
-
-        {/* Center Viewport Status Card (Tile Engine Placeholder) */}
-        <div className="pointer-events-none absolute inset-0 flex items-center justify-center p-6">
-          <GlassPanel
-            variant="subtle"
-            padding="md"
-            cornerMarks
-            className="max-w-md text-center"
-          >
-            <div className="flex flex-col items-center gap-2.5">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full border border-[color-mix(in_srgb,var(--accent-primary)_45%,transparent)] bg-[color-mix(in_srgb,var(--accent-primary)_10%,rgba(7,9,13,0.75))] shadow-[0_0_18px_-4px_var(--accent-glow)]">
-                <Crosshair className="h-5 w-5 text-[var(--accent-primary)]" />
-              </div>
-              <GlassBadge variant="accent" badgeStyle={badgeStyle} dot>
-                Viewport Cartográfica · Etapa 3
-              </GlassBadge>
-              <h2
-                className="text-lg font-semibold text-[var(--text-primary)]"
-                style={{ fontFamily: 'var(--nexus-font-display)' }}
-              >
-                {activeLayer?.name ?? manifest.title}
-              </h2>
-              <p className="text-xs leading-relaxed text-[var(--text-secondary)]">
-                Área pronta para receber o motor WebGL de pirâmide de tiles{' '}
-                <code className="rounded bg-white/[0.06] px-1.5 py-0.5 font-mono text-[11px] text-[var(--accent-primary)]">
-                  {'{z}/{x}/{y}.webp'}
-                </code>{' '}
-                e renderização de{' '}
-                <span className="font-mono text-[var(--text-primary)]">
-                  {(activeLayer?.pinsCount ?? totalPins).toLocaleString('pt-BR')}
-                </span>{' '}
-                pins desta camada.
-              </p>
-              {activeLayer?.tileUrlTemplate && (
-                <div className="mt-1 w-full truncate rounded-md border border-white/[0.07] bg-black/35 px-2.5 py-1.5 font-mono text-[10px] text-[var(--text-muted)]">
-                  {activeLayer.tileUrlTemplate}
-                </div>
-              )}
-            </div>
-          </GlassPanel>
-        </div>
+      <div className="relative z-0 h-full w-full">
+        {activeLayer && (
+          <InteractiveMap
+            mapRef={mapHandleRef}
+            mapLayer={activeLayer}
+            theme={activeTheme}
+            markers={filteredMarkers}
+            categoriesById={categoriesById}
+            onCursorMove={setCursorCoords}
+            onZoomChange={setZoomLevel}
+          />
+        )}
       </div>
 
       {/* ================================================================= */}
@@ -329,7 +270,7 @@ export function MapWorkspace({
       </header>
 
       {/* ================================================================= */}
-      {/* RETRACTABLE LEFT SIDEBAR (FILTERS & SEARCH SHELL)                 */}
+      {/* RETRACTABLE LEFT SIDEBAR (SEARCH & CATEGORY FILTERS)              */}
       {/* ================================================================= */}
       <aside className="pointer-events-none fixed top-20 bottom-4 left-4 z-20 flex items-start gap-2.5">
         {isSidebarOpen ? (
@@ -388,8 +329,8 @@ export function MapWorkspace({
                 inputRef={searchInputRef}
                 value={pinSearchQuery}
                 onChange={(e) => setPinSearchQuery(e.target.value)}
-                placeholder="Filtrar categorias ou pins..."
-                aria-label="Buscar categorias ou pins no mapa"
+                placeholder="Buscar pins, chefes ou regiões..."
+                aria-label="Buscar pins no mapa"
                 leftIcon={<Search className="h-3.5 w-3.5" />}
                 rightSlot={
                   pinSearchQuery ? (
@@ -408,6 +349,47 @@ export function MapWorkspace({
                   )
                 }
               />
+
+              {/* Quick-jump Search Matches */}
+              {normalizedPinSearch && (
+                <div className="space-y-1 rounded-lg border border-white/[0.08] bg-black/35 p-2">
+                  <div className="flex items-center justify-between px-1 pb-1 font-mono text-[10px] uppercase tracking-wider text-[var(--text-muted)]">
+                    <span>Resultados ({filteredMarkers.length})</span>
+                    <span>Clique para ir</span>
+                  </div>
+                  {filteredMarkers.length > 0 ? (
+                    <div className="max-h-36 space-y-1 overflow-y-auto">
+                      {filteredMarkers.map((marker) => {
+                        const cat = categoriesById[marker.category];
+                        return (
+                          <button
+                            key={marker.id}
+                            type="button"
+                            onClick={() => mapHandleRef.current?.flyToMarker(marker)}
+                            className="flex w-full cursor-pointer items-center justify-between gap-2 rounded-md px-2 py-1.5 text-left text-xs text-[var(--text-primary)] transition-colors hover:bg-white/[0.08]"
+                          >
+                            <span className="flex min-w-0 items-center gap-2">
+                              <span
+                                className="h-2 w-2 shrink-0 rounded-full"
+                                style={{
+                                  backgroundColor:
+                                    cat?.color ?? 'var(--accent-primary)',
+                                }}
+                              />
+                              <span className="truncate">{marker.title}</span>
+                            </span>
+                            <Navigation className="h-3 w-3 shrink-0 text-[var(--accent-primary)] opacity-80" />
+                          </button>
+                        );
+                      })}
+                    </div>
+                  ) : (
+                    <p className="px-1 py-2 text-center text-xs text-[var(--text-muted)]">
+                      Nenhum pin visível corresponde à busca.
+                    </p>
+                  )}
+                </div>
+              )}
 
               {/* Quick Filter Actions */}
               <div className="flex items-center justify-between gap-2">
@@ -430,90 +412,93 @@ export function MapWorkspace({
                   </NeonButton>
                 </div>
                 <span className="font-mono text-[11px] text-[var(--text-muted)]">
-                  {visibleCount}/{totalCategoryCount} ativas
+                  {visibleCategoryCount}/{totalCategoryCount} ativas
                 </span>
               </div>
 
               {/* Category Groups Accordion */}
               <div className="space-y-2.5">
-                {filteredCategoryGroups.length > 0 ? (
-                  filteredCategoryGroups.map((group) => {
-                    const isCollapsed = Boolean(collapsedGroups[group.id]);
-                    return (
-                      <div
-                        key={group.id}
-                        className="rounded-lg border border-white/[0.07] bg-black/25"
+                {manifest.categoryGroups.map((group) => {
+                  const isCollapsed = Boolean(collapsedGroups[group.id]);
+                  return (
+                    <div
+                      key={group.id}
+                      className="rounded-lg border border-white/[0.07] bg-black/25"
+                    >
+                      <button
+                        type="button"
+                        onClick={() => toggleGroup(group.id)}
+                        className="flex w-full cursor-pointer items-center justify-between px-3 py-2 text-left text-xs font-semibold uppercase tracking-wider text-[var(--text-secondary)] transition-colors hover:text-[var(--text-primary)]"
                       >
-                        <button
-                          type="button"
-                          onClick={() => toggleGroup(group.id)}
-                          className="flex w-full cursor-pointer items-center justify-between px-3 py-2 text-left text-xs font-semibold uppercase tracking-wider text-[var(--text-secondary)] transition-colors hover:text-[var(--text-primary)]"
-                        >
-                          <span>{group.label}</span>
-                          {isCollapsed ? (
-                            <ChevronRight className="h-3.5 w-3.5 text-[var(--text-muted)]" />
-                          ) : (
-                            <ChevronDown className="h-3.5 w-3.5 text-[var(--text-muted)]" />
-                          )}
-                        </button>
-
-                        {!isCollapsed && (
-                          <div className="space-y-1 border-t border-white/[0.06] p-1.5">
-                            {group.categories.map((category) => {
-                              const isVisible = Boolean(visibleCategories[category.id]);
-                              return (
-                                <button
-                                  key={category.id}
-                                  type="button"
-                                  onClick={() => toggleCategory(category.id)}
-                                  className={[
-                                    'flex w-full cursor-pointer items-center justify-between rounded-md px-2.5 py-1.5 text-xs transition-all duration-150',
-                                    isVisible
-                                      ? 'bg-white/[0.05] text-[var(--text-primary)]'
-                                      : 'text-[var(--text-muted)] opacity-60 hover:opacity-85',
-                                  ].join(' ')}
-                                >
-                                  <span className="flex items-center gap-2 truncate">
-                                    <span
-                                      aria-hidden="true"
-                                      className="h-2 w-2 shrink-0 rounded-full"
-                                      style={{
-                                        backgroundColor: category.color,
-                                        boxShadow: isVisible
-                                          ? `0 0 8px ${category.color}`
-                                          : 'none',
-                                      }}
-                                    />
-                                    <span className="truncate">{category.name}</span>
-                                  </span>
-                                  <span className="font-mono text-[10px] text-[var(--text-muted)]">
-                                    {isVisible ? 'ON' : 'OFF'}
-                                  </span>
-                                </button>
-                              );
-                            })}
-                          </div>
+                        <span>{group.label}</span>
+                        {isCollapsed ? (
+                          <ChevronRight className="h-3.5 w-3.5 text-[var(--text-muted)]" />
+                        ) : (
+                          <ChevronDown className="h-3.5 w-3.5 text-[var(--text-muted)]" />
                         )}
-                      </div>
-                    );
-                  })
-                ) : (
-                  <p className="py-4 text-center text-xs text-[var(--text-muted)]">
-                    Nenhuma categoria encontrada para &ldquo;{pinSearchQuery}&rdquo;.
-                  </p>
-                )}
+                      </button>
+
+                      {!isCollapsed && (
+                        <div className="space-y-1 border-t border-white/[0.06] p-1.5">
+                          {group.categories.map((category) => {
+                            const isVisible = Boolean(visibleCategories[category.id]);
+                            const count = markerCountByCategory[category.id] ?? 0;
+                            return (
+                              <button
+                                key={category.id}
+                                type="button"
+                                onClick={() => toggleCategory(category.id)}
+                                className={[
+                                  'flex w-full cursor-pointer items-center justify-between rounded-md px-2.5 py-1.5 text-xs transition-all duration-150',
+                                  isVisible
+                                    ? 'bg-white/[0.05] text-[var(--text-primary)]'
+                                    : 'text-[var(--text-muted)] opacity-55 hover:opacity-85',
+                                ].join(' ')}
+                              >
+                                <span className="flex items-center gap-2 truncate">
+                                  <span
+                                    aria-hidden="true"
+                                    className="h-2 w-2 shrink-0 rounded-full"
+                                    style={{
+                                      backgroundColor: category.color,
+                                      boxShadow: isVisible
+                                        ? `0 0 8px ${category.color}`
+                                        : 'none',
+                                    }}
+                                  />
+                                  <span className="truncate">{category.name}</span>
+                                </span>
+                                <span className="font-mono text-[10px] text-[var(--text-muted)]">
+                                  {count}
+                                </span>
+                              </button>
+                            );
+                          })}
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
               </div>
 
               {/* Footer Progress Summary */}
-              <div className="mt-auto flex items-center justify-between border-t border-white/[0.07] pt-3 text-[11px] text-[var(--text-muted)]">
-                <span className="flex items-center gap-1.5">
-                  <MapPin className="h-3.5 w-3.5 text-[var(--accent-primary)]" />
-                  Encontrados
-                </span>
-                <span className="font-mono text-[var(--text-primary)]">
-                  {progress.foundMarkersCount.toLocaleString('pt-BR')} /{' '}
-                  {totalPins.toLocaleString('pt-BR')}
-                </span>
+              <div className="mt-auto space-y-1.5 border-t border-white/[0.07] pt-3 text-[11px] text-[var(--text-muted)]">
+                <div className="flex items-center justify-between">
+                  <span className="flex items-center gap-1.5">
+                    <MapPin className="h-3.5 w-3.5 text-[var(--accent-primary)]" />
+                    Pins na camada
+                  </span>
+                  <span className="font-mono text-[var(--text-primary)]">
+                    {filteredMarkers.length} / {layerMarkers.length}
+                  </span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span>Progresso total</span>
+                  <span className="font-mono text-[var(--text-secondary)]">
+                    {progress.foundMarkersCount.toLocaleString('pt-BR')} /{' '}
+                    {totalPins.toLocaleString('pt-BR')}
+                  </span>
+                </div>
               </div>
             </div>
           </GlassPanel>
@@ -541,7 +526,7 @@ export function MapWorkspace({
           <div className="flex flex-col divide-y divide-white/[0.07]">
             <button
               type="button"
-              onClick={() => updateZoom(Math.min(maxZoom, +(zoomLevel + 0.5).toFixed(1)))}
+              onClick={() => mapHandleRef.current?.zoomIn()}
               aria-label="Aproximar zoom"
               className="neon-focus-ring flex h-9 w-9 cursor-pointer items-center justify-center text-[var(--text-secondary)] transition-colors hover:bg-white/[0.05] hover:text-[var(--accent-primary)]"
             >
@@ -549,7 +534,7 @@ export function MapWorkspace({
             </button>
             <button
               type="button"
-              onClick={() => updateZoom(Math.max(minZoom, +(zoomLevel - 0.5).toFixed(1)))}
+              onClick={() => mapHandleRef.current?.zoomOut()}
               aria-label="Afastar zoom"
               className="neon-focus-ring flex h-9 w-9 cursor-pointer items-center justify-center text-[var(--text-secondary)] transition-colors hover:bg-white/[0.05] hover:text-[var(--accent-primary)]"
             >
@@ -557,7 +542,7 @@ export function MapWorkspace({
             </button>
             <button
               type="button"
-              onClick={() => updateZoom(activeLayer?.defaultZoom ?? 2)}
+              onClick={() => mapHandleRef.current?.resetView()}
               aria-label="Resetar visão"
               title="Resetar visão"
               className="neon-focus-ring flex h-9 w-9 cursor-pointer items-center justify-center text-[var(--text-secondary)] transition-colors hover:bg-white/[0.05] hover:text-[var(--accent-primary)]"
@@ -573,21 +558,21 @@ export function MapWorkspace({
             <span>
               X:{' '}
               <strong className="font-semibold text-[var(--text-primary)]">
-                {cursorCoords.x >= 0 ? `+${cursorCoords.x.toFixed(1)}` : cursorCoords.x.toFixed(1)}
+                {cursorCoords.x.toFixed(1)}
               </strong>
             </span>
             <span className="text-white/20">|</span>
             <span>
               Y:{' '}
               <strong className="font-semibold text-[var(--text-primary)]">
-                {cursorCoords.y >= 0 ? `+${cursorCoords.y.toFixed(1)}` : cursorCoords.y.toFixed(1)}
+                {cursorCoords.y.toFixed(1)}
               </strong>
             </span>
             <span className="text-white/20">|</span>
             <span>
               Z:{' '}
               <strong className="font-semibold text-[var(--accent-primary)]">
-                {zoomLevel.toFixed(1)}x
+                {zoomLevel.toFixed(2)}
               </strong>
             </span>
           </div>

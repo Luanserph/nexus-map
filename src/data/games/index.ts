@@ -1,7 +1,10 @@
-import type { GameManifest, HubGameEntry } from '../../types/schema';
+import type { GameManifest, HubGameEntry, MapMarker } from '../../types/schema';
 import cyberpunkManifest from './cyberpunk-2077/manifest.json';
+import cyberpunkMarkers from './cyberpunk-2077/markers.json';
 import eldenRingManifest from './elden-ring/manifest.json';
+import eldenRingMarkers from './elden-ring/markers.json';
 import hollowKnightManifest from './hollow-knight/manifest.json';
+import hollowKnightMarkers from './hollow-knight/markers.json';
 
 export const GAME_MANIFESTS: GameManifest[] = [
   eldenRingManifest as GameManifest,
@@ -9,8 +12,14 @@ export const GAME_MANIFESTS: GameManifest[] = [
   hollowKnightManifest as GameManifest,
 ];
 
+const markersBySlug: Record<string, MapMarker[]> = {
+  'elden-ring': eldenRingMarkers as unknown as MapMarker[],
+  'cyberpunk-2077': cyberpunkMarkers as unknown as MapMarker[],
+  'hollow-knight': hollowKnightMarkers as unknown as MapMarker[],
+};
+
 /**
- * Mocked local progress for Etapa 1/2 (replaced by Dexie.js IndexedDB store in upcoming stages).
+ * Mocked local progress for Etapa 1-3 (replaced by Dexie.js IndexedDB store in Etapa 4).
  */
 const mockProgressBySlug: Record<string, HubGameEntry['progress']> = {
   'elden-ring': {
@@ -47,6 +56,14 @@ export function getGameManifestBySlug(slug: string): GameManifest | undefined {
 
 export function getHubGameBySlug(slug: string): HubGameEntry | undefined {
   return HUB_GAMES.find((entry) => entry.manifest.slug === slug);
+}
+
+export function getMarkersByGameSlug(slug: string): MapMarker[] {
+  return markersBySlug[slug] ?? [];
+}
+
+export function getMarkersByMap(slug: string, mapId: string): MapMarker[] {
+  return getMarkersByGameSlug(slug).filter((marker) => marker.mapId === mapId);
 }
 
 export function getTotalPinsCount(manifest: GameManifest): number {

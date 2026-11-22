@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Generated map tile pyramids (.webp)
+public/tiles/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

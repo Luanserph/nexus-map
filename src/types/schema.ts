@@ -57,20 +57,14 @@ export interface CategoryGroup {
 
 export interface MapMarker {
   id: string;
-  gameId: string;
-  layerId: string;
-  categoryId: string;
+  mapId: string;
+  category: string;
   title: string;
-  subtitle?: string;
   description: string;
-  coordinates: [number, number];
+  /** Cartographic coordinates [x, y] in L.CRS.Simple planar space. */
+  coords: [number, number];
   region?: string;
-  media?: {
-    imageUrl?: string;
-    videoUrl?: string;
-  };
-  tags?: string[];
-  relatedPinIds?: string[];
+  metadata?: Record<string, string | number | boolean | string[]>;
 }
 
 export interface UserPinState {

@@ -25,11 +25,11 @@
       "pinsCount": 610,
       "icon": "map",
       "tileUrlTemplate": "/tiles/hollow-knight/hallownest/{z}/{x}/{y}.webp",
-      "minZoom": 0,
-      "maxZoom": 5,
-      "bounds": [-3072, -2048, 3072, 2048],
-      "defaultCenter": [0, 0],
-      "defaultZoom": 2
+      "minZoom": -1,
+      "maxZoom": 4,
+      "bounds": [0, 0, 1024, 1024],
+      "defaultCenter": [512, 512],
+      "defaultZoom": 0
     },
     {
       "id": "godhome",
@@ -37,11 +37,11 @@
       "pinsCount": 130,
       "icon": "crown",
       "tileUrlTemplate": "/tiles/hollow-knight/godhome/{z}/{x}/{y}.webp",
-      "minZoom": 0,
+      "minZoom": -1,
       "maxZoom": 4,
-      "bounds": [-1536, -1536, 1536, 1536],
-      "defaultCenter": [0, 0],
-      "defaultZoom": 2
+      "bounds": [0, 0, 1024, 1024],
+      "defaultCenter": [512, 512],
+      "defaultZoom": 0
     }
   ],
   "categoryGroups": [

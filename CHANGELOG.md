@@ -13,11 +13,14 @@ O formato segue o padrão [Keep a Changelog](https://keepachangelog.com/pt-BR/1.
 - Contratos TypeScript rigorosos orientados a manifesto (`GameManifest` em `src/types/schema.ts`), 3 manifestos individuais em `src/data/games/<slug>/manifest.json` (`elden-ring`, `cyberpunk-2077`, `hollow-knight`) e loader/registro central em `src/data/games/index.ts`.
 - **Theme Engine Dinâmico** (`src/core/theme-engine/`): `ThemeProvider` e hook `useGameTheme` que injetam dinamicamente as CSS Variables (`--accent-primary`, `--accent-secondary`, `--accent-glow`, `--glass-tint`, `--surface-base`) no `:root` com transição suave ao alternar entre o Hub e qualquer jogo.
 - Suporte a imagens reais (`coverImage` / `bannerImage`) com overlay em gradiente para legibilidade e fallback automático para o gráfico vetorial tático em caso de ausência ou erro de carregamento (`GameCoverArt`).
-- Navegação fluida Hub ↔ Tela do Mapa baseada em URL hash (`src/core/router/useHashRoute.ts`) e shell do **MapWorkspace** (`src/components/map-ui/MapWorkspace.tsx`) com topbar flutuante (botão "Voltar ao Hub", nome do jogo e seletor de camadas), sidebar retrátil de busca/filtros e viewport tática com coordenadas `[X, Y]` em tempo real e controles de zoom.
+- Navegação fluida Hub ↔ Tela do Mapa baseada em URL hash (`src/core/router/useHashRoute.ts`) e shell do **MapWorkspace** (`src/components/map-ui/MapWorkspace.tsx`) com topbar flutuante (botão "Voltar ao Hub", nome do jogo e seletor de camadas) e sidebar retrátil de busca/filtros.
+- **Script Fatiador de Tiles** (`scripts/tile-slicer/slice-map.mjs` + `README.md` + `npm run slice-map`) usando `sharp` para gerar pirâmides `public/tiles/<game-slug>/<map-id>/{z}/{x}/{y}.webp` (256×256px) e `metadata.json` com `bounds` e `maxZoom`; adicionada regra `public/tiles/` no `.gitignore`.
+- **Motor de Mapa Interativo** (`src/core/engine/`): `InteractiveMap` baseado em Leaflet (`L.CRS.Simple` + `preferCanvas: true`), com `createTacticalTileLayer` (carregamento real de tiles `.webp` com fallback automático para canvas cartográfico temático), troca fluida de camadas, controles de zoom e leitura de coordenadas `[X, Y]` em tempo real.
+- **Camada de Marcadores**: schema `MapMarker` atualizado, datasets `markers.json` para `elden-ring` (20 pins), `cyberpunk-2077` (8 pins) e `hollow-knight` (8 pins), ícones SVG distintos por categoria (`markerIcons.ts`), tooltips e popups em Neon Glassmorphism, além de busca com `flyTo` rápido na sidebar.
 
 ### Planned
-- Pipeline de fatiamento de mapas em tiles `.webp`.
-- Motor de mapa interativo WebGL (MapLibre GL JS) com multicamadas, filtros e progresso offline-first (IndexedDB).
+- Persistência local offline-first de pins encontrados, notas pessoais e backups JSON via IndexedDB (`Dexie.js`).
+- Command Palette global (`Cmd/Ctrl + K`) e criação de pins/rotas customizadas.
 
 ---
 

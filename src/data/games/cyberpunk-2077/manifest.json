@@ -25,11 +25,11 @@
       "pinsCount": 1420,
       "icon": "cpu",
       "tileUrlTemplate": "/tiles/cyberpunk-2077/night-city/{z}/{x}/{y}.webp",
-      "minZoom": 0,
-      "maxZoom": 6,
-      "bounds": [-4096, -4096, 4096, 4096],
-      "defaultCenter": [0, 0],
-      "defaultZoom": 2
+      "minZoom": -1,
+      "maxZoom": 4,
+      "bounds": [0, 0, 1024, 1024],
+      "defaultCenter": [512, 512],
+      "defaultZoom": 0
     },
     {
       "id": "dogtown",
@@ -37,11 +37,11 @@
       "pinsCount": 440,
       "icon": "shield-alert",
       "tileUrlTemplate": "/tiles/cyberpunk-2077/dogtown/{z}/{x}/{y}.webp",
-      "minZoom": 0,
-      "maxZoom": 5,
-      "bounds": [-2048, -2048, 2048, 2048],
-      "defaultCenter": [0, 0],
-      "defaultZoom": 2
+      "minZoom": -1,
+      "maxZoom": 4,
+      "bounds": [0, 0, 1024, 1024],
+      "defaultCenter": [512, 512],
+      "defaultZoom": 0
     }
   ],
   "categoryGroups": [
