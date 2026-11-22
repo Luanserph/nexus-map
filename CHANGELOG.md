@@ -65,6 +65,7 @@ O formato segue o padrão [Keep a Changelog](https://keepachangelog.com/pt-BR/1.
     - Helper `resolveTileUrlTemplate` (`src/core/utils/assets.ts`) lendo `VITE_TILES_BASE_URL` (documentado em `.env.example`) e aplicado no `InteractiveMap.tsx`, permitindo migração futura dos tiles para Cloudflare R2 sem refatoração.
     - Configuração `vercel.json` com rewrites de SPA (`/(.*) -> /index.html`) e `Cache-Control: public, max-age=31536000, immutable` para `/tiles/*` e `/games/*`.
     - Suporte a **PWA** com `vite-plugin-pwa` (`registerType: 'autoUpdate'`, `manifest.webmanifest`, ícones `pwa-192x192.png`, `pwa-512x512.png`, `apple-touch-icon.png`), Workbox fazendo precache apenas da casca do app (excluindo `tiles/**`) e cache sob demanda (`CacheFirst`) dos tiles visitados.
+    - Experiência inteligente de instalação PWA no Hub (`usePwaInstall`, `PwaInstallBanner`, `PwaInstallModal` e botão compacto no `HubNavbar`): captura `beforeinstallprompt`, oculta-se automaticamente em modo standalone ou dentro do Tauri (`__TAURI_INTERNALS__`), persiste dispensa do banner em `localStorage` (`nexus_pwa_banner_dismissed`) e oferece modal de instruções manuais em `pt-BR`, `en-US` e `es-ES`.
 
 ---
 

@@ -1,6 +1,7 @@
 import { ArrowUpDown, Clock, Compass, Globe, Layers, MapPin, RotateCcw } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import { getGenreLabel, normalizeGenreKey, useI18n } from '../../core/i18n';
+import { usePwaInstall } from '../../core/hooks/usePwaInstall';
 import type { LastVisitedRecord } from '../../core/storage';
 import { getGameStatus, getTotalPinsCount } from '../../data/games';
 import type { ExplorationStatus, HubGameEntry } from '../../types/schema';
@@ -9,6 +10,7 @@ import { ContinueExploringBanner } from './ContinueExploringBanner';
 import { FeaturedSpotlightBanner } from './FeaturedSpotlightBanner';
 import { GameCard } from './GameCard';
 import { HubNavbar } from './HubNavbar';
+import { PwaInstallBanner, PwaInstallModal } from './PwaInstallBanner';
 import { RecentGameCard } from './RecentGameCard';
 
 export interface HubShellProps {
@@ -31,6 +33,15 @@ export function HubShell({ games, lastVisited, onOpenGame }: HubShellProps) {
   const [selectedStatus, setSelectedStatus] = useState<ExplorationStatus>('all');
   const [sortBy, setSortBy] = useState<CatalogSortMode>('default');
   const [hoveredAccent, setHoveredAccent] = useState<string | null>(null);
+  const [isInstallModalOpen, setIsInstallModalOpen] = useState(false);
+  const pwa = usePwaInstall();
+
+  async function handleInstallClick() {
+    const result = await pwa.triggerInstall();
+    if (result === 'manual') {
+      setIsInstallModalOpen(true);
+    }
+  }
 
   const availableGenres = useMemo(() => {
     const normalizedSet = new Set<string>();
@@ -205,7 +216,17 @@ export function HubShell({ games, lastVisited, onOpenGame }: HubShellProps) {
             hasActiveFilters ? filteredGames.length : games.length
           }
           totalCount={games.length}
+          showInstallButton={pwa.canShowInstallUi}
+          onInstallClick={() => void handleInstallClick()}
         />
+
+        {/* Subtle Dismissible PWA Install Reminder Banner (Web Only) */}
+        {pwa.canShowBanner && (
+          <PwaInstallBanner
+            onInstall={() => void handleInstallClick()}
+            onDismiss={pwa.dismissBanner}
+          />
+        )}
 
         {/* Hero / Tactical Telemetry Header */}
         <section className="mt-7 mb-6 flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
@@ -444,6 +465,12 @@ export function HubShell({ games, lastVisited, onOpenGame }: HubShellProps) {
           <span>{t('hub.footerRight')}</span>
         </footer>
       </div>
+
+      {/* Fallback Manual PWA Installation Modal */}
+      <PwaInstallModal
+        open={isInstallModalOpen}
+        onClose={() => setIsInstallModalOpen(false)}
+      />
     </div>
   );
 }

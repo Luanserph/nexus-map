@@ -167,6 +167,26 @@ const ptBR = {
   'telemetry.stopSimulate': 'Parar Simulação',
   'telemetry.connect': 'Conectar',
   'telemetry.disconnect': 'Desconectar',
+
+  // PWA Install Experience
+  'pwa.installButton': 'Instalar App',
+  'pwa.bannerTitle': 'Use o Nexus Maps como aplicativo offline',
+  'pwa.bannerDesc':
+    'Instale em janela própria para abrir mapas instantaneamente e manter seu progresso salvo localmente.',
+  'pwa.dismiss': 'Dispensar lembrete',
+  'pwa.modalTitle': 'Instalar Nexus Maps',
+  'pwa.modalSubtitle': 'Acesse seus mapas em janela própria e modo offline.',
+  'pwa.desktopTitle': 'Desktop (Chrome, Edge, Brave)',
+  'pwa.desktopStep1':
+    'Clique no ícone de instalação (monitor com seta) no canto direito da barra de endereços.',
+  'pwa.desktopStep2':
+    'Confirme em "Instalar" para abrir o Nexus Maps como aplicativo independente.',
+  'pwa.mobileTitle': 'Mobile (iOS Safari / Android)',
+  'pwa.mobileStep1':
+    'Toque no botão Compartilhar (ou menu ⋮ do navegador).',
+  'pwa.mobileStep2':
+    'Selecione "Adicionar à Tela Inicial" e toque em "Adicionar".',
+  'pwa.close': 'Entendi',
 } as const;
 
 export type TranslationKey = keyof typeof ptBR;
@@ -327,6 +347,25 @@ const enUS: Dictionary = {
   'telemetry.stopSimulate': 'Stop Simulation',
   'telemetry.connect': 'Connect',
   'telemetry.disconnect': 'Disconnect',
+
+  'pwa.installButton': 'Install App',
+  'pwa.bannerTitle': 'Use Nexus Maps as an offline app',
+  'pwa.bannerDesc':
+    'Install in its own window for instant map access with all your progress saved locally.',
+  'pwa.dismiss': 'Dismiss reminder',
+  'pwa.modalTitle': 'Install Nexus Maps',
+  'pwa.modalSubtitle': 'Launch your interactive maps in a standalone offline window.',
+  'pwa.desktopTitle': 'Desktop (Chrome, Edge, Brave)',
+  'pwa.desktopStep1':
+    'Click the install icon (monitor with arrow) on the right side of the address bar.',
+  'pwa.desktopStep2':
+    'Click "Install" to open Nexus Maps as a standalone desktop app.',
+  'pwa.mobileTitle': 'Mobile (iOS Safari / Android)',
+  'pwa.mobileStep1':
+    'Tap the Share button (or the browser ⋮ menu).',
+  'pwa.mobileStep2':
+    'Choose "Add to Home Screen" and tap "Add".',
+  'pwa.close': 'Got it',
 };
 
 const esES: Dictionary = {
@@ -484,6 +523,25 @@ const esES: Dictionary = {
   'telemetry.stopSimulate': 'Detener Simulación',
   'telemetry.connect': 'Conectar',
   'telemetry.disconnect': 'Desconectar',
+
+  'pwa.installButton': 'Instalar App',
+  'pwa.bannerTitle': 'Usa Nexus Maps como aplicación offline',
+  'pwa.bannerDesc':
+    'Instálalo en una ventana propia para abrir mapas al instante y guardar tu progreso localmente.',
+  'pwa.dismiss': 'Ocultar aviso',
+  'pwa.modalTitle': 'Instalar Nexus Maps',
+  'pwa.modalSubtitle': 'Abre tus mapas interactivos en ventana propia y modo offline.',
+  'pwa.desktopTitle': 'Escritorio (Chrome, Edge, Brave)',
+  'pwa.desktopStep1':
+    'Haz clic en el icono de instalación (monitor con flecha) al final de la barra de direcciones.',
+  'pwa.desktopStep2':
+    'Confirma en "Instalar" para abrir Nexus Maps como aplicación independiente.',
+  'pwa.mobileTitle': 'Móvil (iOS Safari / Android)',
+  'pwa.mobileStep1':
+    'Toca el botón Compartir (o el menú ⋮ del navegador).',
+  'pwa.mobileStep2':
+    'Selecciona "Añadir a la pantalla de inicio" y pulsa "Añadir".',
+  'pwa.close': 'Entendido',
 };
 
 export const DICTIONARIES: Record<Locale, Dictionary> = {

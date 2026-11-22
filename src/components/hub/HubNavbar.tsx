@@ -1,4 +1,4 @@
-import { Database, Search, SlidersHorizontal, X } from 'lucide-react';
+import { Database, MonitorDown, Search, SlidersHorizontal, X } from 'lucide-react';
 import { useEffect, useRef } from 'react';
 import { getGenreLabel, LanguageSelector, useI18n } from '../../core/i18n';
 import type { TranslationKey } from '../../core/i18n';
@@ -15,6 +15,8 @@ export interface HubNavbarProps {
   onStatusChange: (status: ExplorationStatus) => void;
   resultsCount: number;
   totalCount: number;
+  showInstallButton?: boolean;
+  onInstallClick?: () => void;
 }
 
 const STATUS_OPTIONS: { value: ExplorationStatus; labelKey: TranslationKey }[] = [
@@ -34,6 +36,8 @@ export function HubNavbar({
   onStatusChange,
   resultsCount,
   totalCount,
+  showInstallButton = false,
+  onInstallClick,
 }: HubNavbarProps) {
   const { t, locale } = useI18n();
   const searchInputRef = useRef<HTMLInputElement>(null);
@@ -88,8 +92,19 @@ export function HubNavbar({
               </div>
             </div>
 
-            {/* Mobile Language & Offline Indicator */}
+            {/* Mobile Install & Language Indicator */}
             <div className="flex items-center gap-2 lg:hidden">
+              {showInstallButton && onInstallClick && (
+                <NeonButton
+                  size="sm"
+                  variant="glass"
+                  active
+                  onClick={onInstallClick}
+                  leftIcon={<MonitorDown className="h-3.5 w-3.5" />}
+                >
+                  {t('pwa.installButton')}
+                </NeonButton>
+              )}
               <LanguageSelector />
             </div>
           </div>
@@ -122,8 +137,19 @@ export function HubNavbar({
             />
           </div>
 
-          {/* Desktop Language Selector + Local-First Telemetry Badge */}
+          {/* Desktop Install + Language Selector + Local-First Telemetry Badge */}
           <div className="hidden items-center gap-2.5 lg:flex">
+            {showInstallButton && onInstallClick && (
+              <NeonButton
+                size="sm"
+                variant="glass"
+                active
+                onClick={onInstallClick}
+                leftIcon={<MonitorDown className="h-3.5 w-3.5" />}
+              >
+                {t('pwa.installButton')}
+              </NeonButton>
+            )}
             <LanguageSelector />
             <GlassBadge
               variant="neutral"
