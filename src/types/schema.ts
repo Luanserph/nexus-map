@@ -36,6 +36,19 @@ export interface GameDlc {
   accentColor?: string;
 }
 
+export type MapCrsType = 'simple' | 'epsg3857';
+
+export interface MapTileSet {
+  id: string;
+  label: string;
+  urlTemplate: string;
+  backgroundColor?: string;
+  minZoom: number;
+  maxNativeZoom: number;
+  maxZoom: number;
+  tileBounds?: [[number, number], [number, number]];
+}
+
 export interface GameMapLayer {
   id: string;
   name: string;
@@ -44,12 +57,18 @@ export interface GameMapLayer {
   parentMapId?: string;
   isInterior?: boolean;
   icon?: string;
+  crs?: MapCrsType;
+  backgroundColor?: string;
   tileUrlTemplate?: string;
+  tileSets?: MapTileSet[];
   minZoom?: number;
   maxZoom?: number;
   bounds?: [number, number, number, number];
+  maxBounds?: [[number, number], [number, number]];
   defaultCenter?: [number, number];
+  initialCenter?: [number, number];
   defaultZoom?: number;
+  initialZoom?: number;
 }
 
 export interface Category {
@@ -103,6 +122,15 @@ export interface MapMarker {
   tags?: string[];
   checklist?: MarkerChecklistItem[];
   metadata?: Record<string, string | number | boolean | string[]>;
+}
+
+export interface MapRegion {
+  id: number | string;
+  parentRegionId: number | string | null;
+  title: string;
+  centerX: number;
+  centerY: number;
+  features?: unknown[];
 }
 
 export interface GuidedRouteStep {

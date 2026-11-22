@@ -37,90 +37,231 @@
       "id": "leonida",
       "name": "Estado de Leonida",
       "dlc": "base",
-      "pinsCount": 675,
+      "pinsCount": 2690,
       "icon": "map",
-      "tileUrlTemplate": "/tiles/gta-vi/leonida/{z}/{x}/{y}.webp",
-      "minZoom": 0,
-      "maxZoom": 5,
-      "bounds": [
-        0,
-        -160,
-        160,
-        0
+      "crs": "epsg3857",
+      "backgroundColor": "#2f90b0",
+      "initialCenter": [
+        0.6982,
+        -0.6915
       ],
-      "defaultCenter": [
-        112,
-        -88
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          0.22,
+          -1.08
+        ],
+        [
+          1.18,
+          -0.3
+        ]
       ],
-      "defaultZoom": 2
+      "tileSets": [
+        {
+          "id": "day",
+          "label": "Dia",
+          "urlTemplate": "https://tiles.mapgenie.io/games/grand-theft-auto-6/leonida/day-v2/{z}/{y}/{x}.jpg",
+          "backgroundColor": "#2f90b0",
+          "minZoom": 8,
+          "maxNativeZoom": 16,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "night",
+          "label": "Noite",
+          "urlTemplate": "https://tiles.mapgenie.io/games/grand-theft-auto-6/leonida/night-v3/{z}/{y}/{x}.jpg",
+          "backgroundColor": "#272963",
+          "minZoom": 8,
+          "maxNativeZoom": 16,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
     }
   ],
   "categoryGroups": [
     {
-      "id": "crime",
-      "label": "Crime & Bases",
+      "id": "locations",
+      "label": "Locais",
       "categories": [
         {
-          "id": "safehouse",
-          "groupId": "crime",
-          "name": "Esconderijo",
-          "icon": "home",
-          "color": "#FF4D9E",
+          "id": "banks",
+          "groupId": "locations",
+          "name": "Bancos",
+          "icon": "landmark",
+          "color": "#EF4444",
           "defaultVisible": true
         },
         {
-          "id": "heist",
-          "groupId": "crime",
-          "name": "Gig de Crime & Assalto",
-          "icon": "flame",
+          "id": "jewelry-pawn",
+          "groupId": "locations",
+          "name": "Joalherias & Penhores",
+          "icon": "gem",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "safes",
+          "groupId": "locations",
+          "name": "Cofres",
+          "icon": "lock",
+          "color": "#F59E0B",
+          "defaultVisible": true
+        },
+        {
+          "id": "illegal-operations",
+          "groupId": "locations",
+          "name": "Operações Ilegais",
+          "icon": "skull",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "standout-vehicles",
+          "groupId": "locations",
+          "name": "Veículos Únicos",
+          "icon": "crown",
+          "color": "#FDE047",
+          "defaultVisible": true
+        },
+        {
+          "id": "paynspray",
+          "groupId": "locations",
+          "name": "Pay 'N' Spray",
+          "icon": "sparkles",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "mod-shops",
+          "groupId": "locations",
+          "name": "Mod Shops",
+          "icon": "hammer",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "gun-shops",
+          "groupId": "locations",
+          "name": "Ammu-Nation & Armas",
+          "icon": "swords",
           "color": "#F43F5E",
           "defaultVisible": true
         },
         {
-          "id": "stunt-jump",
-          "groupId": "crime",
-          "name": "Salto Único",
-          "icon": "zap",
-          "color": "#FF9E44",
-          "defaultVisible": true
-        }
-      ]
-    },
-    {
-      "id": "world",
-      "label": "Leonida & Vice City",
-      "categories": [
-        {
-          "id": "landmark",
-          "groupId": "world",
-          "name": "Ponto de Interesse",
-          "icon": "map-pin",
-          "color": "#38BDF8",
-          "defaultVisible": true
-        },
-        {
-          "id": "nightlife",
-          "groupId": "world",
-          "name": "Hotéis & Vida Noturna",
+          "id": "nightclubs",
+          "groupId": "locations",
+          "name": "Clubes Noturnos",
           "icon": "sparkles",
           "color": "#E879F9",
           "defaultVisible": true
         },
         {
-          "id": "shop",
-          "groupId": "world",
-          "name": "Comércio & Lojas",
-          "icon": "shopping-bag",
-          "color": "#FBBF24",
+          "id": "landmarks",
+          "groupId": "locations",
+          "name": "Marcos & Pontos de Interesse",
+          "icon": "map-pin",
+          "color": "#38BDF8",
           "defaultVisible": true
         },
         {
-          "id": "transport",
-          "groupId": "world",
-          "name": "Aeroportos & Transporte",
+          "id": "gas-garages",
+          "groupId": "locations",
+          "name": "Postos, Garagens & Lava-Jatos",
+          "icon": "bookmark",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "convenience-stores",
+          "groupId": "locations",
+          "name": "Lojas de Conveniência",
+          "icon": "shopping-bag",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "shops-services",
+          "groupId": "locations",
+          "name": "Comércio, Roupas & Tatuagens",
+          "icon": "shopping-bag",
+          "color": "#94A3B8",
+          "defaultVisible": false
+        },
+        {
+          "id": "bus-stops",
+          "groupId": "locations",
+          "name": "Pontos de Ônibus",
           "icon": "navigation",
-          "color": "#2DD4BF",
-          "defaultVisible": true
+          "color": "#64748B",
+          "defaultVisible": false
+        },
+        {
+          "id": "atms",
+          "groupId": "locations",
+          "name": "ATMs",
+          "icon": "gem",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "atms-towable",
+          "groupId": "locations",
+          "name": "ATMs (Rebocáveis)",
+          "icon": "gem",
+          "color": "#10B981",
+          "defaultVisible": false
+        },
+        {
+          "id": "ev-chargers",
+          "groupId": "locations",
+          "name": "Carregadores Elétricos",
+          "icon": "activity",
+          "color": "#22D3EE",
+          "defaultVisible": false
+        },
+        {
+          "id": "bars",
+          "groupId": "locations",
+          "name": "Bares & Bebidas",
+          "icon": "flask-conical",
+          "color": "#C084FC",
+          "defaultVisible": false
+        },
+        {
+          "id": "cafes-takeout",
+          "groupId": "locations",
+          "name": "Cafés & Lanchonetes",
+          "icon": "bookmark",
+          "color": "#FDBA74",
+          "defaultVisible": false
+        },
+        {
+          "id": "street-food",
+          "groupId": "locations",
+          "name": "Comida de Rua",
+          "icon": "flame",
+          "color": "#FB923C",
+          "defaultVisible": false
         }
       ]
     },
@@ -129,12 +270,114 @@
       "label": "Colecionáveis",
       "categories": [
         {
-          "id": "collectible",
+          "id": "waink-locations",
           "groupId": "collectibles",
-          "name": "Colecionável & Segredo",
-          "icon": "gem",
+          "name": "Locais WAiNK",
+          "icon": "radio",
+          "color": "#FF4D9E",
+          "defaultVisible": true
+        },
+        {
+          "id": "collectible-cards",
+          "groupId": "collectibles",
+          "name": "Cartas Colecionáveis & Dossiês",
+          "icon": "spade",
           "color": "#A78BFA",
           "defaultVisible": true
+        },
+        {
+          "id": "top-fun-drones",
+          "groupId": "collectibles",
+          "name": "Drones Top Fun",
+          "icon": "compass",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "hoops",
+          "groupId": "collectibles",
+          "name": "Cestas de Basquete (Hoops)",
+          "icon": "flag",
+          "color": "#FF9E44",
+          "defaultVisible": false
+        },
+        {
+          "id": "book-swaps",
+          "groupId": "collectibles",
+          "name": "Troca de Livros & Revistas",
+          "icon": "scroll-text",
+          "color": "#FDBA74",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "activities",
+      "label": "Atividades",
+      "categories": [
+        {
+          "id": "stunt-jumps",
+          "groupId": "activities",
+          "name": "Saltos Únicos (Stunt Jumps)",
+          "icon": "flame",
+          "color": "#FF9E44",
+          "defaultVisible": true
+        },
+        {
+          "id": "base-jumps",
+          "groupId": "activities",
+          "name": "Base Jumps",
+          "icon": "navigation",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "knife-flights",
+          "groupId": "activities",
+          "name": "Knife Flights",
+          "icon": "signpost",
+          "color": "#F43F5E",
+          "defaultVisible": true
+        },
+        {
+          "id": "under-the-bridge",
+          "groupId": "activities",
+          "name": "Under the Bridge",
+          "icon": "anchor",
+          "color": "#94A3B8",
+          "defaultVisible": false
+        },
+        {
+          "id": "races",
+          "groupId": "activities",
+          "name": "Corridas",
+          "icon": "flag",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "shooting-ranges",
+          "groupId": "activities",
+          "name": "Estandes de Tiro",
+          "icon": "swords",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "golf-sports",
+          "groupId": "activities",
+          "name": "Golfe, Sinuca & Academias",
+          "icon": "activity",
+          "color": "#4ADE80",
+          "defaultVisible": false
+        },
+        {
+          "id": "fishing-contacts",
+          "groupId": "activities",
+          "name": "Pesca & Contatos",
+          "icon": "anchor",
+          "color": "#2DD4BF",
+          "defaultVisible": false
         }
       ]
     }

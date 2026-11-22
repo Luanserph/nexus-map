@@ -9,9 +9,11 @@ import type {
   LivePlayerTelemetry,
   MapInteractionMode,
   MapMarker,
+  MapRegion,
   UserNoteRecord,
 } from '../../types/schema';
 import { decodeHtmlEntities } from '../utils/text';
+import { resolveTileUrlTemplate } from '../utils/assets';
 import { createTacticalTileLayer } from './createFallbackTileLayer';
 import {
   createCategoryPinIcon,
@@ -41,6 +43,8 @@ export interface InteractiveMapHandle {
 
 export interface InteractiveMapProps {
   mapLayer: GameMapLayer;
+  activeTileSetId?: string;
+  regions?: MapRegion[];
   theme: GameTheme;
   markers: MapMarker[];
   categoriesById: Record<string, Category>;
@@ -79,6 +83,8 @@ const CLUSTER_CELL_PX = 44;
 
 export function InteractiveMap({
   mapLayer,
+  activeTileSetId,
+  regions = [],
   theme,
   markers,
   categoriesById,
@@ -106,7 +112,9 @@ export function InteractiveMap({
   const containerRef = useRef<HTMLDivElement>(null);
   const leafletMapRef = useRef<L.Map | null>(null);
   const tileLayerRef = useRef<L.GridLayer | null>(null);
+  const regionsLayerRef = useRef<L.LayerGroup | null>(null);
   const markersLayerRef = useRef<L.LayerGroup | null>(null);
+  const chunkRafRef = useRef<number | null>(null);
   const notesLayerRef = useRef<L.LayerGroup | null>(null);
   const routesLayerRef = useRef<L.LayerGroup | null>(null);
   const guidedLayerRef = useRef<L.LayerGroup | null>(null);
@@ -138,20 +146,61 @@ export function InteractiveMap({
     interactionMode,
   ]);
 
+  const crsType = mapLayer.crs ?? 'simple';
+
+  const activeTileSet = useMemo(() => {
+    const sets = mapLayer.tileSets;
+    if (!sets || sets.length === 0) return null;
+    if (activeTileSetId) {
+      return sets.find((s) => s.id === activeTileSetId) ?? sets[0];
+    }
+    return sets[0];
+  }, [mapLayer.tileSets, activeTileSetId]);
+
   const resolvedBounds = useMemo(() => {
+    if (mapLayer.maxBounds) {
+      return L.latLngBounds(mapLayer.maxBounds[0], mapLayer.maxBounds[1]);
+    }
+    if (activeTileSet?.tileBounds) {
+      return L.latLngBounds(
+        activeTileSet.tileBounds[0],
+        activeTileSet.tileBounds[1]
+      );
+    }
     const [minX, minY, maxX, maxY] = mapLayer.bounds ?? [0, 0, 1024, 1024];
     return L.latLngBounds(L.latLng(minY, minX), L.latLng(maxY, maxX));
-  }, [mapLayer.bounds]);
+  }, [mapLayer.maxBounds, mapLayer.bounds, activeTileSet]);
+
+  const resolvedTileBounds = useMemo(() => {
+    if (activeTileSet?.tileBounds) {
+      return L.latLngBounds(
+        activeTileSet.tileBounds[0],
+        activeTileSet.tileBounds[1]
+      );
+    }
+    return resolvedBounds;
+  }, [activeTileSet, resolvedBounds]);
 
   const resolvedCenter = useMemo(() => {
+    if (mapLayer.initialCenter) {
+      return L.latLng(mapLayer.initialCenter[0], mapLayer.initialCenter[1]);
+    }
     const [cx, cy] = mapLayer.defaultCenter ?? [512, 512];
     return L.latLng(cy, cx);
-  }, [mapLayer.defaultCenter]);
+  }, [mapLayer.initialCenter, mapLayer.defaultCenter]);
 
-  const effectiveMinZoom = Math.min(0, mapLayer.minZoom ?? 0);
-  const nativeMaxZoom = mapLayer.maxZoom ?? 4;
-  const overzoomMaxZoom = nativeMaxZoom + 3;
-  const defaultZoom = mapLayer.defaultZoom ?? 0;
+  const effectiveMinZoom = activeTileSet
+    ? activeTileSet.minZoom
+    : Math.min(0, mapLayer.minZoom ?? 0);
+  const nativeMaxZoom = activeTileSet
+    ? activeTileSet.maxNativeZoom
+    : (mapLayer.maxZoom ?? 4);
+  const overzoomMaxZoom = activeTileSet
+    ? activeTileSet.maxZoom
+    : nativeMaxZoom + 3;
+  const defaultZoom = mapLayer.initialZoom ?? mapLayer.defaultZoom ?? 0;
+  const resolvedBgColor =
+    activeTileSet?.backgroundColor ?? mapLayer.backgroundColor ?? theme.surfaceBase;
 
   /**
    * High-performance renderer for 500-1,000+ pins:
@@ -163,10 +212,67 @@ export function InteractiveMap({
     const group = markersLayerRef.current;
     if (!map || !group) return;
 
+    if (chunkRafRef.current !== null) {
+      cancelAnimationFrame(chunkRafRef.current);
+      chunkRafRef.current = null;
+    }
+
     group.clearLayers();
 
     const paddedBounds = map.getBounds().pad(0.25);
     const currentZoom = map.getZoom();
+
+    // Render discrete zoom-aware region labels
+    const regGroup = regionsLayerRef.current;
+    if (regGroup) {
+      regGroup.clearLayers();
+      if (regions.length > 0 && currentZoom >= 9.5) {
+        const MAJOR_TITLES = new Set([
+          'Vice City',
+          'Vice Beach',
+          'Gellhorn',
+          'Port Gellhorn',
+          'Ambrosia',
+          'Grassrivers',
+          'Kalaga National Park',
+          'Mount Kalaga',
+          'Key Lento',
+          'Ocean Beach',
+          'Starfish Island',
+          'VCIA',
+          'Hamlet',
+          'Watson Bay',
+          'Downtown',
+          'Little Cuba',
+          'Mariana County',
+          'Vice-Dale County',
+          'Kelly County',
+          'Leonard County',
+          'Lummox County',
+        ]);
+        for (const region of regions) {
+          if (region.parentRegionId === null) continue;
+          const isMajor = MAJOR_TITLES.has(region.title);
+          if (!isMajor && currentZoom < 12.25) continue;
+          const pos = L.latLng(region.centerY, region.centerX);
+          if (!paddedBounds.contains(pos)) continue;
+
+          L.marker(pos, {
+            interactive: false,
+            keyboard: false,
+            zIndexOffset: -500,
+            icon: L.divIcon({
+              className: 'nexus-region-label-wrapper',
+              html: `<span class="nexus-region-label ${
+                isMajor ? 'nexus-region-label--major' : 'nexus-region-label--sub'
+              }">${escapeHtml(region.title)}</span>`,
+              iconSize: [0, 0],
+            }),
+          }).addTo(regGroup);
+        }
+      }
+    }
+
     const disableClusteringAtZoom = nativeMaxZoom;
     const shouldCluster =
       clusteringEnabled &&
@@ -185,36 +291,63 @@ export function InteractiveMap({
       }
     }
 
-    if (!shouldCluster) {
-      for (const marker of visibleInViewport) {
-        const category = categoriesById[marker.category];
-        const [x, y] = marker.coords;
-        const isFound = foundMarkerIds.has(marker.id);
-        const isSelected = selectedMarkerId === marker.id;
+    const buildPinLayer = (marker: MapMarker): L.Marker => {
+      const category = categoriesById[marker.category];
+      const [x, y] = marker.coords;
+      const isFound = foundMarkerIds.has(marker.id);
+      const isSelected = selectedMarkerId === marker.id;
 
-        const leafletMarker = L.marker(L.latLng(y, x), {
-          icon: createCategoryPinIcon(category, isFound, isSelected),
-          title: marker.title,
-        });
+      const leafletMarker = L.marker(L.latLng(y, x), {
+        icon: createCategoryPinIcon(category, isFound, isSelected),
+        title: marker.title,
+      });
 
-        const foundSuffix = isFound ? ' · Encontrado' : '';
-        leafletMarker.bindTooltip(
-          `<span class="nexus-tooltip-title">${escapeHtml(marker.title)}${foundSuffix}</span>`,
-          {
-            direction: 'top',
-            offset: L.point(0, -14),
-            className: 'nexus-leaflet-tooltip',
-            opacity: 1,
-          }
-        );
+      const foundSuffix = isFound ? ' · Encontrado' : '';
+      leafletMarker.bindTooltip(
+        `<span class="nexus-tooltip-title">${escapeHtml(marker.title)}${foundSuffix}</span>`,
+        {
+          direction: 'top',
+          offset: L.point(0, -14),
+          className: 'nexus-leaflet-tooltip',
+          opacity: 1,
+        }
+      );
 
-        leafletMarker.on('click', (event) => {
-          L.DomEvent.stopPropagation(event);
-          onSelectMarkerRef.current(marker);
-        });
+      leafletMarker.on('click', (event) => {
+        L.DomEvent.stopPropagation(event);
+        onSelectMarkerRef.current(marker);
+      });
 
-        leafletMarker.addTo(group);
+      return leafletMarker;
+    };
+
+    // Chunked loading helper (keeps 2,690+ markers smooth at 60fps during pan/zoom)
+    const addInChunks = (items: Array<() => L.Layer>) => {
+      const CHUNK_SIZE = 160;
+      if (items.length <= CHUNK_SIZE) {
+        for (const create of items) {
+          create().addTo(group);
+        }
+        return;
       }
+
+      let cursor = 0;
+      const step = () => {
+        const end = Math.min(cursor + CHUNK_SIZE, items.length);
+        for (; cursor < end; cursor++) {
+          items[cursor]().addTo(group);
+        }
+        if (cursor < items.length) {
+          chunkRafRef.current = requestAnimationFrame(step);
+        } else {
+          chunkRafRef.current = null;
+        }
+      };
+      step();
+    };
+
+    if (!shouldCluster) {
+      addInChunks(visibleInViewport.map((m) => () => buildPinLayer(m)));
       return;
     }
 
@@ -222,7 +355,6 @@ export function InteractiveMap({
     const buckets = new Map<string, MapMarker[]>();
     for (const marker of visibleInViewport) {
       if (selectedMarkerId === marker.id) {
-        // Always keep the currently selected marker unclustered
         buckets.set(`selected:${marker.id}`, [marker]);
         continue;
       }
@@ -238,79 +370,58 @@ export function InteractiveMap({
       }
     }
 
+    const renderQueue: Array<() => L.Layer> = [];
     for (const bucket of buckets.values()) {
       if (bucket.length === 1) {
         const marker = bucket[0];
-        const category = categoriesById[marker.category];
-        const [x, y] = marker.coords;
-        const isFound = foundMarkerIds.has(marker.id);
-        const isSelected = selectedMarkerId === marker.id;
-
-        const leafletMarker = L.marker(L.latLng(y, x), {
-          icon: createCategoryPinIcon(category, isFound, isSelected),
-          title: marker.title,
-        });
-
-        const foundSuffix = isFound ? ' · Encontrado' : '';
-        leafletMarker.bindTooltip(
-          `<span class="nexus-tooltip-title">${escapeHtml(marker.title)}${foundSuffix}</span>`,
-          {
-            direction: 'top',
-            offset: L.point(0, -14),
-            className: 'nexus-leaflet-tooltip',
-            opacity: 1,
-          }
-        );
-
-        leafletMarker.on('click', (event) => {
-          L.DomEvent.stopPropagation(event);
-          onSelectMarkerRef.current(marker);
-        });
-
-        leafletMarker.addTo(group);
+        renderQueue.push(() => buildPinLayer(marker));
       } else {
-        // Cluster centroid
-        let sumX = 0;
-        let sumY = 0;
-        for (const m of bucket) {
-          sumX += m.coords[0];
-          sumY += m.coords[1];
-        }
-        const avgX = sumX / bucket.length;
-        const avgY = sumY / bucket.length;
-        const centerLatLng = L.latLng(avgY, avgX);
-
-        const clusterMarker = L.marker(centerLatLng, {
-          icon: createClusterPinIcon(bucket.length),
-          title: `${bucket.length} marcadores`,
-        });
-
-        clusterMarker.bindTooltip(
-          `<span class="nexus-tooltip-title">${bucket.length} marcadores (clique para aproximar)</span>`,
-          {
-            direction: 'top',
-            offset: L.point(0, -16),
-            className: 'nexus-leaflet-tooltip',
-            opacity: 1,
+        renderQueue.push(() => {
+          let sumX = 0;
+          let sumY = 0;
+          for (const m of bucket) {
+            sumX += m.coords[0];
+            sumY += m.coords[1];
           }
-        );
+          const avgX = sumX / bucket.length;
+          const avgY = sumY / bucket.length;
+          const centerLatLng = L.latLng(avgY, avgX);
 
-        clusterMarker.on('click', (event) => {
-          L.DomEvent.stopPropagation(event);
-          map.flyTo(
-            centerLatLng,
-            Math.min(overzoomMaxZoom, map.getZoom() + 1.25),
+          const clusterMarker = L.marker(centerLatLng, {
+            icon: createClusterPinIcon(bucket.length),
+            title: `${bucket.length} marcadores`,
+          });
+
+          clusterMarker.bindTooltip(
+            `<span class="nexus-tooltip-title">${bucket.length} marcadores (clique para aproximar)</span>`,
             {
-              duration: 0.35,
+              direction: 'top',
+              offset: L.point(0, -16),
+              className: 'nexus-leaflet-tooltip',
+              opacity: 1,
             }
           );
-        });
 
-        clusterMarker.addTo(group);
+          clusterMarker.on('click', (event) => {
+            L.DomEvent.stopPropagation(event);
+            map.flyTo(
+              centerLatLng,
+              Math.min(overzoomMaxZoom, map.getZoom() + 1.25),
+              {
+                duration: 0.35,
+              }
+            );
+          });
+
+          return clusterMarker;
+        });
       }
     }
+
+    addInChunks(renderQueue);
   }, [
     markers,
+    regions,
     categoriesById,
     foundMarkerIds,
     selectedMarkerId,
@@ -324,13 +435,17 @@ export function InteractiveMap({
     renderVisibleMarkersRef.current = renderVisibleMarkers;
   }, [renderVisibleMarkers]);
 
-  // 1. Initialize Leaflet instance once (L.CRS.Simple + preferCanvas: true)
+  // 1. Initialize Leaflet instance (supports both L.CRS.Simple and L.CRS.EPSG3857)
   useEffect(() => {
     const container = containerRef.current;
-    if (!container || leafletMapRef.current) return;
+    if (!container) return;
+
+    const leafletCrs =
+      crsType === 'epsg3857' ? L.CRS.EPSG3857 : L.CRS.Simple;
+    const coordPrecision = crsType === 'epsg3857' ? 100000 : 10;
 
     const map = L.map(container, {
-      crs: L.CRS.Simple,
+      crs: leafletCrs,
       preferCanvas: true,
       zoomControl: false,
       attributionControl: false,
@@ -339,12 +454,13 @@ export function InteractiveMap({
       zoomSnap: 0.25,
       zoomDelta: 0.5,
       wheelPxPerZoomLevel: 90,
-      maxBounds: resolvedBounds.pad(0.25),
+      maxBounds: resolvedBounds.pad(crsType === 'epsg3857' ? 0.15 : 0.25),
       maxBoundsViscosity: 0.85,
       center: resolvedCenter,
       zoom: defaultZoom,
     });
 
+    const regionsGroup = L.layerGroup().addTo(map);
     const routesGroup = L.layerGroup().addTo(map);
     const guidedGroup = L.layerGroup().addTo(map);
     const markerGroup = L.layerGroup().addTo(map);
@@ -352,16 +468,16 @@ export function InteractiveMap({
 
     map.on('mousemove', (event: L.LeafletMouseEvent) => {
       onCursorMoveRef.current?.({
-        x: Math.round(event.latlng.lng * 10) / 10,
-        y: Math.round(event.latlng.lat * 10) / 10,
+        x: Math.round(event.latlng.lng * coordPrecision) / coordPrecision,
+        y: Math.round(event.latlng.lat * coordPrecision) / coordPrecision,
       });
     });
 
     map.on('click', (event: L.LeafletMouseEvent) => {
       if (interactionModeRef.current !== 'explore') {
         const coords: [number, number] = [
-          Math.round(event.latlng.lng * 10) / 10,
-          Math.round(event.latlng.lat * 10) / 10,
+          Math.round(event.latlng.lng * coordPrecision) / coordPrecision,
+          Math.round(event.latlng.lat * coordPrecision) / coordPrecision,
         ];
         onMapClickRef.current?.(coords);
       }
@@ -377,6 +493,7 @@ export function InteractiveMap({
     });
 
     leafletMapRef.current = map;
+    regionsLayerRef.current = regionsGroup;
     routesLayerRef.current = routesGroup;
     guidedLayerRef.current = guidedGroup;
     markersLayerRef.current = markerGroup;
@@ -384,7 +501,12 @@ export function InteractiveMap({
     onZoomChangeRef.current?.(map.getZoom());
 
     return () => {
+      if (chunkRafRef.current !== null) {
+        cancelAnimationFrame(chunkRafRef.current);
+        chunkRafRef.current = null;
+      }
       map.off();
+      regionsLayerRef.current?.clearLayers();
       markersLayerRef.current?.clearLayers();
       notesLayerRef.current?.clearLayers();
       routesLayerRef.current?.clearLayers();
@@ -393,17 +515,21 @@ export function InteractiveMap({
       map.remove();
       leafletMapRef.current = null;
       tileLayerRef.current = null;
+      regionsLayerRef.current = null;
       markersLayerRef.current = null;
       notesLayerRef.current = null;
       routesLayerRef.current = null;
       guidedLayerRef.current = null;
       playerMarkerRef.current = null;
     };
-    // Mount-only initialization; dynamic layer/bounds updates happen below.
+    // Re-initialize Leaflet only if the CRS projection changes.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [crsType]);
 
-  // 2. Swap active tile/fallback layer & update bounds smoothly on layer or theme change
+  // Keep track of previous mapLayer.id so switching Day/Night tileSets preserves camera position
+  const prevMapIdRef = useRef<string | null>(null);
+
+  // 2. Swap active tile/fallback layer & update bounds smoothly on layer, tileSet, or theme change
   useEffect(() => {
     const map = leafletMapRef.current;
     if (!map) return;
@@ -413,35 +539,65 @@ export function InteractiveMap({
       tileLayerRef.current = null;
     }
 
-    // Clear previous layer overlays immediately so stale pins never flash across layers
-    markersLayerRef.current?.clearLayers();
-    guidedLayerRef.current?.clearLayers();
+    const isSameLayer = prevMapIdRef.current === mapLayer.id;
+    prevMapIdRef.current = mapLayer.id;
+
+    if (!isSameLayer) {
+      // Clear previous layer overlays immediately so stale pins never flash across layers
+      markersLayerRef.current?.clearLayers();
+      guidedLayerRef.current?.clearLayers();
+    }
 
     map.setMinZoom(effectiveMinZoom);
     map.setMaxZoom(overzoomMaxZoom);
-    map.setMaxBounds(resolvedBounds.pad(0.25));
+    map.setMaxBounds(
+      resolvedBounds.pad(crsType === 'epsg3857' ? 0.15 : 0.25)
+    );
 
-    const nextTileLayer = createTacticalTileLayer({
-      tileUrlTemplate: mapLayer.tileUrlTemplate,
-      theme,
-      mapId: mapLayer.id,
-      bounds: resolvedBounds,
-      minZoom: effectiveMinZoom,
-      maxNativeZoom: nativeMaxZoom,
-      maxZoom: overzoomMaxZoom,
-    });
+    const rawTemplate = activeTileSet?.urlTemplate ?? mapLayer.tileUrlTemplate;
+    const resolvedTemplate = resolveTileUrlTemplate(rawTemplate);
+
+    // Use native L.tileLayer for external URLs or multi-tileset layers (supports {z}/{y}/{x}, tileBounds, and avoids CORS canvas tainting)
+    const useNativeTileLayer =
+      Boolean(activeTileSet) ||
+      Boolean(resolvedTemplate && /^https?:\/\//i.test(resolvedTemplate));
+
+    const nextTileLayer: L.GridLayer =
+      useNativeTileLayer && resolvedTemplate
+        ? L.tileLayer(resolvedTemplate, {
+            bounds: resolvedTileBounds,
+            minZoom: effectiveMinZoom,
+            maxNativeZoom: nativeMaxZoom,
+            maxZoom: overzoomMaxZoom,
+            noWrap: true,
+            keepBuffer: 2,
+          })
+        : createTacticalTileLayer({
+            tileUrlTemplate: resolvedTemplate,
+            theme,
+            mapId: mapLayer.id,
+            bounds: resolvedTileBounds,
+            minZoom: effectiveMinZoom,
+            maxNativeZoom: nativeMaxZoom,
+            maxZoom: overzoomMaxZoom,
+          });
 
     nextTileLayer.addTo(map);
     tileLayerRef.current = nextTileLayer;
 
-    map.setView(resolvedCenter, defaultZoom, { animate: true, duration: 0.35 });
-    onZoomChangeRef.current?.(defaultZoom);
+    if (!isSameLayer) {
+      map.setView(resolvedCenter, defaultZoom, { animate: true, duration: 0.35 });
+      onZoomChangeRef.current?.(defaultZoom);
+    }
     renderVisibleMarkersRef.current();
   }, [
+    crsType,
     mapLayer.id,
     mapLayer.tileUrlTemplate,
+    activeTileSet,
     theme,
     resolvedBounds,
+    resolvedTileBounds,
     resolvedCenter,
     effectiveMinZoom,
     nativeMaxZoom,
@@ -713,28 +869,28 @@ export function InteractiveMap({
         const map = leafletMapRef.current;
         if (!map) return;
         const [x, y] = marker.coords;
-        map.flyTo(
-          L.latLng(y, x),
-          Math.min(overzoomMaxZoom, Math.max(map.getZoom(), nativeMaxZoom + 0.5)),
-          {
-            duration: 0.45,
-          }
-        );
+        const targetZoom =
+          crsType === 'epsg3857'
+            ? Math.min(overzoomMaxZoom, Math.max(map.getZoom(), defaultZoom + 3))
+            : Math.min(overzoomMaxZoom, Math.max(map.getZoom(), nativeMaxZoom + 0.5));
+        map.flyTo(L.latLng(y, x), targetZoom, {
+          duration: 0.45,
+        });
       },
       flyToCoords: (coords: [number, number]) => {
         const map = leafletMapRef.current;
         if (!map) return;
         const [x, y] = coords;
-        map.flyTo(
-          L.latLng(y, x),
-          Math.min(overzoomMaxZoom, Math.max(map.getZoom(), nativeMaxZoom + 0.5)),
-          {
-            duration: 0.45,
-          }
-        );
+        const targetZoom =
+          crsType === 'epsg3857'
+            ? Math.min(overzoomMaxZoom, Math.max(map.getZoom(), defaultZoom + 3))
+            : Math.min(overzoomMaxZoom, Math.max(map.getZoom(), nativeMaxZoom + 0.5));
+        map.flyTo(L.latLng(y, x), targetZoom, {
+          duration: 0.45,
+        });
       },
     }),
-    [resolvedCenter, defaultZoom, nativeMaxZoom, overzoomMaxZoom]
+    [crsType, resolvedCenter, defaultZoom, nativeMaxZoom, overzoomMaxZoom]
   );
 
   const cursorClass =
@@ -744,7 +900,8 @@ export function InteractiveMap({
     <div
       ref={containerRef}
       aria-label={`Mapa interativo de ${mapLayer.name}`}
-      className={`h-full w-full bg-[var(--surface-base)] ${cursorClass}`}
+      className={`h-full w-full transition-colors duration-300 ${cursorClass}`}
+      style={{ backgroundColor: resolvedBgColor }}
     />
   );
 }

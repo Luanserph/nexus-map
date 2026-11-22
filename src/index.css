@@ -134,6 +134,41 @@
   animation: nexus-float-slow 9s ease-in-out infinite;
 }
 
+/* Discrete Cartographic Region Labels on Interactive Map */
+.nexus-region-label-wrapper {
+  background: transparent !important;
+  border: none !important;
+  pointer-events: none !important;
+}
+
+.nexus-region-label {
+  display: inline-block;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  font-family: var(--nexus-font-display);
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(248, 250, 252, 0.84);
+  text-shadow:
+    0 1px 4px rgba(0, 0, 0, 0.85),
+    0 0 12px rgba(0, 0, 0, 0.72);
+  pointer-events: none;
+  user-select: none;
+}
+
+.nexus-region-label--major {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.nexus-region-label--sub {
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: rgba(226, 232, 240, 0.72);
+}
+
 @media (prefers-reduced-motion: reduce) {
   .nexus-spotlight-particle {
     animation: none;

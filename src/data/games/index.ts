@@ -4,6 +4,7 @@ import type {
   GuidedRoute,
   HubGameEntry,
   MapMarker,
+  MapRegion,
 } from '../../types/schema';
 
 /**
@@ -23,6 +24,11 @@ const markerModules = import.meta.glob<{ default: MapMarker[] }>(
 
 const guideModules = import.meta.glob<{ default: GuidedRoute[] }>(
   './*/guides.json',
+  { eager: true }
+);
+
+const regionModules = import.meta.glob<{ default: MapRegion[] }>(
+  './*/regions.json',
   { eager: true }
 );
 
@@ -49,6 +55,18 @@ for (const [globPath, mod] of Object.entries(guideModules)) {
   if (slug) {
     guidesBySlug[slug] = mod.default as unknown as GuidedRoute[];
   }
+}
+
+const regionsBySlug: Record<string, MapRegion[]> = {};
+for (const [globPath, mod] of Object.entries(regionModules)) {
+  const slug = extractSlugFromGlobPath(globPath);
+  if (slug) {
+    regionsBySlug[slug] = mod.default as unknown as MapRegion[];
+  }
+}
+
+export function getRegionsByGameSlug(slug: string): MapRegion[] {
+  return regionsBySlug[slug] ?? [];
 }
 
 export function getGuidesByGameSlug(slug: string): GuidedRoute[] {

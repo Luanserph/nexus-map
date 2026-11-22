@@ -8,6 +8,7 @@ import {
   ChevronDown,
   ChevronRight,
   Compass,
+  Copy,
   Crown,
   DoorOpen,
   Download,
@@ -25,6 +26,7 @@ import {
   Lock,
   MapPin,
   Minus,
+  Moon,
   Navigation,
   PanelLeftClose,
   PanelLeftOpen,
@@ -42,6 +44,7 @@ import {
   Sparkles,
   Sprout,
   StickyNote,
+  Sun,
   Swords,
   Upload,
   X,
@@ -72,7 +75,7 @@ import { generateOptimized100Route } from '../../core/routing';
 import type { OptimizedRouteResult } from '../../core/routing';
 import { useLivePlayer } from '../../core/telemetry';
 import { useGameTheme } from '../../core/theme-engine';
-import { getMarkersByMap } from '../../data/games';
+import { getMarkersByMap, getRegionsByGameSlug } from '../../data/games';
 import type {
   Category,
   CategoryPreset,
@@ -220,6 +223,7 @@ export function MapWorkspace({
 
   // Dynamic Guided 100% Route Optimizer state
   const [isGuideOpen, setIsGuideOpen] = useState(false);
+  const [tileSetByLayer, setTileSetByLayer] = useState<Record<string, string>>({});
   const [guideScope, setGuideScope] = useState<GuideScope>('all');
   const [guideFocus, setGuideFocus] = useState<GuideFocus>('all');
   const [guideStartMode, setGuideStartMode] =
@@ -248,11 +252,41 @@ export function MapWorkspace({
     () => new Set()
   );
 
-  const [zoomLevel, setZoomLevel] = useState<number>(activeLayer?.defaultZoom ?? 0);
+  const [zoomLevel, setZoomLevel] = useState<number>(
+    activeLayer?.initialZoom ?? activeLayer?.defaultZoom ?? 0
+  );
   const [cursorCoords, setCursorCoords] = useState<{ x: number; y: number }>({
-    x: activeLayer?.defaultCenter?.[0] ?? 512,
-    y: activeLayer?.defaultCenter?.[1] ?? 512,
+    x: activeLayer?.initialCenter?.[1] ?? activeLayer?.defaultCenter?.[0] ?? 512,
+    y: activeLayer?.initialCenter?.[0] ?? activeLayer?.defaultCenter?.[1] ?? 512,
   });
+  const cursorCoordsRef = useRef(cursorCoords);
+  useEffect(() => {
+    cursorCoordsRef.current = cursorCoords;
+  }, [cursorCoords]);
+
+  useEffect(() => {
+    function onKeyDown(e: KeyboardEvent) {
+      if (e.key.toLowerCase() !== 'c' || e.ctrlKey || e.metaKey || e.altKey) return;
+      const target = e.target as HTMLElement | null;
+      if (
+        target &&
+        (target.tagName === 'INPUT' ||
+          target.tagName === 'TEXTAREA' ||
+          target.isContentEditable)
+      ) {
+        return;
+      }
+      const isGeo = activeLayer?.crs === 'epsg3857';
+      const c = cursorCoordsRef.current;
+      const formatted = isGeo
+        ? `[${c.y.toFixed(4)}, ${c.x.toFixed(4)}]`
+        : `[${c.x.toFixed(1)}, ${c.y.toFixed(1)}]`;
+      void navigator.clipboard?.writeText(formatted);
+      showToast(`Coordenada copiada: ${formatted}`);
+    }
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [activeLayer?.crs]);
   const [backupFeedback, setBackupFeedback] = useState<string | null>(null);
 
   const searchInputRef = useRef<HTMLInputElement>(null);
@@ -278,6 +312,11 @@ export function MapWorkspace({
     }
     return map;
   }, [manifest.categoryGroups]);
+
+  const gameRegions = useMemo(
+    () => getRegionsByGameSlug(manifest.slug),
+    [manifest.slug]
+  );
 
   const layerMarkers = useMemo(() => {
     return getMarkersByMap(manifest.slug, currentMapId);
@@ -695,6 +734,12 @@ export function MapWorkspace({
           <InteractiveMap
             mapRef={mapHandleRef}
             mapLayer={activeLayer}
+            regions={gameRegions}
+            activeTileSetId={
+              activeLayer.tileSets
+                ? (tileSetByLayer[activeLayer.id] ?? activeLayer.tileSets[0]?.id)
+                : undefined
+            }
             theme={activeTheme}
             markers={filteredMarkers}
             categoriesById={categoriesById}
@@ -788,6 +833,49 @@ export function MapWorkspace({
         <div className="pointer-events-auto flex flex-wrap items-center gap-2">
           {/* Language Selector in Map Topbar */}
           <LanguageSelector />
+
+          {/* TileSet Variant Switcher (e.g. Dia / Noite) */}
+          {activeLayer?.tileSets && activeLayer.tileSets.length > 1 && (
+            <GlassPanel variant="elevated" padding="none">
+              <div
+                className="flex items-center gap-1 px-2 py-2"
+                role="tablist"
+                aria-label="Estilo do mapa"
+              >
+                {activeLayer.tileSets.map((tileSet) => {
+                  const currentTsId =
+                    tileSetByLayer[activeLayer.id] ?? activeLayer.tileSets?.[0]?.id;
+                  const isActive = currentTsId === tileSet.id;
+                  const lowerId = tileSet.id.toLowerCase();
+                  const icon =
+                    lowerId.includes('night') || lowerId.includes('noite') ? (
+                      <Moon className="h-3.5 w-3.5" />
+                    ) : lowerId.includes('day') || lowerId.includes('dia') ? (
+                      <Sun className="h-3.5 w-3.5" />
+                    ) : (
+                      <Layers className="h-3.5 w-3.5" />
+                    );
+                  return (
+                    <NeonButton
+                      key={tileSet.id}
+                      size="sm"
+                      variant="glass"
+                      active={isActive}
+                      onClick={() =>
+                        setTileSetByLayer((prev) => ({
+                          ...prev,
+                          [activeLayer.id]: tileSet.id,
+                        }))
+                      }
+                      leftIcon={icon}
+                    >
+                      {tileSet.label}
+                    </NeonButton>
+                  );
+                })}
+              </div>
+            </GlassPanel>
+          )}
 
           {/* Dynamic Guided 100% Route Generator Trigger */}
           {layerMarkers.length > 0 && (
@@ -1406,27 +1494,59 @@ export function MapWorkspace({
       />
 
       {/* ================================================================= */}
-      {/* BOTTOM-RIGHT TACTICAL HUD: LIVE TELEMETRY + ZOOM + COORDS [X,Y]   */}
+      {/* BOTTOM-RIGHT TACTICAL HUD: LIVE TELEMETRY + ZOOM + COORDS         */}
       {/* ================================================================= */}
       <div className="pointer-events-none fixed right-4 bottom-4 z-20 flex flex-col items-end gap-2.5">
         <LiveTelemetryWidget telemetry={telemetry} />
 
         <div className="flex items-end gap-2.5">
           <GlassPanel variant="elevated" padding="none" className="pointer-events-auto">
-            <div className="flex items-center gap-3 px-3 py-1.5 font-mono text-[11px] text-[var(--text-secondary)]">
-              <span>
-                X:{' '}
-                <strong className="font-semibold text-[var(--text-primary)]">
-                  {cursorCoords.x.toFixed(1)}
-                </strong>
-              </span>
-              <span className="text-white/20">|</span>
-              <span>
-                Y:{' '}
-                <strong className="font-semibold text-[var(--text-primary)]">
-                  {cursorCoords.y.toFixed(1)}
-                </strong>
-              </span>
+            <button
+              type="button"
+              onClick={() => {
+                const isGeo = activeLayer?.crs === 'epsg3857';
+                const formatted = isGeo
+                  ? `[${cursorCoords.y.toFixed(4)}, ${cursorCoords.x.toFixed(4)}]`
+                  : `[${cursorCoords.x.toFixed(1)}, ${cursorCoords.y.toFixed(1)}]`;
+                void navigator.clipboard?.writeText(formatted);
+                showToast(`Coordenada copiada: ${formatted}`);
+              }}
+              title="Clique para copiar a coordenada atual (ou pressione C)"
+              className="group flex cursor-pointer items-center gap-3 px-3 py-1.5 font-mono text-[11px] text-[var(--text-secondary)] transition-colors hover:text-[var(--text-primary)]"
+            >
+              {activeLayer?.crs === 'epsg3857' ? (
+                <>
+                  <span>
+                    Lat:{' '}
+                    <strong className="font-semibold text-[var(--text-primary)]">
+                      {cursorCoords.y.toFixed(4)}
+                    </strong>
+                  </span>
+                  <span className="text-white/20">|</span>
+                  <span>
+                    Lng:{' '}
+                    <strong className="font-semibold text-[var(--text-primary)]">
+                      {cursorCoords.x.toFixed(4)}
+                    </strong>
+                  </span>
+                </>
+              ) : (
+                <>
+                  <span>
+                    X:{' '}
+                    <strong className="font-semibold text-[var(--text-primary)]">
+                      {cursorCoords.x.toFixed(1)}
+                    </strong>
+                  </span>
+                  <span className="text-white/20">|</span>
+                  <span>
+                    Y:{' '}
+                    <strong className="font-semibold text-[var(--text-primary)]">
+                      {cursorCoords.y.toFixed(1)}
+                    </strong>
+                  </span>
+                </>
+              )}
               <span className="text-white/20">|</span>
               <span>
                 Z:{' '}
@@ -1434,7 +1554,8 @@ export function MapWorkspace({
                   {zoomLevel.toFixed(2)}
                 </strong>
               </span>
-            </div>
+              <Copy className="h-3 w-3 text-[var(--text-muted)] transition-colors group-hover:text-[var(--accent-primary)]" />
+            </button>
           </GlassPanel>
 
           <GlassPanel variant="elevated" padding="none" className="pointer-events-auto">
