@@ -1,3 +1,5 @@
+import type { GamePlatform } from '../../src/types/schema';
+
 export interface RawgGameMetadata {
   id: number;
   slug: string;
@@ -5,6 +7,7 @@ export interface RawgGameMetadata {
   studio: string;
   releaseYear: number;
   genres: string[];
+  platforms: GamePlatform[];
   backgroundImage?: string;
   additionalImage?: string;
 }
@@ -36,6 +39,21 @@ interface RawgDetailResponse {
   developers?: Array<{ name: string }>;
   publishers?: Array<{ name: string }>;
   genres?: Array<{ name: string }>;
+  parent_platforms?: Array<{ platform: { slug: string } }>;
+}
+
+function mapRawgPlatforms(
+  parentPlatforms?: Array<{ platform: { slug: string } }>
+): GamePlatform[] {
+  const result = new Set<GamePlatform>();
+  for (const item of parentPlatforms ?? []) {
+    const slug = item.platform?.slug?.toLowerCase() ?? '';
+    if (slug === 'pc') result.add('pc');
+    else if (slug === 'playstation') result.add('playstation');
+    else if (slug === 'xbox') result.add('xbox');
+    else if (slug === 'nintendo') result.add('switch');
+  }
+  return Array.from(result);
 }
 
 interface SgdbSearchResponse {
@@ -93,6 +111,7 @@ export async function fetchRawgMetadata(
   const rawGenres = (detailData?.genres ?? bestMatch.genres ?? [])
     .map((g) => g.name)
     .slice(0, 3);
+  const platforms = mapRawgPlatforms(detailData?.parent_platforms);
 
   return {
     id: bestMatch.id,
@@ -101,6 +120,7 @@ export async function fetchRawgMetadata(
     studio,
     releaseYear,
     genres: rawGenres.length > 0 ? rawGenres : ['Aventura'],
+    platforms: platforms.length > 0 ? platforms : ['pc'],
     backgroundImage:
       detailData?.background_image ?? bestMatch.background_image ?? undefined,
     additionalImage: detailData?.background_image_additional ?? undefined,

@@ -6,3 +6,5 @@ export { GlassPanel } from './GlassPanel';
 export type { GlassPanelPadding, GlassPanelProps, GlassPanelVariant } from './GlassPanel';
 export { NeonButton } from './NeonButton';
 export type { NeonButtonProps, NeonButtonSize, NeonButtonVariant } from './NeonButton';
+export { NexusLogo } from './NexusLogo';
+export type { NexusLogoProps } from './NexusLogo';

@@ -1,82 +1,6328 @@
 [
   {
-    "id": "hk-bench-dirtmouth",
-    "mapId": "hallownest",
-    "category": "bench",
-    "title": "Banco de Dirtmouth",
-    "description": "Banco central da cidade silenciosa na superfície, próximo à loja de Iselda e Cornifer.",
-    "coords": [498, 822],
-    "region": "Dirtmouth",
-    "metadata": { "safeZone": true }
-  },
-  {
-    "id": "hk-stag-crossroads",
+    "id": "hk-stag-station-0",
     "mapId": "hallownest",
     "category": "stag-station",
-    "title": "Estação da Encruzilhada Esquecida",
-    "description": "Primeira estação da rede do Último Besouro, conectando o subsolo à superfície.",
-    "coords": [534, 684],
-    "region": "Encruzilhada Esquecida",
-    "metadata": { "costGeo": 50 }
+    "title": "Estação de Besouro — Stag Nest",
+    "description": "Estação de viagem rápida do Último Besouro localizada em Penhascos Uivantes.",
+    "coords": [
+      27.86,
+      -8.44
+    ],
+    "region": "Penhascos Uivantes",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Stag_Station"
   },
   {
-    "id": "hk-grub-crossroads",
+    "id": "hk-stag-station-1",
+    "mapId": "hallownest",
+    "category": "stag-station",
+    "title": "Estação de Besouro — Queen's Garden",
+    "description": "Estação de viagem rápida do Último Besouro localizada em Cânion da Névoa.",
+    "coords": [
+      25.94,
+      -42.79
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Stag_Station"
+  },
+  {
+    "id": "hk-stag-station-2",
+    "mapId": "hallownest",
+    "category": "stag-station",
+    "title": "Estação de Besouro — Distant Village",
+    "description": "Estação de viagem rápida do Último Besouro localizada em Ninho Profundo.",
+    "coords": [
+      14.44,
+      -56.48
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Stag_Station"
+  },
+  {
+    "id": "hk-stag-station-3",
+    "mapId": "hallownest",
+    "category": "stag-station",
+    "title": "Estação de Besouro — Greenpath",
+    "description": "Estação de viagem rápida do Último Besouro localizada em Caminho Verde.",
+    "coords": [
+      27.94,
+      -24.11
+    ],
+    "region": "Caminho Verde",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Stag_Station"
+  },
+  {
+    "id": "hk-stag-station-4",
+    "mapId": "hallownest",
+    "category": "stag-station",
+    "title": "Estação de Besouro — Hidden Station",
+    "description": "Estação de viagem rápida do Último Besouro localizada em A Colmeia.",
+    "coords": [
+      102.38,
+      -69.61
+    ],
+    "region": "A Colmeia",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Stag_Station"
+  },
+  {
+    "id": "hk-stag-station-5",
+    "mapId": "hallownest",
+    "category": "stag-station",
+    "title": "Estação de Besouro — King's Station",
+    "description": "Estação de viagem rápida do Último Besouro localizada em Borda do Reino.",
+    "coords": [
+      109.44,
+      -52.1
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Stag_Station"
+  },
+  {
+    "id": "hk-stag-station-6",
+    "mapId": "hallownest",
+    "category": "stag-station",
+    "title": "Estação de Besouro — Resting Grounds",
+    "description": "Estação de viagem rápida do Último Besouro localizada em Terra do Descanso.",
+    "coords": [
+      110.81,
+      -26.86
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Stag_Station"
+  },
+  {
+    "id": "hk-stag-station-7",
+    "mapId": "hallownest",
+    "category": "stag-station",
+    "title": "Estação de Besouro — Forgotten Crossroads",
+    "description": "Estação de viagem rápida do Último Besouro localizada em Encruzilhada Esquecida.",
+    "coords": [
+      72.69,
+      -28.36
+    ],
+    "region": "Encruzilhada Esquecida",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Stag_Station"
+  },
+  {
+    "id": "hk-stag-station-8",
+    "mapId": "hallownest",
+    "category": "stag-station",
+    "title": "Estação de Besouro — Queen's Station",
+    "description": "Estação de viagem rápida do Último Besouro localizada em Ninho Profundo.",
+    "coords": [
+      45.69,
+      -45.6
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Stag_Station"
+  },
+  {
+    "id": "hk-stag-station-9",
+    "mapId": "hallownest",
+    "category": "stag-station",
+    "title": "Estação de Besouro — Dirtmouth",
+    "description": "Estação de viagem rápida do Último Besouro localizada em Dirtmouth.",
+    "coords": [
+      63.56,
+      -19.61
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Stag_Station"
+  },
+  {
+    "id": "hk-stag-station-10",
+    "mapId": "hallownest",
+    "category": "stag-station",
+    "title": "Estação de Besouro — City Storerooms",
+    "description": "Estação de viagem rápida do Último Besouro localizada em Cidade das Lágrimas.",
+    "coords": [
+      77.44,
+      -39.6
+    ],
+    "region": "Cidade das Lágrimas",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Stag_Station"
+  },
+  {
+    "id": "hk-tram-11",
+    "mapId": "hallownest",
+    "category": "tram",
+    "title": "Estação de Bonde — Lar dos Deuses",
+    "description": "Parada da linha de bonde subterrânea em Lar dos Deuses (requer Passe de Bonde).",
+    "coords": [
+      56.75,
+      -64.73
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster",
+    "wikiUrl": "https://hollowknight.wiki/w/Tram"
+  },
+  {
+    "id": "hk-tram-12",
+    "mapId": "hallownest",
+    "category": "tram",
+    "title": "Estação de Bonde — Bacia Antiga",
+    "description": "Parada da linha de bonde subterrânea em Bacia Antiga (requer Passe de Bonde).",
+    "coords": [
+      86.13,
+      -64.54
+    ],
+    "region": "Bacia Antiga",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Tram"
+  },
+  {
+    "id": "hk-tram-13",
+    "mapId": "hallownest",
+    "category": "tram",
+    "title": "Estação de Bonde — A Colmeia",
+    "description": "Parada da linha de bonde subterrânea em A Colmeia (requer Passe de Bonde).",
+    "coords": [
+      102.63,
+      -64.73
+    ],
+    "region": "A Colmeia",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Tram"
+  },
+  {
+    "id": "hk-tram-14",
+    "mapId": "hallownest",
+    "category": "tram",
+    "title": "Estação de Bonde — Terra do Descanso",
+    "description": "Parada da linha de bonde subterrânea em Terra do Descanso (requer Passe de Bonde).",
+    "coords": [
+      82.94,
+      -29.17
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Tram"
+  },
+  {
+    "id": "hk-tram-15",
+    "mapId": "hallownest",
+    "category": "tram",
+    "title": "Estação de Bonde — Terra do Descanso",
+    "description": "Parada da linha de bonde subterrânea em Terra do Descanso (requer Passe de Bonde).",
+    "coords": [
+      90,
+      -29.17
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Tram"
+  },
+  {
+    "id": "hk-bench-16",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Cânion da Névoa",
+    "description": "Banco de descanso em Cânion da Névoa para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      18.44,
+      -23.92
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-17",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Caminho Verde",
+    "description": "Banco de descanso em Caminho Verde para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      28.75,
+      -24.17
+    ],
+    "region": "Caminho Verde",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-18",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Caminho Verde",
+    "description": "Banco de descanso em Caminho Verde para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      34.13,
+      -26.86
+    ],
+    "region": "Caminho Verde",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-19",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Caminho Verde",
+    "description": "Banco de descanso em Caminho Verde para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      45,
+      -23.04
+    ],
+    "region": "Caminho Verde",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-1451",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Encruzilhada Esquecida",
+    "description": "Banco de descanso em Encruzilhada Esquecida para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      69.94,
+      -21.67
+    ],
+    "region": "Encruzilhada Esquecida",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-20",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Penhascos Uivantes",
+    "description": "Banco de descanso em Penhascos Uivantes para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      44,
+      -12.11
+    ],
+    "region": "Penhascos Uivantes",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-21",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Dirtmouth",
+    "description": "Banco de descanso em Dirtmouth para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      62.56,
+      -19.67
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-22",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Ninho Profundo",
+    "description": "Banco de descanso em Ninho Profundo para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      22.25,
+      -46.29
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-23",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Cânion da Névoa",
+    "description": "Banco de descanso em Cânion da Névoa para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      27,
+      -42.79
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-24",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Cânion da Névoa",
+    "description": "Banco de descanso em Cânion da Névoa para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      35.88,
+      -41.35
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-25",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Ninho Profundo",
+    "description": "Banco de descanso em Ninho Profundo para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      46.63,
+      -45.54
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-26",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Terra do Descanso",
+    "description": "Banco de descanso em Terra do Descanso para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      90.38,
+      -26.79
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-27",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Pico de Cristal",
+    "description": "Banco de descanso em Pico de Cristal para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      89.38,
+      -16.42
+    ],
+    "region": "Pico de Cristal",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-28",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Terra do Descanso",
+    "description": "Banco de descanso em Terra do Descanso para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      109.63,
+      -26.92
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-29",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Borda do Reino",
+    "description": "Banco de descanso em Borda do Reino para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      115.19,
+      -29.67
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-30",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Encruzilhada Esquecida",
+    "description": "Banco de descanso em Encruzilhada Esquecida para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      73.5,
+      -28.36
+    ],
+    "region": "Encruzilhada Esquecida",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-31",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Terra do Descanso",
+    "description": "Banco de descanso em Terra do Descanso para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      83.34,
+      -31.26
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-32",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Encruzilhada Esquecida",
+    "description": "Banco de descanso em Encruzilhada Esquecida para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      67.63,
+      -28.61
+    ],
+    "region": "Encruzilhada Esquecida",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-33",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Cidade das Lágrimas",
+    "description": "Banco de descanso em Cidade das Lágrimas para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      72.38,
+      -34.94
+    ],
+    "region": "Cidade das Lágrimas",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-34",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Cidade das Lágrimas",
+    "description": "Banco de descanso em Cidade das Lágrimas para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      65.75,
+      -37.23
+    ],
+    "region": "Cidade das Lágrimas",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-35",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Caminho Verde",
+    "description": "Banco de descanso em Caminho Verde para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      48.63,
+      -31.48
+    ],
+    "region": "Caminho Verde",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-36",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Borda do Reino",
+    "description": "Banco de descanso em Borda do Reino para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      134.69,
+      -57.6
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-37",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Borda do Reino",
+    "description": "Banco de descanso em Borda do Reino para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      125.5,
+      -49.42
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-38",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — A Colmeia",
+    "description": "Banco de descanso em A Colmeia para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      112.81,
+      -66.04
+    ],
+    "region": "A Colmeia",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-39",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Borda do Reino",
+    "description": "Banco de descanso em Borda do Reino para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      108.63,
+      -52.17
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-40",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Bacia Antiga",
+    "description": "Banco de descanso em Bacia Antiga para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      82.38,
+      -70.48
+    ],
+    "region": "Bacia Antiga",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-41",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Hidrovia Real",
+    "description": "Banco de descanso em Hidrovia Real para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      80.81,
+      -57.92
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-42",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Hidrovia Real",
+    "description": "Banco de descanso em Hidrovia Real para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      66,
+      -54.73
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-43",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Hidrovia Real",
+    "description": "Banco de descanso em Hidrovia Real para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      77.63,
+      -49.17
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-44",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Hidrovia Real",
+    "description": "Banco de descanso em Hidrovia Real para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      90.5,
+      -48.54
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-45",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Cidade das Lágrimas",
+    "description": "Banco de descanso em Cidade das Lágrimas para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      84,
+      -43.98
+    ],
+    "region": "Cidade das Lágrimas",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-46",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Ermos Fúngicos",
+    "description": "Banco de descanso em Ermos Fúngicos para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      62.38,
+      -53.79
+    ],
+    "region": "Ermos Fúngicos",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-47",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Lar dos Deuses",
+    "description": "Banco de descanso em Lar dos Deuses para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      44.44,
+      -64.73
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-48",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Ninho Profundo",
+    "description": "Banco de descanso em Ninho Profundo para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      41.69,
+      -53.79
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-49",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Cânion da Névoa",
+    "description": "Banco de descanso em Cânion da Névoa para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      15.31,
+      -29.61
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-50",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Cidade das Lágrimas",
+    "description": "Banco de descanso em Cidade das Lágrimas para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      76.38,
+      -39.48
+    ],
+    "region": "Cidade das Lágrimas",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-51",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Terra do Descanso",
+    "description": "Banco de descanso em Terra do Descanso para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      102.5,
+      -42.73
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-52",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Borda do Reino",
+    "description": "Banco de descanso em Borda do Reino para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      114.47,
+      -40.01
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-53",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Lar dos Deuses",
+    "description": "Banco de descanso em Lar dos Deuses para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      39.16,
+      -71.54
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-54",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — A Colmeia",
+    "description": "Banco de descanso em A Colmeia para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      103.88,
+      -69.64
+    ],
+    "region": "A Colmeia",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-55",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Lar dos Deuses",
+    "description": "Banco de descanso em Lar dos Deuses para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      57.85,
+      -86.89
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-1457",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Lar dos Deuses",
+    "description": "Banco de descanso em Lar dos Deuses para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      57.52,
+      -81.54
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-1452",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Lar dos Deuses",
+    "description": "Banco de descanso em Lar dos Deuses para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      58.27,
+      -90.73
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-56",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Ninho Profundo",
+    "description": "Banco de descanso em Ninho Profundo para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      7.89,
+      -47.09
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-57",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Palácio Branco",
+    "description": "Banco de descanso em Palácio Branco para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      130.18,
+      -103.44
+    ],
+    "region": "Palácio Branco",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-58",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Palácio Branco",
+    "description": "Banco de descanso em Palácio Branco para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      122.51,
+      -128.1
+    ],
+    "region": "Palácio Branco",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-bench-59",
+    "mapId": "hallownest",
+    "category": "bench",
+    "title": "Banco — Palácio Branco",
+    "description": "Banco de descanso em Palácio Branco para restaurar vida, salvar progresso e ajustar amuletos.",
+    "coords": [
+      128.71,
+      -116.05
+    ],
+    "region": "Palácio Branco",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Bench_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-ability-274",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Mothwing Cloak",
+    "description": "Habilidade ou feitiço desbloqueável em Caminho Verde.",
+    "coords": [
+      25.69,
+      -22.79
+    ],
+    "region": "Caminho Verde",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-275",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Mantis Claw",
+    "description": "Habilidade ou feitiço desbloqueável em Ermos Fúngicos.",
+    "coords": [
+      56.13,
+      -51.04
+    ],
+    "region": "Ermos Fúngicos",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-276",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Crystal Heart",
+    "description": "Habilidade ou feitiço desbloqueável em Terra do Descanso.",
+    "coords": [
+      106.53,
+      -19.76
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-277",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Monarch Wings",
+    "description": "Habilidade ou feitiço desbloqueável em Lar dos Deuses.",
+    "coords": [
+      58.16,
+      -70.95
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-ability-278",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Isma's Tear",
+    "description": "Habilidade ou feitiço desbloqueável em A Colmeia.",
+    "coords": [
+      105.38,
+      -60.89
+    ],
+    "region": "A Colmeia",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-279",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Shade Cloak",
+    "description": "Habilidade ou feitiço desbloqueável em Palácio Branco.",
+    "coords": [
+      114.31,
+      -85.61
+    ],
+    "region": "Palácio Branco",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-280",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Dream Nail",
+    "description": "Habilidade ou feitiço desbloqueável em Terra do Descanso.",
+    "coords": [
+      103.88,
+      -29.61
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-933",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Unlock Glade of Hope (requires 200 Essences)",
+    "description": "Habilidade ou feitiço desbloqueável em Terra do Descanso.",
+    "coords": [
+      107.31,
+      -24.54
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Glade_of_Hope"
+  },
+  {
+    "id": "hk-ability-934",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Dream Gate (requires 900 Essences)",
+    "description": "Habilidade ou feitiço desbloqueável em Terra do Descanso.",
+    "coords": [
+      107.31,
+      -24.54
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-935",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Awoken Dream Nail (requires 1800 Essences)",
+    "description": "Habilidade ou feitiço desbloqueável em Terra do Descanso.",
+    "coords": [
+      107.31,
+      -24.54
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-936",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Achievement - Ascension (requires 2400 Essences)",
+    "description": "Habilidade ou feitiço desbloqueável em Terra do Descanso.",
+    "coords": [
+      107.31,
+      -24.54
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Achievements_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-ability-281",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Vengeful Spirit",
+    "description": "Habilidade ou feitiço desbloqueável em Cidade das Lágrimas.",
+    "coords": [
+      73.2,
+      -34.96
+    ],
+    "region": "Cidade das Lágrimas",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-283",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Shade Soul",
+    "description": "Habilidade ou feitiço desbloqueável em Cidade das Lágrimas.",
+    "coords": [
+      83.97,
+      -41.92
+    ],
+    "region": "Cidade das Lágrimas",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-284",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Desolate Dive",
+    "description": "Habilidade ou feitiço desbloqueável em Cidade das Lágrimas.",
+    "coords": [
+      82.63,
+      -40.1
+    ],
+    "region": "Cidade das Lágrimas",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-285",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Descending Dark",
+    "description": "Habilidade ou feitiço desbloqueável em Terra do Descanso.",
+    "coords": [
+      103.5,
+      -23.67
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-286",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Howling Wrairths",
+    "description": "Habilidade ou feitiço desbloqueável em Cânion da Névoa.",
+    "coords": [
+      35.66,
+      -35.74
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-287",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Abyss Shriek",
+    "description": "Habilidade ou feitiço desbloqueável em O Abismo.",
+    "coords": [
+      74,
+      -86.45
+    ],
+    "region": "O Abismo",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-288",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Great Slash",
+    "description": "Habilidade ou feitiço desbloqueável em Cânion da Névoa.",
+    "coords": [
+      14.31,
+      -29.54
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-289",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Dash Slash (for 800 Geo)",
+    "description": "Habilidade ou feitiço desbloqueável em Borda do Reino.",
+    "coords": [
+      133.88,
+      -57.57
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-290",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Cyclone Slash",
+    "description": "Habilidade ou feitiço desbloqueável em Penhascos Uivantes.",
+    "coords": [
+      44,
+      -12.11
+    ],
+    "region": "Penhascos Uivantes",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-958",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Salubra's Blessing (for 800 Geo with all charms obtained)",
+    "description": "Habilidade ou feitiço desbloqueável em Terra do Descanso.",
+    "coords": [
+      83.34,
+      -31.26
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-941",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Lumafly Lantern (for 1800 Geo)",
+    "description": "Habilidade ou feitiço desbloqueável em Dirtmouth.",
+    "coords": [
+      60.78,
+      -17.91
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-922",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "King's Brand",
+    "description": "Habilidade ou feitiço desbloqueável em Borda do Reino.",
+    "coords": [
+      134.44,
+      -54.48
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-923",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Collector's Map",
+    "description": "Habilidade ou feitiço desbloqueável em Borda do Reino.",
+    "coords": [
+      110.75,
+      -46.48
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-835",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Hunter's Journal",
+    "description": "Habilidade ou feitiço desbloqueável em Caminho Verde.",
+    "coords": [
+      52.19,
+      -29.17
+    ],
+    "region": "Caminho Verde",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-1334",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "God Tuner",
+    "description": "Habilidade ou feitiço desbloqueável em Hidrovia Real.",
+    "coords": [
+      65.56,
+      -61.45
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-1335",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "World Sense (requires defeating all 3 Dreamers)",
+    "description": "Habilidade ou feitiço desbloqueável em Encruzilhada Esquecida.",
+    "coords": [
+      69.94,
+      -21.67
+    ],
+    "region": "Encruzilhada Esquecida",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-983",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Item - Elegant Key (requires Shopkeeper's Key and 800 Geo)",
+    "description": "Habilidade ou feitiço desbloqueável em Dirtmouth.",
+    "coords": [
+      60.78,
+      -17.91
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-1232",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Item - Simple Key",
+    "description": "Habilidade ou feitiço desbloqueável em Dirtmouth.",
+    "coords": [
+      60.78,
+      -17.91
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-919",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Item - Simple Key",
+    "description": "Habilidade ou feitiço desbloqueável em Cidade das Lágrimas.",
+    "coords": [
+      77.06,
+      -41.42
+    ],
+    "region": "Cidade das Lágrimas",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-920",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Item - Simple Key",
+    "description": "Habilidade ou feitiço desbloqueável em Bacia Antiga.",
+    "coords": [
+      66.34,
+      -74.26
+    ],
+    "region": "Bacia Antiga",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-921",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Item - Simple Key",
+    "description": "Habilidade ou feitiço desbloqueável em Borda do Reino.",
+    "coords": [
+      128.56,
+      -41.48
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-924",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Item - Shopkeeper's Key",
+    "description": "Habilidade ou feitiço desbloqueável em Pico de Cristal.",
+    "coords": [
+      87.81,
+      -15.32
+    ],
+    "region": "Pico de Cristal",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-925",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Item - Love Key",
+    "description": "Habilidade ou feitiço desbloqueável em Ninho Profundo.",
+    "coords": [
+      42.09,
+      -46.23
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-ability-926",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Item - Tram Pass",
+    "description": "Habilidade ou feitiço desbloqueável em Ninho Profundo.",
+    "coords": [
+      27.38,
+      -54.42
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-959",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Sprintmaster Shell (requires Shopkeeper's Key and 400 Geo)",
+    "description": "Amuleto colecionável localizado em Dirtmouth.",
+    "coords": [
+      60.78,
+      -17.91
+    ],
+    "region": "Dirtmouth",
+    "dlc": "the-grimm-troupe"
+  },
+  {
+    "id": "hk-charm-960",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Heavy Blow (requires Shopkeeper's Key and 350 Geo)",
+    "description": "Amuleto colecionável localizado em Dirtmouth.",
+    "coords": [
+      60.78,
+      -17.91
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-961",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Grubsong (requires 10/46 Grubs)",
+    "description": "Amuleto colecionável localizado em Dirtmouth.",
+    "coords": [
+      58.75,
+      -21.61
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-962",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Grubberfly's Elegy (requires 46/46 Grubs)",
+    "description": "Amuleto colecionável localizado em Dirtmouth.",
+    "coords": [
+      58.75,
+      -21.61
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-963",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Wayward Compass (for 220 Geo)",
+    "description": "Amuleto colecionável localizado em Dirtmouth.",
+    "coords": [
+      64,
+      -18.04
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-964",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Unbreakable Greed (for 9,000 Geo)",
+    "description": "Amuleto colecionável localizado em Dirtmouth.",
+    "coords": [
+      58.94,
+      -19.4
+    ],
+    "region": "Dirtmouth",
+    "dlc": "the-grimm-troupe"
+  },
+  {
+    "id": "hk-charm-965",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Unbreakable Heart (for 12,000 Geo)",
+    "description": "Amuleto colecionável localizado em Dirtmouth.",
+    "coords": [
+      58.94,
+      -19.4
+    ],
+    "region": "Dirtmouth",
+    "dlc": "the-grimm-troupe"
+  },
+  {
+    "id": "hk-charm-966",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Unbreakable Strength (for 15,000 Geo)",
+    "description": "Amuleto colecionável localizado em Dirtmouth.",
+    "coords": [
+      58.94,
+      -19.4
+    ],
+    "region": "Dirtmouth",
+    "dlc": "the-grimm-troupe"
+  },
+  {
+    "id": "hk-charm-967",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Fragile Greed (for 250 Geo)",
+    "description": "Amuleto colecionável localizado em Cidade das Lágrimas.",
+    "coords": [
+      66.63,
+      -36.92
+    ],
+    "region": "Cidade das Lágrimas",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-968",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Fragile Heart (for 350 Geo)",
+    "description": "Amuleto colecionável localizado em Cidade das Lágrimas.",
+    "coords": [
+      66.63,
+      -36.92
+    ],
+    "region": "Cidade das Lágrimas",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-969",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Fragile Strength (for 600 Geo)",
+    "description": "Amuleto colecionável localizado em Cidade das Lágrimas.",
+    "coords": [
+      66.63,
+      -36.92
+    ],
+    "region": "Cidade das Lágrimas",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-970",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Dream Wielder (requires 500 Essences)",
+    "description": "Amuleto colecionável localizado em Terra do Descanso.",
+    "coords": [
+      107.31,
+      -24.54
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-971",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Lifeblood Heart (for 250 Geo)",
+    "description": "Amuleto colecionável localizado em Terra do Descanso.",
+    "coords": [
+      83.34,
+      -31.26
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-972",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Longnail (for 300 Geo",
+    "description": "Amuleto colecionável localizado em Terra do Descanso.",
+    "coords": [
+      83.34,
+      -31.26
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-973",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Steady Body (for 120 Geo)",
+    "description": "Amuleto colecionável localizado em Terra do Descanso.",
+    "coords": [
+      83.34,
+      -31.26
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-974",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Shaman Stone (for 220 Geo)",
+    "description": "Amuleto colecionável localizado em Terra do Descanso.",
+    "coords": [
+      83.34,
+      -31.26
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-975",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Quick Focus (for 800 Geo)",
+    "description": "Amuleto colecionável localizado em Terra do Descanso.",
+    "coords": [
+      83.34,
+      -31.26
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-976",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Gathering Swarm (for 300 Geo)",
+    "description": "Amuleto colecionável localizado em Dirtmouth.",
+    "coords": [
+      60.78,
+      -17.91
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-977",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Stalwart Shell (for 200 Geo)",
+    "description": "Amuleto colecionável localizado em Dirtmouth.",
+    "coords": [
+      60.78,
+      -17.91
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-291",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Soul Catcher",
+    "description": "Amuleto colecionável localizado em Cidade das Lágrimas.",
+    "coords": [
+      73.16,
+      -34.32
+    ],
+    "region": "Cidade das Lágrimas",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-292",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Soul Eater",
+    "description": "Amuleto colecionável localizado em Borda do Reino.",
+    "coords": [
+      116.81,
+      -30.61
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-293",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Dashmaster",
+    "description": "Amuleto colecionável localizado em Ermos Fúngicos.",
+    "coords": [
+      62.19,
+      -57.29
+    ],
+    "region": "Ermos Fúngicos",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-294",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Thorns of Agony",
+    "description": "Amuleto colecionável localizado em Caminho Verde.",
+    "coords": [
+      40.19,
+      -29.11
+    ],
+    "region": "Caminho Verde",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-295",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Fury of the Fallen",
+    "description": "Amuleto colecionável localizado em Dirtmouth.",
+    "coords": [
+      53.78,
+      -20.48
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-296",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Spell Twister",
+    "description": "Amuleto colecionável localizado em Terra do Descanso.",
+    "coords": [
+      88,
+      -37.92
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-297",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Quick Slash",
+    "description": "Amuleto colecionável localizado em Borda do Reino.",
+    "coords": [
+      129.81,
+      -59.92
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-298",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Mark of Pride",
+    "description": "Amuleto colecionável localizado em Ermos Fúngicos.",
+    "coords": [
+      60.94,
+      -53.54
+    ],
+    "region": "Ermos Fúngicos",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-299",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Baldur Shell",
+    "description": "Amuleto colecionável localizado em Caminho Verde.",
+    "coords": [
+      40.81,
+      -20.86
+    ],
+    "region": "Caminho Verde",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-300",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Flukenest",
+    "description": "Amuleto colecionável localizado em Hidrovia Real.",
+    "coords": [
+      75.5,
+      -61.17
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-301",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Defender's Crest",
+    "description": "Amuleto colecionável localizado em Hidrovia Real.",
+    "coords": [
+      92.5,
+      -56.54
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-302",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Glowing Womb",
+    "description": "Amuleto colecionável localizado em Encruzilhada Esquecida.",
+    "coords": [
+      73.03,
+      -25.04
+    ],
+    "region": "Encruzilhada Esquecida",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-303",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Deep Focus",
+    "description": "Amuleto colecionável localizado em Pico de Cristal.",
+    "coords": [
+      77.5,
+      -20.14
+    ],
+    "region": "Pico de Cristal",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-304",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Lifeblood Core",
+    "description": "Amuleto colecionável localizado em O Abismo.",
+    "coords": [
+      79.69,
+      -82.36
+    ],
+    "region": "O Abismo",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-305",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Joni's Blessing",
+    "description": "Amuleto colecionável localizado em Caminho Verde.",
+    "coords": [
+      45.75,
+      -15.86
+    ],
+    "region": "Caminho Verde",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-306",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Hiveblood",
+    "description": "Amuleto colecionável localizado em Palácio Branco.",
+    "coords": [
+      127.25,
+      -62.17
+    ],
+    "region": "Palácio Branco",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-307",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Spore Shroom",
+    "description": "Amuleto colecionável localizado em Ninho Profundo.",
+    "coords": [
+      47.13,
+      -48.35
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-308",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Sharp Shadow",
+    "description": "Amuleto colecionável localizado em Lar dos Deuses.",
+    "coords": [
+      53.06,
+      -67.98
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-charm-309",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Shape of Unn",
+    "description": "Amuleto colecionável localizado em Cânion da Névoa.",
+    "coords": [
+      11.75,
+      -28.42
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-310",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Nailmaster's Glory",
+    "description": "Amuleto colecionável localizado em Dirtmouth.",
+    "coords": [
+      60.78,
+      -17.91
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-311",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Kingsoul (Queen's Fragment)",
+    "description": "Amuleto colecionável localizado em Cânion da Névoa.",
+    "coords": [
+      17.06,
+      -35.85
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-312",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Kingsoul (King's Fragment)",
+    "description": "Amuleto colecionável localizado em Palácio Branco.",
+    "coords": [
+      123.28,
+      -76.11
+    ],
+    "region": "Palácio Branco",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-313",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Void Heart",
+    "description": "Amuleto colecionável localizado em O Abismo.",
+    "coords": [
+      85.13,
+      -88.11
+    ],
+    "region": "O Abismo",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-charm-314",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Weaversong",
+    "description": "Amuleto colecionável localizado em Ninho Profundo.",
+    "coords": [
+      27.32,
+      -68.57
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "the-grimm-troupe"
+  },
+  {
+    "id": "hk-charm-315",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Dreamshield",
+    "description": "Amuleto colecionável localizado em Terra do Descanso.",
+    "coords": [
+      103.75,
+      -26.73
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "the-grimm-troupe"
+  },
+  {
+    "id": "hk-charm-316",
+    "mapId": "hallownest",
+    "category": "charm",
+    "title": "Grimmchild",
+    "description": "Amuleto colecionável localizado em Dirtmouth.",
+    "coords": [
+      62.03,
+      -13.79
+    ],
+    "region": "Dirtmouth",
+    "dlc": "the-grimm-troupe"
+  },
+  {
+    "id": "hk-vessel-fragment-940",
+    "mapId": "hallownest",
+    "category": "vessel-fragment",
+    "title": "Fragmento de Receptáculo (for 550 Geo)",
+    "description": "Fragmento de Receptáculo em Dirtmouth (3 fragmentos aumentam a reserva de ALMA).",
+    "coords": [
+      60.78,
+      -17.91
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Vessel_Fragment"
+  },
+  {
+    "id": "hk-vessel-fragment-942",
+    "mapId": "hallownest",
+    "category": "vessel-fragment",
+    "title": "Fragmento de Receptáculo (requires Shopkeeper's Key and 900 Geo)",
+    "description": "Fragmento de Receptáculo em Dirtmouth (3 fragmentos aumentam a reserva de ALMA).",
+    "coords": [
+      60.78,
+      -17.91
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Vessel_Fragment"
+  },
+  {
+    "id": "hk-vessel-fragment-943",
+    "mapId": "hallownest",
+    "category": "vessel-fragment",
+    "title": "Fragmento de Receptáculo (requires 700 Essences)",
+    "description": "Fragmento de Receptáculo em Terra do Descanso (3 fragmentos aumentam a reserva de ALMA).",
+    "coords": [
+      107.31,
+      -24.54
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Vessel_Fragment"
+  },
+  {
+    "id": "hk-vessel-fragment-238",
+    "mapId": "hallownest",
+    "category": "vessel-fragment",
+    "title": "Fragmento de Receptáculo",
+    "description": "Fragmento de Receptáculo em Penhascos Uivantes (3 fragmentos aumentam a reserva de ALMA).",
+    "coords": [
+      30.11,
+      -8.43
+    ],
+    "region": "Penhascos Uivantes",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Vessel_Fragment"
+  },
+  {
+    "id": "hk-vessel-fragment-239",
+    "mapId": "hallownest",
+    "category": "vessel-fragment",
+    "title": "Fragmento de Receptáculo",
+    "description": "Fragmento de Receptáculo em Cânion da Névoa (3 fragmentos aumentam a reserva de ALMA).",
+    "coords": [
+      31.88,
+      -33.17
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Vessel_Fragment"
+  },
+  {
+    "id": "hk-vessel-fragment-240",
+    "mapId": "hallownest",
+    "category": "vessel-fragment",
+    "title": "Fragmento de Receptáculo",
+    "description": "Fragmento de Receptáculo em Ermos Fúngicos (3 fragmentos aumentam a reserva de ALMA).",
+    "coords": [
+      57.88,
+      -61.92
+    ],
+    "region": "Ermos Fúngicos",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Vessel_Fragment"
+  },
+  {
+    "id": "hk-vessel-fragment-241",
+    "mapId": "hallownest",
+    "category": "vessel-fragment",
+    "title": "Fragmento de Receptáculo (for 3,000 Geo)",
+    "description": "Fragmento de Receptáculo em Bacia Antiga (3 fragmentos aumentam a reserva de ALMA).",
+    "coords": [
+      87.03,
+      -66.7
+    ],
+    "region": "Bacia Antiga",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Vessel_Fragment"
+  },
+  {
+    "id": "hk-vessel-fragment-242",
+    "mapId": "hallownest",
+    "category": "vessel-fragment",
+    "title": "Fragmento de Receptáculo",
+    "description": "Fragmento de Receptáculo em Encruzilhada Esquecida (3 fragmentos aumentam a reserva de ALMA).",
+    "coords": [
+      65.31,
+      -30.79
+    ],
+    "region": "Encruzilhada Esquecida",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Vessel_Fragment"
+  },
+  {
+    "id": "hk-vessel-fragment-243",
+    "mapId": "hallownest",
+    "category": "vessel-fragment",
+    "title": "Fragmento de Receptáculo",
+    "description": "Fragmento de Receptáculo em Borda do Reino (3 fragmentos aumentam a reserva de ALMA).",
+    "coords": [
+      106.94,
+      -46.23
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Vessel_Fragment"
+  },
+  {
+    "id": "hk-mask-shard-937",
+    "mapId": "hallownest",
+    "category": "mask-shard",
+    "title": "Fragmento de Máscara (requires 1500 Essences)",
+    "description": "Fragmento de Máscara em Terra do Descanso (4 fragmentos aumentam a vida máxima em 1).",
+    "coords": [
+      107.31,
+      -24.54
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Mask_Shard_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-mask-shard-938",
+    "mapId": "hallownest",
+    "category": "mask-shard",
+    "title": "Fragmento de Máscara (for 150 Geo)",
+    "description": "Fragmento de Máscara em Dirtmouth (4 fragmentos aumentam a vida máxima em 1).",
+    "coords": [
+      60.78,
+      -17.91
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Mask_Shard_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-mask-shard-939",
+    "mapId": "hallownest",
+    "category": "mask-shard",
+    "title": "Fragmento de Máscara (for 500 Geo)",
+    "description": "Fragmento de Máscara em Dirtmouth (4 fragmentos aumentam a vida máxima em 1).",
+    "coords": [
+      60.78,
+      -17.91
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Mask_Shard_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-mask-shard-244",
+    "mapId": "hallownest",
+    "category": "mask-shard",
+    "title": "Fragmento de Máscara (requires having rescued Bretta)",
+    "description": "Fragmento de Máscara em Dirtmouth (4 fragmentos aumentam a vida máxima em 1).",
+    "coords": [
+      65.88,
+      -17.4
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Mask_Shard_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-mask-shard-245",
+    "mapId": "hallownest",
+    "category": "mask-shard",
+    "title": "Fragmento de Máscara",
+    "description": "Fragmento de Máscara em Pico de Cristal (4 fragmentos aumentam a vida máxima em 1).",
+    "coords": [
+      88.69,
+      -15.11
+    ],
+    "region": "Pico de Cristal",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Mask_Shard_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-mask-shard-246",
+    "mapId": "hallownest",
+    "category": "mask-shard",
+    "title": "Fragmento de Máscara",
+    "description": "Fragmento de Máscara em Borda do Reino (4 fragmentos aumentam a vida máxima em 1).",
+    "coords": [
+      114.25,
+      -29.61
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Mask_Shard_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-mask-shard-247",
+    "mapId": "hallownest",
+    "category": "mask-shard",
+    "title": "Fragmento de Máscara",
+    "description": "Fragmento de Máscara em A Colmeia (4 fragmentos aumentam a vida máxima em 1).",
+    "coords": [
+      119.13,
+      -61.54
+    ],
+    "region": "A Colmeia",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Mask_Shard_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-mask-shard-248",
+    "mapId": "hallownest",
+    "category": "mask-shard",
+    "title": "Fragmento de Máscara",
+    "description": "Fragmento de Máscara em Hidrovia Real (4 fragmentos aumentam a vida máxima em 1).",
+    "coords": [
+      67.44,
+      -56.79
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Mask_Shard_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-mask-shard-249",
+    "mapId": "hallownest",
+    "category": "mask-shard",
+    "title": "Fragmento de Máscara",
+    "description": "Fragmento de Máscara em Encruzilhada Esquecida (4 fragmentos aumentam a vida máxima em 1).",
+    "coords": [
+      66.31,
+      -29.36
+    ],
+    "region": "Encruzilhada Esquecida",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Mask_Shard_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-mask-shard-250",
+    "mapId": "hallownest",
+    "category": "mask-shard",
+    "title": "Fragmento de Máscara",
+    "description": "Fragmento de Máscara em Encruzilhada Esquecida (4 fragmentos aumentam a vida máxima em 1).",
+    "coords": [
+      60.38,
+      -27.29
+    ],
+    "region": "Encruzilhada Esquecida",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Mask_Shard_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-mask-shard-251",
+    "mapId": "hallownest",
+    "category": "mask-shard",
+    "title": "Fragmento de Máscara",
+    "description": "Fragmento de Máscara em Caminho Verde (4 fragmentos aumentam a vida máxima em 1).",
+    "coords": [
+      51.63,
+      -33.69
+    ],
+    "region": "Caminho Verde",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Mask_Shard_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-mask-shard-252",
+    "mapId": "hallownest",
+    "category": "mask-shard",
+    "title": "Fragmento de Máscara",
+    "description": "Fragmento de Máscara em Ermos Fúngicos (4 fragmentos aumentam a vida máxima em 1).",
+    "coords": [
+      53.13,
+      -57.2
+    ],
+    "region": "Ermos Fúngicos",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Mask_Shard_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-mask-shard-253",
+    "mapId": "hallownest",
+    "category": "mask-shard",
+    "title": "Fragmento de Máscara",
+    "description": "Fragmento de Máscara em Ermos Fúngicos (4 fragmentos aumentam a vida máxima em 1).",
+    "coords": [
+      50.19,
+      -44.29
+    ],
+    "region": "Ermos Fúngicos",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Mask_Shard_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-mask-shard-944",
+    "mapId": "hallownest",
+    "category": "mask-shard",
+    "title": "Fragmento de Máscara (requires 5/46 Grubs)",
+    "description": "Fragmento de Máscara em Dirtmouth (4 fragmentos aumentam a vida máxima em 1).",
+    "coords": [
+      58.75,
+      -21.61
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Mask_Shard_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-mask-shard-945",
+    "mapId": "hallownest",
+    "category": "mask-shard",
+    "title": "Fragmento de Máscara (requires Shopkeeper's Key and 800 Geo)",
+    "description": "Fragmento de Máscara em Dirtmouth (4 fragmentos aumentam a vida máxima em 1).",
+    "coords": [
+      60.78,
+      -17.91
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Mask_Shard_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-mask-shard-946",
+    "mapId": "hallownest",
+    "category": "mask-shard",
+    "title": "Fragmento de Máscara (requires Shopkeeper's Key and 1,500 Geo)",
+    "description": "Fragmento de Máscara em Dirtmouth (4 fragmentos aumentam a vida máxima em 1).",
+    "coords": [
+      60.78,
+      -17.91
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Mask_Shard_(Hollow_Knight)"
+  },
+  {
+    "id": "hk-charm-notch-1233",
+    "mapId": "hallownest",
+    "category": "charm-notch",
+    "title": "Encaixe de Amuleto (after defeating Grimm)",
+    "description": "Encaixe de Amuleto em Dirtmouth que amplia sua capacidade de equipar amuletos.",
+    "coords": [
+      62.03,
+      -13.79
+    ],
+    "region": "Dirtmouth",
+    "dlc": "the-grimm-troupe",
+    "wikiUrl": "https://hollowknight.wiki/w/Charms%23Notches"
+  },
+  {
+    "id": "hk-charm-notch-254",
+    "mapId": "hallownest",
+    "category": "charm-notch",
+    "title": "Encaixe de Amuleto",
+    "description": "Encaixe de Amuleto em Ermos Fúngicos que amplia sua capacidade de equipar amuletos.",
+    "coords": [
+      59.5,
+      -39.42
+    ],
+    "region": "Ermos Fúngicos",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Charms%23Notches"
+  },
+  {
+    "id": "hk-charm-notch-255",
+    "mapId": "hallownest",
+    "category": "charm-notch",
+    "title": "Encaixe de Amuleto",
+    "description": "Encaixe de Amuleto em Caminho Verde que amplia sua capacidade de equipar amuletos.",
+    "coords": [
+      53.19,
+      -33.77
+    ],
+    "region": "Caminho Verde",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Charms%23Notches"
+  },
+  {
+    "id": "hk-charm-notch-256",
+    "mapId": "hallownest",
+    "category": "charm-notch",
+    "title": "Encaixe de Amuleto",
+    "description": "Encaixe de Amuleto em Borda do Reino que amplia sua capacidade de equipar amuletos.",
+    "coords": [
+      115.34,
+      -38.23
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Charms%23Notches"
+  },
+  {
+    "id": "hk-charm-notch-947",
+    "mapId": "hallownest",
+    "category": "charm-notch",
+    "title": "Encaixe de Amuleto (requires 5 charms and 120 Geo)",
+    "description": "Encaixe de Amuleto em Terra do Descanso que amplia sua capacidade de equipar amuletos.",
+    "coords": [
+      83.34,
+      -31.26
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Charms%23Notches"
+  },
+  {
+    "id": "hk-charm-notch-948",
+    "mapId": "hallownest",
+    "category": "charm-notch",
+    "title": "Encaixe de Amuleto (requires 10 charms and 500 Geo)",
+    "description": "Encaixe de Amuleto em Terra do Descanso que amplia sua capacidade de equipar amuletos.",
+    "coords": [
+      83.34,
+      -31.26
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Charms%23Notches"
+  },
+  {
+    "id": "hk-charm-notch-949",
+    "mapId": "hallownest",
+    "category": "charm-notch",
+    "title": "Encaixe de Amuleto (requires 18 charms and 900 Geo)",
+    "description": "Encaixe de Amuleto em Terra do Descanso que amplia sua capacidade de equipar amuletos.",
+    "coords": [
+      83.34,
+      -31.26
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Charms%23Notches"
+  },
+  {
+    "id": "hk-charm-notch-950",
+    "mapId": "hallownest",
+    "category": "charm-notch",
+    "title": "Encaixe de Amuleto (requires 25 charms and 1,400 Geo)",
+    "description": "Encaixe de Amuleto em Terra do Descanso que amplia sua capacidade de equipar amuletos.",
+    "coords": [
+      83.34,
+      -31.26
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Charms%23Notches"
+  },
+  {
+    "id": "hk-pale-ore-951",
+    "mapId": "hallownest",
+    "category": "pale-ore",
+    "title": "Minério Pálido (requires 300 Essences)",
+    "description": "Minério Pálido raro em Terra do Descanso, usado pelo Forjador de Ferrões para aprimorar o Ferrão.",
+    "coords": [
+      107.31,
+      -24.54
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Pale_Ore"
+  },
+  {
+    "id": "hk-pale-ore-257",
+    "mapId": "hallownest",
+    "category": "pale-ore",
+    "title": "Minério Pálido",
+    "description": "Minério Pálido raro em Pico de Cristal, usado pelo Forjador de Ferrões para aprimorar o Ferrão.",
+    "coords": [
+      97.63,
+      -3.17
+    ],
+    "region": "Pico de Cristal",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Pale_Ore"
+  },
+  {
+    "id": "hk-pale-ore-258",
+    "mapId": "hallownest",
+    "category": "pale-ore",
+    "title": "Minério Pálido",
+    "description": "Minério Pálido raro em Borda do Reino, usado pelo Forjador de Ferrões para aprimorar o Ferrão.",
+    "coords": [
+      115.34,
+      -38.23
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Pale_Ore"
+  },
+  {
+    "id": "hk-pale-ore-259",
+    "mapId": "hallownest",
+    "category": "pale-ore",
+    "title": "Minério Pálido",
+    "description": "Minério Pálido raro em Bacia Antiga, usado pelo Forjador de Ferrões para aprimorar o Ferrão.",
+    "coords": [
+      73.44,
+      -66.67
+    ],
+    "region": "Bacia Antiga",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Pale_Ore"
+  },
+  {
+    "id": "hk-pale-ore-260",
+    "mapId": "hallownest",
+    "category": "pale-ore",
+    "title": "Minério Pálido",
+    "description": "Minério Pálido raro em Lar dos Deuses, usado pelo Forjador de Ferrões para aprimorar o Ferrão.",
+    "coords": [
+      48.31,
+      -66.67
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster",
+    "wikiUrl": "https://hollowknight.wiki/w/Pale_Ore"
+  },
+  {
+    "id": "hk-pale-ore-986",
+    "mapId": "hallownest",
+    "category": "pale-ore",
+    "title": "Minério Pálido (requires 31/46 Grubs)",
+    "description": "Minério Pálido raro em Dirtmouth, usado pelo Forjador de Ferrões para aprimorar o Ferrão.",
+    "coords": [
+      58.75,
+      -21.61
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Pale_Ore"
+  },
+  {
+    "id": "hk-ability-954",
+    "mapId": "hallownest",
+    "category": "ability",
+    "title": "Nail Upgrade #1 (for 250 Geo)",
+    "description": "Arte do Ferrão ou aprimoramento do Ferrão em Hidrovia Real.",
+    "coords": [
+      68.25,
+      -52.17
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Nail"
+  },
+  {
+    "id": "hk-pale-ore-955",
+    "mapId": "hallownest",
+    "category": "pale-ore",
+    "title": "Nail Upgrade #2 (for 800 Geo and x1 Pale Ore)",
+    "description": "Minério Pálido raro em Hidrovia Real, usado pelo Forjador de Ferrões para aprimorar o Ferrão.",
+    "coords": [
+      68.25,
+      -52.17
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Nail"
+  },
+  {
+    "id": "hk-pale-ore-956",
+    "mapId": "hallownest",
+    "category": "pale-ore",
+    "title": "Nail Upgrade #3 (for 2,000 Geo and x2 Pale Ore)",
+    "description": "Minério Pálido raro em Hidrovia Real, usado pelo Forjador de Ferrões para aprimorar o Ferrão.",
+    "coords": [
+      68.25,
+      -52.17
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Nail"
+  },
+  {
+    "id": "hk-pale-ore-957",
+    "mapId": "hallownest",
+    "category": "pale-ore",
+    "title": "Nail Upgrade #4 (for 4,000 Geo and x3 Pale Ore)",
+    "description": "Minério Pálido raro em Hidrovia Real, usado pelo Forjador de Ferrões para aprimorar o Ferrão.",
+    "coords": [
+      68.25,
+      -52.17
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Nail"
+  },
+  {
+    "id": "hk-boss-790",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Hornet",
+    "description": "Encontro de chefe em Caminho Verde.",
+    "coords": [
+      25.69,
+      -22.79
+    ],
+    "region": "Caminho Verde",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-791",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Traitor Lord",
+    "description": "Encontro de chefe em Cânion da Névoa.",
+    "coords": [
+      22.94,
+      -35.98
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-792",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Marmu",
+    "description": "Encontro de chefe em Cânion da Névoa.",
+    "coords": [
+      22.53,
+      -42.7
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-927",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Dreamer Herrah The Beast",
+    "description": "Encontro de chefe em Ninho Profundo.",
+    "coords": [
+      8.8,
+      -42.88
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Herrah_the_Beast"
+  },
+  {
+    "id": "hk-boss-796",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Galien",
+    "description": "Encontro de chefe em Ninho Profundo.",
+    "coords": [
+      31.13,
+      -57.95
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-797",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Nosk",
+    "description": "Encontro de chefe em Lar dos Deuses.",
+    "coords": [
+      44.56,
+      -66.36
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-boss-798",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Flukemarm",
+    "description": "Encontro de chefe em Hidrovia Real.",
+    "coords": [
+      76.31,
+      -60.85
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-799",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Dreamer Lurien the Watcher",
+    "description": "Encontro de chefe em Terra do Descanso.",
+    "coords": [
+      95.19,
+      -34.89
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Lurien_the_Watcher"
+  },
+  {
+    "id": "hk-boss-800",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Watcher Knight",
+    "description": "Encontro de chefe em Terra do Descanso.",
+    "coords": [
+      93.47,
+      -43.35
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-801",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "The Collector",
+    "description": "Encontro de chefe em Borda do Reino.",
+    "coords": [
+      112.44,
+      -47.57
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-802",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Dung Defender",
+    "description": "Encontro de chefe em Hidrovia Real.",
+    "coords": [
+      92.5,
+      -56.54
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-803",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Broken Vessel",
+    "description": "Encontro de chefe em Bacia Antiga.",
+    "coords": [
+      65.28,
+      -69.7
+    ],
+    "region": "Bacia Antiga",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-804",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Brooding Mawlek",
+    "description": "Encontro de chefe em Encruzilhada Esquecida.",
+    "coords": [
+      60.38,
+      -27.29
+    ],
+    "region": "Encruzilhada Esquecida",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-805",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Lost Kin",
+    "description": "Encontro de chefe em Bacia Antiga.",
+    "coords": [
+      65.28,
+      -69.7
+    ],
+    "region": "Bacia Antiga",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-806",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Mantis Lords",
+    "description": "Encontro de chefe em Ermos Fúngicos.",
+    "coords": [
+      58.13,
+      -57.82
+    ],
+    "region": "Ermos Fúngicos",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-808",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Dreamer Monomon the Teacher",
+    "description": "Encontro de chefe em Lar dos Deuses.",
+    "coords": [
+      39.35,
+      -81.72
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster",
+    "wikiUrl": "https://hollowknight.wiki/w/Monomon_the_Teacher"
+  },
+  {
+    "id": "hk-boss-809",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Uumuu",
+    "description": "Encontro de chefe em Lar dos Deuses.",
+    "coords": [
+      39.27,
+      -79.89
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-boss-810",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "No Eyes",
+    "description": "Encontro de chefe em Caminho Verde.",
+    "coords": [
+      47.53,
+      -32.29
+    ],
+    "region": "Caminho Verde",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-811",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Elder Hu",
+    "description": "Encontro de chefe em Cidade das Lágrimas.",
+    "coords": [
+      70.84,
+      -42.45
+    ],
+    "region": "Cidade das Lágrimas",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-812",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Soul Master",
+    "description": "Encontro de chefe em Cidade das Lágrimas.",
+    "coords": [
+      82.5,
+      -38.2
+    ],
+    "region": "Cidade das Lágrimas",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-813",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Soul Tyrant",
+    "description": "Encontro de chefe em Cidade das Lágrimas.",
+    "coords": [
+      82.5,
+      -38.2
+    ],
+    "region": "Cidade das Lágrimas",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-814",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "False Knight",
+    "description": "Encontro de chefe em Encruzilhada Esquecida.",
+    "coords": [
+      66.28,
+      -26.17
+    ],
+    "region": "Encruzilhada Esquecida",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-815",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Failed Champion",
+    "description": "Encontro de chefe em Encruzilhada Esquecida.",
+    "coords": [
+      67.59,
+      -26.01
+    ],
+    "region": "Encruzilhada Esquecida",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-816",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Gorb",
+    "description": "Encontro de chefe em Penhascos Uivantes.",
+    "coords": [
+      41.03,
+      -10.17
+    ],
+    "region": "Penhascos Uivantes",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-817",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Crystal Guardian #1",
+    "description": "Encontro de chefe em Pico de Cristal.",
+    "coords": [
+      89.63,
+      -15.04
+    ],
+    "region": "Pico de Cristal",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-818",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Crystal Guardian #2",
+    "description": "Encontro de chefe em Pico de Cristal.",
+    "coords": [
+      89.38,
+      -16.42
+    ],
+    "region": "Pico de Cristal",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-819",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Xero",
+    "description": "Encontro de chefe em Terra do Descanso.",
+    "coords": [
+      99.63,
+      -29.17
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-820",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Gruz Mother",
+    "description": "Encontro de chefe em Terra do Descanso.",
+    "coords": [
+      81.31,
+      -30.82
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-821",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Hollow Knight",
+    "description": "Encontro de chefe em Encruzilhada Esquecida.",
+    "coords": [
+      69.94,
+      -21.67
+    ],
+    "region": "Encruzilhada Esquecida",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-822",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Hornet",
+    "description": "Encontro de chefe em Borda do Reino.",
+    "coords": [
+      134.91,
+      -52.76
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-823",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Markoth",
+    "description": "Encontro de chefe em Borda do Reino.",
+    "coords": [
+      128.41,
+      -55.7
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-824",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "The Radiance",
+    "description": "Encontro de chefe em Encruzilhada Esquecida.",
+    "coords": [
+      69.94,
+      -21.67
+    ],
+    "region": "Encruzilhada Esquecida",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-825",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Pale Lurker",
+    "description": "Encontro de chefe em Borda do Reino.",
+    "coords": [
+      127.19,
+      -41.54
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-826",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "White Defender",
+    "description": "Encontro de chefe em Hidrovia Real.",
+    "coords": [
+      93.16,
+      -57.45
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-1336",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "White Defender (5th Battle)",
+    "description": "Encontro de chefe em Hidrovia Real.",
+    "coords": [
+      93.16,
+      -57.45
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-827",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Grey Prince Zote",
+    "description": "Encontro de chefe em Dirtmouth.",
+    "coords": [
+      65.88,
+      -17.4
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-boss-828",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Revek",
+    "description": "Encontro de chefe em Terra do Descanso.",
+    "coords": [
+      110.38,
+      -25.57
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-grimm-troupe-829",
+    "mapId": "hallownest",
+    "category": "grimm-troupe",
+    "title": "Grimm",
+    "description": "Encontro de chefe em Dirtmouth.",
+    "coords": [
+      62.03,
+      -13.79
+    ],
+    "region": "Dirtmouth",
+    "dlc": "the-grimm-troupe"
+  },
+  {
+    "id": "hk-grimm-troupe-830",
+    "mapId": "hallownest",
+    "category": "grimm-troupe",
+    "title": "Nightmare King Grimm",
+    "description": "Encontro de chefe em Dirtmouth.",
+    "coords": [
+      65.77,
+      -13.93
+    ],
+    "region": "Dirtmouth",
+    "dlc": "the-grimm-troupe"
+  },
+  {
+    "id": "hk-boss-831",
+    "mapId": "hallownest",
+    "category": "boss",
+    "title": "Hive Knight",
+    "description": "Encontro de chefe em Borda do Reino.",
+    "coords": [
+      127.22,
+      -60.85
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-npc-978",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Buys Wanderer's Journal for 200 Geo",
+    "description": "Personagem ou mercador encontrado em Hidrovia Real.",
+    "coords": [
+      85.34,
+      -52.32
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Lemm"
+  },
+  {
+    "id": "hk-npc-979",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Buys Hallownest Seal for 450 Geo",
+    "description": "Personagem ou mercador encontrado em Hidrovia Real.",
+    "coords": [
+      85.34,
+      -52.32
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Lemm"
+  },
+  {
+    "id": "hk-npc-980",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Buys King's Idol for 800 Geo",
+    "description": "Personagem ou mercador encontrado em Hidrovia Real.",
+    "coords": [
+      85.34,
+      -52.32
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Lemm"
+  },
+  {
+    "id": "hk-npc-981",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Buys Arcane Egg for 1200 Geo",
+    "description": "Personagem ou mercador encontrado em Hidrovia Real.",
+    "coords": [
+      85.34,
+      -52.32
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Lemm"
+  },
+  {
+    "id": "hk-npc-832",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Jiji",
+    "description": "Personagem ou mercador encontrado em Dirtmouth.",
+    "coords": [
+      68.13,
+      -19.79
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-npc-833",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Tuk (Rancid Egg Vendor)",
+    "description": "Personagem ou mercador encontrado em Hidrovia Real.",
+    "coords": [
+      90.88,
+      -54.42
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-npc-834",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Millibelle Bank",
+    "description": "Personagem ou mercador encontrado em Cânion da Névoa.",
+    "coords": [
+      43.5,
+      -43.42
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Millibelle"
+  },
+  {
+    "id": "hk-npc-1252",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Millibelle the Thief",
+    "description": "Personagem ou mercador encontrado em Terra do Descanso.",
+    "coords": [
+      103,
+      -42.72
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Millibelle"
+  },
+  {
+    "id": "hk-npc-839",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Bretta",
+    "description": "Personagem ou mercador encontrado em Ermos Fúngicos.",
+    "coords": [
+      63.03,
+      -55.17
+    ],
+    "region": "Ermos Fúngicos",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-npc-841",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Brumm (Grimmkin Nightmare Flame)",
+    "description": "Personagem ou mercador encontrado em Ninho Profundo.",
+    "coords": [
+      9.28,
+      -59.76
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "the-grimm-troupe"
+  },
+  {
+    "id": "hk-npc-843",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Zote #1",
+    "description": "Personagem ou mercador encontrado em Ninho Profundo.",
+    "coords": [
+      40.69,
+      -57.48
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-npc-844",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Zote #2",
+    "description": "Personagem ou mercador encontrado em Caminho Verde.",
+    "coords": [
+      30.44,
+      -20.11
+    ],
+    "region": "Caminho Verde",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-npc-845",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Relic Seeker Lemm",
+    "description": "Personagem ou mercador encontrado em Hidrovia Real.",
+    "coords": [
+      85.34,
+      -52.32
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-npc-846",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Nailsmith",
+    "description": "Personagem ou mercador encontrado em Hidrovia Real.",
+    "coords": [
+      68.25,
+      -52.17
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-npc-847",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Sly",
+    "description": "Personagem ou mercador encontrado em Dirtmouth.",
+    "coords": [
+      60.78,
+      -17.91
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-npc-849",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Grubfather",
+    "description": "Personagem ou mercador encontrado em Dirtmouth.",
+    "coords": [
+      58.75,
+      -21.61
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-npc-850",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Iselda",
+    "description": "Personagem ou mercador encontrado em Dirtmouth.",
+    "coords": [
+      64,
+      -18.04
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-npc-851",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Divine",
+    "description": "Personagem ou mercador encontrado em Dirtmouth.",
+    "coords": [
+      58.94,
+      -19.4
+    ],
+    "region": "Dirtmouth",
+    "dlc": "the-grimm-troupe"
+  },
+  {
+    "id": "hk-npc-852",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Leg Eater",
+    "description": "Personagem ou mercador encontrado em Cidade das Lágrimas.",
+    "coords": [
+      66.63,
+      -36.92
+    ],
+    "region": "Cidade das Lágrimas",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-npc-853",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "The Seer",
+    "description": "Personagem ou mercador encontrado em Terra do Descanso.",
+    "coords": [
+      107.31,
+      -24.54
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-npc-854",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Salubra",
+    "description": "Personagem ou mercador encontrado em Terra do Descanso.",
+    "coords": [
+      83.34,
+      -31.26
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-npc-855",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Mr Mushroom #1",
+    "description": "Personagem ou mercador encontrado em Ermos Fúngicos.",
+    "coords": [
+      52.63,
+      -45.6
+    ],
+    "region": "Ermos Fúngicos",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-npc-856",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Mr Mushroom #2",
+    "description": "Personagem ou mercador encontrado em A Colmeia.",
+    "coords": [
+      107.66,
+      -61.39
+    ],
+    "region": "A Colmeia",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-npc-857",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Mr Mushroom #3",
+    "description": "Personagem ou mercador encontrado em Ninho Profundo.",
+    "coords": [
+      28.22,
+      -58.17
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-npc-858",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Mr Mushroom #4",
+    "description": "Personagem ou mercador encontrado em Penhascos Uivantes.",
+    "coords": [
+      43.31,
+      -12.11
+    ],
+    "region": "Penhascos Uivantes",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-npc-859",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Mr Mushroom #5",
+    "description": "Personagem ou mercador encontrado em Lar dos Deuses.",
+    "coords": [
+      62,
+      -71.14
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-npc-860",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Mr Mushroom #6",
+    "description": "Personagem ou mercador encontrado em Cânion da Névoa.",
+    "coords": [
+      34.56,
+      -39.23
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-npc-861",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Mr Mushroom #7",
+    "description": "Personagem ou mercador encontrado em Caminho Verde.",
+    "coords": [
+      48.09,
+      -20.39
+    ],
+    "region": "Caminho Verde",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-npc-1253",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Save Cloth",
+    "description": "Evento ou missão secundária em Bacia Antiga.",
+    "coords": [
+      74.04,
+      -64.94
+    ],
+    "region": "Bacia Antiga",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Cloth"
+  },
+  {
+    "id": "hk-grimm-troupe-1254",
+    "mapId": "hallownest",
+    "category": "grimm-troupe",
+    "title": "Summon Grimm Troupe",
+    "description": "Objetivo da expansão The Grimm Troupe em Penhascos Uivantes.",
+    "coords": [
+      39.99,
+      -16.85
+    ],
+    "region": "Penhascos Uivantes",
+    "dlc": "the-grimm-troupe",
+    "wikiUrl": "https://hollowknight.wiki/w/The_Grimm_Troupe"
+  },
+  {
+    "id": "hk-npc-473",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Delicate Flower Quest (Start)",
+    "description": "Evento ou missão secundária em Borda do Reino.",
+    "coords": [
+      114.25,
+      -29.61
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Delicate_Flower"
+  },
+  {
+    "id": "hk-npc-474",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Delicate Flower Quest (End)",
+    "description": "Evento ou missão secundária em Cânion da Névoa.",
+    "coords": [
+      25.88,
+      -40.92
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Delicate_Flower"
+  },
+  {
+    "id": "hk-npc-992",
+    "mapId": "hallownest",
+    "category": "npc",
+    "title": "Rescue Sly",
+    "description": "Evento ou missão secundária em Cidade das Lágrimas.",
+    "coords": [
+      80.07,
+      -32.25
+    ],
+    "region": "Cidade das Lágrimas",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Sly"
+  },
+  {
+    "id": "hk-grimm-troupe-462",
+    "mapId": "hallownest",
+    "category": "grimm-troupe",
+    "title": "Grimmkin Nightmare",
+    "description": "Objetivo da expansão The Grimm Troupe em Ermos Fúngicos.",
+    "coords": [
+      53.69,
+      -54.85
+    ],
+    "region": "Ermos Fúngicos",
+    "dlc": "the-grimm-troupe",
+    "wikiUrl": "https://hollowknight.wiki/w/Grimmkin_Nightmare"
+  },
+  {
+    "id": "hk-grimm-troupe-463",
+    "mapId": "hallownest",
+    "category": "grimm-troupe",
+    "title": "Grimmkin Novice",
+    "description": "Objetivo da expansão The Grimm Troupe em Caminho Verde.",
+    "coords": [
+      38.06,
+      -30.45
+    ],
+    "region": "Caminho Verde",
+    "dlc": "the-grimm-troupe",
+    "wikiUrl": "https://hollowknight.wiki/w/Grimmkin_Novice"
+  },
+  {
+    "id": "hk-grimm-troupe-464",
+    "mapId": "hallownest",
+    "category": "grimm-troupe",
+    "title": "Grimmkin Master",
+    "description": "Objetivo da expansão The Grimm Troupe em Caminho Verde.",
+    "coords": [
+      50.81,
+      -19.36
+    ],
+    "region": "Caminho Verde",
+    "dlc": "the-grimm-troupe",
+    "wikiUrl": "https://hollowknight.wiki/w/Grimmkin_Master"
+  },
+  {
+    "id": "hk-grimm-troupe-465",
+    "mapId": "hallownest",
+    "category": "grimm-troupe",
+    "title": "Grimmkin Novice",
+    "description": "Objetivo da expansão The Grimm Troupe em Pico de Cristal.",
+    "coords": [
+      74.63,
+      -18.14
+    ],
+    "region": "Pico de Cristal",
+    "dlc": "the-grimm-troupe",
+    "wikiUrl": "https://hollowknight.wiki/w/Grimmkin_Novice"
+  },
+  {
+    "id": "hk-grimm-troupe-466",
+    "mapId": "hallownest",
+    "category": "grimm-troupe",
+    "title": "Grimmkin Master",
+    "description": "Objetivo da expansão The Grimm Troupe em Terra do Descanso.",
+    "coords": [
+      100.19,
+      -30.76
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "the-grimm-troupe",
+    "wikiUrl": "https://hollowknight.wiki/w/Grimmkin_Master"
+  },
+  {
+    "id": "hk-grimm-troupe-467",
+    "mapId": "hallownest",
+    "category": "grimm-troupe",
+    "title": "Grimmkin Master",
+    "description": "Objetivo da expansão The Grimm Troupe em A Colmeia.",
+    "coords": [
+      116.38,
+      -56.73
+    ],
+    "region": "A Colmeia",
+    "dlc": "the-grimm-troupe",
+    "wikiUrl": "https://hollowknight.wiki/w/Grimmkin_Master"
+  },
+  {
+    "id": "hk-grimm-troupe-468",
+    "mapId": "hallownest",
+    "category": "grimm-troupe",
+    "title": "Grimmkin Nightmare",
+    "description": "Objetivo da expansão The Grimm Troupe em A Colmeia.",
+    "coords": [
+      114.72,
+      -62.32
+    ],
+    "region": "A Colmeia",
+    "dlc": "the-grimm-troupe",
+    "wikiUrl": "https://hollowknight.wiki/w/Grimmkin_Nightmare"
+  },
+  {
+    "id": "hk-grimm-troupe-469",
+    "mapId": "hallownest",
+    "category": "grimm-troupe",
+    "title": "Grimmkin Nightmare",
+    "description": "Objetivo da expansão The Grimm Troupe em Bacia Antiga.",
+    "coords": [
+      90.44,
+      -62.89
+    ],
+    "region": "Bacia Antiga",
+    "dlc": "the-grimm-troupe",
+    "wikiUrl": "https://hollowknight.wiki/w/Grimmkin_Nightmare"
+  },
+  {
+    "id": "hk-grimm-troupe-470",
+    "mapId": "hallownest",
+    "category": "grimm-troupe",
+    "title": "Grimmkin Novice",
+    "description": "Objetivo da expansão The Grimm Troupe em Cidade das Lágrimas.",
+    "coords": [
+      73.44,
+      -39.73
+    ],
+    "region": "Cidade das Lágrimas",
+    "dlc": "the-grimm-troupe",
+    "wikiUrl": "https://hollowknight.wiki/w/Grimmkin_Novice"
+  },
+  {
+    "id": "hk-grub-389",
     "mapId": "hallownest",
     "category": "grub",
-    "title": "Larva — Poço do Guarda Casca",
-    "description": "Larva aprisionada em jarro de vidro atrás de um Guarda Casca na ala oeste da Encruzilhada.",
-    "coords": [422, 658],
-    "region": "Encruzilhada Esquecida",
-    "metadata": { "reward": "Geo do Pai Larva" }
-  },
-  {
-    "id": "hk-charm-wayward",
-    "mapId": "hallownest",
-    "category": "charm",
-    "title": "Bússola Caprichosa",
-    "description": "Amuleto essencial vendido por Iselda que revela a posição exata do Cavaleiro no mapa.",
-    "coords": [536, 826],
-    "region": "Dirtmouth",
-    "metadata": { "notches": 1, "costGeo": 220 }
-  },
-  {
-    "id": "hk-stag-greenpath",
-    "mapId": "hallownest",
-    "category": "stag-station",
-    "title": "Estação do Caminho Verde",
-    "description": "Estação tomada por musgo próxima ao santuário onde ocorre o primeiro duelo contra Hornet.",
-    "coords": [264, 646],
+    "title": "Larva — Caminho Verde",
+    "description": "Larva aprisionada em jarro de vidro em Caminho Verde. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      41,
+      -17.98
+    ],
     "region": "Caminho Verde",
-    "metadata": { "costGeo": 140 }
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
   },
   {
-    "id": "hk-bench-city",
+    "id": "hk-grub-390",
     "mapId": "hallownest",
-    "category": "bench",
-    "title": "Banco da Cidade das Lágrimas",
-    "description": "Banco panorâmico sob a chuva eterna, ao lado de Quirrel contemplando a capital submersa.",
-    "coords": [642, 448],
+    "category": "grub",
+    "title": "Larva — Pico de Cristal",
+    "description": "Larva aprisionada em jarro de vidro em Pico de Cristal. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      71.56,
+      -20.29
+    ],
+    "region": "Pico de Cristal",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-391",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Terra do Descanso",
+    "description": "Larva aprisionada em jarro de vidro em Terra do Descanso. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      105.91,
+      -13.48
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-392",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Terra do Descanso",
+    "description": "Larva aprisionada em jarro de vidro em Terra do Descanso. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      90.19,
+      -18.67
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-393",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Terra do Descanso",
+    "description": "Larva aprisionada em jarro de vidro em Terra do Descanso. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      95.5,
+      -18.67
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-394",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Terra do Descanso",
+    "description": "Larva aprisionada em jarro de vidro em Terra do Descanso. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      91.69,
+      -22.73
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-395",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Terra do Descanso",
+    "description": "Larva aprisionada em jarro de vidro em Terra do Descanso. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      87.75,
+      -21.73
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-396",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Pico de Cristal",
+    "description": "Larva aprisionada em jarro de vidro em Pico de Cristal. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      80.31,
+      -22.04
+    ],
+    "region": "Pico de Cristal",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-397",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Encruzilhada Esquecida",
+    "description": "Larva aprisionada em jarro de vidro em Encruzilhada Esquecida. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      74.88,
+      -25.92
+    ],
+    "region": "Encruzilhada Esquecida",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-398",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Encruzilhada Esquecida",
+    "description": "Larva aprisionada em jarro de vidro em Encruzilhada Esquecida. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      76.63,
+      -28.04
+    ],
+    "region": "Encruzilhada Esquecida",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-399",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Encruzilhada Esquecida",
+    "description": "Larva aprisionada em jarro de vidro em Encruzilhada Esquecida. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      65.75,
+      -23.54
+    ],
+    "region": "Encruzilhada Esquecida",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-400",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Terra do Descanso",
+    "description": "Larva aprisionada em jarro de vidro em Terra do Descanso. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      111.09,
+      -30.67
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-401",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Borda do Reino",
+    "description": "Larva aprisionada em jarro de vidro em Borda do Reino. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      112.25,
+      -47.04
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-402",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Borda do Reino",
+    "description": "Larva aprisionada em jarro de vidro em Borda do Reino. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      112.81,
+      -47.1
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-403",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Borda do Reino",
+    "description": "Larva aprisionada em jarro de vidro em Borda do Reino. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      113.44,
+      -47.17
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-404",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — A Colmeia",
+    "description": "Larva aprisionada em jarro de vidro em A Colmeia. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      111.63,
+      -54.1
+    ],
+    "region": "A Colmeia",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-405",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Borda do Reino",
+    "description": "Larva aprisionada em jarro de vidro em Borda do Reino. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      124.94,
+      -53.48
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-406",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Borda do Reino",
+    "description": "Larva aprisionada em jarro de vidro em Borda do Reino. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      137,
+      -60.73
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-407",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — A Colmeia",
+    "description": "Larva aprisionada em jarro de vidro em A Colmeia. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      122.44,
+      -59.79
+    ],
+    "region": "A Colmeia",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-408",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — A Colmeia",
+    "description": "Larva aprisionada em jarro de vidro em A Colmeia. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      111.38,
+      -59.67
+    ],
+    "region": "A Colmeia",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-409",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — A Colmeia",
+    "description": "Larva aprisionada em jarro de vidro em A Colmeia. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      105.78,
+      -58.26
+    ],
+    "region": "A Colmeia",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-410",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — A Colmeia",
+    "description": "Larva aprisionada em jarro de vidro em A Colmeia. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      105.75,
+      -55.1
+    ],
+    "region": "A Colmeia",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-411",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — A Colmeia",
+    "description": "Larva aprisionada em jarro de vidro em A Colmeia. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      102.03,
+      -53.04
+    ],
+    "region": "A Colmeia",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-412",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Hidrovia Real",
+    "description": "Larva aprisionada em jarro de vidro em Hidrovia Real. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      79.88,
+      -57.04
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-413",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Bacia Antiga",
+    "description": "Larva aprisionada em jarro de vidro em Bacia Antiga. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      80.09,
+      -67.32
+    ],
+    "region": "Bacia Antiga",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-414",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Bacia Antiga",
+    "description": "Larva aprisionada em jarro de vidro em Bacia Antiga. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      69,
+      -67.79
+    ],
+    "region": "Bacia Antiga",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-415",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Ninho Profundo",
+    "description": "Larva aprisionada em jarro de vidro em Ninho Profundo. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      26.38,
+      -61.04
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-416",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Ninho Profundo",
+    "description": "Larva aprisionada em jarro de vidro em Ninho Profundo. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      39.13,
+      -65.48
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-417",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Ninho Profundo",
+    "description": "Larva aprisionada em jarro de vidro em Ninho Profundo. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      40.13,
+      -59.1
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-418",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Ninho Profundo",
+    "description": "Larva aprisionada em jarro de vidro em Ninho Profundo. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      49.81,
+      -50.79
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-419",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Ninho Profundo",
+    "description": "Larva aprisionada em jarro de vidro em Ninho Profundo. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      46.34,
+      -47.51
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-420",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Ninho Profundo",
+    "description": "Larva aprisionada em jarro de vidro em Ninho Profundo. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      11.25,
+      -45.68
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-421",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Cânion da Névoa",
+    "description": "Larva aprisionada em jarro de vidro em Cânion da Névoa. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      15.66,
+      -35.73
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-422",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Cânion da Névoa",
+    "description": "Larva aprisionada em jarro de vidro em Cânion da Névoa. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      26,
+      -43.67
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-423",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Cânion da Névoa",
+    "description": "Larva aprisionada em jarro de vidro em Cânion da Névoa. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      26.81,
+      -31.76
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-424",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Cânion da Névoa",
+    "description": "Larva aprisionada em jarro de vidro em Cânion da Névoa. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      33.91,
+      -33.35
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-425",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Cânion da Névoa",
+    "description": "Larva aprisionada em jarro de vidro em Cânion da Névoa. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      48.66,
+      -37.48
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-426",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Caminho Verde",
+    "description": "Larva aprisionada em jarro de vidro em Caminho Verde. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      48.94,
+      -30.61
+    ],
+    "region": "Caminho Verde",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-427",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Caminho Verde",
+    "description": "Larva aprisionada em jarro de vidro em Caminho Verde. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      50.69,
+      -27.11
+    ],
+    "region": "Caminho Verde",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-428",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Caminho Verde",
+    "description": "Larva aprisionada em jarro de vidro em Caminho Verde. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      54.16,
+      -28.86
+    ],
+    "region": "Caminho Verde",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-429",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Caminho Verde",
+    "description": "Larva aprisionada em jarro de vidro em Caminho Verde. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      32.13,
+      -22.04
+    ],
+    "region": "Caminho Verde",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-430",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Ermos Fúngicos",
+    "description": "Larva aprisionada em jarro de vidro em Ermos Fúngicos. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      58.56,
+      -44.85
+    ],
+    "region": "Ermos Fúngicos",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-431",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Cidade das Lágrimas",
+    "description": "Larva aprisionada em jarro de vidro em Cidade das Lágrimas. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      78.69,
+      -40.98
+    ],
     "region": "Cidade das Lágrimas",
-    "metadata": { "npc": "Quirrel" }
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
   },
   {
-    "id": "hk-god-bench-atrium",
-    "mapId": "godhome",
-    "category": "bench",
-    "title": "Banco do Átrio dos Panteões",
-    "description": "Ponto de preparação para ajustar amuletos antes de desafiar os Panteões dos Deuses.",
-    "coords": [512, 468],
-    "region": "Lar dos Deuses",
-    "metadata": { "dlc": "Godmaster" }
+    "id": "hk-grub-432",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Terra do Descanso",
+    "description": "Larva aprisionada em jarro de vidro em Terra do Descanso. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      93.56,
+      -45.54
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
   },
   {
-    "id": "hk-god-hall",
-    "mapId": "godhome",
-    "category": "charm",
-    "title": "Salão dos Deuses",
-    "description": "Galeria de estátuas para treinar contra cada chefe de Hallownest em dificuldades crescentes.",
-    "coords": [512, 342],
+    "id": "hk-grub-433",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Hidrovia Real",
+    "description": "Larva aprisionada em jarro de vidro em Hidrovia Real. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      85.69,
+      -46.35
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-grub-434",
+    "mapId": "hallownest",
+    "category": "grub",
+    "title": "Larva — Terra do Descanso",
+    "description": "Larva aprisionada em jarro de vidro em Terra do Descanso. Resgate-a para receber recompensas do Pai Larva.",
+    "coords": [
+      103.38,
+      -22.54
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base",
+    "wikiUrl": "https://hollowknight.wiki/w/Grub"
+  },
+  {
+    "id": "hk-relic-862",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Wanderer's Journal",
+    "description": "Relíquia ou item colecionável em Bacia Antiga.",
+    "coords": [
+      92.84,
+      -63.51
+    ],
+    "region": "Bacia Antiga",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-863",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Wanderer's Journal",
+    "description": "Relíquia ou item colecionável em Borda do Reino.",
+    "coords": [
+      114.91,
+      -51.7
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-864",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Wanderer's Journal",
+    "description": "Relíquia ou item colecionável em Borda do Reino.",
+    "coords": [
+      124.78,
+      -49.39
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-865",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Wanderer's Journal",
+    "description": "Relíquia ou item colecionável em Borda do Reino.",
+    "coords": [
+      123.63,
+      -55.2
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-866",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Wanderer's Journal",
+    "description": "Relíquia ou item colecionável em Caminho Verde.",
+    "coords": [
+      30.25,
+      -23.95
+    ],
+    "region": "Caminho Verde",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-867",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Wanderer's Journal",
+    "description": "Relíquia ou item colecionável em Ermos Fúngicos.",
+    "coords": [
+      58.34,
+      -42.26
+    ],
+    "region": "Ermos Fúngicos",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-868",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Wanderer's Journal",
+    "description": "Relíquia ou item colecionável em Ermos Fúngicos.",
+    "coords": [
+      58.97,
+      -49.42
+    ],
+    "region": "Ermos Fúngicos",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-869",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Wanderer's Journal",
+    "description": "Relíquia ou item colecionável em Cidade das Lágrimas.",
+    "coords": [
+      72.03,
+      -40.29
+    ],
+    "region": "Cidade das Lágrimas",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-870",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Wanderer's Journal",
+    "description": "Relíquia ou item colecionável em Borda do Reino.",
+    "coords": [
+      101.43,
+      -49.42
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-871",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Wanderer's Journal",
+    "description": "Relíquia ou item colecionável em Borda do Reino.",
+    "coords": [
+      107.09,
+      -49.48
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-872",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Wanderer's Journal",
+    "description": "Relíquia ou item colecionável em Penhascos Uivantes.",
+    "coords": [
+      36.09,
+      -16.7
+    ],
+    "region": "Penhascos Uivantes",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-873",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Wanderer's Journal",
+    "description": "Relíquia ou item colecionável em Terra do Descanso.",
+    "coords": [
+      93.78,
+      -14.42
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-874",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Wanderer's Journal",
+    "description": "Relíquia ou item colecionável em Borda do Reino.",
+    "coords": [
+      116.69,
+      -31.42
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-875",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Wanderer's Journal",
+    "description": "Relíquia ou item colecionável em Caminho Verde.",
+    "coords": [
+      46.09,
+      -33.45
+    ],
+    "region": "Caminho Verde",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-876",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Hallownest Seal",
+    "description": "Relíquia ou item colecionável em Cânion da Névoa.",
+    "coords": [
+      34.81,
+      -30.64
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-877",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Hallownest Seal",
+    "description": "Relíquia ou item colecionável em Ermos Fúngicos.",
+    "coords": [
+      55.84,
+      -40.82
+    ],
+    "region": "Ermos Fúngicos",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-878",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Hallownest Seal",
+    "description": "Relíquia ou item colecionável em Cânion da Névoa.",
+    "coords": [
+      47.09,
+      -44.1
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-879",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Hallownest Seal",
+    "description": "Relíquia ou item colecionável em Ermos Fúngicos.",
+    "coords": [
+      61.78,
+      -53.14
+    ],
+    "region": "Ermos Fúngicos",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-880",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Hallownest Seal",
+    "description": "Relíquia ou item colecionável em Encruzilhada Esquecida.",
+    "coords": [
+      56.66,
+      -32.51
+    ],
+    "region": "Encruzilhada Esquecida",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-881",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Hallownest Seal",
+    "description": "Relíquia ou item colecionável em Dirtmouth.",
+    "coords": [
+      65.06,
+      -20.64
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-882",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Hallownest Seal",
+    "description": "Relíquia ou item colecionável em Cânion da Névoa.",
+    "coords": [
+      40.56,
+      -35.48
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-883",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Hallownest Seal",
+    "description": "Relíquia ou item colecionável em Terra do Descanso.",
+    "coords": [
+      92.19,
+      -42.23
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-884",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Hallownest Seal",
+    "description": "Relíquia ou item colecionável em Cidade das Lágrimas.",
+    "coords": [
+      79.44,
+      -41.29
+    ],
+    "region": "Cidade das Lágrimas",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-885",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Hallownest Seal",
+    "description": "Relíquia ou item colecionável em Hidrovia Real.",
+    "coords": [
+      79.75,
+      -50.76
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-886",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Hallownest Seal",
+    "description": "Relíquia ou item colecionável em Borda do Reino.",
+    "coords": [
+      108.19,
+      -50.79
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-887",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Hallownest Seal",
+    "description": "Relíquia ou item colecionável em Terra do Descanso.",
+    "coords": [
+      107.5,
+      -30.82
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-888",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Hallownest Seal",
+    "description": "Relíquia ou item colecionável em Ninho Profundo.",
+    "coords": [
+      8.16,
+      -51.54
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-889",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Hallownest Seal",
+    "description": "Relíquia ou item colecionável em Cânion da Névoa.",
+    "coords": [
+      15.25,
+      -40.17
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-890",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Hallownest Seal",
+    "description": "Relíquia ou item colecionável em Ninho Profundo.",
+    "coords": [
+      49.5,
+      -54.39
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-982",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Rancid Egg (for 60 Geo)",
+    "description": "Relíquia ou item colecionável em Dirtmouth.",
+    "coords": [
+      60.78,
+      -17.91
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-891",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Rancid Egg",
+    "description": "Relíquia ou item colecionável em Hidrovia Real.",
+    "coords": [
+      69.19,
+      -55.23
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-892",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Rancid Egg",
+    "description": "Relíquia ou item colecionável em Hidrovia Real.",
+    "coords": [
+      75.66,
+      -56.95
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-893",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Rancid Egg",
+    "description": "Relíquia ou item colecionável em Hidrovia Real.",
+    "coords": [
+      83.66,
+      -58.04
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-894",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Rancid Egg",
+    "description": "Relíquia ou item colecionável em Cânion da Névoa.",
+    "coords": [
+      13.53,
+      -30.86
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-895",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Rancid Egg",
+    "description": "Relíquia ou item colecionável em Terra do Descanso.",
+    "coords": [
+      100.59,
+      -45.45
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-896",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Rancid Egg",
+    "description": "Relíquia ou item colecionável em Pico de Cristal.",
+    "coords": [
+      82.88,
+      -23.48
+    ],
+    "region": "Pico de Cristal",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-897",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Rancid Egg",
+    "description": "Relíquia ou item colecionável em Terra do Descanso.",
+    "coords": [
+      89.72,
+      -24.95
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-898",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Rancid Egg",
+    "description": "Relíquia ou item colecionável em Pico de Cristal.",
+    "coords": [
+      91.34,
+      -15.29
+    ],
+    "region": "Pico de Cristal",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-899",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Rancid Egg",
+    "description": "Relíquia ou item colecionável em Terra do Descanso.",
+    "coords": [
+      89.88,
+      -30.57
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-900",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Rancid Egg",
+    "description": "Relíquia ou item colecionável em Ninho Profundo.",
+    "coords": [
+      22.66,
+      -62.67
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-901",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Rancid Egg",
+    "description": "Relíquia ou item colecionável em Ninho Profundo.",
+    "coords": [
+      12.13,
+      -47.4
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-902",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Rancid Egg",
+    "description": "Relíquia ou item colecionável em Borda do Reino.",
+    "coords": [
+      132.72,
+      -60.48
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-903",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Rancid Egg",
+    "description": "Relíquia ou item colecionável em Cânion da Névoa.",
+    "coords": [
+      34.19,
+      -39.85
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-904",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Rancid Egg",
+    "description": "Relíquia ou item colecionável em Hidrovia Real.",
+    "coords": [
+      84.66,
+      -47.89
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-905",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Rancid Egg",
+    "description": "Relíquia ou item colecionável em Ermos Fúngicos.",
+    "coords": [
+      53.63,
+      -49.07
+    ],
+    "region": "Ermos Fúngicos",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-906",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Rancid Egg",
+    "description": "Relíquia ou item colecionável em Borda do Reino.",
+    "coords": [
+      116.75,
+      -42.95
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-907",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Rancid Egg",
+    "description": "Relíquia ou item colecionável em A Colmeia.",
+    "coords": [
+      97.84,
+      -60.54
+    ],
+    "region": "A Colmeia",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-908",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Rancid Egg",
+    "description": "Relíquia ou item colecionável em Ninho Profundo.",
+    "coords": [
+      19.32,
+      -70.91
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-1339",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Rancid Egg (requires Defender's Crest)",
+    "description": "Relíquia ou item colecionável em Hidrovia Real.",
+    "coords": [
+      90.88,
+      -54.42
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-909",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "King's Idol",
+    "description": "Relíquia ou item colecionável em Penhascos Uivantes.",
+    "coords": [
+      31.81,
+      -18.17
+    ],
+    "region": "Penhascos Uivantes",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-910",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "King's Idol",
+    "description": "Relíquia ou item colecionável em Pico de Cristal.",
+    "coords": [
+      85.25,
+      -17.2
+    ],
+    "region": "Pico de Cristal",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-911",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "King's Idol",
+    "description": "Relíquia ou item colecionável em Borda do Reino.",
+    "coords": [
+      115.88,
+      -24.36
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-912",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "King's Idol",
+    "description": "Relíquia ou item colecionável em Ninho Profundo.",
+    "coords": [
+      39.09,
+      -57.67
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-913",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "King's Idol",
+    "description": "Relíquia ou item colecionável em Borda do Reino.",
+    "coords": [
+      110.81,
+      -41.82
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-914",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "King's Idol",
+    "description": "Relíquia ou item colecionável em Hidrovia Real.",
+    "coords": [
+      93.81,
+      -57.42
+    ],
+    "region": "Hidrovia Real",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-915",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "King's Idol",
+    "description": "Relíquia ou item colecionável em Borda do Reino.",
+    "coords": [
+      131.72,
+      -43.42
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-984",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Rancid Egg (requires 16/46 Grubs)",
+    "description": "Relíquia ou item colecionável em Dirtmouth.",
+    "coords": [
+      58.75,
+      -21.61
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-985",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Hallownest Seal (requires 23/46 Grubs)",
+    "description": "Relíquia ou item colecionável em Dirtmouth.",
+    "coords": [
+      58.75,
+      -21.61
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-987",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "King's Idol (requires 38/46 Grubs)",
+    "description": "Relíquia ou item colecionável em Dirtmouth.",
+    "coords": [
+      58.75,
+      -21.61
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-988",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Hallownest Seal (at 100 Essences)",
+    "description": "Relíquia ou item colecionável em Terra do Descanso.",
+    "coords": [
+      107.31,
+      -24.54
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-989",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Arcane Egg (at 1200 Essences)",
+    "description": "Relíquia ou item colecionável em Terra do Descanso.",
+    "coords": [
+      107.31,
+      -24.54
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-916",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Arcane Egg",
+    "description": "Relíquia ou item colecionável em O Abismo.",
+    "coords": [
+      79.35,
+      -83.48
+    ],
+    "region": "O Abismo",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-917",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Arcane Egg",
+    "description": "Relíquia ou item colecionável em O Abismo.",
+    "coords": [
+      82.31,
+      -88.26
+    ],
+    "region": "O Abismo",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-relic-918",
+    "mapId": "hallownest",
+    "category": "relic",
+    "title": "Arcane Egg",
+    "description": "Relíquia ou item colecionável em Palácio Branco.",
+    "coords": [
+      112.22,
+      -86.23
+    ],
+    "region": "Palácio Branco",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-dream-tree-447",
+    "mapId": "hallownest",
+    "category": "dream-tree",
+    "title": "Árvore dos Sonhos — Penhascos Uivantes",
+    "description": "Raiz Sussurrante em Penhascos Uivantes. Use o Ferrão dos Sonhos para coletar Essência.",
+    "coords": [
+      33.88,
+      -17.36
+    ],
+    "region": "Penhascos Uivantes",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-dream-tree-448",
+    "mapId": "hallownest",
+    "category": "dream-tree",
+    "title": "Árvore dos Sonhos — Cânion da Névoa",
+    "description": "Raiz Sussurrante em Cânion da Névoa. Use o Ferrão dos Sonhos para coletar Essência.",
+    "coords": [
+      28.69,
+      -33.42
+    ],
+    "region": "Cânion da Névoa",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-dream-tree-449",
+    "mapId": "hallownest",
+    "category": "dream-tree",
+    "title": "Árvore dos Sonhos — Ninho Profundo",
+    "description": "Raiz Sussurrante em Ninho Profundo. Use o Ferrão dos Sonhos para coletar Essência.",
+    "coords": [
+      22.19,
+      -61.98
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-dream-tree-450",
+    "mapId": "hallownest",
+    "category": "dream-tree",
+    "title": "Árvore dos Sonhos — Ninho Profundo",
+    "description": "Raiz Sussurrante em Ninho Profundo. Use o Ferrão dos Sonhos para coletar Essência.",
+    "coords": [
+      36.75,
+      -45.79
+    ],
+    "region": "Ninho Profundo",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-dream-tree-451",
+    "mapId": "hallownest",
+    "category": "dream-tree",
+    "title": "Árvore dos Sonhos — Ermos Fúngicos",
+    "description": "Raiz Sussurrante em Ermos Fúngicos. Use o Ferrão dos Sonhos para coletar Essência.",
+    "coords": [
+      60.06,
+      -37.1
+    ],
+    "region": "Ermos Fúngicos",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-dream-tree-452",
+    "mapId": "hallownest",
+    "category": "dream-tree",
+    "title": "Árvore dos Sonhos — Encruzilhada Esquecida",
+    "description": "Raiz Sussurrante em Encruzilhada Esquecida. Use o Ferrão dos Sonhos para coletar Essência.",
+    "coords": [
+      72.33,
+      -32.76
+    ],
+    "region": "Encruzilhada Esquecida",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-dream-tree-453",
+    "mapId": "hallownest",
+    "category": "dream-tree",
+    "title": "Árvore dos Sonhos — Dirtmouth",
+    "description": "Raiz Sussurrante em Dirtmouth. Use o Ferrão dos Sonhos para coletar Essência.",
+    "coords": [
+      61.69,
+      -21.29
+    ],
+    "region": "Dirtmouth",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-dream-tree-454",
+    "mapId": "hallownest",
+    "category": "dream-tree",
+    "title": "Árvore dos Sonhos — Terra do Descanso",
+    "description": "Raiz Sussurrante em Terra do Descanso. Use o Ferrão dos Sonhos para coletar Essência.",
+    "coords": [
+      99.69,
+      -13.61
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-dream-tree-455",
+    "mapId": "hallownest",
+    "category": "dream-tree",
+    "title": "Árvore dos Sonhos — Terra do Descanso",
+    "description": "Raiz Sussurrante em Terra do Descanso. Use o Ferrão dos Sonhos para coletar Essência.",
+    "coords": [
+      107.63,
+      -27.92
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-dream-tree-456",
+    "mapId": "hallownest",
+    "category": "dream-tree",
+    "title": "Árvore dos Sonhos — Terra do Descanso",
+    "description": "Raiz Sussurrante em Terra do Descanso. Use o Ferrão dos Sonhos para coletar Essência.",
+    "coords": [
+      114.88,
+      -22.86
+    ],
+    "region": "Terra do Descanso",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-dream-tree-457",
+    "mapId": "hallownest",
+    "category": "dream-tree",
+    "title": "Árvore dos Sonhos — Borda do Reino",
+    "description": "Raiz Sussurrante em Borda do Reino. Use o Ferrão dos Sonhos para coletar Essência.",
+    "coords": [
+      117.38,
+      -50.23
+    ],
+    "region": "Borda do Reino",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-dream-tree-458",
+    "mapId": "hallownest",
+    "category": "dream-tree",
+    "title": "Árvore dos Sonhos — A Colmeia",
+    "description": "Raiz Sussurrante em A Colmeia. Use o Ferrão dos Sonhos para coletar Essência.",
+    "coords": [
+      121.19,
+      -65.42
+    ],
+    "region": "A Colmeia",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-dream-tree-459",
+    "mapId": "hallownest",
+    "category": "dream-tree",
+    "title": "Árvore dos Sonhos — A Colmeia",
+    "description": "Raiz Sussurrante em A Colmeia. Use o Ferrão dos Sonhos para coletar Essência.",
+    "coords": [
+      95.94,
+      -62.67
+    ],
+    "region": "A Colmeia",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-dream-tree-460",
+    "mapId": "hallownest",
+    "category": "dream-tree",
+    "title": "Árvore dos Sonhos — Cidade das Lágrimas",
+    "description": "Raiz Sussurrante em Cidade das Lágrimas. Use o Ferrão dos Sonhos para coletar Essência.",
+    "coords": [
+      76.94,
+      -42.6
+    ],
+    "region": "Cidade das Lágrimas",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-dream-tree-461",
+    "mapId": "hallownest",
+    "category": "dream-tree",
+    "title": "Árvore dos Sonhos — Ermos Fúngicos",
+    "description": "Raiz Sussurrante em Ermos Fúngicos. Use o Ferrão dos Sonhos para coletar Essência.",
+    "coords": [
+      58.44,
+      -49.92
+    ],
+    "region": "Ermos Fúngicos",
+    "dlc": "base"
+  },
+  {
+    "id": "hk-godhome-boss-1368",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Gruz Mother (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.46,
+      -92.25
+    ],
     "region": "Lar dos Deuses",
-    "metadata": { "modes": ["Sintonizado", "Ascendido", "Radiante"] }
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1369",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Vengefly King (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.46,
+      -92.25
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1370",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Brooding Mawlek (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.46,
+      -92.25
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1371",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "False Knight (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.46,
+      -92.25
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1372",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Failed Champion (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.46,
+      -92.25
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1373",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Hornet Protector (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.46,
+      -92.25
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1374",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Hornet Sentinel (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.46,
+      -92.25
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1375",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Massive Moss Charger (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.46,
+      -92.25
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1376",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Flukemarm (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.46,
+      -92.25
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1377",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Mantis Lords (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.46,
+      -92.25
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1378",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Sisters of Battle (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.46,
+      -92.25
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1379",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Oblobbles (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.17,
+      -92.27
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1380",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Hive Knight (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.17,
+      -92.27
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1381",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Broken Vessel (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.17,
+      -92.27
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1382",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Lost Kin (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.17,
+      -92.27
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1383",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Nosk (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.17,
+      -92.27
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1384",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Winged Nosk (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.17,
+      -92.27
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1385",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "The Collector (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.17,
+      -92.27
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1386",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "God Tamer (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.17,
+      -92.27
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1387",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Crystal Guardian (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.17,
+      -92.27
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1388",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Enraged Guardian (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.17,
+      -92.27
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1389",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Uumuu (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.17,
+      -92.27
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1390",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Traitor Lord (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.17,
+      -92.27
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1391",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Grey Prince Zote (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.17,
+      -92.27
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1392",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Soul Warrior (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.49,
+      -91.41
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1393",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Soul Master (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.49,
+      -91.41
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1394",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Soul Tyrant (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.49,
+      -91.41
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1395",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Dung Defender (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.49,
+      -91.41
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1396",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "White Defender (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.49,
+      -91.41
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1397",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Watcher Knight (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.49,
+      -91.41
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1398",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "No Eyes (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.49,
+      -91.41
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1399",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Marmu (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.49,
+      -91.41
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1400",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Galien (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.49,
+      -91.41
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1401",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Markoth (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.49,
+      -91.41
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1402",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Xero (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.14,
+      -91.36
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1403",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Gorb (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.14,
+      -91.36
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1404",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Elder Hu (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.14,
+      -91.36
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1405",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Oro & Mato (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.14,
+      -91.36
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1406",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Paintmaster Sheo (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.14,
+      -91.36
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1407",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Nailsage Sly (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.14,
+      -91.36
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1408",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pure Vessel (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.14,
+      -91.36
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1409",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Grimm (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.14,
+      -91.36
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1410",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Nightmare King (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.14,
+      -91.36
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1411",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Radiance (Radiant)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      60.07,
+      -91.35
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1412",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "The Eternal Ordeal (Defeat 57 Zotelings)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      60.78,
+      -91.85
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1413",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Master",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.99,
+      -89.13
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1414",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Artist",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      57.82,
+      -89.08
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1415",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Sage",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.67,
+      -89.06
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1416",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Knight",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      60.65,
+      -89.05
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1417",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Hallownest",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      55.66,
+      -79.41
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1421",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Master (Nail Binding)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.99,
+      -89.13
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1422",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Artist (Nail Binding)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      57.82,
+      -89.08
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1423",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Sage (Nail Binding)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.67,
+      -89.06
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1424",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Knight (Nail Binding)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      60.65,
+      -89.05
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1425",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Hallownest (Nail Binding)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      55.66,
+      -79.41
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1426",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Master (Shell Binding)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.99,
+      -89.13
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1427",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Artist (Shell Binding)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      57.82,
+      -89.08
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1428",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Sage (Shell Binding)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.67,
+      -89.06
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1429",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Knight (Shell Binding)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      60.65,
+      -89.05
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1430",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Hallownest (Shell Binding)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      55.66,
+      -79.41
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1431",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Master (Charm Binding)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.99,
+      -89.13
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1432",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Artist (Charm Binding)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      57.82,
+      -89.08
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1433",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Sage (Charm Binding)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.67,
+      -89.06
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1434",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Knight (Charm Binding)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      60.65,
+      -89.05
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1435",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Hallownest (Charm Binding)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      55.66,
+      -79.41
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1436",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Master (Soul Binding)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.99,
+      -89.13
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1437",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Artist (Soul Binding)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      57.82,
+      -89.08
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1438",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Sage (Soul Binding)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.67,
+      -89.06
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1439",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Knight (Soul Binding)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      60.65,
+      -89.05
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1440",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Hallownest (Soul Binding)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      55.66,
+      -79.41
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1441",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Master (All Bindings at once)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.99,
+      -89.13
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1442",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Artist (All Bindings at once)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      57.82,
+      -89.08
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1443",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Sage (All Bindings at once)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.67,
+      -89.06
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1444",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Knight (All Bindings at once)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      60.65,
+      -89.05
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1445",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Hallownest (All Bindings at once)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      55.66,
+      -79.41
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1446",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Master (No Damage)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      56.99,
+      -89.13
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1447",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Artist (No Damage)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      57.82,
+      -89.08
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1448",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Sage (No Damage)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      58.67,
+      -89.06
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1449",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Knight (No Damage)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      60.65,
+      -89.05
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
+  },
+  {
+    "id": "hk-godhome-boss-1450",
+    "mapId": "hallownest",
+    "category": "godhome-boss",
+    "title": "Pantheon of the Hallownest (No Damage)",
+    "description": "Desafio no Salão dos Deuses / Panteões do Lar dos Deuses (DLC Godmaster).",
+    "coords": [
+      55.66,
+      -79.41
+    ],
+    "region": "Lar dos Deuses",
+    "dlc": "godmaster"
   }
 ]

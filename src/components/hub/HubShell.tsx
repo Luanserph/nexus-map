@@ -1,28 +1,48 @@
 import { Compass, Layers, MapPin, RotateCcw } from 'lucide-react';
 import { useMemo, useState } from 'react';
-import { useI18n } from '../../core/i18n';
+import { getGenreLabel, normalizeGenreKey, useI18n } from '../../core/i18n';
+import type { LastVisitedRecord } from '../../core/storage';
 import {
-  getAllGenres,
   getGameStatus,
   getTotalPinsCount,
 } from '../../data/games';
 import type { ExplorationStatus, HubGameEntry } from '../../types/schema';
 import { GlassBadge, GlassPanel, NeonButton } from '../glass';
+import { ContinueExploringBanner } from './ContinueExploringBanner';
 import { GameCard } from './GameCard';
 import { HubNavbar } from './HubNavbar';
 
 export interface HubShellProps {
   games: HubGameEntry[];
+  lastVisited?: LastVisitedRecord | null;
   onOpenGame: (slug: string, layerId?: string) => void;
 }
 
-export function HubShell({ games, onOpenGame }: HubShellProps) {
-  const { t } = useI18n();
+export function HubShell({ games, lastVisited, onOpenGame }: HubShellProps) {
+  const { t, locale } = useI18n();
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedGenre, setSelectedGenre] = useState<string>('all');
   const [selectedStatus, setSelectedStatus] = useState<ExplorationStatus>('all');
+  const [hoveredAccent, setHoveredAccent] = useState<string | null>(null);
 
-  const availableGenres = useMemo(() => getAllGenres(games), [games]);
+  const availableGenres = useMemo(() => {
+    const normalizedSet = new Set<string>();
+    for (const entry of games) {
+      for (const genre of entry.manifest.genres) {
+        normalizedSet.add(normalizeGenreKey(genre));
+      }
+    }
+    return Array.from(normalizedSet).sort((a, b) =>
+      getGenreLabel(a, locale).localeCompare(getGenreLabel(b, locale), locale)
+    );
+  }, [games, locale]);
+
+  const lastVisitedEntry = useMemo(() => {
+    if (!lastVisited) return null;
+    return (
+      games.find((entry) => entry.manifest.slug === lastVisited.gameSlug) ?? null
+    );
+  }, [games, lastVisited]);
 
   const filteredGames = useMemo(() => {
     const normalizedQuery = searchQuery.trim().toLowerCase();
@@ -34,7 +54,10 @@ export function HubShell({ games, onOpenGame }: HubShellProps) {
         return false;
       }
 
-      if (selectedGenre !== 'all' && !manifest.genres.includes(selectedGenre)) {
+      if (
+        selectedGenre !== 'all' &&
+        !manifest.genres.some((g) => normalizeGenreKey(g) === selectedGenre)
+      ) {
         return false;
       }
 
@@ -45,6 +68,7 @@ export function HubShell({ games, onOpenGame }: HubShellProps) {
         manifest.subtitle,
         manifest.studio,
         ...manifest.genres,
+        ...manifest.genres.map((g) => getGenreLabel(g, locale)),
         ...manifest.maps.map((mapLayer) => mapLayer.name),
       ]
         .join(' ')
@@ -52,7 +76,7 @@ export function HubShell({ games, onOpenGame }: HubShellProps) {
 
       return haystack.includes(normalizedQuery);
     });
-  }, [games, searchQuery, selectedGenre, selectedStatus]);
+  }, [games, searchQuery, selectedGenre, selectedStatus, locale]);
 
   const hubTelemetry = useMemo(() => {
     const totalLayers = games.reduce((acc, g) => acc + g.manifest.maps.length, 0);
@@ -81,22 +105,37 @@ export function HubShell({ games, onOpenGame }: HubShellProps) {
 
   return (
     <div className="relative min-h-svh overflow-x-clip bg-[var(--surface-base)] text-[var(--text-primary)] transition-colors duration-300">
-      {/* Background Architectural Layers: Tactical Grid + Subtle Ambient Top Glow + Micro-Noise */}
+      {/* Background Layers: Pixel Art Hub Artwork + Center/Bottom Vignette + Dynamic Ambient Glow + Micro-Noise */}
       <div
         aria-hidden="true"
-        className="nexus-tactical-grid pointer-events-none fixed inset-0 opacity-75"
+        className="pointer-events-none fixed inset-0 bg-cover bg-center bg-no-repeat opacity-30"
+        style={{
+          backgroundImage: "url('/bg-hub.webp'), url('/bg-hub.jpg')",
+          imageRendering: 'pixelated',
+        }}
       />
+      {/* Deep center & bottom vignette (#07090f) preserving side characters while keeping cards high-contrast */}
       <div
         aria-hidden="true"
-        className="pointer-events-none fixed inset-x-0 top-0 h-[420px]"
+        className="pointer-events-none fixed inset-0"
         style={{
           background:
-            'radial-gradient(ellipse 68% 50% at 50% -12%, color-mix(in srgb, var(--accent-primary) 13%, transparent), transparent 72%)',
+            'radial-gradient(ellipse 58% 62% at 50% 42%, rgba(7, 9, 15, 0.72) 0%, rgba(7, 9, 15, 0.34) 68%, rgba(7, 9, 15, 0.55) 100%), linear-gradient(180deg, rgba(7, 9, 15, 0.45) 0%, rgba(7, 9, 15, 0.15) 38%, rgba(7, 9, 15, 0.88) 84%, #07090f 100%)',
+        }}
+      />
+      {/* Dynamic Ambient Glow reacting to hovered game accent with screen blend over the pixel art */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none fixed inset-0 mix-blend-screen transition-all duration-500"
+        style={{
+          background: hoveredAccent
+            ? `radial-gradient(ellipse 72% 55% at 50% -6%, color-mix(in srgb, ${hoveredAccent} 22%, transparent), transparent 72%), radial-gradient(ellipse 50% 45% at 88% 85%, color-mix(in srgb, ${hoveredAccent} 14%, transparent), transparent 70%), radial-gradient(ellipse 45% 45% at 12% 85%, color-mix(in srgb, ${hoveredAccent} 12%, transparent), transparent 70%)`
+            : 'radial-gradient(ellipse 68% 50% at 50% -10%, color-mix(in srgb, var(--accent-primary) 15%, transparent), transparent 72%)',
         }}
       />
       <div
         aria-hidden="true"
-        className="nexus-noise-layer pointer-events-none fixed inset-0 opacity-[0.028]"
+        className="nexus-noise-layer pointer-events-none fixed inset-0 opacity-[0.025]"
       />
 
       {/* Main Content Container */}
@@ -192,6 +231,16 @@ export function HubShell({ games, onOpenGame }: HubShellProps) {
           </GlassPanel>
         </section>
 
+        {/* Continue Exploring Banner (last visited game & map) */}
+        {lastVisitedEntry && !hasActiveFilters && (
+          <ContinueExploringBanner
+            entry={lastVisitedEntry}
+            lastMapId={lastVisited?.mapId}
+            onResume={onOpenGame}
+            onHoverAccent={setHoveredAccent}
+          />
+        )}
+
         {/* Responsive Game Cards Grid */}
         <main className="flex-1">
           {filteredGames.length > 0 ? (
@@ -201,6 +250,7 @@ export function HubShell({ games, onOpenGame }: HubShellProps) {
                   key={entry.manifest.id}
                   entry={entry}
                   onOpenGame={onOpenGame}
+                  onHoverAccent={setHoveredAccent}
                 />
               ))}
             </div>

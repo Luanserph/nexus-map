@@ -1,9 +1,9 @@
-import { Compass, Database, Search, SlidersHorizontal, X } from 'lucide-react';
+import { Database, Search, SlidersHorizontal, X } from 'lucide-react';
 import { useEffect, useRef } from 'react';
-import { LanguageSelector, useI18n } from '../../core/i18n';
+import { getGenreLabel, LanguageSelector, useI18n } from '../../core/i18n';
 import type { TranslationKey } from '../../core/i18n';
 import type { ExplorationStatus } from '../../types/schema';
-import { GlassBadge, GlassInput, GlassPanel, NeonButton } from '../glass';
+import { GlassBadge, GlassInput, GlassPanel, NeonButton, NexusLogo } from '../glass';
 
 export interface HubNavbarProps {
   searchQuery: string;
@@ -35,7 +35,7 @@ export function HubNavbar({
   resultsCount,
   totalCount,
 }: HubNavbarProps) {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
   const searchInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -68,7 +68,7 @@ export function HubNavbar({
           <div className="flex items-center justify-between gap-3">
             <div className="flex items-center gap-3">
               <div className="relative flex h-9 w-9 items-center justify-center rounded-lg border border-[color-mix(in_srgb,var(--accent-primary)_42%,rgba(255,255,255,0.12))] bg-[color-mix(in_srgb,var(--accent-primary)_10%,rgba(7,9,13,0.85))] shadow-[0_0_16px_-4px_var(--accent-glow)]">
-                <Compass className="h-4.5 w-4.5 text-[var(--accent-primary)]" />
+                <NexusLogo className="h-5.5 w-5.5" />
               </div>
               <div>
                 <div className="flex items-center gap-2">
@@ -173,15 +173,15 @@ export function HubNavbar({
             >
               {t('hub.statusAll')}
             </NeonButton>
-            {availableGenres.map((genre) => (
+            {availableGenres.map((genreKey) => (
               <NeonButton
-                key={genre}
+                key={genreKey}
                 size="sm"
                 variant="ghost"
-                active={selectedGenre === genre}
-                onClick={() => onGenreChange(genre)}
+                active={selectedGenre === genreKey}
+                onClick={() => onGenreChange(genreKey)}
               >
-                {genre}
+                {getGenreLabel(genreKey, locale)}
               </NeonButton>
             ))}
           </div>

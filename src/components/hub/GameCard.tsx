@@ -1,6 +1,6 @@
 import { ArrowUpRight, CheckCircle2, Clock, Layers, MapPin } from 'lucide-react';
-import type { CSSProperties } from 'react';
-import { useI18n } from '../../core/i18n';
+import type { CSSProperties, MouseEvent } from 'react';
+import { getGenreLabel, useI18n } from '../../core/i18n';
 import type { TranslationKey } from '../../core/i18n';
 import { DEFAULT_FONT_DISPLAY } from '../../core/theme-engine';
 import {
@@ -11,10 +11,12 @@ import {
 import type { HubGameEntry } from '../../types/schema';
 import { GlassBadge, GlassPanel } from '../glass';
 import { GameCoverArt } from './GameCoverArt';
+import { PlatformIcons } from './PlatformIcons';
 
 export interface GameCardProps {
   entry: HubGameEntry;
   onOpenGame: (slug: string, layerId?: string) => void;
+  onHoverAccent?: (accent: string | null) => void;
 }
 
 const statusConfig: Record<
@@ -35,8 +37,8 @@ const statusConfig: Record<
   },
 };
 
-export function GameCard({ entry, onOpenGame }: GameCardProps) {
-  const { t } = useI18n();
+export function GameCard({ entry, onOpenGame, onHoverAccent }: GameCardProps) {
+  const { t, locale } = useI18n();
   const { manifest, progress } = entry;
   const { theme } = manifest;
   const totalPins = getTotalPinsCount(manifest);
@@ -62,12 +64,27 @@ export function GameCard({ entry, onOpenGame }: GameCardProps) {
     onOpenGame(manifest.slug, progress.activeLayerId ?? manifest.maps[0]?.id);
   }
 
+  function handleMouseMove(event: MouseEvent<HTMLDivElement>) {
+    const rect = event.currentTarget.getBoundingClientRect();
+    event.currentTarget.style.setProperty(
+      '--mouse-x',
+      `${event.clientX - rect.left}px`
+    );
+    event.currentTarget.style.setProperty(
+      '--mouse-y',
+      `${event.clientY - rect.top}px`
+    );
+  }
+
   return (
     <GlassPanel
       padding="none"
       style={scopedThemeVars}
       onClick={handleOpen}
-      className="group/card nexus-game-card flex h-full cursor-pointer flex-col"
+      onMouseMove={handleMouseMove}
+      onMouseEnter={() => onHoverAccent?.(theme.accentPrimary)}
+      onMouseLeave={() => onHoverAccent?.(null)}
+      className="group/card nexus-game-card nexus-card-spotlight flex h-full cursor-pointer flex-col"
     >
       {/* Top 2px identity accent bar */}
       <div
@@ -144,13 +161,16 @@ export function GameCard({ entry, onOpenGame }: GameCardProps) {
           </p>
         </div>
 
-        {/* Genre Chips */}
-        <div className="flex flex-wrap gap-1.5">
-          {manifest.genres.map((genre) => (
-            <GlassBadge key={genre} variant="muted" size="sm">
-              {genre}
-            </GlassBadge>
-          ))}
+        {/* Genre Chips + Platforms Row */}
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <div className="flex flex-wrap gap-1.5">
+            {manifest.genres.map((genre) => (
+              <GlassBadge key={genre} variant="muted" size="sm">
+                {getGenreLabel(genre, locale)}
+              </GlassBadge>
+            ))}
+          </div>
+          <PlatformIcons platforms={manifest.platforms} />
         </div>
 
         {/* Telemetry Counters: Maps & Pins */}

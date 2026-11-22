@@ -8,6 +8,8 @@ export type BackgroundPattern =
 
 export type GameCatalogStatus = 'available' | 'beta' | 'coming-soon';
 
+export type GamePlatform = 'pc' | 'playstation' | 'xbox' | 'switch';
+
 export type ExplorationStatus = 'all' | 'in-progress' | 'completed' | 'not-started';
 
 export interface GameAssets {
@@ -216,6 +218,7 @@ export interface GameManifest {
   studio: string;
   releaseYear: number;
   genres: string[];
+  platforms?: GamePlatform[];
   status: GameCatalogStatus;
   dlc?: string;
   dlcs?: GameDlc[];

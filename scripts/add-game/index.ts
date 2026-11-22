@@ -274,6 +274,7 @@ async function run(): Promise<void> {
     studio: rawg.studio,
     releaseYear: rawg.releaseYear,
     genres: rawg.genres,
+    platforms: rawg.platforms,
     status: 'available',
     assets,
     theme,

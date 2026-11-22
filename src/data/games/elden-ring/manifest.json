@@ -10,6 +10,11 @@
     "Soulslike",
     "Mundo Aberto"
   ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox"
+  ],
   "status": "available",
   "dlc": "base",
   "dlcs": [

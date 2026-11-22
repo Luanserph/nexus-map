@@ -5,7 +5,16 @@
   "subtitle": "Night City & Dogtown",
   "studio": "CD PROJEKT RED",
   "releaseYear": 2020,
-  "genres": ["Action RPG", "Sci-Fi", "Mundo Aberto"],
+  "genres": [
+    "Action RPG",
+    "Sci-Fi",
+    "Mundo Aberto"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox"
+  ],
   "status": "available",
   "dlc": "base",
   "dlcs": [
@@ -22,7 +31,11 @@
       "accentColor": "#FF003C"
     }
   ],
-  "assets": {},
+  "assets": {
+    "coverImage": "/games/cyberpunk-2077/cover.webp",
+    "bannerImage": "/games/cyberpunk-2077/banner.webp",
+    "logoImage": "/games/cyberpunk-2077/logo.webp"
+  },
   "theme": {
     "accentPrimary": "#FCEE0A",
     "accentSecondary": "#FF003C",
@@ -37,72 +50,188 @@
     {
       "id": "night-city",
       "name": "Night City",
-      "pinsCount": 1420,
+      "pinsCount": 672,
+      "dlc": "base",
       "icon": "cpu",
       "tileUrlTemplate": "/tiles/cyberpunk-2077/night-city/{z}/{x}/{y}.webp",
-      "minZoom": -1,
-      "maxZoom": 4,
-      "bounds": [0, 0, 1024, 1024],
-      "defaultCenter": [512, 512],
-      "defaultZoom": 0
+      "minZoom": 1,
+      "maxZoom": 3,
+      "bounds": [
+        0,
+        -256,
+        256,
+        0
+      ],
+      "defaultCenter": [
+        118,
+        -110
+      ],
+      "defaultZoom": 2
     },
     {
       "id": "dogtown",
       "name": "Dogtown (Phantom Liberty)",
-      "pinsCount": 440,
+      "pinsCount": 18,
       "dlc": "phantom-liberty",
       "icon": "shield-alert",
       "tileUrlTemplate": "/tiles/cyberpunk-2077/dogtown/{z}/{x}/{y}.webp",
-      "minZoom": -1,
-      "maxZoom": 4,
-      "bounds": [0, 0, 1024, 1024],
-      "defaultCenter": [512, 512],
-      "defaultZoom": 0
+      "minZoom": 1,
+      "maxZoom": 3,
+      "bounds": [
+        0,
+        -256,
+        256,
+        0
+      ],
+      "defaultCenter": [
+        128,
+        -128
+      ],
+      "defaultZoom": 2
     }
   ],
   "categoryGroups": [
     {
-      "id": "fast-travel",
-      "label": "Infraestrutura",
+      "id": "infrastructure",
+      "label": "Viagem & Infraestrutura",
       "categories": [
         {
           "id": "dataterm",
-          "groupId": "fast-travel",
-          "name": "DataTerm",
+          "groupId": "infrastructure",
+          "name": "DataTerm (Viagem Rápida)",
           "icon": "radio",
           "color": "#00F0FF",
           "defaultVisible": true
         },
         {
           "id": "ripperdoc",
-          "groupId": "fast-travel",
-          "name": "Medicânico",
+          "groupId": "infrastructure",
+          "name": "Medicânico (Ripperdoc)",
           "icon": "activity",
           "color": "#FCEE0A",
           "defaultVisible": true
+        },
+        {
+          "id": "fixer",
+          "groupId": "infrastructure",
+          "name": "Fixer",
+          "icon": "crown",
+          "color": "#F59E0B",
+          "defaultVisible": true
+        },
+        {
+          "id": "droppoint",
+          "groupId": "infrastructure",
+          "name": "Ponto de Entrega",
+          "icon": "bookmark",
+          "color": "#94A3B8",
+          "defaultVisible": false
         }
       ]
     },
     {
-      "id": "contracts",
-      "label": "Serviços & NCPD",
+      "id": "contracts-ncpd",
+      "label": "Serviços, NCPD & Chefes",
       "categories": [
         {
-          "id": "tarot",
-          "groupId": "contracts",
-          "name": "Grafite de Tarô",
-          "icon": "sparkles",
-          "color": "#FF003C",
+          "id": "gig",
+          "groupId": "contracts-ncpd",
+          "name": "Serviços (Gigs)",
+          "icon": "scroll-text",
+          "color": "#34D399",
           "defaultVisible": true
         },
         {
           "id": "cyberpsycho",
-          "groupId": "contracts",
-          "name": "Ciberpsicopata",
-          "icon": "alert-triangle",
-          "color": "#FB7185",
+          "groupId": "contracts-ncpd",
+          "name": "Ciberpsicopatas",
+          "icon": "skull",
+          "color": "#FF003C",
           "defaultVisible": true
+        },
+        {
+          "id": "ncpd",
+          "groupId": "contracts-ncpd",
+          "name": "Scanner NCPD",
+          "icon": "alert-triangle",
+          "color": "#38BDF8",
+          "defaultVisible": false
         }
+      ]
+    },
+    {
+      "id": "collectibles-gear",
+      "label": "Colecionáveis & Veículos",
+      "categories": [
+        {
+          "id": "tarot",
+          "groupId": "collectibles-gear",
+          "name": "Grafite de Tarô",
+          "icon": "sparkles",
+          "color": "#C084FC",
+          "defaultVisible": true
+        },
+        {
+          "id": "vehicle",
+          "groupId": "collectibles-gear",
+          "name": "Veículos",
+          "icon": "navigation",
+          "color": "#FACC15",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "shops-landmarks",
+      "label": "Comércio & Marcos",
+      "categories": [
+        {
+          "id": "landmark",
+          "groupId": "shops-landmarks",
+          "name": "Marcos & Apartamentos",
+          "icon": "landmark",
+          "color": "#E2E8F0",
+          "defaultVisible": false
+        },
+        {
+          "id": "shop",
+          "groupId": "shops-landmarks",
+          "name": "Lojas & Trilha-Redes",
+          "icon": "shopping-bag",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "id": "essentials",
+      "label": "Essenciais",
+      "description": "DataTerms, Medicânicos, Fixers e Grafites de Tarô",
+      "categoryIds": [
+        "dataterm",
+        "ripperdoc",
+        "fixer",
+        "tarot"
+      ]
+    },
+    {
+      "id": "completionist",
+      "label": "Exploração 100%",
+      "description": "Exibe todos os marcadores catalogados em Night City e Dogtown",
+      "categoryIds": [
+        "*"
+      ]
+    },
+    {
+      "id": "combat-gigs",
+      "label": "Serviços, NCPD & Ciberpsicopatas",
+      "description": "Contratos de Fixers, ocorrências NCPD e avistamentos de Ciberpsicopatas",
+      "categoryIds": [
+        "gig",
+        "ncpd",
+        "cyberpsycho"
       ]
     }
   ]

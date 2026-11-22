@@ -5,9 +5,37 @@
   "subtitle": "Reino Caído de Hallownest",
   "studio": "Team Cherry",
   "releaseYear": 2017,
-  "genres": ["Metroidvania", "Indie", "Ação"],
+  "genres": [
+    "Metroidvania",
+    "Indie",
+    "Ação"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox",
+    "switch"
+  ],
   "status": "available",
-  "assets": {},
+  "assets": {
+    "coverImage": "/games/hollow-knight/cover.webp",
+    "bannerImage": "/games/hollow-knight/banner.webp",
+    "logoImage": "/games/hollow-knight/logo.webp"
+  },
+  "dlcs": [
+    {
+      "id": "the-grimm-troupe",
+      "name": "The Grimm Troupe",
+      "shortLabel": "Grimm",
+      "color": "#EF4444"
+    },
+    {
+      "id": "godmaster",
+      "name": "Godmaster",
+      "shortLabel": "Godmaster",
+      "color": "#F59E0B"
+    }
+  ],
   "theme": {
     "accentPrimary": "#7CC6FE",
     "accentSecondary": "#E8EEF5",
@@ -22,26 +50,23 @@
     {
       "id": "hallownest",
       "name": "Hallownest",
-      "pinsCount": 610,
+      "dlc": "base",
+      "pinsCount": 473,
       "icon": "map",
       "tileUrlTemplate": "/tiles/hollow-knight/hallownest/{z}/{x}/{y}.webp",
-      "minZoom": -1,
-      "maxZoom": 4,
-      "bounds": [0, 0, 1024, 1024],
-      "defaultCenter": [512, 512],
-      "defaultZoom": 0
-    },
-    {
-      "id": "godhome",
-      "name": "Lar dos Deuses",
-      "pinsCount": 130,
-      "icon": "crown",
-      "tileUrlTemplate": "/tiles/hollow-knight/godhome/{z}/{x}/{y}.webp",
-      "minZoom": -1,
-      "maxZoom": 4,
-      "bounds": [0, 0, 1024, 1024],
-      "defaultCenter": [512, 512],
-      "defaultZoom": 0
+      "minZoom": 0,
+      "maxZoom": 5,
+      "bounds": [
+        0,
+        -160,
+        160,
+        0
+      ],
+      "defaultCenter": [
+        76,
+        -54
+      ],
+      "defaultZoom": 2
     }
   ],
   "categoryGroups": [
@@ -64,12 +89,104 @@
           "icon": "navigation",
           "color": "#7CC6FE",
           "defaultVisible": true
+        },
+        {
+          "id": "tram",
+          "groupId": "navigation",
+          "name": "Estação de Bonde",
+          "icon": "compass",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "combat",
+      "label": "Chefes & Expansões",
+      "categories": [
+        {
+          "id": "boss",
+          "groupId": "combat",
+          "name": "Chefe",
+          "icon": "skull",
+          "color": "#F43F5E",
+          "defaultVisible": true
+        },
+        {
+          "id": "grimm-troupe",
+          "groupId": "combat",
+          "name": "Trupe Grimm",
+          "icon": "flame",
+          "color": "#EF4444",
+          "defaultVisible": true
+        },
+        {
+          "id": "godhome-boss",
+          "groupId": "combat",
+          "name": "Salão dos Deuses",
+          "icon": "crown",
+          "color": "#F59E0B",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "upgrades",
+      "label": "Melhorias & Poderes",
+      "categories": [
+        {
+          "id": "ability",
+          "groupId": "upgrades",
+          "name": "Habilidade & Feitiço",
+          "icon": "zap",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "charm",
+          "groupId": "upgrades",
+          "name": "Amuleto",
+          "icon": "sparkles",
+          "color": "#93C5FD",
+          "defaultVisible": true
+        },
+        {
+          "id": "mask-shard",
+          "groupId": "upgrades",
+          "name": "Fragmento de Máscara",
+          "icon": "heart",
+          "color": "#F8FAFC",
+          "defaultVisible": true
+        },
+        {
+          "id": "vessel-fragment",
+          "groupId": "upgrades",
+          "name": "Fragmento de Receptáculo",
+          "icon": "shield",
+          "color": "#CBD5E1",
+          "defaultVisible": true
+        },
+        {
+          "id": "pale-ore",
+          "groupId": "upgrades",
+          "name": "Minério Pálido",
+          "icon": "sword",
+          "color": "#E2E8F0",
+          "defaultVisible": true
+        },
+        {
+          "id": "charm-notch",
+          "groupId": "upgrades",
+          "name": "Encaixe de Amuleto",
+          "icon": "star",
+          "color": "#C084FC",
+          "defaultVisible": true
         }
       ]
     },
     {
       "id": "collectibles",
-      "label": "Colecionáveis",
+      "label": "Colecionáveis & NPCs",
       "categories": [
         {
           "id": "grub",
@@ -80,12 +197,28 @@
           "defaultVisible": true
         },
         {
-          "id": "charm",
+          "id": "dream-tree",
           "groupId": "collectibles",
-          "name": "Amuleto",
-          "icon": "sparkles",
-          "color": "#93C5FD",
+          "name": "Árvore dos Sonhos",
+          "icon": "sun",
+          "color": "#FDE047",
           "defaultVisible": true
+        },
+        {
+          "id": "relic",
+          "groupId": "collectibles",
+          "name": "Relíquia & Item",
+          "icon": "scroll",
+          "color": "#FDBA74",
+          "defaultVisible": false
+        },
+        {
+          "id": "npc",
+          "groupId": "collectibles",
+          "name": "NPC & Missão",
+          "icon": "users",
+          "color": "#5EEAD4",
+          "defaultVisible": false
         }
       ]
     }

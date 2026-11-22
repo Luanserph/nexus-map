@@ -148,14 +148,15 @@ export function InteractiveMap({
     return L.latLng(cy, cx);
   }, [mapLayer.defaultCenter]);
 
-  const minZoom = mapLayer.minZoom ?? -1;
-  const maxZoom = mapLayer.maxZoom ?? 4;
+  const effectiveMinZoom = Math.min(0, mapLayer.minZoom ?? 0);
+  const nativeMaxZoom = mapLayer.maxZoom ?? 4;
+  const overzoomMaxZoom = nativeMaxZoom + 3;
   const defaultZoom = mapLayer.defaultZoom ?? 0;
 
   /**
    * High-performance renderer for 500-1,000+ pins:
    * 1. Viewport culling (only processes markers inside padded viewport bounds).
-   * 2. Optional O(N) screen-space grid clustering when zoom < maxZoom.
+   * 2. Optional O(N) screen-space grid clustering (disabled at >= nativeMaxZoom so overzoom exposes every pin cleanly).
    */
   const renderVisibleMarkers = useCallback(() => {
     const map = leafletMapRef.current;
@@ -166,8 +167,11 @@ export function InteractiveMap({
 
     const paddedBounds = map.getBounds().pad(0.25);
     const currentZoom = map.getZoom();
+    const disableClusteringAtZoom = nativeMaxZoom;
     const shouldCluster =
-      clusteringEnabled && markers.length > 40 && currentZoom < maxZoom - 0.25;
+      clusteringEnabled &&
+      markers.length > 40 &&
+      currentZoom < disableClusteringAtZoom;
 
     // Step 1: Viewport culling
     const visibleInViewport: MapMarker[] = [];
@@ -293,9 +297,13 @@ export function InteractiveMap({
 
         clusterMarker.on('click', (event) => {
           L.DomEvent.stopPropagation(event);
-          map.flyTo(centerLatLng, Math.min(maxZoom, map.getZoom() + 1.25), {
-            duration: 0.35,
-          });
+          map.flyTo(
+            centerLatLng,
+            Math.min(overzoomMaxZoom, map.getZoom() + 1.25),
+            {
+              duration: 0.35,
+            }
+          );
         });
 
         clusterMarker.addTo(group);
@@ -307,7 +315,8 @@ export function InteractiveMap({
     foundMarkerIds,
     selectedMarkerId,
     clusteringEnabled,
-    maxZoom,
+    nativeMaxZoom,
+    overzoomMaxZoom,
   ]);
 
   const renderVisibleMarkersRef = useRef(renderVisibleMarkers);
@@ -325,8 +334,8 @@ export function InteractiveMap({
       preferCanvas: true,
       zoomControl: false,
       attributionControl: false,
-      minZoom,
-      maxZoom,
+      minZoom: effectiveMinZoom,
+      maxZoom: overzoomMaxZoom,
       zoomSnap: 0.25,
       zoomDelta: 0.5,
       wheelPxPerZoomLevel: 90,
@@ -408,8 +417,8 @@ export function InteractiveMap({
     markersLayerRef.current?.clearLayers();
     guidedLayerRef.current?.clearLayers();
 
-    map.setMinZoom(minZoom);
-    map.setMaxZoom(maxZoom);
+    map.setMinZoom(effectiveMinZoom);
+    map.setMaxZoom(overzoomMaxZoom);
     map.setMaxBounds(resolvedBounds.pad(0.25));
 
     const nextTileLayer = createTacticalTileLayer({
@@ -417,8 +426,9 @@ export function InteractiveMap({
       theme,
       mapId: mapLayer.id,
       bounds: resolvedBounds,
-      minZoom,
-      maxZoom,
+      minZoom: effectiveMinZoom,
+      maxNativeZoom: nativeMaxZoom,
+      maxZoom: overzoomMaxZoom,
     });
 
     nextTileLayer.addTo(map);
@@ -433,8 +443,9 @@ export function InteractiveMap({
     theme,
     resolvedBounds,
     resolvedCenter,
-    minZoom,
-    maxZoom,
+    effectiveMinZoom,
+    nativeMaxZoom,
+    overzoomMaxZoom,
     defaultZoom,
   ]);
 
@@ -702,20 +713,28 @@ export function InteractiveMap({
         const map = leafletMapRef.current;
         if (!map) return;
         const [x, y] = marker.coords;
-        map.flyTo(L.latLng(y, x), Math.max(map.getZoom(), maxZoom - 0.5), {
-          duration: 0.45,
-        });
+        map.flyTo(
+          L.latLng(y, x),
+          Math.min(overzoomMaxZoom, Math.max(map.getZoom(), nativeMaxZoom + 0.5)),
+          {
+            duration: 0.45,
+          }
+        );
       },
       flyToCoords: (coords: [number, number]) => {
         const map = leafletMapRef.current;
         if (!map) return;
         const [x, y] = coords;
-        map.flyTo(L.latLng(y, x), Math.max(map.getZoom(), maxZoom - 0.5), {
-          duration: 0.45,
-        });
+        map.flyTo(
+          L.latLng(y, x),
+          Math.min(overzoomMaxZoom, Math.max(map.getZoom(), nativeMaxZoom + 0.5)),
+          {
+            duration: 0.45,
+          }
+        );
       },
     }),
-    [resolvedCenter, defaultZoom, maxZoom]
+    [resolvedCenter, defaultZoom, nativeMaxZoom, overzoomMaxZoom]
   );
 
   const cursorClass =

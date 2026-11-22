@@ -9,6 +9,12 @@
     "Action",
     "RPG"
   ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox",
+    "switch"
+  ],
   "status": "available",
   "dlc": "base",
   "dlcs": [

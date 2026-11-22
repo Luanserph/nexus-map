@@ -29,6 +29,9 @@ const ptBR = {
   'hub.emptyDesc':
     'Não há jogos correspondentes aos filtros atuais. Ajuste sua busca ou limpe os filtros para visualizar todo o catálogo.',
   'hub.clearFilters': 'Limpar filtros',
+  'hub.continueExploring': 'Continuar Explorando',
+  'hub.resumeExploration': 'Retomar Exploração',
+  'hub.lastActiveMap': 'Último mapa',
   'hub.footerRight':
     'Progresso, notas, prints e rotas salvos localmente em IndexedDB (Offline-First)',
   'card.completed': 'Concluído',
@@ -174,6 +177,9 @@ const enUS: Dictionary = {
   'hub.emptyDesc':
     'No games match your current filters. Adjust your search or clear filters to view the full catalog.',
   'hub.clearFilters': 'Clear filters',
+  'hub.continueExploring': 'Continue Exploring',
+  'hub.resumeExploration': 'Resume Exploration',
+  'hub.lastActiveMap': 'Last map',
   'hub.footerRight':
     'Progress, notes, screenshots, and routes saved locally in IndexedDB (Offline-First)',
   'card.completed': 'Completed',
@@ -311,6 +317,9 @@ const esES: Dictionary = {
   'hub.emptyDesc':
     'Ningún juego coincide con los filtros actuales. Ajusta tu búsqueda o limpia los filtros.',
   'hub.clearFilters': 'Limpiar filtros',
+  'hub.continueExploring': 'Continuar Explorando',
+  'hub.resumeExploration': 'Retomar Exploración',
+  'hub.lastActiveMap': 'Último mapa',
   'hub.footerRight':
     'Progreso, notas, capturas y rutas guardados localmente en IndexedDB (Offline-First)',
   'card.completed': 'Completado',

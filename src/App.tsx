@@ -1,15 +1,23 @@
-import { useMemo } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { HubShell } from './components/hub';
 import { MapWorkspace } from './components/map-ui';
 import { I18nProvider } from './core/i18n';
 import { useHashRoute } from './core/router/useHashRoute';
-import { useAllGamesProgress } from './core/storage';
+import {
+  getLastVisitedGame,
+  saveLastVisitedGame,
+  useAllGamesProgress,
+} from './core/storage';
+import type { LastVisitedRecord } from './core/storage';
 import { ThemeProvider } from './core/theme-engine';
 import { buildHubEntries } from './data/games';
 
 export function App() {
   const { route, navigateToHub, navigateToGame } = useHashRoute();
   const progressBySlug = useAllGamesProgress();
+  const [lastVisited, setLastVisited] = useState<LastVisitedRecord | null>(() =>
+    getLastVisitedGame()
+  );
 
   const hubGames = useMemo(
     () => buildHubEntries(progressBySlug),
@@ -21,6 +29,23 @@ export function App() {
       ? hubGames.find((entry) => entry.manifest.slug === route.gameSlug)
       : undefined;
 
+  const handleOpenGame = useCallback(
+    (slug: string, layerId?: string) => {
+      saveLastVisitedGame(slug, layerId);
+      setLastVisited({ gameSlug: slug, mapId: layerId, visitedAt: Date.now() });
+      navigateToGame(slug, layerId);
+    },
+    [navigateToGame]
+  );
+
+  // Persist direct hash visits (e.g. bookmark / refresh on #/map/elden-ring)
+  useEffect(() => {
+    if (route.view === 'map' && activeGameEntry) {
+      const targetLayer = route.layerId ?? activeGameEntry.manifest.maps[0]?.id;
+      saveLastVisitedGame(activeGameEntry.manifest.slug, targetLayer);
+    }
+  }, [route, activeGameEntry]);
+
   return (
     <I18nProvider>
       <ThemeProvider activeGame={activeGameEntry?.manifest ?? null}>
@@ -30,12 +55,19 @@ export function App() {
             entry={activeGameEntry}
             activeLayerId={route.view === 'map' ? route.layerId : undefined}
             onSelectLayer={(layerId) =>
-              navigateToGame(activeGameEntry.manifest.slug, layerId)
+              handleOpenGame(activeGameEntry.manifest.slug, layerId)
             }
-            onBackToHub={navigateToHub}
+            onBackToHub={() => {
+              setLastVisited(getLastVisitedGame());
+              navigateToHub();
+            }}
           />
         ) : (
-          <HubShell games={hubGames} onOpenGame={navigateToGame} />
+          <HubShell
+            games={hubGames}
+            lastVisited={lastVisited}
+            onOpenGame={handleOpenGame}
+          />
         )}
       </ThemeProvider>
     </I18nProvider>
