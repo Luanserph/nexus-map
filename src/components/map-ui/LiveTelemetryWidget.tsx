@@ -8,6 +8,7 @@ import {
   Unplug,
 } from 'lucide-react';
 import { useState } from 'react';
+import { useI18n } from '../../core/i18n';
 import type { UseLivePlayerResult } from '../../core/telemetry';
 import { GlassBadge, GlassInput, GlassPanel, NeonButton } from '../glass';
 
@@ -16,6 +17,7 @@ export interface LiveTelemetryWidgetProps {
 }
 
 export function LiveTelemetryWidget({ telemetry }: LiveTelemetryWidgetProps) {
+  const { t } = useI18n();
   const [showConfig, setShowConfig] = useState(false);
 
   const isLive = telemetry.status === 'live';
@@ -30,12 +32,12 @@ export function LiveTelemetryWidget({ telemetry }: LiveTelemetryWidgetProps) {
       : 'neutral';
 
   const statusLabel = isLive
-    ? 'Live'
+    ? t('telemetry.live')
     : isSimulated
-      ? 'Simulado'
+      ? t('telemetry.simulated')
       : isConnecting
-        ? 'Conectando...'
-        : 'Offline';
+        ? t('telemetry.connecting')
+        : t('telemetry.offline');
 
   return (
     <GlassPanel variant="elevated" padding="none" className="pointer-events-auto">
@@ -57,9 +59,9 @@ export function LiveTelemetryWidget({ telemetry }: LiveTelemetryWidgetProps) {
             active={telemetry.followCamera}
             onClick={() => telemetry.setFollowCamera(!telemetry.followCamera)}
             leftIcon={<Crosshair className="h-3 w-3" />}
-            title="Centralizar câmera automaticamente na posição do jogador"
+            title={t('telemetry.followCamera')}
           >
-            Seguir Câmera
+            {t('telemetry.followCamera')}
           </NeonButton>
 
           <NeonButton
@@ -75,7 +77,9 @@ export function LiveTelemetryWidget({ telemetry }: LiveTelemetryWidgetProps) {
               )
             }
           >
-            {telemetry.isSimulating ? 'Parar Simulação' : 'Simular Movimento (Dev)'}
+            {telemetry.isSimulating
+              ? t('telemetry.stopSimulate')
+              : t('telemetry.simulate')}
           </NeonButton>
 
           <button
@@ -121,7 +125,7 @@ export function LiveTelemetryWidget({ telemetry }: LiveTelemetryWidgetProps) {
                   onClick={telemetry.disconnect}
                   leftIcon={<Unplug className="h-3 w-3" />}
                 >
-                  Desconectar
+                  {t('telemetry.disconnect')}
                 </NeonButton>
               ) : (
                 <NeonButton
@@ -130,7 +134,7 @@ export function LiveTelemetryWidget({ telemetry }: LiveTelemetryWidgetProps) {
                   onClick={telemetry.connect}
                   leftIcon={<Plug className="h-3 w-3" />}
                 >
-                  Conectar
+                  {t('telemetry.connect')}
                 </NeonButton>
               )}
             </div>

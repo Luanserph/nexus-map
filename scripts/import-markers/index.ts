@@ -20,6 +20,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import vm from 'node:vm';
 import { parseArgs } from 'node:util';
+import { decodeHtmlEntities } from '../../src/core/utils/text';
 import type { MapMarker, MarkerChecklistItem } from '../../src/types/schema';
 
 interface CalibrationPoint {
@@ -199,11 +200,7 @@ function applyTransform(
 }
 
 function stripHtml(html: string): string {
-  return html
-    .replace(/<br\s*\/?>/gi, ' ')
-    .replace(/<[^>]+>/g, '')
-    .replace(/\s+/g, ' ')
-    .trim();
+  return decodeHtmlEntities(html);
 }
 
 function extractLevel(text: string): number | undefined {

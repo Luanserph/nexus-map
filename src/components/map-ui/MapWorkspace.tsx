@@ -53,12 +53,15 @@ import type {
   ActiveGuidedRouteOverlay,
   InteractiveMapHandle,
 } from '../../core/engine';
+import { LanguageSelector, useI18n } from '../../core/i18n';
 import {
   deleteCustomRoute,
+  deleteUserContribution,
   deleteUserNote,
   downloadBackupFile,
   importBackupJson,
   saveCustomRoute,
+  saveUserContribution,
   saveUserNote,
   setMarkerFound,
   toggleChecklistItem,
@@ -165,6 +168,7 @@ export function MapWorkspace({
   onSelectLayer,
   onBackToHub,
 }: MapWorkspaceProps) {
+  const { t, resolveMarkerTitle, resolveMarkerDescription } = useI18n();
   const { manifest, progress } = entry;
   const { activeTheme } = useGameTheme();
 
@@ -179,8 +183,13 @@ export function MapWorkspace({
   const currentMapId = activeLayer?.id ?? manifest.maps[0]?.id ?? 'default';
 
   // Live IndexedDB storage
-  const { foundMarkerIds, checkedChecklistKeys, notes, routes } =
-    useGameMapStorage(manifest.slug, currentMapId);
+  const {
+    foundMarkerIds,
+    checkedChecklistKeys,
+    contributionsByMarker,
+    notes,
+    routes,
+  } = useGameMapStorage(manifest.slug, currentMapId);
 
   // Live Player Telemetry (WebSocket + Dev Simulator)
   const telemetry = useLivePlayer({
@@ -319,8 +328,8 @@ export function MapWorkspace({
 
       const categoryName = categoriesById[marker.category]?.name ?? '';
       const haystack = [
-        marker.title,
-        marker.description,
+        resolveMarkerTitle(marker),
+        resolveMarkerDescription(marker),
         marker.region ?? '',
         categoryName,
         ...(marker.tags ?? []),
@@ -337,6 +346,8 @@ export function MapWorkspace({
     foundMarkerIds,
     normalizedPinSearch,
     categoriesById,
+    resolveMarkerTitle,
+    resolveMarkerDescription,
   ]);
 
   // Dynamic Guided 100% Route overlay for InteractiveMap
@@ -422,6 +433,9 @@ export function MapWorkspace({
     setIsGuideOpen(false);
     setGeneratedRoute(null);
     setSelectedDlcFilter('all');
+    if (telemetry.isSimulating) {
+      telemetry.disconnect();
+    }
     onSelectLayer(layerId);
   }
 
@@ -623,8 +637,9 @@ export function MapWorkspace({
 
   async function handleExportBackup() {
     const payload = await downloadBackupFile();
+    const contribCount = payload.userContributions?.length ?? 0;
     showToast(
-      `Backup exportado (${payload.foundMarkers.length} pins, ${payload.userNotes.length} notas, ${payload.customRoutes.length} rotas).`
+      `Backup: ${payload.foundMarkers.length} pins, ${payload.userNotes.length} notas, ${payload.customRoutes.length} rotas, ${contribCount} prints.`
     );
   }
 
@@ -637,7 +652,7 @@ export function MapWorkspace({
       const text = await file.text();
       const summary = await importBackupJson(text, 'merge');
       showToast(
-        `Backup importado: ${summary.foundMarkers} pins, ${summary.userNotes} notas, ${summary.customRoutes} rotas.`
+        `Importado: ${summary.foundMarkers} pins, ${summary.userNotes} notas, ${summary.customRoutes} rotas, ${summary.userContributions} prints.`
       );
     } catch (error) {
       showToast(
@@ -726,8 +741,23 @@ export function MapWorkspace({
               onClick={onBackToHub}
               leftIcon={<ArrowLeft className="h-3.5 w-3.5" />}
             >
-              Voltar ao Hub
+              {t('map.backToHub')}
             </NeonButton>
+
+            {activeLayer?.isInterior && (
+              <NeonButton
+                size="sm"
+                variant="primary"
+                onClick={() =>
+                  handleSelectLayer(
+                    activeLayer.parentMapId ?? manifest.maps[0]?.id ?? 'main'
+                  )
+                }
+                leftIcon={<ArrowLeft className="h-3.5 w-3.5" />}
+              >
+                {t('map.backToSurface')}
+              </NeonButton>
+            )}
 
             <div className="h-5 w-px bg-white/[0.10]" />
 
@@ -756,7 +786,10 @@ export function MapWorkspace({
         </GlassPanel>
 
         <div className="pointer-events-auto flex flex-wrap items-center gap-2">
-          {/* Dynamic Guided 100% Route Generator Trigger (available on every game/map) */}
+          {/* Language Selector in Map Topbar */}
+          <LanguageSelector />
+
+          {/* Dynamic Guided 100% Route Generator Trigger */}
           {layerMarkers.length > 0 && (
             <GlassPanel variant="elevated" padding="none">
               <div className="px-2 py-2">
@@ -769,17 +802,17 @@ export function MapWorkspace({
                     <Compass className="h-3.5 w-3.5 text-[var(--accent-primary)]" />
                   }
                 >
-                  Modo Guia 100%
+                  {t('map.guide100')}
                 </NeonButton>
               </div>
             </GlassPanel>
           )}
 
-          {/* Layer / Map Switcher with DLC Badges */}
+          {/* Layer / Map Switcher with DLC & Interior Badges */}
           <GlassPanel
             variant="elevated"
             padding="none"
-            className="max-w-full overflow-x-auto"
+            className="max-w-[min(100vw-2rem,520px)] overflow-x-auto"
           >
             <div
               className="flex items-center gap-1.5 px-2.5 py-2"
@@ -788,7 +821,7 @@ export function MapWorkspace({
             >
               <span className="hidden items-center gap-1.5 pr-1 pl-1 font-mono text-[10px] uppercase tracking-wider text-[var(--text-muted)] md:inline-flex">
                 <Layers className="h-3.5 w-3.5 text-[var(--accent-primary)]" />
-                Camada
+                {t('map.layer')}
               </span>
               {manifest.maps.map((mapLayer) => {
                 const isActive = activeLayer?.id === mapLayer.id;
@@ -802,6 +835,11 @@ export function MapWorkspace({
                     onClick={() => handleSelectLayer(mapLayer.id)}
                   >
                     <span>{mapLayer.name}</span>
+                    {mapLayer.isInterior && (
+                      <span className="ml-1.5 rounded bg-white/10 px-1 py-0.5 font-mono text-[9px] uppercase text-[var(--text-secondary)]">
+                        {t('map.interior')}
+                      </span>
+                    )}
                     {layerDlc && layerDlc.id !== 'base' && (
                       <span
                         className="ml-1.5 rounded px-1 py-0.5 font-mono text-[9px] font-semibold uppercase"
@@ -887,7 +925,7 @@ export function MapWorkspace({
               {availableLayerDlcs.length > 1 && (
                 <div className="space-y-1.5">
                   <div className="font-mono text-[10px] uppercase tracking-wider text-[var(--text-muted)]">
-                    Conteúdo / DLC
+                    {t('map.dlcSection')}
                   </div>
                   <div className="flex flex-wrap gap-1.5">
                     <NeonButton
@@ -896,7 +934,7 @@ export function MapWorkspace({
                       active={selectedDlcFilter === 'all'}
                       onClick={() => setSelectedDlcFilter('all')}
                     >
-                      Todos ({layerMarkers.length})
+                      {t('map.all')} ({layerMarkers.length})
                     </NeonButton>
                     {availableLayerDlcs.map((dlc) => {
                       const count = layerMarkers.filter(
@@ -926,8 +964,8 @@ export function MapWorkspace({
                 inputRef={searchInputRef}
                 value={pinSearchQuery}
                 onChange={(e) => setPinSearchQuery(e.target.value)}
-                placeholder="Buscar pins, chefes ou regiões..."
-                aria-label="Buscar pins no mapa"
+                placeholder={t('map.searchPins')}
+                aria-label={t('map.searchPins')}
                 leftIcon={<Search className="h-3.5 w-3.5" />}
                 rightSlot={
                   pinSearchQuery ? (
@@ -951,8 +989,10 @@ export function MapWorkspace({
               {normalizedPinSearch && (
                 <div className="space-y-1 rounded-lg border border-white/[0.08] bg-black/40 p-2">
                   <div className="flex items-center justify-between px-1 pb-1 font-mono text-[10px] uppercase tracking-wider text-[var(--text-muted)]">
-                    <span>Resultados ({filteredMarkers.length})</span>
-                    <span>Centralizar</span>
+                    <span>
+                      {t('map.results')} ({filteredMarkers.length})
+                    </span>
+                    <span>{t('map.center')}</span>
                   </div>
                   {filteredMarkers.length > 0 ? (
                     <div className="max-h-40 space-y-1 overflow-y-auto">
@@ -982,7 +1022,7 @@ export function MapWorkspace({
                                     : 'truncate'
                                 }
                               >
-                                {marker.title}
+                                {resolveMarkerTitle(marker)}
                               </span>
                             </span>
                             <Navigation className="h-3 w-3 shrink-0 text-[var(--accent-primary)] opacity-80" />
@@ -992,7 +1032,7 @@ export function MapWorkspace({
                     </div>
                   ) : (
                     <p className="px-1 py-2 text-center text-xs text-[var(--text-muted)]">
-                      Nenhum pin visível corresponde à busca.
+                      {t('map.noResults')}
                     </p>
                   )}
                 </div>
@@ -1002,7 +1042,7 @@ export function MapWorkspace({
               {manifest.presets && manifest.presets.length > 0 && (
                 <div className="space-y-1.5">
                   <div className="font-mono text-[10px] uppercase tracking-wider text-[var(--text-muted)]">
-                    Presets Rápidos
+                    {t('map.presets')}
                   </div>
                   <div className="flex flex-wrap gap-1.5">
                     {manifest.presets.map((preset) => (
@@ -1029,7 +1069,7 @@ export function MapWorkspace({
                   onClick={() => setAllCategories(true)}
                   leftIcon={<Eye className="h-3 w-3" />}
                 >
-                  Mostrar Tudo
+                  {t('map.showAll')}
                 </NeonButton>
                 <NeonButton
                   size="sm"
@@ -1037,7 +1077,7 @@ export function MapWorkspace({
                   onClick={() => setAllCategories(false)}
                   leftIcon={<EyeOff className="h-3 w-3" />}
                 >
-                  Ocultar Tudo
+                  {t('map.hideAll')}
                 </NeonButton>
                 <NeonButton
                   size="sm"
@@ -1046,7 +1086,7 @@ export function MapWorkspace({
                   onClick={() => setHideFound((prev) => !prev)}
                   leftIcon={<CheckCircle2 className="h-3 w-3" />}
                 >
-                  {hideFound ? 'Só Pendentes' : 'Ocultar Achados'}
+                  {hideFound ? t('map.pendingOnly') : t('map.hideFound')}
                 </NeonButton>
                 <NeonButton
                   size="sm"
@@ -1054,9 +1094,8 @@ export function MapWorkspace({
                   active={clusteringEnabled}
                   onClick={() => setClusteringEnabled((prev) => !prev)}
                   leftIcon={<Grid2x2 className="h-3 w-3" />}
-                  title="Agrupar pins próximos em zooms distantes para 60 FPS"
                 >
-                  {clusteringEnabled ? 'Cluster: ON' : 'Cluster: OFF'}
+                  {clusteringEnabled ? t('map.clusterOn') : t('map.clusterOff')}
                 </NeonButton>
               </div>
 
@@ -1149,7 +1188,7 @@ export function MapWorkspace({
                   <div className="mb-1.5 flex items-center justify-between px-1 font-mono text-[10px] uppercase tracking-wider text-[var(--text-muted)]">
                     <span className="flex items-center gap-1.5">
                       <StickyNote className="h-3 w-3 text-[var(--accent-secondary)]" />
-                      Notas pessoais ({notes.length})
+                      {t('map.personalNotes')} ({notes.length})
                     </span>
                   </div>
                   <div className="max-h-28 space-y-1 overflow-y-auto">
@@ -1182,7 +1221,7 @@ export function MapWorkspace({
                     onClick={() => void handleExportBackup()}
                     leftIcon={<Download className="h-3 w-3" />}
                   >
-                    Exportar
+                    {t('map.export')}
                   </NeonButton>
                   <NeonButton
                     size="sm"
@@ -1190,7 +1229,7 @@ export function MapWorkspace({
                     onClick={() => importInputRef.current?.click()}
                     leftIcon={<Upload className="h-3 w-3" />}
                   >
-                    Importar
+                    {t('map.import')}
                   </NeonButton>
                   <input
                     ref={importInputRef}
@@ -1231,10 +1270,19 @@ export function MapWorkspace({
           <div className="pointer-events-auto">
             {selectedMarker ? (
               <MarkerDetailCard
+                key={selectedMarker.id}
                 marker={selectedMarker}
                 category={categoriesById[selectedMarker.category]}
                 isFound={foundMarkerIds.has(selectedMarker.id)}
                 checkedChecklistKeys={checkedChecklistKeys}
+                contributions={contributionsByMarker[selectedMarker.id] ?? []}
+                linkedMapName={
+                  selectedMarker.linkedMapId
+                    ? manifest.maps.find(
+                        (m) => m.id === selectedMarker.linkedMapId
+                      )?.name
+                    : undefined
+                }
                 badgeStyle={badgeStyle}
                 onToggleFound={() =>
                   void toggleMarkerFound(manifest.slug, selectedMarker.id)
@@ -1245,6 +1293,22 @@ export function MapWorkspace({
                     selectedMarker.id,
                     itemId
                   )
+                }
+                onAddContribution={async (data) => {
+                  await saveUserContribution({
+                    gameSlug: manifest.slug,
+                    markerId: selectedMarker.id,
+                    imageDataUrl: data.imageDataUrl,
+                    requirementNote: data.requirementNote,
+                  });
+                  showToast('Contribuição salva no IndexedDB.');
+                }}
+                onDeleteContribution={async (id) => {
+                  await deleteUserContribution(id);
+                  showToast('Contribuição removida.');
+                }}
+                onEnterLinkedMap={(linkedMapId) =>
+                  handleSelectLayer(linkedMapId)
                 }
                 onClose={() => setSelectedMarker(null)}
               />

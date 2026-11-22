@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import type {
   CustomRouteRecord,
   GameProgressSummary,
+  UserContributionRecord,
   UserNoteRecord,
 } from '../../types/schema';
 import { db, subscribeStorage } from './db';
@@ -77,6 +78,7 @@ export function useAllGamesProgress(): Record<string, GameProgressSummary> {
 export interface GameMapStorageState {
   foundMarkerIds: Set<string>;
   checkedChecklistKeys: Set<string>;
+  contributionsByMarker: Record<string, UserContributionRecord[]>;
   notes: UserNoteRecord[];
   routes: CustomRouteRecord[];
   isLoaded: boolean;
@@ -92,6 +94,7 @@ export function useGameMapStorage(
   const [state, setState] = useState<GameMapStorageState>({
     foundMarkerIds: new Set<string>(),
     checkedChecklistKeys: new Set<string>(),
+    contributionsByMarker: {},
     notes: [],
     routes: [],
     isLoaded: false,
@@ -101,26 +104,39 @@ export function useGameMapStorage(
     let active = true;
 
     async function load() {
-      const [foundRows, checklistRows, noteRows, routeRows] = await Promise.all([
-        db.foundMarkers.where('gameSlug').equals(gameSlug).toArray(),
-        db.checklistItems.where('gameSlug').equals(gameSlug).toArray(),
-        db.userNotes
-          .where('[gameSlug+mapId]')
-          .equals([gameSlug, mapId])
-          .sortBy('createdAt'),
-        db.customRoutes
-          .where('[gameSlug+mapId]')
-          .equals([gameSlug, mapId])
-          .sortBy('createdAt'),
-      ]);
+      const [foundRows, checklistRows, contribRows, noteRows, routeRows] =
+        await Promise.all([
+          db.foundMarkers.where('gameSlug').equals(gameSlug).toArray(),
+          db.checklistItems.where('gameSlug').equals(gameSlug).toArray(),
+          db.userContributions
+            .where('gameSlug')
+            .equals(gameSlug)
+            .sortBy('createdAt'),
+          db.userNotes
+            .where('[gameSlug+mapId]')
+            .equals([gameSlug, mapId])
+            .sortBy('createdAt'),
+          db.customRoutes
+            .where('[gameSlug+mapId]')
+            .equals([gameSlug, mapId])
+            .sortBy('createdAt'),
+        ]);
 
       if (!active) return;
+
+      const contributionsByMarker: Record<string, UserContributionRecord[]> = {};
+      for (const row of contribRows) {
+        const list = contributionsByMarker[row.markerId] ?? [];
+        list.push(row);
+        contributionsByMarker[row.markerId] = list;
+      }
 
       setState({
         foundMarkerIds: new Set(foundRows.map((row) => row.markerId)),
         checkedChecklistKeys: new Set(
           checklistRows.map((row) => `${row.markerId}:${row.itemId}`)
         ),
+        contributionsByMarker,
         notes: noteRows,
         routes: routeRows,
         isLoaded: true,

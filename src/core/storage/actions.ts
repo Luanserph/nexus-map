@@ -3,6 +3,7 @@ import type {
   FoundMarkerRecord,
   MarkerChecklistRecord,
   NexusBackupPayload,
+  UserContributionRecord,
   UserNoteRecord,
 } from '../../types/schema';
 import { db, notifyStorageChanged } from './db';
@@ -147,14 +148,45 @@ export async function toggleChecklistItem(
   return true;
 }
 
+export async function saveUserContribution(input: {
+  gameSlug: string;
+  markerId: string;
+  imageDataUrl?: string;
+  requirementNote?: string;
+}): Promise<UserContributionRecord> {
+  const record: UserContributionRecord = {
+    id: generateId('contrib'),
+    gameSlug: input.gameSlug,
+    markerId: input.markerId,
+    imageDataUrl: input.imageDataUrl,
+    requirementNote: input.requirementNote?.trim() || undefined,
+    createdAt: Date.now(),
+  };
+
+  await db.userContributions.put(record);
+  notifyStorageChanged();
+  return record;
+}
+
+export async function deleteUserContribution(id: string): Promise<void> {
+  await db.userContributions.delete(id);
+  notifyStorageChanged();
+}
+
 export async function exportBackupPayload(): Promise<NexusBackupPayload> {
-  const [foundMarkers, userNotes, customRoutes, checklistItems] =
-    await Promise.all([
-      db.foundMarkers.toArray(),
-      db.userNotes.toArray(),
-      db.customRoutes.toArray(),
-      db.checklistItems.toArray(),
-    ]);
+  const [
+    foundMarkers,
+    userNotes,
+    customRoutes,
+    checklistItems,
+    userContributions,
+  ] = await Promise.all([
+    db.foundMarkers.toArray(),
+    db.userNotes.toArray(),
+    db.customRoutes.toArray(),
+    db.checklistItems.toArray(),
+    db.userContributions.toArray(),
+  ]);
 
   return {
     version: 1,
@@ -163,6 +195,7 @@ export async function exportBackupPayload(): Promise<NexusBackupPayload> {
     userNotes,
     customRoutes,
     checklistItems,
+    userContributions,
   };
 }
 
@@ -187,7 +220,12 @@ export async function downloadBackupFile(): Promise<NexusBackupPayload> {
 export async function importBackupJson(
   rawJson: string,
   mode: 'merge' | 'replace' = 'merge'
-): Promise<{ foundMarkers: number; userNotes: number; customRoutes: number }> {
+): Promise<{
+  foundMarkers: number;
+  userNotes: number;
+  customRoutes: number;
+  userContributions: number;
+}> {
   let parsed: unknown;
   try {
     parsed = JSON.parse(rawJson);
@@ -267,12 +305,27 @@ export async function importBackupJson(
     })
   );
 
+  const userContributions = Array.isArray(candidate.userContributions)
+    ? candidate.userContributions.filter(
+        (item): item is UserContributionRecord =>
+          Boolean(
+            item &&
+              typeof item.id === 'string' &&
+              typeof item.gameSlug === 'string' &&
+              typeof item.markerId === 'string'
+          )
+      )
+    : [];
+
   await db.transaction(
     'rw',
-    db.foundMarkers,
-    db.userNotes,
-    db.customRoutes,
-    db.checklistItems,
+    [
+      db.foundMarkers,
+      db.userNotes,
+      db.customRoutes,
+      db.checklistItems,
+      db.userContributions,
+    ],
     async () => {
       if (mode === 'replace') {
         await Promise.all([
@@ -280,6 +333,7 @@ export async function importBackupJson(
           db.userNotes.clear(),
           db.customRoutes.clear(),
           db.checklistItems.clear(),
+          db.userContributions.clear(),
         ]);
       }
 
@@ -295,6 +349,9 @@ export async function importBackupJson(
       if (normalizedChecklist.length > 0) {
         await db.checklistItems.bulkPut(normalizedChecklist);
       }
+      if (userContributions.length > 0) {
+        await db.userContributions.bulkPut(userContributions);
+      }
     }
   );
 
@@ -304,5 +361,6 @@ export async function importBackupJson(
     foundMarkers: normalizedFound.length,
     userNotes: userNotes.length,
     customRoutes: customRoutes.length,
+    userContributions: userContributions.length,
   };
 }

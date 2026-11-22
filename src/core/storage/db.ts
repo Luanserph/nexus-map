@@ -4,6 +4,7 @@ import type {
   CustomRouteRecord,
   FoundMarkerRecord,
   MarkerChecklistRecord,
+  UserContributionRecord,
   UserNoteRecord,
 } from '../../types/schema';
 
@@ -12,6 +13,7 @@ export class NexusMapsDB extends Dexie {
   userNotes!: Table<UserNoteRecord, string>;
   customRoutes!: Table<CustomRouteRecord, string>;
   checklistItems!: Table<MarkerChecklistRecord, string>;
+  userContributions!: Table<UserContributionRecord, string>;
 
   constructor() {
     super('NexusMapsDB');
@@ -27,6 +29,14 @@ export class NexusMapsDB extends Dexie {
       userNotes: 'id, gameSlug, mapId, [gameSlug+mapId], createdAt',
       customRoutes: 'id, gameSlug, mapId, [gameSlug+mapId], createdAt',
       checklistItems: 'id, gameSlug, markerId, [gameSlug+markerId], checkedAt',
+    });
+
+    this.version(3).stores({
+      foundMarkers: 'id, gameSlug, markerId, foundAt',
+      userNotes: 'id, gameSlug, mapId, [gameSlug+mapId], createdAt',
+      customRoutes: 'id, gameSlug, mapId, [gameSlug+mapId], createdAt',
+      checklistItems: 'id, gameSlug, markerId, [gameSlug+markerId], checkedAt',
+      userContributions: 'id, gameSlug, markerId, [gameSlug+markerId], createdAt',
     });
   }
 }

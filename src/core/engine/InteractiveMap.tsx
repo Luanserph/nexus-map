@@ -11,6 +11,7 @@ import type {
   MapMarker,
   UserNoteRecord,
 } from '../../types/schema';
+import { decodeHtmlEntities } from '../utils/text';
 import { createTacticalTileLayer } from './createFallbackTileLayer';
 import {
   createCategoryPinIcon,
@@ -66,7 +67,7 @@ export interface InteractiveMapProps {
 }
 
 function escapeHtml(raw: string): string {
-  return raw
+  return decodeHtmlEntities(raw)
     .replaceAll('&', '&amp;')
     .replaceAll('<', '&lt;')
     .replaceAll('>', '&gt;')
@@ -374,6 +375,12 @@ export function InteractiveMap({
     onZoomChangeRef.current?.(map.getZoom());
 
     return () => {
+      map.off();
+      markersLayerRef.current?.clearLayers();
+      notesLayerRef.current?.clearLayers();
+      routesLayerRef.current?.clearLayers();
+      guidedLayerRef.current?.clearLayers();
+      playerMarkerRef.current?.remove();
       map.remove();
       leafletMapRef.current = null;
       tileLayerRef.current = null;
@@ -396,6 +403,10 @@ export function InteractiveMap({
       map.removeLayer(tileLayerRef.current);
       tileLayerRef.current = null;
     }
+
+    // Clear previous layer overlays immediately so stale pins never flash across layers
+    markersLayerRef.current?.clearLayers();
+    guidedLayerRef.current?.clearLayers();
 
     map.setMinZoom(minZoom);
     map.setMaxZoom(maxZoom);
@@ -640,7 +651,7 @@ export function InteractiveMap({
     const map = leafletMapRef.current;
     if (!map) return;
 
-    if (!livePlayer) {
+    if (!livePlayer || livePlayer.mapId !== mapLayer.id) {
       if (playerMarkerRef.current) {
         map.removeLayer(playerMarkerRef.current);
         playerMarkerRef.current = null;
@@ -669,7 +680,7 @@ export function InteractiveMap({
     if (followLivePlayer) {
       map.panTo(nextLatLng, { animate: true, duration: 0.25, noMoveStart: true });
     }
-  }, [livePlayer, followLivePlayer]);
+  }, [livePlayer, followLivePlayer, mapLayer.id]);
 
   // 8. Expose imperative controls to MapWorkspace HUD
   useImperativeHandle(

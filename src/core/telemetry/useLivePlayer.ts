@@ -226,12 +226,14 @@ export function useLivePlayer({
     return () => {
       if (rafRef.current !== null) {
         cancelAnimationFrame(rafRef.current);
+        rafRef.current = null;
       }
       if (socketRef.current) {
         socketRef.current.close();
+        socketRef.current = null;
       }
     };
-  }, []);
+  }, [gameSlug, mapId]);
 
   return {
     status,

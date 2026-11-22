@@ -1,5 +1,6 @@
 import { Compass, Layers, MapPin, RotateCcw } from 'lucide-react';
 import { useMemo, useState } from 'react';
+import { useI18n } from '../../core/i18n';
 import {
   getAllGenres,
   getGameStatus,
@@ -16,6 +17,7 @@ export interface HubShellProps {
 }
 
 export function HubShell({ games, onOpenGame }: HubShellProps) {
+  const { t } = useI18n();
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedGenre, setSelectedGenre] = useState<string>('all');
   const [selectedStatus, setSelectedStatus] = useState<ExplorationStatus>('all');
@@ -116,7 +118,7 @@ export function HubShell({ games, onOpenGame }: HubShellProps) {
           <div className="max-w-2xl">
             <div className="mb-2.5 flex items-center gap-2">
               <GlassBadge variant="accent" size="sm" dot>
-                Atlas Interativo v0.4
+                {t('hub.heroBadge')}
               </GlassBadge>
               <span className="font-mono text-[11px] uppercase tracking-widest text-[var(--text-muted)]">
                 IndexedDB Offline-First
@@ -126,12 +128,10 @@ export function HubShell({ games, onOpenGame }: HubShellProps) {
               className="text-3xl font-bold tracking-tight text-[var(--text-primary)] sm:text-4xl"
               style={{ fontFamily: 'var(--nexus-font-display)' }}
             >
-              Selecione um universo para explorar
+              {t('hub.heroTitle')}
             </h1>
             <p className="mt-2 text-sm leading-relaxed text-[var(--text-secondary)]">
-              Cada mapa carrega seu próprio manifesto de camadas, marcadores e
-              identidade visual. Seu progresso, notas e rotas são salvos
-              automaticamente no navegador.
+              {t('hub.heroDesc')}
             </p>
           </div>
 
@@ -145,7 +145,7 @@ export function HubShell({ games, onOpenGame }: HubShellProps) {
                     {games.length}
                   </div>
                   <div className="text-[10px] uppercase tracking-wider text-[var(--text-muted)]">
-                    Jogos
+                    {t('hub.statGames')}
                   </div>
                 </div>
               </div>
@@ -159,7 +159,7 @@ export function HubShell({ games, onOpenGame }: HubShellProps) {
                     {hubTelemetry.totalLayers}
                   </div>
                   <div className="text-[10px] uppercase tracking-wider text-[var(--text-muted)]">
-                    Camadas
+                    {t('hub.statLayers')}
                   </div>
                 </div>
               </div>
@@ -173,7 +173,7 @@ export function HubShell({ games, onOpenGame }: HubShellProps) {
                     {hubTelemetry.totalMarkers.toLocaleString('pt-BR')}
                   </div>
                   <div className="text-[10px] uppercase tracking-wider text-[var(--text-muted)]">
-                    Pins catalogados
+                    {t('hub.statPins')}
                   </div>
                 </div>
               </div>
@@ -185,7 +185,7 @@ export function HubShell({ games, onOpenGame }: HubShellProps) {
                   {hubTelemetry.globalPercent}%
                 </div>
                 <div className="text-[10px] uppercase tracking-wider text-[var(--text-muted)]">
-                  Progresso global
+                  {t('hub.statGlobalProgress')}
                 </div>
               </div>
             </div>
@@ -212,11 +212,10 @@ export function HubShell({ games, onOpenGame }: HubShellProps) {
                   className="text-lg font-semibold text-[var(--text-primary)]"
                   style={{ fontFamily: 'var(--nexus-font-display)' }}
                 >
-                  Nenhum mapa encontrado
+                  {t('hub.emptyTitle')}
                 </h2>
                 <p className="text-sm text-[var(--text-secondary)]">
-                  Não há jogos correspondentes aos filtros atuais. Ajuste sua busca
-                  ou limpe os filtros para visualizar todo o catálogo.
+                  {t('hub.emptyDesc')}
                 </p>
                 {hasActiveFilters && (
                   <NeonButton
@@ -226,7 +225,7 @@ export function HubShell({ games, onOpenGame }: HubShellProps) {
                     leftIcon={<RotateCcw className="h-3.5 w-3.5" />}
                     className="mt-2"
                   >
-                    Limpar filtros
+                    {t('hub.clearFilters')}
                   </NeonButton>
                 )}
               </div>
@@ -239,9 +238,7 @@ export function HubShell({ games, onOpenGame }: HubShellProps) {
           <span className="font-mono">
             NEXUS MAPS // TACTICAL NEON GLASSMORPHISM
           </span>
-          <span>
-            Progresso, notas e rotas salvos localmente em IndexedDB (Offline-First)
-          </span>
+          <span>{t('hub.footerRight')}</span>
         </footer>
       </div>
     </div>

@@ -10,6 +10,7 @@ import {
   X,
 } from 'lucide-react';
 import { useState } from 'react';
+import { useI18n } from '../../core/i18n';
 import type { CustomRouteRecord, MapInteractionMode } from '../../types/schema';
 import { GlassInput, GlassPanel, NeonButton } from '../glass';
 
@@ -44,6 +45,7 @@ export function MapToolbar({
   onToggleRouteVisibility,
   onDeleteRoute,
 }: MapToolbarProps) {
+  const { t } = useI18n();
   const [routeName, setRouteName] = useState('');
   const [showRoutesDrawer, setShowRoutesDrawer] = useState(false);
 
@@ -60,7 +62,7 @@ export function MapToolbar({
         <GlassPanel variant="elevated" padding="none" className="pointer-events-auto">
           <div className="flex items-center gap-2.5 px-3 py-1.5 text-xs text-[var(--text-secondary)]">
             <StickyNote className="h-3.5 w-3.5 text-[var(--accent-secondary)]" />
-            <span>Clique em qualquer ponto do mapa para fixar uma nota pessoal.</span>
+            <span>{t('toolbar.addNoteHint')}</span>
             <button
               type="button"
               onClick={() => onChangeMode('explore')}
@@ -78,9 +80,9 @@ export function MapToolbar({
           <div className="flex flex-col gap-2.5">
             <div className="flex items-center justify-between gap-2 text-xs">
               <span className="font-medium text-[var(--text-primary)]">
-                Traçar Rota{' '}
+                {t('toolbar.drawRoute')}{' '}
                 <span className="font-mono text-[11px] text-[var(--accent-primary)]">
-                  ({draftPointsCount} {draftPointsCount === 1 ? 'ponto' : 'pontos'})
+                  ({draftPointsCount})
                 </span>
               </span>
 
@@ -107,7 +109,7 @@ export function MapToolbar({
               <GlassInput
                 value={routeName}
                 onChange={(e) => setRouteName(e.target.value)}
-                placeholder="Nome da rota (ex: Farm Sementes)"
+                placeholder={t('toolbar.routeNamePlaceholder')}
                 containerClassName="flex-1"
                 className="h-8 text-xs"
               />
@@ -116,7 +118,7 @@ export function MapToolbar({
                 variant="ghost"
                 disabled={draftPointsCount === 0}
                 onClick={onUndoRoutePoint}
-                title="Desfazer último ponto"
+                title="Undo"
               >
                 <Undo2 className="h-3.5 w-3.5" />
               </NeonButton>
@@ -125,7 +127,7 @@ export function MapToolbar({
                 variant="ghost"
                 disabled={draftPointsCount === 0}
                 onClick={onClearDraftRoute}
-                title="Limpar pontos"
+                title={t('note.delete')}
               >
                 <Trash2 className="h-3.5 w-3.5" />
               </NeonButton>
@@ -136,7 +138,7 @@ export function MapToolbar({
                 onClick={handleSave}
                 leftIcon={<Save className="h-3.5 w-3.5" />}
               >
-                Salvar
+                {t('note.save')}
               </NeonButton>
             </div>
           </div>
@@ -148,7 +150,7 @@ export function MapToolbar({
         <GlassPanel variant="elevated" padding="sm" className="pointer-events-auto w-[300px] sm:w-[340px]">
           <div className="mb-2 flex items-center justify-between text-xs">
             <span className="font-mono text-[10px] uppercase tracking-wider text-[var(--text-muted)]">
-              Rotas salvas nesta camada ({routes.length})
+              {t('toolbar.savedRoutes')} ({routes.length})
             </span>
             <button
               type="button"
@@ -232,7 +234,7 @@ export function MapToolbar({
             onClick={() => onChangeMode('explore')}
             leftIcon={<MousePointer2 className="h-3.5 w-3.5" />}
           >
-            Explorar
+            {t('toolbar.explore')}
           </NeonButton>
 
           <NeonButton
@@ -242,7 +244,7 @@ export function MapToolbar({
             onClick={() => onChangeMode(mode === 'add-note' ? 'explore' : 'add-note')}
             leftIcon={<StickyNote className="h-3.5 w-3.5" />}
           >
-            Adicionar Nota
+            {t('toolbar.addNote')}
           </NeonButton>
 
           <NeonButton
@@ -254,7 +256,7 @@ export function MapToolbar({
             }
             leftIcon={<Route className="h-3.5 w-3.5" />}
           >
-            Traçar Rota
+            {t('toolbar.drawRoute')}
           </NeonButton>
 
           {routes.length > 0 && (
@@ -266,7 +268,7 @@ export function MapToolbar({
                 active={showRoutesDrawer}
                 onClick={() => setShowRoutesDrawer((prev) => !prev)}
               >
-                Rotas ({routes.length})
+                {t('toolbar.routes')} ({routes.length})
               </NeonButton>
             </>
           )}

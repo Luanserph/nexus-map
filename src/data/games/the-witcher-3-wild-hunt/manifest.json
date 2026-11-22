@@ -66,6 +66,29 @@
         -72
       ],
       "defaultZoom": 2
+    },
+    {
+      "id": "fyke-tower-interior",
+      "name": "Torre da Ilha Fyke (Interior)",
+      "pinsCount": 2,
+      "dlc": "base",
+      "parentMapId": "main",
+      "isInterior": true,
+      "icon": "door-open",
+      "tileUrlTemplate": "/tiles/the-witcher-3-wild-hunt/fyke-tower-interior/{z}/{x}/{y}.webp",
+      "minZoom": -1,
+      "maxZoom": 3,
+      "bounds": [
+        0,
+        -512,
+        512,
+        0
+      ],
+      "defaultCenter": [
+        256,
+        -256
+      ],
+      "defaultZoom": 0
     }
   ],
   "presets": [

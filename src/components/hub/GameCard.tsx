@@ -1,5 +1,7 @@
 import { ArrowUpRight, CheckCircle2, Clock, Layers, MapPin } from 'lucide-react';
 import type { CSSProperties } from 'react';
+import { useI18n } from '../../core/i18n';
+import type { TranslationKey } from '../../core/i18n';
 import { DEFAULT_FONT_DISPLAY } from '../../core/theme-engine';
 import {
   getCompletionPercent,
@@ -15,22 +17,26 @@ export interface GameCardProps {
   onOpenGame: (slug: string, layerId?: string) => void;
 }
 
-const statusConfig = {
+const statusConfig: Record<
+  'completed' | 'in-progress' | 'not-started',
+  { labelKey: TranslationKey; variant: 'success' | 'accent' | 'neutral' }
+> = {
   completed: {
-    label: 'Concluído',
-    variant: 'success' as const,
+    labelKey: 'card.completed',
+    variant: 'success',
   },
   'in-progress': {
-    label: 'Em progresso',
-    variant: 'accent' as const,
+    labelKey: 'card.inProgress',
+    variant: 'accent',
   },
   'not-started': {
-    label: 'Não iniciado',
-    variant: 'neutral' as const,
+    labelKey: 'card.notStarted',
+    variant: 'neutral',
   },
 };
 
 export function GameCard({ entry, onOpenGame }: GameCardProps) {
+  const { t } = useI18n();
   const { manifest, progress } = entry;
   const { theme } = manifest;
   const totalPins = getTotalPinsCount(manifest);
@@ -86,7 +92,7 @@ export function GameCard({ entry, onOpenGame }: GameCardProps) {
         {/* Top-left Status Badge */}
         <div className="absolute top-3 left-3 flex items-center gap-2">
           <GlassBadge variant={statusMeta.variant} badgeStyle={badgeStyle} dot>
-            {statusMeta.label}
+            {t(statusMeta.labelKey)}
           </GlassBadge>
         </div>
 
@@ -156,7 +162,7 @@ export function GameCard({ entry, onOpenGame }: GameCardProps) {
                 {manifest.maps.length}
               </div>
               <div className="text-[10px] uppercase tracking-wider text-[var(--text-muted)]">
-                Camadas
+                {t('card.layers')}
               </div>
             </div>
           </div>
@@ -168,7 +174,7 @@ export function GameCard({ entry, onOpenGame }: GameCardProps) {
                 {totalPins.toLocaleString('pt-BR')}
               </div>
               <div className="text-[10px] uppercase tracking-wider text-[var(--text-muted)]">
-                Pins totais
+                {t('card.totalPins')}
               </div>
             </div>
           </div>
@@ -177,7 +183,9 @@ export function GameCard({ entry, onOpenGame }: GameCardProps) {
         {/* Local Progress Bar */}
         <div className="mt-auto space-y-2 pt-1">
           <div className="flex items-center justify-between text-xs">
-            <span className="text-[var(--text-secondary)]">Progresso local</span>
+            <span className="text-[var(--text-secondary)]">
+              {t('card.localProgress')}
+            </span>
             <span className="font-mono text-xs text-[var(--text-primary)]">
               <span className="text-[var(--accent-primary)]">{percent}%</span>
               <span className="ml-1.5 text-[11px] text-[var(--text-muted)]">
@@ -210,7 +218,7 @@ export function GameCard({ entry, onOpenGame }: GameCardProps) {
         <div className="flex items-center justify-between border-t border-white/[0.07] pt-3.5">
           <div className="flex items-center gap-1.5 text-[11px] text-[var(--text-muted)]">
             <Clock className="h-3.5 w-3.5" />
-            <span>{progress.lastVisitedAt ?? 'Nunca acessado'}</span>
+            <span>{progress.lastVisitedAt ?? t('card.neverVisited')}</span>
           </div>
 
           <button
@@ -221,7 +229,9 @@ export function GameCard({ entry, onOpenGame }: GameCardProps) {
             }}
             className="neon-focus-ring inline-flex cursor-pointer items-center gap-1.5 rounded-md border border-white/[0.10] bg-white/[0.04] px-3 py-1.5 text-xs font-medium text-[var(--text-primary)] transition-all duration-200 hover:border-[color-mix(in_srgb,var(--accent-primary)_60%,transparent)] hover:bg-[color-mix(in_srgb,var(--accent-primary)_14%,transparent)] hover:text-white hover:shadow-[0_0_16px_-4px_var(--accent-glow)]"
           >
-            <span>{status === 'not-started' ? 'Explorar' : 'Continuar'}</span>
+            <span>
+              {status === 'not-started' ? t('card.explore') : t('card.continue')}
+            </span>
             <ArrowUpRight className="h-3.5 w-3.5 transition-transform duration-200 group-hover/card:translate-x-0.5 group-hover/card:-translate-y-0.5" />
           </button>
         </div>

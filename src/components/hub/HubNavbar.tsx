@@ -1,5 +1,7 @@
 import { Compass, Database, Search, SlidersHorizontal, X } from 'lucide-react';
 import { useEffect, useRef } from 'react';
+import { LanguageSelector, useI18n } from '../../core/i18n';
+import type { TranslationKey } from '../../core/i18n';
 import type { ExplorationStatus } from '../../types/schema';
 import { GlassBadge, GlassInput, GlassPanel, NeonButton } from '../glass';
 
@@ -15,11 +17,11 @@ export interface HubNavbarProps {
   totalCount: number;
 }
 
-const STATUS_OPTIONS: { value: ExplorationStatus; label: string }[] = [
-  { value: 'all', label: 'Todos' },
-  { value: 'in-progress', label: 'Em progresso' },
-  { value: 'completed', label: 'Concluídos' },
-  { value: 'not-started', label: 'Não iniciados' },
+const STATUS_OPTIONS: { value: ExplorationStatus; labelKey: TranslationKey }[] = [
+  { value: 'all', labelKey: 'hub.statusAll' },
+  { value: 'in-progress', labelKey: 'hub.statusInProgress' },
+  { value: 'completed', labelKey: 'hub.statusCompleted' },
+  { value: 'not-started', labelKey: 'hub.statusNotStarted' },
 ];
 
 export function HubNavbar({
@@ -33,6 +35,7 @@ export function HubNavbar({
   resultsCount,
   totalCount,
 }: HubNavbarProps) {
+  const { t } = useI18n();
   const searchInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -80,20 +83,14 @@ export function HubNavbar({
                   </GlassBadge>
                 </div>
                 <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-[var(--text-muted)]">
-                  Central de Cartografia Gamer
+                  {t('hub.tagline')}
                 </p>
               </div>
             </div>
 
-            {/* Mobile Offline Indicator */}
-            <div className="flex items-center lg:hidden">
-              <GlassBadge
-                variant="neutral"
-                size="sm"
-                icon={<Database className="h-3 w-3 text-[var(--accent-primary)]" />}
-              >
-                Local
-              </GlassBadge>
+            {/* Mobile Language & Offline Indicator */}
+            <div className="flex items-center gap-2 lg:hidden">
+              <LanguageSelector />
             </div>
           </div>
 
@@ -103,8 +100,8 @@ export function HubNavbar({
               inputRef={searchInputRef}
               value={searchQuery}
               onChange={(event) => onSearchChange(event.target.value)}
-              placeholder="Buscar jogos, mapas, estúdios ou gêneros..."
-              aria-label="Buscar jogos no Nexus Maps"
+              placeholder={t('hub.searchPlaceholder')}
+              aria-label={t('hub.searchPlaceholder')}
               leftIcon={<Search className="h-4 w-4" />}
               rightSlot={
                 searchQuery ? (
@@ -125,15 +122,16 @@ export function HubNavbar({
             />
           </div>
 
-          {/* Desktop Local-First Telemetry Badge */}
+          {/* Desktop Language Selector + Local-First Telemetry Badge */}
           <div className="hidden items-center gap-2.5 lg:flex">
+            <LanguageSelector />
             <GlassBadge
               variant="neutral"
               size="md"
               dot
               icon={<Database className="h-3 w-3 text-[var(--accent-primary)]" />}
             >
-              Offline-First
+              {t('hub.offlineFirst')}
             </GlassBadge>
             <span className="font-mono text-xs text-[var(--text-muted)]">
               {resultsCount}/{totalCount}
@@ -144,10 +142,10 @@ export function HubNavbar({
         {/* Bottom Filter Row: Status + Genre */}
         <div className="mt-3 flex flex-col gap-2.5 border-t border-white/[0.07] pt-3 md:flex-row md:items-center md:justify-between">
           {/* Status Filter */}
-          <div className="flex flex-wrap items-center gap-1.5" role="group" aria-label="Filtrar por status">
+          <div className="flex flex-wrap items-center gap-1.5" role="group" aria-label={t('hub.status')}>
             <span className="mr-1 inline-flex items-center gap-1 text-[11px] font-medium uppercase tracking-wider text-[var(--text-muted)]">
               <SlidersHorizontal className="h-3 w-3" />
-              Status
+              {t('hub.status')}
             </span>
             {STATUS_OPTIONS.map((option) => (
               <NeonButton
@@ -157,15 +155,15 @@ export function HubNavbar({
                 active={selectedStatus === option.value}
                 onClick={() => onStatusChange(option.value)}
               >
-                {option.label}
+                {t(option.labelKey)}
               </NeonButton>
             ))}
           </div>
 
           {/* Genre Filter */}
-          <div className="flex flex-wrap items-center gap-1.5" role="group" aria-label="Filtrar por gênero">
+          <div className="flex flex-wrap items-center gap-1.5" role="group" aria-label={t('hub.genre')}>
             <span className="mr-1 text-[11px] font-medium uppercase tracking-wider text-[var(--text-muted)]">
-              Gênero
+              {t('hub.genre')}
             </span>
             <NeonButton
               size="sm"
@@ -173,7 +171,7 @@ export function HubNavbar({
               active={selectedGenre === 'all'}
               onClick={() => onGenreChange('all')}
             >
-              Todos
+              {t('hub.statusAll')}
             </NeonButton>
             {availableGenres.map((genre) => (
               <NeonButton

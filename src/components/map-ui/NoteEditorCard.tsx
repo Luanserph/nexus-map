@@ -1,6 +1,7 @@
 import { Save, StickyNote, Trash2, X } from 'lucide-react';
 import { useState } from 'react';
 import type { FormEvent } from 'react';
+import { useI18n } from '../../core/i18n';
 import type { UserNoteRecord } from '../../types/schema';
 import { GlassBadge, GlassInput, GlassPanel, NeonButton } from '../glass';
 
@@ -20,6 +21,7 @@ export function NoteEditorCard({
   onDelete,
   onClose,
 }: NoteEditorCardProps) {
+  const { t } = useI18n();
   const [title, setTitle] = useState(note?.title ?? '');
   const [content, setContent] = useState(note?.content ?? '');
   const coords = note?.coords ?? draftCoords ?? [512, 512];
@@ -28,7 +30,7 @@ export function NoteEditorCard({
     event.preventDefault();
     onSave({
       id: note?.id,
-      title: title.trim() || 'Nota pessoal',
+      title: title.trim() || t('note.new'),
       content: content.trim(),
       coords,
     });
@@ -48,7 +50,7 @@ export function NoteEditorCard({
             variant="accent"
             icon={<StickyNote className="h-3 w-3" />}
           >
-            {note ? 'Editar Nota Pessoal' : 'Nova Nota Pessoal'}
+            {note ? t('note.edit') : t('note.new')}
           </GlassBadge>
           <button
             type="button"
@@ -61,14 +63,14 @@ export function NoteEditorCard({
         </div>
 
         <div className="font-mono text-[10px] text-[var(--text-muted)]">
-          Coordenadas: [{coords[0].toFixed(1)}, {coords[1].toFixed(1)}]
+          {t('note.coords')}: [{coords[0].toFixed(1)}, {coords[1].toFixed(1)}]
         </div>
 
         <GlassInput
           value={title}
           onChange={(e) => setTitle(e.target.value)}
-          placeholder="Título da nota (ex: Farm de Runas)"
-          aria-label="Título da nota"
+          placeholder={t('note.titlePlaceholder')}
+          aria-label={t('note.titlePlaceholder')}
           autoFocus
         />
 
@@ -76,8 +78,8 @@ export function NoteEditorCard({
           value={content}
           onChange={(e) => setContent(e.target.value)}
           rows={3}
-          placeholder="Anotações, lembretes de quest ou rota..."
-          aria-label="Conteúdo da nota"
+          placeholder={t('note.contentPlaceholder')}
+          aria-label={t('note.contentPlaceholder')}
           className="w-full resize-none rounded-lg border border-[var(--glass-border)] bg-[rgba(7,9,13,0.68)] p-2.5 text-xs text-[var(--text-primary)] placeholder:text-[var(--text-muted)] transition-colors focus:border-[color-mix(in_srgb,var(--accent-primary)_65%,transparent)] focus:outline-none"
         />
 
@@ -91,7 +93,7 @@ export function NoteEditorCard({
               leftIcon={<Trash2 className="h-3.5 w-3.5 text-rose-400" />}
               className="text-rose-300 hover:text-rose-200"
             >
-              Excluir
+              {t('note.delete')}
             </NeonButton>
           ) : (
             <span />
@@ -99,7 +101,7 @@ export function NoteEditorCard({
 
           <div className="flex items-center gap-1.5">
             <NeonButton type="button" variant="ghost" size="sm" onClick={onClose}>
-              Cancelar
+              {t('marker.cancel')}
             </NeonButton>
             <NeonButton
               type="submit"
@@ -107,7 +109,7 @@ export function NoteEditorCard({
               size="sm"
               leftIcon={<Save className="h-3.5 w-3.5" />}
             >
-              Salvar
+              {t('note.save')}
             </NeonButton>
           </div>
         </div>

@@ -39,6 +39,8 @@ export interface GameMapLayer {
   name: string;
   pinsCount: number;
   dlc?: string;
+  parentMapId?: string;
+  isInterior?: boolean;
   icon?: string;
   tileUrlTemplate?: string;
   minZoom?: number;
@@ -76,6 +78,11 @@ export interface MarkerChecklistItem {
   label: string;
 }
 
+export interface MarkerTranslation {
+  title?: string;
+  description?: string;
+}
+
 export interface MapMarker {
   id: string;
   mapId: string;
@@ -86,6 +93,8 @@ export interface MapMarker {
   coords: [number, number];
   region?: string;
   dlc?: string;
+  linkedMapId?: string;
+  translations?: Record<string, MarkerTranslation>;
   imageUrl?: string;
   wikiUrl?: string;
   level?: number;
@@ -180,6 +189,15 @@ export interface CustomRouteRecord {
   createdAt: number;
 }
 
+export interface UserContributionRecord {
+  id: string;
+  gameSlug: string;
+  markerId: string;
+  imageDataUrl?: string;
+  requirementNote?: string;
+  createdAt: number;
+}
+
 export interface NexusBackupPayload {
   version: 1;
   exportedAt: string;
@@ -187,6 +205,7 @@ export interface NexusBackupPayload {
   userNotes: UserNoteRecord[];
   customRoutes: CustomRouteRecord[];
   checklistItems?: MarkerChecklistRecord[];
+  userContributions?: UserContributionRecord[];
 }
 
 export interface GameManifest {
