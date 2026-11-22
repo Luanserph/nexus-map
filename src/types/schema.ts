@@ -75,6 +75,44 @@ export interface UserPinState {
   note?: string;
 }
 
+export type MapInteractionMode = 'explore' | 'add-note' | 'draw-route';
+
+export interface FoundMarkerRecord {
+  /** Composite key: `${gameSlug}:${markerId}` */
+  id: string;
+  gameSlug: string;
+  markerId: string;
+  foundAt: number;
+}
+
+export interface UserNoteRecord {
+  id: string;
+  gameSlug: string;
+  mapId: string;
+  title: string;
+  content: string;
+  coords: [number, number];
+  createdAt: number;
+}
+
+export interface CustomRouteRecord {
+  id: string;
+  gameSlug: string;
+  mapId: string;
+  name: string;
+  color: string;
+  points: [number, number][];
+  createdAt: number;
+}
+
+export interface NexusBackupPayload {
+  version: 1;
+  exportedAt: string;
+  foundMarkers: FoundMarkerRecord[];
+  userNotes: UserNoteRecord[];
+  customRoutes: CustomRouteRecord[];
+}
+
 export interface GameManifest {
   id: string;
   slug: string;

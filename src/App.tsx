@@ -1,14 +1,24 @@
+import { useMemo } from 'react';
 import { HubShell } from './components/hub';
 import { MapWorkspace } from './components/map-ui';
 import { useHashRoute } from './core/router/useHashRoute';
+import { useAllGamesProgress } from './core/storage';
 import { ThemeProvider } from './core/theme-engine';
-import { getHubGameBySlug } from './data/games';
+import { buildHubEntries } from './data/games';
 
 export function App() {
   const { route, navigateToHub, navigateToGame } = useHashRoute();
+  const progressBySlug = useAllGamesProgress();
+
+  const hubGames = useMemo(
+    () => buildHubEntries(progressBySlug),
+    [progressBySlug]
+  );
 
   const activeGameEntry =
-    route.view === 'map' ? getHubGameBySlug(route.gameSlug) : undefined;
+    route.view === 'map'
+      ? hubGames.find((entry) => entry.manifest.slug === route.gameSlug)
+      : undefined;
 
   return (
     <ThemeProvider activeGame={activeGameEntry?.manifest ?? null}>
@@ -23,7 +33,7 @@ export function App() {
           onBackToHub={navigateToHub}
         />
       ) : (
-        <HubShell onOpenGame={navigateToGame} />
+        <HubShell games={hubGames} onOpenGame={navigateToGame} />
       )}
     </ThemeProvider>
   );

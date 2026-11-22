@@ -18,9 +18,14 @@ O formato segue o padrão [Keep a Changelog](https://keepachangelog.com/pt-BR/1.
 - **Motor de Mapa Interativo** (`src/core/engine/`): `InteractiveMap` baseado em Leaflet (`L.CRS.Simple` + `preferCanvas: true`), com `createTacticalTileLayer` (carregamento real de tiles `.webp` com fallback automático para canvas cartográfico temático), troca fluida de camadas, controles de zoom e leitura de coordenadas `[X, Y]` em tempo real.
 - **Camada de Marcadores**: schema `MapMarker` atualizado, datasets `markers.json` para `elden-ring` (20 pins), `cyberpunk-2077` (8 pins) e `hollow-knight` (8 pins), ícones SVG distintos por categoria (`markerIcons.ts`), tooltips e popups em Neon Glassmorphism, além de busca com `flyTo` rápido na sidebar.
 
+- **Persistência Offline-First (`src/core/storage/`)**: banco local `NexusMapsDB` em IndexedDB via `dexie` com tabelas tipadas `foundMarkers`, `userNotes` e `customRoutes`, funções de **Exportar / Importar Backup (.json)** e sincronização reativa do progresso real nos cards do Hub (`useAllGamesProgress`).
+- **Sidebar Interativa & Filtros Avançados**: busca instantânea por pin/região/descrição com `flyTo` + abertura automática do card, filtros por categoria com ícone e contador `encontrados / total`, botões rápidos **"Mostrar Tudo"**, **"Ocultar Tudo"** e **"Ocultar Encontrados"**, progresso da camada ativa e controles de backup JSON.
+- **Popups / Cards Ricos de Marcadores (`MarkerDetailCard`)**: exibição de categoria, região, descrição, metadados, botão **"Marcar como Encontrado"** (persiste no IndexedDB e reduz opacidade do pin no mapa para 35%) e botão de copiar coordenadas `[X, Y]`.
+- **Notas Pessoais e Traçado de Rotas (`MapToolbar` + `NoteEditorCard`)**: barra flutuante discreta com modos **Explorar**, **Adicionar Nota** (criação/edição/exclusão de pins pessoais no mapa) e **Traçar Rota** (desenho interativo de polylines neon com salvamento, nomeação, cor, ocultação e exclusão).
+
 ### Planned
-- Persistência local offline-first de pins encontrados, notas pessoais e backups JSON via IndexedDB (`Dexie.js`).
-- Command Palette global (`Cmd/Ctrl + K`) e criação de pins/rotas customizadas.
+- Command Palette global (`Cmd/Ctrl + K`) unificada e presets salvos de visualização.
+- Otimização de clustering WebGL/Canvas para testes de estresse com 2.000+ pins simultâneos e responsividade mobile (Bottom Sheet).
 
 ---
 

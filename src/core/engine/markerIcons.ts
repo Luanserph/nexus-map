@@ -23,13 +23,25 @@ const ICON_SVG_PATHS: Record<string, string> = {
   default: '<circle cx="12" cy="12" r="5"/>',
 };
 
-export function createCategoryPinIcon(category?: Category): L.DivIcon {
+export function createCategoryPinIcon(
+  category?: Category,
+  isFound = false,
+  isSelected = false
+): L.DivIcon {
   const color = category?.color ?? 'var(--accent-primary)';
   const iconKey = category?.icon ?? 'default';
   const svgInner = ICON_SVG_PATHS[iconKey] ?? ICON_SVG_PATHS.default;
 
+  const stateClasses = [
+    'nexus-map-pin',
+    isFound ? 'is-found' : '',
+    isSelected ? 'is-selected' : '',
+  ]
+    .filter(Boolean)
+    .join(' ');
+
   const html = `
-    <div class="nexus-map-pin" style="--pin-color: ${color};">
+    <div class="${stateClasses}" style="--pin-color: ${color};">
       <span class="nexus-map-pin-pulse"></span>
       <span class="nexus-map-pin-core">
         <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -46,5 +58,49 @@ export function createCategoryPinIcon(category?: Category): L.DivIcon {
     iconAnchor: [15, 15],
     popupAnchor: [0, -18],
     tooltipAnchor: [0, -16],
+  });
+}
+
+export function createPersonalNoteIcon(isSelected = false): L.DivIcon {
+  const stateClasses = [
+    'nexus-map-pin nexus-note-pin',
+    isSelected ? 'is-selected' : '',
+  ]
+    .filter(Boolean)
+    .join(' ');
+
+  const html = `
+    <div class="${stateClasses}" style="--pin-color: var(--accent-secondary);">
+      <span class="nexus-map-pin-pulse"></span>
+      <span class="nexus-map-pin-core">
+        <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M16 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8Z"/>
+          <path d="M15 3v4a2 2 0 0 0 2 2h4"/>
+        </svg>
+      </span>
+    </div>
+  `;
+
+  return L.divIcon({
+    html,
+    className: 'nexus-map-pin-wrapper',
+    iconSize: [30, 30],
+    iconAnchor: [15, 15],
+    tooltipAnchor: [0, -16],
+  });
+}
+
+export function createRouteVertexIcon(color: string, index: number): L.DivIcon {
+  const html = `
+    <div class="nexus-route-vertex" style="--route-color: ${color};">
+      <span>${index + 1}</span>
+    </div>
+  `;
+
+  return L.divIcon({
+    html,
+    className: 'nexus-map-pin-wrapper',
+    iconSize: [20, 20],
+    iconAnchor: [10, 10],
   });
 }

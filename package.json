@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.5",
+    "dexie": "^4.4.7",
     "leaflet": "^1.9.4",
     "lucide-react": "^1.77.0",
     "react": "^19.3.1",

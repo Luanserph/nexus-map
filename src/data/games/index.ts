@@ -1,4 +1,9 @@
-import type { GameManifest, HubGameEntry, MapMarker } from '../../types/schema';
+import type {
+  GameManifest,
+  GameProgressSummary,
+  HubGameEntry,
+  MapMarker,
+} from '../../types/schema';
 import cyberpunkManifest from './cyberpunk-2077/manifest.json';
 import cyberpunkMarkers from './cyberpunk-2077/markers.json';
 import eldenRingManifest from './elden-ring/manifest.json';
@@ -18,44 +23,21 @@ const markersBySlug: Record<string, MapMarker[]> = {
   'hollow-knight': hollowKnightMarkers as unknown as MapMarker[],
 };
 
-/**
- * Mocked local progress for Etapa 1-3 (replaced by Dexie.js IndexedDB store in Etapa 4).
- */
-const mockProgressBySlug: Record<string, HubGameEntry['progress']> = {
-  'elden-ring': {
-    gameSlug: 'elden-ring',
-    foundMarkersCount: 1436,
-    lastVisitedAt: 'Há 2 horas',
-    activeLayerId: 'surface',
-  },
-  'cyberpunk-2077': {
-    gameSlug: 'cyberpunk-2077',
-    foundMarkersCount: 1860,
-    lastVisitedAt: 'Ontem',
-    activeLayerId: 'dogtown',
-  },
-  'hollow-knight': {
-    gameSlug: 'hollow-knight',
-    foundMarkersCount: 0,
-    activeLayerId: 'hallownest',
-  },
-};
-
-export const HUB_GAMES: HubGameEntry[] = GAME_MANIFESTS.map((manifest) => ({
-  manifest,
-  progress: mockProgressBySlug[manifest.slug] ?? {
-    gameSlug: manifest.slug,
-    foundMarkersCount: 0,
-    activeLayerId: manifest.maps[0]?.id,
-  },
-}));
+export function buildHubEntries(
+  progressBySlug: Record<string, GameProgressSummary>
+): HubGameEntry[] {
+  return GAME_MANIFESTS.map((manifest) => ({
+    manifest,
+    progress: progressBySlug[manifest.slug] ?? {
+      gameSlug: manifest.slug,
+      foundMarkersCount: 0,
+      activeLayerId: manifest.maps[0]?.id,
+    },
+  }));
+}
 
 export function getGameManifestBySlug(slug: string): GameManifest | undefined {
   return GAME_MANIFESTS.find((manifest) => manifest.slug === slug);
-}
-
-export function getHubGameBySlug(slug: string): HubGameEntry | undefined {
-  return HUB_GAMES.find((entry) => entry.manifest.slug === slug);
 }
 
 export function getMarkersByGameSlug(slug: string): MapMarker[] {
@@ -66,7 +48,12 @@ export function getMarkersByMap(slug: string, mapId: string): MapMarker[] {
   return getMarkersByGameSlug(slug).filter((marker) => marker.mapId === mapId);
 }
 
+/**
+ * Returns the real cataloged markers count for progress tracking (falls back to manifest total).
+ */
 export function getTotalPinsCount(manifest: GameManifest): number {
+  const catalogedCount = getMarkersByGameSlug(manifest.slug).length;
+  if (catalogedCount > 0) return catalogedCount;
   return manifest.maps.reduce((sum, mapLayer) => sum + mapLayer.pinsCount, 0);
 }
 
@@ -83,10 +70,15 @@ export function getAllGenres(games: HubGameEntry[]): string[] {
 export function getCompletionPercent(entry: HubGameEntry): number {
   const totalPins = getTotalPinsCount(entry.manifest);
   if (totalPins <= 0) return 0;
-  return Math.min(100, Math.round((entry.progress.foundMarkersCount / totalPins) * 100));
+  return Math.min(
+    100,
+    Math.round((entry.progress.foundMarkersCount / totalPins) * 100)
+  );
 }
 
-export function getGameStatus(entry: HubGameEntry): 'in-progress' | 'completed' | 'not-started' {
+export function getGameStatus(
+  entry: HubGameEntry
+): 'in-progress' | 'completed' | 'not-started' {
   const percent = getCompletionPercent(entry);
   if (percent >= 100) return 'completed';
   if (percent > 0) return 'in-progress';

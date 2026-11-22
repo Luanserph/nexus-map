@@ -1,31 +1,31 @@
 import { Compass, Layers, MapPin, RotateCcw } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import {
-  HUB_GAMES,
   getAllGenres,
   getGameStatus,
   getTotalPinsCount,
 } from '../../data/games';
-import type { ExplorationStatus } from '../../types/schema';
+import type { ExplorationStatus, HubGameEntry } from '../../types/schema';
 import { GlassBadge, GlassPanel, NeonButton } from '../glass';
 import { GameCard } from './GameCard';
 import { HubNavbar } from './HubNavbar';
 
 export interface HubShellProps {
+  games: HubGameEntry[];
   onOpenGame: (slug: string, layerId?: string) => void;
 }
 
-export function HubShell({ onOpenGame }: HubShellProps) {
+export function HubShell({ games, onOpenGame }: HubShellProps) {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedGenre, setSelectedGenre] = useState<string>('all');
   const [selectedStatus, setSelectedStatus] = useState<ExplorationStatus>('all');
 
-  const availableGenres = useMemo(() => getAllGenres(HUB_GAMES), []);
+  const availableGenres = useMemo(() => getAllGenres(games), [games]);
 
   const filteredGames = useMemo(() => {
     const normalizedQuery = searchQuery.trim().toLowerCase();
 
-    return HUB_GAMES.filter((entry) => {
+    return games.filter((entry) => {
       const { manifest } = entry;
 
       if (selectedStatus !== 'all' && getGameStatus(entry) !== selectedStatus) {
@@ -50,15 +50,15 @@ export function HubShell({ onOpenGame }: HubShellProps) {
 
       return haystack.includes(normalizedQuery);
     });
-  }, [searchQuery, selectedGenre, selectedStatus]);
+  }, [games, searchQuery, selectedGenre, selectedStatus]);
 
   const hubTelemetry = useMemo(() => {
-    const totalLayers = HUB_GAMES.reduce((acc, g) => acc + g.manifest.maps.length, 0);
-    const totalMarkers = HUB_GAMES.reduce(
+    const totalLayers = games.reduce((acc, g) => acc + g.manifest.maps.length, 0);
+    const totalMarkers = games.reduce(
       (acc, g) => acc + getTotalPinsCount(g.manifest),
       0
     );
-    const totalFound = HUB_GAMES.reduce(
+    const totalFound = games.reduce(
       (acc, g) => acc + g.progress.foundMarkersCount,
       0
     );
@@ -66,7 +66,7 @@ export function HubShell({ onOpenGame }: HubShellProps) {
       totalMarkers > 0 ? Math.round((totalFound / totalMarkers) * 100) : 0;
 
     return { totalLayers, totalMarkers, totalFound, globalPercent };
-  }, []);
+  }, [games]);
 
   const hasActiveFilters =
     searchQuery.trim() !== '' || selectedGenre !== 'all' || selectedStatus !== 'all';
@@ -108,7 +108,7 @@ export function HubShell({ onOpenGame }: HubShellProps) {
           selectedStatus={selectedStatus}
           onStatusChange={setSelectedStatus}
           resultsCount={filteredGames.length}
-          totalCount={HUB_GAMES.length}
+          totalCount={games.length}
         />
 
         {/* Hero / Tactical Telemetry Header */}
@@ -116,10 +116,10 @@ export function HubShell({ onOpenGame }: HubShellProps) {
           <div className="max-w-2xl">
             <div className="mb-2.5 flex items-center gap-2">
               <GlassBadge variant="accent" size="sm" dot>
-                Atlas Interativo v0.2
+                Atlas Interativo v0.4
               </GlassBadge>
               <span className="font-mono text-[11px] uppercase tracking-widest text-[var(--text-muted)]">
-                Dynamic Theme Engine
+                IndexedDB Offline-First
               </span>
             </div>
             <h1
@@ -130,8 +130,8 @@ export function HubShell({ onOpenGame }: HubShellProps) {
             </h1>
             <p className="mt-2 text-sm leading-relaxed text-[var(--text-secondary)]">
               Cada mapa carrega seu próprio manifesto de camadas, marcadores e
-              identidade visual. Passe o cursor sobre um card para pré-visualizar sua
-              assinatura cromática ou clique para abrir o workspace dedicado.
+              identidade visual. Seu progresso, notas e rotas são salvos
+              automaticamente no navegador.
             </p>
           </div>
 
@@ -142,7 +142,7 @@ export function HubShell({ onOpenGame }: HubShellProps) {
                 <Compass className="h-4 w-4 text-[var(--accent-primary)]" />
                 <div>
                   <div className="font-mono text-sm font-semibold text-[var(--text-primary)]">
-                    {HUB_GAMES.length}
+                    {games.length}
                   </div>
                   <div className="text-[10px] uppercase tracking-wider text-[var(--text-muted)]">
                     Jogos
@@ -240,7 +240,7 @@ export function HubShell({ onOpenGame }: HubShellProps) {
             NEXUS MAPS // TACTICAL NEON GLASSMORPHISM
           </span>
           <span>
-            Manifestos dinâmicos ativos · Persistência offline-first em IndexedDB nas próximas etapas
+            Progresso, notas e rotas salvos localmente em IndexedDB (Offline-First)
           </span>
         </footer>
       </div>
