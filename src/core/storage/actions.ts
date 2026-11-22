@@ -1,6 +1,7 @@
 import type {
   CustomRouteRecord,
   FoundMarkerRecord,
+  MarkerChecklistRecord,
   NexusBackupPayload,
   UserNoteRecord,
 } from '../../types/schema';
@@ -8,6 +9,14 @@ import { db, notifyStorageChanged } from './db';
 
 function makeFoundKey(gameSlug: string, markerId: string): string {
   return `${gameSlug}:${markerId}`;
+}
+
+function makeChecklistKey(
+  gameSlug: string,
+  markerId: string,
+  itemId: string
+): string {
+  return `${gameSlug}:${markerId}:${itemId}`;
 }
 
 function generateId(prefix: string): string {
@@ -112,12 +121,40 @@ export async function deleteCustomRoute(id: string): Promise<void> {
   notifyStorageChanged();
 }
 
+export async function toggleChecklistItem(
+  gameSlug: string,
+  markerId: string,
+  itemId: string
+): Promise<boolean> {
+  const id = makeChecklistKey(gameSlug, markerId, itemId);
+  const existing = await db.checklistItems.get(id);
+
+  if (existing) {
+    await db.checklistItems.delete(id);
+    notifyStorageChanged();
+    return false;
+  }
+
+  const record: MarkerChecklistRecord = {
+    id,
+    gameSlug,
+    markerId,
+    itemId,
+    checkedAt: Date.now(),
+  };
+  await db.checklistItems.put(record);
+  notifyStorageChanged();
+  return true;
+}
+
 export async function exportBackupPayload(): Promise<NexusBackupPayload> {
-  const [foundMarkers, userNotes, customRoutes] = await Promise.all([
-    db.foundMarkers.toArray(),
-    db.userNotes.toArray(),
-    db.customRoutes.toArray(),
-  ]);
+  const [foundMarkers, userNotes, customRoutes, checklistItems] =
+    await Promise.all([
+      db.foundMarkers.toArray(),
+      db.userNotes.toArray(),
+      db.customRoutes.toArray(),
+      db.checklistItems.toArray(),
+    ]);
 
   return {
     version: 1,
@@ -125,6 +162,7 @@ export async function exportBackupPayload(): Promise<NexusBackupPayload> {
     foundMarkers,
     userNotes,
     customRoutes,
+    checklistItems,
   };
 }
 
@@ -207,17 +245,41 @@ export async function importBackupJson(
     foundAt: typeof item.foundAt === 'number' ? item.foundAt : Date.now(),
   }));
 
+  const checklistItems = Array.isArray(candidate.checklistItems)
+    ? candidate.checklistItems.filter(
+        (item): item is MarkerChecklistRecord =>
+          Boolean(
+            item &&
+              typeof item.gameSlug === 'string' &&
+              typeof item.markerId === 'string' &&
+              typeof item.itemId === 'string'
+          )
+      )
+    : [];
+
+  const normalizedChecklist: MarkerChecklistRecord[] = checklistItems.map(
+    (item) => ({
+      id: item.id || makeChecklistKey(item.gameSlug, item.markerId, item.itemId),
+      gameSlug: item.gameSlug,
+      markerId: item.markerId,
+      itemId: item.itemId,
+      checkedAt: typeof item.checkedAt === 'number' ? item.checkedAt : Date.now(),
+    })
+  );
+
   await db.transaction(
     'rw',
     db.foundMarkers,
     db.userNotes,
     db.customRoutes,
+    db.checklistItems,
     async () => {
       if (mode === 'replace') {
         await Promise.all([
           db.foundMarkers.clear(),
           db.userNotes.clear(),
           db.customRoutes.clear(),
+          db.checklistItems.clear(),
         ]);
       }
 
@@ -229,6 +291,9 @@ export async function importBackupJson(
       }
       if (customRoutes.length > 0) {
         await db.customRoutes.bulkPut(customRoutes);
+      }
+      if (normalizedChecklist.length > 0) {
+        await db.checklistItems.bulkPut(normalizedChecklist);
       }
     }
   );

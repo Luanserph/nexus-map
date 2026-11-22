@@ -1,17 +1,28 @@
 import {
   Activity,
   AlertTriangle,
+  Anchor,
   ArrowLeft,
   Bookmark,
   CheckCircle2,
   ChevronDown,
   ChevronRight,
+  Compass,
+  Crown,
+  DoorOpen,
   Download,
   Eye,
   EyeOff,
+  Flag,
+  Flame,
+  FlaskConical,
   Gem,
+  Grid2x2,
+  Hammer,
   Landmark,
   Layers,
+  Leaf,
+  Lock,
   MapPin,
   Minus,
   Navigation,
@@ -20,8 +31,14 @@ import {
   Plus,
   Radio,
   RotateCcw,
+  Scissors,
+  ScrollText,
   Search,
+  Shield,
+  ShoppingBag,
+  Signpost,
   Skull,
+  Spade,
   Sparkles,
   Sprout,
   StickyNote,
@@ -40,6 +57,7 @@ import {
   importBackupJson,
   saveCustomRoute,
   saveUserNote,
+  toggleChecklistItem,
   toggleMarkerFound,
   useGameMapStorage,
 } from '../../core/storage';
@@ -47,6 +65,7 @@ import { useGameTheme } from '../../core/theme-engine';
 import { getMarkersByMap } from '../../data/games';
 import type {
   Category,
+  CategoryPreset,
   HubGameEntry,
   MapInteractionMode,
   MapMarker,
@@ -90,6 +109,38 @@ function renderCategoryIcon(iconName: string): ReactNode {
       return <Navigation {...props} />;
     case 'gem':
       return <Gem {...props} />;
+    case 'signpost':
+      return <Signpost {...props} />;
+    case 'anchor':
+      return <Anchor {...props} />;
+    case 'door-open':
+      return <DoorOpen {...props} />;
+    case 'scroll-text':
+      return <ScrollText {...props} />;
+    case 'flame':
+      return <Flame {...props} />;
+    case 'shield':
+      return <Shield {...props} />;
+    case 'hammer':
+      return <Hammer {...props} />;
+    case 'flask-conical':
+      return <FlaskConical {...props} />;
+    case 'leaf':
+      return <Leaf {...props} />;
+    case 'shopping-bag':
+      return <ShoppingBag {...props} />;
+    case 'scissors':
+      return <Scissors {...props} />;
+    case 'spade':
+      return <Spade {...props} />;
+    case 'compass':
+      return <Compass {...props} />;
+    case 'lock':
+      return <Lock {...props} />;
+    case 'flag':
+      return <Flag {...props} />;
+    case 'crown':
+      return <Crown {...props} />;
     default:
       return <MapPin {...props} />;
   }
@@ -114,16 +165,14 @@ export function MapWorkspace({
 
   const currentMapId = activeLayer?.id ?? manifest.maps[0]?.id ?? 'default';
 
-  // Live IndexedDB storage for found pins, personal notes, and custom routes
-  const { foundMarkerIds, notes, routes } = useGameMapStorage(
-    manifest.slug,
-    currentMapId
-  );
+  const { foundMarkerIds, checkedChecklistKeys, notes, routes } =
+    useGameMapStorage(manifest.slug, currentMapId);
 
-  // Sidebar & filter state
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [pinSearchQuery, setPinSearchQuery] = useState('');
   const [hideFound, setHideFound] = useState(false);
+  const [clusteringEnabled, setClusteringEnabled] = useState(true);
+  const [activePresetId, setActivePresetId] = useState<string | null>(null);
   const [collapsedGroups, setCollapsedGroups] = useState<Record<string, boolean>>({});
   const [visibleCategories, setVisibleCategories] = useState<Record<string, boolean>>(
     () => {
@@ -137,7 +186,6 @@ export function MapWorkspace({
     }
   );
 
-  // Selection, Notes & Route Drawing state
   const [interactionMode, setInteractionMode] =
     useState<MapInteractionMode>('explore');
   const [selectedMarker, setSelectedMarker] = useState<MapMarker | null>(null);
@@ -153,7 +201,6 @@ export function MapWorkspace({
     () => new Set()
   );
 
-  // HUD & feedback state
   const [zoomLevel, setZoomLevel] = useState<number>(activeLayer?.defaultZoom ?? 0);
   const [cursorCoords, setCursorCoords] = useState<{ x: number; y: number }>({
     x: activeLayer?.defaultCenter?.[0] ?? 512,
@@ -216,6 +263,7 @@ export function MapWorkspace({
         marker.description,
         marker.region ?? '',
         categoryName,
+        ...(marker.tags ?? []),
       ]
         .join(' ')
         .toLowerCase();
@@ -231,7 +279,6 @@ export function MapWorkspace({
     categoriesById,
   ]);
 
-  // Global keyboard shortcuts (Ctrl+K search, ESC close panels/modes)
   useEffect(() => {
     function handleKeyDown(event: KeyboardEvent) {
       if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'k') {
@@ -307,6 +354,19 @@ export function MapWorkspace({
     } else if (interactionMode === 'draw-route') {
       setDraftRoutePoints((prev) => [...prev, coords]);
     }
+  }
+
+  function applyPreset(preset: CategoryPreset) {
+    const enableAll = preset.categoryIds.includes('*');
+    const allowed = new Set(preset.categoryIds);
+    const next: Record<string, boolean> = {};
+    for (const group of manifest.categoryGroups) {
+      for (const cat of group.categories) {
+        next[cat.id] = enableAll || allowed.has(cat.id);
+      }
+    }
+    setVisibleCategories(next);
+    setActivePresetId(preset.id);
   }
 
   async function handleSaveNote(data: {
@@ -400,10 +460,12 @@ export function MapWorkspace({
   }
 
   function toggleCategory(categoryId: string) {
+    setActivePresetId(null);
     setVisibleCategories((prev) => ({ ...prev, [categoryId]: !prev[categoryId] }));
   }
 
   function setAllCategories(visible: boolean) {
+    setActivePresetId(null);
     const next: Record<string, boolean> = {};
     for (const group of manifest.categoryGroups) {
       for (const cat of group.categories) {
@@ -416,7 +478,7 @@ export function MapWorkspace({
   return (
     <div className="relative h-svh w-screen overflow-hidden bg-[var(--surface-base)] text-[var(--text-primary)] select-none transition-colors duration-300">
       {/* ================================================================= */}
-      {/* INTERACTIVE LEAFLET MAP ENGINE                                    */}
+      {/* INTERACTIVE LEAFLET MAP ENGINE (VIEWPORT CULLING + CLUSTERING)    */}
       {/* ================================================================= */}
       <div className="relative z-0 h-full w-full">
         {activeLayer && (
@@ -429,6 +491,7 @@ export function MapWorkspace({
             foundMarkerIds={foundMarkerIds}
             selectedMarkerId={selectedMarker?.id}
             onSelectMarker={handleSelectMarker}
+            clusteringEnabled={clusteringEnabled}
             userNotes={notes}
             selectedNoteId={selectedNote?.id}
             onSelectNote={(note) => {
@@ -493,7 +556,6 @@ export function MapWorkspace({
           </div>
         </GlassPanel>
 
-        {/* Layer / Map Switcher */}
         <GlassPanel
           variant="elevated"
           padding="none"
@@ -527,7 +589,7 @@ export function MapWorkspace({
       </header>
 
       {/* ================================================================= */}
-      {/* RETRACTABLE LEFT SIDEBAR (SEARCH, FILTERS, PROGRESS, BACKUP)      */}
+      {/* RETRACTABLE LEFT SIDEBAR (SEARCH, PRESETS, FILTERS, BACKUP)       */}
       {/* ================================================================= */}
       <aside className="pointer-events-none fixed top-20 bottom-4 left-4 z-20 flex items-start gap-2.5">
         {isSidebarOpen ? (
@@ -535,7 +597,7 @@ export function MapWorkspace({
             variant="elevated"
             padding="none"
             cornerMarks
-            className="pointer-events-auto flex max-h-full w-[312px] flex-col sm:w-[336px]"
+            className="pointer-events-auto flex max-h-full w-[316px] flex-col sm:w-[344px]"
           >
             {/* Sidebar Header Banner + Active Map Progress */}
             <div className="relative">
@@ -611,7 +673,7 @@ export function MapWorkspace({
                 }
               />
 
-              {/* Instant Search Results (click to flyTo + open rich card) */}
+              {/* Instant Search Results */}
               {normalizedPinSearch && (
                 <div className="space-y-1 rounded-lg border border-white/[0.08] bg-black/40 p-2">
                   <div className="flex items-center justify-between px-1 pb-1 font-mono text-[10px] uppercase tracking-wider text-[var(--text-muted)]">
@@ -619,8 +681,8 @@ export function MapWorkspace({
                     <span>Centralizar</span>
                   </div>
                   {filteredMarkers.length > 0 ? (
-                    <div className="max-h-36 space-y-1 overflow-y-auto">
-                      {filteredMarkers.map((marker) => {
+                    <div className="max-h-40 space-y-1 overflow-y-auto">
+                      {filteredMarkers.slice(0, 40).map((marker) => {
                         const cat = categoriesById[marker.category];
                         const isFound = foundMarkerIds.has(marker.id);
                         return (
@@ -662,7 +724,30 @@ export function MapWorkspace({
                 </div>
               )}
 
-              {/* Quick Filter Actions: Mostrar Tudo, Ocultar Tudo, Ocultar Encontrados */}
+              {/* Quick Presets (data-driven from manifest.presets) */}
+              {manifest.presets && manifest.presets.length > 0 && (
+                <div className="space-y-1.5">
+                  <div className="font-mono text-[10px] uppercase tracking-wider text-[var(--text-muted)]">
+                    Presets Rápidos
+                  </div>
+                  <div className="flex flex-wrap gap-1.5">
+                    {manifest.presets.map((preset) => (
+                      <NeonButton
+                        key={preset.id}
+                        size="sm"
+                        variant="glass"
+                        active={activePresetId === preset.id}
+                        title={preset.description}
+                        onClick={() => applyPreset(preset)}
+                      >
+                        {preset.label}
+                      </NeonButton>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Quick Filter Actions + Clustering Toggle */}
               <div className="grid grid-cols-2 gap-1.5">
                 <NeonButton
                   size="sm"
@@ -686,16 +771,34 @@ export function MapWorkspace({
                   active={hideFound}
                   onClick={() => setHideFound((prev) => !prev)}
                   leftIcon={<CheckCircle2 className="h-3 w-3" />}
-                  className="col-span-2"
                 >
-                  {hideFound ? 'Exibindo apenas pendentes' : 'Ocultar Encontrados'}
+                  {hideFound ? 'Só Pendentes' : 'Ocultar Achados'}
+                </NeonButton>
+                <NeonButton
+                  size="sm"
+                  variant="glass"
+                  active={clusteringEnabled}
+                  onClick={() => setClusteringEnabled((prev) => !prev)}
+                  leftIcon={<Grid2x2 className="h-3 w-3" />}
+                  title="Agrupar pins próximos em zooms distantes para 60 FPS"
+                >
+                  {clusteringEnabled ? 'Cluster: ON' : 'Cluster: OFF'}
                 </NeonButton>
               </div>
 
-              {/* Category Groups Accordion with Icons & Found/Total Counters */}
+              {/* Category Groups Accordion */}
               <div className="space-y-2">
                 {manifest.categoryGroups.map((group) => {
                   const isCollapsed = Boolean(collapsedGroups[group.id]);
+                  const groupTotal = group.categories.reduce(
+                    (acc, c) => acc + (layerStats.totalByCat[c.id] ?? 0),
+                    0
+                  );
+                  const groupFound = group.categories.reduce(
+                    (acc, c) => acc + (layerStats.foundByCat[c.id] ?? 0),
+                    0
+                  );
+
                   return (
                     <div
                       key={group.id}
@@ -706,12 +809,17 @@ export function MapWorkspace({
                         onClick={() => toggleGroup(group.id)}
                         className="flex w-full cursor-pointer items-center justify-between px-3 py-2 text-left text-[11px] font-semibold uppercase tracking-wider text-[var(--text-secondary)] transition-colors hover:text-[var(--text-primary)]"
                       >
-                        <span>{group.label}</span>
-                        {isCollapsed ? (
-                          <ChevronRight className="h-3.5 w-3.5 text-[var(--text-muted)]" />
-                        ) : (
-                          <ChevronDown className="h-3.5 w-3.5 text-[var(--text-muted)]" />
-                        )}
+                        <span className="truncate">{group.label}</span>
+                        <span className="flex shrink-0 items-center gap-2">
+                          <span className="font-mono text-[10px] font-normal text-[var(--text-muted)]">
+                            {groupFound}/{groupTotal}
+                          </span>
+                          {isCollapsed ? (
+                            <ChevronRight className="h-3.5 w-3.5 text-[var(--text-muted)]" />
+                          ) : (
+                            <ChevronDown className="h-3.5 w-3.5 text-[var(--text-muted)]" />
+                          )}
+                        </span>
                       </button>
 
                       {!isCollapsed && (
@@ -761,7 +869,7 @@ export function MapWorkspace({
                 })}
               </div>
 
-              {/* Personal Notes Quick List (when notes exist in this layer) */}
+              {/* Personal Notes Quick List */}
               {notes.length > 0 && (
                 <div className="rounded-lg border border-white/[0.07] bg-black/25 p-2">
                   <div className="mb-1.5 flex items-center justify-between px-1 font-mono text-[10px] uppercase tracking-wider text-[var(--text-muted)]">
@@ -852,9 +960,17 @@ export function MapWorkspace({
                 marker={selectedMarker}
                 category={categoriesById[selectedMarker.category]}
                 isFound={foundMarkerIds.has(selectedMarker.id)}
+                checkedChecklistKeys={checkedChecklistKeys}
                 badgeStyle={badgeStyle}
                 onToggleFound={() =>
                   void toggleMarkerFound(manifest.slug, selectedMarker.id)
+                }
+                onToggleChecklistItem={(itemId) =>
+                  void toggleChecklistItem(
+                    manifest.slug,
+                    selectedMarker.id,
+                    itemId
+                  )
                 }
                 onClose={() => setSelectedMarker(null)}
               />

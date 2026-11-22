@@ -2,7 +2,7 @@
   "id": "game-the-witcher-3-wild-hunt",
   "slug": "the-witcher-3-wild-hunt",
   "title": "The Witcher 3: Wild Hunt",
-  "subtitle": "CD PROJEKT RED · Atlas Interativo",
+  "subtitle": "Velen, Novigrad & Terras de Ninguém",
   "studio": "CD PROJEKT RED",
   "releaseYear": 2015,
   "genres": [
@@ -29,7 +29,7 @@
     {
       "id": "main",
       "name": "Velen & Novigrad",
-      "pinsCount": 5,
+      "pinsCount": 469,
       "icon": "compass",
       "tileUrlTemplate": "/tiles/the-witcher-3-wild-hunt/main/{z}/{x}/{y}.webp",
       "minZoom": 1,
@@ -44,29 +44,269 @@
         64,
         -72
       ],
-      "defaultZoom": 3
+      "defaultZoom": 2
+    }
+  ],
+  "presets": [
+    {
+      "id": "essentials",
+      "label": "Essenciais",
+      "description": "Viagem rápida, quadros de avisos, locais de poder e ferreiros",
+      "categoryIds": [
+        "signpost",
+        "harbor",
+        "notice",
+        "pop",
+        "armourer",
+        "blacksmith",
+        "innkeep"
+      ]
+    },
+    {
+      "id": "completionist",
+      "label": "Exploração 100%",
+      "description": "Exibe todas as categorias catalogadas em Velen e Novigrad",
+      "categoryIds": [
+        "*"
+      ]
+    },
+    {
+      "id": "gear-hunt",
+      "label": "Caça a Equipamentos",
+      "description": "Tesouros guardados, escondidos, espólios, armeiros e mesas de melhoria",
+      "categoryIds": [
+        "guarded",
+        "hidden",
+        "spoils",
+        "smugglers",
+        "armourer",
+        "blacksmith",
+        "armourerstable",
+        "grindstone",
+        "pop"
+      ]
     }
   ],
   "categoryGroups": [
     {
-      "id": "locations",
-      "label": "Locais",
+      "id": "travel-locations",
+      "label": "Viagem & Locais",
       "categories": [
         {
-          "id": "landmark",
-          "groupId": "locations",
-          "name": "Ponto de Referência",
-          "icon": "landmark",
-          "color": "#E4252F",
+          "id": "signpost",
+          "groupId": "travel-locations",
+          "name": "Placa de Viagem Rápida",
+          "icon": "signpost",
+          "color": "#38BDF8",
           "defaultVisible": true
         },
         {
-          "id": "fast-travel",
-          "groupId": "locations",
-          "name": "Viagem Rápida",
-          "icon": "navigation",
-          "color": "#5AE297",
+          "id": "harbor",
+          "groupId": "travel-locations",
+          "name": "Porto",
+          "icon": "anchor",
+          "color": "#60A5FA",
           "defaultVisible": true
+        },
+        {
+          "id": "entrance",
+          "groupId": "travel-locations",
+          "name": "Entrada de Caverna / Ruína",
+          "icon": "door-open",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "poi",
+          "groupId": "travel-locations",
+          "name": "Ponto de Interesse",
+          "icon": "compass",
+          "color": "#94A3B8",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "quests-contracts",
+      "label": "Missões & Contratos",
+      "categories": [
+        {
+          "id": "notice",
+          "groupId": "quests-contracts",
+          "name": "Quadro de Avisos",
+          "icon": "scroll-text",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "pid",
+          "groupId": "quests-contracts",
+          "name": "Pessoa em Perigo",
+          "icon": "lock",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "abandoned",
+          "groupId": "quests-contracts",
+          "name": "Local Abandonado",
+          "icon": "flag",
+          "color": "#F59E0B",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "gear-treasures",
+      "label": "Equipamentos & Tesouros",
+      "categories": [
+        {
+          "id": "guarded",
+          "groupId": "gear-treasures",
+          "name": "Tesouro Guardado",
+          "icon": "crown",
+          "color": "#EAB308",
+          "defaultVisible": true
+        },
+        {
+          "id": "hidden",
+          "groupId": "gear-treasures",
+          "name": "Tesouro Escondido",
+          "icon": "gem",
+          "color": "#FDE047",
+          "defaultVisible": true
+        },
+        {
+          "id": "smugglers",
+          "groupId": "gear-treasures",
+          "name": "Esconderijo de Contrabandista",
+          "icon": "shopping-bag",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "spoils",
+          "groupId": "gear-treasures",
+          "name": "Espólios de Guerra",
+          "icon": "swords",
+          "color": "#D97706",
+          "defaultVisible": false
+        },
+        {
+          "id": "armourerstable",
+          "groupId": "gear-treasures",
+          "name": "Mesa de Armeiro",
+          "icon": "shield",
+          "color": "#CBD5E1",
+          "defaultVisible": false
+        },
+        {
+          "id": "grindstone",
+          "groupId": "gear-treasures",
+          "name": "Pedra de Amolar",
+          "icon": "hammer",
+          "color": "#94A3B8",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "npcs-services",
+      "label": "NPCs & Serviços",
+      "categories": [
+        {
+          "id": "armourer",
+          "groupId": "npcs-services",
+          "name": "Armeiro",
+          "icon": "shield",
+          "color": "#E2E8F0",
+          "defaultVisible": true
+        },
+        {
+          "id": "blacksmith",
+          "groupId": "npcs-services",
+          "name": "Ferreiro",
+          "icon": "hammer",
+          "color": "#F97316",
+          "defaultVisible": true
+        },
+        {
+          "id": "alchemy",
+          "groupId": "npcs-services",
+          "name": "Suprimentos de Alquimia",
+          "icon": "flask-conical",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "herbalist",
+          "groupId": "npcs-services",
+          "name": "Herbalista",
+          "icon": "leaf",
+          "color": "#22C55E",
+          "defaultVisible": false
+        },
+        {
+          "id": "innkeep",
+          "groupId": "npcs-services",
+          "name": "Estalajadeiro",
+          "icon": "landmark",
+          "color": "#F59E0B",
+          "defaultVisible": false
+        },
+        {
+          "id": "shopkeeper",
+          "groupId": "npcs-services",
+          "name": "Mercador",
+          "icon": "shopping-bag",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "barber",
+          "groupId": "npcs-services",
+          "name": "Barbeiro",
+          "icon": "scissors",
+          "color": "#C084FC",
+          "defaultVisible": false
+        },
+        {
+          "id": "brothel",
+          "groupId": "npcs-services",
+          "name": "Bordel",
+          "icon": "sparkles",
+          "color": "#F472B6",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "dangers-monsters",
+      "label": "Perigos & Monstros",
+      "categories": [
+        {
+          "id": "monsternest",
+          "groupId": "dangers-monsters",
+          "name": "Ninho de Monstros",
+          "icon": "skull",
+          "color": "#EF4444",
+          "defaultVisible": true
+        },
+        {
+          "id": "monsterden",
+          "groupId": "dangers-monsters",
+          "name": "Covil de Monstros",
+          "icon": "alert-triangle",
+          "color": "#DC2626",
+          "defaultVisible": true
+        },
+        {
+          "id": "banditcamp",
+          "groupId": "dangers-monsters",
+          "name": "Acampamento de Bandidos",
+          "icon": "swords",
+          "color": "#F43F5E",
+          "defaultVisible": false
         }
       ]
     },
@@ -75,11 +315,19 @@
       "label": "Colecionáveis",
       "categories": [
         {
-          "id": "collectible",
+          "id": "pop",
           "groupId": "collectibles",
-          "name": "Item Colecionável",
-          "icon": "sparkles",
-          "color": "#6EE7B7",
+          "name": "Local de Poder",
+          "icon": "flame",
+          "color": "#00F0FF",
+          "defaultVisible": true
+        },
+        {
+          "id": "gwent",
+          "groupId": "collectibles",
+          "name": "Jogador de Gwent",
+          "icon": "spade",
+          "color": "#5AE297",
           "defaultVisible": true
         }
       ]

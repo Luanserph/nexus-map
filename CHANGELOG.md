@@ -28,9 +28,13 @@ O formato segue o padrão [Keep a Changelog](https://keepachangelog.com/pt-BR/1.
   - Integração com `scripts/tile-slicer/` quando `--map-url` é informado (download temporário, geração de tiles `.webp`, injeção de `bounds`/`maxZoom` e limpeza do arquivo temporário).
   - Auto-descoberta de jogos e marcadores via `import.meta.glob` em `src/data/games/index.ts`, eliminando registro manual.
 
-### Planned
-- Command Palette global (`Cmd/Ctrl + K`) unificada e presets salvos de visualização.
-- Otimização de clustering WebGL/Canvas para testes de estresse com 2.000+ pins simultâneos e responsividade mobile (Bottom Sheet).
+- **Upgrade MapGenie-Grade (The Witcher 3 — Velen & Novigrad piloto completo)**:
+  - Schema `MapMarker` expandido com `imageUrl`, `wikiUrl`, `level`, `tags` e `checklist` (persistido no IndexedDB via tabela `checklistItems` na versão 2 do `NexusMapsDB`).
+  - `MarkerDetailCard` atualizado com foto do local em `16:9` (lazy-loading + lightbox ampliável), badge de nível, tags, mini-checklist interativo e botão **"Ver na Wiki"**.
+  - Sidebar expandida com 6 grupos de categorias recolhíveis, ícones distintos por categoria, **Presets Rápidos** orientados a manifesto (*Essenciais*, *Exploração 100%*, *Caça a Equipamentos*) e toggle de **Clusterização**.
+  - Performance otimizada no `InteractiveMap` para 500–1.000+ pins a 60 FPS usando **viewport culling** + **clusterização espacial em grade O(N)** estilizada em Neon Glassmorphism.
+  - CLI `scripts/import-markers/` (`npm run import-markers`) com calibração linear por 2 pontos de referência (`--ref`), parser para datasets JSON e `witcher3map` JS, tradução/padronização em PT-BR e enriquecimento opcional via MediaWiki API.
+  - Mapa **Velen & Novigrad** (`the-witcher-3-wild-hunt`) populado com centenas de marcadores reais calibrados contra os tiles `.webp`.
 
 ---
 

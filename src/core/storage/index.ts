@@ -7,6 +7,7 @@ export {
   saveCustomRoute,
   saveUserNote,
   setMarkerFound,
+  toggleChecklistItem,
   toggleMarkerFound,
 } from './actions';
 export { db, NexusMapsDB, notifyStorageChanged, subscribeStorage } from './db';

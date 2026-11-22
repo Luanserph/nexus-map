@@ -55,6 +55,19 @@ export interface CategoryGroup {
   categories: Category[];
 }
 
+export interface CategoryPreset {
+  id: string;
+  label: string;
+  description?: string;
+  /** Category IDs enabled when this preset is selected. Use ['*'] for all categories. */
+  categoryIds: string[];
+}
+
+export interface MarkerChecklistItem {
+  id: string;
+  label: string;
+}
+
 export interface MapMarker {
   id: string;
   mapId: string;
@@ -64,6 +77,11 @@ export interface MapMarker {
   /** Cartographic coordinates [x, y] in L.CRS.Simple planar space. */
   coords: [number, number];
   region?: string;
+  imageUrl?: string;
+  wikiUrl?: string;
+  level?: number;
+  tags?: string[];
+  checklist?: MarkerChecklistItem[];
   metadata?: Record<string, string | number | boolean | string[]>;
 }
 
@@ -83,6 +101,15 @@ export interface FoundMarkerRecord {
   gameSlug: string;
   markerId: string;
   foundAt: number;
+}
+
+export interface MarkerChecklistRecord {
+  /** Composite key: `${gameSlug}:${markerId}:${itemId}` */
+  id: string;
+  gameSlug: string;
+  markerId: string;
+  itemId: string;
+  checkedAt: number;
 }
 
 export interface UserNoteRecord {
@@ -111,6 +138,7 @@ export interface NexusBackupPayload {
   foundMarkers: FoundMarkerRecord[];
   userNotes: UserNoteRecord[];
   customRoutes: CustomRouteRecord[];
+  checklistItems?: MarkerChecklistRecord[];
 }
 
 export interface GameManifest {
@@ -126,6 +154,7 @@ export interface GameManifest {
   theme: GameTheme;
   maps: GameMapLayer[];
   categoryGroups: CategoryGroup[];
+  presets?: CategoryPreset[];
 }
 
 export interface GameProgressSummary {

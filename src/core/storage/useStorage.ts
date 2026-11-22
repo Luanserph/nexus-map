@@ -76,6 +76,7 @@ export function useAllGamesProgress(): Record<string, GameProgressSummary> {
 
 export interface GameMapStorageState {
   foundMarkerIds: Set<string>;
+  checkedChecklistKeys: Set<string>;
   notes: UserNoteRecord[];
   routes: CustomRouteRecord[];
   isLoaded: boolean;
@@ -90,6 +91,7 @@ export function useGameMapStorage(
 ): GameMapStorageState {
   const [state, setState] = useState<GameMapStorageState>({
     foundMarkerIds: new Set<string>(),
+    checkedChecklistKeys: new Set<string>(),
     notes: [],
     routes: [],
     isLoaded: false,
@@ -99,8 +101,9 @@ export function useGameMapStorage(
     let active = true;
 
     async function load() {
-      const [foundRows, noteRows, routeRows] = await Promise.all([
+      const [foundRows, checklistRows, noteRows, routeRows] = await Promise.all([
         db.foundMarkers.where('gameSlug').equals(gameSlug).toArray(),
+        db.checklistItems.where('gameSlug').equals(gameSlug).toArray(),
         db.userNotes
           .where('[gameSlug+mapId]')
           .equals([gameSlug, mapId])
@@ -115,6 +118,9 @@ export function useGameMapStorage(
 
       setState({
         foundMarkerIds: new Set(foundRows.map((row) => row.markerId)),
+        checkedChecklistKeys: new Set(
+          checklistRows.map((row) => `${row.markerId}:${row.itemId}`)
+        ),
         notes: noteRows,
         routes: routeRows,
         isLoaded: true,

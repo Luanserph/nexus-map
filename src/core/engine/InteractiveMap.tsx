@@ -1,5 +1,5 @@
 import L from 'leaflet';
-import { useEffect, useImperativeHandle, useMemo, useRef } from 'react';
+import { useCallback, useEffect, useImperativeHandle, useMemo, useRef } from 'react';
 import type { Ref } from 'react';
 import type {
   Category,
@@ -13,6 +13,7 @@ import type {
 import { createTacticalTileLayer } from './createFallbackTileLayer';
 import {
   createCategoryPinIcon,
+  createClusterPinIcon,
   createPersonalNoteIcon,
   createRouteVertexIcon,
 } from './markerIcons';
@@ -33,6 +34,7 @@ export interface InteractiveMapProps {
   foundMarkerIds: Set<string>;
   selectedMarkerId?: string | null;
   onSelectMarker: (marker: MapMarker) => void;
+  clusteringEnabled?: boolean;
   userNotes: UserNoteRecord[];
   selectedNoteId?: string | null;
   onSelectNote: (note: UserNoteRecord) => void;
@@ -56,6 +58,8 @@ function escapeHtml(raw: string): string {
     .replaceAll("'", '&#39;');
 }
 
+const CLUSTER_CELL_PX = 44;
+
 export function InteractiveMap({
   mapLayer,
   theme,
@@ -64,6 +68,7 @@ export function InteractiveMap({
   foundMarkerIds,
   selectedMarkerId,
   onSelectMarker,
+  clusteringEnabled = true,
   userNotes,
   selectedNoteId,
   onSelectNote,
@@ -121,6 +126,169 @@ export function InteractiveMap({
   const maxZoom = mapLayer.maxZoom ?? 4;
   const defaultZoom = mapLayer.defaultZoom ?? 0;
 
+  /**
+   * High-performance renderer for 500-1,000+ pins:
+   * 1. Viewport culling (only processes markers inside padded viewport bounds).
+   * 2. Optional O(N) screen-space grid clustering when zoom < maxZoom.
+   */
+  const renderVisibleMarkers = useCallback(() => {
+    const map = leafletMapRef.current;
+    const group = markersLayerRef.current;
+    if (!map || !group) return;
+
+    group.clearLayers();
+
+    const paddedBounds = map.getBounds().pad(0.25);
+    const currentZoom = map.getZoom();
+    const shouldCluster =
+      clusteringEnabled && markers.length > 40 && currentZoom < maxZoom - 0.25;
+
+    // Step 1: Viewport culling
+    const visibleInViewport: MapMarker[] = [];
+    for (const marker of markers) {
+      const [x, y] = marker.coords;
+      if (
+        selectedMarkerId === marker.id ||
+        paddedBounds.contains(L.latLng(y, x))
+      ) {
+        visibleInViewport.push(marker);
+      }
+    }
+
+    if (!shouldCluster) {
+      for (const marker of visibleInViewport) {
+        const category = categoriesById[marker.category];
+        const [x, y] = marker.coords;
+        const isFound = foundMarkerIds.has(marker.id);
+        const isSelected = selectedMarkerId === marker.id;
+
+        const leafletMarker = L.marker(L.latLng(y, x), {
+          icon: createCategoryPinIcon(category, isFound, isSelected),
+          title: marker.title,
+        });
+
+        const foundSuffix = isFound ? ' · Encontrado' : '';
+        leafletMarker.bindTooltip(
+          `<span class="nexus-tooltip-title">${escapeHtml(marker.title)}${foundSuffix}</span>`,
+          {
+            direction: 'top',
+            offset: L.point(0, -14),
+            className: 'nexus-leaflet-tooltip',
+            opacity: 1,
+          }
+        );
+
+        leafletMarker.on('click', (event) => {
+          L.DomEvent.stopPropagation(event);
+          onSelectMarkerRef.current(marker);
+        });
+
+        leafletMarker.addTo(group);
+      }
+      return;
+    }
+
+    // Step 2: Fast O(N) screen-space spatial grid clustering
+    const buckets = new Map<string, MapMarker[]>();
+    for (const marker of visibleInViewport) {
+      if (selectedMarkerId === marker.id) {
+        // Always keep the currently selected marker unclustered
+        buckets.set(`selected:${marker.id}`, [marker]);
+        continue;
+      }
+
+      const [x, y] = marker.coords;
+      const pt = map.latLngToContainerPoint(L.latLng(y, x));
+      const cellKey = `${Math.floor(pt.x / CLUSTER_CELL_PX)}:${Math.floor(pt.y / CLUSTER_CELL_PX)}`;
+      const bucket = buckets.get(cellKey);
+      if (bucket) {
+        bucket.push(marker);
+      } else {
+        buckets.set(cellKey, [marker]);
+      }
+    }
+
+    for (const bucket of buckets.values()) {
+      if (bucket.length === 1) {
+        const marker = bucket[0];
+        const category = categoriesById[marker.category];
+        const [x, y] = marker.coords;
+        const isFound = foundMarkerIds.has(marker.id);
+        const isSelected = selectedMarkerId === marker.id;
+
+        const leafletMarker = L.marker(L.latLng(y, x), {
+          icon: createCategoryPinIcon(category, isFound, isSelected),
+          title: marker.title,
+        });
+
+        const foundSuffix = isFound ? ' · Encontrado' : '';
+        leafletMarker.bindTooltip(
+          `<span class="nexus-tooltip-title">${escapeHtml(marker.title)}${foundSuffix}</span>`,
+          {
+            direction: 'top',
+            offset: L.point(0, -14),
+            className: 'nexus-leaflet-tooltip',
+            opacity: 1,
+          }
+        );
+
+        leafletMarker.on('click', (event) => {
+          L.DomEvent.stopPropagation(event);
+          onSelectMarkerRef.current(marker);
+        });
+
+        leafletMarker.addTo(group);
+      } else {
+        // Cluster centroid
+        let sumX = 0;
+        let sumY = 0;
+        for (const m of bucket) {
+          sumX += m.coords[0];
+          sumY += m.coords[1];
+        }
+        const avgX = sumX / bucket.length;
+        const avgY = sumY / bucket.length;
+        const centerLatLng = L.latLng(avgY, avgX);
+
+        const clusterMarker = L.marker(centerLatLng, {
+          icon: createClusterPinIcon(bucket.length),
+          title: `${bucket.length} marcadores`,
+        });
+
+        clusterMarker.bindTooltip(
+          `<span class="nexus-tooltip-title">${bucket.length} marcadores (clique para aproximar)</span>`,
+          {
+            direction: 'top',
+            offset: L.point(0, -16),
+            className: 'nexus-leaflet-tooltip',
+            opacity: 1,
+          }
+        );
+
+        clusterMarker.on('click', (event) => {
+          L.DomEvent.stopPropagation(event);
+          map.flyTo(centerLatLng, Math.min(maxZoom, map.getZoom() + 1.25), {
+            duration: 0.35,
+          });
+        });
+
+        clusterMarker.addTo(group);
+      }
+    }
+  }, [
+    markers,
+    categoriesById,
+    foundMarkerIds,
+    selectedMarkerId,
+    clusteringEnabled,
+    maxZoom,
+  ]);
+
+  const renderVisibleMarkersRef = useRef(renderVisibleMarkers);
+  useEffect(() => {
+    renderVisibleMarkersRef.current = renderVisibleMarkers;
+  }, [renderVisibleMarkers]);
+
   // 1. Initialize Leaflet instance once (L.CRS.Simple + preferCanvas: true)
   useEffect(() => {
     const container = containerRef.current;
@@ -165,6 +333,11 @@ export function InteractiveMap({
 
     map.on('zoomend', () => {
       onZoomChangeRef.current?.(map.getZoom());
+      renderVisibleMarkersRef.current();
+    });
+
+    map.on('moveend', () => {
+      renderVisibleMarkersRef.current();
     });
 
     leafletMapRef.current = map;
@@ -213,6 +386,7 @@ export function InteractiveMap({
 
     map.setView(resolvedCenter, defaultZoom, { animate: true, duration: 0.35 });
     onZoomChangeRef.current?.(defaultZoom);
+    renderVisibleMarkersRef.current();
   }, [
     mapLayer.id,
     mapLayer.tileUrlTemplate,
@@ -224,43 +398,10 @@ export function InteractiveMap({
     defaultZoom,
   ]);
 
-  // 3. Render cataloged markers with found-opacity & rich selection trigger
+  // 3. Re-render culled/clustered markers when filters, found states, or clustering change
   useEffect(() => {
-    const group = markersLayerRef.current;
-    if (!group) return;
-
-    group.clearLayers();
-
-    for (const marker of markers) {
-      const category = categoriesById[marker.category];
-      const [x, y] = marker.coords;
-      const isFound = foundMarkerIds.has(marker.id);
-      const isSelected = selectedMarkerId === marker.id;
-
-      const leafletMarker = L.marker(L.latLng(y, x), {
-        icon: createCategoryPinIcon(category, isFound, isSelected),
-        title: marker.title,
-      });
-
-      const foundSuffix = isFound ? ' · Encontrado' : '';
-      leafletMarker.bindTooltip(
-        `<span class="nexus-tooltip-title">${escapeHtml(marker.title)}${foundSuffix}</span>`,
-        {
-          direction: 'top',
-          offset: L.point(0, -14),
-          className: 'nexus-leaflet-tooltip',
-          opacity: 1,
-        }
-      );
-
-      leafletMarker.on('click', (event) => {
-        L.DomEvent.stopPropagation(event);
-        onSelectMarkerRef.current(marker);
-      });
-
-      leafletMarker.addTo(group);
-    }
-  }, [markers, categoriesById, foundMarkerIds, selectedMarkerId]);
+    renderVisibleMarkers();
+  }, [renderVisibleMarkers]);
 
   // 4. Render personal user notes
   useEffect(() => {
@@ -309,7 +450,6 @@ export function InteractiveMap({
 
       const latLngs = route.points.map(([x, y]) => L.latLng(y, x));
 
-      // Ambient neon outer glow line
       L.polyline(latLngs, {
         color: route.color,
         weight: 8,
@@ -319,7 +459,6 @@ export function InteractiveMap({
         interactive: false,
       }).addTo(group);
 
-      // Core sharp vector line
       const line = L.polyline(latLngs, {
         color: route.color,
         weight: 2.5,
@@ -340,7 +479,6 @@ export function InteractiveMap({
       line.addTo(group);
     }
 
-    // Active draft route being drawn
     if (draftRoutePoints.length > 0) {
       const draftLatLngs = draftRoutePoints.map(([x, y]) => L.latLng(y, x));
 
@@ -390,7 +528,7 @@ export function InteractiveMap({
         const map = leafletMapRef.current;
         if (!map) return;
         const [x, y] = marker.coords;
-        map.flyTo(L.latLng(y, x), Math.max(map.getZoom(), 1.5), {
+        map.flyTo(L.latLng(y, x), Math.max(map.getZoom(), maxZoom - 0.5), {
           duration: 0.45,
         });
       },
@@ -398,12 +536,12 @@ export function InteractiveMap({
         const map = leafletMapRef.current;
         if (!map) return;
         const [x, y] = coords;
-        map.flyTo(L.latLng(y, x), Math.max(map.getZoom(), 1.5), {
+        map.flyTo(L.latLng(y, x), Math.max(map.getZoom(), maxZoom - 0.5), {
           duration: 0.45,
         });
       },
     }),
-    [resolvedCenter, defaultZoom]
+    [resolvedCenter, defaultZoom, maxZoom]
   );
 
   const cursorClass =
