@@ -1,0 +1,142 @@
+{
+  "id": "game-gta-vi",
+  "slug": "gta-vi",
+  "title": "Grand Theft Auto VI",
+  "subtitle": "Estado de Leonida & Vice City",
+  "studio": "Rockstar Games",
+  "releaseYear": 2026,
+  "genres": [
+    "Mundo Aberto",
+    "Ação",
+    "Aventura"
+  ],
+  "platforms": [
+    "playstation",
+    "xbox"
+  ],
+  "status": "available",
+  "featured": true,
+  "isRecent": true,
+  "assets": {
+    "coverImage": "/games/gta-vi/cover.webp",
+    "bannerImage": "/games/gta-vi/banner.webp",
+    "logoImage": "/games/gta-vi/logo.webp"
+  },
+  "theme": {
+    "accentPrimary": "#FF4D9E",
+    "accentSecondary": "#FF9E44",
+    "accentGlow": "rgba(255, 77, 158, 0.36)",
+    "glassTint": "rgba(22, 10, 26, 0.80)",
+    "surfaceBase": "#0C0612",
+    "fontDisplay": "'Space Grotesk', sans-serif",
+    "backgroundPattern": "cyber-grid",
+    "badgeStyle": "chamfered"
+  },
+  "maps": [
+    {
+      "id": "leonida",
+      "name": "Estado de Leonida",
+      "dlc": "base",
+      "pinsCount": 675,
+      "icon": "map",
+      "tileUrlTemplate": "/tiles/gta-vi/leonida/{z}/{x}/{y}.webp",
+      "minZoom": 0,
+      "maxZoom": 5,
+      "bounds": [
+        0,
+        -160,
+        160,
+        0
+      ],
+      "defaultCenter": [
+        112,
+        -88
+      ],
+      "defaultZoom": 2
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "crime",
+      "label": "Crime & Bases",
+      "categories": [
+        {
+          "id": "safehouse",
+          "groupId": "crime",
+          "name": "Esconderijo",
+          "icon": "home",
+          "color": "#FF4D9E",
+          "defaultVisible": true
+        },
+        {
+          "id": "heist",
+          "groupId": "crime",
+          "name": "Gig de Crime & Assalto",
+          "icon": "flame",
+          "color": "#F43F5E",
+          "defaultVisible": true
+        },
+        {
+          "id": "stunt-jump",
+          "groupId": "crime",
+          "name": "Salto Único",
+          "icon": "zap",
+          "color": "#FF9E44",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "Leonida & Vice City",
+      "categories": [
+        {
+          "id": "landmark",
+          "groupId": "world",
+          "name": "Ponto de Interesse",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "nightlife",
+          "groupId": "world",
+          "name": "Hotéis & Vida Noturna",
+          "icon": "sparkles",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "shop",
+          "groupId": "world",
+          "name": "Comércio & Lojas",
+          "icon": "shopping-bag",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "transport",
+          "groupId": "world",
+          "name": "Aeroportos & Transporte",
+          "icon": "navigation",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Colecionáveis",
+      "categories": [
+        {
+          "id": "collectible",
+          "groupId": "collectibles",
+          "name": "Colecionável & Segredo",
+          "icon": "gem",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ]
+}

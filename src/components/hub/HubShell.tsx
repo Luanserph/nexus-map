@@ -1,16 +1,15 @@
-import { Compass, Layers, MapPin, RotateCcw } from 'lucide-react';
+import { ArrowUpDown, Clock, Compass, Globe, Layers, MapPin, RotateCcw } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import { getGenreLabel, normalizeGenreKey, useI18n } from '../../core/i18n';
 import type { LastVisitedRecord } from '../../core/storage';
-import {
-  getGameStatus,
-  getTotalPinsCount,
-} from '../../data/games';
+import { getGameStatus, getTotalPinsCount } from '../../data/games';
 import type { ExplorationStatus, HubGameEntry } from '../../types/schema';
 import { GlassBadge, GlassPanel, NeonButton } from '../glass';
 import { ContinueExploringBanner } from './ContinueExploringBanner';
+import { FeaturedSpotlightBanner } from './FeaturedSpotlightBanner';
 import { GameCard } from './GameCard';
 import { HubNavbar } from './HubNavbar';
+import { RecentGameCard } from './RecentGameCard';
 
 export interface HubShellProps {
   games: HubGameEntry[];
@@ -18,11 +17,19 @@ export interface HubShellProps {
   onOpenGame: (slug: string, layerId?: string) => void;
 }
 
+type CatalogSortMode = 'default' | 'progress-desc' | 'pins-desc' | 'alpha';
+
+function getProgressRatio(entry: HubGameEntry): number {
+  const total = getTotalPinsCount(entry.manifest);
+  return total > 0 ? entry.progress.foundMarkersCount / total : 0;
+}
+
 export function HubShell({ games, lastVisited, onOpenGame }: HubShellProps) {
   const { t, locale } = useI18n();
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedGenre, setSelectedGenre] = useState<string>('all');
   const [selectedStatus, setSelectedStatus] = useState<ExplorationStatus>('all');
+  const [sortBy, setSortBy] = useState<CatalogSortMode>('default');
   const [hoveredAccent, setHoveredAccent] = useState<string | null>(null);
 
   const availableGenres = useMemo(() => {
@@ -44,10 +51,28 @@ export function HubShell({ games, lastVisited, onOpenGame }: HubShellProps) {
     );
   }, [games, lastVisited]);
 
+  const featuredEntry = useMemo(
+    () => games.find((entry) => entry.manifest.featured) ?? null,
+    [games]
+  );
+
+  const recentGames = useMemo(() => {
+    return games
+      .filter((entry) => entry.manifest.isRecent)
+      .sort((a, b) => {
+        if (a.manifest.featured && !b.manifest.featured) return -1;
+        if (!a.manifest.featured && b.manifest.featured) return 1;
+        return b.manifest.releaseYear - a.manifest.releaseYear;
+      });
+  }, [games]);
+
+  const hasActiveFilters =
+    searchQuery.trim() !== '' || selectedGenre !== 'all' || selectedStatus !== 'all';
+
   const filteredGames = useMemo(() => {
     const normalizedQuery = searchQuery.trim().toLowerCase();
 
-    return games.filter((entry) => {
+    const matched = games.filter((entry) => {
       const { manifest } = entry;
 
       if (selectedStatus !== 'all' && getGameStatus(entry) !== selectedStatus) {
@@ -76,7 +101,37 @@ export function HubShell({ games, lastVisited, onOpenGame }: HubShellProps) {
 
       return haystack.includes(normalizedQuery);
     });
-  }, [games, searchQuery, selectedGenre, selectedStatus, locale]);
+
+    // When browsing without active search/filters, show the core catalog separately from Recently Added
+    const baseList =
+      hasActiveFilters || recentGames.length === 0
+        ? matched
+        : matched.filter((entry) => !entry.manifest.isRecent);
+
+    const sorted = [...baseList];
+    if (sortBy === 'progress-desc') {
+      sorted.sort((a, b) => getProgressRatio(b) - getProgressRatio(a));
+    } else if (sortBy === 'pins-desc') {
+      sorted.sort(
+        (a, b) => getTotalPinsCount(b.manifest) - getTotalPinsCount(a.manifest)
+      );
+    } else if (sortBy === 'alpha') {
+      sorted.sort((a, b) =>
+        a.manifest.title.localeCompare(b.manifest.title, locale)
+      );
+    }
+
+    return sorted;
+  }, [
+    games,
+    searchQuery,
+    selectedGenre,
+    selectedStatus,
+    locale,
+    hasActiveFilters,
+    recentGames.length,
+    sortBy,
+  ]);
 
   const hubTelemetry = useMemo(() => {
     const totalLayers = games.reduce((acc, g) => acc + g.manifest.maps.length, 0);
@@ -94,13 +149,11 @@ export function HubShell({ games, lastVisited, onOpenGame }: HubShellProps) {
     return { totalLayers, totalMarkers, totalFound, globalPercent };
   }, [games]);
 
-  const hasActiveFilters =
-    searchQuery.trim() !== '' || selectedGenre !== 'all' || selectedStatus !== 'all';
-
   function resetFilters() {
     setSearchQuery('');
     setSelectedGenre('all');
     setSelectedStatus('all');
+    setSortBy('default');
   }
 
   return (
@@ -148,14 +201,16 @@ export function HubShell({ games, lastVisited, onOpenGame }: HubShellProps) {
           availableGenres={availableGenres}
           selectedStatus={selectedStatus}
           onStatusChange={setSelectedStatus}
-          resultsCount={filteredGames.length}
+          resultsCount={
+            hasActiveFilters ? filteredGames.length : games.length
+          }
           totalCount={games.length}
         />
 
         {/* Hero / Tactical Telemetry Header */}
-        <section className="mt-8 mb-7 flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
+        <section className="mt-7 mb-6 flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-2xl">
-            <div className="mb-2.5 flex items-center gap-2">
+            <div className="mb-2 flex items-center gap-2">
               <GlassBadge variant="accent" size="sm" dot>
                 {t('hub.heroBadge')}
               </GlassBadge>
@@ -164,12 +219,12 @@ export function HubShell({ games, lastVisited, onOpenGame }: HubShellProps) {
               </span>
             </div>
             <h1
-              className="text-3xl font-bold tracking-tight text-[var(--text-primary)] sm:text-4xl"
+              className="text-2xl font-bold tracking-tight text-[var(--text-primary)] sm:text-3xl"
               style={{ fontFamily: 'var(--nexus-font-display)' }}
             >
               {t('hub.heroTitle')}
             </h1>
-            <p className="mt-2 text-sm leading-relaxed text-[var(--text-secondary)]">
+            <p className="mt-1.5 text-sm leading-relaxed text-[var(--text-secondary)]">
               {t('hub.heroDesc')}
             </p>
           </div>
@@ -231,6 +286,15 @@ export function HubShell({ games, lastVisited, onOpenGame }: HubShellProps) {
           </GlassPanel>
         </section>
 
+        {/* Hero Banner — Featured Spotlight ("Jogo do Momento": GTA VI) */}
+        {featuredEntry && !hasActiveFilters && (
+          <FeaturedSpotlightBanner
+            entry={featuredEntry}
+            onOpenGame={onOpenGame}
+            onHoverAccent={setHoveredAccent}
+          />
+        )}
+
         {/* Continue Exploring Banner (last visited game & map) */}
         {lastVisitedEntry && !hasActiveFilters && (
           <ContinueExploringBanner
@@ -241,8 +305,97 @@ export function HubShell({ games, lastVisited, onOpenGame }: HubShellProps) {
           />
         )}
 
-        {/* Responsive Game Cards Grid */}
+        {/* Recently Added Horizontal Row (GTA VI & Hollow Knight) */}
+        {recentGames.length > 0 && !hasActiveFilters && (
+          <section className="mb-10">
+            <div className="mb-3.5 flex items-center justify-between gap-3">
+              <div className="flex items-center gap-2.5">
+                <div className="flex h-8 w-8 items-center justify-center rounded-lg border border-white/10 bg-white/[0.04] text-[var(--accent-primary)]">
+                  <Clock className="h-4 w-4" />
+                </div>
+                <div>
+                  <h2
+                    className="text-base font-bold tracking-tight text-[var(--text-primary)] sm:text-lg"
+                    style={{ fontFamily: 'var(--nexus-font-display)' }}
+                  >
+                    {t('hub.recentTitle')}
+                  </h2>
+                  <p className="text-xs text-[var(--text-muted)]">
+                    {t('hub.recentSubtitle')}
+                  </p>
+                </div>
+              </div>
+              <GlassBadge variant="neutral" size="sm">
+                {recentGames.length}
+              </GlassBadge>
+            </div>
+
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+              {recentGames.map((entry) => (
+                <RecentGameCard
+                  key={entry.manifest.id}
+                  entry={entry}
+                  onOpenGame={onOpenGame}
+                  onHoverAccent={setHoveredAccent}
+                />
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* All Universes Catalog Section */}
         <main className="flex-1">
+          <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div className="flex items-center gap-2.5">
+              <div className="flex h-8 w-8 items-center justify-center rounded-lg border border-white/10 bg-white/[0.04] text-[var(--accent-primary)]">
+                <Globe className="h-4 w-4" />
+              </div>
+              <div>
+                <h2
+                  className="text-base font-bold tracking-tight text-[var(--text-primary)] sm:text-lg"
+                  style={{ fontFamily: 'var(--nexus-font-display)' }}
+                >
+                  {t('hub.allUniversesTitle')}
+                </h2>
+                <p className="text-xs text-[var(--text-muted)]">
+                  {t('hub.allUniversesSubtitle')}
+                </p>
+              </div>
+            </div>
+
+            {/* Progress / Pins / Alphabetical Sort Controls */}
+            <div className="flex flex-wrap items-center gap-1.5 rounded-xl border border-white/10 bg-black/35 p-1 backdrop-blur-md">
+              <span className="inline-flex items-center gap-1 px-2 font-mono text-[10px] uppercase tracking-wider text-[var(--text-muted)]">
+                <ArrowUpDown className="h-3 w-3" />
+                {t('hub.sortBy')}
+              </span>
+              {(
+                [
+                  { id: 'default', label: t('hub.sortDefault') },
+                  { id: 'progress-desc', label: t('hub.sortProgressDesc') },
+                  { id: 'pins-desc', label: t('hub.sortPinsDesc') },
+                  { id: 'alpha', label: t('hub.sortAlpha') },
+                ] as const
+              ).map((option) => {
+                const active = sortBy === option.id;
+                return (
+                  <button
+                    key={option.id}
+                    type="button"
+                    onClick={() => setSortBy(option.id)}
+                    className={`cursor-pointer rounded-lg px-2.5 py-1 text-[11px] font-medium transition-all ${
+                      active
+                        ? 'bg-[var(--accent-primary)]/18 text-[var(--accent-primary)] ring-1 ring-[var(--accent-primary)]/40'
+                        : 'text-[var(--text-secondary)] hover:bg-white/[0.06] hover:text-[var(--text-primary)]'
+                    }`}
+                  >
+                    {option.label}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
           {filteredGames.length > 0 ? (
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
               {filteredGames.map((entry) => (

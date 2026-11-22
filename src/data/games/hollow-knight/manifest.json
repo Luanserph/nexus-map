@@ -17,6 +17,7 @@
     "switch"
   ],
   "status": "available",
+  "isRecent": true,
   "assets": {
     "coverImage": "/games/hollow-knight/cover.webp",
     "bannerImage": "/games/hollow-knight/banner.webp",

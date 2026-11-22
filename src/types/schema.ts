@@ -220,6 +220,8 @@ export interface GameManifest {
   genres: string[];
   platforms?: GamePlatform[];
   status: GameCatalogStatus;
+  featured?: boolean;
+  isRecent?: boolean;
   dlc?: string;
   dlcs?: GameDlc[];
   assets: GameAssets;
