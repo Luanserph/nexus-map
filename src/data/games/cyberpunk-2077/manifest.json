@@ -1,0 +1,83 @@
+{
+  "slug": "cyberpunk-2077",
+  "title": "Cyberpunk 2077",
+  "subtitle": "Night City & Dogtown",
+  "developer": "CD PROJEKT RED",
+  "releaseYear": 2020,
+  "genre": ["Action RPG", "Sci-Fi", "Mundo Aberto"],
+  "totalMarkersCount": 1860,
+  "theme": {
+    "id": "cyberpunk-2077",
+    "accentPrimary": "#FCEE0A",
+    "accentSecondary": "#FF003C",
+    "accentGlow": "rgba(252, 238, 10, 0.32)",
+    "surfaceBase": "#09060A",
+    "glassBg": "rgba(16, 11, 18, 0.80)",
+    "glassBorder": "rgba(252, 238, 10, 0.24)",
+    "fontDisplay": "'Rajdhani', sans-serif",
+    "badgeStyle": "chamfered",
+    "coverMotif": "cyber-grid"
+  },
+  "layers": [
+    {
+      "id": "night-city",
+      "name": "Night City",
+      "icon": "cpu",
+      "tileUrlTemplate": "/tiles/cyberpunk-2077/night-city/{z}/{x}/{y}.webp",
+      "minZoom": 0,
+      "maxZoom": 6,
+      "bounds": [-4096, -4096, 4096, 4096],
+      "defaultCenter": [0, 0],
+      "defaultZoom": 2
+    },
+    {
+      "id": "dogtown",
+      "name": "Dogtown (Phantom Liberty)",
+      "icon": "shield-alert",
+      "tileUrlTemplate": "/tiles/cyberpunk-2077/dogtown/{z}/{x}/{y}.webp",
+      "minZoom": 0,
+      "maxZoom": 5,
+      "bounds": [-2048, -2048, 2048, 2048],
+      "defaultCenter": [0, 0],
+      "defaultZoom": 2
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "fast-travel",
+      "label": "Infraestrutura",
+      "categories": [
+        {
+          "id": "dataterm",
+          "groupId": "fast-travel",
+          "name": "DataTerm",
+          "icon": "radio",
+          "color": "#00F0FF",
+          "defaultVisible": true
+        },
+        {
+          "id": "ripperdoc",
+          "groupId": "fast-travel",
+          "name": "Medicânico",
+          "icon": "activity",
+          "color": "#FCEE0A",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "contracts",
+      "label": "Serviços & NCPD",
+      "categories": [
+        {
+          "id": "tarot",
+          "groupId": "contracts",
+          "name": "Grafite de Tarô",
+          "icon": "sparkles",
+          "color": "#FF003C",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ]
+}

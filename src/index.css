@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: var(--nexus-font-display);
+  --font-sans: var(--nexus-font-sans);
+  --font-mono: var(--nexus-font-mono);
+
+  --color-accent-primary: var(--accent-primary);
+  --color-accent-secondary: var(--accent-secondary);
+  --color-surface-base: var(--surface-base);
+}
+
+:root,
+[data-game-theme="hub-default"] {
+  /* Core Dynamic Tokens (Theme Engine Contract) */
+  --surface-base: #07090d;
+  --surface-elevated: #0d1118;
+  --glass-bg: rgba(13, 17, 24, 0.72);
+  --glass-bg-elevated: rgba(17, 22, 31, 0.84);
+  --glass-bg-subtle: rgba(13, 17, 24, 0.48);
+  --glass-border: rgba(255, 255, 255, 0.09);
+  --glass-border-strong: rgba(255, 255, 255, 0.16);
+  --glass-rim-top: rgba(255, 255, 255, 0.14);
+
+  /* Tactical Cyan Default Identity */
+  --accent-primary: #00f0ff;
+  --accent-secondary: #ff2a85;
+  --accent-glow: rgba(0, 240, 255, 0.32);
+
+  /* High-Contrast Typography Palette */
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+
+  /* Font Stacks */
+  --nexus-font-display: 'Space Grotesk', system-ui, sans-serif;
+  --nexus-font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --nexus-font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+
+  color-scheme: dark;
+}
+
+@layer base {
+  html,
+  body {
+    margin: 0;
+    min-height: 100%;
+    background-color: var(--surface-base);
+    color: var(--text-primary);
+    font-family: var(--nexus-font-sans);
+    font-feature-settings: "cv02", "cv03", "cv04";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  #root {
+    min-height: 100svh;
+    position: relative;
+    isolation: isolate;
+  }
+
+  ::selection {
+    background-color: color-mix(in srgb, var(--accent-primary) 28%, transparent);
+    color: var(--text-primary);
+  }
+}
+
+/* Architectural Micro-Noise Overlay (SVG fractalNoise at ~2.5% opacity) */
+.nexus-noise-layer {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 180px 180px;
+}
+
+/* Subtle tactical cartographic background grid */
+.nexus-tactical-grid {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.028) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.028) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* Glassmorphism Surface Materiality */
+.glass-surface {
+  background-color: var(--glass-bg);
+  backdrop-filter: blur(16px) saturate(140%);
+  -webkit-backdrop-filter: blur(16px) saturate(140%);
+  border: 1px solid var(--glass-border);
+  box-shadow:
+    inset 0 1px 0 0 var(--glass-rim-top),
+    0 12px 32px -12px rgba(0, 0, 0, 0.65);
+}
+
+.glass-surface-elevated {
+  background-color: var(--glass-bg-elevated);
+  backdrop-filter: blur(20px) saturate(150%);
+  -webkit-backdrop-filter: blur(20px) saturate(150%);
+  border: 1px solid var(--glass-border-strong);
+  box-shadow:
+    inset 0 1px 0 0 var(--glass-rim-top),
+    0 20px 44px -16px rgba(0, 0, 0, 0.78);
+}
+
+.glass-surface-subtle {
+  background-color: var(--glass-bg-subtle);
+  backdrop-filter: blur(12px) saturate(130%);
+  -webkit-backdrop-filter: blur(12px) saturate(130%);
+  border: 1px solid var(--glass-border);
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.07);
+}
+
+/* Contained Surgical Neon States */
+.neon-focus-ring:focus-visible {
+  outline: none;
+  border-color: color-mix(in srgb, var(--accent-primary) 72%, transparent);
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--accent-primary) 45%, transparent),
+    0 0 18px -2px var(--accent-glow);
+}
+
+.neon-active-glow {
+  border-color: color-mix(in srgb, var(--accent-primary) 65%, transparent);
+  box-shadow:
+    inset 0 1px 0 0 color-mix(in srgb, var(--accent-primary) 35%, rgba(255, 255, 255, 0.14)),
+    0 0 22px -4px var(--accent-glow),
+    0 12px 32px -12px rgba(0, 0, 0, 0.7);
+}
+
+/* Interactive Game Card smart hover driven strictly by scoped CSS Variables */
+.nexus-game-card {
+  transition:
+    transform 240ms cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 240ms ease,
+    box-shadow 240ms ease;
+}
+
+.nexus-game-card:hover,
+.nexus-game-card:focus-within {
+  transform: translateY(-3px);
+  border-color: color-mix(in srgb, var(--accent-primary) 58%, rgba(255, 255, 255, 0.12));
+  box-shadow:
+    inset 0 1px 0 0 color-mix(in srgb, var(--accent-primary) 38%, rgba(255, 255, 255, 0.16)),
+    0 0 28px -8px var(--accent-glow),
+    0 22px 44px -16px rgba(0, 0, 0, 0.85);
+}
+
+/* Chamfered tactical clip option for cyber/HUD badges */
+.clip-chamfer-sm {
+  clip-path: polygon(
+    6px 0,
+    100% 0,
+    100% calc(100% - 6px),
+    calc(100% - 6px) 100%,
+    0 100%,
+    0 6px
+  );
+}
