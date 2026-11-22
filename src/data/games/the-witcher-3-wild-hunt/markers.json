@@ -1,0 +1,52 @@
+[
+  {
+    "id": "tw3-novigrad-hierarch",
+    "mapId": "main",
+    "category": "fast-travel",
+    "title": "Praça do Hierarca — Novigrad",
+    "description": "Coração comercial da Cidade Livre de Novigrad, com banco Vivaldi, estalagem do Rei Pescador e mercadores.",
+    "coords": [50, -34],
+    "region": "Novigrad",
+    "metadata": { "fastTravel": true, "cidade": "Novigrad" }
+  },
+  {
+    "id": "tw3-oxenfurt-harbor",
+    "mapId": "main",
+    "category": "fast-travel",
+    "title": "Porto de Oxenfurt",
+    "description": "Cidade universitária cercada pelas águas do Rio Pontar, lar da Academia de Oxenfurt e da clínica de Shani.",
+    "coords": [84, -68],
+    "region": "Oxenfurt",
+    "metadata": { "fastTravel": true, "cidade": "Oxenfurt" }
+  },
+  {
+    "id": "tw3-crows-perch",
+    "mapId": "main",
+    "category": "landmark",
+    "title": "Poleiro do Corvo",
+    "description": "Fortaleza do Barão Sanguinário no centro de Velen. Contém a forja da mestra armeira Yoana.",
+    "coords": [49, -91],
+    "region": "Velen",
+    "metadata": { "npc": "Barão Sanguinário / Yoana" }
+  },
+  {
+    "id": "tw3-hanged-mans-tree",
+    "mapId": "main",
+    "category": "fast-travel",
+    "title": "Árvore do Enforcado",
+    "description": "Primeiro ponto de viagem rápida ao chegar na Terra de Ninguém em Velen.",
+    "coords": [58, -76],
+    "region": "Velen",
+    "metadata": { "fastTravel": true }
+  },
+  {
+    "id": "tw3-fyke-isle",
+    "mapId": "main",
+    "category": "collectible",
+    "title": "Torre da Ilha Fyke",
+    "description": "Torre amaldiçoada no meio do lago de Velen, cenário da missão 'Uma Torre Cheia de Ratazanas' com Keira Metz.",
+    "coords": [44, -112],
+    "region": "Velen",
+    "metadata": { "quest": "Uma Torre Cheia de Ratazanas" }
+  }
+]

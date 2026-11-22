@@ -182,16 +182,18 @@ async function run() {
   }
 
   /**
-   * Em L.CRS.Simple, no zoom 0 cada unidade de coordenada corresponde a 1px.
-   * Portanto, bounds no espaço lógico do zoom 0: [minX, minY, maxX, maxY].
+   * Em L.CRS.Simple, pixelY = -lat * 2^zoom.
+   * Portanto, bounds no espaço lógico do zoom 0 com origem (0,0) no canto superior esquerdo:
+   *   [minX, minY, maxX, maxY] = [0, -logicalHeight, logicalWidth, 0]
+   * garantindo que os tiles solicitados pelo Leaflet tenham x >= 0 e y >= 0 (y=0 no topo).
    */
   const scaleAtZero = 2 ** maxZoom;
   const logicalWidth = Math.round((width / scaleAtZero) * 100) / 100;
   const logicalHeight = Math.round((height / scaleAtZero) * 100) / 100;
-  const bounds = [0, 0, logicalWidth, logicalHeight];
+  const bounds = [0, -logicalHeight, logicalWidth, 0];
   const defaultCenter = [
     Math.round((logicalWidth / 2) * 100) / 100,
-    Math.round((logicalHeight / 2) * 100) / 100,
+    Math.round((-logicalHeight / 2) * 100) / 100,
   ];
 
   const tileMetadata = {

@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Environment variables (keep .env.example)
+.env
+.env.*.local
+
 # Generated map tile pyramids (.webp)
 public/tiles/
 

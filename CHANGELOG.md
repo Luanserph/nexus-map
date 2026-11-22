@@ -22,6 +22,11 @@ O formato segue o padrão [Keep a Changelog](https://keepachangelog.com/pt-BR/1.
 - **Sidebar Interativa & Filtros Avançados**: busca instantânea por pin/região/descrição com `flyTo` + abertura automática do card, filtros por categoria com ícone e contador `encontrados / total`, botões rápidos **"Mostrar Tudo"**, **"Ocultar Tudo"** e **"Ocultar Encontrados"**, progresso da camada ativa e controles de backup JSON.
 - **Popups / Cards Ricos de Marcadores (`MarkerDetailCard`)**: exibição de categoria, região, descrição, metadados, botão **"Marcar como Encontrado"** (persiste no IndexedDB e reduz opacidade do pin no mapa para 35%) e botão de copiar coordenadas `[X, Y]`.
 - **Notas Pessoais e Traçado de Rotas (`MapToolbar` + `NoteEditorCard`)**: barra flutuante discreta com modos **Explorar**, **Adicionar Nota** (criação/edição/exclusão de pins pessoais no mapa) e **Traçar Rota** (desenho interativo de polylines neon com salvamento, nomeação, cor, ocultação e exclusão).
+- **Pipeline Automatizado de Ingestão de Jogos (`scripts/add-game/` + `npm run add-game`)**:
+  - Integração com **RAWG API** (`RAWG_API_KEY`) e **SteamGridDB API** (`STEAMGRIDDB_API_KEY`, opcional com fallback) documentadas em `.env.example` (`.env` adicionado ao `.gitignore`).
+  - Conversão automática de capa, banner e logo para `.webp` em `public/games/<slug>/` via `sharp` e extração automática de paleta vibrante (`themeExtractor.ts`) para o `manifest.json`.
+  - Integração com `scripts/tile-slicer/` quando `--map-url` é informado (download temporário, geração de tiles `.webp`, injeção de `bounds`/`maxZoom` e limpeza do arquivo temporário).
+  - Auto-descoberta de jogos e marcadores via `import.meta.glob` em `src/data/games/index.ts`, eliminando registro manual.
 
 ### Planned
 - Command Palette global (`Cmd/Ctrl + K`) unificada e presets salvos de visualização.

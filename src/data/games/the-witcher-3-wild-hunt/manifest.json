@@ -1,0 +1,88 @@
+{
+  "id": "game-the-witcher-3-wild-hunt",
+  "slug": "the-witcher-3-wild-hunt",
+  "title": "The Witcher 3: Wild Hunt",
+  "subtitle": "CD PROJEKT RED · Atlas Interativo",
+  "studio": "CD PROJEKT RED",
+  "releaseYear": 2015,
+  "genres": [
+    "Action",
+    "RPG"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/the-witcher-3-wild-hunt/cover.webp",
+    "bannerImage": "/games/the-witcher-3-wild-hunt/banner.webp",
+    "logoImage": "/games/the-witcher-3-wild-hunt/logo.webp"
+  },
+  "theme": {
+    "accentPrimary": "#E4252F",
+    "accentSecondary": "#5AE297",
+    "accentGlow": "rgba(228, 37, 47, 0.35)",
+    "glassTint": "rgba(24, 16, 17, 0.78)",
+    "surfaceBase": "#0C0808",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "ornate",
+    "fontDisplay": "'Cinzel', Georgia, serif"
+  },
+  "maps": [
+    {
+      "id": "main",
+      "name": "Velen & Novigrad",
+      "pinsCount": 5,
+      "icon": "compass",
+      "tileUrlTemplate": "/tiles/the-witcher-3-wild-hunt/main/{z}/{x}/{y}.webp",
+      "minZoom": 1,
+      "maxZoom": 4,
+      "bounds": [
+        0,
+        -144,
+        128,
+        0
+      ],
+      "defaultCenter": [
+        64,
+        -72
+      ],
+      "defaultZoom": 3
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locais",
+      "categories": [
+        {
+          "id": "landmark",
+          "groupId": "locations",
+          "name": "Ponto de Referência",
+          "icon": "landmark",
+          "color": "#E4252F",
+          "defaultVisible": true
+        },
+        {
+          "id": "fast-travel",
+          "groupId": "locations",
+          "name": "Viagem Rápida",
+          "icon": "navigation",
+          "color": "#5AE297",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Colecionáveis",
+      "categories": [
+        {
+          "id": "collectible",
+          "groupId": "collectibles",
+          "name": "Item Colecionável",
+          "icon": "sparkles",
+          "color": "#6EE7B7",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ]
+}
