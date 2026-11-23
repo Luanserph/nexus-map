@@ -49,7 +49,7 @@ export default defineConfig({
         // Cache only the app shell (JS, CSS, HTML, icons) — never precache public/tiles/
         globPatterns: ['**/*.{js,css,html,ico,svg}'],
         globIgnores: ['tiles/**', 'games/**', '**/*.webp'],
-        maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
+        maximumFileSizeToCacheInBytes: 12 * 1024 * 1024,
         navigateFallback: '/index.html',
         runtimeCaching: [
           {

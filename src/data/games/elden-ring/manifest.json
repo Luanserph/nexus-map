@@ -50,65 +50,90 @@
     {
       "id": "lands-between",
       "name": "Terras Intermédias",
-      "pinsCount": 1300,
       "dlc": "base",
+      "pinsCount": 5709,
       "icon": "compass",
-      "tileUrlTemplate": "/tiles/elden-ring/lands-between/{z}/{x}/{y}.webp",
-      "minZoom": 1,
-      "maxZoom": 4,
-      "bounds": [
-        0,
-        -164,
-        164,
-        0
+      "crs": "epsg3857",
+      "backgroundColor": "#0B0A08",
+      "initialCenter": [
+        0.65676201402282,
+        -0.76234815932221
       ],
-      "defaultCenter": [
-        82,
-        -82
+      "initialZoom": 13,
+      "maxBounds": [
+        [
+          -0.09772,
+          -1.28097
+        ],
+        [
+          1.31928,
+          0.09489
+        ]
       ],
-      "defaultZoom": 2
-    },
-    {
-      "id": "underground",
-      "name": "Subterrâneo",
-      "pinsCount": 108,
-      "dlc": "base",
-      "icon": "layers",
-      "tileUrlTemplate": "/tiles/elden-ring/underground/{z}/{x}/{y}.webp",
-      "minZoom": 1,
-      "maxZoom": 4,
-      "bounds": [
-        0,
-        -164,
-        164,
-        0
-      ],
-      "defaultCenter": [
-        82,
-        -82
-      ],
-      "defaultZoom": 2
+      "tileSets": [
+        {
+          "id": "interiors",
+          "label": "Terras Intermédias",
+          "urlTemplate": "https://tiles.mapgenie.io/games/elden-ring/the-lands-between/default-v5/{z}/{x}/{y}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 16,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              -0.09772,
+              -1.28097
+            ],
+            [
+              1.31928,
+              0.09489
+            ]
+          ]
+        }
+      ]
     },
     {
       "id": "shadow-of-the-erdtree",
       "name": "Reino das Sombras",
-      "pinsCount": 400,
       "dlc": "shadow-of-the-erdtree",
+      "pinsCount": 1869,
       "icon": "flame",
-      "tileUrlTemplate": "/tiles/elden-ring/shadow-of-the-erdtree/{z}/{x}/{y}.webp",
-      "minZoom": 1,
-      "maxZoom": 4,
-      "bounds": [
-        0,
-        -164,
-        164,
-        0
+      "crs": "epsg3857",
+      "backgroundColor": "#0B0A08",
+      "initialCenter": [
+        0.6685143165321,
+        -0.72313106578409
       ],
-      "defaultCenter": [
-        82,
-        -82
+      "initialZoom": 13,
+      "maxBounds": [
+        [
+          -0.05925,
+          -0.82682
+        ],
+        [
+          0.79985,
+          0.06125
+        ]
       ],
-      "defaultZoom": 2
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/elden-ring/the-shadow-lands/asdnlkkveao-v1/{z}/{x}/{y}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 17,
+          "maxZoom": 18,
+          "tileBounds": [
+            [
+              -0.05925,
+              -0.82682
+            ],
+            [
+              0.79985,
+              0.06125
+            ]
+          ]
+        }
+      ]
     }
   ],
   "categoryGroups": [
@@ -117,58 +142,12 @@
       "label": "Progresso & Chefes",
       "categories": [
         {
-          "id": "grace",
-          "groupId": "progress",
-          "name": "Local de Graça",
-          "icon": "sparkles",
-          "color": "#D4AF37",
-          "defaultVisible": true
-        },
-        {
           "id": "boss",
           "groupId": "progress",
           "name": "Chefes",
           "icon": "skull",
           "color": "#E05A47",
           "defaultVisible": true
-        },
-        {
-          "id": "npc",
-          "groupId": "progress",
-          "name": "NPCs de Missão",
-          "icon": "compass",
-          "color": "#C084FC",
-          "defaultVisible": true
-        }
-      ]
-    },
-    {
-      "id": "upgrades",
-      "label": "Melhorias de Frasco",
-      "categories": [
-        {
-          "id": "golden",
-          "groupId": "upgrades",
-          "name": "Semente Dourada",
-          "icon": "sprout",
-          "color": "#FACC15",
-          "defaultVisible": true
-        },
-        {
-          "id": "tear",
-          "groupId": "upgrades",
-          "name": "Lágrima Sagrada",
-          "icon": "flask-conical",
-          "color": "#38BDF8",
-          "defaultVisible": true
-        },
-        {
-          "id": "crystal",
-          "groupId": "upgrades",
-          "name": "Lágrima de Cristal",
-          "icon": "gem",
-          "color": "#E879F9",
-          "defaultVisible": false
         }
       ]
     },
@@ -193,30 +172,6 @@
           "defaultVisible": false
         },
         {
-          "id": "spirit",
-          "groupId": "gear",
-          "name": "Cinzas de Espírito",
-          "icon": "flame",
-          "color": "#48D1CC",
-          "defaultVisible": false
-        },
-        {
-          "id": "ash",
-          "groupId": "gear",
-          "name": "Cinzas de Guerra",
-          "icon": "scroll-text",
-          "color": "#34D399",
-          "defaultVisible": false
-        },
-        {
-          "id": "spell",
-          "groupId": "gear",
-          "name": "Feitiços & Encantamentos",
-          "icon": "sparkles",
-          "color": "#A78BFA",
-          "defaultVisible": false
-        },
-        {
           "id": "armor",
           "groupId": "gear",
           "name": "Armaduras",
@@ -231,36 +186,718 @@
       "label": "Itens Chave",
       "categories": [
         {
-          "id": "greatrune",
-          "groupId": "key-items",
-          "name": "Grandes Runas",
-          "icon": "crown",
-          "color": "#FDE047",
-          "defaultVisible": true
-        },
-        {
-          "id": "larval",
-          "groupId": "key-items",
-          "name": "Lágrimas Larvais",
-          "icon": "gem",
-          "color": "#D8B4FE",
-          "defaultVisible": false
-        },
-        {
-          "id": "memory",
-          "groupId": "key-items",
-          "name": "Pedras da Memória",
-          "icon": "bookmark",
-          "color": "#93C5FD",
-          "defaultVisible": false
-        },
-        {
           "id": "whetblade",
           "groupId": "key-items",
           "name": "Lâminas de Amolar",
           "icon": "hammer",
           "color": "#CBD5E1",
           "defaultVisible": false
+        },
+        {
+          "id": "bell-bearing",
+          "groupId": "key-items",
+          "name": "Bell Bearing",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "cookbook",
+          "groupId": "key-items",
+          "name": "Cookbook",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "cracked-pot",
+          "groupId": "key-items",
+          "name": "Cracked Pot",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "great-rune",
+          "groupId": "key-items",
+          "name": "Great Rune",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "key-item",
+          "groupId": "key-items",
+          "name": "Key Item",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": false
+        },
+        {
+          "id": "map-fragment",
+          "groupId": "key-items",
+          "name": "Map Fragment",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "memory-stone",
+          "groupId": "key-items",
+          "name": "Memory Stone",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": false
+        },
+        {
+          "id": "painting",
+          "groupId": "key-items",
+          "name": "Painting",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "perfume-bottle",
+          "groupId": "key-items",
+          "name": "Perfume Bottle",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "remembrance",
+          "groupId": "key-items",
+          "name": "Remembrance",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "ritual-pot",
+          "groupId": "key-items",
+          "name": "Ritual Pot",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "spellbook",
+          "groupId": "key-items",
+          "name": "Spellbook",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "stonesword-key",
+          "groupId": "key-items",
+          "name": "Stonesword Key",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": false
+        },
+        {
+          "id": "talisman-pouch",
+          "groupId": "key-items",
+          "name": "Talisman Pouch",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "tool",
+          "groupId": "key-items",
+          "name": "Tool",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "revered-spirit-ash",
+          "groupId": "key-items",
+          "name": "Revered Spirit Ash",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "scadutree-fragment",
+          "groupId": "key-items",
+          "name": "Scadutree Fragment",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "divine-tower",
+          "groupId": "locations",
+          "name": "Divine Tower",
+          "icon": "landmark",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "dragon-shrine",
+          "groupId": "locations",
+          "name": "Dragon Shrine",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "dungeon",
+          "groupId": "locations",
+          "name": "Dungeon",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "elevator",
+          "groupId": "locations",
+          "name": "Elevator",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "evergaol",
+          "groupId": "locations",
+          "name": "Evergaol",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "hidden-passage",
+          "groupId": "locations",
+          "name": "Hidden Passage",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "imp-seal-statue",
+          "groupId": "locations",
+          "name": "Imp Seal Statue",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "landmark",
+          "groupId": "locations",
+          "name": "Landmark",
+          "icon": "landmark",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "legacy-dungeon",
+          "groupId": "locations",
+          "name": "Legacy Dungeon",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "martyr-effigy",
+          "groupId": "locations",
+          "name": "Martyr Effigy",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": false
+        },
+        {
+          "id": "minor-erdtree",
+          "groupId": "locations",
+          "name": "Minor Erdtree",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "portal",
+          "groupId": "locations",
+          "name": "Portal",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "site-of-grace",
+          "groupId": "locations",
+          "name": "Site of Grace",
+          "icon": "navigation",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "smithing-table",
+          "groupId": "locations",
+          "name": "Smithing Table",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "spiritspring-jump",
+          "groupId": "locations",
+          "name": "Spiritspring Jump",
+          "icon": "flame",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "stake-of-marika",
+          "groupId": "locations",
+          "name": "Stake of Marika",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "wandering-mausoleum",
+          "groupId": "locations",
+          "name": "Wandering Mausoleum",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "miquella-s-cross",
+          "groupId": "locations",
+          "name": "Miquella's Cross",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "ammunition",
+          "groupId": "items",
+          "name": "Ammunition",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": false
+        },
+        {
+          "id": "cerulean-scarab",
+          "groupId": "items",
+          "name": "Cerulean Scarab",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "consumable",
+          "groupId": "items",
+          "name": "Consumable",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": false
+        },
+        {
+          "id": "crimson-scarab",
+          "groupId": "items",
+          "name": "Crimson Scarab",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "crystal-tear",
+          "groupId": "items",
+          "name": "Crystal Tear",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": false
+        },
+        {
+          "id": "deathroot",
+          "groupId": "items",
+          "name": "Deathroot",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "dragon-heart",
+          "groupId": "items",
+          "name": "Dragon Heart",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "gesture",
+          "groupId": "items",
+          "name": "Gesture",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "golden-rune",
+          "groupId": "items",
+          "name": "Golden Rune",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": false
+        },
+        {
+          "id": "golden-seed",
+          "groupId": "items",
+          "name": "Golden Seed",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "item",
+          "groupId": "items",
+          "name": "Item",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "larval-tear",
+          "groupId": "items",
+          "name": "Larval Tear",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "multiplayer-item",
+          "groupId": "items",
+          "name": "Multiplayer Item",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "rune-arc",
+          "groupId": "items",
+          "name": "Rune Arc",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "sacred-tear",
+          "groupId": "items",
+          "name": "Sacred Tear",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "spirit-ashes",
+          "groupId": "items",
+          "name": "Spirit Ashes",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "equipment",
+      "label": "Equipment",
+      "categories": [
+        {
+          "id": "ash-of-war",
+          "groupId": "equipment",
+          "name": "Ash of War",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "incantation",
+          "groupId": "equipment",
+          "name": "Incantation",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "shield",
+          "groupId": "equipment",
+          "name": "Shield",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "sorcery",
+          "groupId": "equipment",
+          "name": "Sorcery",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "npc-s",
+      "label": "NPC's",
+      "categories": [
+        {
+          "id": "character",
+          "groupId": "npc-s",
+          "name": "Character",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "ghost",
+          "groupId": "npc-s",
+          "name": "Ghost",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "merchant",
+          "groupId": "npc-s",
+          "name": "Merchant",
+          "icon": "shopping-bag",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "trainer",
+          "groupId": "npc-s",
+          "name": "Trainer",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "enemies",
+      "label": "Enemies",
+      "categories": [
+        {
+          "id": "elite-enemy",
+          "groupId": "enemies",
+          "name": "Elite Enemy",
+          "icon": "skull",
+          "color": "#F472B6",
+          "defaultVisible": false
+        },
+        {
+          "id": "enemy",
+          "groupId": "enemies",
+          "name": "Enemy",
+          "icon": "skull",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "great-boss",
+          "groupId": "enemies",
+          "name": "Great Boss",
+          "icon": "skull",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "invasion",
+          "groupId": "enemies",
+          "name": "Invasion",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "legendary-boss",
+          "groupId": "enemies",
+          "name": "Legendary Boss",
+          "icon": "skull",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "materials",
+      "label": "Materials",
+      "categories": [
+        {
+          "id": "ancient-smithing-stone",
+          "groupId": "materials",
+          "name": "Ancient Smithing Stone",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "crafting-material",
+          "groupId": "materials",
+          "name": "Crafting Material",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "ghost-glovewort",
+          "groupId": "materials",
+          "name": "Ghost Glovewort",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "glovewort",
+          "groupId": "materials",
+          "name": "Glovewort",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": false
+        },
+        {
+          "id": "great-glovewort",
+          "groupId": "materials",
+          "name": "Great Glovewort",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "miquella-s-lily",
+          "groupId": "materials",
+          "name": "Miquella's Lily",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "ruin-fragment",
+          "groupId": "materials",
+          "name": "Ruin Fragment",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "sacramental-bud",
+          "groupId": "materials",
+          "name": "Sacramental Bud",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "smithing-stone",
+          "groupId": "materials",
+          "name": "Smithing Stone",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "trina-s-lilly",
+          "groupId": "materials",
+          "name": "Trina's Lilly",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "somber-smithing-stone",
+          "groupId": "materials",
+          "name": "Somber Smithing Stone",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "birdseye-telescope",
+          "groupId": "other",
+          "name": "Birdseye Telescope",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "guiding-statue",
+          "groupId": "other",
+          "name": "Guiding Statue",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "lore",
+          "groupId": "other",
+          "name": "Lore",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "puzzle",
+          "groupId": "other",
+          "name": "Puzzle",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "quest",
+          "groupId": "other",
+          "name": "Quest",
+          "icon": "scroll-text",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "summoning-sigil",
+          "groupId": "other",
+          "name": "Summoning Sigil",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "stone-cairn",
+          "groupId": "other",
+          "name": "Stone Cairn",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
         }
       ]
     }

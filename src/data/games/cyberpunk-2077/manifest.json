@@ -49,45 +49,65 @@
   "maps": [
     {
       "id": "night-city",
-      "name": "Night City",
-      "pinsCount": 672,
+      "name": "Night City & Dogtown",
       "dlc": "base",
+      "pinsCount": 2754,
       "icon": "cpu",
-      "tileUrlTemplate": "/tiles/cyberpunk-2077/night-city/{z}/{x}/{y}.webp",
-      "minZoom": 1,
-      "maxZoom": 3,
-      "bounds": [
-        0,
-        -256,
-        256,
-        0
+      "crs": "epsg3857",
+      "backgroundColor": "#09060A",
+      "initialCenter": [
+        0.72303389705728,
+        -0.75981668095974
       ],
-      "defaultCenter": [
-        118,
-        -110
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          -0.07316,
+          -0.99575
+        ],
+        [
+          0.9877,
+          0.07376
+        ]
       ],
-      "defaultZoom": 2
-    },
-    {
-      "id": "dogtown",
-      "name": "Dogtown (Phantom Liberty)",
-      "pinsCount": 18,
-      "dlc": "phantom-liberty",
-      "icon": "shield-alert",
-      "tileUrlTemplate": "/tiles/cyberpunk-2077/dogtown/{z}/{x}/{y}.webp",
-      "minZoom": 1,
-      "maxZoom": 3,
-      "bounds": [
-        0,
-        -256,
-        256,
-        0
-      ],
-      "defaultCenter": [
-        128,
-        -128
-      ],
-      "defaultZoom": 2
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/cyberpunk-2077/new/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 10,
+          "maxNativeZoom": 16,
+          "maxZoom": 18,
+          "tileBounds": [
+            [
+              -0.07316,
+              -0.99575
+            ],
+            [
+              0.9877,
+              0.07376
+            ]
+          ]
+        },
+        {
+          "id": "satellite",
+          "label": "Satellite",
+          "urlTemplate": "https://tiles.mapgenie.io/games/cyberpunk-2077/new/sat-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 16,
+          "maxZoom": 18,
+          "tileBounds": [
+            [
+              -0.07316,
+              -0.99575
+            ],
+            [
+              0.9877,
+              0.07376
+            ]
+          ]
+        }
+      ]
     }
   ],
   "categoryGroups": [
@@ -95,14 +115,6 @@
       "id": "infrastructure",
       "label": "Viagem & Infraestrutura",
       "categories": [
-        {
-          "id": "dataterm",
-          "groupId": "infrastructure",
-          "name": "DataTerm (Viagem Rápida)",
-          "icon": "radio",
-          "color": "#00F0FF",
-          "defaultVisible": true
-        },
         {
           "id": "ripperdoc",
           "groupId": "infrastructure",
@@ -118,14 +130,6 @@
           "icon": "crown",
           "color": "#F59E0B",
           "defaultVisible": true
-        },
-        {
-          "id": "droppoint",
-          "groupId": "infrastructure",
-          "name": "Ponto de Entrega",
-          "icon": "bookmark",
-          "color": "#94A3B8",
-          "defaultVisible": false
         }
       ]
     },
@@ -148,58 +152,426 @@
           "icon": "skull",
           "color": "#FF003C",
           "defaultVisible": true
-        },
-        {
-          "id": "ncpd",
-          "groupId": "contracts-ncpd",
-          "name": "Scanner NCPD",
-          "icon": "alert-triangle",
-          "color": "#38BDF8",
-          "defaultVisible": false
         }
       ]
     },
     {
-      "id": "collectibles-gear",
-      "label": "Colecionáveis & Veículos",
+      "id": "locations",
+      "label": "Locations",
       "categories": [
         {
-          "id": "tarot",
-          "groupId": "collectibles-gear",
-          "name": "Grafite de Tarô",
-          "icon": "sparkles",
-          "color": "#C084FC",
+          "id": "apartment",
+          "groupId": "locations",
+          "name": "Apartment",
+          "icon": "map-pin",
+          "color": "#38BDF8",
           "defaultVisible": true
         },
         {
-          "id": "vehicle",
-          "groupId": "collectibles-gear",
-          "name": "Veículos",
+          "id": "fast-travel",
+          "groupId": "locations",
+          "name": "Fast Travel",
           "icon": "navigation",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "metro-station",
+          "groupId": "locations",
+          "name": "Metro Station",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "crafting-spec",
+          "groupId": "collectibles",
+          "name": "Crafting Spec",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "decoration",
+          "groupId": "collectibles",
+          "name": "Decoration",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "free-vehicle",
+          "groupId": "collectibles",
+          "name": "Free Vehicle",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "hidden-gem",
+          "groupId": "collectibles",
+          "name": "Hidden Gem",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "iconic-clothing",
+          "groupId": "collectibles",
+          "name": "Iconic Clothing",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "iconic-implant",
+          "groupId": "collectibles",
+          "name": "Iconic Implant",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "iconic-weapon",
+          "groupId": "collectibles",
+          "name": "Iconic Weapon",
+          "icon": "shopping-bag",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "perk-shard",
+          "groupId": "collectibles",
+          "name": "Perk Shard",
+          "icon": "map-pin",
           "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "restricted-data-terminal",
+          "groupId": "collectibles",
+          "name": "Restricted Data Terminal",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "special-clothing",
+          "groupId": "collectibles",
+          "name": "Special Clothing",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "tarot-card",
+          "groupId": "collectibles",
+          "name": "Tarot Card",
+          "icon": "gem",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "iconic-quickhack",
+          "groupId": "collectibles",
+          "name": "Iconic Quickhack",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "jobs-activities",
+      "label": "Jobs & Activities",
+      "categories": [
+        {
+          "id": "airdrop",
+          "groupId": "jobs-activities",
+          "name": "Airdrop",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "cyberjunkie",
+          "groupId": "jobs-activities",
+          "name": "Cyberjunkie",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "cyberpsycho-sighting",
+          "groupId": "jobs-activities",
+          "name": "Cyberpsycho Sighting",
+          "icon": "skull",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "main-job",
+          "groupId": "jobs-activities",
+          "name": "Main Job",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "ncpd-scanner-hustle",
+          "groupId": "jobs-activities",
+          "name": "NCPD Scanner Hustle",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "side-job",
+          "groupId": "jobs-activities",
+          "name": "Side Job",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "vehicle-contract",
+          "groupId": "jobs-activities",
+          "name": "Vehicle Contract",
+          "icon": "scroll-text",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "increased-criminal-activity",
+          "groupId": "jobs-activities",
+          "name": "Increased Criminal Activity",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "label": "Services",
+      "categories": [
+        {
+          "id": "autofixer-terminal",
+          "groupId": "services",
+          "name": "Autofixer Terminal",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "bar",
+          "groupId": "services",
+          "name": "Bar",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": false
+        },
+        {
+          "id": "black-market-vendor",
+          "groupId": "services",
+          "name": "Black Market Vendor",
+          "icon": "shopping-bag",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "clothing",
+          "groupId": "services",
+          "name": "Clothing",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "drop-point",
+          "groupId": "services",
+          "name": "Drop Point",
+          "icon": "landmark",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "food-restaurant",
+          "groupId": "services",
+          "name": "Food/Restaurant",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "joytoy",
+          "groupId": "services",
+          "name": "Joytoy",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "junk-shop",
+          "groupId": "services",
+          "name": "Junk Shop",
+          "icon": "shopping-bag",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "medpoint",
+          "groupId": "services",
+          "name": "Medpoint",
+          "icon": "landmark",
+          "color": "#E879F9",
+          "defaultVisible": false
+        },
+        {
+          "id": "melee-weapon-vendor",
+          "groupId": "services",
+          "name": "Melee Weapon Vendor",
+          "icon": "shopping-bag",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "netrunner",
+          "groupId": "services",
+          "name": "Netrunner",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": false
+        },
+        {
+          "id": "weapon-shop",
+          "groupId": "services",
+          "name": "Weapon Shop",
+          "icon": "shopping-bag",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "glamdoc",
+          "groupId": "services",
+          "name": "Glamdoc",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "shards",
+      "label": "Shards",
+      "categories": [
+        {
+          "id": "articles",
+          "groupId": "shards",
+          "name": "Articles",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "encrypted",
+          "groupId": "shards",
+          "name": "Encrypted",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "leaflets",
+          "groupId": "shards",
+          "name": "Leaflets",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "literature",
+          "groupId": "shards",
+          "name": "Literature",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "notes",
+          "groupId": "shards",
+          "name": "Notes",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "other",
+          "groupId": "shards",
+          "name": "Other",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": false
+        },
+        {
+          "id": "people-of-night-city",
+          "groupId": "shards",
+          "name": "People of Night City",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "poetry",
+          "groupId": "shards",
+          "name": "Poetry",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "religion-philosophy",
+          "groupId": "shards",
+          "name": "Religion & Philosophy",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "technology",
+          "groupId": "shards",
+          "name": "Technology",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": false
+        },
+        {
+          "id": "world",
+          "groupId": "shards",
+          "name": "World",
+          "icon": "map-pin",
+          "color": "#FBBF24",
           "defaultVisible": false
         }
       ]
     },
     {
-      "id": "shops-landmarks",
-      "label": "Comércio & Marcos",
+      "id": "other",
+      "label": "Other",
       "categories": [
         {
-          "id": "landmark",
-          "groupId": "shops-landmarks",
-          "name": "Marcos & Apartamentos",
-          "icon": "landmark",
-          "color": "#E2E8F0",
-          "defaultVisible": false
-        },
-        {
-          "id": "shop",
-          "groupId": "shops-landmarks",
-          "name": "Lojas & Trilha-Redes",
-          "icon": "shopping-bag",
-          "color": "#60A5FA",
-          "defaultVisible": false
+          "id": "easter-egg",
+          "groupId": "other",
+          "name": "Easter Egg",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
         }
       ]
     }

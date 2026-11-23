@@ -274,31 +274,63 @@ Opções:
     process.exit(values.help ? 0 : 1);
   }
 
+  const bundlePath = path.resolve('temp', `${gameSlug}__${mapSlug}.json`);
+  const hasBundle = await fileExists(bundlePath);
+
   const searchDirs = [
     path.resolve('temp', gameSlug, mapSlug),
     path.resolve('temp', gameSlug),
   ];
 
-  const htmlPath = await findSourceFile(searchDirs, ['page.html', `${mapSlug}.html`]);
-  const configJsonPath = await findSourceFile(searchDirs, [
-    'config.json',
-    `${mapSlug}.config.json`,
-  ]);
-  const dataJsonPath = await findSourceFile(searchDirs, [
-    'data.json',
-    `${mapSlug}.json`,
-  ]);
+  const htmlPath = hasBundle
+    ? null
+    : await findSourceFile(searchDirs, ['page.html', `${mapSlug}.html`]);
+  const configJsonPath = hasBundle
+    ? null
+    : await findSourceFile(searchDirs, ['config.json', `${mapSlug}.config.json`]);
+  const dataJsonPath = hasBundle
+    ? null
+    : await findSourceFile(searchDirs, ['data.json', `${mapSlug}.json`]);
 
-  if (!htmlPath && !configJsonPath && !dataJsonPath) {
+  if (!hasBundle && !htmlPath && !configJsonPath && !dataJsonPath) {
     console.error(
-      `[Erro] Nenhum arquivo encontrado em temp/${gameSlug}/ ou temp/${gameSlug}/${mapSlug}/.\n` +
-        'Coloque page.html (ou config.json) e data.json nessa pasta e tente novamente.'
+      `[Erro] Nenhum arquivo encontrado em temp/${gameSlug}__${mapSlug}.json, temp/${gameSlug}/ ou temp/${gameSlug}/${mapSlug}/.\n` +
+        'Rode `npm run extract-maps` ou coloque page.html (ou config.json) e data.json nessa pasta.'
     );
     process.exit(1);
   }
 
   let mapDataObj: Record<string, unknown> = {};
   let mapConfigObj: Record<string, unknown> = {};
+  let dataPayload: Record<string, unknown> = {};
+  let tilesCdnUrl = '';
+  let bundleMetaName: string | undefined;
+  let bundleMetaDlc: string | undefined;
+
+  if (hasBundle) {
+    console.log(`[import-map] Lendo Bundle unificado: ${bundlePath}`);
+    const bundle = JSON.parse(await fs.readFile(bundlePath, 'utf8')) as {
+      meta?: { name?: string; dlc?: string };
+      tilesCdnUrl?: string | null;
+      mapData?: Record<string, unknown> | null;
+      data?: Record<string, unknown> | null;
+    };
+    bundleMetaName = bundle.meta?.name;
+    bundleMetaDlc = bundle.meta?.dlc;
+    tilesCdnUrl =
+      typeof bundle.tilesCdnUrl === 'string'
+        ? bundle.tilesCdnUrl.trim().replace(/\/+$/, '')
+        : '';
+    mapDataObj = (bundle.mapData ?? {}) as Record<string, unknown>;
+    mapConfigObj =
+      (mapDataObj.mapConfig as Record<string, unknown> | undefined) ??
+      ((mapDataObj.map as { config?: Record<string, unknown> } | undefined)?.config ??
+        {});
+    dataPayload = {
+      ...mapDataObj,
+      ...((bundle.data ?? {}) as Record<string, unknown>),
+    };
+  }
 
   if (htmlPath) {
     console.log(`[import-map] Lendo HTML: ${htmlPath}`);
@@ -326,7 +358,9 @@ Opções:
     }
   }
 
-  let dataPayload: Record<string, unknown> = { ...mapDataObj };
+  if (!hasBundle) {
+    dataPayload = { ...mapDataObj };
+  }
   if (dataJsonPath) {
     console.log(`[import-map] Lendo Data: ${dataJsonPath}`);
     const parsed = JSON.parse(await fs.readFile(dataJsonPath, 'utf8')) as Record<
@@ -496,8 +530,13 @@ Opções:
 
   for (let idx = 0; idx < rawTileSets.length; idx++) {
     const ts = rawTileSets[idx];
-    const pattern = ts.urlTemplate ?? ts.pattern;
+    let pattern = ts.urlTemplate ?? ts.pattern;
     if (!pattern) continue;
+
+    // Resolve relative tile patterns against tilesCdnUrl when extracted from bundle
+    if (tilesCdnUrl && !/^https?:\/\//i.test(pattern)) {
+      pattern = `${tilesCdnUrl}/${pattern.replace(/^\/+/, '')}`;
+    }
 
     const ext = ts.extension ? `.${ts.extension.replace(/^\./, '')}` : '';
     const urlTemplate =
@@ -622,8 +661,12 @@ Opções:
 
   const updatedMapLayer: GameMapLayer = {
     id: mapSlug,
-    name: values.name ?? prevMap?.name ?? cleanText(mapDataObj.title ?? mapSlug),
-    dlc: values.dlc ?? prevMap?.dlc ?? 'base',
+    name:
+      values.name ??
+      bundleMetaName ??
+      prevMap?.name ??
+      cleanText(mapDataObj.title ?? mapSlug),
+    dlc: values.dlc ?? bundleMetaDlc ?? prevMap?.dlc ?? 'base',
     pinsCount: importedMarkers.length,
     icon: prevMap?.icon ?? 'map',
     crs: 'epsg3857',
@@ -685,7 +728,7 @@ Opções:
 
   // Optionally clean temp source files
   if (!values['keep-temp']) {
-    for (const p of [htmlPath, configJsonPath, dataJsonPath]) {
+    for (const p of [hasBundle ? bundlePath : null, htmlPath, configJsonPath, dataJsonPath]) {
       if (p) {
         try {
           await fs.unlink(p);

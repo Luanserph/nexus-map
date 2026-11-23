@@ -56,22 +56,46 @@
     {
       "id": "main",
       "name": "Velen & Novigrad",
-      "pinsCount": 469,
+      "dlc": "base",
+      "pinsCount": 1794,
       "icon": "compass",
-      "tileUrlTemplate": "/tiles/the-witcher-3-wild-hunt/main/{z}/{x}/{y}.webp",
-      "minZoom": 1,
-      "maxZoom": 4,
-      "bounds": [
-        0,
-        -144,
-        128,
-        0
+      "crs": "epsg3857",
+      "backgroundColor": "#0C0808",
+      "initialCenter": [
+        83.904351017314,
+        -168.06528944057
       ],
-      "defaultCenter": [
-        64,
-        -72
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          -6.71775,
+          -182.17167
+        ],
+        [
+          90.68957,
+          13.4942
+        ]
       ],
-      "defaultZoom": 2
+      "tileSets": [
+        {
+          "id": "v2",
+          "label": "V2",
+          "urlTemplate": "https://tiles.mapgenie.io/games/witcher-3/velen-novigrad/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              -6.71775,
+              -182.17167
+            ],
+            [
+              90.68957,
+              13.4942
+            ]
+          ]
+        }
+      ]
     },
     {
       "id": "white-orchard",
@@ -97,23 +121,46 @@
     {
       "id": "skellige",
       "name": "Ilhas Skellige",
-      "pinsCount": 367,
       "dlc": "base",
+      "pinsCount": 744,
       "icon": "compass",
-      "tileUrlTemplate": "/tiles/the-witcher-3-wild-hunt/skellige/{z}/{x}/{y}.webp",
-      "minZoom": 1,
-      "maxZoom": 3,
-      "bounds": [
-        0,
-        -256,
-        256,
-        0
+      "crs": "epsg3857",
+      "backgroundColor": "#0C0808",
+      "initialCenter": [
+        83.901471204075,
+        -168.06336750513
       ],
-      "defaultCenter": [
-        128,
-        -128
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          -6.71573,
+          -183.13407
+        ],
+        [
+          90.6623,
+          13.56549
+        ]
       ],
-      "defaultZoom": 2
+      "tileSets": [
+        {
+          "id": "v2",
+          "label": "V2",
+          "urlTemplate": "https://tiles.mapgenie.io/games/witcher-3/skellige/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              -6.71573,
+              -183.13407
+            ],
+            [
+              90.6623,
+              13.56549
+            ]
+          ]
+        }
+      ]
     },
     {
       "id": "kaer-morhen",
@@ -139,23 +186,46 @@
     {
       "id": "toussaint",
       "name": "Toussaint",
-      "pinsCount": 296,
       "dlc": "blood-and-wine",
+      "pinsCount": 373,
       "icon": "crown",
-      "tileUrlTemplate": "/tiles/the-witcher-3-wild-hunt/toussaint/{z}/{x}/{y}.webp",
-      "minZoom": 1,
-      "maxZoom": 4,
-      "bounds": [
-        0,
-        -144,
-        144,
-        0
+      "crs": "epsg3857",
+      "backgroundColor": "#0C0808",
+      "initialCenter": [
+        83.904158677403,
+        -168.14734328015
       ],
-      "defaultCenter": [
-        72,
-        -72
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          -6.71549,
+          -181.71553
+        ],
+        [
+          90.65906,
+          13.46041
+        ]
       ],
-      "defaultZoom": 2
+      "tileSets": [
+        {
+          "id": "v2",
+          "label": "V2",
+          "urlTemplate": "https://tiles.mapgenie.io/games/witcher-3/toussaint/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              -6.71549,
+              -181.71553
+            ],
+            [
+              90.65906,
+              13.46041
+            ]
+          ]
+        }
+      ]
     },
     {
       "id": "fyke-tower-interior",
@@ -462,6 +532,492 @@
           "name": "Jogador de Gwent",
           "icon": "spade",
           "color": "#5AE297",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "abandoned-site",
+          "groupId": "locations",
+          "name": "Abandoned Site",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "bandit-camp",
+          "groupId": "locations",
+          "name": "Bandit Camp",
+          "icon": "bookmark",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "entrance",
+          "groupId": "locations",
+          "name": "Entrance",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "guarded-treasure",
+          "groupId": "locations",
+          "name": "Guarded Treasure",
+          "icon": "gem",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "harbor",
+          "groupId": "locations",
+          "name": "Harbor",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "magic-lamp",
+          "groupId": "locations",
+          "name": "Magic Lamp",
+          "icon": "sparkles",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "monster-den",
+          "groupId": "locations",
+          "name": "Monster Den",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "monster-nest",
+          "groupId": "locations",
+          "name": "Monster Nest",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "notice-board",
+          "groupId": "locations",
+          "name": "Notice Board",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "person-in-distress",
+          "groupId": "locations",
+          "name": "Person in Distress",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "place-of-power",
+          "groupId": "locations",
+          "name": "Place of Power",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "point-of-interest",
+          "groupId": "locations",
+          "name": "Point of Interest",
+          "icon": "landmark",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "portal",
+          "groupId": "locations",
+          "name": "Portal",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "signpost",
+          "groupId": "locations",
+          "name": "Signpost",
+          "icon": "navigation",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "smuggler-s-cache",
+          "groupId": "locations",
+          "name": "Smuggler's Cache",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "spoils-of-war",
+          "groupId": "locations",
+          "name": "Spoils of War",
+          "icon": "landmark",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "stash",
+          "groupId": "locations",
+          "name": "Stash",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "hanse-base",
+          "groupId": "locations",
+          "name": "Hanse Base",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "knight-in-distress",
+          "groupId": "locations",
+          "name": "Knight in Distress",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "lebioda-monument",
+          "groupId": "locations",
+          "name": "Lebioda Monument",
+          "icon": "landmark",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "vineyard-infestation",
+          "groupId": "locations",
+          "name": "Vineyard Infestation",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "label": "Services",
+      "categories": [
+        {
+          "id": "alchemy-supplies",
+          "groupId": "services",
+          "name": "Alchemy Supplies",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "armorer",
+          "groupId": "services",
+          "name": "Armorer",
+          "icon": "shopping-bag",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "armorer-s-table",
+          "groupId": "services",
+          "name": "Armorer's Table",
+          "icon": "shopping-bag",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "barber",
+          "groupId": "services",
+          "name": "Barber",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "blacksmith",
+          "groupId": "services",
+          "name": "Blacksmith",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "brothel",
+          "groupId": "services",
+          "name": "Brothel",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "grindstone",
+          "groupId": "services",
+          "name": "Grindstone",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "gwent-player",
+          "groupId": "services",
+          "name": "Gwent Player",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "herbalist",
+          "groupId": "services",
+          "name": "Herbalist",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "innkeep",
+          "groupId": "services",
+          "name": "Innkeep",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "runewright",
+          "groupId": "services",
+          "name": "Runewright",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "shopkeeper",
+          "groupId": "services",
+          "name": "Shopkeeper",
+          "icon": "shopping-bag",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "contract",
+          "groupId": "quests",
+          "name": "Contract",
+          "icon": "scroll-text",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "fistfight",
+          "groupId": "quests",
+          "name": "Fistfight",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "gwent-quest",
+          "groupId": "quests",
+          "name": "Gwent Quest",
+          "icon": "scroll-text",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "horse-race",
+          "groupId": "quests",
+          "name": "Horse Race",
+          "icon": "flame",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "main-quest",
+          "groupId": "quests",
+          "name": "Main Quest",
+          "icon": "scroll-text",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "secondary-quest",
+          "groupId": "quests",
+          "name": "Secondary Quest",
+          "icon": "scroll-text",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "treasure-hunt",
+          "groupId": "quests",
+          "name": "Treasure Hunt",
+          "icon": "skull",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "hearts-of-stone",
+          "groupId": "quests",
+          "name": "Hearts of Stone",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "blood-and-wine",
+          "groupId": "quests",
+          "name": "Blood and Wine",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "treasure-chest",
+          "groupId": "quests",
+          "name": "Treasure Chest",
+          "icon": "gem",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "vintner-s-contract",
+          "groupId": "quests",
+          "name": "Vintner's Contract",
+          "icon": "scroll-text",
+          "color": "#FACC15",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "book",
+          "groupId": "items",
+          "name": "Book",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "chest",
+          "groupId": "items",
+          "name": "Chest",
+          "icon": "gem",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "gwent-card",
+          "groupId": "items",
+          "name": "Gwent Card",
+          "icon": "gem",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "mutagen",
+          "groupId": "items",
+          "name": "Mutagen",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "quest-item",
+          "groupId": "items",
+          "name": "Quest Item",
+          "icon": "scroll-text",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "recipe",
+          "groupId": "items",
+          "name": "Recipe",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "relic-item",
+          "groupId": "items",
+          "name": "Relic Item",
+          "icon": "gem",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "witcher-gear",
+          "groupId": "items",
+          "name": "Witcher Gear",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "diagram-chest",
+          "groupId": "items",
+          "name": "Diagram Chest",
+          "icon": "gem",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "hollow-tree",
+          "groupId": "items",
+          "name": "Hollow Tree",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "beehive",
+          "groupId": "items",
+          "name": "Beehive",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "npc",
+          "groupId": "other",
+          "name": "NPC",
+          "icon": "map-pin",
+          "color": "#FBBF24",
           "defaultVisible": true
         }
       ]

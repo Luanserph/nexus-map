@@ -52,22 +52,63 @@
       "id": "hallownest",
       "name": "Hallownest",
       "dlc": "base",
-      "pinsCount": 473,
+      "pinsCount": 979,
       "icon": "map",
-      "tileUrlTemplate": "/tiles/hollow-knight/hallownest/{z}/{x}/{y}.webp",
-      "minZoom": 0,
-      "maxZoom": 5,
-      "bounds": [
-        0,
-        -160,
-        160,
-        0
+      "crs": "epsg3857",
+      "backgroundColor": "#06090F",
+      "initialCenter": [
+        0.83375048707501,
+        -0.84113083121136
       ],
-      "defaultCenter": [
-        76,
-        -54
+      "initialZoom": 13,
+      "maxBounds": [
+        [
+          -0.07374,
+          -1.12274
+        ],
+        [
+          0.99543,
+          0.08317
+        ]
       ],
-      "defaultZoom": 2
+      "tileSets": [
+        {
+          "id": "titles",
+          "label": "Titles",
+          "urlTemplate": "https://tiles.mapgenie.io/games/hollow-knight/hallownest/titles-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              -0.07374,
+              -1.12274
+            ],
+            [
+              0.99543,
+              0.08317
+            ]
+          ]
+        },
+        {
+          "id": "clean",
+          "label": "Clean",
+          "urlTemplate": "https://tiles.mapgenie.io/games/hollow-knight/hallownest/clean-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              -0.07374,
+              -1.12274
+            ],
+            [
+              0.99543,
+              0.08317
+            ]
+          ]
+        }
+      ]
     }
   ],
   "categoryGroups": [
@@ -220,6 +261,352 @@
           "icon": "users",
           "color": "#5EEAD4",
           "defaultVisible": false
+        },
+        {
+          "id": "arcane-egg",
+          "groupId": "collectibles",
+          "name": "Arcane Egg",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "captive-grub",
+          "groupId": "collectibles",
+          "name": "Captive Grub",
+          "icon": "gem",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "charm-notch",
+          "groupId": "collectibles",
+          "name": "Charm Notch",
+          "icon": "shopping-bag",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "hallownest-seal",
+          "groupId": "collectibles",
+          "name": "Hallownest Seal",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "king-s-idol",
+          "groupId": "collectibles",
+          "name": "King's Idol",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "mask-shard",
+          "groupId": "collectibles",
+          "name": "Mask Shard",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "vessel-fragment",
+          "groupId": "collectibles",
+          "name": "Vessel Fragment",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "wanderer-s-journal",
+          "groupId": "collectibles",
+          "name": "Wanderer's Journal",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "points-of-interest",
+      "label": "Points of Interest",
+      "categories": [
+        {
+          "id": "lifeblood-cocoon",
+          "groupId": "points-of-interest",
+          "name": "Lifeblood Cocoon",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "npc",
+          "groupId": "points-of-interest",
+          "name": "NPC",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "soul-totem",
+          "groupId": "points-of-interest",
+          "name": "Soul Totem",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "whispering-root",
+          "groupId": "points-of-interest",
+          "name": "Whispering Root",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "bench",
+          "groupId": "locations",
+          "name": "Bench",
+          "icon": "bookmark",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "dreamer",
+          "groupId": "locations",
+          "name": "Dreamer",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "hot-spring",
+          "groupId": "locations",
+          "name": "Hot Spring",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "stag-station",
+          "groupId": "locations",
+          "name": "Stag Station",
+          "icon": "navigation",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "tram-station",
+          "groupId": "locations",
+          "name": "Tram Station",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "vendor",
+          "groupId": "locations",
+          "name": "Vendor",
+          "icon": "shopping-bag",
+          "color": "#E879F9",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "geo-deposit",
+          "groupId": "items",
+          "name": "Geo Deposit",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "pale-ore",
+          "groupId": "items",
+          "name": "Pale Ore",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "rancid-egg",
+          "groupId": "items",
+          "name": "Rancid Egg",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "equipment",
+      "label": "Equipment",
+      "categories": [
+        {
+          "id": "ability",
+          "groupId": "equipment",
+          "name": "Ability",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "charm",
+          "groupId": "equipment",
+          "name": "Charm",
+          "icon": "shopping-bag",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "nail-art",
+          "groupId": "equipment",
+          "name": "Nail Art",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "spell",
+          "groupId": "equipment",
+          "name": "Spell",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "enemies",
+      "label": "Enemies",
+      "categories": [
+        {
+          "id": "boss",
+          "groupId": "enemies",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "grimm-troupe",
+          "groupId": "enemies",
+          "name": "Grimm Troupe",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "journal-entry",
+          "groupId": "enemies",
+          "name": "Journal Entry",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "warrior-s-dream",
+          "groupId": "enemies",
+          "name": "Warrior's Dream",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "quest",
+          "groupId": "quests",
+          "name": "Quest",
+          "icon": "scroll-text",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "quest-item",
+          "groupId": "quests",
+          "name": "Quest Item",
+          "icon": "scroll-text",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "trial",
+          "groupId": "quests",
+          "name": "Trial",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "achievement",
+          "groupId": "other",
+          "name": "Achievement",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "breakable-surface",
+          "groupId": "other",
+          "name": "Breakable Surface",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "lore",
+          "groupId": "other",
+          "name": "Lore",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "shade-gate",
+          "groupId": "other",
+          "name": "Shade Gate",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "shortcut",
+          "groupId": "other",
+          "name": "Shortcut",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
         }
       ]
     }

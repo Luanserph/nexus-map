@@ -1,0 +1,51 @@
+[
+  {
+    "gameSlug": "cyberpunk-2077",
+    "mapSlug": "night-city",
+    "name": "Night City & Dogtown",
+    "dlc": "base",
+    "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city"
+  },
+  {
+    "gameSlug": "elden-ring",
+    "mapSlug": "lands-between",
+    "name": "Terras Intermédias",
+    "dlc": "base",
+    "url": "https://mapgenie.io/elden-ring/maps/the-lands-between"
+  },
+  {
+    "gameSlug": "elden-ring",
+    "mapSlug": "shadow-of-the-erdtree",
+    "name": "Reino das Sombras",
+    "dlc": "shadow-of-the-erdtree",
+    "url": "https://mapgenie.io/elden-ring/maps/the-shadow-realm"
+  },
+  {
+    "gameSlug": "the-witcher-3-wild-hunt",
+    "mapSlug": "main",
+    "name": "Velen & Novigrad",
+    "dlc": "base",
+    "url": "https://mapgenie.io/witcher-3/maps/velen-novigrad"
+  },
+  {
+    "gameSlug": "the-witcher-3-wild-hunt",
+    "mapSlug": "skellige",
+    "name": "Ilhas Skellige",
+    "dlc": "base",
+    "url": "https://mapgenie.io/witcher-3/maps/skellige"
+  },
+  {
+    "gameSlug": "the-witcher-3-wild-hunt",
+    "mapSlug": "toussaint",
+    "name": "Toussaint",
+    "dlc": "blood-and-wine",
+    "url": "https://mapgenie.io/witcher-3/maps/toussaint"
+  },
+  {
+    "gameSlug": "hollow-knight",
+    "mapSlug": "hallownest",
+    "name": "Hallownest",
+    "dlc": "base",
+    "url": "https://mapgenie.io/hollow-knight/maps/hallownest"
+  }
+]

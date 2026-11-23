@@ -16,9 +16,10 @@ dist-ssr
 .env
 .env.*.local
 
-# Generated map tile pyramids (.webp) & temporary downloads
+# Generated map tile pyramids (.webp) & temporary extraction artifacts
 public/tiles/
 temp/
+temp/.browser-profile/
 
 # Editor directories and files
 .vscode/*
