@@ -14,7 +14,8 @@ dist-ssr
 
 # Environment variables (keep .env.example)
 .env
-.env.*.local
+.env*
+!.env.example
 
 # Generated map tile pyramids (.webp) & temporary extraction artifacts
 public/tiles/
