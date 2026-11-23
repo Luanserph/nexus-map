@@ -126,6 +126,7 @@ export interface MapMarker {
 
 export interface MapRegion {
   id: number | string;
+  mapId?: string;
   parentRegionId: number | string | null;
   title: string;
   centerX: number;

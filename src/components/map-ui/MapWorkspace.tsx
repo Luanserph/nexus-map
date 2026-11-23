@@ -75,7 +75,7 @@ import { generateOptimized100Route } from '../../core/routing';
 import type { OptimizedRouteResult } from '../../core/routing';
 import { useLivePlayer } from '../../core/telemetry';
 import { useGameTheme } from '../../core/theme-engine';
-import { getMarkersByMap, getRegionsByGameSlug } from '../../data/games';
+import { getMarkersByMap, getRegionsByMap } from '../../data/games';
 import type {
   Category,
   CategoryPreset,
@@ -201,8 +201,10 @@ export function MapWorkspace({
     bounds: activeLayer?.bounds,
   });
 
-  // Sidebar & filter state
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  // Sidebar & filter state (closed by default on mobile < 768px for clean full-screen map)
+  const [isSidebarOpen, setIsSidebarOpen] = useState<boolean>(() =>
+    typeof window !== 'undefined' ? window.innerWidth >= 768 : true
+  );
   const [pinSearchQuery, setPinSearchQuery] = useState('');
   const [hideFound, setHideFound] = useState(false);
   const [selectedDlcFilter, setSelectedDlcFilter] = useState<string>('all');
@@ -314,8 +316,8 @@ export function MapWorkspace({
   }, [manifest.categoryGroups]);
 
   const gameRegions = useMemo(
-    () => getRegionsByGameSlug(manifest.slug),
-    [manifest.slug]
+    () => getRegionsByMap(manifest.slug, currentMapId),
+    [manifest.slug, currentMapId]
   );
 
   const layerMarkers = useMemo(() => {
@@ -773,20 +775,21 @@ export function MapWorkspace({
       {/* ================================================================= */}
       {/* FLOATING TOPBAR (BACK + TITLE + LAYERS WITH DLC BADGES + GUIDE)   */}
       {/* ================================================================= */}
-      <header className="pointer-events-none fixed inset-x-4 top-4 z-30 flex flex-wrap items-center justify-between gap-3">
+      <header className="pointer-events-none fixed inset-x-2.5 top-2.5 z-30 flex flex-wrap items-center justify-between gap-2 md:inset-x-4 md:top-4 md:gap-3">
         <GlassPanel
           variant="elevated"
           padding="none"
-          className="pointer-events-auto flex items-center"
+          className="pointer-events-auto flex max-w-full items-center"
         >
-          <div className="flex items-center gap-2.5 px-2.5 py-2 sm:px-3">
+          <div className="flex min-w-0 items-center gap-2 px-2 py-1.5 sm:gap-2.5 sm:px-3 sm:py-2">
             <NeonButton
               size="sm"
               variant="glass"
               onClick={onBackToHub}
               leftIcon={<ArrowLeft className="h-3.5 w-3.5" />}
             >
-              {t('map.backToHub')}
+              <span className="hidden sm:inline">{t('map.backToHub')}</span>
+              <span className="sm:hidden">Hub</span>
             </NeonButton>
 
             {activeLayer?.isInterior && (
@@ -830,9 +833,11 @@ export function MapWorkspace({
           </div>
         </GlassPanel>
 
-        <div className="pointer-events-auto flex flex-wrap items-center gap-2">
-          {/* Language Selector in Map Topbar */}
-          <LanguageSelector />
+        <div className="pointer-events-auto flex max-w-full flex-wrap items-center gap-1.5 md:gap-2">
+          {/* Language Selector in Map Topbar (desktop only; moved into drawer on mobile) */}
+          <div className="hidden md:block">
+            <LanguageSelector />
+          </div>
 
           {/* TileSet Variant Switcher (e.g. Dia / Noite) */}
           {activeLayer?.tileSets && activeLayer.tileSets.length > 1 && (
@@ -880,7 +885,7 @@ export function MapWorkspace({
           {/* Dynamic Guided 100% Route Generator Trigger */}
           {layerMarkers.length > 0 && (
             <GlassPanel variant="elevated" padding="none">
-              <div className="px-2 py-2">
+              <div className="px-1.5 py-1.5 md:px-2 md:py-2">
                 <NeonButton
                   size="sm"
                   variant="glass"
@@ -890,18 +895,20 @@ export function MapWorkspace({
                     <Compass className="h-3.5 w-3.5 text-[var(--accent-primary)]" />
                   }
                 >
-                  {t('map.guide100')}
+                  <span className="hidden sm:inline">{t('map.guide100')}</span>
+                  <span className="sm:hidden">Guia</span>
                 </NeonButton>
               </div>
             </GlassPanel>
           )}
 
           {/* Layer / Map Switcher with DLC & Interior Badges */}
-          <GlassPanel
-            variant="elevated"
-            padding="none"
-            className="max-w-[min(100vw-2rem,520px)] overflow-x-auto"
-          >
+          {manifest.maps.length > 1 && (
+            <GlassPanel
+              variant="elevated"
+              padding="none"
+              className="max-w-[min(100vw-1.25rem,520px)] overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+            >
             <div
               className="flex items-center gap-1.5 px-2.5 py-2"
               role="tablist"
@@ -944,19 +951,31 @@ export function MapWorkspace({
               })}
             </div>
           </GlassPanel>
+          )}
         </div>
       </header>
 
       {/* ================================================================= */}
-      {/* RETRACTABLE LEFT SIDEBAR (DLC FILTER, SEARCH, PRESETS, FILTERS)   */}
+      {/* RETRACTABLE LEFT SIDEBAR (MOBILE FULL DRAWER + DESKTOP FLOATING)  */}
       {/* ================================================================= */}
-      <aside className="pointer-events-none fixed top-20 bottom-4 left-4 z-20 flex items-start gap-2.5">
+      <aside
+        className={
+          isSidebarOpen
+            ? 'fixed inset-0 z-50 flex bg-black/60 backdrop-blur-xs md:pointer-events-none md:inset-auto md:top-20 md:bottom-4 md:left-4 md:z-20 md:bg-transparent md:backdrop-blur-none'
+            : 'pointer-events-none fixed top-24 left-2.5 z-20 flex items-start gap-2.5 md:top-20 md:left-4'
+        }
+        onClick={(e) => {
+          if (e.target === e.currentTarget) {
+            setIsSidebarOpen(false);
+          }
+        }}
+      >
         {isSidebarOpen ? (
           <GlassPanel
             variant="elevated"
             padding="none"
             cornerMarks
-            className="pointer-events-auto flex max-h-full w-[316px] flex-col sm:w-[344px]"
+            className="pointer-events-auto flex h-full w-[min(90vw,344px)] flex-col !bg-[#07090f]/95 md:max-h-full md:w-[316px] md:!bg-[var(--glass-bg-elevated)] sm:w-[344px]"
           >
             {/* Sidebar Header Banner + Active Scope Progress */}
             <div className="relative">
@@ -968,14 +987,20 @@ export function MapWorkspace({
                 showMetadataWatermark={false}
               />
 
+              {/* Mobile-only Language Selector inside drawer */}
+              <div className="absolute top-2.5 left-2.5 md:hidden">
+                <LanguageSelector />
+              </div>
+
               <button
                 type="button"
                 onClick={() => setIsSidebarOpen(false)}
                 aria-label="Recolher painel lateral"
                 title="Recolher painel lateral"
-                className="neon-focus-ring absolute top-2.5 right-2.5 flex h-7 w-7 cursor-pointer items-center justify-center rounded-md border border-white/15 bg-[rgba(7,9,13,0.75)] text-[var(--text-secondary)] backdrop-blur-md transition-colors hover:border-[var(--accent-primary)] hover:text-white"
+                className="neon-focus-ring absolute top-2.5 right-2.5 flex h-8 w-8 cursor-pointer items-center justify-center rounded-md border border-white/20 bg-[rgba(7,9,13,0.85)] text-white backdrop-blur-md transition-colors hover:border-[var(--accent-primary)] md:h-7 md:w-7 md:border-white/15 md:bg-[rgba(7,9,13,0.75)] md:text-[var(--text-secondary)] md:hover:text-white"
               >
-                <PanelLeftClose className="h-4 w-4" />
+                <X className="h-4 w-4 md:hidden" />
+                <PanelLeftClose className="hidden h-4 w-4 md:block" />
               </button>
 
               <div className="absolute right-3 bottom-2.5 left-3">
@@ -1342,9 +1367,10 @@ export function MapWorkspace({
               onClick={() => setIsSidebarOpen(true)}
               aria-label="Abrir painel lateral de filtros"
               title="Abrir painel lateral de filtros"
-              className="neon-focus-ring flex h-10 w-10 cursor-pointer items-center justify-center text-[var(--text-secondary)] transition-colors hover:text-[var(--accent-primary)]"
+              className="neon-focus-ring flex h-10 cursor-pointer items-center justify-center gap-2 px-3 text-xs font-semibold text-[var(--text-primary)] transition-colors hover:text-[var(--accent-primary)] md:w-10 md:px-0"
             >
-              <PanelLeftOpen className="h-4.5 w-4.5" />
+              <PanelLeftOpen className="h-4 w-4 text-[var(--accent-primary)] md:h-4.5 md:w-4.5 md:text-current" />
+              <span className="md:hidden">Filtros</span>
             </button>
           </GlassPanel>
         )}
@@ -1354,7 +1380,7 @@ export function MapWorkspace({
       {/* FLOATING RIGHT PANEL: MARKER CARD, NOTE EDITOR OR GUIDED MODE     */}
       {/* ================================================================= */}
       {showRightPanel && (
-        <div className="pointer-events-none fixed top-20 right-4 z-30">
+        <div className="pointer-events-none fixed inset-x-3 top-24 bottom-20 z-40 overflow-y-auto md:inset-x-auto md:top-20 md:right-4 md:bottom-auto md:z-30 md:overflow-visible">
           <div className="pointer-events-auto">
             {selectedMarker ? (
               <MarkerDetailCard
@@ -1496,11 +1522,13 @@ export function MapWorkspace({
       {/* ================================================================= */}
       {/* BOTTOM-RIGHT TACTICAL HUD: LIVE TELEMETRY + ZOOM + COORDS         */}
       {/* ================================================================= */}
-      <div className="pointer-events-none fixed right-4 bottom-4 z-20 flex flex-col items-end gap-2.5">
-        <LiveTelemetryWidget telemetry={telemetry} />
+      <div className="pointer-events-none fixed right-3 bottom-20 z-20 flex flex-col items-end gap-2.5 md:right-4 md:bottom-4">
+        <div className="hidden md:block">
+          <LiveTelemetryWidget telemetry={telemetry} />
+        </div>
 
         <div className="flex items-end gap-2.5">
-          <GlassPanel variant="elevated" padding="none" className="pointer-events-auto">
+          <GlassPanel variant="elevated" padding="none" className="pointer-events-auto hidden md:block">
             <button
               type="button"
               onClick={() => {

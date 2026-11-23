@@ -69,6 +69,11 @@ export function getRegionsByGameSlug(slug: string): MapRegion[] {
   return regionsBySlug[slug] ?? [];
 }
 
+export function getRegionsByMap(slug: string, mapId: string): MapRegion[] {
+  const all = getRegionsByGameSlug(slug);
+  return all.filter((region) => !region.mapId || region.mapId === mapId);
+}
+
 export function getGuidesByGameSlug(slug: string): GuidedRoute[] {
   return guidesBySlug[slug] ?? [];
 }

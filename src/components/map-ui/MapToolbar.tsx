@@ -56,7 +56,7 @@ export function MapToolbar({
   }
 
   return (
-    <div className="pointer-events-none fixed bottom-4 left-1/2 z-20 flex -translate-x-1/2 flex-col items-center gap-2">
+    <div className="pointer-events-none fixed bottom-[max(0.75rem,env(safe-area-inset-bottom))] left-1/2 z-20 flex max-w-[calc(100vw-1.5rem)] -translate-x-1/2 flex-col items-center gap-2 md:bottom-4">
       {/* Contextual Hint / Route Builder Strip */}
       {mode === 'add-note' && (
         <GlassPanel variant="elevated" padding="none" className="pointer-events-auto">
