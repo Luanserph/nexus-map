@@ -73,7 +73,7 @@
       "tileSets": [
         {
           "id": "interiors",
-          "label": "Terras Intermédias",
+          "label": "Interiors",
           "urlTemplate": "https://tiles.mapgenie.io/games/elden-ring/the-lands-between/default-v5/{z}/{x}/{y}.jpg",
           "minZoom": 9,
           "maxNativeZoom": 16,
@@ -650,6 +650,30 @@
           "icon": "map-pin",
           "color": "#FB7185",
           "defaultVisible": false
+        },
+        {
+          "id": "armor",
+          "groupId": "equipment",
+          "name": "Armor",
+          "icon": "shopping-bag",
+          "color": "#F472B6",
+          "defaultVisible": false
+        },
+        {
+          "id": "talisman",
+          "groupId": "equipment",
+          "name": "Talisman",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "weapon",
+          "groupId": "equipment",
+          "name": "Weapon",
+          "icon": "shopping-bag",
+          "color": "#FB923C",
+          "defaultVisible": false
         }
       ]
     },
@@ -733,6 +757,14 @@
           "name": "Legendary Boss",
           "icon": "skull",
           "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "boss",
+          "groupId": "enemies",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#38BDF8",
           "defaultVisible": true
         }
       ]
@@ -936,5 +968,6 @@
         "ash"
       ]
     }
-  ]
+  ],
+  "totalPins": 7578
 }

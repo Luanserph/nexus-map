@@ -1,0 +1,373 @@
+{
+  "id": "game-zelda-wind-waker",
+  "slug": "zelda-wind-waker",
+  "title": "The Legend of Zelda: The Wind Waker",
+  "subtitle": "Arquipélago do Grande Mar",
+  "studio": "Nintendo",
+  "releaseYear": 2002,
+  "genres": [
+    "Aventura",
+    "Action RPG",
+    "Mundo Aberto"
+  ],
+  "platforms": [
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/zelda-wind-waker/cover.webp",
+    "bannerImage": "/games/zelda-wind-waker/banner.webp",
+    "logoImage": "/games/zelda-wind-waker/logo.webp"
+  },
+  "theme": {
+    "accentPrimary": "#0EA5E9",
+    "accentSecondary": "#FDE047",
+    "accentGlow": "rgba(14, 165, 233, 0.36)",
+    "glassTint": "rgba(8, 19, 28, 0.80)",
+    "surfaceBase": "#060D14",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "abyssal-contours",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "great-sea",
+      "name": "Grande Mar",
+      "dlc": "base",
+      "pinsCount": 1232,
+      "icon": "anchor",
+      "crs": "epsg3857",
+      "backgroundColor": "#060D14",
+      "initialCenter": [
+        0.7348348256949,
+        -0.86781538393404
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.24883,
+          -1.17196
+        ],
+        [
+          1.15247,
+          -0.22775
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/zelda-wind-waker/great-sea/default-v4/{z}/{y}/{x}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 16,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              0.24883,
+              -1.17196
+            ],
+            [
+              1.15247,
+              -0.22775
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "cave",
+          "groupId": "locations",
+          "name": "Cave",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "enemy-platform",
+          "groupId": "locations",
+          "name": "Enemy Platform",
+          "icon": "skull",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "fairy-fountain",
+          "groupId": "locations",
+          "name": "Fairy Fountain",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "island",
+          "groupId": "locations",
+          "name": "Island",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "point-of-interest",
+          "groupId": "locations",
+          "name": "Point of Interest",
+          "icon": "landmark",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "shop",
+          "groupId": "locations",
+          "name": "Shop",
+          "icon": "shopping-bag",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "submarine",
+          "groupId": "locations",
+          "name": "Submarine",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "withered-deku-tree",
+          "groupId": "locations",
+          "name": "Withered Deku Tree",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "bottle",
+          "groupId": "collectibles",
+          "name": "Bottle",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "heart-piece",
+          "groupId": "collectibles",
+          "name": "Heart Piece",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "nintendo-gallery-picture",
+          "groupId": "collectibles",
+          "name": "Nintendo Gallery Picture",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": false
+        },
+        {
+          "id": "song",
+          "groupId": "collectibles",
+          "name": "Song",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "special-chart",
+          "groupId": "collectibles",
+          "name": "Special Chart",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "treasure-chart",
+          "groupId": "collectibles",
+          "name": "Treasure Chart",
+          "icon": "gem",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "treasure-chest",
+          "groupId": "collectibles",
+          "name": "Treasure Chest",
+          "icon": "gem",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "triforce-chart",
+          "groupId": "collectibles",
+          "name": "Triforce Chart",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "triforce-shard",
+          "groupId": "collectibles",
+          "name": "Triforce Shard",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "upgrade",
+          "groupId": "collectibles",
+          "name": "Upgrade",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "equipment",
+          "groupId": "items",
+          "name": "Equipment",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "quest-item",
+          "groupId": "items",
+          "name": "Quest Item",
+          "icon": "scroll-text",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "rupee",
+          "groupId": "items",
+          "name": "Rupee",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "rupee-chest",
+          "groupId": "items",
+          "name": "Rupee Chest",
+          "icon": "gem",
+          "color": "#E879F9",
+          "defaultVisible": false
+        },
+        {
+          "id": "weapon",
+          "groupId": "items",
+          "name": "Weapon",
+          "icon": "shopping-bag",
+          "color": "#FACC15",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "enemies",
+      "label": "Enemies",
+      "categories": [
+        {
+          "id": "big-octo",
+          "groupId": "enemies",
+          "name": "Big Octo",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "boss",
+          "groupId": "enemies",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "monster",
+          "groupId": "enemies",
+          "name": "Monster",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "primary-quest",
+          "groupId": "quests",
+          "name": "Primary Quest",
+          "icon": "scroll-text",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "secondary-quest",
+          "groupId": "quests",
+          "name": "Secondary Quest",
+          "icon": "scroll-text",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "mailbox",
+          "groupId": "other",
+          "name": "Mailbox",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "npc",
+          "groupId": "other",
+          "name": "NPC",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "switch",
+          "groupId": "other",
+          "name": "Switch",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 1232
+}

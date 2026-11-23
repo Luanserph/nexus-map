@@ -1,0 +1,3356 @@
+[
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472945",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Contains: - [Hammer](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472946)",
+    "coords": [
+      -0.88687643408844,
+      0.59230166696328
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472947",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Secret Cave",
+    "description": "Requires: Using the [Hammer](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472946) to break the rock to reveal the hole underneath Contains: - [Magic Container](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472948)",
+    "coords": [
+      -0.89194044470872,
+      0.59239151616333
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472962",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Contains: - [Trophy](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472963)",
+    "coords": [
+      -0.83796733290643,
+      0.86763254833431
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472971",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Requires: Using the [Hammer](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472946) to break the rock underneath it Contains: - [Water of Life](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472972)",
+    "coords": [
+      -0.88938706284011,
+      0.77241129403969
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472994",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Secret Cave",
+    "description": "Requires: Falling down the hidden hole into a cave Contains: - [Kidnapped Child](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472995)",
+    "coords": [
+      -0.50788164138802,
+      0.7955069052508
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473011",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Requires: Using the [Hammer](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472946) to break the rock to the left of it Contains: - [Heart Container](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473012)",
+    "coords": [
+      -0.77334120869713,
+      0.79042862887309
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473020",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Requires: The [Candle](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472943) to be able to see Contains: - [Magic Container](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473022)",
+    "coords": [
+      -0.87126038449145,
+      0.79552403432126
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473024",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Secret Cave",
+    "description": "Requires: Falling down the hidden hole into a cave Contains: - [Magic Container](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473025)",
+    "coords": [
+      -0.54915857965307,
+      0.80060992321482
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473100",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473101)",
+    "coords": [
+      -0.78827458791596,
+      0.84418102576922
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473101",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473100)",
+    "coords": [
+      -0.77017146572283,
+      0.83125670669151
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473105",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Contains: - [Treasure Bag](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473106)",
+    "coords": [
+      -0.81449443359881,
+      0.79034596506467
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473108",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473109)",
+    "coords": [
+      -0.90929354852003,
+      0.80067443138537
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473109",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473108)",
+    "coords": [
+      -0.90407933419547,
+      0.790311374662
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473123",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Secret Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473124)",
+    "coords": [
+      -0.78365647097291,
+      0.70244458065882
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473124",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Secret Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473123)",
+    "coords": [
+      -0.7599610075832,
+      0.68723249691068
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473125",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473126)",
+    "coords": [
+      -0.85777629831563,
+      0.70228367531409
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473126",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473125)",
+    "coords": [
+      -0.85265165698178,
+      0.661705512455
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473127",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473128)",
+    "coords": [
+      -0.88606025344552,
+      0.70533713575384
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473128",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473127)",
+    "coords": [
+      -0.89378248815495,
+      0.66156848688016
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473129",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473130)",
+    "coords": [
+      -0.90150787141002,
+      0.65137273032808
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473130",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473129)",
+    "coords": [
+      -0.91178112912857,
+      0.64874019862924
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473131",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473132)",
+    "coords": [
+      -0.90414944322771,
+      0.64107551984964
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473132",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473131)",
+    "coords": [
+      -0.8937903365586,
+      0.64101829079834
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473133",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473134)",
+    "coords": [
+      -0.89895419746577,
+      0.63582151799835
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473134",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473133)",
+    "coords": [
+      -0.90404790184976,
+      0.63333205113345
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473135",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473136)",
+    "coords": [
+      -0.90153690143413,
+      0.62562836080406
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473136",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473135)",
+    "coords": [
+      -0.89896143292543,
+      0.61784518091501
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473137",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473138)",
+    "coords": [
+      -0.89382480407355,
+      0.61009060439467
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473138",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473137)",
+    "coords": [
+      -0.90415529442552,
+      0.60496857164877
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473139",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473141) / [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473142) / [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473143)",
+    "coords": [
+      -0.89128364354917,
+      0.62303113987009
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473141",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473139) / [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473142) / [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473143)",
+    "coords": [
+      -0.86545932239352,
+      0.65403841482544
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473142",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473139) / [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473141) / [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473143)",
+    "coords": [
+      -0.86543070607729,
+      0.64368186430613
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473143",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473139) / [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473141) / [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473142)",
+    "coords": [
+      -0.88611798312061,
+      0.62550855383607
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473144",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473145) / [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473146) / [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473147)",
+    "coords": [
+      -0.88860855327201,
+      0.63607703814324
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473145",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473144) / [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473146) / [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473147)",
+    "coords": [
+      -0.88352308497932,
+      0.63345936279829
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473146",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473144) / [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473145) / [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473147)",
+    "coords": [
+      -0.88350860337897,
+      0.61800489111691
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473147",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473144) / [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473145) / [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473146)",
+    "coords": [
+      -0.87574092607059,
+      0.61804780396514
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473149",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473150)",
+    "coords": [
+      -0.8886194772879,
+      0.65374833078251
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473150",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473149)",
+    "coords": [
+      -0.88358488117575,
+      0.64871405987437
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473151",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473152)",
+    "coords": [
+      -0.87063353390397,
+      0.64605365320374
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473152",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473151)",
+    "coords": [
+      -0.87584666179339,
+      0.65633641937693
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473153",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473154)",
+    "coords": [
+      -0.87573020792524,
+      0.63574342837475
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473154",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473153)",
+    "coords": [
+      -0.87062504555061,
+      0.63343673614256
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473155",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473156)",
+    "coords": [
+      -0.86031106823413,
+      0.63347330731395
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473156",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473155)",
+    "coords": [
+      -0.86031106823413,
+      0.62834523458943
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473157",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473158)",
+    "coords": [
+      -0.8551891620549,
+      0.62318836971482
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473158",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473157)",
+    "coords": [
+      -0.86038191870708,
+      0.61801737408939
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473160",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473161)",
+    "coords": [
+      -0.86552952552171,
+      0.61041017700624
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473161",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473160)",
+    "coords": [
+      -0.87321137214045,
+      0.60789977125638
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473162",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473163)",
+    "coords": [
+      -0.87833672915491,
+      0.60269501754176
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473163",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473162)",
+    "coords": [
+      -0.86801558886526,
+      0.60263064808557
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473164",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473165)",
+    "coords": [
+      -0.86546747293963,
+      0.59490053584148
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473165",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473164)",
+    "coords": [
+      -0.87061731424825,
+      0.58970805665636
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473166",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473168)",
+    "coords": [
+      -0.85519940883518,
+      0.59491190431898
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473168",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473166)",
+    "coords": [
+      -0.84998519451065,
+      0.60259333148096
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473171",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473172)",
+    "coords": [
+      -0.66706896909568,
+      0.75690990894451
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473172",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473171)",
+    "coords": [
+      -0.67477227338685,
+      0.74661111288734
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473180",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Contains: - [Treasure Bag](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473181)",
+    "coords": [
+      -0.67267807306433,
+      0.69768505482064
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473182",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Contains: - [Treasure Bag](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473183)",
+    "coords": [
+      -0.65730451495347,
+      0.67963865451718
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473184",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473185)",
+    "coords": [
+      -0.72625338003067,
+      0.68735791046318
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473185",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473184)",
+    "coords": [
+      -0.73151050970003,
+      0.68740082271961
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473186",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473187)",
+    "coords": [
+      -0.72112893345283,
+      0.68223165467643
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473187",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473186)",
+    "coords": [
+      -0.71076487781963,
+      0.68236039157981
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473194",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473195)",
+    "coords": [
+      -0.61045511241559,
+      0.67965325449468
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473195",
+    "mapId": "hyrule",
+    "category": "cave",
+    "title": "Cave",
+    "description": "Transitions to: [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473194)",
+    "coords": [
+      -0.58981337156982,
+      0.67976770851315
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472979",
+    "mapId": "hyrule",
+    "category": "fixed-encounter",
+    "title": "Bagu's House",
+    "description": "Contains: - [Bagu's Note](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472978)",
+    "coords": [
+      -0.85787721296882,
+      0.75448492120488
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473094",
+    "mapId": "hyrule",
+    "category": "fixed-encounter",
+    "title": "Fixed Encounter",
+    "description": "Contains: - [Link Doll](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473031)",
+    "coords": [
+      -0.81444069743029,
+      0.68734651154534
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473096",
+    "mapId": "hyrule",
+    "category": "fixed-encounter",
+    "title": "Fixed Encounter",
+    "description": "Contains: - [Heart Container](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473015)",
+    "coords": [
+      -0.57462975382742,
+      0.7362769550634
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473097",
+    "mapId": "hyrule",
+    "category": "fixed-encounter",
+    "title": "Fixed Encounter",
+    "description": "Contains: - [Heart Container](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473009)",
+    "coords": [
+      -0.75287565053929,
+      0.78496174402399
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473098",
+    "mapId": "hyrule",
+    "category": "fixed-encounter",
+    "title": "Fixed Encounter",
+    "description": "Contains: - [Heart Container](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473016)",
+    "coords": [
+      -0.59024779956681,
+      0.62546074679278
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473102",
+    "mapId": "hyrule",
+    "category": "fixed-encounter",
+    "title": "Fixed Encounter",
+    "description": "Contains: - [Link Doll](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473030)",
+    "coords": [
+      -0.89172433443875,
+      0.76719551425597
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473103",
+    "mapId": "hyrule",
+    "category": "fixed-encounter",
+    "title": "Fixed Encounter",
+    "description": "Contains: - [Link Doll](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473034)",
+    "coords": [
+      -0.67023190890069,
+      0.67175102210776
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473104",
+    "mapId": "hyrule",
+    "category": "fixed-encounter",
+    "title": "Fixed Encounter",
+    "description": "Contains: - [Link Doll](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473032)",
+    "coords": [
+      -0.61364083646995,
+      0.76709350953745
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473110",
+    "mapId": "hyrule",
+    "category": "fixed-encounter",
+    "title": "Fixed Encounter",
+    "description": "Contains: - [Fairy](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473111)",
+    "coords": [
+      -0.89427477651091,
+      0.78525547948355
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473113",
+    "mapId": "hyrule",
+    "category": "fixed-encounter",
+    "title": "Fixed Encounter",
+    "description": "Contains: - Red Potion",
+    "coords": [
+      -0.86809896223744,
+      0.77740982625744
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473114",
+    "mapId": "hyrule",
+    "category": "fixed-encounter",
+    "title": "Fixed Encounter",
+    "description": "Contains: - Red Potion",
+    "coords": [
+      -0.81664436692586,
+      0.77485176259181
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473116",
+    "mapId": "hyrule",
+    "category": "fixed-encounter",
+    "title": "Fixed Encounter",
+    "description": "Contains: - [Treasure Bag](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473117)",
+    "coords": [
+      -0.81709247712112,
+      0.84178569505802
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473118",
+    "mapId": "hyrule",
+    "category": "fixed-encounter",
+    "title": "Fixed Encounter",
+    "description": "Contains: - [Treasure Bag](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473119)",
+    "coords": [
+      -0.86089739896954,
+      0.72857248455175
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473120",
+    "mapId": "hyrule",
+    "category": "fixed-encounter",
+    "title": "Fixed Encounter",
+    "description": "Contains: - [Fairy](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473121)",
+    "coords": [
+      -0.82738407479357,
+      0.72603106626026
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473122",
+    "mapId": "hyrule",
+    "category": "fixed-encounter",
+    "title": "Fixed Encounter",
+    "description": "Contains: - Red Potion",
+    "coords": [
+      -0.7887967622118,
+      0.71284341506949
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473169",
+    "mapId": "hyrule",
+    "category": "fixed-encounter",
+    "title": "Fixed Encounter",
+    "description": "Contains: - Red Potion",
+    "coords": [
+      -0.53059214657753,
+      0.83158478503027
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473173",
+    "mapId": "hyrule",
+    "category": "fixed-encounter",
+    "title": "Fixed Encounter",
+    "description": "Contains: - [Treasure Bag](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473174)",
+    "coords": [
+      -0.71136106350238,
+      0.73113049635722
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473175",
+    "mapId": "hyrule",
+    "category": "fixed-encounter",
+    "title": "Fixed Encounter",
+    "description": "Contains: - [Fairy](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473176)",
+    "coords": [
+      -0.70358410269773,
+      0.70542568461634
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473177",
+    "mapId": "hyrule",
+    "category": "fixed-encounter",
+    "title": "Fixed Encounter",
+    "description": "Contains: - Red Potion",
+    "coords": [
+      -0.64917370676903,
+      0.73642312338252
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473178",
+    "mapId": "hyrule",
+    "category": "fixed-encounter",
+    "title": "Fixed Encounter",
+    "description": "Contains: - [Treasure Bag](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473179)",
+    "coords": [
+      -0.60062919554608,
+      0.71541266139904
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473188",
+    "mapId": "hyrule",
+    "category": "fixed-encounter",
+    "title": "Fixed Encounter",
+    "description": "Contains: - [Treasure Bag](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473189)",
+    "coords": [
+      -0.72678872458278,
+      0.64604748495032
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473191",
+    "mapId": "hyrule",
+    "category": "fixed-encounter",
+    "title": "Fixed Encounter",
+    "description": "Contains: - Red Potion",
+    "coords": [
+      -0.66709766180793,
+      0.6254421046369
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473192",
+    "mapId": "hyrule",
+    "category": "fixed-encounter",
+    "title": "Fixed Encounter",
+    "description": "Contains: - [Treasure Bag](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473193)",
+    "coords": [
+      -0.59778744402726,
+      0.64642729944406
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472927",
+    "mapId": "hyrule",
+    "category": "palace",
+    "title": "Parapa Palace",
+    "description": "Transitions to: [Parapa Palace](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472928)",
+    "coords": [
+      -0.75228855013958,
+      0.8675528343602
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472928",
+    "mapId": "hyrule",
+    "category": "palace",
+    "title": "Parapa Palace",
+    "description": "Transitions to: [Parapa Palace](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472927)",
+    "coords": [
+      -0.79286714596623,
+      0.9042568622758
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472931",
+    "mapId": "hyrule",
+    "category": "palace",
+    "title": "Midoro Palace",
+    "description": "Transitions to: [Midoro Palace](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472932)",
+    "coords": [
+      -0.88363345473439,
+      0.78518759408337
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472932",
+    "mapId": "hyrule",
+    "category": "palace",
+    "title": "Midoro Palace",
+    "description": "Transitions to: [Midoro Palace](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472931)",
+    "coords": [
+      -1.0089729988117,
+      0.75576888824031
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472933",
+    "mapId": "hyrule",
+    "category": "palace",
+    "title": "Island Palace",
+    "description": "Transitions to: [Island Palace](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472934)",
+    "coords": [
+      -0.76521551987915,
+      0.69769579209414
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472934",
+    "mapId": "hyrule",
+    "category": "palace",
+    "title": "Island Palace",
+    "description": "Transitions to: [Island Palace](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472933)",
+    "coords": [
+      -1.1738741062135,
+      0.55670787244206
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472935",
+    "mapId": "hyrule",
+    "category": "palace",
+    "title": "Maze Palace",
+    "description": "Transitions to: [Maze Palace](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472936)",
+    "coords": [
+      -0.49987243081998,
+      0.80064808277046
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472936",
+    "mapId": "hyrule",
+    "category": "palace",
+    "title": "Maze Palace",
+    "description": "Transitions to: [Maze Palace](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472935)",
+    "coords": [
+      -0.41136503219587,
+      0.81891222016607
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472937",
+    "mapId": "hyrule",
+    "category": "palace",
+    "title": "Palace on the Sea",
+    "description": "Transitions to: [Palace on the Sea](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472938)",
+    "coords": [
+      -0.57706104657765,
+      0.72602353794807
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472938",
+    "mapId": "hyrule",
+    "category": "palace",
+    "title": "Palace on the Sea",
+    "description": "Transitions to: [Palace on the Sea](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472937)",
+    "coords": [
+      -0.41151452033799,
+      0.75382330337023
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472939",
+    "mapId": "hyrule",
+    "category": "palace",
+    "title": "Three-Eye Rock Palace",
+    "description": "Requires: Using the [Flute](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472951) nearby to reveal the entrance Transitions to: [Three-Eye Rock Palace](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472940)",
+    "coords": [
+      -0.62056660652118,
+      0.61828009353449
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472940",
+    "mapId": "hyrule",
+    "category": "palace",
+    "title": "Three-Eye Rock Palace",
+    "description": "Transitions to: [Three-Eye Rock Palace](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472939)",
+    "coords": [
+      -0.80203760146938,
+      0.50092668903717
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472941",
+    "mapId": "hyrule",
+    "category": "palace",
+    "title": "Great Palace",
+    "description": "Transitions to: [Great Palace](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472942)",
+    "coords": [
+      -0.72637209482534,
+      0.69254151284416
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472942",
+    "mapId": "hyrule",
+    "category": "palace",
+    "title": "Great Palace",
+    "description": "Transitions to: [Great Palace](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472941)",
+    "coords": [
+      -0.80842880653856,
+      0.42749225824613
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473039",
+    "mapId": "hyrule",
+    "category": "palace",
+    "title": "North Palace",
+    "description": "Palace localizado em hyrule.",
+    "coords": [
+      -0.85273188710769,
+      0.81613807146033
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472929",
+    "mapId": "hyrule",
+    "category": "town",
+    "title": "Ruto Town",
+    "description": "Transitions to: [Ruto Town](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472930)",
+    "coords": [
+      -0.90680622017095,
+      0.85699094161944
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472930",
+    "mapId": "hyrule",
+    "category": "town",
+    "title": "Ruto Town",
+    "description": "Transitions to: [Ruto Town](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472929)",
+    "coords": [
+      -0.92881679535125,
+      0.87110903413816
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472955",
+    "mapId": "hyrule",
+    "category": "town",
+    "title": "Rauru Town",
+    "description": "Transitions to: [Rauru Town](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472956)",
+    "coords": [
+      -0.79338877835971,
+      0.81081534914804
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472956",
+    "mapId": "hyrule",
+    "category": "town",
+    "title": "Rauru Town",
+    "description": "Transitions to: [Rauru Town](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472955)",
+    "coords": [
+      -0.92857073199508,
+      0.80580785931799
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472957",
+    "mapId": "hyrule",
+    "category": "town",
+    "title": "Ruto Town",
+    "description": "Transitions to: [Ruto Town](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472929)",
+    "coords": [
+      -0.99246159195712,
+      0.87109160179162
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472958",
+    "mapId": "hyrule",
+    "category": "town",
+    "title": "Rauru Town",
+    "description": "Transitions to: [Rauru Town](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472955)",
+    "coords": [
+      -0.99266275763617,
+      0.80565807532528
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472965",
+    "mapId": "hyrule",
+    "category": "town",
+    "title": "Saria Town",
+    "description": "Transitions to: [Saria Town](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472966)",
+    "coords": [
+      -0.89136398415533,
+      0.72053328829168
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472966",
+    "mapId": "hyrule",
+    "category": "town",
+    "title": "Saria Town",
+    "description": "Transitions to: [Saria Town](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472965)",
+    "coords": [
+      -0.92860203611136,
+      0.60958499417777
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472967",
+    "mapId": "hyrule",
+    "category": "town",
+    "title": "Saria Town",
+    "description": "Transitions to: [Saria Town](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472968)",
+    "coords": [
+      -0.89141762833563,
+      0.7154696752886
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472968",
+    "mapId": "hyrule",
+    "category": "town",
+    "title": "Saria Town",
+    "description": "Transitions to: [Saria Town](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472967)",
+    "coords": [
+      -1.0257196490929,
+      0.60957268721299
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472974",
+    "mapId": "hyrule",
+    "category": "town",
+    "title": "Mido Town",
+    "description": "Transitions to: [Mido Town](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472975)",
+    "coords": [
+      -0.92827398816968,
+      0.67494785082494
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472975",
+    "mapId": "hyrule",
+    "category": "town",
+    "title": "Mido Town",
+    "description": "Transitions to: [Mido Town](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472974)",
+    "coords": [
+      -0.75733798733225,
+      0.75676605093332
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472976",
+    "mapId": "hyrule",
+    "category": "town",
+    "title": "Mido Town",
+    "description": "Transitions to: [Mido Town](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472975)",
+    "coords": [
+      -1.0248543229832,
+      0.67501673794307
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472988",
+    "mapId": "hyrule",
+    "category": "town",
+    "title": "Nabooru Town",
+    "description": "Transitions to: [Nabooru Town](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472989)",
+    "coords": [
+      -0.47784648195659,
+      0.66677740162025
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472989",
+    "mapId": "hyrule",
+    "category": "town",
+    "title": "Nabooru Town",
+    "description": "Transitions to: [Nabooru Town](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472990)",
+    "coords": [
+      -0.67760528184951,
+      0.72568143911022
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472990",
+    "mapId": "hyrule",
+    "category": "town",
+    "title": "Nabooru Town",
+    "description": "Transitions to: [Nabooru Town](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472989)",
+    "coords": [
+      -0.3803526039176,
+      0.66669692663811
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472996",
+    "mapId": "hyrule",
+    "category": "town",
+    "title": "Darunia Town",
+    "description": "Transitions to: [Darunia Town](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472997)",
+    "coords": [
+      -0.72876691818288,
+      0.79532989651408
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472997",
+    "mapId": "hyrule",
+    "category": "town",
+    "title": "Darunia Town",
+    "description": "Transitions to: [Darunia Town](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472996)",
+    "coords": [
+      -0.38057863712288,
+      0.87117742256218
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472998",
+    "mapId": "hyrule",
+    "category": "town",
+    "title": "Darunia Town",
+    "description": "Transitions to: [Darunia Town](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472996)",
+    "coords": [
+      -0.4774948954597,
+      0.87114121692797
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473000",
+    "mapId": "hyrule",
+    "category": "town",
+    "title": "New Kasuto",
+    "description": "Requires: Using the [Hammer](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472946) nearby to reveal the entrance Transitions to: [New Kasuto](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473001)",
+    "coords": [
+      -0.57944297790638,
+      0.67201742461087
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473001",
+    "mapId": "hyrule",
+    "category": "town",
+    "title": "New Kasuto",
+    "description": "Transitions to: [New Kasuto](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473000)",
+    "coords": [
+      -0.47751903534021,
+      0.59860451775809
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473002",
+    "mapId": "hyrule",
+    "category": "town",
+    "title": "Old Kasuto",
+    "description": "Transitions to: [Old Kasuto](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473003)",
+    "coords": [
+      -0.64923271537029,
+      0.62514480334951
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473003",
+    "mapId": "hyrule",
+    "category": "town",
+    "title": "Old Kasuto",
+    "description": "Transitions to: [Old Kasuto](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473002)",
+    "coords": [
+      -0.38085490465213,
+      0.53047971984086
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473004",
+    "mapId": "hyrule",
+    "category": "town",
+    "title": "Old Kasuto",
+    "description": "Transitions to: [Old Kasuto](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473002)",
+    "coords": [
+      -0.47728969564287,
+      0.53044495886253
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473009",
+    "mapId": "hyrule",
+    "category": "heart-container",
+    "title": "Heart Container",
+    "description": "Location: In the [Fixed Encounter](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473097)",
+    "coords": [
+      -0.75149772989047,
+      0.78491703347493
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473012",
+    "mapId": "hyrule",
+    "category": "heart-container",
+    "title": "Heart Container",
+    "description": "Location: At the end of the [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473011)",
+    "coords": [
+      -0.77226828759044,
+      0.79040663282316
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473015",
+    "mapId": "hyrule",
+    "category": "heart-container",
+    "title": "Heart Container",
+    "description": "Location: In the [Fixed Encounter](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473096)",
+    "coords": [
+      -0.57381570339143,
+      0.73624074823344
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473016",
+    "mapId": "hyrule",
+    "category": "heart-container",
+    "title": "Heart Container",
+    "description": "Location: In the [Fixed Encounter](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473098)",
+    "coords": [
+      -0.5892625451074,
+      0.625438487746
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472963",
+    "mapId": "hyrule",
+    "category": "item",
+    "title": "Trophy",
+    "description": "Location: Inside the [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472962) Used For: Learning the [Jump](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472964) spell",
+    "coords": [
+      -0.83642274141337,
+      0.86763195045644
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472969",
+    "mapId": "hyrule",
+    "category": "item",
+    "title": "Mirror",
+    "description": "Location: Inside the house underneath the table Used For: Learning the [Life](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472970) spell",
+    "coords": [
+      -0.96395104070507,
+      0.6096945198849
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472972",
+    "mapId": "hyrule",
+    "category": "item",
+    "title": "Water of Life",
+    "description": "Location: Inside the [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472971) Used For: Learning the [Fairy](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472973) spell",
+    "coords": [
+      -0.88802222496471,
+      0.77241058735649
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472978",
+    "mapId": "hyrule",
+    "category": "item",
+    "title": "Bagu's Note",
+    "description": "Location: Given by Bagu inside [his secret house](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472979) Used For: Crossing the river in Saria town",
+    "coords": [
+      -0.85712939500814,
+      0.75447688516452
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472991",
+    "mapId": "hyrule",
+    "category": "item",
+    "title": "Water",
+    "description": "Location: Inside the fountain Used For: Learning the [Fire](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472993) spell",
+    "coords": [
+      -0.45154603907656,
+      0.6668427755322
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472992",
+    "mapId": "hyrule",
+    "category": "item",
+    "title": "Water",
+    "description": "Location: Inside the fountain Used For: Learning the [Fire](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472993) spell",
+    "coords": [
+      -0.42780003809347,
+      0.66685120571549
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473040",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.8251101637739,
+      0.89787725441688
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473041",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.64683251678065,
+      0.90718833008243
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473042",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.61437096902242,
+      0.90816885849259
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473043",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.600302533178,
+      0.8937487866372
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473045",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -1.0567800716053,
+      0.75092733422481
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473046",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -1.0413088619801,
+      0.74270079156797
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473047",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.92899203777014,
+      0.73960764657249
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473048",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -1.0119744240542,
+      0.73339644625761
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473049",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.94795425085229,
+      0.72573949166656
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473053",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.97432626401448,
+      0.55345981733663
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473054",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -1.046925224014,
+      0.54848100172784
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473055",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.98105212465526,
+      0.5421247624186
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473056",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.96474414941486,
+      0.53331525670373
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473059",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.46925810153141,
+      0.81229439632773
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473060",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.41410793410816,
+      0.81438557136228
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473062",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.38113285186478,
+      0.80662841938883
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473064",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.27396159192293,
+      0.80661555420254
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473065",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.40015951311398,
+      0.79530287410296
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473068",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.39506195040894,
+      0.7885941492285
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473069",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.27397054010316,
+      0.78957146071072
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473070",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.34607132101357,
+      0.75314860108796
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473071",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.37563897196105,
+      0.74026251595544
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473074",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.30535747474687,
+      0.74437245872689
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473075",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.27756385601037,
+      0.73147061701947
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473076",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.37339636309642,
+      0.72583441772426
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473077",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.47701167909813,
+      0.72428543985396
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473079",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.60923350965695,
+      0.49309372694147
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473080",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.57584940992834,
+      0.47400170084431
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473082",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.50978167101536,
+      0.46414021608481
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473087",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -0.52521232099343,
+      0.33225891416323
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473202",
+    "mapId": "hyrule",
+    "category": "key",
+    "title": "Key",
+    "description": "Key localizado em hyrule.",
+    "coords": [
+      -1.1129598608188,
+      0.5483541118666
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472943",
+    "mapId": "hyrule",
+    "category": "key-item",
+    "title": "Candle",
+    "description": "Key Item localizado em hyrule.",
+    "coords": [
+      -0.79727807110723,
+      0.89009325202724
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472944",
+    "mapId": "hyrule",
+    "category": "key-item",
+    "title": "Handy Glove",
+    "description": "Key Item localizado em hyrule.",
+    "coords": [
+      -1.2196459640503,
+      0.73856994986566
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472946",
+    "mapId": "hyrule",
+    "category": "key-item",
+    "title": "Hammer",
+    "description": "Location: Inside the [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472945)",
+    "coords": [
+      -0.88541060686165,
+      0.59228825663585
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472949",
+    "mapId": "hyrule",
+    "category": "key-item",
+    "title": "Raft",
+    "description": "Key Item localizado em hyrule.",
+    "coords": [
+      -0.93264224485904,
+      0.5421201535796
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472950",
+    "mapId": "hyrule",
+    "category": "key-item",
+    "title": "Boots",
+    "description": "Key Item localizado em hyrule.",
+    "coords": [
+      -0.27753026219747,
+      0.79787926366879
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472951",
+    "mapId": "hyrule",
+    "category": "key-item",
+    "title": "Flute",
+    "description": "Key Item localizado em hyrule.",
+    "coords": [
+      -0.34199779921272,
+      0.71657239048108
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472953",
+    "mapId": "hyrule",
+    "category": "key-item",
+    "title": "Magic Key",
+    "description": "Location: Use the [Spell](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472952) spell nearby to reveal the small cave containing the magic key",
+    "coords": [
+      -0.40400907397122,
+      0.59856026372368
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472954",
+    "mapId": "hyrule",
+    "category": "key-item",
+    "title": "Cross",
+    "description": "Key Item localizado em hyrule.",
+    "coords": [
+      -0.5933819312371,
+      0.49357496837231
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473030",
+    "mapId": "hyrule",
+    "category": "link-doll",
+    "title": "Link Doll",
+    "description": "Location: In the [Fixed Encounter](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473102)",
+    "coords": [
+      -0.89074283838184,
+      0.76717200217126
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473031",
+    "mapId": "hyrule",
+    "category": "link-doll",
+    "title": "Link Doll",
+    "description": "Location: In the [Fixed Encounter](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473094)",
+    "coords": [
+      -0.8134911954393,
+      0.68736528565765
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473032",
+    "mapId": "hyrule",
+    "category": "link-doll",
+    "title": "Link Doll",
+    "description": "Location: In the [Fixed Encounter](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473104)",
+    "coords": [
+      -0.61251327395473,
+      0.76708215621942
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473034",
+    "mapId": "hyrule",
+    "category": "link-doll",
+    "title": "Link Doll",
+    "description": "Location: In the [Fixed Encounter](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473103), requiring the [Jump](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472964) spell to reach",
+    "coords": [
+      -0.66938683390541,
+      0.67175324518789
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473035",
+    "mapId": "hyrule",
+    "category": "link-doll",
+    "title": "Link Doll",
+    "description": "Link Doll localizado em hyrule.",
+    "coords": [
+      -0.52433401907783,
+      0.47397672254145
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473037",
+    "mapId": "hyrule",
+    "category": "link-doll",
+    "title": "Link Doll",
+    "description": "Link Doll localizado em hyrule.",
+    "coords": [
+      -0.57657478722535,
+      0.35503129713737
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472948",
+    "mapId": "hyrule",
+    "category": "magic-container",
+    "title": "Magic Container",
+    "description": "Location: Inside the [Secret Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472947)",
+    "coords": [
+      -0.89078332837465,
+      0.59238989730815
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473022",
+    "mapId": "hyrule",
+    "category": "magic-container",
+    "title": "Magic Container",
+    "description": "Location: Inside the [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473020)",
+    "coords": [
+      -0.87009988636436,
+      0.79553896480303
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473025",
+    "mapId": "hyrule",
+    "category": "magic-container",
+    "title": "Magic Container",
+    "description": "Location: Inside the [Secret Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473024)",
+    "coords": [
+      -0.54824410918641,
+      0.80065579551719
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473027",
+    "mapId": "hyrule",
+    "category": "magic-container",
+    "title": "Magic Container",
+    "description": "Location: In the basement of the building, accessible by speaking to the old woman after acquiring all other [magic containers](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?search=category:13387)",
+    "coords": [
+      -0.46760510101728,
+      0.59881703284577
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472952",
+    "mapId": "hyrule",
+    "category": "spell",
+    "title": "Spell",
+    "description": "Location: Speak with the old wizard in the basement of the building, hidden in the fireplace, after acquiring at least three [magic containers](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?search=category:13387)",
+    "coords": [
+      -0.43047308921791,
+      0.59872252850954
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472959",
+    "mapId": "hyrule",
+    "category": "spell",
+    "title": "Shield",
+    "description": "Location: Speak with the old wizard in the basement of the house after speaking to the woman in a purple dress with a purple bowl on her head",
+    "coords": [
+      -0.97582404727621,
+      0.80589835417717
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472964",
+    "mapId": "hyrule",
+    "category": "spell",
+    "title": "Jump",
+    "description": "Location: Speak with the old wizard in the basement of the house after recovering the stolen [Trophy](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472963) in the [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472962) and speaking to the woman in the red dress",
+    "coords": [
+      -0.9670630634356,
+      0.87129254663205
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472970",
+    "mapId": "hyrule",
+    "category": "spell",
+    "title": "Life",
+    "description": "Location: Speak with the old wizard in the basement of the house after finding the [Mirror](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472969) and returning it to the woman in a purple dress with a purple bowl on her head",
+    "coords": [
+      -0.94947027814996,
+      0.60961607345678
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472973",
+    "mapId": "hyrule",
+    "category": "spell",
+    "title": "Fairy",
+    "description": "Location: Speak with the old wizard in the basement of the house after find the [Water of Life](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472972) and returning it to the old woman with the sickly daughter",
+    "coords": [
+      -1.00099535266,
+      0.67522544058815
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472993",
+    "mapId": "hyrule",
+    "category": "spell",
+    "title": "Fire",
+    "description": "Location: Speak with the old wizard in the basement of the house after giving the woman in the red dress water from either of the fountains and acquiring at least one [magic container](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?search=category:13387) - [Water](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472991) - [Water](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472992)",
+    "coords": [
+      -0.41962623596152,
+      0.66680356616028
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472999",
+    "mapId": "hyrule",
+    "category": "spell",
+    "title": "Reflect",
+    "description": "Location: Speak with the old wizard in the basement of the house after rescuing the [Kidnapped Child](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472995) and returning them to the old woman and acquiring at least two [magic containers](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?search=category:13387)",
+    "coords": [
+      -0.45211315154776,
+      0.87131956320412
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473005",
+    "mapId": "hyrule",
+    "category": "spell",
+    "title": "Thunder",
+    "description": "Location: Speak with the old wizard in the basement of the building after acquiring all four [magic containers](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?search=category:13387)",
+    "coords": [
+      -0.38980505157986,
+      0.53048038542111
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473006",
+    "mapId": "hyrule",
+    "category": "sword-technique",
+    "title": "Down Thrust",
+    "description": "Location: Speak with the knight inside the second floor of the church, accessible by using the [Jump](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472964) spell to reach the roof",
+    "coords": [
+      -0.97782754144288,
+      0.67751737895254
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473007",
+    "mapId": "hyrule",
+    "category": "sword-technique",
+    "title": "Jump Thrust",
+    "description": "Location: Speak with the knight inside building, accessible by using the [Jump](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472964) spell to reach the roof of the smallest building and jumping across the roofs, then going down the chimney",
+    "coords": [
+      -0.41633877974246,
+      0.87467220672259
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473044",
+    "mapId": "hyrule",
+    "category": "boss",
+    "title": "Mazura",
+    "description": "Boss localizado em hyrule.",
+    "coords": [
+      -0.59772761252304,
+      0.89370587651324
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473050",
+    "mapId": "hyrule",
+    "category": "boss",
+    "title": "Jermafenser",
+    "description": "Boss localizado em hyrule.",
+    "coords": [
+      -0.94587285665745,
+      0.72571803571668
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473057",
+    "mapId": "hyrule",
+    "category": "boss",
+    "title": "Rebonack",
+    "description": "Boss localizado em hyrule.",
+    "coords": [
+      -0.96300607797335,
+      0.53335817018805
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473066",
+    "mapId": "hyrule",
+    "category": "boss",
+    "title": "Carock",
+    "description": "Boss localizado em hyrule.",
+    "coords": [
+      -0.39824978029452,
+      0.79530287410296
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473073",
+    "mapId": "hyrule",
+    "category": "boss",
+    "title": "Gooma",
+    "description": "Boss localizado em hyrule.",
+    "coords": [
+      -0.37327862802672,
+      0.74026251595544
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473083",
+    "mapId": "hyrule",
+    "category": "boss",
+    "title": "Barba",
+    "description": "Boss localizado em hyrule.",
+    "coords": [
+      -0.50778610750757,
+      0.46409730214928
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473088",
+    "mapId": "hyrule",
+    "category": "boss",
+    "title": "Thunderbird",
+    "description": "Boss localizado em hyrule.",
+    "coords": [
+      -0.51978352994743,
+      0.33322449312558
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473090",
+    "mapId": "hyrule",
+    "category": "boss",
+    "title": "Dark Link",
+    "description": "Boss localizado em hyrule.",
+    "coords": [
+      -0.49174635483334,
+      0.3318102308201
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473111",
+    "mapId": "hyrule",
+    "category": "fairy",
+    "title": "Fairy",
+    "description": "Location: In the [Fixed Encounter](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473110)",
+    "coords": [
+      -0.89328772359323,
+      0.78529839079641
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473121",
+    "mapId": "hyrule",
+    "category": "fairy",
+    "title": "Fairy",
+    "description": "Location: In the [Fixed Encounter](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473120)",
+    "coords": [
+      -0.82639702187586,
+      0.72603106626026
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473176",
+    "mapId": "hyrule",
+    "category": "fairy",
+    "title": "Fairy",
+    "description": "Location: In the [Fixed Encounter](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473175)",
+    "coords": [
+      -0.70259704978002,
+      0.70546859670708
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473196",
+    "mapId": "hyrule",
+    "category": "fairy",
+    "title": "Fairy",
+    "description": "Fairy localizado em hyrule.",
+    "coords": [
+      -0.66743655795318,
+      0.89916903313507
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473225",
+    "mapId": "hyrule",
+    "category": "fairy",
+    "title": "Fairy",
+    "description": "Fairy localizado em hyrule.",
+    "coords": [
+      -0.84712157369447,
+      0.37817524024783
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473227",
+    "mapId": "hyrule",
+    "category": "fairy",
+    "title": "Fairy",
+    "description": "Fairy localizado em hyrule.",
+    "coords": [
+      -0.53947348439428,
+      0.35361401168821
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473228",
+    "mapId": "hyrule",
+    "category": "fairy",
+    "title": "Fairy",
+    "description": "Fairy localizado em hyrule.",
+    "coords": [
+      -0.47356274204941,
+      0.34564104342718
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472977",
+    "mapId": "hyrule",
+    "category": "npc",
+    "title": "River Devil",
+    "description": "Requires: Using the [Flute](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472951) to move it out of the way",
+    "coords": [
+      -0.68778370726557,
+      0.6898508557846
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472981",
+    "mapId": "hyrule",
+    "category": "npc",
+    "title": "River Man",
+    "description": "Requires: Link acquiring [Bagu's Note](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472978) for the river man to allow access to the bridge",
+    "coords": [
+      -0.99638000002281,
+      0.60961706132277
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472982",
+    "mapId": "hyrule",
+    "category": "npc",
+    "title": "River Man",
+    "description": "Requires: Link acquiring [Bagu's Note](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472978) for the river man to allow access to the bridge",
+    "coords": [
+      -1.0030533360515,
+      0.60961706132277
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-472995",
+    "mapId": "hyrule",
+    "category": "npc",
+    "title": "Kidnapped Child",
+    "description": "Location: Inside the [Secret Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472994) Used For: Learning the [Reflect](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=472999) spell",
+    "coords": [
+      -0.50691604614303,
+      0.79553908865542
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473232",
+    "mapId": "hyrule",
+    "category": "npc",
+    "title": "Healing Woman",
+    "description": "NPC localizado em hyrule.",
+    "coords": [
+      -0.94125157780928,
+      0.87119738070474
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473233",
+    "mapId": "hyrule",
+    "category": "npc",
+    "title": "Magic Restoring Woman",
+    "description": "NPC localizado em hyrule.",
+    "coords": [
+      -0.94740992970671,
+      0.87113301512835
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473234",
+    "mapId": "hyrule",
+    "category": "npc",
+    "title": "Healing Woman",
+    "description": "NPC localizado em hyrule.",
+    "coords": [
+      -0.9535773711228,
+      0.80579278015074
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473236",
+    "mapId": "hyrule",
+    "category": "npc",
+    "title": "Healing Woman",
+    "description": "NPC localizado em hyrule.",
+    "coords": [
+      -0.94224957306957,
+      0.67499747389937
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473237",
+    "mapId": "hyrule",
+    "category": "npc",
+    "title": "Magic Restoring Woman",
+    "description": "NPC localizado em hyrule.",
+    "coords": [
+      -0.98919632854239,
+      0.67498602874764
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473238",
+    "mapId": "hyrule",
+    "category": "npc",
+    "title": "Magic Restoring Woman",
+    "description": "NPC localizado em hyrule.",
+    "coords": [
+      -0.97936966878879,
+      0.60956332383286
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473239",
+    "mapId": "hyrule",
+    "category": "npc",
+    "title": "Healing Woman",
+    "description": "NPC localizado em hyrule.",
+    "coords": [
+      -0.98863823894743,
+      0.60963692763649
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473240",
+    "mapId": "hyrule",
+    "category": "npc",
+    "title": "Magic Restoring Woman",
+    "description": "NPC localizado em hyrule.",
+    "coords": [
+      -0.40779653838626,
+      0.87114565251483
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473241",
+    "mapId": "hyrule",
+    "category": "npc",
+    "title": "Healing Woman",
+    "description": "NPC localizado em hyrule.",
+    "coords": [
+      -0.39955679229277,
+      0.87114565251483
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473242",
+    "mapId": "hyrule",
+    "category": "npc",
+    "title": "Healing Woman",
+    "description": "NPC localizado em hyrule.",
+    "coords": [
+      -0.43976218631471,
+      0.6667601349269
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473243",
+    "mapId": "hyrule",
+    "category": "npc",
+    "title": "Magic Restoring Woman",
+    "description": "NPC localizado em hyrule.",
+    "coords": [
+      -0.40568269268664,
+      0.66673420192801
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473244",
+    "mapId": "hyrule",
+    "category": "npc",
+    "title": "Magic Restoring Woman",
+    "description": "NPC localizado em hyrule.",
+    "coords": [
+      -0.45112179439391,
+      0.59857134268216
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473245",
+    "mapId": "hyrule",
+    "category": "npc",
+    "title": "Healing Woman",
+    "description": "NPC localizado em hyrule.",
+    "coords": [
+      -0.44077522164463,
+      0.59859997953266
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473106",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Location: Inside the [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473105) Worth: 200 EXP",
+    "coords": [
+      -0.81344300766517,
+      0.79036742069431
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473117",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Location: In the [Fixed Encounter](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473116) Worth: 50 EXP",
+    "coords": [
+      -0.81614850882306,
+      0.84180647330469
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473119",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Location: In the [Fixed Encounter](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473118) Worth: 100 EXP",
+    "coords": [
+      -0.85988888837943,
+      0.72857248455175
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473174",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Location: In the [Fixed Encounter](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473173) Worth: 200 EXP",
+    "coords": [
+      -0.7103954682571,
+      0.73110904043176
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473179",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Location: In the [Fixed Encounter](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473178) Worth: 500 EXP",
+    "coords": [
+      -0.59957776961244,
+      0.71545557339823
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473181",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Location: Inside the [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473180) Worth: 500 EXP",
+    "coords": [
+      -0.67171247781903,
+      0.69770651090089
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473183",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Location: Inside the [Cave](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473182) Worth: 500 EXP",
+    "coords": [
+      -0.65625308901986,
+      0.67963865451718
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473189",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Location: In the [Fixed Encounter](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473188) Worth: 500 EXP",
+    "coords": [
+      -0.72588750235468,
+      0.64609039756685
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473193",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Location: In the [Fixed Encounter](https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule?locationIds=473192) Worth: 500 EXP",
+    "coords": [
+      -0.59690767947029,
+      0.64640584313729
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473197",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Worth: 50 EXP",
+    "coords": [
+      -0.75655823352304,
+      0.89362479683008
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473199",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Worth: 50 EXP",
+    "coords": [
+      -1.1789230571359,
+      0.73910742649133
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473201",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Worth: 100 EXP",
+    "coords": [
+      -1.0222894624127,
+      0.72570425820818
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473204",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Worth: 100 EXP",
+    "coords": [
+      -1.0397400122479,
+      0.54865529265302
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473205",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Worth: 100 EXP",
+    "coords": [
+      -1.0196854723124,
+      0.53689811724158
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473206",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Worth: 100 EXP",
+    "coords": [
+      -0.97950068120213,
+      0.53176359712948
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473207",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Worth: 200 EXP",
+    "coords": [
+      -0.45946947933427,
+      0.81229198683087
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473208",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Worth: 100 EXP",
+    "coords": [
+      -0.36777515970167,
+      0.81227852434787
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473209",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Worth: 100 EXP",
+    "coords": [
+      -0.45532626100143,
+      0.7988215536401
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473210",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Worth: 200 EXP",
+    "coords": [
+      -0.30998658320394,
+      0.75628139266669
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473212",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Worth: 200 EXP",
+    "coords": [
+      -0.43425997137089,
+      0.73255598538564
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473213",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Worth: 200 EXP",
+    "coords": [
+      -0.38424528148192,
+      0.73306734342582
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473215",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Worth: 200 EXP",
+    "coords": [
+      -0.40123953225091,
+      0.72586617082334
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473216",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Worth: 50 EXP",
+    "coords": [
+      -0.43318571471519,
+      0.72576961148764
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473217",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Worth: 200 EXP",
+    "coords": [
+      -0.81653526716363,
+      0.49408102429304
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473218",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Worth: 100 EXP",
+    "coords": [
+      -0.77894223982722,
+      0.49614931144841
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473219",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Worth: 100 EXP",
+    "coords": [
+      -0.67532653963517,
+      0.49048462600962
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473220",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Worth: 200 EXP",
+    "coords": [
+      -0.60682715464353,
+      0.48479173194707
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473221",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Worth: 200 EXP",
+    "coords": [
+      -0.75159425053835,
+      0.48071480184706
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473222",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Worth: 200 EXP",
+    "coords": [
+      -0.75159259198026,
+      0.46726334399233
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-2-adventure-of-link-hyrule-473223",
+    "mapId": "hyrule",
+    "category": "treasure-bag",
+    "title": "Treasure Bag",
+    "description": "Worth: 200 EXP",
+    "coords": [
+      -0.63515654507529,
+      0.45695403534626
+    ],
+    "region": "hyrule",
+    "dlc": "base"
+  }
+]

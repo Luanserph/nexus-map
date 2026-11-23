@@ -1,0 +1,4318 @@
+[
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214556",
+    "mapId": "hyrule-lorule",
+    "category": "dungeon",
+    "title": "Sanctuary Dungeon",
+    "description": "Required items: - [Captain's Sword](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214550) Notable items: - [Lamp](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214555) - [Heart Piece](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214622)",
+    "coords": [
+      -0.95866029176876,
+      0.78736147479287
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214576",
+    "mapId": "hyrule-lorule",
+    "category": "dungeon",
+    "title": "Eastern Palace",
+    "description": "Required items: - [Bow & Arrow](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214575) Notable items: - [Monster Guts](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214578) - [Monster Guts](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214579) - [Heart Container](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214580)",
+    "coords": [
+      -0.79468510291303,
+      0.74522996230139
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214593",
+    "mapId": "hyrule-lorule",
+    "category": "dungeon",
+    "title": "Tower of Hera",
+    "description": "Required items: - [Power Glove](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214589) - [Hammer](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214597) Notable items: - [Monster Guts](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215119) - [Heart Container](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215120) - [Pendant of Power](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215121)",
+    "coords": [
+      -0.9479878219574,
+      0.90602345655166
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214674",
+    "mapId": "hyrule-lorule",
+    "category": "dungeon",
+    "title": "House of Gales",
+    "description": "Required items: - [Zora's Flippers](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214607) - [Tornado Rod](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214596) - [Lamp](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214555) Notable items: - [Monster Guts](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215139) - [Heart Container](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215140) - [Pendant of Wisdom](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215141)",
+    "coords": [
+      -0.86315901893476,
+      0.557948137535
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215149",
+    "mapId": "hyrule-lorule",
+    "category": "dungeon",
+    "title": "Inside Hyrule Castle",
+    "description": "Required items: - [Master Sword](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215148) Notable items: - ??",
+    "coords": [
+      -0.98712387184245,
+      0.73512605372313
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215232",
+    "mapId": "hyrule-lorule",
+    "category": "dungeon",
+    "title": "Thieves' Hideout",
+    "description": "Required items: - Solve the [Song Riddle](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215231) - [Lamp](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214555) Notable items: - [Master Ore](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215233) - [Heart Container](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215234) - [Osfala](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215235)",
+    "coords": [
+      -0.57532879908429,
+      0.71869430684762
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215257",
+    "mapId": "hyrule-lorule",
+    "category": "dungeon",
+    "title": "Desert Palace",
+    "description": "Required items: - [Sand Rod](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214602) Notable items: - [Titan's Mitt](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215258) - [Heart Container](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215261) - [Irene](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215262)",
+    "coords": [
+      -1.167629605793,
+      0.57138254431268
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215297",
+    "mapId": "hyrule-lorule",
+    "category": "dungeon",
+    "title": "Dark Palace",
+    "description": "Required items: - [Bomb](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214598) - [Lamp](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214555) or [Fire Rod](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214600) Notable items: - [Master Ore](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215298) - [Heart Container](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215299) - [Gulley](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215300)",
+    "coords": [
+      -0.22631911920037,
+      0.73658893376531
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215308",
+    "mapId": "hyrule-lorule",
+    "category": "dungeon",
+    "title": "Skull Woods",
+    "description": "Required items: - [Lamp](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214555) - [Bomb](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214598) Notable items: - [Master Ore](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215309) - [Heart Container](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215310) - [Seres](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215311)",
+    "coords": [
+      -0.56215154278886,
+      0.84271563326207
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215326",
+    "mapId": "hyrule-lorule",
+    "category": "dungeon",
+    "title": "Turtle Rock",
+    "description": "Required items: - Rescue all three baby turtles ([Stranded Turtle](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215318); [Attacked Turtle](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215317); [Stuck Turtle](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215316)), so Mama Turtle starts swimming around the lake. - [Ice Rod](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214601) Notable items: - ??",
+    "coords": [
+      -0.301871581684,
+      0.55719562837205
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215331",
+    "mapId": "hyrule-lorule",
+    "category": "dungeon",
+    "title": "Swamp Palace",
+    "description": "Required items: - [Hookshot](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214594) - [Big Bomb Flower](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215219) - [Bomb](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214598) Notable items: - [Golden Rupee](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215332) - [Blue Mail](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215333) - [Heart Container](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215334) - [Oren](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215335)",
+    "coords": [
+      -0.43290936442665,
+      0.53222437422805
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215336",
+    "mapId": "hyrule-lorule",
+    "category": "dungeon",
+    "title": "Ice Ruins",
+    "description": "Required items: - [Fire Rod](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214600) Notable items: - [Golden Rupee](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215337) - [Stamina Scroll](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215338) - [Heart Container](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215339) - [Rosso](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215340)",
+    "coords": [
+      -0.23507750692854,
+      0.88708434894179
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215342",
+    "mapId": "hyrule-lorule",
+    "category": "dungeon",
+    "title": "Lorule Castle",
+    "description": "Required items: - [Triforce of Courage](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215341) Notable items: - [Red Mail](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215343)",
+    "coords": [
+      -0.4188315633717,
+      0.72391789194094
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214557",
+    "mapId": "hyrule-lorule",
+    "category": "house",
+    "title": "Link's House",
+    "description": "Becomes Ravio's Shop after acquiring the [Smooth Gem](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214586).",
+    "coords": [
+      -0.97379934688123,
+      0.62906887806432
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214570",
+    "mapId": "hyrule-lorule",
+    "category": "house",
+    "title": "Bee Guy",
+    "description": "Gives the [Net](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214571) when spoken to for the first time. Also gives the [Bee Badge](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215305) in exchange for a Golden Bee (one can be purchased [here](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215304)).",
+    "coords": [
+      -1.1316467620975,
+      0.68905187091744
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214588",
+    "mapId": "hyrule-lorule",
+    "category": "house",
+    "title": "Rosso's House",
+    "description": "House localizado em hyrule-lorule.",
+    "coords": [
+      -1.0577184972123,
+      0.88811392257529
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214572",
+    "mapId": "hyrule-lorule",
+    "category": "minigame",
+    "title": "Cucco Ranch",
+    "description": "Objective: Dodge the Cuccos flying in the ranch for 30 seconds. Each level increases the number and size of Cuccos. Level 1 (Egg): _Cost:_ 20 Rupees _Reward:_ 40 Rupees Level 2 (Chick): _Cost:_ 30 Rupees _Reward:_ 60 Rupees Level 3 (Rooster): _Cost:_ 50 Rupees _Reward:_ 150 Rupees and a [Heart Piece](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214573) Level 4 (Endless): _Special:_ As the name implies, this level is endless-ish. _Cost:_ 10 Rupees _Reward:_ 100 Rupees per 100 seconds _Special reward:_ Lasting 1,000 seconds rewards 3,000 Rupees",
+    "coords": [
+      -1.1256018372221,
+      0.62981096223135
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214647",
+    "mapId": "hyrule-lorule",
+    "category": "minigame",
+    "title": "Rupee Rush",
+    "description": "Objective: Collect as many Rupees as you can within 30 seconds. Remaining time is not displayed in game. Ending closer to 30 seconds multiplies the amount, while going over 30 seconds nullifies it. Cost: 50 Rupees Reward: The first time the player collects over 100 Rupees, he receives a [Heart Piece](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214649)",
+    "coords": [
+      -1.1724354469283,
+      0.62591712271674
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214713",
+    "mapId": "hyrule-lorule",
+    "category": "minigame",
+    "title": "Hyrule Hotfoot",
+    "description": "Objective: Race to the other racing bro behind [Rosso's House](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214588) within the time limit. Cost: 20 Rupees. Rewards: - Level 1 (75 seconds): 100 Rupees - Level 2 (65 seconds): [Heart Piece](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214714) - Level 3 (beat your previous time): 300 Rupees",
+    "coords": [
+      -0.7883723257272,
+      0.59028262869519
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215192",
+    "mapId": "hyrule-lorule",
+    "category": "minigame",
+    "title": "Treacherous Tower",
+    "description": "Objective: Defeat all enemies in the room to advance; complete all rooms to win the level. Further levels have harder enemies and more rooms. When replaying a level, beating it with a lower time will yield additional Rupees. Beginner (5 rooms): _Cost:_ 100 Rupees _Reward:_ 300 Rupees Intermediate (15 rooms): _Cost:_ 200 Rupees _Reward:_ 1,000 Rupees and a [Heart Piece](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215193) Advanced (50 rooms): _Cost:_ 300 Rupees _Reward:_ 5,000 Rupees _Other rewards:_ Beating the level for the first time upgrades the [Lamp](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214555) to the Super Lamp. Beating it a second time upgrades the [Net](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214571) to the Super Net.",
+    "coords": [
+      -0.39215429979447,
+      0.90984670765727
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215205",
+    "mapId": "hyrule-lorule",
+    "category": "minigame",
+    "title": "Fortune's Choice",
+    "description": "Objective: Open 3 treasure chests, among a choice of 15. You keep whatever you open. Cost: 200 Rupees Treasure distribution: - 1x [Heart Piece](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215206) (turns into a Golden Rupee once opened) - 2x Golden Rupee (300) - 3x Silver Rupee (100) - 3x Red Rupee (20) - 3x Green Rupee (1) - 1x Monster Guts - 1x Monster Horn - 1x Monster Tail",
+    "coords": [
+      -0.54406942339134,
+      0.69114546337825
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215207",
+    "mapId": "hyrule-lorule",
+    "category": "minigame",
+    "title": "Rupee Rush",
+    "description": "Objective: Collect as many Rupees as you can within 30 seconds. Remaining time is not displayed in game. Ending closer to 30 seconds multiplies the amount, while going over 30 seconds nullifies it. Cost: 100 Rupees Reward: The first time the player collects over 150 Rupees, he receives a [Heart Piece](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215208).",
+    "coords": [
+      -0.60252472555729,
+      0.62300285406962
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215216",
+    "mapId": "hyrule-lorule",
+    "category": "minigame",
+    "title": "Octoball Derby",
+    "description": "Objective: Hit 30 balls into the fields, breaking pots to gain points. Cost: 50 Rupees Reward: 1 Rupee per point scored Special reward: A [Heart Piece](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215217), the first time the player scores above 100 points.",
+    "coords": [
+      -0.49767086757903,
+      0.62721783079458
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214551",
+    "mapId": "hyrule-lorule",
+    "category": "point-of-interest",
+    "title": "Hyrule Castle",
+    "description": "Point of Interest localizado em hyrule-lorule.",
+    "coords": [
+      -0.98756135240589,
+      0.72017004699377
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214552",
+    "mapId": "hyrule-lorule",
+    "category": "point-of-interest",
+    "title": "Sanctuary",
+    "description": "Point of Interest localizado em hyrule-lorule.",
+    "coords": [
+      -1.0040845401208,
+      0.79917758919651
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214554",
+    "mapId": "hyrule-lorule",
+    "category": "point-of-interest",
+    "title": "Graveyard",
+    "description": "Interact with the middle gravestone to reveal the secret passage to the [Sanctuary Dungeon](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214556)",
+    "coords": [
+      -0.95854382120445,
+      0.77919702759635
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214560",
+    "mapId": "hyrule-lorule",
+    "category": "point-of-interest",
+    "title": "Fortune-Teller",
+    "description": "Point of Interest localizado em hyrule-lorule.",
+    "coords": [
+      -1.113364776531,
+      0.77852985497322
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214574",
+    "mapId": "hyrule-lorule",
+    "category": "point-of-interest",
+    "title": "Ravio Signs",
+    "description": "Point of Interest localizado em hyrule-lorule.",
+    "coords": [
+      -0.86623865901783,
+      0.67107456108065
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214585",
+    "mapId": "hyrule-lorule",
+    "category": "point-of-interest",
+    "title": "Zora Cave",
+    "description": "Point of Interest localizado em hyrule-lorule.",
+    "coords": [
+      -0.82060557487918,
+      0.8594772727144
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214603",
+    "mapId": "hyrule-lorule",
+    "category": "point-of-interest",
+    "title": "Mother Maiamai",
+    "description": "Note: Requires the [Bomb](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214598) to access the cavern. Speaking with her allows the player to collect lost Maiamais. For every 10 maiamais collected, Mother Maiamai can upgrade one gear from [Ravio's Shop](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214595) that the player _owns_. See each gear for their upgrades.",
+    "coords": [
+      -0.8916157276128,
+      0.59846297099361
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214668",
+    "mapId": "hyrule-lorule",
+    "category": "point-of-interest",
+    "title": "Secret Cavern",
+    "description": "Location: Against the wall between the two pillars; use a [Bomb](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214598) to reveal the entrance.",
+    "coords": [
+      -0.94888401508675,
+      0.52422538901136
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214757",
+    "mapId": "hyrule-lorule",
+    "category": "point-of-interest",
+    "title": "Milk Bar",
+    "description": "Point of Interest localizado em hyrule-lorule.",
+    "coords": [
+      -1.1320237445601,
+      0.66835908504767
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214768",
+    "mapId": "hyrule-lorule",
+    "category": "point-of-interest",
+    "title": "Bouldering Guy",
+    "description": "Location: On a platform; Merge Wall when exiting the moving platforms cave to reach him.",
+    "coords": [
+      -0.84334882312941,
+      0.87465839778951
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215146",
+    "mapId": "hyrule-lorule",
+    "category": "point-of-interest",
+    "title": "Runaway Item Seller",
+    "description": "Location: Hidden in a secret cavern; use a [Bomb](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214598) to blow up the wall between the two small rocks. Quest: Bring him a [Scoot Fruit](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215143) to gain 100 Rupees.",
+    "coords": [
+      -0.97725317383484,
+      0.58654732918405
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215221",
+    "mapId": "hyrule-lorule",
+    "category": "point-of-interest",
+    "title": "Great Rupee Fairy",
+    "description": "Location: Inside a caver, behind a large boulder, which must be blown using a [Big Bomb Flower](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215219). Can be given 50 or 200 Rupees to fully heal the player and release a few fairies. After donating a total of 3,000 Rupees, gives an [Empty Bottle](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215222).",
+    "coords": [
+      -0.56661076291607,
+      0.64040816563176
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215231",
+    "mapId": "hyrule-lorule",
+    "category": "point-of-interest",
+    "title": "Song Riddle",
+    "description": "♪ A smart thief fears the boss's wrath! ♪ I'd rather be on a cliff walkin' a narrow path. ♪ Sometimes it hurts too much t'care. ♪ Ya think knowledge is power, but it's really despair. ♪ Every time I say I'm a-leavin', ♪ This accursed life sets me back to thievin'!",
+    "coords": [
+      -0.57572681252248,
+      0.71010233517495
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215267",
+    "mapId": "hyrule-lorule",
+    "category": "point-of-interest",
+    "title": "Secret Entrance",
+    "description": "Location: Under the large boulder; use the [Titan's Mitt](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215258) to access.",
+    "coords": [
+      -0.37723686720478,
+      0.78848642484672
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215272",
+    "mapId": "hyrule-lorule",
+    "category": "point-of-interest",
+    "title": "Death Mountain Cavern",
+    "description": "Point of Interest localizado em hyrule-lorule.",
+    "coords": [
+      -1.0300613741746,
+      0.84191732364931
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215279",
+    "mapId": "hyrule-lorule",
+    "category": "point-of-interest",
+    "title": "Great Rupee Fairy",
+    "description": "Location: In the cavern; speak with her to refill all hearts.",
+    "coords": [
+      -0.21903058953124,
+      0.61692380629791
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215303",
+    "mapId": "hyrule-lorule",
+    "category": "point-of-interest",
+    "title": "Mysterious Man",
+    "description": "Location: In a cave, between the two giant ribcages.",
+    "coords": [
+      -0.58985579743554,
+      0.90343452846722
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-396585",
+    "mapId": "hyrule-lorule",
+    "category": "point-of-interest",
+    "title": "Fairy Fountain",
+    "description": "Point of Interest localizado em hyrule-lorule.",
+    "coords": [
+      -0.94987612404825,
+      0.58774699363272
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-396589",
+    "mapId": "hyrule-lorule",
+    "category": "point-of-interest",
+    "title": "Fairy Fountain",
+    "description": "Fairy Fountain. Tornado Rod needed from Ravio's Shop to access.",
+    "coords": [
+      -0.81257627624043,
+      0.5950431978535
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215161",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: Against the inside wall of the ruins. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215162)",
+    "coords": [
+      -0.58995700270908,
+      0.69153242177213
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215162",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: Inside the house, behind racks of clothes. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215161)",
+    "coords": [
+      -1.1599565106974,
+      0.69390623103796
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215164",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: Outside the house, against the northern wall. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215165)",
+    "coords": [
+      -1.1284380549498,
+      0.74436251889437
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215165",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: Outside the house, against the northern wall. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215164)",
+    "coords": [
+      -0.56639763830421,
+      0.74357261306873
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215168",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: On the southern of the pillar. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215169)",
+    "coords": [
+      -0.62200942702186,
+      0.82704063634008
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215169",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: On the southern of the pillar. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215168)",
+    "coords": [
+      -1.1918379374488,
+      0.85375066128004
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215177",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: Within the ruins. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215178)",
+    "coords": [
+      -0.49368030355356,
+      0.89036312788655
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215178",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: Inside [Rosso's House](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214588), against the northern wall. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215177)",
+    "coords": [
+      -1.0575184704833,
+      0.89556069437315
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215179",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: Against the northern wall of the [Sanctuary](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214552). Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215180)",
+    "coords": [
+      -1.0040032653354,
+      0.80602393837214
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215180",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: Inside the cavern, against the back wall. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215179)",
+    "coords": [
+      -0.43580034503474,
+      0.79840764605504
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215184",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: Up on the platform, behind a boulder; use a [Bomb](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214598) to access. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215185)",
+    "coords": [
+      -0.39448359576158,
+      0.79711867978576
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215185",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: Up on the platform. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215184)",
+    "coords": [
+      -0.96315925710416,
+      0.79824799397267
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215188",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: Above the cavern door; Wall Merge from the platform just east to access. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215189)",
+    "coords": [
+      -0.99785500305911,
+      0.85262598859242
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215189",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: High up on the cliff side. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215188)",
+    "coords": [
+      -0.43233177566206,
+      0.8515649740509
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215194",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: On the side of the mountain. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215195)",
+    "coords": [
+      -0.88807139927346,
+      0.84382094910448
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215195",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: On the side of the mountain. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215194)",
+    "coords": [
+      -0.32074074356638,
+      0.84204635924724
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215200",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: On the southern side of the pillar; access by climbing the ice cavern, going north at the crossroads. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215201)",
+    "coords": [
+      -0.29002051483737,
+      0.90293959523127
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215201",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: On the southern side of the portal. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215200)",
+    "coords": [
+      -0.85846413267534,
+      0.90396650998118
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215210",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: In the rocky wall, to the south. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215211)",
+    "coords": [
+      -0.51133574591178,
+      0.55189578707127
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215211",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: In the rocky wall, to the south. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215210)",
+    "coords": [
+      -1.0796884072239,
+      0.55249224348622
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215212",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: In the rocky wall, to the south. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215213)",
+    "coords": [
+      -1.0618547104063,
+      0.55638977330275
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215213",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: In the rocky wall, to the south. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215212)",
+    "coords": [
+      -0.49322096412737,
+      0.55842872680124
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215229",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: On the rocky wall. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215230)",
+    "coords": [
+      -0.39593235234766,
+      0.61195557398776
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215230",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: On the rocky wall. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215229)",
+    "coords": [
+      -0.96386031486087,
+      0.61308154406569
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215237",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: In the rocky wall. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215238)",
+    "coords": [
+      -1.0658930666732,
+      0.52555906915105
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215238",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: In the rocky wall. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215237)",
+    "coords": [
+      -0.49935940491862,
+      0.52576683030674
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215243",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: On the southern side of the pillar. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215244)",
+    "coords": [
+      -0.5492218698949,
+      0.54506299251933
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215244",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: On the southern side of the pillar. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215243)",
+    "coords": [
+      -1.1169231821385,
+      0.5458421651101
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215246",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: High up the wall, behind a boulder. Requires the [Bomb](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214598) to blow it up. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215248)",
+    "coords": [
+      -1.1438941565975,
+      0.5889509805317
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215248",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: In the rocky wall. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215246)",
+    "coords": [
+      -0.57032181474301,
+      0.58820597834657
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215249",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: On the southern side of the pillar. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215250)",
+    "coords": [
+      -1.1316383297701,
+      0.54572669205962
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215250",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: On the southern side of the pillar. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215249)",
+    "coords": [
+      -0.56378233151256,
+      0.54464241477394
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215251",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: High up on the wall; access from the ledge to the right. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215252)",
+    "coords": [
+      -1.1580690930656,
+      0.5208650454105
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215252",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: On the rocky wall, above the bridge. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215251)",
+    "coords": [
+      -0.5917150298534,
+      0.52356816586087
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215253",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: In the small alcove. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215254)",
+    "coords": [
+      -0.62182327838765,
+      0.50075573408971
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215254",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: High up in the alcove. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215253)",
+    "coords": [
+      -1.1909062049009,
+      0.50075377274699
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215259",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: On the northern wall, on the higher platform. Complete [Desert Palace](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215257) to access. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215260)",
+    "coords": [
+      -1.1676062056594,
+      0.59388387605799
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215260",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: In the northern wall. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215259)",
+    "coords": [
+      -0.59791490659622,
+      0.58520729616125
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215276",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: In the northern wall, blocked by rocks; use a [Bomb](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214598) to clear it. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215277)",
+    "coords": [
+      -0.81937169457231,
+      0.6389240946645
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215277",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: In the northern wall. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215276)",
+    "coords": [
+      -0.25069326063851,
+      0.63471384292312
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215284",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: On the northern side of the pillar. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215285)",
+    "coords": [
+      -0.33883728274741,
+      0.6878128876639
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215285",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: On the northern side of the pillar. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215284)",
+    "coords": [
+      -0.90603196293292,
+      0.68768887290292
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215287",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: In the wall, behind the waterfall. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215288)",
+    "coords": [
+      -0.33158626670661,
+      0.80843525068704
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215288",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: In the wall, behind the waterfall. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215287)",
+    "coords": [
+      -0.90191910204092,
+      0.80734674912285
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215289",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: In the wall of the cliff, to the north. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215290)",
+    "coords": [
+      -0.24101786815154,
+      0.76938211287697
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215290",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: In the wall of the cliff, to the north. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215289)",
+    "coords": [
+      -0.80899863362799,
+      0.7705249831793
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215313",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: High up in the northern wall; access by Wall Merging from the other side of the cliff. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215314)",
+    "coords": [
+      -0.92058100785208,
+      0.52678284754994
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215314",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: High up against the northern wall. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215313)",
+    "coords": [
+      -0.35106647440043,
+      0.52430799628956
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215320",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: In the northern wall. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215321)",
+    "coords": [
+      -0.2307434416917,
+      0.59044601926437
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215321",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal",
+    "description": "Location: In the northern wall. Destination: [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215320)",
+    "coords": [
+      -0.79842689965434,
+      0.59184565193971
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-396584",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal to Lorule",
+    "description": "Location: Behind the pillar Destination: Above the pool of water behind the water dungeon ??",
+    "coords": [
+      -1.0025798525743,
+      0.59146176540313
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-396586",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal to Hyrule",
+    "description": "Portal localizado em hyrule-lorule.",
+    "coords": [
+      -0.29444419847321,
+      0.61923086903071
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-396587",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal to Hyrule",
+    "description": "Portal localizado em hyrule-lorule.",
+    "coords": [
+      -0.43568645922456,
+      0.59086587472616
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-396588",
+    "mapId": "hyrule-lorule",
+    "category": "portal",
+    "title": "Portal to Lorule",
+    "description": "Portal localizado em hyrule-lorule.",
+    "coords": [
+      -0.86250289643133,
+      0.62026005618835
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214565",
+    "mapId": "hyrule-lorule",
+    "category": "shop",
+    "title": "Shop",
+    "description": "Inventory: - [Shield](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214566) (50)",
+    "coords": [
+      -1.1770047374522,
+      0.71929619623895
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214567",
+    "mapId": "hyrule-lorule",
+    "category": "shop",
+    "title": "Street Merchant",
+    "description": "Inventory: - [Bottle](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214568) (100) - [Smooth Gem](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214586) (200), after visiting the [Zora Cave](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214585)",
+    "coords": [
+      -1.1614207398865,
+      0.7177388625787
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214584",
+    "mapId": "hyrule-lorule",
+    "category": "shop",
+    "title": "Witch's House",
+    "description": "Inventory: - Red Potion (restores 8 hearts): 50 Rupees - Blue Potion (restores all health): 200 Rupees and 10 Monster Tails - Yellow Potion (brief invincibility): 100 Rupees and 10 Monster Horns - Purple Potion (AoE damage): 60 Rupees and 10 Monster Guts",
+    "coords": [
+      -0.86365590983558,
+      0.77405733510551
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214595",
+    "mapId": "hyrule-lorule",
+    "category": "shop",
+    "title": "Ravio's Shop",
+    "description": "Ravio offers two services: _Rental:_ After acquiring the [Smooth Gem](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214586), Ravio starts renting his gear. Rented gear will return to Ravio upon dying, and must be rented again. _Buying:_ After acquiring the [Master Sword](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215148), Ravio starts selling his gear. Purchased gear will not return to Ravio upon dying. Available gear: (Rental price / Purchase price) - [Bow & Arrow](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214575) (50/800) - [Hookshot](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214594) (50/800) - [Bomb](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214598) (50/800) - [Boomerang](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214599) (50/800) - [Hammer](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214597) (50/800) - [Tornado Rod](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214596) (50/800) - [Sand Rod](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214602) (50/800) - [Fire Rod](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214600) (100/1,200) - [Ice Rod](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214601) (100/1,200)",
+    "coords": [
+      -0.97003757657877,
+      0.62936617623021
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214639",
+    "mapId": "hyrule-lorule",
+    "category": "shop",
+    "title": "Blacksmith",
+    "description": "Upgrades the [Master Sword](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215148)'s damage for 2 Master Ores.",
+    "coords": [
+      -1.0683206110467,
+      0.69568567010951
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215142",
+    "mapId": "hyrule-lorule",
+    "category": "shop",
+    "title": "Lakeside Item Seller",
+    "description": "Inventory: - ??",
+    "coords": [
+      -0.92402922458735,
+      0.57779944228916
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215218",
+    "mapId": "hyrule-lorule",
+    "category": "shop",
+    "title": "Bomb-Shop",
+    "description": "For 200 Rupees, gain access to the garden containing the",
+    "coords": [
+      -0.55896504383332,
+      0.62558593294332
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214549",
+    "mapId": "hyrule-lorule",
+    "category": "weather-vane",
+    "title": "Your House",
+    "description": "Weather Vane localizado em hyrule-lorule.",
+    "coords": [
+      -0.9802282027524,
+      0.62617144067374
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214553",
+    "mapId": "hyrule-lorule",
+    "category": "weather-vane",
+    "title": "Sanctuary",
+    "description": "Weather Vane localizado em hyrule-lorule.",
+    "coords": [
+      -1.0073193213372,
+      0.79475300075299
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214569",
+    "mapId": "hyrule-lorule",
+    "category": "weather-vane",
+    "title": "Kakariko Village",
+    "description": "Weather Vane localizado em hyrule-lorule.",
+    "coords": [
+      -1.1444346486479,
+      0.71366831752473
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214577",
+    "mapId": "hyrule-lorule",
+    "category": "weather-vane",
+    "title": "Eastern Palace",
+    "description": "Weather Vane localizado em hyrule-lorule.",
+    "coords": [
+      -0.79000547415807,
+      0.74541509433173
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214583",
+    "mapId": "hyrule-lorule",
+    "category": "weather-vane",
+    "title": "Witch's House",
+    "description": "Weather Vane localizado em hyrule-lorule.",
+    "coords": [
+      -0.85537064087987,
+      0.76963642307796
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214590",
+    "mapId": "hyrule-lorule",
+    "category": "weather-vane",
+    "title": "Death Mountain",
+    "description": "Weather Vane localizado em hyrule-lorule.",
+    "coords": [
+      -0.98774000744178,
+      0.84808044424237
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214592",
+    "mapId": "hyrule-lorule",
+    "category": "weather-vane",
+    "title": "Tower of Hera",
+    "description": "Weather Vane localizado em hyrule-lorule.",
+    "coords": [
+      -0.93993460607317,
+      0.90307748890545
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215137",
+    "mapId": "hyrule-lorule",
+    "category": "weather-vane",
+    "title": "House of Gales",
+    "description": "Weather Vane localizado em hyrule-lorule.",
+    "coords": [
+      -0.87291301466147,
+      0.55186223212318
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215150",
+    "mapId": "hyrule-lorule",
+    "category": "weather-vane",
+    "title": "Blacksmith",
+    "description": "Weather Vane localizado em hyrule-lorule.",
+    "coords": [
+      -0.49496880777976,
+      0.68710511013645
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215152",
+    "mapId": "hyrule-lorule",
+    "category": "weather-vane",
+    "title": "Vacant House",
+    "description": "Weather Vane localizado em hyrule-lorule.",
+    "coords": [
+      -0.39426905707806,
+      0.62032347061238
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215157",
+    "mapId": "hyrule-lorule",
+    "category": "weather-vane",
+    "title": "Lorule Castle",
+    "description": "Weather Vane localizado em hyrule-lorule.",
+    "coords": [
+      -0.4227492266626,
+      0.71490458614466
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215160",
+    "mapId": "hyrule-lorule",
+    "category": "weather-vane",
+    "title": "Thieves' Town",
+    "description": "Weather Vane localizado em hyrule-lorule.",
+    "coords": [
+      -0.61052592275854,
+      0.70003371304521
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215182",
+    "mapId": "hyrule-lorule",
+    "category": "weather-vane",
+    "title": "Graveyard",
+    "description": "Weather Vane localizado em hyrule-lorule.",
+    "coords": [
+      -0.374439764564,
+      0.77705482369793
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215191",
+    "mapId": "hyrule-lorule",
+    "category": "weather-vane",
+    "title": "Treacherous Tower",
+    "description": "Weather Vane localizado em hyrule-lorule.",
+    "coords": [
+      -0.38643092460601,
+      0.8918682574751
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215196",
+    "mapId": "hyrule-lorule",
+    "category": "weather-vane",
+    "title": "Death Mountain",
+    "description": "Weather Vane localizado em hyrule-lorule.",
+    "coords": [
+      -0.31635196769003,
+      0.83880917076679
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215204",
+    "mapId": "hyrule-lorule",
+    "category": "weather-vane",
+    "title": "Ice Ruins",
+    "description": "Weather Vane localizado em hyrule-lorule.",
+    "coords": [
+      -0.24575150200669,
+      0.87329815122862
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215226",
+    "mapId": "hyrule-lorule",
+    "category": "weather-vane",
+    "title": "Swamp Palace",
+    "description": "Weather Vane localizado em hyrule-lorule.",
+    "coords": [
+      -0.43744766368085,
+      0.52256681067537
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215240",
+    "mapId": "hyrule-lorule",
+    "category": "weather-vane",
+    "title": "Misery Mire",
+    "description": "Weather Vane localizado em hyrule-lorule.",
+    "coords": [
+      -0.53977175503205,
+      0.52940025781982
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215256",
+    "mapId": "hyrule-lorule",
+    "category": "weather-vane",
+    "title": "Desert Palace",
+    "description": "Weather Vane localizado em hyrule-lorule.",
+    "coords": [
+      -1.1673660367502,
+      0.54966954607665
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215296",
+    "mapId": "hyrule-lorule",
+    "category": "weather-vane",
+    "title": "Dark Palace",
+    "description": "Weather Vane localizado em hyrule-lorule.",
+    "coords": [
+      -0.21645253925459,
+      0.73320262553993
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215307",
+    "mapId": "hyrule-lorule",
+    "category": "weather-vane",
+    "title": "Skull Woods",
+    "description": "Weather Vane localizado em hyrule-lorule.",
+    "coords": [
+      -0.55538034587831,
+      0.83556827394273
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215325",
+    "mapId": "hyrule-lorule",
+    "category": "weather-vane",
+    "title": "Turtle Rock",
+    "description": "Weather Vane localizado em hyrule-lorule.",
+    "coords": [
+      -0.29275109292981,
+      0.54546646767822
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214580",
+    "mapId": "hyrule-lorule",
+    "category": "heart-container",
+    "title": "Heart Container",
+    "description": "Location: Reward for defeating the [Eastern Palace](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214576)'s boss.",
+    "coords": [
+      -0.79443659600026,
+      0.75264945852684
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215120",
+    "mapId": "hyrule-lorule",
+    "category": "heart-container",
+    "title": "Heart Container",
+    "description": "Location: Reward for defeating the boss of the [Tower of Hera](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214593)",
+    "coords": [
+      -0.95278132239333,
+      0.9224309878305
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215140",
+    "mapId": "hyrule-lorule",
+    "category": "heart-container",
+    "title": "Heart Container",
+    "description": "Location: Reward for defeating the boss of [House of Gales](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214674)",
+    "coords": [
+      -0.86659779792956,
+      0.56944219136923
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215234",
+    "mapId": "hyrule-lorule",
+    "category": "heart-container",
+    "title": "Heart Container",
+    "description": "Location: Reward for completing the [Thieves' Hideout](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215232).",
+    "coords": [
+      -0.54254371912538,
+      0.71365946225348
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215261",
+    "mapId": "hyrule-lorule",
+    "category": "heart-container",
+    "title": "Heart Container",
+    "description": "Location: Reward for completing the [Desert Palace](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215257).",
+    "coords": [
+      -0.60207419371334,
+      0.57724635031839
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215299",
+    "mapId": "hyrule-lorule",
+    "category": "heart-container",
+    "title": "Heart Container",
+    "description": "Location: Reward for completing [Dark Palace](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215297)",
+    "coords": [
+      -0.2312474096309,
+      0.75232094988484
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215310",
+    "mapId": "hyrule-lorule",
+    "category": "heart-container",
+    "title": "Heart Container",
+    "description": "Location: Reward for completing [Skull Woods](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215308)",
+    "coords": [
+      -0.55922316086136,
+      0.85103408634484
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215329",
+    "mapId": "hyrule-lorule",
+    "category": "heart-container",
+    "title": "Heart Container",
+    "description": "Location: Reward for completing [Turtle Rock](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215326)",
+    "coords": [
+      -0.30515652068307,
+      0.57008431788005
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215334",
+    "mapId": "hyrule-lorule",
+    "category": "heart-container",
+    "title": "Heart Container",
+    "description": "Location: Reward for completing [Swamp Palace](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215331)",
+    "coords": [
+      -0.43570421677513,
+      0.54395308049406
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215339",
+    "mapId": "hyrule-lorule",
+    "category": "heart-container",
+    "title": "Heart Container",
+    "description": "Location: Reward for completing [Ice Ruins](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215336)",
+    "coords": [
+      -0.23653685711549,
+      0.89323264322988
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214564",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: In the cave, on top of the stairs; drop down in the hole from the Village using a Cucco.",
+    "coords": [
+      -1.1878178967572,
+      0.7332055349994
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214573",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: Reward for completing the _Rooster_ level of [Cucco Ranch](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214572).",
+    "coords": [
+      -1.1255556954997,
+      0.63736980174787
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214591",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: On a tunnel, going between the lava pillars. Access by dropping from a platform, higher on the left.",
+    "coords": [
+      -0.99040922012558,
+      0.89999003936198
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214609",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: In the cave behind the waterfall; requires [Zora's Flippers](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214607) to access.",
+    "coords": [
+      -0.81045388312669,
+      0.80388850824361
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214622",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: [Sanctuary Dungeon](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214556) - In the large room with the walkways; Wall Merge with [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) on the wall behind the red chest on the upper level, then move right.",
+    "coords": [
+      -0.95834907069097,
+      0.79240066802513
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214631",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: In an alcove, just south of the giant log; Wall Merge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to access via a fissure in the southern wall.",
+    "coords": [
+      -1.1508808854929,
+      0.87781532529761
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214638",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: Behind the [Blacksmith's House](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214639); access by Wall Merging with [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) from the right.",
+    "coords": [
+      -1.0681480725048,
+      0.70968421120179
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214649",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: Reward for collecting over 100 Rupees in [Rupee Rush](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214647) for the first time.",
+    "coords": [
+      -1.1718202769991,
+      0.63969936200045
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214661",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: On the side of [Hyrule Castle](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214551), surrounded by small rocks; use the [Power Glove](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214589) to remove them and gain access.",
+    "coords": [
+      -0.94840415856415,
+      0.72791173282829
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214670",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: Behind some tall pillars; access from the other side of the [Secret Cavern](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214668).",
+    "coords": [
+      -0.96208111235954,
+      0.5396560095755
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214691",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: Surrounded by wooden pegs; use the [Hammer](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214597) to gain access.",
+    "coords": [
+      -0.7878296626525,
+      0.61199727428579
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214702",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: At the far end of the blocked cavern; requires the following gear: - [Power Glove](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214589) - [Bomb](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214598) - [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558)",
+    "coords": [
+      -0.79910784766496,
+      0.69757252962486
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214714",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: Reward for completing level 2 of [Hyrule Hotfoot](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214713).",
+    "coords": [
+      -0.78858411875743,
+      0.5960231901932
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214764",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: On top of pillar, in the moving platforms puzzle behind the west wall. Requires the following gear to access: - [Hookshot](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214594) - [Hammer](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214597)",
+    "coords": [
+      -0.83855684829625,
+      0.88897763359738
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215163",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: Given by the Stylish Lady after talking to her. The door is locked; use the [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215162) to access.",
+    "coords": [
+      -1.1590185289699,
+      0.69150459802413
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215167",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: In an alcove outside the house; Wall Merge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) from the side to access.",
+    "coords": [
+      -0.56535155800335,
+      0.7327902136031
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215175",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: On top of the ruins; flutter down from the northern ledge using a Cucco to access.",
+    "coords": [
+      -0.49934005864659,
+      0.88961173212338
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215186",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: Inside the cavern, up on the platform; use the [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215185) to access.",
+    "coords": [
+      -0.95794806102768,
+      0.80049495642204
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215193",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: Reward for completing the [Treacherous Tower](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215192)'s Intermediate level.",
+    "coords": [
+      -0.39217097429357,
+      0.91800240271463
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215202",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: On the ground; access through the [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215201)",
+    "coords": [
+      -0.86540289887411,
+      0.90626191232115
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215206",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: Can be found in [Fortune's Choice](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215205).",
+    "coords": [
+      -0.54355799761332,
+      0.69791644079789
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215208",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: Reward for collecting over 150 Rupees in [Rupee Rush](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215207) for the first time.",
+    "coords": [
+      -0.60189768601738,
+      0.63947357807095
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215217",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: Reward for obtaining 100 Rupees at [Octoball Derby](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215216) for the first time.",
+    "coords": [
+      -0.49766420529492,
+      0.64532969017521
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215223",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: In a cavern, behind a large boulder. Use a [Big Bomb Flower](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215219) to blow it up.",
+    "coords": [
+      -0.38151406638662,
+      0.52639343002376
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215247",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: On the platform; use the [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215248) to access.",
+    "coords": [
+      -0.56516641598156,
+      0.58110952486359
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215270",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: In the cavern blocked by a large boulder; use the [Titan's Mitt](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215258) to access.",
+    "coords": [
+      -1.0633071013949,
+      0.68018216576026
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215294",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: At the end of the thin beam.",
+    "coords": [
+      -0.25161381220523,
+      0.73568918862844
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215327",
+    "mapId": "hyrule-lorule",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Location: [Turtle Rock](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215326) - SW leg. Use the seesaw to use the top teleporter. Then, use the next teleporter, and cross the lava lake using the [Ice Rod](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214601). The door on the other side will lead outside, to the Heart Piece.",
+    "coords": [
+      -0.31523336607015,
+      0.56798106161874
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214604",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the corner wall; use [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558)'s Wall Merging to dislodge it.",
+    "coords": [
+      -0.89838182282437,
+      0.59307446480129
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214608",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: At the bottom of the lake; requires [Zora's Flippers](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214607) to access.",
+    "coords": [
+      -0.82422248079313,
+      0.83909811469915
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214623",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the corner wall; Wall Merge with [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to dislodge it.",
+    "coords": [
+      -1.0224429183698,
+      0.77248297922511
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214624",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: At the bottom of the pool; requires [Zora's Flippers](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214607) to access.",
+    "coords": [
+      -1.0729520544329,
+      0.77282334282824
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214628",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the rock wall; Wall Merge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to dislodge it.",
+    "coords": [
+      -1.0626424579625,
+      0.84947146344802
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214629",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Under a small rock, just south of the area entrance; use the [Power Glove](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214589) to access.",
+    "coords": [
+      -1.1222660559648,
+      0.88163962051729
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214632",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In a tree, south of a giant log; use the [Pegasus Boots](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214587) to dislodge it.",
+    "coords": [
+      -1.1098884316438,
+      0.82530584866931
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214633",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the tall grass, to the left of a tree; cut the grass down to access.",
+    "coords": [
+      -1.1840838468356,
+      0.88176593567144
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214634",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Under a small rock, between the two fences; use the [Power Glove](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214589) to access.",
+    "coords": [
+      -1.1610440685902,
+      0.77058037303554
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214636",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In tall grass, between two small fences; cut it down to access.",
+    "coords": [
+      -1.0967991815153,
+      0.72434560024887
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214637",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Under a small rock, on top of the building's roof. Fly to the roof from the upper platform to the north with a Cucoo, then use the [Power Glove](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214589) to access.",
+    "coords": [
+      -1.1151599144323,
+      0.71312968031487
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214640",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In a tree, on the side of the path; use the [Pegasus Boots](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214587) to dislodge it.",
+    "coords": [
+      -1.0708873342323,
+      0.72683612857334
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214641",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In a tree, on the side of the path; use the [Pegasus Boots](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214587) to dislodge it.",
+    "coords": [
+      -1.1101699312356,
+      0.63252516789392
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214652",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the southern wall of [Rupee Rush](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214647); Wall Merge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to dislodge it.",
+    "coords": [
+      -1.1790561372659,
+      0.60542070972763
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214654",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the northernmost tree of the clearing; use the [Pegasus Boots](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214587) to dislodge it.",
+    "coords": [
+      -1.0668913199684,
+      0.64391376716006
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214656",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the tree, near the corner wall; use the [Pegasus Boots](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214587) to dislodge it.",
+    "coords": [
+      -1.0106716753323,
+      0.6360805979699
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214658",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the northern wall of [Link's House](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214557); Wall Merge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to dislodge it.",
+    "coords": [
+      -0.97214356442852,
+      0.63381912426185
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214660",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the tree, on the side of [Hyrule Castle](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214551); use the [Pegasus Boots](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214587) to dislodge it.",
+    "coords": [
+      -1.0255353299905,
+      0.74403439160024
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214666",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the central pillar; use the [Pegasus Boots](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214587) to dislodge it.",
+    "coords": [
+      -0.96379249121946,
+      0.56530814974001
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214669",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Within the [Secret Cavern](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214668) - At the far end of the first corridor, at the bottom of the pool; use [Zora's Flippers](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214607) to access.",
+    "coords": [
+      -0.94889756848601,
+      0.53028406689919
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214672",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: At the bottom of the river; use the [Zora's Flippers](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214607) to access, swimming all the way from the southern shore.",
+    "coords": [
+      -0.89632016932768,
+      0.61950523544592
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214679",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: At the bottom of the river; use [Zora's Flippers](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214607) to access.",
+    "coords": [
+      -0.86483712312532,
+      0.52824065855478
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214680",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: At the bottom of the river; use [Zora's Flippers](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214607) to access.",
+    "coords": [
+      -0.81590937802053,
+      0.5309714461916
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214685",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In a tree; use the [Pegasus Boots](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214587) to dislodge it.",
+    "coords": [
+      -0.8255265222143,
+      0.66347189323355
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214771",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Under a small rock, near the cave's entrance; use the [Power Glove](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214589) to access.",
+    "coords": [
+      -0.85595620259143,
+      0.86890951750128
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215122",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the flowers on the floor; use the [Tornado Rod](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214596) to dislodge it.",
+    "coords": [
+      -1.0237718798334,
+      0.66019993593669
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215123",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the flowers on the floor; use the [Tornado Rod](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214596) to dislodge it.",
+    "coords": [
+      -1.0808735349031,
+      0.69035751344803
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215124",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: On the eastern side of the [Fortune-Teller](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214560)'s tent; Merge Walls with [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to dislodge it.",
+    "coords": [
+      -1.1198344911162,
+      0.77747591615864
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215125",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Inside the alcove's back wall; Wall Merge with [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) from the west to access.",
+    "coords": [
+      -0.84053800395074,
+      0.7073413325042
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215126",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Inside the easternmost tree; use the [Pegasus Boots](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214587) to dislodge it.",
+    "coords": [
+      -0.8475385387559,
+      0.63186362753912
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215127",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Stuck in the pillar; use the [Pegasus Boots](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214587) to dislodge it.",
+    "coords": [
+      -0.89137218413557,
+      0.67144840848977
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215128",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: At the bottom of the river; use the [Zora's Flippers](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214607) to access.",
+    "coords": [
+      -0.90584229573078,
+      0.73015961227443
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215129",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the wall, up the ladder; use [Zora's Flippers](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214607) and [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to access.",
+    "coords": [
+      -0.88970165296226,
+      0.80206157058275
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215130",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Inside the [Witch's House](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214584), in the western wall; Wall Merge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to dislodge it.",
+    "coords": [
+      -0.86814380694972,
+      0.7798490851633
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215131",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the southern wall; Wall Merge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) atop the hole to dislodge it.",
+    "coords": [
+      -0.79999363549762,
+      0.76151372574451
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215132",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Under a small rock, surrounded by larger boulders; use the [Power Glove](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214589) to access.",
+    "coords": [
+      -0.96163008381289,
+      0.82030499614165
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215133",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the rocky wall; Wall Merge from the cavern entrance just to the left using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to access.",
+    "coords": [
+      -0.98324701467326,
+      0.86892770314299
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215134",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the wall; Wall Merge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to dislodge it.",
+    "coords": [
+      -0.79821601836099,
+      0.88780868119313
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215135",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Under a small rock; use the [Hookshot](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214594) to cross the bridge and the [Power Glove](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214589) to access.",
+    "coords": [
+      -0.92367988913726,
+      0.83918189569887
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215136",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: At the bottom of the pool; use the [Zora's Flippers](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214607) to access.",
+    "coords": [
+      -0.993498207457,
+      0.52000796058972
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215138",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Underneath a flower, behind the [House of Gales](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214674); use the [Tornado Rod](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214596) to dislodge it.",
+    "coords": [
+      -0.85534738429675,
+      0.56466244467115
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215151",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the western wall of the Blacksmith's House; Wall Merge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) from the east to dislodge it.",
+    "coords": [
+      -0.5066814526349,
+      0.69208516422234
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215154",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the corner wall; Wall Merge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to dislodge it.",
+    "coords": [
+      -0.41057990439319,
+      0.6363196448066
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215155",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In a tree; use the [Pegasus Boots](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214587) to dislodge it.",
+    "coords": [
+      -0.38165666492246,
+      0.65832108818022
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215156",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the stone wall, on the eastern side; Wall Merge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to dislodge it.",
+    "coords": [
+      -0.40270302902725,
+      0.68951734429931
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215158",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In a tree; use the [Pegasus Boots](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214587) to dislodge it.",
+    "coords": [
+      -0.53101599097139,
+      0.66730418561863
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215159",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the souther wall of the ruin; Wall Merge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to dislodge it.",
+    "coords": [
+      -0.61511629502604,
+      0.66623919432857
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215166",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the western wall; Merge Wall using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to dislodge it.",
+    "coords": [
+      -0.57771022450735,
+      0.73647856927703
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215170",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the tall grass, east of the [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215168); cut it down to dislodge it.",
+    "coords": [
+      -0.60631113564308,
+      0.82339874819755
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215171",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In a skull, past the giant ribcage; break it to access.",
+    "coords": [
+      -0.6078082580833,
+      0.88984096912532
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215172",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the rocky wall; Wall Merge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to dislodge it.",
+    "coords": [
+      -0.56340037562333,
+      0.76190478696275
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215173",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the eastern wall of the hole; Wall Merge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to dislodge it.",
+    "coords": [
+      -0.49369520015154,
+      0.77237231278991
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215174",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the tall grass; cut it down to dislodge it.",
+    "coords": [
+      -0.49997309172591,
+      0.82066144988763
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215176",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the tree; use the [Pegasus Boots](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214587) to dislodge it.",
+    "coords": [
+      -0.49991465223536,
+      0.87376775788447
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215181",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the corner wall; Wall Merge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to dislodge it.",
+    "coords": [
+      -0.39896350612587,
+      0.79224134433414
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215183",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the tree; use the [Pegasus Boots](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214587) to dislodge it.",
+    "coords": [
+      -0.34813817236535,
+      0.73985877589015
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215187",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: High up on the corner wall; Wall Merge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) from the platform to the right to dislodge it. Access the platform through the [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215185)",
+    "coords": [
+      -0.96912173608433,
+      0.79873139252081
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215190",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Under a skull, on top of the platform; break it to dislodge it. Access from the [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215189).",
+    "coords": [
+      -0.45400733026169,
+      0.85787815268118
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215197",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: High up on the wall; Merge Wall using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) from the upper cliff to dislodge it.",
+    "coords": [
+      -0.26899079239315,
+      0.81960555158883
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215199",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Under a skull; break it to dislodge it. Access by dropping from the [Golden Rupee](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215198) above.",
+    "coords": [
+      -0.28912583562957,
+      0.86827935596865
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215203",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the rocky wall; Merge Wall using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to dislodge it.",
+    "coords": [
+      -0.23348929506459,
+      0.90055577969506
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215209",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the [Rupee Rush](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215207) area, in the northern wall; Wall Merge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to dislodge.",
+    "coords": [
+      -0.61732709739098,
+      0.64528378667059
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215214",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: High up on the wall; Wall Merge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) from the [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215213) to dislodge it.",
+    "coords": [
+      -0.52139549580644,
+      0.55835007751365
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215215",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In a skull, in the corner; break it to dislodge it.",
+    "coords": [
+      -0.5116085860281,
+      0.61275108470124
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215220",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the tall grass, just north of the [Big Bomb Flower](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215219); cut it down to dislodge it.",
+    "coords": [
+      -0.54129362821975,
+      0.63183764569954
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215225",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: On top of the middle pillar; use the [Pegasus Boots](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214587) to dislodge it.",
+    "coords": [
+      -0.39428532678091,
+      0.53773087181796
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215227",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: At the bottom of the pond; use [Zora's Flippers](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214607) to access.",
+    "coords": [
+      -0.43525353515298,
+      0.56716414833607
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215228",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the rocky wall; Wall Merge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to dislodge it.",
+    "coords": [
+      -0.37786711015911,
+      0.58256139479556
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215236",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the sand pit; use the [Sand Rod](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214602) to dislodge it.",
+    "coords": [
+      -1.1626203938321,
+      0.66885392999811
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215241",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the wall, on the shore; Merge Walls using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to dislodge it.",
+    "coords": [
+      -0.53890917393331,
+      0.53434388047124
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215242",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: At the bottom of the pool; use [Zora's Flippers](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214607) to access.",
+    "coords": [
+      -0.61050529834141,
+      0.51392718026182
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215245",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the middle of the sand; use the [Sand Rod](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214602) to dislodge it.",
+    "coords": [
+      -1.1425411835324,
+      0.56079090853815
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215255",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the sand; use the [Sand Rod](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214602) to dislodge it.",
+    "coords": [
+      -1.1681962000893,
+      0.53633851673808
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215263",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Under a large boulder; use the [Titan's Mitt](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215258) to access.",
+    "coords": [
+      -0.49833020745718,
+      0.50983134334249
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215264",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Under a large boulder; use the [Titan's Mitt](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215258) to dislodge it.",
+    "coords": [
+      -1.0656314566715,
+      0.51192473872906
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215265",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Under a large boulder; use the [Titan's Mitt](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215258) to dislodge it.",
+    "coords": [
+      -0.443232862528,
+      0.61829332347319
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215266",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Under a large boulder; use the [Titan's Mitt](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215258) to dislodge it.",
+    "coords": [
+      -0.51115133772302,
+      0.72109076991158
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215269",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Under a large boulder; use the [Titan's Mitt](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215258) to access.",
+    "coords": [
+      -0.4455043902787,
+      0.79236953806671
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215271",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the corner wall; Wall Marge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to dislodge it. Access the ledge by moving a large boulder in [Death Mountain Cavern](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215272) with the [Titan's Mitt](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215258).",
+    "coords": [
+      -1.0501923405474,
+      0.85125597390621
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215273",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Under the large boulder; use the [Titan's Mitt](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215258) to access.",
+    "coords": [
+      -1.0790723493342,
+      0.56090536214557
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215274",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Under the large boulder; use the [Titan's Mitt](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215258) to dislodge it. Access by Wall Merging using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) from [Hyrule Hotfoot](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214713).",
+    "coords": [
+      -0.78583384302927,
+      0.56076811602181
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215275",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Under the large boulder; use the [Titan's Mitt](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215258) to dislodge it. Access by Wall Merging from the ledge up north.",
+    "coords": [
+      -0.79716957130796,
+      0.60644054080492
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215278",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the southern wall; Wall Merge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to dislodge it. Wall Merge from the ledge up north to access.",
+    "coords": [
+      -0.22518303496096,
+      0.60029597151088
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215280",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the hedge; Wall Merge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to dislodge it.",
+    "coords": [
+      -0.30488360536117,
+      0.67711815231641
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215281",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In a tree; use the [Pegasus Boots](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214587) to dislodge it.",
+    "coords": [
+      -0.29979411847946,
+      0.63545321369471
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215282",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In a tree; use the [Pegasus Boots](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214587) to dislodge it.",
+    "coords": [
+      -0.35241311438627,
+      0.63593436472657
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215283",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the rocky pillar; use the [Pegasus Boots](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214587) to dislodge it.",
+    "coords": [
+      -0.33040778876662,
+      0.67732889914072
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215286",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: At the bottom of the waterfall; use [Zora's Flippers](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214607) to access.",
+    "coords": [
+      -0.3326497026232,
+      0.80059887062135
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215291",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the tall grass, on the cliff; cut it down to dislodge it.",
+    "coords": [
+      -0.24214945696131,
+      0.76198546357898
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215292",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: At the bottom of the lake; use [Zora's Flippers](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214607) to access.",
+    "coords": [
+      -0.25514952978065,
+      0.82818991268671
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215293",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: At the bottom of the lake; use [Zora's Flippers](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214607) to access.",
+    "coords": [
+      -0.27152774301375,
+      0.79343899794829
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215295",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the northern hedge; Wall Merge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to dislodge it.",
+    "coords": [
+      -0.24483040290744,
+      0.7313676179938
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215301",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Under a large boulder; use the [Titan's Mitt](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215258) to access.",
+    "coords": [
+      -0.3576601350511,
+      0.83027930926374
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215302",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Under a large boulder; use the [Titan's Mitt](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215258) to access. Also requires the [Hammer](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214597) to clear the pegs in front of the bridge.",
+    "coords": [
+      -0.45882980873881,
+      0.89915846784657
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215306",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Under a large boulder; use the [Titan's Mitt](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215258) to access.",
+    "coords": [
+      -0.59535460579053,
+      0.76478342954141
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215315",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: High up in the southern wall; Wall Merge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to dislodge it. Access through the [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215314).",
+    "coords": [
+      -0.35085439797083,
+      0.5389104863295
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215319",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Under a giant boulder; use the [Titan's Mitt](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215258) to access.",
+    "coords": [
+      -0.35288599590281,
+      0.50310334828304
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215322",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: Under a skull; Wall Merge from the ledge east of the [Portal](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215320) to access.",
+    "coords": [
+      -0.25723102900088,
+      0.57288751029204
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215323",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: In the wall; Wall Merge using [Ravio's Bracelet](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214558) to dislodge it.",
+    "coords": [
+      -0.22915264831637,
+      0.49998411837518
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215324",
+    "mapId": "hyrule-lorule",
+    "category": "maiamai",
+    "title": "Lost Maiamai",
+    "description": "Location: At the bottom of the pond; use [Zora's Flippers](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214607) to access.",
+    "coords": [
+      -0.27892182328811,
+      0.55365968149826
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215233",
+    "mapId": "hyrule-lorule",
+    "category": "master-ore",
+    "title": "Master Ore",
+    "description": "Location: [Thieves' Hideout](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215232) - Floor B3, SW corner. Press both buttons to reveal a hidden corrider on the left; the Master Ore is in the chest at the end.",
+    "coords": [
+      -0.57952904473234,
+      0.72436277225064
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215268",
+    "mapId": "hyrule-lorule",
+    "category": "master-ore",
+    "title": "Master Ore",
+    "description": "Location: Inside the cavern, in the large chest on the SE platform. Access via the [Secret Entrance](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215267).",
+    "coords": [
+      -0.43258862476722,
+      0.7989552916477
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215298",
+    "mapId": "hyrule-lorule",
+    "category": "master-ore",
+    "title": "Master Ore",
+    "description": "Location: [Dark Palace](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215297) - Floor 2, central room. Place a [Bomb](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214598) near the southern-most purple activator, then quickly make your way up. Take the purple elevator and Wall Merge with the symbol to gain access.",
+    "coords": [
+      -0.22600790609572,
+      0.74491605947591
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215309",
+    "mapId": "hyrule-lorule",
+    "category": "master-ore",
+    "title": "Master Ore",
+    "description": "Location: [Skull Woods](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215308) - Floor B1, NW room. After entering the room from above, Wall Merge on the western wall to the narrow walkway. The Ore is in the large chest.",
+    "coords": [
+      -0.56508971987869,
+      0.85080170405032
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214578",
+    "mapId": "hyrule-lorule",
+    "category": "monster-guts",
+    "title": "Monster Guts",
+    "description": "Location: [Eastern Palace](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214576) - Floor 2, NW room. Reward for completing the pressure plate puzzle.",
+    "coords": [
+      -0.7982388153892,
+      0.75211850733186
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214579",
+    "mapId": "hyrule-lorule",
+    "category": "monster-guts",
+    "title": "Monster Guts",
+    "description": "Location: [Eastern Palace](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214576) - Floor 2, NE room. Destroy all the pots to spawn a chest on the upper platform.",
+    "coords": [
+      -0.79109520149489,
+      0.75219736644991
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215119",
+    "mapId": "hyrule-lorule",
+    "category": "monster-guts",
+    "title": "Monster Guts",
+    "description": "Location: [Tower of Hera](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214593) - Floor 6; access by smashing the cracked blocks on Floor 7 with the [Hammer](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214597).",
+    "coords": [
+      -0.9478620194115,
+      0.91507865899728
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215139",
+    "mapId": "hyrule-lorule",
+    "category": "monster-guts",
+    "title": "Monster Guts",
+    "description": "Location: [House of Gales](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214674) - Floor 1, NE room; reward for solving the room.",
+    "coords": [
+      -0.86324680818247,
+      0.56481405614424
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215235",
+    "mapId": "hyrule-lorule",
+    "category": "sage-painting",
+    "title": "Osfala",
+    "description": "Linked dungeon: [Thieves' Hideout](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215232)",
+    "coords": [
+      -0.5478732910727,
+      0.71282428262204
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215262",
+    "mapId": "hyrule-lorule",
+    "category": "sage-painting",
+    "title": "Irene",
+    "description": "Linked dungeon: [Desert Palace](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215257)",
+    "coords": [
+      -0.59803382478793,
+      0.58006253587841
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215300",
+    "mapId": "hyrule-lorule",
+    "category": "sage-painting",
+    "title": "Gulley",
+    "description": "Linked dungeon: [Dark Palace](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215297)",
+    "coords": [
+      -0.22230620241692,
+      0.75324549794447
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215311",
+    "mapId": "hyrule-lorule",
+    "category": "sage-painting",
+    "title": "Seres",
+    "description": "Linked dungeon: [Skull Woods](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215308)",
+    "coords": [
+      -0.59689723456309,
+      0.87846177740183
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215330",
+    "mapId": "hyrule-lorule",
+    "category": "sage-painting",
+    "title": "Impa",
+    "description": "Linked dungeon: [Turtle Rock](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215326)",
+    "coords": [
+      -0.29859522019091,
+      0.57078365325558
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215335",
+    "mapId": "hyrule-lorule",
+    "category": "sage-painting",
+    "title": "Oren",
+    "description": "Linked dungeon: [Swamp Palace](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215331)",
+    "coords": [
+      -0.42937761886087,
+      0.54394962340846
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215340",
+    "mapId": "hyrule-lorule",
+    "category": "sage-painting",
+    "title": "Rosso",
+    "description": "Linked dungeon: [Ice Ruins](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215336)",
+    "coords": [
+      -0.23352716234934,
+      0.89344594248838
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214568",
+    "mapId": "hyrule-lorule",
+    "category": "empty-bottle",
+    "title": "Empty Bottle",
+    "description": "Location: Sold by the [Street Merchant](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214567) for 100 Rupees.",
+    "coords": [
+      -1.163875748874,
+      0.72195234087365
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214676",
+    "mapId": "hyrule-lorule",
+    "category": "empty-bottle",
+    "title": "Empty Bottle",
+    "description": "Location: Given by the Bird Lover, who dwells near the river level; requires [Zora's Flippers](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214607) to swim all the way from the southern shore under the bridge.",
+    "coords": [
+      -0.91486538541114,
+      0.62161462565792
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214769",
+    "mapId": "hyrule-lorule",
+    "category": "empty-bottle",
+    "title": "Empty Bottle",
+    "description": "Location: Given by the [Bouldering Guy](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214768) after bringing him [Premium Milk](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214759).",
+    "coords": [
+      -0.83855127167726,
+      0.87586366994154
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215153",
+    "mapId": "hyrule-lorule",
+    "category": "empty-bottle",
+    "title": "Empty Bottle",
+    "description": "Location: In the Vacant House; access by blowing up the northern wall with a [Bomb](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214598) from the outside.",
+    "coords": [
+      -0.39898998964567,
+      0.63059878157916
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215222",
+    "mapId": "hyrule-lorule",
+    "category": "empty-bottle",
+    "title": "Empty Bottle",
+    "description": "Location: Given by the [Great Rupee Fairy](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215221) after donating 3,000 Rupees.",
+    "coords": [
+      -0.56633035141368,
+      0.64543261678974
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214575",
+    "mapId": "hyrule-lorule",
+    "category": "gear",
+    "title": "Bow & Arrow",
+    "description": "Renting price: 50 Rupees Buying price: 800 Rupees Upgrade: _Nice Bow_, which fires a spread of 3 arrows.",
+    "coords": [
+      -0.96072370132828,
+      0.63154356058396
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214594",
+    "mapId": "hyrule-lorule",
+    "category": "gear",
+    "title": "Hookshot",
+    "description": "Renting price: 50 Rupees Buying price: 800 Rupees Upgrade: _Nice Hookshot_, which extends farther and deals more damage.",
+    "coords": [
+      -0.96068286433323,
+      0.62830546576483
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214596",
+    "mapId": "hyrule-lorule",
+    "category": "gear",
+    "title": "Tornado Rod",
+    "description": "Renting price: 50 Rupees Buying price: 800 Rupees Upgrade: _Nice Tornado Rod_, which has a bigger blast radius and slightly damages enemies.",
+    "coords": [
+      -0.95724991409555,
+      0.63143040264622
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214597",
+    "mapId": "hyrule-lorule",
+    "category": "gear",
+    "title": "Hammer",
+    "description": "Renting price: 50 Rupees Buying price: 800 Rupees Upgrade: _Nice Hammer_, which deals more damage and sends a stunning shockwave.",
+    "coords": [
+      -0.9606761313297,
+      0.62529571263307
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214598",
+    "mapId": "hyrule-lorule",
+    "category": "gear",
+    "title": "Bomb",
+    "description": "Renting price: 50 Rupees Buying price: 800 Rupees Upgrade: _Nice Bomb_, which increases its explosion size and damage.",
+    "coords": [
+      -0.96056141978128,
+      0.62207121566972
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214599",
+    "mapId": "hyrule-lorule",
+    "category": "gear",
+    "title": "Boomerang",
+    "description": "Renting price: 50 Rupees Buying price: 800 Rupees Upgrade: _Nice Boomerang_, which throws 3 boomerangs at a time.",
+    "coords": [
+      -0.96055444631334,
+      0.61895396763051
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214600",
+    "mapId": "hyrule-lorule",
+    "category": "gear",
+    "title": "Fire Rod",
+    "description": "Renting price: 100 Rupees Buying price: 1,200 Rupees Upgrade: _Nice Fire Rod_, which increases the size, travel distance and damage of the fire pillar.",
+    "coords": [
+      -0.95724245969877,
+      0.62809817785393
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214601",
+    "mapId": "hyrule-lorule",
+    "category": "gear",
+    "title": "Ice Rod",
+    "description": "Renting price: 100 Rupees Buying price: 1,200 Rupees Upgrade: _Nice Ice Rod_, which drops 4 blocks of ice instead of 1.",
+    "coords": [
+      -0.95712822907913,
+      0.62508866505308
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214602",
+    "mapId": "hyrule-lorule",
+    "category": "gear",
+    "title": "Sand Rod",
+    "description": "Renting price: 50 Rupees Buying price: 800 Rupees Upgrade: _Nice Sand Rod_, which creates permanant walls that can be dismissed. Note: Unavailable until [Osfala](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215235) is rescued.",
+    "coords": [
+      -0.9572287532273,
+      0.62197117834597
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215147",
+    "mapId": "hyrule-lorule",
+    "category": "golden-rupee",
+    "title": "Golden Rupee",
+    "description": "Location: In a chest, at the end of a secret cavern; using a [Bomb](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214598), blow up the northern wall to reveal.",
+    "coords": [
+      -0.8214271813016,
+      0.58991308705224
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215198",
+    "mapId": "hyrule-lorule",
+    "category": "golden-rupee",
+    "title": "Golden Rupee",
+    "description": "Location: In a chest, on the platform. Access by climbing the ice cave (going west at the crossroads) and Wall Merging from the platform to the west.",
+    "coords": [
+      -0.27571420117247,
+      0.87356504939792
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215224",
+    "mapId": "hyrule-lorule",
+    "category": "golden-rupee",
+    "title": "Golden Rupee",
+    "description": "Location: In a cavern, behind a large boulder. Use a [Big Bomb Flower](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215219) to blow it up.",
+    "coords": [
+      -0.37596900250559,
+      0.52663147388716
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215239",
+    "mapId": "hyrule-lorule",
+    "category": "golden-rupee",
+    "title": "Golden Rupee",
+    "description": "Location: Reward for solving the puzzle; requires the [Sand Rod](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214602) and the [Tornado Rod](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214596).",
+    "coords": [
+      -0.48817371515612,
+      0.53904528639682
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215312",
+    "mapId": "hyrule-lorule",
+    "category": "golden-rupee",
+    "title": "Golden Rupee",
+    "description": "Location: Cut down the flowers to reveal a secret hatch, leading to a puzzle room. Solve to to access the Rupee.",
+    "coords": [
+      -0.43172077697057,
+      0.63858548409906
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215332",
+    "mapId": "hyrule-lorule",
+    "category": "golden-rupee",
+    "title": "Golden Rupee",
+    "description": "Location: [Swamp Palace](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215331) - Floor B1, small western room. Throw a [Bomb](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214598) at the activator to spawn the chest.",
+    "coords": [
+      -0.43570780206253,
+      0.53739245625913
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215337",
+    "mapId": "hyrule-lorule",
+    "category": "golden-rupee",
+    "title": "Golden Rupee",
+    "description": "Location: [Ice Ruins](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215336), Floor 1; after activating the rotating platforms, walk underneath the stairs to access.",
+    "coords": [
+      -0.2365386779423,
+      0.88990101462321
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214550",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Captain's Sword",
+    "description": "Item localizado em hyrule-lorule.",
+    "coords": [
+      -1.0721108773285,
+      0.69713931999676
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214555",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Lamp",
+    "description": "Location: In the chest, right at the entrance of the [Sanctuary Dungeon](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214556) Utility: Lights up torches, melts ice and damages enemies. Note: Beating the [Treacherous Tower](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215192)'s Advanced level for the first time upgrades it to the _Super Lamp_, which deals 8 times more damage to enemies.",
+    "coords": [
+      -0.95180791992508,
+      0.78764552160682
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214558",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Ravio's Bracelet",
+    "description": "Location: Given by Ravio after completing the [Sanctuary Dungeon](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214556). Utility: Enables Wall Merging upon completing the [Eastern Palace](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214576).",
+    "coords": [
+      -0.96634153446702,
+      0.6290116591177
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214559",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Pendant of Courage",
+    "description": "Location: Given by Princess Zelda after completing the [Sanctuary Dungeon](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214556).",
+    "coords": [
+      -0.98756398530137,
+      0.75193716680446
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214561",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Hint Glasses",
+    "description": "Location: Given by the [Fortune-Teller](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214560). Utility: Reveals Hint Ghosts.",
+    "coords": [
+      -1.1083598017662,
+      0.77907251892633
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214566",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Shield",
+    "description": "Location: Sold by the [Shop](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214565) for 50 Rupees. Utility: Blocks all incoming damage from a given direction.",
+    "coords": [
+      -1.1725771330602,
+      0.72529192744359
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214571",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Net",
+    "description": "Location: Given by the [Bee Guy](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214570). Utility: Allows for catching bugs, fruits, fairies, and more. Must be then stored in a Bottle. Note: Beating the [Treacherous Tower](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215192)'s Advanced level for the second time upgrades it to the _Super Net_, which deals 8 times more damage.",
+    "coords": [
+      -1.1357514288529,
+      0.6957835519596
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214581",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Bell",
+    "description": "Location: Given by Irene when crossing the bridge after completing [Eastern Palace](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214576). Utility: Allows warping between Weather Vanes.",
+    "coords": [
+      -0.9059070446751,
+      0.62178056801006
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214582",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Pouch",
+    "description": "Location: On the tree stumpt, after completing [Eastern Palace](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214576). Utility: Allows the player to map an item to the 'X' button.",
+    "coords": [
+      -1.0660554398815,
+      0.62507225460804
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214586",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Smooth Gem",
+    "description": "Location: Sold by the [Street Merchant](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214567) for 200 Rupees. Utility: After visiting the [Zora Cave](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214585), bring it back to gain [Zora's Flippers](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214607).",
+    "coords": [
+      -1.1595887375279,
+      0.72206486598737
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214587",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Pegasus Boots",
+    "description": "Location: After visiting the [Zora Cave](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214585), surprise the Shady Guy from behind through Wall Merging. Utility: Allows for bashing into trees and pillars, revealing hidden items.",
+    "coords": [
+      -1.1294765242952,
+      0.72456578779561
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214589",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Power Glove",
+    "description": "Location: Speak with Rosso in his [house](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214588). Utility: Allows picking up and moving small rocks.",
+    "coords": [
+      -1.0536417782245,
+      0.89253962988206
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214607",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Zora's Flippers",
+    "description": "Location: Given by Oren after bringing her the [Smooth Gem](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214586). Utility: Allows swimming.",
+    "coords": [
+      -0.82068101266076,
+      0.86903768637895
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214684",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Letter in a Bottle",
+    "description": "Location: At the bottom of the river; use [Zora's Flippers](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214607) to access. Utility: Give to the [Milk Bar](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214757) Owner to gain the [Premium Milk](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214759).",
+    "coords": [
+      -0.8014083530057,
+      0.55896481960659
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-214759",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Premium Milk",
+    "description": "Location: Given by the Milk Bar Owner after reading the [Letter in a Bottle](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214684). Utility: Traded for an [Empty Bottle](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214769) to the [Bouldering Guy](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214768)",
+    "coords": [
+      -1.1319529647355,
+      0.67576266936419
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215121",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Pendant of Power",
+    "description": "Location: Reward for defeating the boss of the [Tower of Hera](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214593)",
+    "coords": [
+      -0.943728647303,
+      0.92282229750619
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215141",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Pendant of Wisdom",
+    "description": "Location: Reward for defeating the boss of [House of Gales](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214674)",
+    "coords": [
+      -0.86004017284319,
+      0.56933593012279
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215143",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Scoot Fruit",
+    "description": "Location: Sold by the [Lakeside Item Seller](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215142) for 50 Rupees. Utility: Teleports the player back to the dungeon's entrance.",
+    "coords": [
+      -0.92687313655673,
+      0.58458531312435
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215144",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Foul Fruit",
+    "description": "Location: Sold by the [Lakeside Item Seller](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215142) for 30 Rupees. Utility: Stuns nearby enemies.",
+    "coords": [
+      -0.92347133826883,
+      0.58459237608964
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215145",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Shield",
+    "description": "Location: Sold by the [Lakeside Item Seller](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215142) for 100 Rupees. Utility: Blocks all damage in a given direction.",
+    "coords": [
+      -0.92044835858273,
+      0.58477381333088
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215148",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Master Sword",
+    "description": "Location: Deep in the Lost Woods; solve the maze riddles to access. Requirements: - [Pendant of Courage](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214559) - [Pendant of Power](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215121) - [Pendant of Wisdom](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215141)",
+    "coords": [
+      -1.1776575000233,
+      0.90596657631476
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215219",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Big Bomb Flower",
+    "description": "Location: In [Bomb-Shop](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215218)'s garden. Access must be purchased for 200 Rupees. Utility: Blows up large cracked boulders. Note: This bomb isn't carried; it must be pushed to destination without taking damage. When consumed, another grows in this spot.",
+    "coords": [
+      -0.54158290975705,
+      0.62696557512476
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215258",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Titan's Mitt",
+    "description": "Location: [Desert Palace](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215257) - 1st floor, central room. Use the [Sand Rod](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214602) to build sand bridges across the pillars, and Wall Merge behind the sandfall to a chest. Utility: Move large rocks.",
+    "coords": [
+      -1.167657018736,
+      0.58363664998158
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215305",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Bee Badge",
+    "description": "Location: Traded by the [Bee Guy](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214570) for a Golden Bee (one can be purchased [here](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215304)). Utility: Befriends bees, making them attack the enemies instead.",
+    "coords": [
+      -1.128360315269,
+      0.6957305801184
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215328",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Hylian Shield",
+    "description": "Location: [Turtle Rock](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215326) - Floor B1, central room. Kill all 4 Red Mages to spawn a chest on a pillar. Utility: Blocks magical attacks.",
+    "coords": [
+      -0.3018791356094,
+      0.56445915836458
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215333",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Blue Mail",
+    "description": "Location: [Swamp Palace](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215331) - Floor B1, central room. Lower the water level to 1 bar, then jump in the central pond and swim to the northern room. Utility: Halves damage taken.",
+    "coords": [
+      -0.42984945689222,
+      0.53809217961474
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215338",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Stamina Scroll",
+    "description": "Location: [Ice Ruins](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215336) - Floor B3, central room. On the higher platform on the right; drop down from the floor above. Utility: Increases maximum stamina.",
+    "coords": [
+      -0.23374395298339,
+      0.89011443153495
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215341",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Triforce of Courage",
+    "description": "Location: Automatically granted once saving all 7 Sages: - [Impa](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215330) - [Rosso](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215340) - [Irene](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215262) - [Gulley](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215300) - [Seres](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215311) - [Osfala](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215235) - [Oren](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215335) Utility: Progresses the game.",
+    "coords": [
+      -0.41921621122529,
+      0.70845491518369
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215343",
+    "mapId": "hyrule-lorule",
+    "category": "item",
+    "title": "Red Mail",
+    "description": "Location: [Lorule Castle](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215342) - Floor 4, central room. Turns off all torched to reveal the hidden path to the south. Utility: Halves incoming damage; stacks with [Blue Mail](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215333) for a total of 75% damage reduction.",
+    "coords": [
+      -0.41883469795815,
+      0.72955902598683
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215304",
+    "mapId": "hyrule-lorule",
+    "category": "miscellaneous",
+    "title": "Golden Bee",
+    "description": "Location: Sold by the [Mysterious Man](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215303) for 888 Rupees. Can be traded to the [Bee Guy](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=214570) for the [Bee Badge](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215305)",
+    "coords": [
+      -0.58977112339638,
+      0.91077741952414
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215316",
+    "mapId": "hyrule-lorule",
+    "category": "miscellaneous",
+    "title": "Stuck Turtle",
+    "description": "Location: High up on the wall; Wall Merge from the western cliff to dislodge it.",
+    "coords": [
+      -0.30114340777917,
+      0.58663120034398
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215317",
+    "mapId": "hyrule-lorule",
+    "category": "miscellaneous",
+    "title": "Attacked Turtle",
+    "description": "Location: In the middle of the water; defeat the nearby enemies to save it.",
+    "coords": [
+      -0.3273167309585,
+      0.56068919170324
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-a-link-between-worlds-hyrule-lorule-215318",
+    "mapId": "hyrule-lorule",
+    "category": "miscellaneous",
+    "title": "Stranded Turtle",
+    "description": "Location: On its back, on the shore; use the [Titan's Mitt](https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule?locationIds=215258) to throw it back into the water.",
+    "coords": [
+      -0.34091459242876,
+      0.50965694162903
+    ],
+    "region": "hyrule-lorule",
+    "dlc": "base"
+  }
+]

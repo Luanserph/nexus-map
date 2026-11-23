@@ -268,8 +268,9 @@ Opções:
 
         const globals = await page.evaluate(() => {
           const w = window as unknown as Record<string, unknown>;
+          const gameObj = (w.game ?? null) as Record<string, unknown> | null;
           return {
-            game: w.game ?? null,
+            game: gameObj,
             tilesCdnUrl: w.tilesCdnUrl ?? null,
             mapData: w.mapData ?? null,
           };

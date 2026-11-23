@@ -1,3 +1,5 @@
+export { DesktopPinButton } from './DesktopPinButton';
+export type { DesktopPinButtonProps } from './DesktopPinButton';
 export { GlassBadge } from './GlassBadge';
 export type { GlassBadgeProps, GlassBadgeSize, GlassBadgeVariant } from './GlassBadge';
 export { GlassInput } from './GlassInput';

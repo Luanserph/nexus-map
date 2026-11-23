@@ -3,7 +3,7 @@ import { useEffect, useRef } from 'react';
 import { getGenreLabel, LanguageSelector, useI18n } from '../../core/i18n';
 import type { TranslationKey } from '../../core/i18n';
 import type { ExplorationStatus } from '../../types/schema';
-import { GlassBadge, GlassInput, GlassPanel, NeonButton, NexusLogo } from '../glass';
+import { DesktopPinButton, GlassBadge, GlassInput, GlassPanel, NeonButton, NexusLogo } from '../glass';
 
 export interface HubNavbarProps {
   searchQuery: string;
@@ -267,8 +267,9 @@ export function HubNavbar({
               />
             </div>
 
-            {/* Desktop Install + Language Selector + Local-First Telemetry Badge */}
+            {/* Desktop Install + Always-on-Top Pin (Tauri) + Language Selector + Local-First Telemetry Badge */}
             <div className="hidden items-center gap-2.5 lg:flex">
+              <DesktopPinButton />
               {showInstallButton && onInstallClick && (
                 <NeonButton
                   size="sm"

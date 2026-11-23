@@ -34,7 +34,7 @@ export function GameCoverArt({
           src={imageUrl}
           alt={`Arte de ${title}`}
           onError={() => setFailedImageUrl(imageUrl ?? null)}
-          className="h-full w-full object-cover opacity-80 transition-transform duration-500 group-hover/card:scale-105"
+          className="h-full w-full object-cover object-center opacity-85 transition-transform duration-500 group-hover/card:scale-105"
         />
       ) : (
         <ProceduralCartographicArt pattern={theme.backgroundPattern} />

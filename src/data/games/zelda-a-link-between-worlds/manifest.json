@@ -1,0 +1,249 @@
+{
+  "id": "game-zelda-a-link-between-worlds",
+  "slug": "zelda-a-link-between-worlds",
+  "title": "The Legend of Zelda: A Link Between Worlds",
+  "subtitle": "Reinos Paralelos de Hyrule & Lorule",
+  "studio": "Nintendo",
+  "releaseYear": 2013,
+  "genres": [
+    "Aventura",
+    "Action RPG",
+    "Mundo Aberto"
+  ],
+  "platforms": [
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/zelda-a-link-between-worlds/cover.webp",
+    "bannerImage": "/games/zelda-a-link-between-worlds/banner.webp",
+    "logoImage": "/games/zelda-a-link-between-worlds/logo.webp"
+  },
+  "theme": {
+    "accentPrimary": "#8B5CF6",
+    "accentSecondary": "#F59E0B",
+    "accentGlow": "rgba(139, 92, 246, 0.36)",
+    "glassTint": "rgba(16, 12, 24, 0.80)",
+    "surfaceBase": "#090710",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "hyrule-lorule",
+      "name": "Hyrule & Lorule",
+      "dlc": "base",
+      "pinsCount": 332,
+      "icon": "layers",
+      "crs": "epsg3857",
+      "backgroundColor": "#090710",
+      "initialCenter": [
+        0.70722691345904,
+        -0.89607238769531
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.45998,
+          -1.26987
+        ],
+        [
+          0.96282,
+          -0.13842
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default-v2",
+          "label": "default-v2",
+          "urlTemplate": "https://tiles.mapgenie.io/games/zelda-a-link-between-worlds/hyrule-lorule/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 16,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "dungeon",
+          "groupId": "locations",
+          "name": "Dungeon",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "house",
+          "groupId": "locations",
+          "name": "House",
+          "icon": "bookmark",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "minigame",
+          "groupId": "locations",
+          "name": "Minigame",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "point-of-interest",
+          "groupId": "locations",
+          "name": "Point of Interest",
+          "icon": "landmark",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "portal",
+          "groupId": "locations",
+          "name": "Portal",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "shop",
+          "groupId": "locations",
+          "name": "Shop",
+          "icon": "shopping-bag",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "weather-vane",
+          "groupId": "locations",
+          "name": "Weather Vane",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "heart-container",
+          "groupId": "collectibles",
+          "name": "Heart Container",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "heart-piece",
+          "groupId": "collectibles",
+          "name": "Heart Piece",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "maiamai",
+          "groupId": "collectibles",
+          "name": "Maiamai",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "master-ore",
+          "groupId": "collectibles",
+          "name": "Master Ore",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "monster-guts",
+          "groupId": "collectibles",
+          "name": "Monster Guts",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "sage-painting",
+          "groupId": "collectibles",
+          "name": "Sage Painting",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "equipment",
+      "label": "Equipment",
+      "categories": [
+        {
+          "id": "empty-bottle",
+          "groupId": "equipment",
+          "name": "Empty Bottle",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "gear",
+          "groupId": "equipment",
+          "name": "Gear",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "golden-rupee",
+          "groupId": "equipment",
+          "name": "Golden Rupee",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "item",
+          "groupId": "equipment",
+          "name": "Item",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 332
+}

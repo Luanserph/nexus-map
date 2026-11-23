@@ -1,0 +1,289 @@
+{
+  "id": "game-zelda-links-awakening",
+  "slug": "zelda-links-awakening",
+  "title": "The Legend of Zelda: Link's Awakening",
+  "subtitle": "Ilha Koholint",
+  "studio": "Nintendo",
+  "releaseYear": 2019,
+  "genres": [
+    "Aventura",
+    "Action RPG",
+    "Mundo Aberto"
+  ],
+  "platforms": [
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/zelda-links-awakening/cover.webp",
+    "bannerImage": "/games/zelda-links-awakening/banner.webp",
+    "logoImage": "/games/zelda-links-awakening/logo.webp"
+  },
+  "theme": {
+    "accentPrimary": "#2DD4BF",
+    "accentSecondary": "#FBBF24",
+    "accentGlow": "rgba(45, 212, 191, 0.36)",
+    "glassTint": "rgba(10, 22, 22, 0.80)",
+    "surfaceBase": "#061010",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "koholint-island",
+      "name": "Ilha Koholint",
+      "dlc": "base",
+      "pinsCount": 409,
+      "icon": "compass",
+      "crs": "epsg3857",
+      "backgroundColor": "#061010",
+      "initialCenter": [
+        0.71645364101936,
+        -0.79384154121437
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          0.3858,
+          -1.12574
+        ],
+        [
+          0.99999,
+          -0.2682
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/zelda-links-awakening/koholint-island/default-v2/{z}/{x}/{y}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 16,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "dungeon",
+          "groupId": "locations",
+          "name": "Dungeon",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "fairy-bottle",
+          "groupId": "locations",
+          "name": "Fairy Bottle",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "fairy-fountain",
+          "groupId": "locations",
+          "name": "Fairy Fountain",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "house",
+          "groupId": "locations",
+          "name": "House",
+          "icon": "bookmark",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "mad-batter",
+          "groupId": "locations",
+          "name": "Mad Batter",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "minigame",
+          "groupId": "locations",
+          "name": "Minigame",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "shop",
+          "groupId": "locations",
+          "name": "Shop",
+          "icon": "shopping-bag",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "telephone-booth",
+          "groupId": "locations",
+          "name": "Telephone Booth",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "warp-point",
+          "groupId": "locations",
+          "name": "Warp Point",
+          "icon": "landmark",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "dungeons",
+      "label": "Dungeons",
+      "categories": [
+        {
+          "id": "boss",
+          "groupId": "dungeons",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "compass",
+          "groupId": "dungeons",
+          "name": "Compass",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "map",
+          "groupId": "dungeons",
+          "name": "Map",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "nightmare-key",
+          "groupId": "dungeons",
+          "name": "Nightmare Key",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "small-key",
+          "groupId": "dungeons",
+          "name": "Small Key",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "stone-beak",
+          "groupId": "dungeons",
+          "name": "Stone Beak",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "heart-piece",
+          "groupId": "collectibles",
+          "name": "Heart Piece",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "mario-figurine",
+          "groupId": "collectibles",
+          "name": "Mario Figurine",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "seashell",
+          "groupId": "collectibles",
+          "name": "Seashell",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "trading-sequence",
+          "groupId": "collectibles",
+          "name": "Trading Sequence",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "treasure-chest",
+          "groupId": "collectibles",
+          "name": "Treasure Chest",
+          "icon": "gem",
+          "color": "#FB923C",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "item",
+          "groupId": "other",
+          "name": "Item",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "owl-statue",
+          "groupId": "other",
+          "name": "Owl Statue",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 409
+}

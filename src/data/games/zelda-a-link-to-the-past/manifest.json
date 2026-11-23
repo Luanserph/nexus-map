@@ -1,0 +1,277 @@
+{
+  "id": "game-zelda-a-link-to-the-past",
+  "slug": "zelda-a-link-to-the-past",
+  "title": "The Legend of Zelda: A Link to the Past",
+  "subtitle": "Mundo da Luz & Mundo das Trevas",
+  "studio": "Nintendo",
+  "releaseYear": 1991,
+  "genres": [
+    "Aventura",
+    "Action RPG",
+    "Mundo Aberto"
+  ],
+  "platforms": [
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/zelda-a-link-to-the-past/cover.webp",
+    "bannerImage": "/games/zelda-a-link-to-the-past/banner.webp",
+    "logoImage": "/games/zelda-a-link-to-the-past/logo.webp"
+  },
+  "theme": {
+    "accentPrimary": "#22C55E",
+    "accentSecondary": "#EAB308",
+    "accentGlow": "rgba(34, 197, 94, 0.36)",
+    "glassTint": "rgba(10, 20, 14, 0.80)",
+    "surfaceBase": "#060E09",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "world",
+      "name": "Light & Dark World",
+      "dlc": "base",
+      "pinsCount": 815,
+      "icon": "layers",
+      "crs": "epsg3857",
+      "backgroundColor": "#060E09",
+      "initialCenter": [
+        0.70114005565738,
+        -0.97958114082977
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          0.49232,
+          -1.12714
+        ],
+        [
+          0.9157,
+          -0.27789
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/zelda-a-link-to-the-past/world/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.49232,
+              -1.12714
+            ],
+            [
+              0.9157,
+              -0.27789
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "cave",
+          "groupId": "locations",
+          "name": "Cave",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "fairy",
+          "groupId": "locations",
+          "name": "Fairy",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "fairy-fountain",
+          "groupId": "locations",
+          "name": "Fairy Fountain",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "location",
+          "groupId": "locations",
+          "name": "Location",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "point-of-interest",
+          "groupId": "locations",
+          "name": "Point of Interest",
+          "icon": "landmark",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "shop",
+          "groupId": "locations",
+          "name": "Shop",
+          "icon": "shopping-bag",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "warp",
+          "groupId": "locations",
+          "name": "Warp",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "heart-container",
+          "groupId": "collectibles",
+          "name": "Heart Container",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "heart-piece",
+          "groupId": "collectibles",
+          "name": "Heart Piece",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "equipment",
+      "label": "Equipment",
+      "categories": [
+        {
+          "id": "equipment",
+          "groupId": "equipment",
+          "name": "Equipment",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "bomb",
+          "groupId": "items",
+          "name": "Bomb",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "bottle",
+          "groupId": "items",
+          "name": "Bottle",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "chest",
+          "groupId": "items",
+          "name": "Chest",
+          "icon": "gem",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "item",
+          "groupId": "items",
+          "name": "Item",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "rupees",
+          "groupId": "items",
+          "name": "Rupees",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "enemies",
+      "label": "Enemies",
+      "categories": [
+        {
+          "id": "enemy",
+          "groupId": "enemies",
+          "name": "Enemy",
+          "icon": "skull",
+          "color": "#34D399",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "easter-egg",
+          "groupId": "other",
+          "name": "Easter Egg",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "npc",
+          "groupId": "other",
+          "name": "NPC",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "transition",
+          "groupId": "other",
+          "name": "Transition",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 815
+}

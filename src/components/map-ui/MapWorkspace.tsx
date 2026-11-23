@@ -23,6 +23,7 @@ import {
   Landmark,
   Layers,
   Leaf,
+  Loader2,
   Lock,
   MapPin,
   Minus,
@@ -75,7 +76,12 @@ import { generateOptimized100Route } from '../../core/routing';
 import type { OptimizedRouteResult } from '../../core/routing';
 import { useLivePlayer } from '../../core/telemetry';
 import { useGameTheme } from '../../core/theme-engine';
-import { getMarkersByMap, getRegionsByMap } from '../../data/games';
+import {
+  getCachedMarkersByGameSlug,
+  getCachedRegionsByGameSlug,
+  loadMarkersByGameSlug,
+  loadRegionsByGameSlug,
+} from '../../data/games';
 import type {
   Category,
   CategoryPreset,
@@ -88,7 +94,7 @@ import type {
   MapMarker,
   UserNoteRecord,
 } from '../../types/schema';
-import { GlassBadge, GlassInput, GlassPanel, NeonButton } from '../glass';
+import { DesktopPinButton, GlassBadge, GlassInput, GlassPanel, NeonButton } from '../glass';
 import { GameCoverArt } from '../hub/GameCoverArt';
 import { GuidedRoutePanel } from './GuidedRoutePanel';
 import { LiveTelemetryWidget } from './LiveTelemetryWidget';
@@ -315,14 +321,60 @@ export function MapWorkspace({
     return map;
   }, [manifest.categoryGroups]);
 
-  const gameRegions = useMemo(
-    () => getRegionsByMap(manifest.slug, currentMapId),
-    [manifest.slug, currentMapId]
-  );
+  const [loadedGameData, setLoadedGameData] = useState<{
+    slug: string;
+    markers: MapMarker[];
+    regions: import('../../types/schema').MapRegion[];
+  }>(() => ({
+    slug: manifest.slug,
+    markers: getCachedMarkersByGameSlug(manifest.slug),
+    regions: getCachedRegionsByGameSlug(manifest.slug),
+  }));
+
+  const isLoadingMapData =
+    loadedGameData.slug !== manifest.slug ||
+    (loadedGameData.markers.length === 0 &&
+      (activeLayer?.pinsCount ?? 0) > 0 &&
+      getCachedMarkersByGameSlug(manifest.slug).length === 0);
+
+  useEffect(() => {
+    let cancelled = false;
+    Promise.all([
+      loadMarkersByGameSlug(manifest.slug),
+      loadRegionsByGameSlug(manifest.slug),
+    ])
+      .then(([loadedMarkers, loadedRegions]) => {
+        if (!cancelled) {
+          setLoadedGameData({
+            slug: manifest.slug,
+            markers: loadedMarkers,
+            regions: loadedRegions,
+          });
+        }
+      })
+      .catch(() => {
+        if (!cancelled) {
+          setLoadedGameData({
+            slug: manifest.slug,
+            markers: [],
+            regions: [],
+          });
+        }
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [manifest.slug]);
+
+  const gameRegions = useMemo(() => {
+    const all = loadedGameData.slug === manifest.slug ? loadedGameData.regions : [];
+    return all.filter((region) => !region.mapId || region.mapId === currentMapId);
+  }, [loadedGameData, manifest.slug, currentMapId]);
 
   const layerMarkers = useMemo(() => {
-    return getMarkersByMap(manifest.slug, currentMapId);
-  }, [manifest.slug, currentMapId]);
+    const all = loadedGameData.slug === manifest.slug ? loadedGameData.markers : [];
+    return all.filter((marker) => marker.mapId === currentMapId);
+  }, [loadedGameData, manifest.slug, currentMapId]);
 
   // DLC-scoped markers (separates Base Game vs DLC progress cleanly)
   const dlcScopedMarkers = useMemo(() => {
@@ -732,6 +784,16 @@ export function MapWorkspace({
       {/* INTERACTIVE LEAFLET MAP ENGINE                                    */}
       {/* ================================================================= */}
       <div className="relative z-0 h-full w-full">
+        {isLoadingMapData && (
+          <div className="pointer-events-none fixed top-20 left-1/2 z-40 -translate-x-1/2">
+            <GlassPanel variant="elevated" padding="none">
+              <div className="flex items-center gap-2 px-3.5 py-2 font-mono text-xs text-[var(--text-primary)]">
+                <Loader2 className="h-3.5 w-3.5 animate-spin text-[var(--accent-primary)]" />
+                <span>Carregando mapa...</span>
+              </div>
+            </GlassPanel>
+          </div>
+        )}
         {activeLayer && (
           <InteractiveMap
             mapRef={mapHandleRef}
@@ -834,6 +896,9 @@ export function MapWorkspace({
         </GlassPanel>
 
         <div className="pointer-events-auto flex max-w-full flex-wrap items-center gap-1.5 md:gap-2">
+          {/* Desktop-only Always-on-Top Pin (Tauri) */}
+          <DesktopPinButton compact />
+
           {/* Language Selector in Map Topbar (desktop only; moved into drawer on mobile) */}
           <div className="hidden md:block">
             <LanguageSelector />

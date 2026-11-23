@@ -1,0 +1,451 @@
+{
+  "id": "game-zelda-ocarina-of-time",
+  "slug": "zelda-ocarina-of-time",
+  "title": "The Legend of Zelda: Ocarina of Time",
+  "subtitle": "Hyrule — Era Infantil & Era Adulta",
+  "studio": "Nintendo",
+  "releaseYear": 1998,
+  "genres": [
+    "Aventura",
+    "Action RPG",
+    "Mundo Aberto"
+  ],
+  "platforms": [
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/zelda-ocarina-of-time/cover.webp",
+    "bannerImage": "/games/zelda-ocarina-of-time/banner.webp",
+    "logoImage": "/games/zelda-ocarina-of-time/logo.webp"
+  },
+  "theme": {
+    "accentPrimary": "#10B981",
+    "accentSecondary": "#D4AF37",
+    "accentGlow": "rgba(16, 185, 129, 0.36)",
+    "glassTint": "rgba(10, 20, 16, 0.80)",
+    "surfaceBase": "#060D0A",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "child-past",
+      "name": "Passado (Criança)",
+      "dlc": "base",
+      "pinsCount": 1285,
+      "icon": "compass",
+      "crs": "epsg3857",
+      "backgroundColor": "#060D0A",
+      "initialCenter": [
+        0.43081121184555,
+        -0.60870712213864
+      ],
+      "initialZoom": 13,
+      "maxBounds": [
+        [
+          -0.08728,
+          -1.36188
+        ],
+        [
+          1.1783,
+          0.10088
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default-v2",
+          "label": "default-v2",
+          "urlTemplate": "https://tiles.mapgenie.io/games/the-legend-of-zelda-ocarina-of-time/child-past/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 16,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adult-future",
+      "name": "Futuro (Adulto)",
+      "dlc": "base",
+      "pinsCount": 1933,
+      "icon": "flame",
+      "crs": "epsg3857",
+      "backgroundColor": "#060D0A",
+      "initialCenter": [
+        0.73225555132534,
+        -0.7612293787314
+      ],
+      "initialZoom": 13,
+      "maxBounds": [
+        [
+          0.23618,
+          -1.3434
+        ],
+        [
+          1.13983,
+          0.04302
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default-v2",
+          "label": "default-v2",
+          "urlTemplate": "https://tiles.mapgenie.io/games/the-legend-of-zelda-ocarina-of-time/adult-future/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 16,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "point-of-interest",
+          "groupId": "locations",
+          "name": "Point of Interest",
+          "icon": "landmark",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "shop",
+          "groupId": "locations",
+          "name": "Shop",
+          "icon": "shopping-bag",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "minigame",
+          "groupId": "locations",
+          "name": "Minigame",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "npc",
+          "groupId": "locations",
+          "name": "NPC",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "fairy-fountain",
+          "groupId": "locations",
+          "name": "Fairy Fountain",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "gossip-stone",
+          "groupId": "locations",
+          "name": "Gossip Stone",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "dungeon-entrance",
+          "groupId": "locations",
+          "name": "Dungeon Entrance",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "soft-soil",
+          "groupId": "locations",
+          "name": "Soft Soil",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "rupee",
+          "groupId": "items",
+          "name": "Rupee",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "key",
+          "groupId": "items",
+          "name": "Key",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "item",
+          "groupId": "items",
+          "name": "Item",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "dungeon-map",
+          "groupId": "items",
+          "name": "Dungeon Map",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "compass",
+          "groupId": "items",
+          "name": "Compass",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "recovery-item",
+          "groupId": "items",
+          "name": "Recovery Item",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "item-drop",
+          "groupId": "items",
+          "name": "Item Drop",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "heart-piece",
+          "groupId": "collectibles",
+          "name": "Heart Piece",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "gold-skulltula",
+          "groupId": "collectibles",
+          "name": "Gold Skulltula",
+          "icon": "skull",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "big-poe",
+          "groupId": "collectibles",
+          "name": "Big Poe",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "tunic",
+          "groupId": "collectibles",
+          "name": "Tunic",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "weapon",
+          "groupId": "collectibles",
+          "name": "Weapon",
+          "icon": "shopping-bag",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "shield",
+          "groupId": "collectibles",
+          "name": "Shield",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "upgrade",
+          "groupId": "collectibles",
+          "name": "Upgrade",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "bottle",
+          "groupId": "collectibles",
+          "name": "Bottle",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "song",
+          "groupId": "collectibles",
+          "name": "Song",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "equipment",
+          "groupId": "collectibles",
+          "name": "Equipment",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "enemies",
+      "label": "Enemies",
+      "categories": [
+        {
+          "id": "enemy",
+          "groupId": "enemies",
+          "name": "Enemy",
+          "icon": "skull",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "boss",
+          "groupId": "enemies",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#F472B6",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "switch",
+          "groupId": "other",
+          "name": "Switch",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "obstacle",
+          "groupId": "other",
+          "name": "Obstacle",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "transition",
+          "groupId": "other",
+          "name": "Transition",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "torch",
+          "groupId": "other",
+          "name": "Torch",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "objective",
+          "groupId": "other",
+          "name": "Objective",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "block",
+          "groupId": "other",
+          "name": "Block",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "shortcut",
+          "groupId": "other",
+          "name": "Shortcut",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "vine",
+          "groupId": "other",
+          "name": "Vine",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "ladder",
+          "groupId": "other",
+          "name": "Ladder",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "fairy-thought",
+          "groupId": "other",
+          "name": "Fairy Thought",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 3218
+}

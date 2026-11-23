@@ -1,0 +1,317 @@
+{
+  "id": "game-zelda-echoes-of-wisdom",
+  "slug": "zelda-echoes-of-wisdom",
+  "title": "The Legend of Zelda: Echoes of Wisdom",
+  "subtitle": "Fendas do Mundo Silencioso em Hyrule",
+  "studio": "Nintendo",
+  "releaseYear": 2024,
+  "genres": [
+    "Aventura",
+    "Action RPG",
+    "Mundo Aberto"
+  ],
+  "platforms": [
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/zelda-echoes-of-wisdom/cover.webp",
+    "bannerImage": "/games/zelda-echoes-of-wisdom/banner.webp",
+    "logoImage": "/games/zelda-echoes-of-wisdom/logo.webp"
+  },
+  "theme": {
+    "accentPrimary": "#A855F7",
+    "accentSecondary": "#FACC15",
+    "accentGlow": "rgba(168, 85, 247, 0.36)",
+    "glassTint": "rgba(18, 11, 26, 0.80)",
+    "surfaceBase": "#0A0712",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "hyrule",
+      "name": "Hyrule",
+      "dlc": "base",
+      "pinsCount": 696,
+      "icon": "sparkles",
+      "crs": "epsg3857",
+      "backgroundColor": "#0A0712",
+      "initialCenter": [
+        0.68557738835905,
+        -0.73520678103614
+      ],
+      "initialZoom": 13,
+      "maxBounds": [
+        [
+          0.56379,
+          -0.89246
+        ],
+        [
+          0.84037,
+          -0.51634
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/zelda-echoes-of-wisdom/hyrule-adasdfga/alnvnla-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0.56379,
+              -0.89246
+            ],
+            [
+              0.84037,
+              -0.51634
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "area",
+          "groupId": "locations",
+          "name": "Area",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "cave",
+          "groupId": "locations",
+          "name": "Cave",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "dungeon",
+          "groupId": "locations",
+          "name": "Dungeon",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "great-fairy",
+          "groupId": "locations",
+          "name": "Great Fairy",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "house",
+          "groupId": "locations",
+          "name": "House",
+          "icon": "bookmark",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "machine-engineer",
+          "groupId": "locations",
+          "name": "Machine Engineer",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "minigame",
+          "groupId": "locations",
+          "name": "Minigame",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "shop",
+          "groupId": "locations",
+          "name": "Shop",
+          "icon": "shopping-bag",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "smoothie-shop",
+          "groupId": "locations",
+          "name": "Smoothie Shop",
+          "icon": "shopping-bag",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "still-world-rift",
+          "groupId": "locations",
+          "name": "Still World Rift",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "waypoint",
+          "groupId": "locations",
+          "name": "Waypoint",
+          "icon": "navigation",
+          "color": "#FACC15",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "echo",
+          "groupId": "collectibles",
+          "name": "Echo",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": false
+        },
+        {
+          "id": "fairy-bottle",
+          "groupId": "collectibles",
+          "name": "Fairy Bottle",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "heart-piece",
+          "groupId": "collectibles",
+          "name": "Heart Piece",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "might-crystal",
+          "groupId": "collectibles",
+          "name": "Might Crystal",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "stamp-rally",
+          "groupId": "collectibles",
+          "name": "Stamp Rally",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "clothing",
+          "groupId": "items",
+          "name": "Clothing",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "fairy",
+          "groupId": "items",
+          "name": "Fairy",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "ingredient",
+          "groupId": "items",
+          "name": "Ingredient",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "rupees",
+          "groupId": "items",
+          "name": "Rupees",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "treasure-chest",
+          "groupId": "items",
+          "name": "Treasure Chest",
+          "icon": "gem",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "main-quest",
+          "groupId": "quests",
+          "name": "Main Quest",
+          "icon": "scroll-text",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "side-quest",
+          "groupId": "quests",
+          "name": "Side Quest",
+          "icon": "scroll-text",
+          "color": "#FACC15",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "dungeon",
+      "label": "Dungeon",
+      "categories": [
+        {
+          "id": "boss",
+          "groupId": "dungeon",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 696
+}

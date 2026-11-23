@@ -1,0 +1,5321 @@
+[
+  {
+    "id": "zelda-links-awakening-koholint-island-53767",
+    "mapId": "koholint-island",
+    "category": "dungeon",
+    "title": "Turtle Rock",
+    "description": "Level: 8 Required: Defeat [Turtle Rock](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=56543) (Mini-Boss) Turtle Rock is both the name of this dungeon and the creature block its entrance. Defeat the mini-boss to reveal the opening to the Turtle Rock dungeon.",
+    "coords": [
+      -0.90226875794576,
+      0.7945163344241
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53768",
+    "mapId": "koholint-island",
+    "category": "dungeon",
+    "title": "Color Dungeon",
+    "description": "Level: 0 Required: None Unlike other dungeons where the goal is to find instruments to wake the Wind Fish, the Color Dungeon rewards you with the option to change your tunic and increase one of your stats. Anytime you want to change your tunic color (Red, Blue, or Green), you can return to the Color Dungeon and talk to the [Fairy Queen](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=56509). Reward: Blue Tunic (increased defense) or Red Tunic (increased attack)",
+    "coords": [
+      -0.70872915892744,
+      0.70674467431542
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53769",
+    "mapId": "koholint-island",
+    "category": "dungeon",
+    "title": "Angler's Tunnel",
+    "description": "Level: 4 Required: Angler Key After completing the Key Cavern, you can meet Marin on the Toronbo Shores, south of Mabe Village. Link and Marin have a nice moment together, and then Marin becomes a temporary companion! Escort Marin to the Animal Village, where she can wake up the Sleeping Walrus. With the Walrus out of the way, Link can continue into the Yarna Desert and fight [Lanmola](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=56407). Defeat the boss to receive the Angler Key. The lock is south of the dungeon entrance, on the raised platform. Use the Angler key on the lock to lower the water level and reveal the Angler's Tunnel entrance.",
+    "coords": [
+      -0.61033129692072,
+      0.76539385663207
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53770",
+    "mapId": "koholint-island",
+    "category": "dungeon",
+    "title": "Eagle's Tower",
+    "description": "Level: 7 Required: Bird Key After completing the Key Cavern, you'll get access to the [Dream Shrine](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=56269) and the Ocarina. Afterwards, head south of the Ukuku Prairie to the Pothole Fields and Signpost Maze. Follow the directions of the signs until you find Mamu. Mamu will teach you the Frog's Song of Soul in exchange for 300 rupees. With a new song for your Ocarina, head back to Mabe Village. You may have noticed a bird-shaped weather vein in town, where Marin typically hangs out and sings. Push the bird statue to reveal stairs, which lead you to some rooster bones. Play the Frog's Song of Soul to revive the rooster. Carrying the rooster makes Link fly! With your zombie rooster in tow, make your way to the [Hen House](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53827) in the Tal Tal Mountain Range. Before reaching the [Hen House](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53827), stop by a cave directly south of the [Hen House](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53827) and use the rooster to fly over the chasm to finally pick up the Bird Key. The dungeon's lock is to the left of the cave entrance, behind some boulders. This is easily the most confusing dungeon in the game. The main objective is to throw the iron ball at all four cracked pillars. This is easier said than done. It is _highly_ recommended to follow a video walkthrough to prevent getting lost and endlessly backtracking through the dungeon.",
+    "coords": [
+      -0.52653188068757,
+      0.79621918970097
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53771",
+    "mapId": "koholint-island",
+    "category": "dungeon",
+    "title": "Bottle Grotto",
+    "description": "Level: 2 Requires: BowWow Shortly after completing the [Tail Cave](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53772), Link returns to Mabe Village to find that Moblins have kidnapped BowWow. Rescue BowWow in the Moblin Cave and return him to [Madam MeowMeow](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53793). In return, you can take BowWow for a walk into the Goponga Swamp, where he can eat the Goponga Flowers blocking the dungeon entrance.",
+    "coords": [
+      -0.79949567519895,
+      0.76727068629146
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53772",
+    "mapId": "koholint-island",
+    "category": "dungeon",
+    "title": "Tail Cave",
+    "description": "Level: 1 Required: Tail Key To unlock this dungeon, you must retrieve the Tail Key from the Mysterious Forest. However, when you enter the forest, a raccoon will meddle with the map, ensuring you get lost and never find the key. While you stumble around the Mysterious Forest, you will eventually find a hollow trunk that leads into a cave. Exit out the other side of the cave and pick up the Sleepy Toadstool on the ground. Find the [Witch's Hut](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53809) and trade the Sleepy Toadstool for Magic Powder. Return to the Mysterious Forest and throw the Magic Powder at the raccoon. Now, you can navigate the north side of the Mysterious Forest and find the Tail Key in a chest.",
+    "coords": [
+      -0.81808306038238,
+      0.62367739106564
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53773",
+    "mapId": "koholint-island",
+    "category": "dungeon",
+    "title": "Key Cavern",
+    "description": "Level: 3 Required: Slime Key Prince Richard currently has the Slime Key needed to open the Key Cavern. He can be found at [Richard's Villa](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53813), where he has taken up residence since fleeing Kanalet Castle. He agrees to give you the Slime Key in exchange for five Golden Leaves from Kanalet Castle. The bridge to Kanalet Castle is being guard by Kiki. If you give [Bananas](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53834) to Kiki, he'll let you pass.",
+    "coords": [
+      -0.76470685012646,
+      0.65019476760153
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53774",
+    "mapId": "koholint-island",
+    "category": "dungeon",
+    "title": "Face Shrine",
+    "description": "Level: 6 Required: Face Key, Bow & Arrow You probably already have the bow at this point in the game, but if not, head to the [Mabe Village Shop](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53799) and purchase a bow for 980 rupees. Next, you need to find the Face Key to unlock the gate to the dungeon. North of the Face Shrine, you can find the Ancient Ruins. The Ancient Ruins are filled with Armos, stone enemies that come alive when Link touches them. The easiest method to defeat an Armos is drop a bomb, and just as the bomb starts flashing red, touch the Armos, and run away. If you time it correctly, the bomb will explode and kill the Armos just as it wakes up. You only need to defeat the Armos that block your path to the Ancient Ruins temple. Inside the temple, you will find a mini-boss: the Armos Knight. The Armos Knight will chase you around the room, jumping and slamming the ground to try and stun Link. Use the Roc's Feather to jump just as the Armos Knight starts to fall to avoid the stun attack. As you attack the Armos Knight, his weapons and armor will fall off and he'll become easier and easier to attack. When the Armos Knight is finally defeated, pick up the Face Key.",
+    "coords": [
+      -0.58551549911718,
+      0.68719765965575
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53775",
+    "mapId": "koholint-island",
+    "category": "dungeon",
+    "title": "Catfish's Maw",
+    "description": "Level: 5 Required: Flippers from [Angler's Tunnel](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53769) To enter Catfish's Maw, swim in Martha's Bay to the southeast corner of the giant stone catfish, near the cluster of rocks. Dive underwater to enter a 2D view where you can now swim through a hidden underwater path. When you surface on the other side, Link will be in the center of the rock cluster near the entrance of Catfish's Maw.",
+    "coords": [
+      -0.66046372551227,
+      0.61838268024431
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53807",
+    "mapId": "koholint-island",
+    "category": "dungeon",
+    "title": "Wind Fish's Egg",
+    "description": "Level: 9 Required: [Magnifying Glass](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53844) In order to navigate the Wind Fish Egg, you need to use the [Magnifying Glass](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53844) to read the mysterious book at the [Mabe Village Library](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53852). The [Magnifying Glass](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53844) is the final item in the Trading Sequence quest. The pattern to navigate the Wind Fish is randomized for each game save, so it's important to learn the pattern from the library book. Write it down or take a screenshot to reference later. Outside the Wind Fish Egg, use the Ocarina to play the Ballad of the Wind Fish. Proceed to the final dungeon and the final boss fight!",
+    "coords": [
+      -0.7407373726038,
+      0.81817160989114
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53828",
+    "mapId": "koholint-island",
+    "category": "fairy-bottle",
+    "title": "Fairy Bottle",
+    "description": "Requires: Completion of Face Shrine An empty bottle that can be used to hold a fairy for healing. Complete 10 [Chamber Dungeon](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53810) challenges to earn this item.",
+    "coords": [
+      -0.72021712103401,
+      0.75637788254752
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53829",
+    "mapId": "koholint-island",
+    "category": "fairy-bottle",
+    "title": "Fairy Bottle",
+    "description": "An empty bottle that can be used to hold a fairy for healing. Can be fished out of the bottom of the pond during the [Fishing Pond](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53806) minigame. It's in the lower left corner of the pond, partially covered by grass.",
+    "coords": [
+      -0.88321130750217,
+      0.68776019597497
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53830",
+    "mapId": "koholint-island",
+    "category": "fairy-bottle",
+    "title": "Fairy Bottle",
+    "description": "An empty bottle that can be used to hold a fairy for healing. Shortly after you complete the [Angler's Tunnel](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53769) dungeon, a pink ghost will begin to follow you around as you explore Koholint Island. Guide the ghost to the [Ghost's House](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53814) and then to its grave. In return, the ghost will give you a fairy bottle.",
+    "coords": [
+      -0.80200280771328,
+      0.71043104150748
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53805",
+    "mapId": "koholint-island",
+    "category": "fairy-fountain",
+    "title": "Fairy Fountain",
+    "description": "Fairy Fountain localizado em koholint-island.",
+    "coords": [
+      -0.82238162806198,
+      0.7269121063855
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53812",
+    "mapId": "koholint-island",
+    "category": "fairy-fountain",
+    "title": "Fairy Fountain",
+    "description": "Use a bomb to destroyed the cracked wall. The fairy fountain is inside the cave.",
+    "coords": [
+      -0.7220837393711,
+      0.69183191186357
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53825",
+    "mapId": "koholint-island",
+    "category": "fairy-fountain",
+    "title": "Fairy Fountain",
+    "description": "Use a bomb to destroyed the cracked wall. The fairy fountain is inside the cave.",
+    "coords": [
+      -0.55757596569151,
+      0.68634599570238
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56268",
+    "mapId": "koholint-island",
+    "category": "fairy-fountain",
+    "title": "Fairy Fountain",
+    "description": "Use a bomb to destroy the cracked wall here, then enter the cave to find the Fairy Fountain.",
+    "coords": [
+      -0.50571320425411,
+      0.77991290149574
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56509",
+    "mapId": "koholint-island",
+    "category": "fairy-fountain",
+    "title": "Fairy Queen",
+    "description": "This is a unique Fairy Fountain, presided over by the Fairy Queen. The Fairy Queen offers Link a choice: Powerful Red Mail (increased attack) or Sturdy Blue Mail (increased defense). This isn't a permanent change; you can return to the Fairy Queen and change your tunic whenever you want.",
+    "coords": [
+      -0.72553933269592,
+      0.92191890166173
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53793",
+    "mapId": "koholint-island",
+    "category": "house",
+    "title": "Madam MeowMeow's House",
+    "description": "House localizado em koholint-island.",
+    "coords": [
+      -0.87845558667948,
+      0.66375928219071
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53794",
+    "mapId": "koholint-island",
+    "category": "house",
+    "title": "Grandpa Ulrira & Grandma Yahoo's House",
+    "description": "House localizado em koholint-island.",
+    "coords": [
+      -0.87682480359842,
+      0.65002727461925
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53795",
+    "mapId": "koholint-island",
+    "category": "house",
+    "title": "Marin & Tarin's House",
+    "description": "House localizado em koholint-island.",
+    "coords": [
+      -0.84749540635323,
+      0.66258536341695
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53796",
+    "mapId": "koholint-island",
+    "category": "house",
+    "title": "Papahl, Mamasha, and the Quadruplets' House",
+    "description": "House localizado em koholint-island.",
+    "coords": [
+      -0.84467152588115,
+      0.6927710031148
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53797",
+    "mapId": "koholint-island",
+    "category": "house",
+    "title": "Sale's House O' Bananas",
+    "description": "House localizado em koholint-island.",
+    "coords": [
+      -0.82078882142957,
+      0.60915278966994
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53798",
+    "mapId": "koholint-island",
+    "category": "house",
+    "title": "Mr. Write's House",
+    "description": "House localizado em koholint-island.",
+    "coords": [
+      -0.89567110937264,
+      0.75729795789528
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53811",
+    "mapId": "koholint-island",
+    "category": "house",
+    "title": "Dampé's Shack",
+    "description": "Location of the [Chamber Dungeon](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53810).",
+    "coords": [
+      -0.71678704764111,
+      0.75633385544175
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53813",
+    "mapId": "koholint-island",
+    "category": "house",
+    "title": "Richard's Villa",
+    "description": "House localizado em koholint-island.",
+    "coords": [
+      -0.74340433309328,
+      0.62175357730947
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53814",
+    "mapId": "koholint-island",
+    "category": "house",
+    "title": "Ghost's House",
+    "description": "House localizado em koholint-island.",
+    "coords": [
+      -0.73791116903078,
+      0.59926721366062
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53823",
+    "mapId": "koholint-island",
+    "category": "house",
+    "title": "Christine's House",
+    "description": "House localizado em koholint-island.",
+    "coords": [
+      -0.56152417736143,
+      0.63537492800913
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53824",
+    "mapId": "koholint-island",
+    "category": "house",
+    "title": "Chef Bear's House",
+    "description": "House localizado em koholint-island.",
+    "coords": [
+      -0.55362775402159,
+      0.62438926378382
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53827",
+    "mapId": "koholint-island",
+    "category": "house",
+    "title": "Hen House",
+    "description": "House localizado em koholint-island.",
+    "coords": [
+      -0.63660059096821,
+      0.8060450361549
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53852",
+    "mapId": "koholint-island",
+    "category": "house",
+    "title": "Mabe Village Library",
+    "description": "House localizado em koholint-island.",
+    "coords": [
+      -0.90627996172498,
+      0.65312641240907
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53853",
+    "mapId": "koholint-island",
+    "category": "house",
+    "title": "Seashell Mansion",
+    "description": "Find Secret Seashells hidden around Koholint Island and trade them in for rewards! Rewards: - 5 — Heart Piece - 15 — Seashell Sensor - 30 — Chamber Stone - 40 — Koholint Sword - 50 — Chamber Dungeon Modifier",
+    "coords": [
+      -0.63392936900959,
+      0.68737038354089
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56269",
+    "mapId": "koholint-island",
+    "category": "house",
+    "title": "Dream Shrine",
+    "description": "The Dream Shrine is available after completing the Key Cavern. Enter the house and go to bed. While you sleep, you are transported to a with a bunch of Arm-Mimics. Use the Pegasus Boots to charge forward and kill all the Arm-Mimics in a line, without breaking any of the floor tiles. At the center of the room you can find 100 rupees and the Ocarina.",
+    "coords": [
+      -0.82898826561586,
+      0.69326477162643
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-520043",
+    "mapId": "koholint-island",
+    "category": "house",
+    "title": "Zora's House",
+    "description": "House localizado em koholint-island.",
+    "coords": [
+      -0.55375679775233,
+      0.63610965237693
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55094",
+    "mapId": "koholint-island",
+    "category": "mad-batter",
+    "title": "Mad Batter",
+    "description": "Required: Power Bracelet Lift the boulder to reveal the entrance to Mad Batter’s altar. Sprinkle Magic Powder to awaken the Mad Hatter. In return, he'll \"curse\" you with an increased carry capacity for magic powder.",
+    "coords": [
+      -0.84241993430453,
+      0.72912643945397
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55095",
+    "mapId": "koholint-island",
+    "category": "mad-batter",
+    "title": "Mad Batter",
+    "description": "Required: Roc's Feather, Pegasus Boots, Flippers Clear the grass near the altar entrance using either bomb or boomerang, then long jump (Roc's Feather + Pegasus Boots) across the holes in the ground. Go down the stairs and use the Flippers to cross the underground water. On the other side of the water is a staircase, use it to return above ground and walk straight to reach a third stairwell—this will finally lead you to the Mad Batter. Sprinkle Magic Powder on the altar to wake the Mad Batter. In return, he'll \"curse\" you with an increased carry capacity for bombs.",
+    "coords": [
+      -0.65518491135924,
+      0.59399664410357
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55096",
+    "mapId": "koholint-island",
+    "category": "mad-batter",
+    "title": "Mad Batter",
+    "description": "Required: Hookshot, Power Bracelet Lift the boulder to reveal a stairwell. Sprinkle Magic Powder on the altar to wake the Mad Batter. In return, he'll \"curse\" you with an increased carry capacity for arrows.",
+    "coords": [
+      -0.79128018797735,
+      0.79311991141027
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53801",
+    "mapId": "koholint-island",
+    "category": "minigame",
+    "title": "Trendy Game",
+    "description": "_10 rupees per game_ You'll be able to access the Trendy Game after finding Link's sword and clearing away the tall grass. New prizes will be available every time you complete a new dungeon. Keep in mind, new items won't appear until you've won the old ones. Below is the chronological appearance of special prizes: 1: Yoshi Doll (Trading Sequence #1) - After first visit to the Mysterious Forest 2: Heart Piece #1 - Exit & enter the shop after obtaining the Yoshi Doll 3 : Secret Seashell #1 - Exit & enter the shop after obtaining Heart Piece #1 4: CiaoCiao Figure - Exit & enter the shop after obtaining Heart Piece #1 & giving the Ribbon to CiaoCiao for Trading Sequence #3 5: Goomba Figure - Completion of Tail Cave 6: Spiny Figure - Completion of Bottle Grotto 7: Chamber Stone #1 - Completion of Bottle Grotto 8: Heart Piece #2 - Completion of Key Cavern 9: Boo Figure - Completion of Key Cavern 10: Secret Seashell #2 - Completion of Angler's Tunnel 11: Cheep Cheep Figure - Completion of Angler's Tunnel 12: Blooper Figure - Completion of Catfish's Maw 13: Shy Guy Figure - Completion of Face Shrine 14: Piranha Plant Figure - Completion of Eagle's Tower 15: Pokey Figure - Completion of Turtle Rock 16: BowWow Figure - Completing the game (beating Nightmare & saving after the credits roll; star will be next to the save file) 17: Chamber Stone #2 - After collecting all 10 Figures the Trendy Gamester will give Link the second Chamber Stone Note: After collecting all 10 Figures the cost of playing the game will be cut in half to 5 Rupees.",
+    "coords": [
+      -0.82083571639066,
+      0.65093337310125
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53806",
+    "mapId": "koholint-island",
+    "category": "minigame",
+    "title": "Fishing Pond",
+    "description": "Requires: _10 Rupees per game_ Talk to the Fisherman by the pond to try your hand at the fishing game. The minigame's three \"special\" catches become available after completing [Catfish's Maw](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53775) (Cheep Cheep and Blooper) & the [Face Shrine](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53774) (Ol' Baron). Lightweight Lure is best used when trying to catch Little Fish & small Cheep Cheep at the surface of the pond. The Middleweight Lure is received as a reward for catching a Big Fish for the first time. It descends faster to the middle than the Lightweight or heavyweight Lures. This is the best lure to use when trying to catch Big Fish & Bloopers in the middle of the pond. The Heavyweight Lure is received as a reward for catching a Blooper for the first time. It descends faster to the bottom than the Lightweight or Middleweight Lures. This is the best lure to use when trying to catch Big Fish & Ol' Baron at the bottom of the pond.",
+    "coords": [
+      -0.87152974797004,
+      0.68946192452487
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53810",
+    "mapId": "koholint-island",
+    "category": "minigame",
+    "title": "Chamber Dungeon",
+    "description": "Dampé and the Chamber Dungeon are new additions to the Nintendo Switch remake of Link's Awakening. The Chamber Dungeon minigame lets you assemble Chamber Stones (room pieces) to create custom dungeons. To find Chamber Stones, complete minigames, complete dungeons, or purchase them from shops.",
+    "coords": [
+      -0.71369714285595,
+      0.7561622090175
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53826",
+    "mapId": "koholint-island",
+    "category": "minigame",
+    "title": "Rapids Raid",
+    "description": "_100 rupees per game_ The Rapids Race is a water-based obstacle course you navigate by following current lines and a hookshot. Your rewards are based on how quickly you can finish the obstacle course. The finish line is the waterfall south of the rapids. Rewards: - Under 40 Seconds — Heart Piece - Under 35 Seconds — Secret Seashell - Under 30 Seconds — Chamber Stone",
+    "coords": [
+      -0.5080438911574,
+      0.75657750237825
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53799",
+    "mapId": "koholint-island",
+    "category": "shop",
+    "title": "Mabe Village Shop",
+    "description": "Note: You can steal from this shop. The name on your save file will be permanently changed to THIEF, & the next time you enter the store, the Town Tool Shopkeeper will instantly kill you.",
+    "coords": [
+      -0.82349646773343,
+      0.6744494085534
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53808",
+    "mapId": "koholint-island",
+    "category": "shop",
+    "title": "Crazy Tracy's Health Spa",
+    "description": "Shop localizado em koholint-island.",
+    "coords": [
+      -0.75940891496293,
+      0.74262784359458
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53809",
+    "mapId": "koholint-island",
+    "category": "shop",
+    "title": "Witch's Hut",
+    "description": "Shop localizado em koholint-island.",
+    "coords": [
+      -0.77022358171098,
+      0.72048533110457
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-542859",
+    "mapId": "koholint-island",
+    "category": "shop",
+    "title": "Blue Skeleton - Magic Powder",
+    "description": "The Blue Skeleton will sell you 20 x Magic Powder refills for 100 Rupees each.",
+    "coords": [
+      -0.72677135467291,
+      0.87558914378391
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53800",
+    "mapId": "koholint-island",
+    "category": "telephone-booth",
+    "title": "Telephone Booth",
+    "description": "Telephone Booth localizado em koholint-island.",
+    "coords": [
+      -0.84761489119535,
+      0.65179162452239
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53802",
+    "mapId": "koholint-island",
+    "category": "telephone-booth",
+    "title": "Telephone Booth",
+    "description": "Telephone Booth localizado em koholint-island.",
+    "coords": [
+      -0.79957527101237,
+      0.66462520400125
+    ],
+    "region": "koholint-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/dd45af77-d9be-4cfa-abc5-43fb1dd75d2e.jpeg"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53803",
+    "mapId": "koholint-island",
+    "category": "telephone-booth",
+    "title": "Telephone Booth",
+    "description": "Telephone Booth localizado em koholint-island.",
+    "coords": [
+      -0.87293316146815,
+      0.75489058392342
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53804",
+    "mapId": "koholint-island",
+    "category": "telephone-booth",
+    "title": "Telephone Booth",
+    "description": "Telephone Booth localizado em koholint-island.",
+    "coords": [
+      -0.87135766292488,
+      0.79498297013436
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53815",
+    "mapId": "koholint-island",
+    "category": "telephone-booth",
+    "title": "Telephone Booth",
+    "description": "Telephone Booth localizado em koholint-island.",
+    "coords": [
+      -0.68729054404957,
+      0.6841892853618
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53816",
+    "mapId": "koholint-island",
+    "category": "telephone-booth",
+    "title": "Telephone Booth",
+    "description": "Telephone Booth localizado em koholint-island.",
+    "coords": [
+      -0.69261204673512,
+      0.60972761786725
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53817",
+    "mapId": "koholint-island",
+    "category": "telephone-booth",
+    "title": "Telephone Booth",
+    "description": "Telephone Booth localizado em koholint-island.",
+    "coords": [
+      -0.60170634238602,
+      0.62186492610379
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53819",
+    "mapId": "koholint-island",
+    "category": "telephone-booth",
+    "title": "Telephone Booth",
+    "description": "Telephone Booth localizado em koholint-island.",
+    "coords": [
+      -0.6098442351431,
+      0.73869924161173
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53780",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Warp Point",
+    "description": "Linked to the [Mini-Boss Room](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53781). Appears after you defeat the [Spike Roller](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53791) mini-boss.",
+    "coords": [
+      -0.87027139775466,
+      0.43992360213603
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53781",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Warp Point",
+    "description": "Linked to the [Dungeon Entrance](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53780). Appears after you defeat the [Spike Roller](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53791) mini-boss.",
+    "coords": [
+      -0.82632608525466,
+      0.46438458646795
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53818",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Animal Village Warp Point",
+    "description": "Warp Point localizado em koholint-island.",
+    "coords": [
+      -0.57767374961259,
+      0.60775891567535
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53820",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Ukuku Prairie Warp Point",
+    "description": "Warp Point localizado em koholint-island.",
+    "coords": [
+      -0.76476478032839,
+      0.67231305880545
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53822",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Tal Tal Heights Warp Point",
+    "description": "Warp Point localizado em koholint-island.",
+    "coords": [
+      -0.57781349821641,
+      0.76228153155167
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53845",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Eastern Tal Tal Mountains Warp Point",
+    "description": "Use the shovel to dig up this Warp Point.",
+    "coords": [
+      -0.49661515127559,
+      0.78019865061209
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53846",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Seashell Mansion Warp Point",
+    "description": "Warp Point localizado em koholint-island.",
+    "coords": [
+      -0.6206136759813,
+      0.68491501624002
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53847",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Dampe's Shack Warp Point",
+    "description": "Warp Point localizado em koholint-island.",
+    "coords": [
+      -0.72484691319858,
+      0.76054993430581
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53848",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Manbo's Pond Warp Point",
+    "description": "Requirement: Completion of Angler's Tunnel Dungeon (For Flippers to reach Manbo), Ocarina, Learn Manbo's Song",
+    "coords": [
+      -0.77260475111279,
+      0.73594288618094
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53849",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Turtle Rock Warp Point",
+    "description": "Warp Point localizado em koholint-island.",
+    "coords": [
+      -0.87154594123592,
+      0.80323956532212
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53850",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Western Tal Tal Mountains Warp Point",
+    "description": "Requires: Mirror Shield (To get past the fireballs in the cave), Powerful Bracelet",
+    "coords": [
+      -0.8182925050138,
+      0.79551555517267
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53851",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Martha's Bay Warp Point",
+    "description": "Warp Point localizado em koholint-island.",
+    "coords": [
+      -0.72075224677451,
+      0.60522425712054
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54053",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Warp Point",
+    "description": "Linked to the [Dungeon Entrance](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=54054). Appears after you defeat the [Hinox](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=54052) mini-boss.",
+    "coords": [
+      -1.06659769247813,
+      0.76668706344684
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54054",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Warp Point",
+    "description": "Linked to the [Mini-Boss Room](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=54053). Appears after you defeat the [Hinox](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=54052) mini-boss.",
+    "coords": [
+      -1.05026637703054,
+      0.71900442174588
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54071",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Warp Point",
+    "description": "Linked to the [Dungeon Entrance](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=54072). Appears after defeating the [Dodongo Snakes](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=54070).",
+    "coords": [
+      -0.73958440075558,
+      0.50129305033502
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54072",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Warp Point",
+    "description": "Linked to the [Mini-Boss Room](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=54071). Appears after defeating the [Dodongo Snakes](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=54070).",
+    "coords": [
+      -0.74043120221495,
+      0.42815607356184
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56021",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Warp Point",
+    "description": "Linked to the [Dungeon Entrance](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=56024).",
+    "coords": [
+      -0.54924080227761,
+      0.46634871974416
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56024",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Warp Point",
+    "description": "Linked to the [Mini-Boss Room](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=56021).",
+    "coords": [
+      -0.49070771580477,
+      0.42955946704096
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56217",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Warp Point",
+    "description": "Linked to the [Mini-Boss Room](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=56242).",
+    "coords": [
+      -0.38601856300852,
+      0.58566560650321
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56242",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Warp Point",
+    "description": "Linked to the [Dungeon Entrance](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=56217).",
+    "coords": [
+      -0.35478003596859,
+      0.62179151530835
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56270",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Warp Point",
+    "description": "Linked to the [Mini-Boss Room](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=56289).",
+    "coords": [
+      -0.57997593490268,
+      0.87225711339545
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56289",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Warp Point",
+    "description": "Linked to the [Dungeon Entrance](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=56270).",
+    "coords": [
+      -0.49117222611881,
+      0.92939205401645
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56426",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Warp Point",
+    "description": "Linked to the [Dungeon Entrance](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=56427).",
+    "coords": [
+      -0.37103866087864,
+      0.77681255713851
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56427",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Warp Point",
+    "description": "Linked to the [Mini-Boss Room](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=56426).",
+    "coords": [
+      -0.38584879022665,
+      0.71849687626253
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56510",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Warp Point",
+    "description": "Talk to the [Fairy Queen](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=56509) in order to teleport to the [Dungeon Entrance](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=56512).",
+    "coords": [
+      -0.72562516338439,
+      0.91719882176353
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56512",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Warp Point",
+    "description": "Linked to the [Fairy Queen's Room](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=56510).",
+    "coords": [
+      -0.72544093093848,
+      0.8715457414656
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56575",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Warp Point",
+    "description": "Linked to the [Dungeon Entrance](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=56576).",
+    "coords": [
+      -0.81047801394527,
+      0.93190655921698
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56576",
+    "mapId": "koholint-island",
+    "category": "warp-point",
+    "title": "Warp Point",
+    "description": "Linked to the [Mini-Boss Room](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=56575).",
+    "coords": [
+      -0.87097253244713,
+      0.87026651169521
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53782",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Moldorm",
+    "description": "_Dungeon Boss_ To damage Moldorm, hit the glowing red orb at the end of its tail. When you hit it, Moldorm will frantically move around the room and attack you. Be careful around the room's corners—Moldorm can push you into the holes, forcing you to navigate back to the Boss Room and restart the fight. Reward: Heart Container",
+    "coords": [
+      -0.82529611699294,
+      0.4888454861574
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53791",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Spike Roller",
+    "description": "_Mini-Boss_ Use the Roc's Feather to jump over and avoid the spike pole that will roll across the room. Hit the Spike Roller with your sword.",
+    "coords": [
+      -0.8240613271156,
+      0.46434512477412
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54052",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Hinox",
+    "description": "_Mini-Boss_ The Hinox will throw bomb and charge at you, all in an attempt to grab and throw you for massive damage. Lure the Hinox to charge at you, but dodge so it hits the wall instead. The Hinox will stumble, giving Link an opportunity to do some damage.",
+    "coords": [
+      -1.06393694113535,
+      0.76677288645028
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54061",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Genie",
+    "description": "_Boss_ To damage the Genie, dodge the fireballs until you can get next to the Genie and hit him. When the Genie retreats into his bottle, use the [Power Bracelet](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=54046) to throw it. After three throws, the bottle will break. The Genie's fireball attack will change; now he goes transparent and then will randomly appear to throw one, massive fireball at Link. Dodge the fireball and get close to the Genie to land some hits. Reward: Heart Container",
+    "coords": [
+      -0.99081489054129,
+      0.76758494744872
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54070",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Dodongo Snakes",
+    "description": "_Mini-Boss_ Dodongo Snakes open their mouth every time they move forward. Throw a bomb in front of them just before they move, and the snakes will eat the bomb. Don't try to immediately feed them a bomb again; the snakes need to move three blocks before they will eat another bomb.",
+    "coords": [
+      -0.74310345898311,
+      0.50137887773784
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54082",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Slime Eye",
+    "description": "_Dungeon Boss_ Every time you attack Slime Eye's eye, he divides further and further. When there nothing left but a small thread connecting the slime halves, use the Pegasus Boots to sever the connection. This create two smaller Slime Eyes. Attack their eyes and defeat the small Slime Eyes to defeat this boss. Reward: Heart Container",
+    "coords": [
+      -0.66623977962479,
+      0.4415000231488
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55880",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Master Stalfos #4 (Hookshot)",
+    "description": "_Mini-Boss_ This is the fourth and last room you fight Master Stalfos. To defeat Master Stalfos, guard with your shield until they swing at you with their sword. When Master Stalfos is recovering, his shield will be down and you can land a few hits. Unlike the other three fights, this time Master Stalfos will also perform a jump attack that will go through Link's shield. When Master Stalfos collapses into a pile of bones, drop a bomb on them. Repeat three times. Master Stalfos will finally be defeated and drop the Hookshot that they stole!",
+    "coords": [
+      -0.57997204690309,
+      0.51408669767864
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55891",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Master Stalfos #1",
+    "description": "_Mini-Boss_ This is the first room you fight Master Stalfos. To defeat Master Stalfos, guard with your shield until they swing at you with their sword. When Master Stalfos is recovering, his shield will be down and you can land a few hits. When Master Stalfos collapses into a pile of bones, drop a bomb on them. Repeat three times.",
+    "coords": [
+      -0.5204520034963,
+      0.46582712002832
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55927",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Master Stalfos #2",
+    "description": "_Mini-Boss_ This is the second room you fight Master Stalfos. To defeat Master Stalfos, guard with your shield until they swing at you with their sword. When Master Stalfos is recovering, his shield will be down and you can land a few hits. When Master Stalfos collapses into a pile of bones, drop a bomb on them. Repeat three times.",
+    "coords": [
+      -0.49040715893307,
+      0.47748411079135
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55931",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Master Stalfos #3",
+    "description": "_Mini-Boss_ This is the third room you fight Master Stalfos. To defeat Master Stalfos, guard with your shield until they swing at you with their sword. When Master Stalfos is recovering, his shield will be down and you can land a few hits. When Master Stalfos collapses into a pile of bones, drop a bomb on them. Repeat three times.",
+    "coords": [
+      -0.52038190029668,
+      0.51378454715953
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56018",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Gohma",
+    "description": "_Mini-Boss_ This is the \"real\" mini-boss of Catfish's Maw. The crab-like mini-boss has two primary attacks: a charge attack if Link is nearby, and a long-range fire attack if Link is far away. You want to stay far away and wait for the Gohma to open their eye to shoot fire. Shoot at the open eye with the Hookshot or Bow to stun the Gohma.",
+    "coords": [
+      -0.55121490811257,
+      0.46626289189823
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56210",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Slime Eel",
+    "description": "_Dungeon Boss_ The Slime Eel will burst through the room and create five holes: one hole for his mace-like tail to attack you, and four holes for his head to appear and shoot fire at you. When the Slime Eel appears at one of the wall holes and opens his mouth, use the Hookshot to pull the Slime Eel out of the hole. This will reveal his weak point: the large pink segment of his body. Hit the pink circle before the Slime Eel slowly falls back into the wall hole. Reward: Heart Container",
+    "coords": [
+      -0.55032515414132,
+      0.50180047514831
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56241",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Rover",
+    "description": "_Mini-Boss_ Rover has a large ball that he will throw at Link. Before Rover can pick up the ball, steal it and throw it at him to do damage. Rover cannot be damaged by any other attacks.",
+    "coords": [
+      -0.35735495662288,
+      0.62179151530834
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56248",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Facade",
+    "description": "_Dungeon Boss_ The hardest part of this boss fight is avoiding all the obstacles that Facade throws at Link. Tiles will spin and fly at Link, and Facade will open up a trail of holes in the floor. While avoiding these, do your best to throw bombs on Facade's \"face\". Reward: Heart Container",
+    "coords": [
+      -0.37110492329634,
+      0.63368591737478
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56259",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Dodongo Snakes",
+    "description": "_Mini-Boss_ The Dodongo Snakes previously appeared in the Key Cavern. This time, you have to contend with holes in the floor while trying to lure the snakes to eat bombs.",
+    "coords": [
+      -0.32733678817638,
+      0.622002781582
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56278",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Hinox",
+    "description": "_Mini-Boss_ The main attack of this mini-boss is to grab and throw Link. There are also four brasiers in the room that will shoot fire. Stay out of the Hinox's reach and use a long-range attack (bomb, boomerang, bow, hookshot) to deal damage.",
+    "coords": [
+      -0.59526136379213,
+      0.91969165660482
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56286",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Grim Creeper",
+    "description": "_Mini-Boss_ The Grim Creeper will stay on his raised platform and play a flute to summon Battle Bats (flying bombs). You must successfully hit each Battle Bat as it flies towards you without getting hit. If even a single Battle Bat hits you, then you have to start over.",
+    "coords": [
+      -0.49112931077457,
+      0.93239573162831
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56327",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Grim Creeper & The Evil Eagle",
+    "description": "_Dungeon Boss_ During your second encounter with the Grim Creeper, they bring a little more muscle: the Evil Eagle. Use your shield and run against the gusts of wind to protect Link from getting blown off the edge. When the Evil Eagle swoops over Link, use the Boomerang to land a few hits. Reward: Heart Container",
+    "coords": [
+      -0.51109898556786,
+      0.93694719434991
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56407",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Lanmola",
+    "description": "_Overworld Boss_ The Lanmola is a centipede that prowls a quicksand pit in the Yarna Desert. Avoid the center of the quicksand pit while trying to land hits on Lanmola's head. Reward: [Angler Key](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=542860)",
+    "coords": [
+      -0.53040817379957,
+      0.63448369088505
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56424",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Hydrosoar",
+    "description": "_Mini-Boss_ The Hydrosaur is an octopus-like enemy that charges down the sides of the room. Use Roc's Feather to jump over the charging enemy, causing it to crash into the wall and be temporarily stunned. Use this opportunity to land a few hits.",
+    "coords": [
+      -0.37266944395969,
+      0.77947306310002
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56489",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Angler Fish",
+    "description": "_Dungeon Boss_ Head down the stairs to enter an underground pool. Swim down to find the boss. Avoid the Angler Fish and falling boulders while Link tries to land a few hits on the glowing orb attached to the boss. The boss will also summon smaller, mini-Angler fish that will swim straight for Link. Reward: Heart Container",
+    "coords": [
+      -0.41603656288009,
+      0.76666945206137
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56496",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Giant Buzz Blob",
+    "description": "_Mini-Boss_ Use Magic Powder to make the green Giant Buzz Blob turn blue. Land a few hits before it turns back to green.",
+    "coords": [
+      -0.66624796349595,
+      0.91937565047976
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56499",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Avalaunch",
+    "description": "_Mini-Boss_ Every time Avalaunch jumps, boulders will fall into the room. Use Roc's Feather to jump and avoid the shockwaves, which would normally stun Link. Dodge the boulders to get close and land some hits on Avalaunch.",
+    "coords": [
+      -0.69574876947081,
+      0.89565985509628
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56507",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Hardhit Beetle",
+    "description": "_Dungeon Boss_ Every time you attack the Hardhit Beetle's shell, it changes color. When the shell turns red, it will finally crack and defeat the boss. Reward: None",
+    "coords": [
+      -0.74047387249084,
+      0.9196017723098
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56543",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Turtle Rock",
+    "description": "_Mini-Boss_ Use the Ocarina to play Frog's Song of Soul to awaken Turtle Rock. The stone turtle head will shake and lunge at Link. When the stone head hits the wall and stuns the creature, throw a bomb. After a few more bombs, the stone will finally crack and reveal the turtle head underneath. From here, it's a normal boss fight: dodge the turtle's attacks and attack the turtle's head with your sword when you have an opening.",
+    "coords": [
+      -0.90218140052025,
+      0.7867817404517
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56548",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Blue Hinox",
+    "description": "_Mini-Boss_ This fight is exactly like the previous red Hinox that you fought, but the Blue Hinox deals more damage and has more health.",
+    "coords": [
+      -0.88642728651416,
+      0.89560401664149
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56559",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Spike Roller",
+    "description": "_Mini-Boss_ This is a repeat of your very first mini-boss from Tail Cave. Use Roc's Feather to jump over the rolling spike pole. Hit the Spike Roller with your sword when you have an opening.",
+    "coords": [
+      -0.91596409338376,
+      0.88386978785476
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56566",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Rover",
+    "description": "_Mini-Boss_ Rover returns with his iron ball. The mini-boss is the exact same as the last dungeon—pick up the iron ball before Rover can reach it, then throw it back at Rover.",
+    "coords": [
+      -0.81181271292166,
+      0.88368354788938
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56574",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Blaino",
+    "description": "_Mini-Boss_ Blaino is a boxing enemy, who attacks with quick jabs or charging punches. After a large charging punch, Blaino will pause for a moment and Link can attack.",
+    "coords": [
+      -0.81313876528804,
+      0.93216401721463
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56579",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Hydrosoar",
+    "description": "_Mini-Boss_ The Hydrosaur will charge along the wall edges like normal, but now Link has very little space to dodge its attacks. Be very careful with your jumps or you may land in the lava. Lure the Hydrosaur to crash into the walls and attack it when it's stunned.",
+    "coords": [
+      -0.91611243282921,
+      0.93132398563815
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56582",
+    "mapId": "koholint-island",
+    "category": "boss",
+    "title": "Hot Head",
+    "description": "_Dungeon Boss_ Use the Magic Rod to hit Hot Head with fireballs when it jumps out of the lava. After enough hits, Hot Head will extinguish and become a solid rock that bounces around the room. Use your shield to block the attack. Hot Head will reignite, and you repeat the process with the Magic Rod. Reward: Heart Container",
+    "coords": [
+      -0.87079593639817,
+      0.94330846506128
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53779",
+    "mapId": "koholint-island",
+    "category": "compass",
+    "title": "Compass",
+    "description": "Inside a treasure chest.",
+    "coords": [
+      -0.9027153979988,
+      0.44061022737227
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54048",
+    "mapId": "koholint-island",
+    "category": "compass",
+    "title": "Compass",
+    "description": "Kill the Shy Guy to make a treasure chest appear in the room. Open the chest to find the compass.",
+    "coords": [
+      -1.03036182445987,
+      0.7217161857101
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54074",
+    "mapId": "koholint-island",
+    "category": "compass",
+    "title": "Compass",
+    "description": "Open the treasure chest to find the compass.",
+    "coords": [
+      -0.72570150663137,
+      0.51517585471256
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55871",
+    "mapId": "koholint-island",
+    "category": "compass",
+    "title": "Compass",
+    "description": "Open the treasure chest to find the compass for Catfish's Maw.",
+    "coords": [
+      -0.53170857518489,
+      0.43280206648178
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56228",
+    "mapId": "koholint-island",
+    "category": "compass",
+    "title": "Compass",
+    "description": "Compass localizado em koholint-island.",
+    "coords": [
+      -0.41789231206849,
+      0.64502068241554
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56275",
+    "mapId": "koholint-island",
+    "category": "compass",
+    "title": "Compass",
+    "description": "Defeat the 3 x Four of a Kinds to reveal a treasure chest. Open it to receive the compass.",
+    "coords": [
+      -0.57551704889943,
+      0.95762996238938
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56417",
+    "mapId": "koholint-island",
+    "category": "compass",
+    "title": "Compass",
+    "description": "Open the treasure chest to find the compass.",
+    "coords": [
+      -0.3688410624552,
+      0.73095424291697
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56492",
+    "mapId": "koholint-island",
+    "category": "compass",
+    "title": "Compass",
+    "description": "Hit the colored orbs until they are all blue. A treasure chest will appear that contains the compass.",
+    "coords": [
+      -0.70524404834487,
+      0.8860582227571
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56562",
+    "mapId": "koholint-island",
+    "category": "compass",
+    "title": "Compass",
+    "description": "Open the treasure chest to find the compass.",
+    "coords": [
+      -0.91647907751462,
+      0.87185490188167
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53783",
+    "mapId": "koholint-island",
+    "category": "map",
+    "title": "Map",
+    "description": "Kill all enemies in the room for a treasure chest to appear. Open it to retrieve the dungeon map.",
+    "coords": [
+      -0.85070200078201,
+      0.45279781469402
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54055",
+    "mapId": "koholint-island",
+    "category": "map",
+    "title": "Map",
+    "description": "Carefully walk to the treasure chest without getting sucked into the floor gaps by the Vacuum Mouth. Open the chest to find the map.",
+    "coords": [
+      -1.0539272153917,
+      0.7815499798134
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54079",
+    "mapId": "koholint-island",
+    "category": "map",
+    "title": "Map",
+    "description": "Find the room with the color switch to lower the blue blocks. Open the treasure chest to find the map.",
+    "coords": [
+      -0.72481231477354,
+      0.45452031785319
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55953",
+    "mapId": "koholint-island",
+    "category": "map",
+    "title": "Map",
+    "description": "Open the treasure chest to find the dungeon map for Catfish's Maw.",
+    "coords": [
+      -0.53605746895164,
+      0.51543690233666
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56224",
+    "mapId": "koholint-island",
+    "category": "map",
+    "title": "Map",
+    "description": "Kill all the Wizrobes in the room to make a treasure chest appear. Open the chest to find the dungeon map.",
+    "coords": [
+      -0.42569630667663,
+      0.62423232650201
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56274",
+    "mapId": "koholint-island",
+    "category": "map",
+    "title": "Map",
+    "description": "Solve the chess puzzle with the two knight pieces to reveal a treasure chest. Open it to find the dungeon map.",
+    "coords": [
+      -0.56058250910451,
+      0.95728668757093
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56414",
+    "mapId": "koholint-island",
+    "category": "map",
+    "title": "Map",
+    "description": "Open the treasure chest to receive the dungeon map.",
+    "coords": [
+      -0.36122515679563,
+      0.76459118800707
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56501",
+    "mapId": "koholint-island",
+    "category": "map",
+    "title": "Map",
+    "description": "Kill all the enemies in the room to make a treasure chest appear that contain the dungeon map.",
+    "coords": [
+      -0.70553346795714,
+      0.90930524162476
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56564",
+    "mapId": "koholint-island",
+    "category": "map",
+    "title": "Map",
+    "description": "Move the blocks to the right of the chest to open a path. Open the treasure chest to receive the dungeon map.",
+    "coords": [
+      -0.87344220242574,
+      0.89799981723094
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53787",
+    "mapId": "koholint-island",
+    "category": "nightmare-key",
+    "title": "Nightmare Key",
+    "description": "Open the treasure chest to retrieve the Nightmare Key.",
+    "coords": [
+      -0.87095804326248,
+      0.47991941355326
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54058",
+    "mapId": "koholint-island",
+    "category": "nightmare-key",
+    "title": "Nightmare Key",
+    "description": "There are three enemies in this room: Shrouded Stalfos, Keese, and Pols Voice. You must kill the Pols Voice first, the Keese second, and the Shrouded Stalfos last. Any other combination will not work. If you need to reset the enemies, just leave the room and reenter. If you killed the enemies in the right order, a treasure chest will appear. Open the chest to find the Nightmare Key.",
+    "coords": [
+      -1.00076971366616,
+      0.78113104585334
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54076",
+    "mapId": "koholint-island",
+    "category": "nightmare-key",
+    "title": "Nightmare Key",
+    "description": "Use the [Pegasus Boots](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=54073) combined with Roc's Feather to jump over the large gaps that block the way to the treasure chest. Open the chest to find the Nightmare Key.",
+    "coords": [
+      -0.70555983437725,
+      0.50425959817547
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56209",
+    "mapId": "koholint-island",
+    "category": "nightmare-key",
+    "title": "Nightmare Key",
+    "description": "Nightmare Key localizado em koholint-island.",
+    "coords": [
+      -0.5391033204146,
+      0.50373692053884
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56266",
+    "mapId": "koholint-island",
+    "category": "nightmare-key",
+    "title": "Nightmare Key",
+    "description": "Throw a pot at the treasure chest to open it and retrieve the Nightmare Key.",
+    "coords": [
+      -0.33801182479147,
+      0.64756285264926
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56291",
+    "mapId": "koholint-island",
+    "category": "nightmare-key",
+    "title": "Nightmare Key",
+    "description": "Push the two blocks towards each other to make a treasure chest appear. Open it to find the Nightmare Key.",
+    "coords": [
+      -0.48567906205631,
+      0.94552606356399
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56482",
+    "mapId": "koholint-island",
+    "category": "nightmare-key",
+    "title": "Nightmare Key",
+    "description": "Open the treasure chest to find the Nightmare Key.",
+    "coords": [
+      -0.40386835702873,
+      0.73447416727982
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56497",
+    "mapId": "koholint-island",
+    "category": "nightmare-key",
+    "title": "Nightmare Key",
+    "description": "Open the treasure chest to find the Nightmare Key.",
+    "coords": [
+      -0.68155799834256,
+      0.92320803522371
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56580",
+    "mapId": "koholint-island",
+    "category": "nightmare-key",
+    "title": "Nightmare Key",
+    "description": "There is a glowing mechanism between the blocks. Attack the mechanism and use it to fill the floor's hole with stone. When the hole is completely filled, a treasure chest will appear. Inside is the Nightmare Key.",
+    "coords": [
+      -0.91050274166378,
+      0.94552799012993
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53784",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Kill all the enemies in the room, then stand on the circular button. The treasure chest will appear. Open it to retrieve the Small Key.",
+    "coords": [
+      -0.86546487919998,
+      0.4557159663855
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53785",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Open the treasure chest to retrieve the Small Key.",
+    "coords": [
+      -0.87095804326248,
+      0.46618697149343
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53790",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Use your sword to knock the two Hardhat Beetles off the platform.",
+    "coords": [
+      -0.88906831853103,
+      0.44241261831611
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54047",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "The key will appear after you kill the 2 x Stalfos in this room.",
+    "coords": [
+      -1.03894489330753,
+      0.73252998158294
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54049",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Hit the color switch to lower the orange blocks around the treasure chest. Open the chest to find the small key.",
+    "coords": [
+      -1.02335501439347,
+      0.7189854727063
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54050",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Use the Roc's Feather to jump between the platforms and stand on the circular button in the corner to make a treasure chest appear. Open the chest to find the small key.",
+    "coords": [
+      -1.00046884644939,
+      0.72205884948116
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54051",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "The small key appears after you kill the 2 x Shy Guys in this room.",
+    "coords": [
+      -1.00965273011639,
+      0.73252934985122
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54057",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Solve the color switch puzzle to gain access to the treasure chest surrounded by orange blocks. Open the chest to find a small key.",
+    "coords": [
+      -1.03159271139566,
+      0.79347623538758
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54062",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Kill all enemies in the room in order to make a treasure chest appear. Open the chest to find the small key.",
+    "coords": [
+      -0.73540991258653,
+      0.44304018514832
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54064",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Kill the enemies in this room for the small key to drop onto the conveyer belt. If the key falls into the hole, just exit the room and reenter to have another chance to catch the key.",
+    "coords": [
+      -0.68329444877043,
+      0.47788879137024
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54065",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Kill the enemies in this room for the small key to drop onto the conveyer belt. If the key falls into the hole, just exit the room and reenter to have another chance to catch the key.",
+    "coords": [
+      -0.66974871028287,
+      0.46647369746657
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54066",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Kill the enemies in this room for the small key to drop onto the floor.",
+    "coords": [
+      -0.66946555431912,
+      0.48988256251179
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54067",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Kill the enemies in this room for the small key to drop onto the floor.",
+    "coords": [
+      -0.72900219928113,
+      0.47748112176604
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54068",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Kill the enemies in this room for the small key to drop onto the floor.",
+    "coords": [
+      -0.75862724050478,
+      0.49037729054779
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54075",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Kill all the Bombites in the room for the small key to drop onto the floor.",
+    "coords": [
+      -0.74415510465383,
+      0.51303017387908
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54077",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Use the [Pegasus Boots](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=54073) to charge at the Vacuum Mouth. You may need to use the joystick to guide the charge so you don't fall over the ledge.",
+    "coords": [
+      -0.72035578472742,
+      0.43247976338049
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54081",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Kill all the Keese flying around the room for the small key to drop onto the conveyer belt. However, this key is redundant. If you've reached this room, you no longer need any small keys.",
+    "coords": [
+      -0.6698446685408,
+      0.43034235660649
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55879",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Push the top two square towards the center of the room to complete the block square. A small key will drop into the room.",
+    "coords": [
+      -0.56872314174404,
+      0.51504617372412
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55941",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Required: [Hookshot](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=55880) Shoot the Hookshot at one of the blocks to cross the chasm and reach the treasure chest.",
+    "coords": [
+      -0.48550348001982,
+      0.49026236637897
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55988",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Open the treasure chest to find the Small Key.",
+    "coords": [
+      -0.56810779744114,
+      0.45533650213823
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56230",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Kill the Wizrobes to make the Small Key drop into the room.",
+    "coords": [
+      -0.38802495190259,
+      0.64587721552431
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56239",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Small Key localizado em koholint-island.",
+    "coords": [
+      -0.33935888212545,
+      0.63836541267998
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56252",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "After enduring the attacks from the flying tiles, a Small Key will drop onto the floor.",
+    "coords": [
+      -0.38895323207532,
+      0.62244724688923
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56271",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Kill all the enemies in the room for the Small Key to drop onto the floor.",
+    "coords": [
+      -0.55338675924475,
+      0.8729385564249
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56273",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Open the treasure chest to find the Small Key.",
+    "coords": [
+      -0.54514784583091,
+      0.91094427665901
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56415",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Open the treasure chest to find a Small Key.",
+    "coords": [
+      -0.33753716525098,
+      0.75634014325396
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56416",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Open the treasure chest to find a Small Key.",
+    "coords": [
+      -0.34045540865918,
+      0.78174373832611
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56418",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Open the treasure chest to find a Small Key.",
+    "coords": [
+      -0.37182974274378,
+      0.71890765733602
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56420",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Open the treasure chest to find a Small Key.",
+    "coords": [
+      -0.38966392027805,
+      0.77057740508596
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56479",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Kill all the enemies in the room to make a Small Key drop down. The key drops into a hole and can be found underwater during a 2D platform section.",
+    "coords": [
+      -0.37339461860654,
+      0.76819503611532
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56494",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Open the treasure chest to find the Small Key.",
+    "coords": [
+      -0.69946120976067,
+      0.86981648981795
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56495",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Hit the colored orbs until they are all blue. A Small Key will drop onto the floor.",
+    "coords": [
+      -0.68041002709458,
+      0.90804744024214
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56503",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "There are 4 x Orb Monsters in this room. When you hit them, they close up into a ball, which Link can pick up and throw into its corresponding hole. When all four Orb Monsters are in the correct hole, a Small Key will drop onto the floor.",
+    "coords": [
+      -0.69667171238518,
+      0.90865071498075
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56561",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Kill all the enemies in the room and a Small Key will drop onto the floor.",
+    "coords": [
+      -0.91905399816892,
+      0.8957988147604
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56567",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "There is a glowing mechanism between the blocks. Attack the mechanism and use it to fill the floor's hole with stone. When the floor is completely filled in, a Small Key will drop onto the floor.",
+    "coords": [
+      -0.83152521317015,
+      0.88474139974954
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56569",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Kill all the Gibdo enemies without falling through the floor and a Small Key will drop into the room.",
+    "coords": [
+      -0.82651293333731,
+      0.92727800562646
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56571",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Use the Bow & Arrow to shoot the statue in the eye. A Small Key will drop onto the floor.",
+    "coords": [
+      -0.88969973940914,
+      0.91987361997438
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56572",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Push the blocks away to reach the treasure chest. Inside is a Small Key.",
+    "coords": [
+      -0.8986261310107,
+      0.91987361997435
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56573",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Kill the two Dodongo Snakes to make a treasure chest appear. Inside is a Small Key.",
+    "coords": [
+      -0.83777217288082,
+      0.93523529995267
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56578",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Use the [Magic Rod](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=56577) to ignite the two brasiers. A treasure chest will appear with a Small Key inside.",
+    "coords": [
+      -0.89565198868127,
+      0.91020926566334
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-396594",
+    "mapId": "koholint-island",
+    "category": "small-key",
+    "title": "Small Key",
+    "description": "Small Key localizado em koholint-island.",
+    "coords": [
+      -0.59861107585365,
+      0.92038647598289
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53789",
+    "mapId": "koholint-island",
+    "category": "stone-beak",
+    "title": "Stone Beak",
+    "description": "Hit the Three-of-a-Kinds until their symbols all match. A treasure chest will appear in the corner of the room.",
+    "coords": [
+      -0.83508081547927,
+      0.47871782596224
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54060",
+    "mapId": "koholint-island",
+    "category": "stone-beak",
+    "title": "Stone Beak",
+    "description": "Stone Beak localizado em koholint-island.",
+    "coords": [
+      -1.06629171070995,
+      0.74618128367777
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54080",
+    "mapId": "koholint-island",
+    "category": "stone-beak",
+    "title": "Stone Beak",
+    "description": "Find the room with the color switch to lower the blue blocks. Open the treasure chest to find the Stone Beak.",
+    "coords": [
+      -0.742364690567,
+      0.4784522266165
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55983",
+    "mapId": "koholint-island",
+    "category": "stone-beak",
+    "title": "Stone Beak",
+    "description": "Defeat the 2 x Helmasaur for a treasure chest to appear in the room. Open it to find the Stone Beak.",
+    "coords": [
+      -0.54491291337342,
+      0.44418035444927
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56227",
+    "mapId": "koholint-island",
+    "category": "stone-beak",
+    "title": "Stone Beak",
+    "description": "Stone Beak localizado em koholint-island.",
+    "coords": [
+      -0.41797154471374,
+      0.63753527670635
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56277",
+    "mapId": "koholint-island",
+    "category": "stone-beak",
+    "title": "Stone Beak",
+    "description": "Stone Beak localizado em koholint-island.",
+    "coords": [
+      -0.59344926199435,
+      0.88475452254018
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56413",
+    "mapId": "koholint-island",
+    "category": "stone-beak",
+    "title": "Stone Beak",
+    "description": "Open the treasure chest to receive the Stone Beak.",
+    "coords": [
+      -0.35698982467977,
+      0.73401303162714
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56493",
+    "mapId": "koholint-island",
+    "category": "stone-beak",
+    "title": "Stone Beak",
+    "description": "There are 2 x Orb Monsters in this room. When you hit them, they close up into a ball, which Link can pick up and throw into its corresponding hole. Toss both Orbs Monsters into their holes to make a treasure chest appear that contains the Stone Beak.",
+    "coords": [
+      -0.67585777042962,
+      0.88620822642626
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56565",
+    "mapId": "koholint-island",
+    "category": "stone-beak",
+    "title": "Stone Beak",
+    "description": "Open the treasure chest to find the Stone Beak.",
+    "coords": [
+      -0.80643925779884,
+      0.87413845179063
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55079",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Catch your first fish of any size from the [Fishing Pond](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53806).",
+    "coords": [
+      -0.88302078103789,
+      0.6908624057319
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55080",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Catch a lunker (medium fish) from the [Fishing Pond](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53806).",
+    "coords": [
+      -0.88010253762968,
+      0.69069075683071
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55083",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Requires: Hookshot, 100 Rupees Complete the [Rapids Race](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53826) in less than 40 seconds.",
+    "coords": [
+      -0.5111449858025,
+      0.7593238440876
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55086",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Requires: Hookshot, 100 Rupees When you start the [Rapids Raid](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53826), travel all the way to the far left waterfall. Drop down the waterfall and use your Hookshot stay against the western wall. You'll find a small island with a Piece of Heart. Use the Hookshot to grapple over to the vines and climb the ladder to reach the heart piece.",
+    "coords": [
+      -0.58151496049334,
+      0.7275691631484
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55506",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Play the [Trendy Game](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53801) to win this piece of heart.",
+    "coords": [
+      -0.81821788039213,
+      0.65101919824993
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55508",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "The second (and last) Heart Piece you can win from the [Trendy Game](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53801). Appears after you've won: the first [Heart Piece](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=55506), the second (and last) secret seashell, and a chamber stone.",
+    "coords": [
+      -0.8183373030472,
+      0.65377531048974
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55525",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Purchase from the [Mabe Village Shop](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53799) for 200 rupees. Available at the start of the game.",
+    "coords": [
+      -0.82129846179964,
+      0.67689541308451
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55526",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Use the platform above to jump into the well and grab the Heart Piece at the bottom.",
+    "coords": [
+      -0.90095063077342,
+      0.65885281770715
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55527",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Required: Hookshot Use the hookshot to cross the massive black pits and get to the small platforms. On the final platform, move the boulders off the edge to reach the Heart Piece.",
+    "coords": [
+      -0.85312593242963,
+      0.74178461412906
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55528",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Inside the cave, solve the boulder puzzle to reach the Heart Piece.",
+    "coords": [
+      -0.84339116568765,
+      0.71736350582288
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55529",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Requires: Hookshot Walk along the narrow path in the Tal Tal Mountains to reach the Heart Piece.",
+    "coords": [
+      -0.86881276870702,
+      0.77472950661414
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55530",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Inside [Turtle Rock](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53767), there are stairs that lead outside. Climb to the platform and find this Heart Piece in the grass.",
+    "coords": [
+      -0.90288755203221,
+      0.80708459288769
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55531",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Required: Roc's Feather Jump across the pits to reach this Heart Piece.",
+    "coords": [
+      -0.7969870589036,
+      0.73887133851264
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55532",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Requires: Power Bracelet First push the top-left block up one and then push the top-most block to the right. Lift the skull and toss it out of the way. There are two blocks on the right side, with one right above the other. Push the top one to the right and the bottom one down. Then lift the skull to reach the Heart Piece.",
+    "coords": [
+      -0.78357797248782,
+      0.68302588735341
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55533",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Required: Roc's Feather, Hookshot, Bombs Blow up the nearby boulder with some bombs and then hookshot across the gap. Jump over with Roc's Feather to grab the heart piece.",
+    "coords": [
+      -0.73794318896535,
+      0.7036973637125
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55534",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Requires: Bombs, Pegasus Boots Use a bomb to reveal the hidden cave. Use your Pegasus Boots to dash through the Springy Blocks. Inside the cave on the right side, you'll find another cracked wall to bomb that leads to this Heart Piece.",
+    "coords": [
+      -0.75013754238364,
+      0.68451881016721
+    ],
+    "region": "koholint-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/5284a8ea-4613-4baa-84a4-4081a8367046.jpeg"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55535",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Required: Golden Leaves, [Roc's Feather](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53778), [Pegasus Boots](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=54073) (Optional) Navigate through Pothole Field and jump across pits to reach this Heart Piece.",
+    "coords": [
+      -0.71533291092408,
+      0.64236521345789
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55536",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Requires: Bombs, Hookshot There's a secret path that connects the east and west parts of Tal Tal Mountain. Within the secret path, there's a southern wall that's cracked. Follow the new path to a room with the Heart Piece.",
+    "coords": [
+      -0.7194673923874,
+      0.79630693464828
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55537",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Required: [Power Bracelet](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=54046) (to access the area) In the cave leading further into the Tal Tal Mountains, solve the boulder puzzle to reach the Heart Piece.",
+    "coords": [
+      -0.71929573101045,
+      0.78497836247336
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55538",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Requires: Completion of Key Cavern Complete the Fill Up Your Hearts challenge in the [Chamber Dungeon](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53810).",
+    "coords": [
+      -0.71778903399559,
+      0.75976678249929
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55540",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Container",
+    "description": "Requires: Completion of Turtle Rock Complete the Ticking Clock challenge in the [Chamber Dungeon](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53810) to earn a full Heart Container!",
+    "coords": [
+      -0.71529994402977,
+      0.75976678249929
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55541",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Requires: Completion of Catfish's Maw Complete the Passageway Central challenge in the [Chamber Dungeon](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53810).",
+    "coords": [
+      -0.71272502337547,
+      0.75976678249927
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55542",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Required: Roc's Feather In the northeast corner of the Witch's Forest in Tabahl Wasteland, jump over pits to reach a Heart Piece.",
+    "coords": [
+      -0.71630264217754,
+      0.74353554319261
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55543",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Required: Flippers Swim through the Kanalet Castle moat and dive near the bridge to find this Heart Piece.",
+    "coords": [
+      -0.6746871478249,
+      0.69394147464231
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55544",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Reward for finding 5 x Secret Seashells and turning them into the [Seashell Mansion](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53853).",
+    "coords": [
+      -0.63623741269049,
+      0.68902143025031
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55545",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Required: Flippers In the tunnel that leads to Animal Village, there will bee a deep water pool by stairs. Dive to find the Heart Piece.",
+    "coords": [
+      -0.62580311145837,
+      0.65540304277612
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55546",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Required: [Flippers](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=56431), [Pegasus Boots](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=54073) In the tunnel that leads to the [Mad Batter](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=55095)'s altar, dive underwater to find a Heart Piece.",
+    "coords": [
+      -0.65764419553375,
+      0.5938660991748
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55547",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Required: Flippers Swim to the alcove at the southern edge of Martha's Bay. Dive underwater to reach this Heart Piece.",
+    "coords": [
+      -0.65814607011168,
+      0.6019784633844
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55548",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Walk around the edge of Animal Village, behind the houses. At the end of the path, pick up this Heart Piece.",
+    "coords": [
+      -0.5930910131799,
+      0.6363587856738
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55549",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Required: Hookshot There's a cave behind the houses in Animal Village. Use bombs and the hookshot to reach the platform with a Heart Piece.",
+    "coords": [
+      -0.54550249976455,
+      0.63550053165565
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55550",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "If you get sucked into the quicksand, you fall into a secret room. On the north wall, use a bomb to find a hidden room with a Heart Piece.",
+    "coords": [
+      -0.52811511516609,
+      0.63437523737061
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55551",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Required: Hookshot Enter the cave and use the hookshot to navigate to the Heart Piece.",
+    "coords": [
+      -0.5166516617038,
+      0.68627160976599
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55552",
+    "mapId": "koholint-island",
+    "category": "heart-piece",
+    "title": "Heart Piece",
+    "description": "Required: Flippers Use the flippers to swim into a cave and dive underwater for a Heart Piece.",
+    "coords": [
+      -0.52701834036202,
+      0.76551932411316
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55069",
+    "mapId": "koholint-island",
+    "category": "mario-figurine",
+    "title": "CiaoCiao Figurine",
+    "description": "All Mario-themed figurines are won by playing the [Trendy Game](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53801). Keep in mind, you can only carry one figurine in your inventory at a time. Requirement: None (available at the beginning of the game) Pedestal Location: [Madam MeowMeow's House](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53793)",
+    "coords": [
+      -0.8813646740964,
+      0.66504782159167
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55070",
+    "mapId": "koholint-island",
+    "category": "mario-figurine",
+    "title": "Goomba Figurine",
+    "description": "All Mario-themed figurines are won by playing the [Trendy Game](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53801). Keep in mind, you can only carry one figurine in your inventory at a time. Requirement: Complete [Tail Cave](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53772) Pedestal Location: [Marin & Tarin's House](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53795)",
+    "coords": [
+      -0.8503675863102,
+      0.66281432249462
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55071",
+    "mapId": "koholint-island",
+    "category": "mario-figurine",
+    "title": "Spiny Figurine",
+    "description": "All Mario-themed figurines are won by playing the [Trendy Game](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53801). Keep in mind, you can only carry one figurine in your inventory at a time. Requirement: Complete [Battle Grotto](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53771) Pedestal Location: [Papahl, Mamasha, and the Quadruplet's House](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53796)",
+    "coords": [
+      -0.84191031627915,
+      0.69199471669704
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55072",
+    "mapId": "koholint-island",
+    "category": "mario-figurine",
+    "title": "Boo Figurine",
+    "description": "All Mario-themed figurines are won by playing the [Trendy Game](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53801). Keep in mind, you can only carry one figurine in your inventory at a time. Requirement: Complete [Key Cavern](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53773) Pedestal Location: [Papahl, Mamasha, and the Quadruplet's House](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53796)",
+    "coords": [
+      -0.83820730743571,
+      0.69208054112483
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55073",
+    "mapId": "koholint-island",
+    "category": "mario-figurine",
+    "title": "Cheep Cheep Figurine",
+    "description": "All Mario-themed figurines are won by playing the [Trendy Game](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53801). Keep in mind, you can only carry one figurine in your inventory at a time. Requirement: Complete [Angler's Tunnel](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53769) Pedestal Location: [Grandpa Ulrira & Grandma Yahoo's House](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53794)",
+    "coords": [
+      -0.88014912612744,
+      0.65105717649215
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55074",
+    "mapId": "koholint-island",
+    "category": "mario-figurine",
+    "title": "Blooper Figurine",
+    "description": "All Mario-themed figurines are won by playing the [Trendy Game](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53801). Keep in mind, you can only carry one figurine in your inventory at a time. Requirement: Complete [Catfish's Maw](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53775) Pedestal Location: [Grandpa Ulrira & Grandma Yahoo's House](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53794)",
+    "coords": [
+      -0.87381106911096,
+      0.65102629033627
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55075",
+    "mapId": "koholint-island",
+    "category": "mario-figurine",
+    "title": "Shy Guy Figurine",
+    "description": "All Mario-themed figurines are won by playing the [Trendy Game](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53801). Keep in mind, you can only carry one figurine in your inventory at a time. Requirement: Complete [Face Shrine](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53774) Pedestal Location: [Papahl, Mamasha, and the Quadruplet's House](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53796)",
+    "coords": [
+      -0.84019170295619,
+      0.69516844470383
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55076",
+    "mapId": "koholint-island",
+    "category": "mario-figurine",
+    "title": "Pirahna Plant Figurine",
+    "description": "All Mario-themed figurines are won by playing the [Trendy Game](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53801). Keep in mind, you can only carry one figurine in your inventory at a time. Requirement: Complete [Eagle's Tower](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53770) Pedestal Location: [Marin & Tarin's House](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53795)",
+    "coords": [
+      -0.84495234494375,
+      0.66333763168406
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55077",
+    "mapId": "koholint-island",
+    "category": "mario-figurine",
+    "title": "Pokey Figurine",
+    "description": "All Mario-themed figurines are won by playing the [Trendy Game](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53801). Keep in mind, you can only carry one figurine in your inventory at a time. Requirement: Complete [Turtle Rock](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53767) Pedestal Location: [Papahl, Mamasha, and the Quadruplet's House](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53796)",
+    "coords": [
+      -0.8473925389269,
+      0.69491097158375
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55078",
+    "mapId": "koholint-island",
+    "category": "mario-figurine",
+    "title": "BowWow Figurine",
+    "description": "All Mario-themed figurines are won by playing the [Trendy Game](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53801). Keep in mind, you can only carry one figurine in your inventory at a time. Requirement: Defeat final boss and watch the credits Pedestal Location: [Madam MeowMeow's House](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53793)",
+    "coords": [
+      -0.87577624959931,
+      0.66547312028893
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54084",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: [Bombs](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=56279), [Power Bracelet](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=54046) (To access the area) Right next to a [Warp Point](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53822), there's a hole where Link can throw a bomb. The explosion will cause the Secret Seashell to pop out.",
+    "coords": [
+      -0.56691012647138,
+      0.76111654477963
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54085",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: Flippers Dive at the base of the waterfall to grab this Secret Seashell.",
+    "coords": [
+      -0.57720980908857,
+      0.77623017606705
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55081",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Optional: Middleweight Lure (for catching Bloopers), Heavyweight Lure (for catching Ol' Baron) Catch a large Blooper from the [Fishing Pond](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53806). Bloopers will spawn in the pond after completing [Catfish's Maw](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53775). Note: The Secret Seashell is awarded for catching any fish between 100 cm and 150 cm (59.06 in). This means that catching Ol' Baron can grant this instead if it is caught in the right size before the Blooper.",
+    "coords": [
+      -0.88027419900664,
+      0.68785854906728
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55082",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Catch a Cheep Cheep from the [Fishing Pond](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53806). Cheep Cheeps will spawn in the pond after completing [Catfish's Maw](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53775).",
+    "coords": [
+      -0.87752761697539,
+      0.68785854906728
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55084",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Requires: Hookshot, 100 Rupees Complete the [Rapids Race](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53826) in less than 35 seconds.",
+    "coords": [
+      -0.50548016036305,
+      0.7593238440876
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55085",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Requires: Deluxe Shovel, Hookshot, 100 Rupees During the [Rapids Raid](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53826), use the Hookshot to grapple onto the vines right next to the island & climb up. Use the Deluxe Shovel to dig up the top-right corner to find a Secret Seashell.",
+    "coords": [
+      -0.53191601241383,
+      0.72156149537073
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55087",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Although this seashell is on an island in the rapids, it's actually accessed through the [Face Shrine](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53774). In the far top-left room of the dungeon, take the stairs and exit onto the rapids island. Open the treasure chest outside to find the seashell.",
+    "coords": [
+      -0.58546317216326,
+      0.71206363072824
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55089",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: Flippers, Power Bracelet, Roc's Feather Under a rock east of the bridge leading to the Hen House.",
+    "coords": [
+      -0.57239349504357,
+      0.80166304235062
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55090",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Requires: Bombs, Flippers Use bombs to open up a secret path in the Tal Tal Mountains. Open the treasure chest at the end of the secret path.",
+    "coords": [
+      -0.55412135388838,
+      0.78261045061246
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55503",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: Pegasus Boots Ram into the tree to make the secret seashell fall out.",
+    "coords": [
+      -0.88892561122691,
+      0.60175608225384
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55504",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: Pegasus Boots Ram into the tree to make the secret seashell fall out.",
+    "coords": [
+      -0.85163026397777,
+      0.61857794320428
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55505",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "The first of two secret seashells that you can win from the [Trendy Game](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53801). After winning the [Heart Piece](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=55506) from the [Trendy Game](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53801), this seashell will appear in its place. Play the game again to win the secret seashell.",
+    "coords": [
+      -0.82303514274281,
+      0.65353970190718
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55507",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "The second (and last) secret seashell you can win from the [Trendy Game](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53801). Appears after completing the [Angler's Tunnel](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53769). Play the [Trendy Game](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53801) to win the secret seashell.",
+    "coords": [
+      -0.82079280104642,
+      0.65367977713381
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55539",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Requires: Completion of Key Cavern Complete the Fill Up Your Hearts challenge in the [Chamber Dungeon](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53810).",
+    "coords": [
+      -0.72053561602684,
+      0.75976678249927
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55577",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Inside [Eagle's Tower](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53770), go to the room where you fight the [Hinox](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=56278) and fall into a hole on the left side. You will drop onto a raised platform. Follow the path north until you find the treasure chest contained the Secret Seashell.",
+    "coords": [
+      -0.59979281418032,
+      0.91121519626366
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55578",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: Power Bracelet Pick up the rock to reveal a Secret Seashell.",
+    "coords": [
+      -0.51095550366051,
+      0.67980985826476
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60123",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Requires: Deluxe Shovel, Mirror Shield Use your shovel to dig a hole in the center of the circle of rocks.",
+    "coords": [
+      -0.84208113973909,
+      0.78959814737154
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60124",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: [Deluxe Shovel](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=518631) Dig in the spot directly below the shrub.",
+    "coords": [
+      -0.86886031454378,
+      0.76161990688743
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60125",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: [Deluxe Shovel](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=518631) In the alcove surrounded by trees, dig a hole.",
+    "coords": [
+      -0.9039650661307,
+      0.74402613461938
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60126",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: [Deluxe Shovel](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=518631) Dig a hole in the circle of flowers.",
+    "coords": [
+      -0.85015967063532,
+      0.72522122916099
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60127",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: Power Bracelet Move the boulder to reach a secret alcove. Open the treasure chest to find this Secret Seashell.",
+    "coords": [
+      -0.87778796182238,
+      0.69972578931126
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60128",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Dig a hole inside the dog house.",
+    "coords": [
+      -0.87157579977634,
+      0.6621140714578
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60129",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: Bombs Open the treasure chest to find a Secret Seashell.",
+    "coords": [
+      -0.90125457031343,
+      0.46495463515599
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60130",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Use your sword to cut down the tall grass.",
+    "coords": [
+      -0.81876732640603,
+      0.66110024106249
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60131",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: Hookshot, Power Bracelet Pick up the rock in the corner to find a Secret Seashell.",
+    "coords": [
+      -0.76449418996913,
+      0.797833179263
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60132",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: Power Bracelet Next to the signpost, pick up the boulder to find a Secret Seashell.",
+    "coords": [
+      -0.76758409475428,
+      0.76848182623529
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60133",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Dig a hole below the shrub at the center of tall grass.",
+    "coords": [
+      -0.79144502615077,
+      0.70119610462595
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60134",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: [Deluxe Shovel](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=518631) + [Roc's Feather](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53778) Dig a hole at the center of the tall grass.",
+    "coords": [
+      -0.76770665860977,
+      0.66259939798023
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60135",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: Pegasus Boots Dash into the tree to make a Secret Seashell fall out.",
+    "coords": [
+      -0.79045179105606,
+      0.65908057381961
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60136",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: [Deluxe Shovel](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=518631) Dig a hole next to the cliff on the beach, to the left of the beached log.",
+    "coords": [
+      -0.78092458463516,
+      0.58859044292598
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60137",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: Power Bracelet Lift the pots inside the [Ghost's House](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53814).",
+    "coords": [
+      -0.73459671849866,
+      0.59899396192067
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60138",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: Golden Leaves, [Roc's Feather](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53778) In [Richard's Villa](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53813), enter the secret tunnel and open the treasure chest.",
+    "coords": [
+      -0.74712799901624,
+      0.62216693178201
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60139",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: [Flippers](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=56431) Underneath the bush on an island in Martha's Bay.",
+    "coords": [
+      -0.73802994603773,
+      0.66010172028885
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60140",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Requires: Bombs, Deluxe Shovel Along the route to Kanalet Castle, you'll find a skull-shaped rock. Use a bomb to blow it up, then dig at the center of the rubble to find a Secret Seashell.",
+    "coords": [
+      -0.71382569188734,
+      0.67057235826682
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60141",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: Hookshot West of the bridge to Kanalet Castle, and walk down the side path and use the use the hookshot to cross a row of potholes. Once across, take the stairs down to find a treasure chest that contains a Secret Seashell.",
+    "coords": [
+      -0.69421429522322,
+      0.69069731887555
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60142",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: [Deluxe Shovel](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=518631) Dig a hole near the eastern line of trees in the Tabahl Wasteland.",
+    "coords": [
+      -0.70943081787982,
+      0.73170271486861
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60143",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: Flippers Dive underneath the waterfall north of Kanalet Castle.",
+    "coords": [
+      -0.68731743537273,
+      0.74196363912667
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60144",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: [Deluxe Shovel](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=518631) Dig a hole next to the Owl Statue.",
+    "coords": [
+      -0.69236008918699,
+      0.65759138873042
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60145",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: [Flippers](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=56431) Descend the stairs south of the Telephone Booth. This Secret Seashell is underneath the shrub by the water.",
+    "coords": [
+      -0.68989725690574,
+      0.59578899218589
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60146",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: [Deluxe Shovel](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=518631) Dig a hole next to the Owl Statue.",
+    "coords": [
+      -0.63898655323646,
+      0.62082118832888
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60147",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: Power Bracelet Pick up the rock at the corner.",
+    "coords": [
+      -0.66325586375342,
+      0.64586877014061
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60148",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Underneath the bush east of the Telephone Booth, in the corner of the walls.",
+    "coords": [
+      -0.66863566574375,
+      0.60372840872288
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60149",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Underneath a shrub against the wall, east of the Seashell Mansion.",
+    "coords": [
+      -0.60971549542626,
+      0.68304134709866
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60150",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "After delivering the [Letter](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53839) to [Mr. Write](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53798), speak to [Christine](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53823). In return, she will gift you a Secret Seashell.",
+    "coords": [
+      -0.55933834514576,
+      0.63553631928721
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60151",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "After receiving the [Magnifying Lens](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53844), speak to the Zora that's hiding away in the indoor pond. They will gift you a Secret Seashell.",
+    "coords": [
+      -0.55115687890373,
+      0.63601286558964
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60152",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Stand where the giant Walrus was previously block the path. Use the Ocarina to play the Ballad of the Wind Fish. The Walrus will appear from the water and give you a Secret Seashell.",
+    "coords": [
+      -0.54569838049099,
+      0.59581432134578
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60153",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: Power Bracelet Follow a side path until you reach the southeastern-most corner of the Yarna Desert. Pick up the rock at the end of the path to find a Secret Seashell.",
+    "coords": [
+      -0.5003536544923,
+      0.5976501867074
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60154",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Required: Deluxe Shovel South of the Owl Statue, dig a hole in the alcove surrounded by cacti.",
+    "coords": [
+      -0.50567515717785,
+      0.63356286146477
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60155",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "In the center of four tiles, an Armos Statue is standing on top of a staircase. Move the Armos Statue and use the stairs to find a Secret Seashell.",
+    "coords": [
+      -0.53243317956617,
+      0.65710012932495
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-60156",
+    "mapId": "koholint-island",
+    "category": "seashell",
+    "title": "Secret Seashell",
+    "description": "Requires: Bombs, Flippers, Power Bracelet Throw a bomb southwest of the wall into a hole. A Secret Seashell will pop out.",
+    "coords": [
+      -0.65163681329295,
+      0.79629619303448
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53831",
+    "mapId": "koholint-island",
+    "category": "trading-sequence",
+    "title": "Yoshi Doll",
+    "description": "Trading Sequence 1 (Start) Play the [Trendy Game](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53801) and win the Yoshi Doll.",
+    "coords": [
+      -0.82312124767395,
+      0.65111323830256
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53832",
+    "mapId": "koholint-island",
+    "category": "trading-sequence",
+    "title": "Ribbon",
+    "description": "Trading Sequence 2 Give the [Yoshi Doll](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53831) to Mamasha.",
+    "coords": [
+      -0.84975267054449,
+      0.69221205978499
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53833",
+    "mapId": "koholint-island",
+    "category": "trading-sequence",
+    "title": "Dog Food",
+    "description": "Give the [Ribbon](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53832) to CiaoCiao, the baby Chain Chomp.",
+    "coords": [
+      -0.8728930262065,
+      0.66363244144639
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53834",
+    "mapId": "koholint-island",
+    "category": "trading-sequence",
+    "title": "Bananas",
+    "description": "Give the [Dog Food](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53833) to Sale, the alligator.",
+    "coords": [
+      -0.82383970163346,
+      0.60975392635047
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53835",
+    "mapId": "koholint-island",
+    "category": "trading-sequence",
+    "title": "Stick",
+    "description": "Give the [Bananas](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53834) to Kiki, the monkey.",
+    "coords": [
+      -0.60956011721294,
+      0.6915873235026
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53836",
+    "mapId": "koholint-island",
+    "category": "trading-sequence",
+    "title": "Honeycomb",
+    "description": "Give the [Stick](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53835) to Tarin.",
+    "coords": [
+      -0.71569482421353,
+      0.68484250486097
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53837",
+    "mapId": "koholint-island",
+    "category": "trading-sequence",
+    "title": "Pineapple",
+    "description": "Give the [Honeycomb](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53836) to Chef Bear.",
+    "coords": [
+      -0.55585276286706,
+      0.62457530161569
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53838",
+    "mapId": "koholint-island",
+    "category": "trading-sequence",
+    "title": "Hibiscus",
+    "description": "Give the [Pineapple](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53837) to Papahl.",
+    "coords": [
+      -0.65776295739659,
+      0.78665621919713
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53839",
+    "mapId": "koholint-island",
+    "category": "trading-sequence",
+    "title": "Letter",
+    "description": "Give the [Hibiscus](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53838) to Christine.",
+    "coords": [
+      -0.56374918620691,
+      0.63547514004012
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53840",
+    "mapId": "koholint-island",
+    "category": "trading-sequence",
+    "title": "Broom",
+    "description": "Give the [Letter](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53839) to Mr. Write.",
+    "coords": [
+      -0.89857306190743,
+      0.75729599144502
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53841",
+    "mapId": "koholint-island",
+    "category": "trading-sequence",
+    "title": "Fishing Hook",
+    "description": "Give the [Broom](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53840) to Grandma Yahoo.",
+    "coords": [
+      -0.87037833362319,
+      0.64675053580955
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53842",
+    "mapId": "koholint-island",
+    "category": "trading-sequence",
+    "title": "Necklace",
+    "description": "Give the [Fishing Hook](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53841) to the Fisherman under the bridge.",
+    "coords": [
+      -0.63102849327299,
+      0.60823423741796
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53843",
+    "mapId": "koholint-island",
+    "category": "trading-sequence",
+    "title": "Scale",
+    "description": "Give the [Necklace](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53842) to the Mermaid.",
+    "coords": [
+      -0.66051133476469,
+      0.62866075117051
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53844",
+    "mapId": "koholint-island",
+    "category": "trading-sequence",
+    "title": "Magnifying Lens",
+    "description": "Place the [Scale](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53843) on the Mermaid Statue. Use the newly revealed staircase to go underground and pick up the Magnifying Glass. Required: Hookshot",
+    "coords": [
+      -0.65767892204497,
+      0.60909249587236
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53778",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Roc's Feather",
+    "description": "Treasure Chest localizado em koholint-island.",
+    "coords": [
+      -0.91610498540115,
+      0.47859512075569
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53786",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "20 Rupees",
+    "description": "Kill the nearby Mini-Moldorm for the treasure chest to appear.",
+    "coords": [
+      -0.8778244983406,
+      0.46653028287459
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-53792",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Full Moon Cello",
+    "description": "Treasure Chest localizado em koholint-island.",
+    "coords": [
+      -0.8253645414045,
+      0.50283536445916
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54045",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "50 Rupees",
+    "description": "Requires the [Power Bracelet](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=54046) to move the clay pots and reach this treasure chest.",
+    "coords": [
+      -1.05553503358965,
+      0.72164422847982
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54046",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Power Bracelet",
+    "description": "Light the two torches in the room to scare off the Boos. When the boos disappear, a treasure chest will appear in the room. Open it to find the Power Bracelet.",
+    "coords": [
+      -1.06042738283281,
+      0.79467774962413
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54056",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "20 Rupees",
+    "description": "Treasure Chest localizado em koholint-island.",
+    "coords": [
+      -1.04748991375595,
+      0.79408007573289
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54059",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Conch Horn",
+    "description": "Treasure Chest localizado em koholint-island.",
+    "coords": [
+      -1.00561041607625,
+      0.76989854444979
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54063",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Slime (False Chest)",
+    "description": "If you open this chest, a Slime will pop out. There are no rewards for opening the chest or killing the slime.",
+    "coords": [
+      -0.73523825120958,
+      0.45685849985299
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54069",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "50 Rupees",
+    "description": "Kill the enemies in this room for this treasure chest to appear on the raised platform.",
+    "coords": [
+      -0.75035615215938,
+      0.50300959817742
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54073",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Pegasus Boots",
+    "description": "Open the treasure chest to gain the Pegasus Boots.",
+    "coords": [
+      -0.72622663284767,
+      0.50298837806427
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54078",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "300 Rupees",
+    "description": "Unlike most chest where you clear a single room to spawn a chest, you must kill all enemies in all three rooms connected to this long hallway. Make sure to kill the enemies on both sides of the wall that bisects each room.",
+    "coords": [
+      -0.73529032452234,
+      0.46575062867515
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-54083",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Sea Lily's Bell",
+    "description": "Treasure Chest localizado em koholint-island.",
+    "coords": [
+      -0.6660714576492,
+      0.45573118165239
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55088",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "100 Rupees",
+    "description": "Treasure Chest localizado em koholint-island.",
+    "coords": [
+      -0.42678814003489,
+      0.65969659486908
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55861",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "100 Rupees",
+    "description": "Required: [Hookshot](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=55880) Shoot the Hookshot at the treasure chest to cross the chasm and retrieve 100 Rupees.",
+    "coords": [
+      -0.50194240850374,
+      0.43378048037989
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55919",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Hookshot (False Chest)",
+    "description": "This is where the hookshot _should_ be, but Master Stalfos has stolen it. You must defeat Master Stalfos four times, in a specific sequence of rooms to properly retrieve the Hookshot. Throughout the dungeon, you'll find empty rooms with green tiles that correspond to the order you fight Master Stalfos. - [Room #1](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=55891) - [Room #2](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=55927) - [Room #3](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=55931) - [Room #4](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=55880)",
+    "coords": [
+      -0.50929401399435,
+      0.46805864382045
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55936",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "50 Rupees",
+    "description": "Required: [Hookshot](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=55880) Shoot the Hookshot at the chest to cross the chasm and open it to receive some rupees.",
+    "coords": [
+      -0.50163964945341,
+      0.4940387773513
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-55943",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "50 Rupees",
+    "description": "Required: [Hookshot](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=55880) Shoot the Hookshot at the accordion platform to stretch it across the chasms. Ccross and open the treasure chest.",
+    "coords": [
+      -0.50043801981474,
+      0.50530713549846
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56211",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Wind Marimba",
+    "description": "Treasure Chest localizado em koholint-island.",
+    "coords": [
+      -0.55032515414132,
+      0.51570449850601
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56218",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "50 Rupees",
+    "description": "Treasure Chest localizado em koholint-island.",
+    "coords": [
+      -0.39717655251047,
+      0.59853952228574
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56219",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Powerful Bracelet",
+    "description": "Open the treasure chest to find the Powerful Bracelet. As the name suggests, this is a more powerful version of the Power Bracelet. You can now lift the giant elephant statues scattered around the dungeon.",
+    "coords": [
+      -0.42012721552658,
+      0.60045905205657
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56234",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "100 Rupees",
+    "description": "Treasure Chest localizado em koholint-island.",
+    "coords": [
+      -0.39702661860281,
+      0.61224201025945
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56236",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Secret Medicine",
+    "description": "If you already have Secret Medicine in your inventory, then Link puts the item back and the treasure chest appears unopened from the map.",
+    "coords": [
+      -0.33617266047293,
+      0.59593508590025
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56247",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Coral Triangle",
+    "description": "Treasure Chest localizado em koholint-island.",
+    "coords": [
+      -0.37101909260787,
+      0.64793292052062
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56255",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "300 Rupees",
+    "description": "Treasure Chest localizado em koholint-island.",
+    "coords": [
+      -0.33016617068006,
+      0.659678835178
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56272",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Mirror Shield",
+    "description": "Open the treasure chest to retrieve the Mirror Shield, a very important upgrade.",
+    "coords": [
+      -0.55246062968411,
+      0.93330888474897
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56279",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Bomb",
+    "description": "Treasure Chest localizado em koholint-island.",
+    "coords": [
+      -0.5748373114468,
+      0.92197630716238
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56301",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Secret Medicine",
+    "description": "If you already have Secret Medicine in your inventory, then Link puts the item back and the treasure chest appears unopened from the map.",
+    "coords": [
+      -0.50061360185123,
+      0.95642505957238
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56329",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Organ of Evening Calm",
+    "description": "Treasure Chest localizado em koholint-island.",
+    "coords": [
+      -0.50564873684959,
+      0.94561492406171
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56419",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Slime (False Chest)",
+    "description": "Treasure Chest localizado em koholint-island.",
+    "coords": [
+      -0.39807532774876,
+      0.75563292848738
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56431",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Flippers",
+    "description": "Open the treasure chest to find the Flippers. Link can now swim in deep water and dive underwater.",
+    "coords": [
+      -0.38665337022928,
+      0.79285923160873
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56480",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "50 Rupees",
+    "description": "Treasure Chest localizado em koholint-island.",
+    "coords": [
+      -0.36006030882481,
+      0.74449918983764
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56491",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Surf Harp",
+    "description": "Treasure Chest localizado em koholint-island.",
+    "coords": [
+      -0.41569324012619,
+      0.78168845136272
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56554",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "20 Rupees",
+    "description": "There is a glowing mechanism between the blocks. Attack the mechanism and use it to fill the floor's hole with stone. When the hole is completely filled, a treasure chest will appear.",
+    "coords": [
+      -0.8954395088042,
+      0.89766370093293
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56555",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "50 Rupees",
+    "description": "Open the treasure chest to receive 50 rupees.",
+    "coords": [
+      -0.89854046362302,
+      0.88618693998057
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56568",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Slime (False Chest)",
+    "description": "Treasure Chest localizado em koholint-island.",
+    "coords": [
+      -0.84230198711907,
+      0.88345934920882
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56570",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Secret Medicine",
+    "description": "If you already have Secret Medicine in your inventory, then Link puts the item back and the treasure chest appears unopened from the map.",
+    "coords": [
+      -0.85844224993525,
+      0.94743571953246
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56577",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Magic Rod",
+    "description": "Open the measure chest to receive the Magic Rod, a magical long-range weapon that shoots fireballs.",
+    "coords": [
+      -0.81382541079586,
+      0.94709654870299
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56581",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "50 Rupees",
+    "description": "Treasure Chest localizado em koholint-island.",
+    "coords": [
+      -0.8808371540232,
+      0.93461469200377
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-56583",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Thunder Drum",
+    "description": "Treasure Chest localizado em koholint-island.",
+    "coords": [
+      -0.87096759777512,
+      0.95746858037834
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-141857",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "50 Rupees",
+    "description": "Treasure Chest localizado em koholint-island.",
+    "coords": [
+      -0.80481829602073,
+      0.75542105399153
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-156201",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "50 Rupees",
+    "description": "Treasure Chest localizado em koholint-island.",
+    "coords": [
+      -0.68945874500128,
+      0.7851148330472
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-156202",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "50 Rupees",
+    "description": "Requires: Power Bracelet Lift the boulder out of the way to get to the chest",
+    "coords": [
+      -0.75953590540673,
+      0.60920534293064
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-396590",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "50 Rupees",
+    "description": "Treasure Chest localizado em koholint-island.",
+    "coords": [
+      -0.38363745001189,
+      0.75630110347076
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-396591",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Tail Key",
+    "description": "Treasure Chest localizado em koholint-island.",
+    "coords": [
+      -0.87735996496377,
+      0.7406034521737
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-396592",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "50 Rupees",
+    "description": "Requires: Hookshot",
+    "coords": [
+      -0.79486581699786,
+      0.79623752959115
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-396593",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "20 Rupees",
+    "description": "Treasure Chest localizado em koholint-island.",
+    "coords": [
+      -0.55046904574442,
+      0.72854738826555
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-518622",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "20 Rupees",
+    "description": "Required: Roc's Feather Jump over the gap to access the chest.",
+    "coords": [
+      -0.89311848104788,
+      0.76432496778399
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-518623",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "50 Rupees",
+    "description": "Required: Power Bracelet Lift the skull to access the chest.",
+    "coords": [
+      -0.88457694496341,
+      0.76385048019706
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-518633",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "20 Rupees",
+    "description": "Found while solving the puzzle to get the Heart Piece.",
+    "coords": [
+      -0.78515055651184,
+      0.68269463211412
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-518786",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "50 Rupees",
+    "description": "Requires: Bombs, Pegasus Boots In the cave leading to the Heart Piece.",
+    "coords": [
+      -0.74870221042869,
+      0.68556888507632
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-518788",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Slime Key",
+    "description": "Required: [Deluxe Shovel](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=518631), Golden Leaves Dig directly in front of the Owl Statue.",
+    "coords": [
+      -0.73597361712831,
+      0.63560419415838
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-518789",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "Bombs",
+    "description": "Available after Bottle Grotto. Purchase 10 Bombs for 10 Rupees.",
+    "coords": [
+      -0.82457079832659,
+      0.67790104436355
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-520045",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "50 Rupees",
+    "description": "Requires: Hookshot In the same cave as the Heart Piece. Use your Hookshot to reach the chest.",
+    "coords": [
+      -0.85314850151087,
+      0.74517526061706
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-520046",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "100 Rupees",
+    "description": "Treasure Chest to the right of the Ocarina.",
+    "coords": [
+      -0.8268023369794,
+      0.69373036338071
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-542851",
+    "mapId": "koholint-island",
+    "category": "treasure-chest",
+    "title": "50 Rupees",
+    "description": "Requires: Hookshot, Power Bracelet, Roc's Feather Enter the cavern & go one screen right. Push the block into the pit then push the next block out of the way to reach the stairs. Walk to the right & climb up the stairs at the end. Use your Hookshot on the Treasure Chest to reach it. Once opened push the boulder directly below & use Roc's Feather to jump back across.",
+    "coords": [
+      -0.67861019043838,
+      0.78658433708918
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-518631",
+    "mapId": "koholint-island",
+    "category": "item",
+    "title": "Deluxe Shovel",
+    "description": "Available after you come back from your first visit to the Mysterious Forest at the beginning of the game. Buy for 200 Rupees.",
+    "coords": [
+      -0.82626761122185,
+      0.67502227480074
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-518632",
+    "mapId": "koholint-island",
+    "category": "item",
+    "title": "Bow & Arrow Set",
+    "description": "Can be purchased after you bought the Deluxe Shovel. Buy for 980 Rupees.",
+    "coords": [
+      -0.82644963731173,
+      0.67783585568398
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-520048",
+    "mapId": "koholint-island",
+    "category": "item",
+    "title": "Ocarina",
+    "description": "At the end of the Dream Shrine to the left of the Treasure Chest.",
+    "coords": [
+      -0.83182468291966,
+      0.69302728643572
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-542838",
+    "mapId": "koholint-island",
+    "category": "item",
+    "title": "Chamber Stone",
+    "description": "Requires: Beating the final boss & loading the completed save after the credits roll. Collect all 11 figures from the Trendy Game. Note: Doing this also reduces the cost of playing the game to 5 Rupees.",
+    "coords": [
+      -0.81959575437804,
+      0.65259157075855
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-542839",
+    "mapId": "koholint-island",
+    "category": "item",
+    "title": "Chamber Stone x 4",
+    "description": "Requires: Completion of [Turtle Rock](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53767) Purchase each for 1,280 Rupees. Need to exit & enter again for the next one to spawn.",
+    "coords": [
+      -0.82341858409771,
+      0.67662944184522
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-542840",
+    "mapId": "koholint-island",
+    "category": "item",
+    "title": "Seashell Sensor",
+    "description": "Reward for finding 15 Secret Seashells.",
+    "coords": [
+      -0.63471660017882,
+      0.68898790506213
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-542841",
+    "mapId": "koholint-island",
+    "category": "item",
+    "title": "Koholint Sword",
+    "description": "Reward for finding 40 Secret Seashells.",
+    "coords": [
+      -0.63170179724685,
+      0.68902545327316
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-542842",
+    "mapId": "koholint-island",
+    "category": "item",
+    "title": "Chamber Dungeon Modifier",
+    "description": "Find all 50 Secret Seashells.",
+    "coords": [
+      -0.63031375408136,
+      0.68907909357414
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-542843",
+    "mapId": "koholint-island",
+    "category": "item",
+    "title": "Chamber Stone",
+    "description": "Reward for finding 30 Secret Seashells.",
+    "coords": [
+      -0.63313007354648,
+      0.68899997412986
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-542852",
+    "mapId": "koholint-island",
+    "category": "item",
+    "title": "Chamber Stone",
+    "description": "Requires: Hookshot, 100 Rupees Complete the [Rapids Race](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53826) in less than 30 seconds.",
+    "coords": [
+      -0.51129459940651,
+      0.75649045365593
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-542854",
+    "mapId": "koholint-island",
+    "category": "item",
+    "title": "Boomerang",
+    "description": "Requires: Completion of the Trading Sequence (Magnifying Glass), Bombs, Hookshot Place a bomb at the cracked wall to open up a cave entrance. The Magnifying Glass allows link to see & talk to Goriya who will trade whatever you have in your X or Y slot (Deluxe Shovel is probably best) for the Boomerang. Immediately after you aquire the Boomerang talk to Goriya again & buy the Deluxe Shovel back for 300 Rupees.",
+    "coords": [
+      -0.80980485822917,
+      0.5954129580322
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-542855",
+    "mapId": "koholint-island",
+    "category": "item",
+    "title": "Chamber Stone",
+    "description": "Requires: Completion of the Face Shrine (for Ol' Baron to spawn) Obtained after catching an Ol' Baron fish over 150 centimeters (59.06 inches)",
+    "coords": [
+      -0.87830945849311,
+      0.6902216318433
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-542856",
+    "mapId": "koholint-island",
+    "category": "item",
+    "title": "Chamber Stone",
+    "description": "Requires: Completion of the Face Shrine (for Ol' Baron to spawn) When you catch your first Ol' Baron fish (any size) the Fisherman gives you a Chamber Stone.",
+    "coords": [
+      -0.87831166406292,
+      0.69140617558539
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-542857",
+    "mapId": "koholint-island",
+    "category": "item",
+    "title": "Heavyweight Lure",
+    "description": "Requires: Completion of Catfish's Maw (for both fish to spawn) Catch a Cheep Cheep or large Blooper fish.",
+    "coords": [
+      -0.87617852657658,
+      0.68800247940776
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-542860",
+    "mapId": "koholint-island",
+    "category": "item",
+    "title": "Angler Key",
+    "description": "Kill Lanmola w/ 8 slashes. The key is dropped when it is defeated.",
+    "coords": [
+      -0.52936479449238,
+      0.63554443939869
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-542844",
+    "mapId": "koholint-island",
+    "category": "miscellaneous",
+    "title": "Pillar #4",
+    "description": "In the room below on the south side defeat the Three-of-a-Kinds to spawn a Treasure Chest then toss the Large Ball north over the barrier. Then work your way back to the room to the right of the floating tiles. Bomb the wall inbetween the two torches then follow the path down to another breakable wall. Use your hookshot to reach the Treasure Chest then carry the Large Ball up & destroy the last pillar.",
+    "coords": [
+      -0.57961403552113,
+      0.93052589849304
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-542845",
+    "mapId": "koholint-island",
+    "category": "miscellaneous",
+    "title": "Pillar #3",
+    "description": "Use the Northwest entrance to the room & throw the ball over the barrier. Work your way back up from the 1st floor to reach it on the other side.",
+    "coords": [
+      -0.57957721719882,
+      0.94402370910073
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-542846",
+    "mapId": "koholint-island",
+    "category": "miscellaneous",
+    "title": "Pillar #2",
+    "description": "Use the Large Ball to knock it down from its south side.",
+    "coords": [
+      -0.56607563612025,
+      0.93055364045334
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-542847",
+    "mapId": "koholint-island",
+    "category": "miscellaneous",
+    "title": "Pillar #1",
+    "description": "Use the [Large Ball](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=542848#L) to the right to knock it down from its east side.",
+    "coords": [
+      -0.56592317833463,
+      0.94412602467605
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-542848",
+    "mapId": "koholint-island",
+    "category": "miscellaneous",
+    "title": "Large Ball",
+    "description": "Used to knock the four Pillars down. - [Pillar #1](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=542847#L) - [Pillar #2](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=542846#L) - [Pillar #3](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=542845#L) - [Pillar #4](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=542844#L)",
+    "coords": [
+      -0.55032790808966,
+      0.9466386500669
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-542849",
+    "mapId": "koholint-island",
+    "category": "miscellaneous",
+    "title": "Blue Rooster",
+    "description": "Requires: Ocarina (Song #3 - Frog’s Song of Soul), Powerful Bracelet After completing the [Face Shrine](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53774) use the Powerful Bracelet to push the statue to reveal a hidden staircase. Use the Ocarina to play Frog's Song of Soul in front of the dead rooster bones to revive the Blue Rooster.",
+    "coords": [
+      -0.84718319082569,
+      0.67195547300716
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-542850",
+    "mapId": "koholint-island",
+    "category": "miscellaneous",
+    "title": "Bird Key",
+    "description": "Requires: Blue Rooster, Ocarina (Song #3 - Frog’s Song of Soul), Powerful Bracelet After completing the [Face Shrine](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=53774) go to the Giant Rooster Statue in Mabe Village & push it to reveal a hidden staircase. Use the Ocarina to play Frog's Song of Soul & revive the Blue Rooster. Go to the cave & solve the rock puzzle to get to the other side. Use the [Blue Rooster](https://mapgenie.io/zelda-links-awakening/maps/koholint-island?locationIds=542849) to fly to the Bird Key.",
+    "coords": [
+      -0.62869367546179,
+      0.79198956877727
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-542853",
+    "mapId": "koholint-island",
+    "category": "miscellaneous",
+    "title": "Ocarina Song #3 - Frog's Song of Soul",
+    "description": "Completion of the Signpost Maze, Hookshot, Ocarina After finishing the Maze go down the hidden steps & talk to Mamu. For 300 Rupees it will teach you the last song.",
+    "coords": [
+      -0.78652867328478,
+      0.62192777790666
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-542858",
+    "mapId": "koholint-island",
+    "category": "miscellaneous",
+    "title": "Ocarina Song #2 - Manbo’s Mambo",
+    "description": "Required: Flippers, Ocarina After beating the Angler's Tunnel Dungeon head left from the entrance. The next cave opening leads to Manbo's Cave. He will teach you the song the first time you interact w/ him.",
+    "coords": [
+      -0.63148944139982,
+      0.76375953197218
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-542861",
+    "mapId": "koholint-island",
+    "category": "miscellaneous",
+    "title": "Ocarina Song #1: Ballad of the Wind Fish",
+    "description": "Required: Ocarina (If you found the Ocarina before finding Animal Village Marin will be standing next to the Bird Statue north of Marin's House in Mabe Village.) After leaving the Dream Shrine go to Marin's House & read the note saying she went to the beach. Find her, watch the cutscene, then take her to Animal Village. Walk over to the sleeping Walrus & talk to it triggering Marin to sing. When she is done find her in the center of Animal Village where she will teach you the first song.",
+    "coords": [
+      -0.57907500801963,
+      0.62227910915686
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-518624",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.99476332966162,
+      0.74742839229759
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-518625",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -1.0494528870946,
+      0.77114359992541
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-518626",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -1.0215060035983,
+      0.73553380298878
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-518627",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.90084458170003,
+      0.49271814929467
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-518628",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.77311926418153,
+      0.74317365740391
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-518629",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.88784263327653,
+      0.49258271733936
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-518630",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.84057513327258,
+      0.48039383010641
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-518780",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.88509140684152,
+      0.77937703786924
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-518781",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.63658472811596,
+      0.62071267072963
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-518782",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.49493707484498,
+      0.68222124340902
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-518783",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.71298838835446,
+      0.50439477472645
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-518784",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.75549368028516,
+      0.5162426061261
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-518785",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.66851291125352,
+      0.48739726903214
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-518787",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.73556592135921,
+      0.63761036266118
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-519343",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.55639217608976,
+      0.72911202318811
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-519344",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.72787317447532,
+      0.89999471141869
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-519345",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.68211127560483,
+      0.91167510770752
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-519346",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.71098684632702,
+      0.88742882198092
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-519347",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.50566235504138,
+      0.63812694340025
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-519348",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.37337404537411,
+      0.75359022764974
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-519349",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.53795529828434,
+      0.78248938771495
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-519350",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.69007510012864,
+      0.65931270618734
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-519351",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.51703008582152,
+      0.45811494134371
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-519352",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.56419042778879,
+      0.49360888318795
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-520052",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.34644279610657,
+      0.59056596558138
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-520053",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.38528517354723,
+      0.63031992764813
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-520059",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.34166104229016,
+      0.65004893585137
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-520436",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.81699446276681,
+      0.89267216916005
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-520437",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.82275328768921,
+      0.92410836960673
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-520438",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.88304836980356,
+      0.92435539560599
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-520439",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.58539378813796,
+      0.92412830064853
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-520440",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.55552922042997,
+      0.94781718335736
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  },
+  {
+    "id": "zelda-links-awakening-koholint-island-520441",
+    "mapId": "koholint-island",
+    "category": "owl-statue",
+    "title": "Owl Statue",
+    "description": "Owl Statue localizado em koholint-island.",
+    "coords": [
+      -0.55087833146865,
+      0.90940034698176
+    ],
+    "region": "koholint-island",
+    "dlc": "base"
+  }
+]

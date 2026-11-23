@@ -47,14 +47,18 @@ async function main() {
     const result = spawnSync(
       process.platform === 'win32' ? 'npx.cmd' : 'npx',
       ['tsx', 'scripts/import-markers/import-tile-map.ts', gameSlug, mapSlug, ...extraArgs],
-      { stdio: 'inherit' }
+      { stdio: 'inherit', shell: true }
     );
 
-    if (result.status === 0) {
+    if (result.status === 0 && !result.error) {
       success++;
     } else {
       failed++;
-      console.error(`  ✗ Erro ao importar ${gameSlug}/${mapSlug} (exit ${result.status})`);
+      console.error(
+        `  ✗ Erro ao importar ${gameSlug}/${mapSlug} (exit ${result.status})${
+          result.error ? ` — ${result.error.message}` : ''
+        }`
+      );
     }
   }
 

@@ -251,6 +251,7 @@ export interface GameManifest {
   status: GameCatalogStatus;
   featured?: boolean;
   isRecent?: boolean;
+  totalPins?: number;
   dlc?: string;
   dlcs?: GameDlc[];
   assets: GameAssets;

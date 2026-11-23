@@ -1,0 +1,1429 @@
+{
+  "id": "game-zelda-breath-of-the-wild",
+  "slug": "zelda-breath-of-the-wild",
+  "title": "The Legend of Zelda: Breath of the Wild",
+  "subtitle": "Reino Selvagem de Hyrule",
+  "studio": "Nintendo",
+  "releaseYear": 2017,
+  "genres": [
+    "Aventura",
+    "Action RPG",
+    "Mundo Aberto"
+  ],
+  "platforms": [
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/zelda-breath-of-the-wild/cover.webp",
+    "bannerImage": "/games/zelda-breath-of-the-wild/banner.webp",
+    "logoImage": "/games/zelda-breath-of-the-wild/logo.webp"
+  },
+  "theme": {
+    "accentPrimary": "#38BDF8",
+    "accentSecondary": "#EAB308",
+    "accentGlow": "rgba(56, 189, 248, 0.36)",
+    "glassTint": "rgba(10, 18, 24, 0.80)",
+    "surfaceBase": "#070C12",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "hyrule",
+      "name": "Hyrule",
+      "dlc": "base",
+      "pinsCount": 16504,
+      "icon": "compass",
+      "crs": "epsg3857",
+      "backgroundColor": "#070C12",
+      "initialCenter": [
+        0.74550224781725,
+        -0.7335226638545
+      ],
+      "initialZoom": 13,
+      "maxBounds": [
+        [
+          -0.07607,
+          -1.10501
+        ],
+        [
+          1.0269,
+          0.08185
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/zelda-breath-of-the-wild/hyrule/default-v1/{z}/{x}/{y}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 17,
+          "maxZoom": 18,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "area",
+          "groupId": "locations",
+          "name": "Area",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "divine-beast",
+          "groupId": "locations",
+          "name": "Divine Beast",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "goddess-statue",
+          "groupId": "locations",
+          "name": "Goddess Statue",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "great-fairy",
+          "groupId": "locations",
+          "name": "Great Fairy",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "landmark",
+          "groupId": "locations",
+          "name": "Landmark",
+          "icon": "landmark",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "point-of-interest",
+          "groupId": "locations",
+          "name": "Point of Interest",
+          "icon": "landmark",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "province",
+          "groupId": "locations",
+          "name": "Province",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "raft",
+          "groupId": "locations",
+          "name": "Raft",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "region",
+          "groupId": "locations",
+          "name": "Region",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "settlement",
+          "groupId": "locations",
+          "name": "Settlement",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "sheikah-tower",
+          "groupId": "locations",
+          "name": "Sheikah Tower",
+          "icon": "landmark",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "shrine",
+          "groupId": "locations",
+          "name": "Shrine",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "tech-lab",
+          "groupId": "locations",
+          "name": "Tech Lab",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "village",
+          "groupId": "locations",
+          "name": "Village",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "label": "Services",
+      "categories": [
+        {
+          "id": "armor-shop",
+          "groupId": "services",
+          "name": "Armor Shop",
+          "icon": "shopping-bag",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "dye-shop",
+          "groupId": "services",
+          "name": "Dye Shop",
+          "icon": "shopping-bag",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "fang-and-bone",
+          "groupId": "services",
+          "name": "Fang and Bone",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "general-store",
+          "groupId": "services",
+          "name": "General Store",
+          "icon": "shopping-bag",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "hestu",
+          "groupId": "services",
+          "name": "Hestu",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "inn",
+          "groupId": "services",
+          "name": "Inn",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "jewelry-shop",
+          "groupId": "services",
+          "name": "Jewelry Shop",
+          "icon": "shopping-bag",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "mini-game",
+          "groupId": "services",
+          "name": "Mini-Game",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "stable",
+          "groupId": "services",
+          "name": "Stable",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "key-item",
+          "groupId": "collectibles",
+          "name": "Key Item",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "korok-seed",
+          "groupId": "collectibles",
+          "name": "Korok Seed",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "voice-memory",
+          "groupId": "collectibles",
+          "name": "Voice Memory",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "treasure",
+      "label": "Treasure",
+      "categories": [
+        {
+          "id": "armor",
+          "groupId": "treasure",
+          "name": "Armor",
+          "icon": "shopping-bag",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "arrow-chest",
+          "groupId": "treasure",
+          "name": "Arrow Chest",
+          "icon": "gem",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "blupee",
+          "groupId": "treasure",
+          "name": "Blupee",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "gem",
+          "groupId": "treasure",
+          "name": "Gem",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": false
+        },
+        {
+          "id": "rupees",
+          "groupId": "treasure",
+          "name": "Rupees",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "shield",
+          "groupId": "treasure",
+          "name": "Shield",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "treasure-chest",
+          "groupId": "treasure",
+          "name": "Treasure Chest",
+          "icon": "gem",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "weapon",
+          "groupId": "treasure",
+          "name": "Weapon",
+          "icon": "shopping-bag",
+          "color": "#E879F9",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "main-quest",
+          "groupId": "quests",
+          "name": "Main Quest",
+          "icon": "scroll-text",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "memory",
+          "groupId": "quests",
+          "name": "Memory",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "shrine-quest",
+          "groupId": "quests",
+          "name": "Shrine Quest",
+          "icon": "scroll-text",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "side-quest",
+          "groupId": "quests",
+          "name": "Side Quest",
+          "icon": "scroll-text",
+          "color": "#F472B6",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "enemies",
+      "label": "Enemies",
+      "categories": [
+        {
+          "id": "dragon",
+          "groupId": "enemies",
+          "name": "Dragon",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "enemy-camp",
+          "groupId": "enemies",
+          "name": "Enemy Camp",
+          "icon": "skull",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "guardian",
+          "groupId": "enemies",
+          "name": "Guardian",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "hinox",
+          "groupId": "enemies",
+          "name": "Hinox",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "lynel",
+          "groupId": "enemies",
+          "name": "Lynel",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "molduga",
+          "groupId": "enemies",
+          "name": "Molduga",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "stalnox",
+          "groupId": "enemies",
+          "name": "Stalnox",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "talus",
+          "groupId": "enemies",
+          "name": "Talus",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "wizzrobe",
+          "groupId": "enemies",
+          "name": "Wizzrobe",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "yiga",
+          "groupId": "enemies",
+          "name": "Yiga",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "cooking-pot",
+          "groupId": "other",
+          "name": "Cooking Pot",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "journal",
+          "groupId": "other",
+          "name": "Journal",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "npc",
+          "groupId": "other",
+          "name": "NPC",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "quest-objective",
+          "groupId": "other",
+          "name": "Quest Objective",
+          "icon": "scroll-text",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "unique-horse",
+          "groupId": "other",
+          "name": "Unique Horse",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "zora-monument",
+          "groupId": "other",
+          "name": "Zora Monument",
+          "icon": "landmark",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "ore-deposits",
+      "label": "Ore Deposits",
+      "categories": [
+        {
+          "id": "luminous-stone",
+          "groupId": "ore-deposits",
+          "name": "Luminous Stone",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "rare-ore-deposit",
+          "groupId": "ore-deposits",
+          "name": "Rare Ore Deposit",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "materials",
+      "label": "Materials",
+      "categories": [
+        {
+          "id": "acorn",
+          "groupId": "materials",
+          "name": "Acorn",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "ancient",
+          "groupId": "materials",
+          "name": "Ancient",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "armoranth",
+          "groupId": "materials",
+          "name": "Armoranth",
+          "icon": "shopping-bag",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "bird-egg",
+          "groupId": "materials",
+          "name": "Bird Egg",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": false
+        },
+        {
+          "id": "blue-nightshade",
+          "groupId": "materials",
+          "name": "Blue Nightshade",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "chickaloo-tree-nut",
+          "groupId": "materials",
+          "name": "Chickaloo Tree Nut",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "chillshroom",
+          "groupId": "materials",
+          "name": "Chillshroom",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "cool-safflina",
+          "groupId": "materials",
+          "name": "Cool Safflina",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": false
+        },
+        {
+          "id": "electric-safflina",
+          "groupId": "materials",
+          "name": "Electric Safflina",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "endura-carrot",
+          "groupId": "materials",
+          "name": "Endura Carrot",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "endura-shroom",
+          "groupId": "materials",
+          "name": "Endura Shroom",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "fairy",
+          "groupId": "materials",
+          "name": "Fairy",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "fleet-lotus-seeds",
+          "groupId": "materials",
+          "name": "Fleet-Lotus Seeds",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": false
+        },
+        {
+          "id": "hearty-durian",
+          "groupId": "materials",
+          "name": "Hearty Durian",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "hearty-raddish",
+          "groupId": "materials",
+          "name": "Hearty Raddish",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "hearty-truffle",
+          "groupId": "materials",
+          "name": "Hearty Truffle",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": false
+        },
+        {
+          "id": "hydromelon",
+          "groupId": "materials",
+          "name": "Hydromelon",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "hylian-rice",
+          "groupId": "materials",
+          "name": "Hylian Rice",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "hylian-shroom",
+          "groupId": "materials",
+          "name": "Hylian Shroom",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "hyrule-herb",
+          "groupId": "materials",
+          "name": "Hyrule Herb",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": false
+        },
+        {
+          "id": "ironshroom",
+          "groupId": "materials",
+          "name": "Ironshroom",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "mighty-bananas",
+          "groupId": "materials",
+          "name": "Mighty Bananas",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "mighty-thistle",
+          "groupId": "materials",
+          "name": "Mighty Thistle",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "palm-fruit",
+          "groupId": "materials",
+          "name": "Palm Fruit",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": false
+        },
+        {
+          "id": "razorshroom",
+          "groupId": "materials",
+          "name": "Razorshroom",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": false
+        },
+        {
+          "id": "silent-princess",
+          "groupId": "materials",
+          "name": "Silent Princess",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "silent-shroom",
+          "groupId": "materials",
+          "name": "Silent Shroom",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "spicy-pepper",
+          "groupId": "materials",
+          "name": "Spicy Pepper",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": false
+        },
+        {
+          "id": "stamella-shroom",
+          "groupId": "materials",
+          "name": "Stamella Shroom",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "sunshroom",
+          "groupId": "materials",
+          "name": "Sunshroom",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "swift-carrot",
+          "groupId": "materials",
+          "name": "Swift Carrot",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "voltfruit",
+          "groupId": "materials",
+          "name": "Voltfruit",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": false
+        },
+        {
+          "id": "warm-safflina",
+          "groupId": "materials",
+          "name": "Warm Safflina",
+          "icon": "shopping-bag",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "wildberry",
+          "groupId": "materials",
+          "name": "Wildberry",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "zapshroom",
+          "groupId": "materials",
+          "name": "Zapshroom",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "creatures",
+      "label": "Creatures",
+      "categories": [
+        {
+          "id": "armored-carp",
+          "groupId": "creatures",
+          "name": "Armored Carp",
+          "icon": "shopping-bag",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "armored-porgy",
+          "groupId": "creatures",
+          "name": "Armored Porgy",
+          "icon": "shopping-bag",
+          "color": "#FACC15",
+          "defaultVisible": false
+        },
+        {
+          "id": "bladed-rhino-beetle",
+          "groupId": "creatures",
+          "name": "Bladed Rhino Beetle",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "blue-winged-heron",
+          "groupId": "creatures",
+          "name": "Blue-Winged Heron",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "bright-chested-duck",
+          "groupId": "creatures",
+          "name": "Bright-Chested Duck",
+          "icon": "gem",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "bright-eyed-crab",
+          "groupId": "creatures",
+          "name": "Bright-Eyed Crab",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "bushy-tailed-squirrel",
+          "groupId": "creatures",
+          "name": "Bushy-Tailed Squirrel",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "chillfin-trout",
+          "groupId": "creatures",
+          "name": "Chillfin Trout",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "cold-darner",
+          "groupId": "creatures",
+          "name": "Cold Darner",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "cucco",
+          "groupId": "creatures",
+          "name": "Cucco",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "donkey",
+          "groupId": "creatures",
+          "name": "Donkey",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "eldin-ostrich",
+          "groupId": "creatures",
+          "name": "Eldin Ostrich",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "electric-darner",
+          "groupId": "creatures",
+          "name": "Electric Darner",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "energetic-rhino-beetle",
+          "groupId": "creatures",
+          "name": "Energetic Rhino Beetle",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "fireproof-lizard",
+          "groupId": "creatures",
+          "name": "Fireproof Lizard",
+          "icon": "flame",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "grassland-fox",
+          "groupId": "creatures",
+          "name": "Grassland Fox",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "great-horned-rhinoceros",
+          "groupId": "creatures",
+          "name": "Great-Horned Rhinoceros",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "grizzlemaw-bear",
+          "groupId": "creatures",
+          "name": "Grizzlemaw Bear",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "hateno-cow",
+          "groupId": "creatures",
+          "name": "Hateno Cow",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "hearty-bass",
+          "groupId": "creatures",
+          "name": "Hearty Bass",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "hearty-blueshell-snail",
+          "groupId": "creatures",
+          "name": "Hearty Blueshell Snail",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "hearty-lizard",
+          "groupId": "creatures",
+          "name": "Hearty Lizard",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "hearty-salmon",
+          "groupId": "creatures",
+          "name": "Hearty Salmon",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "highland-sheep",
+          "groupId": "creatures",
+          "name": "Highland Sheep",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "hightail-lizard",
+          "groupId": "creatures",
+          "name": "Hightail Lizard",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "honeyvore-bear",
+          "groupId": "creatures",
+          "name": "Honeyvore Bear",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "horse",
+          "groupId": "creatures",
+          "name": "Horse",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "hot-footed-frog",
+          "groupId": "creatures",
+          "name": "Hot-Footed Frog",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "hylian-retriever",
+          "groupId": "creatures",
+          "name": "Hylian Retriever",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "hyrule-bass",
+          "groupId": "creatures",
+          "name": "Hyrule Bass",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "ironshell-crab",
+          "groupId": "creatures",
+          "name": "Ironshell Crab",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "maraudo-wolf",
+          "groupId": "creatures",
+          "name": "Maraudo Wolf",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "mighty-carp",
+          "groupId": "creatures",
+          "name": "Mighty Carp",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "mighty-porgy",
+          "groupId": "creatures",
+          "name": "Mighty Porgy",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "mountain-buck",
+          "groupId": "creatures",
+          "name": "Mountain Buck",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "mountain-crow",
+          "groupId": "creatures",
+          "name": "Mountain Crow",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "mountain-doe",
+          "groupId": "creatures",
+          "name": "Mountain Doe",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "mountain-goat",
+          "groupId": "creatures",
+          "name": "Mountain Goat",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": false
+        },
+        {
+          "id": "pink-heron",
+          "groupId": "creatures",
+          "name": "Pink Heron",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "rainbow-pigeon",
+          "groupId": "creatures",
+          "name": "Rainbow Pigeon",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "razorclaw-crab",
+          "groupId": "creatures",
+          "name": "Razorclaw Crab",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "red-tusked-boar",
+          "groupId": "creatures",
+          "name": "Red-Tusked Boar",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "restless-cricket",
+          "groupId": "creatures",
+          "name": "Restless Cricket",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "rugged-rhino-beetle",
+          "groupId": "creatures",
+          "name": "Rugged Rhino Beetle",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "sand-seal",
+          "groupId": "creatures",
+          "name": "Sand Seal",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "sanke-carp",
+          "groupId": "creatures",
+          "name": "Sanke Carp",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "seagull",
+          "groupId": "creatures",
+          "name": "Seagull",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "sneaky-river-snail",
+          "groupId": "creatures",
+          "name": "Sneaky River Snail",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "snowcoat-fox",
+          "groupId": "creatures",
+          "name": "Snowcoat Fox",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "sparrow",
+          "groupId": "creatures",
+          "name": "Sparrow",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": false
+        },
+        {
+          "id": "sparrow-blue",
+          "groupId": "creatures",
+          "name": "Sparrow (Blue)",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "sparrow-golden",
+          "groupId": "creatures",
+          "name": "Sparrow (Golden)",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "sparrow-rainbow",
+          "groupId": "creatures",
+          "name": "Sparrow (Rainbow)",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "sparrow-red",
+          "groupId": "creatures",
+          "name": "Sparrow (Red)",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "staminoka-bass",
+          "groupId": "creatures",
+          "name": "Staminoka Bass",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "summerwing-butterfly",
+          "groupId": "creatures",
+          "name": "Summerwing Butterfly",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "sunset-firefly",
+          "groupId": "creatures",
+          "name": "Sunset Firefly",
+          "icon": "flame",
+          "color": "#FB7185",
+          "defaultVisible": false
+        },
+        {
+          "id": "tabantha-moose",
+          "groupId": "creatures",
+          "name": "Tabantha Moose",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "thunderwing-butterfly",
+          "groupId": "creatures",
+          "name": "Thunderwing Butterfly",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "tireless-frog",
+          "groupId": "creatures",
+          "name": "Tireless Frog",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "voltfin-trout",
+          "groupId": "creatures",
+          "name": "Voltfin Trout",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "warm-darner",
+          "groupId": "creatures",
+          "name": "Warm Darner",
+          "icon": "shopping-bag",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "wasteland-coyote",
+          "groupId": "creatures",
+          "name": "Wasteland Coyote",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "water-buffalo",
+          "groupId": "creatures",
+          "name": "Water Buffalo",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "white-goat",
+          "groupId": "creatures",
+          "name": "White Goat",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "white-pigeon",
+          "groupId": "creatures",
+          "name": "White Pigeon",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "winterwing-butterfly",
+          "groupId": "creatures",
+          "name": "Winterwing Butterfly",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "wood-pigeon",
+          "groupId": "creatures",
+          "name": "Wood Pigeon",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "woodland-boar",
+          "groupId": "creatures",
+          "name": "Woodland Boar",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 16504
+}

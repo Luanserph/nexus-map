@@ -1,0 +1,216 @@
+import type { GamePlatform, GameTheme } from '../../src/types/schema';
+
+export interface GamePresetMetadata {
+  title: string;
+  subtitle: string;
+  studio: string;
+  releaseYear: number;
+  genres: string[];
+  platforms: GamePlatform[];
+  theme: GameTheme;
+  defaultMaps: Array<{
+    id: string;
+    name: string;
+    dlc?: string;
+    icon?: string;
+  }>;
+}
+
+export const GAME_PRESETS: Record<string, GamePresetMetadata> = {
+  'zelda-tears-of-the-kingdom': {
+    title: 'The Legend of Zelda: Tears of the Kingdom',
+    subtitle: 'Céus, Superfície e Profundezas de Hyrule',
+    studio: 'Nintendo',
+    releaseYear: 2023,
+    genres: ['Aventura', 'Action RPG', 'Mundo Aberto'],
+    platforms: ['switch'],
+    theme: {
+      accentPrimary: '#34D399',
+      accentSecondary: '#FBBF24',
+      accentGlow: 'rgba(52, 211, 153, 0.36)',
+      glassTint: 'rgba(10, 20, 18, 0.80)',
+      surfaceBase: '#070E0D',
+      fontDisplay: "'Cinzel', Georgia, serif",
+      backgroundPattern: 'topographic-rings',
+      badgeStyle: 'ornate',
+    },
+    defaultMaps: [{ id: 'hyrule', name: 'Hyrule (Céu / Superfície / Profundezas)', dlc: 'base', icon: 'compass' }],
+  },
+  'zelda-breath-of-the-wild': {
+    title: 'The Legend of Zelda: Breath of the Wild',
+    subtitle: 'Reino Selvagem de Hyrule',
+    studio: 'Nintendo',
+    releaseYear: 2017,
+    genres: ['Aventura', 'Action RPG', 'Mundo Aberto'],
+    platforms: ['switch'],
+    theme: {
+      accentPrimary: '#38BDF8',
+      accentSecondary: '#EAB308',
+      accentGlow: 'rgba(56, 189, 248, 0.36)',
+      glassTint: 'rgba(10, 18, 24, 0.80)',
+      surfaceBase: '#070C12',
+      fontDisplay: "'Cinzel', Georgia, serif",
+      backgroundPattern: 'topographic-rings',
+      badgeStyle: 'ornate',
+    },
+    defaultMaps: [{ id: 'hyrule', name: 'Hyrule', dlc: 'base', icon: 'compass' }],
+  },
+  'zelda-echoes-of-wisdom': {
+    title: 'The Legend of Zelda: Echoes of Wisdom',
+    subtitle: 'Fendas do Mundo Silencioso em Hyrule',
+    studio: 'Nintendo',
+    releaseYear: 2024,
+    genres: ['Aventura', 'Action RPG', 'Mundo Aberto'],
+    platforms: ['switch'],
+    theme: {
+      accentPrimary: '#A855F7',
+      accentSecondary: '#FACC15',
+      accentGlow: 'rgba(168, 85, 247, 0.36)',
+      glassTint: 'rgba(18, 11, 26, 0.80)',
+      surfaceBase: '#0A0712',
+      fontDisplay: "'Cinzel', Georgia, serif",
+      backgroundPattern: 'topographic-rings',
+      badgeStyle: 'ornate',
+    },
+    defaultMaps: [{ id: 'hyrule', name: 'Hyrule', dlc: 'base', icon: 'sparkles' }],
+  },
+  'zelda-ocarina-of-time': {
+    title: 'The Legend of Zelda: Ocarina of Time',
+    subtitle: 'Hyrule — Era Infantil & Era Adulta',
+    studio: 'Nintendo',
+    releaseYear: 1998,
+    genres: ['Aventura', 'Action RPG', 'Mundo Aberto'],
+    platforms: ['switch'],
+    theme: {
+      accentPrimary: '#10B981',
+      accentSecondary: '#D4AF37',
+      accentGlow: 'rgba(16, 185, 129, 0.36)',
+      glassTint: 'rgba(10, 20, 16, 0.80)',
+      surfaceBase: '#060D0A',
+      fontDisplay: "'Cinzel', Georgia, serif",
+      backgroundPattern: 'topographic-rings',
+      badgeStyle: 'ornate',
+    },
+    defaultMaps: [
+      { id: 'child-past', name: 'Passado (Criança)', dlc: 'base', icon: 'compass' },
+      { id: 'adult-future', name: 'Futuro (Adulto)', dlc: 'base', icon: 'flame' },
+    ],
+  },
+  'zelda-wind-waker': {
+    title: 'The Legend of Zelda: The Wind Waker',
+    subtitle: 'Arquipélago do Grande Mar',
+    studio: 'Nintendo',
+    releaseYear: 2002,
+    genres: ['Aventura', 'Action RPG', 'Mundo Aberto'],
+    platforms: ['switch'],
+    theme: {
+      accentPrimary: '#0EA5E9',
+      accentSecondary: '#FDE047',
+      accentGlow: 'rgba(14, 165, 233, 0.36)',
+      glassTint: 'rgba(8, 19, 28, 0.80)',
+      surfaceBase: '#060D14',
+      fontDisplay: "'Cinzel', Georgia, serif",
+      backgroundPattern: 'abyssal-contours',
+      badgeStyle: 'ornate',
+    },
+    defaultMaps: [{ id: 'great-sea', name: 'Grande Mar (Great Sea)', dlc: 'base', icon: 'anchor' }],
+  },
+  'zelda-a-link-between-worlds': {
+    title: 'The Legend of Zelda: A Link Between Worlds',
+    subtitle: 'Reinos Paralelos de Hyrule & Lorule',
+    studio: 'Nintendo',
+    releaseYear: 2013,
+    genres: ['Aventura', 'Action RPG', 'Mundo Aberto'],
+    platforms: ['switch'],
+    theme: {
+      accentPrimary: '#8B5CF6',
+      accentSecondary: '#F59E0B',
+      accentGlow: 'rgba(139, 92, 246, 0.36)',
+      glassTint: 'rgba(16, 12, 24, 0.80)',
+      surfaceBase: '#090710',
+      fontDisplay: "'Cinzel', Georgia, serif",
+      backgroundPattern: 'topographic-rings',
+      badgeStyle: 'ornate',
+    },
+    defaultMaps: [{ id: 'hyrule-lorule', name: 'Hyrule & Lorule', dlc: 'base', icon: 'layers' }],
+  },
+  'zelda-links-awakening': {
+    title: "The Legend of Zelda: Link's Awakening",
+    subtitle: 'Ilha Koholint',
+    studio: 'Nintendo',
+    releaseYear: 2019,
+    genres: ['Aventura', 'Action RPG', 'Mundo Aberto'],
+    platforms: ['switch'],
+    theme: {
+      accentPrimary: '#2DD4BF',
+      accentSecondary: '#FBBF24',
+      accentGlow: 'rgba(45, 212, 191, 0.36)',
+      glassTint: 'rgba(10, 22, 22, 0.80)',
+      surfaceBase: '#061010',
+      fontDisplay: "'Cinzel', Georgia, serif",
+      backgroundPattern: 'topographic-rings',
+      badgeStyle: 'ornate',
+    },
+    defaultMaps: [{ id: 'koholint-island', name: 'Ilha Koholint', dlc: 'base', icon: 'compass' }],
+  },
+  'zelda-a-link-to-the-past': {
+    title: 'The Legend of Zelda: A Link to the Past',
+    subtitle: 'Mundo da Luz & Mundo das Trevas',
+    studio: 'Nintendo',
+    releaseYear: 1991,
+    genres: ['Aventura', 'Action RPG', 'Mundo Aberto'],
+    platforms: ['switch'],
+    theme: {
+      accentPrimary: '#22C55E',
+      accentSecondary: '#EAB308',
+      accentGlow: 'rgba(34, 197, 94, 0.36)',
+      glassTint: 'rgba(10, 20, 14, 0.80)',
+      surfaceBase: '#060E09',
+      fontDisplay: "'Cinzel', Georgia, serif",
+      backgroundPattern: 'topographic-rings',
+      badgeStyle: 'ornate',
+    },
+    defaultMaps: [{ id: 'world', name: 'Light & Dark World', dlc: 'base', icon: 'layers' }],
+  },
+  'zelda-2-adventure-of-link': {
+    title: 'Zelda II: The Adventure of Link',
+    subtitle: 'Terras do Norte & Grande Palácio',
+    studio: 'Nintendo',
+    releaseYear: 1987,
+    genres: ['Aventura', 'Action RPG', 'Mundo Aberto'],
+    platforms: ['switch'],
+    theme: {
+      accentPrimary: '#F59E0B',
+      accentSecondary: '#EF4444',
+      accentGlow: 'rgba(245, 158, 11, 0.36)',
+      glassTint: 'rgba(22, 14, 10, 0.80)',
+      surfaceBase: '#100906',
+      fontDisplay: "'Cinzel', Georgia, serif",
+      backgroundPattern: 'topographic-rings',
+      badgeStyle: 'ornate',
+    },
+    defaultMaps: [{ id: 'hyrule', name: 'Hyrule', dlc: 'base', icon: 'compass' }],
+  },
+  'the-legend-of-zelda': {
+    title: 'The Legend of Zelda',
+    subtitle: 'Hyrule Clássica — First & Second Quest',
+    studio: 'Nintendo',
+    releaseYear: 1986,
+    genres: ['Aventura', 'Action RPG', 'Mundo Aberto'],
+    platforms: ['switch'],
+    theme: {
+      accentPrimary: '#EAB308',
+      accentSecondary: '#22C55E',
+      accentGlow: 'rgba(234, 179, 8, 0.36)',
+      glassTint: 'rgba(20, 17, 10, 0.80)',
+      surfaceBase: '#0E0C06',
+      fontDisplay: "'Cinzel', Georgia, serif",
+      backgroundPattern: 'topographic-rings',
+      badgeStyle: 'ornate',
+    },
+    defaultMaps: [
+      { id: 'first-quest', name: 'First Quest', dlc: 'base', icon: 'compass' },
+      { id: 'second-quest', name: 'Second Quest', dlc: 'base', icon: 'flame' },
+    ],
+  },
+};

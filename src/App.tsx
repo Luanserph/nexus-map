@@ -1,7 +1,12 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { lazy, Suspense, useCallback, useEffect, useMemo, useState } from 'react';
 import { HubShell } from './components/hub';
-import { MapWorkspace } from './components/map-ui';
 import { I18nProvider } from './core/i18n';
+
+const MapWorkspace = lazy(() =>
+  import('./components/map-ui/MapWorkspace').then((mod) => ({
+    default: mod.MapWorkspace,
+  }))
+);
 import { useHashRoute } from './core/router/useHashRoute';
 import {
   getLastVisitedGame,
@@ -50,18 +55,26 @@ export function App() {
     <I18nProvider>
       <ThemeProvider activeGame={activeGameEntry?.manifest ?? null}>
         {activeGameEntry ? (
-          <MapWorkspace
-            key={activeGameEntry.manifest.slug}
-            entry={activeGameEntry}
-            activeLayerId={route.view === 'map' ? route.layerId : undefined}
-            onSelectLayer={(layerId) =>
-              handleOpenGame(activeGameEntry.manifest.slug, layerId)
+          <Suspense
+            fallback={
+              <div className="flex min-h-svh items-center justify-center bg-[var(--surface-base)] font-mono text-xs text-[var(--text-secondary)]">
+                Carregando motor de mapa...
+              </div>
             }
-            onBackToHub={() => {
-              setLastVisited(getLastVisitedGame());
-              navigateToHub();
-            }}
-          />
+          >
+            <MapWorkspace
+              key={activeGameEntry.manifest.slug}
+              entry={activeGameEntry}
+              activeLayerId={route.view === 'map' ? route.layerId : undefined}
+              onSelectLayer={(layerId) =>
+                handleOpenGame(activeGameEntry.manifest.slug, layerId)
+              }
+              onBackToHub={() => {
+                setLastVisited(getLastVisitedGame());
+                navigateToHub();
+              }}
+            />
+          </Suspense>
         ) : (
           <HubShell
             games={hubGames}

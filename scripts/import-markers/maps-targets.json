@@ -47,5 +47,89 @@
     "name": "Hallownest",
     "dlc": "base",
     "url": "https://mapgenie.io/hollow-knight/maps/hallownest"
+  },
+  {
+    "gameSlug": "zelda-ocarina-of-time",
+    "mapSlug": "child-past",
+    "name": "Passado (Criança)",
+    "dlc": "base",
+    "url": "https://mapgenie.io/the-legend-of-zelda-ocarina-of-time/maps/child-past"
+  },
+  {
+    "gameSlug": "zelda-ocarina-of-time",
+    "mapSlug": "adult-future",
+    "name": "Futuro (Adulto)",
+    "dlc": "base",
+    "url": "https://mapgenie.io/the-legend-of-zelda-ocarina-of-time/maps/adult-future"
+  },
+  {
+    "gameSlug": "zelda-echoes-of-wisdom",
+    "mapSlug": "hyrule",
+    "name": "Hyrule",
+    "dlc": "base",
+    "url": "https://mapgenie.io/zelda-echoes-of-wisdom/maps/hyrule"
+  },
+  {
+    "gameSlug": "zelda-tears-of-the-kingdom",
+    "mapSlug": "hyrule",
+    "name": "Hyrule",
+    "dlc": "base",
+    "url": "https://mapgenie.io/zelda-tears-of-the-kingdom/maps/hyrule"
+  },
+  {
+    "gameSlug": "zelda-breath-of-the-wild",
+    "mapSlug": "hyrule",
+    "name": "Hyrule",
+    "dlc": "base",
+    "url": "https://mapgenie.io/zelda-breath-of-the-wild/maps/hyrule"
+  },
+  {
+    "gameSlug": "zelda-a-link-between-worlds",
+    "mapSlug": "hyrule-lorule",
+    "name": "Hyrule & Lorule",
+    "dlc": "base",
+    "url": "https://mapgenie.io/zelda-a-link-between-worlds/maps/hyrule-lorule"
+  },
+  {
+    "gameSlug": "zelda-wind-waker",
+    "mapSlug": "great-sea",
+    "name": "Grande Mar",
+    "dlc": "base",
+    "url": "https://mapgenie.io/zelda-wind-waker/maps/great-sea"
+  },
+  {
+    "gameSlug": "zelda-links-awakening",
+    "mapSlug": "koholint-island",
+    "name": "Ilha Koholint",
+    "dlc": "base",
+    "url": "https://mapgenie.io/zelda-links-awakening/maps/koholint-island"
+  },
+  {
+    "gameSlug": "zelda-a-link-to-the-past",
+    "mapSlug": "world",
+    "name": "Light & Dark World",
+    "dlc": "base",
+    "url": "https://mapgenie.io/zelda-a-link-to-the-past/maps/world"
+  },
+  {
+    "gameSlug": "zelda-2-adventure-of-link",
+    "mapSlug": "hyrule",
+    "name": "Hyrule",
+    "dlc": "base",
+    "url": "https://mapgenie.io/zelda-2-the-adventure-of-link/maps/hyrule"
+  },
+  {
+    "gameSlug": "the-legend-of-zelda",
+    "mapSlug": "first-quest",
+    "name": "First Quest",
+    "dlc": "base",
+    "url": "https://mapgenie.io/the-legend-of-zelda/maps/hyrule-first-quest"
+  },
+  {
+    "gameSlug": "the-legend-of-zelda",
+    "mapSlug": "second-quest",
+    "name": "Second Quest",
+    "dlc": "base",
+    "url": "https://mapgenie.io/the-legend-of-zelda/maps/hyrule-second-quest"
   }
 ]

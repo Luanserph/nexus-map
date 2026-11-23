@@ -19,6 +19,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { parseArgs } from 'node:util';
 import { decodeHtmlEntities } from '../../src/core/utils/text';
+import { GAME_PRESETS } from './game-presets';
 import type {
   Category,
   CategoryGroup,
@@ -101,7 +102,10 @@ const NEON_PALETTE = [
 ];
 
 const ULTRA_DENSE_PATTERN =
-  /\b(bus\s*stop|atm|electric\s*charger|street\s*food|bar|cafe|takeout|under\s*the\s*bridge|fast\s*food|vending)\b/i;
+  /\b(bus\s*stop|atm|electric\s*charger|street\s*food|bar|cafe|takeout|under\s*the\s*bridge|fast\s*food|vending|korok|material|creature|ore\s*deposit|weapon|arrow|enemy\s*camp|monster\s*camp|poe|rupee|treasure\s*chest|chest|mushroom|herb|flower|fish|insect|shield|bow|zonai|bubbulfrog|addison|crafting|smithing|golden\s*rune|consumable)\b/i;
+
+const PRIORITY_VISIBLE_PATTERN =
+  /\b(shrine|skyview\s*tower|sheikah\s*tower|tower|lightroot|dungeon|temple|settlement|town|village|stable|great\s*fairy|heart\s*piece|piece\s*of\s*heart|heart\s*container|gold\s*skulltula|skulltula|boss|maiamai|secret\s*seashell|seashell|goddess\s*statue|dragon\s*tear|geoglyph|rift|site\s*of\s*grace|fast\s*travel)\b/i;
 
 function tileXToLng(x: number, z: number): number {
   return (x / 2 ** z) * 360 - 180;
@@ -110,6 +114,23 @@ function tileXToLng(x: number, z: number): number {
 function tileYToLat(y: number, z: number): number {
   const n = Math.PI - (2 * Math.PI * y) / 2 ** z;
   return (180 / Math.PI) * Math.atan(0.5 * (Math.exp(n) - Math.exp(-n)));
+}
+
+function extractRangePair(
+  raw: unknown
+): [number, number] | null {
+  if (Array.isArray(raw) && raw.length >= 2) {
+    const a = Number(raw[0]);
+    const b = Number(raw[1]);
+    return Number.isFinite(a) && Number.isFinite(b) ? [a, b] : null;
+  }
+  if (raw && typeof raw === 'object') {
+    const obj = raw as Record<string, unknown>;
+    const a = Number(obj.min ?? obj[0] ?? obj.start);
+    const b = Number(obj.max ?? obj[1] ?? obj.end);
+    return Number.isFinite(a) && Number.isFinite(b) ? [a, b] : null;
+  }
+  return null;
 }
 
 function computeTileBoundsFromGrid(
@@ -125,9 +146,11 @@ function computeTileBoundsFromGrid(
   for (const z of zoomKeys) {
     const entry = bounds[String(z)];
     if (!entry?.x || !entry?.y) continue;
-    const [minX, maxX] = entry.x;
-    const [minY, maxY] = entry.y;
-    if (![minX, maxX, minY, maxY].every(Number.isFinite)) continue;
+    const xPair = extractRangePair(entry.x);
+    const yPair = extractRangePair(entry.y);
+    if (!xPair || !yPair) continue;
+    const [minX, maxX] = xPair;
+    const [minY, maxY] = yPair;
 
     const west = Number(tileXToLng(minX, z).toFixed(5));
     const east = Number(tileXToLng(maxX + 1, z).toFixed(5));
@@ -306,17 +329,24 @@ Opções:
   let tilesCdnUrl = '';
   let bundleMetaName: string | undefined;
   let bundleMetaDlc: string | undefined;
+  let bundleCoverUrl: string | undefined;
 
   if (hasBundle) {
     console.log(`[import-map] Lendo Bundle unificado: ${bundlePath}`);
     const bundle = JSON.parse(await fs.readFile(bundlePath, 'utf8')) as {
-      meta?: { name?: string; dlc?: string };
+      meta?: { name?: string; dlc?: string; coverUrl?: string };
+      game?: Record<string, unknown> | null;
       tilesCdnUrl?: string | null;
       mapData?: Record<string, unknown> | null;
       data?: Record<string, unknown> | null;
     };
     bundleMetaName = bundle.meta?.name;
     bundleMetaDlc = bundle.meta?.dlc;
+    bundleCoverUrl =
+      bundle.meta?.coverUrl ||
+      (typeof bundle.game?.image === 'string' ? bundle.game.image : undefined) ||
+      (typeof bundle.game?.cover_image === 'string' ? bundle.game.cover_image : undefined) ||
+      (typeof bundle.game?.banner_image === 'string' ? bundle.game.banner_image : undefined);
     tilesCdnUrl =
       typeof bundle.tilesCdnUrl === 'string'
         ? bundle.tilesCdnUrl.trim().replace(/\/+$/, '')
@@ -630,18 +660,34 @@ Opções:
   let manifest: GameManifest;
   if (await fileExists(manifestPath)) {
     manifest = JSON.parse(await fs.readFile(manifestPath, 'utf8')) as GameManifest;
+    // Never overwrite official covers with MapGenie map tile preview screenshots
+    const isMapPreview = (u?: string) => Boolean(u && /mapgenie\.io\/.*preview/i.test(u));
+    if (bundleCoverUrl && !isMapPreview(bundleCoverUrl) && !manifest.assets.coverImage) {
+      manifest.assets.coverImage = bundleCoverUrl;
+    }
+    if (bundleCoverUrl && !isMapPreview(bundleCoverUrl) && !manifest.assets.bannerImage) {
+      manifest.assets.bannerImage = bundleCoverUrl;
+    }
   } else {
+    const preset = GAME_PRESETS[gameSlug];
+    const safeCover =
+      bundleCoverUrl && !/mapgenie\.io\/.*preview/i.test(bundleCoverUrl)
+        ? bundleCoverUrl
+        : undefined;
     manifest = {
       id: `game-${gameSlug}`,
       slug: gameSlug,
-      title: values.name ?? gameSlug,
-      subtitle: 'Mapa Interativo',
-      studio: 'Desconhecido',
-      releaseYear: new Date().getFullYear(),
-      genres: ['Mundo Aberto'],
+      title: preset?.title ?? values.name ?? gameSlug,
+      subtitle: preset?.subtitle ?? 'Mapa Interativo',
+      studio: preset?.studio ?? 'Desconhecido',
+      releaseYear: preset?.releaseYear ?? new Date().getFullYear(),
+      genres: preset?.genres ?? ['Aventura', 'Mundo Aberto'],
+      platforms: preset?.platforms,
       status: 'available',
-      assets: {},
-      theme: {
+      assets: safeCover
+        ? { coverImage: safeCover, bannerImage: safeCover }
+        : {},
+      theme: preset?.theme ?? {
         accentPrimary: '#00F0FF',
         accentSecondary: '#FF2A85',
         accentGlow: 'rgba(0, 240, 255, 0.34)',
@@ -686,6 +732,7 @@ Opções:
   } else {
     manifest.maps.push(updatedMapLayer);
   }
+  manifest.totalPins = mergedMarkers.length;
 
   // Merge new category groups into manifest.categoryGroups without wiping categories used by other maps
   const groupMap = new Map<string, CategoryGroup>();
@@ -705,7 +752,9 @@ Opções:
 
     const exists = group.categories.some((c) => c.id === meta.id);
     if (!exists) {
-      const isUltraDense = count > 150 || ULTRA_DENSE_PATTERN.test(meta.name);
+      const isPriority = PRIORITY_VISIBLE_PATTERN.test(meta.name);
+      const isUltraDense =
+        !isPriority && (count > 120 || ULTRA_DENSE_PATTERN.test(meta.name));
       const newCat: Category = {
         id: meta.id,
         groupId: meta.groupId,

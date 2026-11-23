@@ -1,0 +1,233 @@
+{
+  "id": "game-zelda-2-adventure-of-link",
+  "slug": "zelda-2-adventure-of-link",
+  "title": "Zelda II: The Adventure of Link",
+  "subtitle": "Terras do Norte & Grande Palácio",
+  "studio": "Nintendo",
+  "releaseYear": 1987,
+  "genres": [
+    "Aventura",
+    "Action RPG",
+    "Mundo Aberto"
+  ],
+  "platforms": [
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/zelda-2-adventure-of-link/cover.webp",
+    "bannerImage": "/games/zelda-2-adventure-of-link/banner.webp",
+    "logoImage": "/games/zelda-2-adventure-of-link/logo.webp"
+  },
+  "theme": {
+    "accentPrimary": "#F59E0B",
+    "accentSecondary": "#EF4444",
+    "accentGlow": "rgba(245, 158, 11, 0.36)",
+    "glassTint": "rgba(22, 14, 10, 0.80)",
+    "surfaceBase": "#100906",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "hyrule",
+      "name": "Hyrule",
+      "dlc": "base",
+      "pinsCount": 258,
+      "icon": "compass",
+      "crs": "epsg3857",
+      "backgroundColor": "#100906",
+      "initialCenter": [
+        0.71135673648975,
+        -0.79489232451022
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          0.2857,
+          -1.2953
+        ],
+        [
+          0.95428,
+          -0.19831
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/zelda-2-the-adventure-of-link/hyrule/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 16,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              0.2857,
+              -1.2953
+            ],
+            [
+              0.95428,
+              -0.19831
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "cave",
+          "groupId": "locations",
+          "name": "Cave",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "fixed-encounter",
+          "groupId": "locations",
+          "name": "Fixed Encounter",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "palace",
+          "groupId": "locations",
+          "name": "Palace",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "town",
+          "groupId": "locations",
+          "name": "Town",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "heart-container",
+          "groupId": "collectibles",
+          "name": "Heart Container",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "item",
+          "groupId": "collectibles",
+          "name": "Item",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "key",
+          "groupId": "collectibles",
+          "name": "Key",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "key-item",
+          "groupId": "collectibles",
+          "name": "Key Item",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "link-doll",
+          "groupId": "collectibles",
+          "name": "Link Doll",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "magic-container",
+          "groupId": "collectibles",
+          "name": "Magic Container",
+          "icon": "sparkles",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "spell",
+          "groupId": "collectibles",
+          "name": "Spell",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "sword-technique",
+          "groupId": "collectibles",
+          "name": "Sword Technique",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "enemies",
+      "label": "Enemies",
+      "categories": [
+        {
+          "id": "boss",
+          "groupId": "enemies",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "fairy",
+          "groupId": "other",
+          "name": "Fairy",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "npc",
+          "groupId": "other",
+          "name": "NPC",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "treasure-bag",
+          "groupId": "other",
+          "name": "Treasure Bag",
+          "icon": "gem",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 258
+}

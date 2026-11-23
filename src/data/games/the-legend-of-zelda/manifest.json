@@ -1,0 +1,253 @@
+{
+  "id": "game-the-legend-of-zelda",
+  "slug": "the-legend-of-zelda",
+  "title": "The Legend of Zelda",
+  "subtitle": "Hyrule Clássica — First & Second Quest",
+  "studio": "Nintendo",
+  "releaseYear": 1986,
+  "genres": [
+    "Aventura",
+    "Action RPG",
+    "Mundo Aberto"
+  ],
+  "platforms": [
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/the-legend-of-zelda/cover.webp",
+    "bannerImage": "/games/the-legend-of-zelda/banner.webp",
+    "logoImage": "/games/the-legend-of-zelda/logo.webp"
+  },
+  "theme": {
+    "accentPrimary": "#EAB308",
+    "accentSecondary": "#22C55E",
+    "accentGlow": "rgba(234, 179, 8, 0.36)",
+    "glassTint": "rgba(20, 17, 10, 0.80)",
+    "surfaceBase": "#0E0C06",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "first-quest",
+      "name": "First Quest",
+      "dlc": "base",
+      "pinsCount": 259,
+      "icon": "compass",
+      "crs": "epsg3857",
+      "backgroundColor": "#0E0C06",
+      "initialCenter": [
+        0.67495669970529,
+        -0.807714084216
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.41222,
+          -1.08176
+        ],
+        [
+          0.95067,
+          -0.31618
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/the-legend-of-zelda/hyrule-first-quest/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0.41222,
+              -1.08176
+            ],
+            [
+              0.95067,
+              -0.31618
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "second-quest",
+      "name": "Second Quest",
+      "dlc": "base",
+      "pinsCount": 286,
+      "icon": "flame",
+      "crs": "epsg3857",
+      "backgroundColor": "#0E0C06",
+      "initialCenter": [
+        0.6967744067051,
+        -0.82240470703638
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.45189,
+          -1.08249
+        ],
+        [
+          0.95195,
+          -0.31614
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/the-legend-of-zelda/hyrule-second-quest/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0.45189,
+              -1.08249
+            ],
+            [
+              0.95195,
+              -0.31614
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "cave",
+          "groupId": "locations",
+          "name": "Cave",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "dungeon",
+          "groupId": "locations",
+          "name": "Dungeon",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "shop",
+          "groupId": "locations",
+          "name": "Shop",
+          "icon": "shopping-bag",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "underground-transition",
+          "groupId": "locations",
+          "name": "Underground Transition",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "compass",
+          "groupId": "collectibles",
+          "name": "Compass",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "equipment",
+          "groupId": "collectibles",
+          "name": "Equipment",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "heart-container",
+          "groupId": "collectibles",
+          "name": "Heart Container",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "key",
+          "groupId": "collectibles",
+          "name": "Key",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "key-item",
+          "groupId": "collectibles",
+          "name": "Key Item",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "map",
+          "groupId": "collectibles",
+          "name": "Map",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "triforce-fragment",
+          "groupId": "collectibles",
+          "name": "Triforce Fragment",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "enemies",
+      "label": "Enemies",
+      "categories": [
+        {
+          "id": "boss",
+          "groupId": "enemies",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "npc",
+          "groupId": "other",
+          "name": "NPC",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 545
+}

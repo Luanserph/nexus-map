@@ -354,6 +354,14 @@
           "icon": "map-pin",
           "color": "#4ADE80",
           "defaultVisible": true
+        },
+        {
+          "id": "gig",
+          "groupId": "jobs-activities",
+          "name": "Gig",
+          "icon": "scroll-text",
+          "color": "#2DD4BF",
+          "defaultVisible": true
         }
       ]
     },
@@ -464,6 +472,22 @@
           "icon": "map-pin",
           "color": "#FBBF24",
           "defaultVisible": true
+        },
+        {
+          "id": "fixer",
+          "groupId": "services",
+          "name": "Fixer",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "ripperdoc",
+          "groupId": "services",
+          "name": "Ripperdoc",
+          "icon": "shopping-bag",
+          "color": "#38BDF8",
+          "defaultVisible": true
         }
       ]
     },
@@ -558,6 +582,14 @@
           "icon": "map-pin",
           "color": "#FBBF24",
           "defaultVisible": false
+        },
+        {
+          "id": "cyberpsycho",
+          "groupId": "shards",
+          "name": "Cyberpsycho",
+          "icon": "skull",
+          "color": "#A78BFA",
+          "defaultVisible": true
         }
       ]
     },
@@ -606,5 +638,6 @@
         "cyberpsycho"
       ]
     }
-  ]
+  ],
+  "totalPins": 2754
 }
