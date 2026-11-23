@@ -1,7 +1,9 @@
-import { ArrowUpDown, Clock, Compass, Globe, Layers, MapPin, RotateCcw } from 'lucide-react';
-import { useMemo, useState } from 'react';
+import { ArrowUpDown, Clock, Compass, Download, Globe, Layers, MapPin, RotateCcw, Upload } from 'lucide-react';
+import { useMemo, useRef, useState } from 'react';
+import type { ChangeEvent } from 'react';
 import { getGenreLabel, normalizeGenreKey, useI18n } from '../../core/i18n';
 import { usePwaInstall } from '../../core/hooks/usePwaInstall';
+import { downloadBackupFile, importBackupJson } from '../../core/storage';
 import type { LastVisitedRecord } from '../../core/storage';
 import { getGameStatus, getTotalPinsCount } from '../../data/games';
 import type { ExplorationStatus, HubGameEntry } from '../../types/schema';
@@ -34,7 +36,36 @@ export function HubShell({ games, lastVisited, onOpenGame }: HubShellProps) {
   const [sortBy, setSortBy] = useState<CatalogSortMode>('default');
   const [hoveredAccent, setHoveredAccent] = useState<string | null>(null);
   const [isInstallModalOpen, setIsInstallModalOpen] = useState(false);
+  const [backupNotice, setBackupNotice] = useState<string | null>(null);
+  const backupInputRef = useRef<HTMLInputElement>(null);
   const pwa = usePwaInstall();
+
+  function showBackupNotice(msg: string) {
+    setBackupNotice(msg);
+    window.setTimeout(() => setBackupNotice(null), 3200);
+  }
+
+  async function handleExportHubBackup() {
+    try {
+      await downloadBackupFile();
+      showBackupNotice('Backup (.json) exportado.');
+    } catch {
+      showBackupNotice('Erro ao exportar backup.');
+    }
+  }
+
+  async function handleImportHubBackup(event: ChangeEvent<HTMLInputElement>) {
+    const file = event.target.files?.[0];
+    event.target.value = '';
+    if (!file) return;
+    try {
+      const text = await file.text();
+      await importBackupJson(text, 'merge');
+      showBackupNotice('Backup importado com sucesso!');
+    } catch {
+      showBackupNotice('Arquivo de backup inválido.');
+    }
+  }
 
   async function handleInstallClick() {
     const result = await pwa.triggerInstall();
@@ -457,12 +488,41 @@ export function HubShell({ games, lastVisited, onOpenGame }: HubShellProps) {
           )}
         </main>
 
-        {/* Minimal Footer */}
-        <footer className="mt-14 flex flex-col items-center justify-between gap-2 border-t border-white/[0.07] pt-5 text-xs text-[var(--text-muted)] sm:flex-row">
+        {/* Minimal Footer + Discreet Cross-Device Backup Controls */}
+        <footer className="mt-14 flex flex-col items-center justify-between gap-3 border-t border-white/[0.07] pt-5 text-xs text-[var(--text-muted)] sm:flex-row">
           <span className="font-mono">
             NEXUS MAPS // TACTICAL NEON GLASSMORPHISM
           </span>
-          <span>{t('hub.footerRight')}</span>
+          <div className="flex flex-wrap items-center justify-center gap-2">
+            {backupNotice && (
+              <span className="font-mono text-[11px] text-[var(--accent-primary)]">
+                {backupNotice}
+              </span>
+            )}
+            <NeonButton
+              size="sm"
+              variant="ghost"
+              onClick={() => void handleExportHubBackup()}
+              leftIcon={<Download className="h-3.5 w-3.5" />}
+            >
+              {t('map.export')}
+            </NeonButton>
+            <NeonButton
+              size="sm"
+              variant="ghost"
+              onClick={() => backupInputRef.current?.click()}
+              leftIcon={<Upload className="h-3.5 w-3.5" />}
+            >
+              {t('map.import')}
+            </NeonButton>
+            <input
+              ref={backupInputRef}
+              type="file"
+              accept="application/json,.json"
+              onChange={(e) => void handleImportHubBackup(e)}
+              className="hidden"
+            />
+          </div>
         </footer>
       </div>
 

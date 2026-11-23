@@ -6,6 +6,7 @@ pub fn run() {
     let toggle_shortcut = Shortcut::new(Some(Modifiers::ALT), Code::KeyM);
 
     tauri::Builder::default()
+        .plugin(tauri_plugin_fs::init())
         .plugin(
             tauri_plugin_global_shortcut::Builder::new()
                 .with_handler(move |app, shortcut, event| {
