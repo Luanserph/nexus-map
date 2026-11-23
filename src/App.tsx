@@ -10,6 +10,7 @@ const MapWorkspace = lazy(() =>
 import { useHashRoute } from './core/router/useHashRoute';
 import {
   getLastVisitedGame,
+  initProgressStorageSync,
   saveLastVisitedGame,
   useAllGamesProgress,
 } from './core/storage';
@@ -42,6 +43,11 @@ export function App() {
     },
     [navigateToGame]
   );
+
+  // Hydrate & sync progress natively in Tauri (AppData/progress.json) or localStorage mirror on Web
+  useEffect(() => {
+    return initProgressStorageSync();
+  }, []);
 
   // Persist direct hash visits (e.g. bookmark / refresh on #/map/elden-ring)
   useEffect(() => {
