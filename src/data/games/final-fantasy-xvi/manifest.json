@@ -1,0 +1,327 @@
+{
+  "id": "game-final-fantasy-xvi",
+  "slug": "final-fantasy-xvi",
+  "title": "Final Fantasy XVI",
+  "subtitle": "Reinos de Valisthea — Rosaria, Sanbreque, Dhalmekia & Waloed",
+  "studio": "Square Enix",
+  "releaseYear": 2023,
+  "genres": [
+    "JRPG",
+    "Action RPG",
+    "Aventura"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/final-fantasy-xvi/cover.webp",
+    "bannerImage": "/games/final-fantasy-xvi/banner.webp",
+    "logoImage": "/games/final-fantasy-xvi/logo.webp"
+  },
+  "theme": {
+    "accentPrimary": "#F97316",
+    "accentSecondary": "#EAB308",
+    "accentGlow": "rgba(249, 115, 22, 0.38)",
+    "glassTint": "rgba(22, 12, 10, 0.82)",
+    "surfaceBase": "#0F0806",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "valisthea",
+      "name": "Valisthea",
+      "dlc": "base",
+      "pinsCount": 943,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0F0806",
+      "initialCenter": [
+        0.72353558854285,
+        -0.73949525394422
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          -0.07714,
+          -1.08996
+        ],
+        [
+          1.04144,
+          0.08074
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/final-fantasy-xvi/valisthea/default-v5/{z}/{x}/{y}.jpg",
+          "minZoom": 10,
+          "maxNativeZoom": 16,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "area",
+          "groupId": "locations",
+          "name": "Area",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "arete-stone",
+          "groupId": "locations",
+          "name": "Arete Stone",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "obelisk",
+          "groupId": "locations",
+          "name": "Obelisk",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "orchestrion",
+          "groupId": "locations",
+          "name": "Orchestrion",
+          "icon": "gem",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "point-of-interest",
+          "groupId": "locations",
+          "name": "Point of Interest",
+          "icon": "landmark",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "reading-table",
+          "groupId": "locations",
+          "name": "Reading Table",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "wall-of-memories",
+          "groupId": "locations",
+          "name": "Wall of Memories",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "shops-services",
+      "label": "Shops & Services",
+      "categories": [
+        {
+          "id": "alliant-reports",
+          "groupId": "shops-services",
+          "name": "Alliant Reports",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "forge",
+          "groupId": "shops-services",
+          "name": "Forge",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "hunt-board",
+          "groupId": "shops-services",
+          "name": "Hunt Board",
+          "icon": "skull",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "patron-s-whisper",
+          "groupId": "shops-services",
+          "name": "Patron's Whisper",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "shop",
+          "groupId": "shops-services",
+          "name": "Shop",
+          "icon": "shopping-bag",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "state-of-the-realm",
+          "groupId": "shops-services",
+          "name": "State of the Realm",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "thousand-tomes",
+          "groupId": "shops-services",
+          "name": "Thousand Tomes",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "memory-item",
+          "groupId": "collectibles",
+          "name": "Memory Item",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "orchestrion-roll",
+          "groupId": "collectibles",
+          "name": "Orchestrion Roll",
+          "icon": "gem",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "patron-donation",
+          "groupId": "collectibles",
+          "name": "Patron Donation",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "loot",
+      "label": "Loot",
+      "categories": [
+        {
+          "id": "chest",
+          "groupId": "loot",
+          "name": "Chest",
+          "icon": "gem",
+          "color": "#FB7185",
+          "defaultVisible": false
+        },
+        {
+          "id": "glimmer-pick-up",
+          "groupId": "loot",
+          "name": "Glimmer Pick-Up",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "key-item",
+          "groupId": "loot",
+          "name": "Key Item",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "chronolith",
+          "groupId": "quests",
+          "name": "Chronolith",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "notorious-mark",
+          "groupId": "quests",
+          "name": "Notorious Mark",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "renown-quest",
+          "groupId": "quests",
+          "name": "Renown Quest",
+          "icon": "scroll-text",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "side-quest",
+          "groupId": "quests",
+          "name": "Side Quest",
+          "icon": "scroll-text",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "lore",
+          "groupId": "other",
+          "name": "Lore",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "npc",
+          "groupId": "other",
+          "name": "NPC",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 943
+}

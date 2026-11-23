@@ -7,13 +7,13 @@
 
 [![Acessar Web App](https://img.shields.io/badge/🌐_Acessar_Web_App-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://nexus-map-zeta.vercel.app)
 [![Download Windows](https://img.shields.io/badge/⬇️_Download_Windows-Tauri_v2_(.exe)-06B6D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Luanserph/nexus-map/releases/latest)
-[![Versão](https://img.shields.io/badge/Release-v2.0.0-8B5CF6?style=for-the-badge)](https://github.com/Luanserph/nexus-map/releases/tag/v2.0.0)
+[![Versão](https://img.shields.io/badge/Release-v2.1.0-8B5CF6?style=for-the-badge)](https://github.com/Luanserph/nexus-map/releases/tag/v2.1.0)
 [![Licença](https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge)](LICENSE)
 
 <br />
 
 **Central de cartografia interativa de alta performance para jogos de mundo aberto.**  
-15 jogos • ~49.000 marcadores • Web (PWA) & App Desktop Nativo para Windows (~12 MB)
+18 jogos • ~53.000 marcadores • Web (PWA) & App Desktop Nativo para Windows (~12 MB)
 
 </div>
 
@@ -28,7 +28,7 @@ O **Nexus Maps** foi criado para oferecer um único lugar rápido, limpo e sem d
 
 ---
 
-## 🎮 Vitrine do Catálogo (15 Jogos • 48.966 Pins)
+## 🎮 Vitrine do Catálogo (18 Jogos • ~53.000 Pins)
 
 <table>
   <tr>
@@ -96,6 +96,22 @@ O **Nexus Maps** foi criado para oferecer um único lugar rápido, limpo e sem d
       <img src="public/games/zelda-2-adventure-of-link/cover.webp" width="160" alt="Zelda II" /><br />
       <b>Zelda II</b><br /><sub>Hyrule • 258 pins</sub>
     </td>
+  </tr>
+  <tr>
+    <td align="center" width="20%">
+      <img src="public/games/final-fantasy-resonance/cover.webp" width="160" alt="Final Fantasy Resonance" /><br />
+      <b>Final Fantasy Resonance</b><br /><sub>Lapis • 1.317 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/final-fantasy-vii-rebirth/cover.webp" width="160" alt="Final Fantasy VII Rebirth" /><br />
+      <b>Final Fantasy VII Rebirth</b><br /><sub>1.949 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/final-fantasy-xvi/cover.webp" width="160" alt="Final Fantasy XVI" /><br />
+      <b>Final Fantasy XVI</b><br /><sub>Valisthea • 943 pins</sub>
+    </td>
+    <td align="center" width="20%"></td>
+    <td align="center" width="20%"></td>
   </tr>
 </table>
 

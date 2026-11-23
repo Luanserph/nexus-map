@@ -1,0 +1,532 @@
+{
+  "id": "game-final-fantasy-vii-rebirth",
+  "slug": "final-fantasy-vii-rebirth",
+  "title": "Final Fantasy VII Rebirth",
+  "subtitle": "Gaia — Grasslands, Junon, Corel, Gongaga, Cosmo Canyon & Nibel",
+  "studio": "Square Enix",
+  "releaseYear": 2024,
+  "genres": [
+    "JRPG",
+    "Action RPG",
+    "Aventura"
+  ],
+  "platforms": [
+    "pc",
+    "playstation"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/final-fantasy-vii-rebirth/cover.webp",
+    "bannerImage": "/games/final-fantasy-vii-rebirth/banner.webp",
+    "logoImage": "/games/final-fantasy-vii-rebirth/logo.webp"
+  },
+  "theme": {
+    "accentPrimary": "#00E5B8",
+    "accentSecondary": "#38BDF8",
+    "accentGlow": "rgba(0, 229, 184, 0.38)",
+    "glassTint": "rgba(8, 20, 20, 0.80)",
+    "surfaceBase": "#060E0E",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "chamfered"
+  },
+  "maps": [
+    {
+      "id": "midgar",
+      "name": "Gaia (Regiões de Rebirth)",
+      "dlc": "base",
+      "pinsCount": 1949,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060E0E",
+      "initialCenter": [
+        0.76296487453904,
+        -0.85076992988775
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          0.37444,
+          -1.08848
+        ],
+        [
+          1.1983,
+          -0.26152
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v3",
+          "label": "V3",
+          "urlTemplate": "https://tiles.mapgenie.io/games/final-fantasy-vii-rebirth/midgar/default-v4/{z}/{y}/{x}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 17,
+          "maxZoom": 18,
+          "tileBounds": [
+            [
+              0.37444,
+              -1.08848
+            ],
+            [
+              1.1983,
+              -0.26152
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "chadley",
+          "groupId": "locations",
+          "name": "Chadley",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "chocobo-stop",
+          "groupId": "locations",
+          "name": "Chocobo Stop",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "local-map",
+          "groupId": "locations",
+          "name": "Local Map",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "noticeboard",
+          "groupId": "locations",
+          "name": "Noticeboard",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "place-of-interest",
+          "groupId": "locations",
+          "name": "Place of Interest",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "rest-spot",
+          "groupId": "locations",
+          "name": "Rest Spot",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "snaps",
+          "groupId": "locations",
+          "name": "Snaps",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "shops",
+      "label": "Shops",
+      "categories": [
+        {
+          "id": "card-collector",
+          "groupId": "shops",
+          "name": "Card Collector",
+          "icon": "gem",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "changing-booth",
+          "groupId": "shops",
+          "name": "Changing Booth",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "chocoboutique",
+          "groupId": "shops",
+          "name": "Chocoboutique",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "clothing",
+          "groupId": "shops",
+          "name": "Clothing",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "items-vendor",
+          "groupId": "shops",
+          "name": "Items Vendor",
+          "icon": "shopping-bag",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "maghnata-automat",
+          "groupId": "shops",
+          "name": "Maghnata Automat",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "maghnata-books",
+          "groupId": "shops",
+          "name": "Maghnata Books",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "tack-shop",
+          "groupId": "shops",
+          "name": "Tack Shop",
+          "icon": "shopping-bag",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "vending-machine",
+          "groupId": "shops",
+          "name": "Vending Machine",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "weapons-vendor",
+          "groupId": "shops",
+          "name": "Weapons Vendor",
+          "icon": "shopping-bag",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "cache-location",
+          "groupId": "collectibles",
+          "name": "Cache Location",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "collector-s-item",
+          "groupId": "collectibles",
+          "name": "Collector's Item",
+          "icon": "gem",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "dorian",
+          "groupId": "collectibles",
+          "name": "Dorian",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "accessory",
+          "groupId": "items",
+          "name": "Accessory",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "armor",
+          "groupId": "items",
+          "name": "Armor",
+          "icon": "shopping-bag",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "buried-treasure",
+          "groupId": "items",
+          "name": "Buried Treasure",
+          "icon": "gem",
+          "color": "#FACC15",
+          "defaultVisible": false
+        },
+        {
+          "id": "chest",
+          "groupId": "items",
+          "name": "Chest",
+          "icon": "gem",
+          "color": "#4ADE80",
+          "defaultVisible": false
+        },
+        {
+          "id": "gil",
+          "groupId": "items",
+          "name": "Gil",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "item",
+          "groupId": "items",
+          "name": "Item",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "materia",
+          "groupId": "items",
+          "name": "Materia",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "moogle-medal",
+          "groupId": "items",
+          "name": "Moogle Medal",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "weapon",
+          "groupId": "items",
+          "name": "Weapon",
+          "icon": "shopping-bag",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "world-intel",
+      "label": "World Intel",
+      "categories": [
+        {
+          "id": "chocobo-intel",
+          "groupId": "world-intel",
+          "name": "Chocobo Intel",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "combat-assignment",
+          "groupId": "world-intel",
+          "name": "Combat Assignment",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "dig-site",
+          "groupId": "world-intel",
+          "name": "Dig Site",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "lifespring",
+          "groupId": "world-intel",
+          "name": "Lifespring",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "moogle-mischief",
+          "groupId": "world-intel",
+          "name": "Moogle Mischief",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "protorelic",
+          "groupId": "world-intel",
+          "name": "Protorelic",
+          "icon": "gem",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "remnawave-tower",
+          "groupId": "world-intel",
+          "name": "Remnawave Tower",
+          "icon": "landmark",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "secret-intel",
+          "groupId": "world-intel",
+          "name": "Secret Intel",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "summon-crystal",
+          "groupId": "world-intel",
+          "name": "Summon Crystal",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "quests-activities",
+      "label": "Quests & Activities",
+      "categories": [
+        {
+          "id": "main-scenario",
+          "groupId": "quests-activities",
+          "name": "Main Scenario",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "minigame",
+          "groupId": "quests-activities",
+          "name": "Minigame",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "odd-job",
+          "groupId": "quests-activities",
+          "name": "Odd Job",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "queen-s-blood-player",
+          "groupId": "quests-activities",
+          "name": "Queen's Blood Player",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "scenic-spot",
+          "groupId": "quests-activities",
+          "name": "Scenic Spot",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "sheet-music",
+          "groupId": "quests-activities",
+          "name": "Sheet Music",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "boss",
+          "groupId": "other",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "chocobo-traversal",
+          "groupId": "other",
+          "name": "Chocobo Traversal",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": false
+        },
+        {
+          "id": "classified-enemy",
+          "groupId": "other",
+          "name": "Classified Enemy",
+          "icon": "skull",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "elevator",
+          "groupId": "other",
+          "name": "Elevator",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "enemy",
+          "groupId": "other",
+          "name": "Enemy",
+          "icon": "skull",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "zipline",
+          "groupId": "other",
+          "name": "Zipline",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 1949
+}

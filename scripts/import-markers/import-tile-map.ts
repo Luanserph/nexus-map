@@ -105,7 +105,7 @@ const ULTRA_DENSE_PATTERN =
   /\b(bus\s*stop|atm|electric\s*charger|street\s*food|bar|cafe|takeout|under\s*the\s*bridge|fast\s*food|vending|korok|material|creature|ore\s*deposit|weapon|arrow|enemy\s*camp|monster\s*camp|poe|rupee|treasure\s*chest|chest|mushroom|herb|flower|fish|insect|shield|bow|zonai|bubbulfrog|addison|crafting|smithing|golden\s*rune|consumable)\b/i;
 
 const PRIORITY_VISIBLE_PATTERN =
-  /\b(shrine|skyview\s*tower|sheikah\s*tower|tower|lightroot|dungeon|temple|settlement|town|village|stable|great\s*fairy|heart\s*piece|piece\s*of\s*heart|heart\s*container|gold\s*skulltula|skulltula|boss|maiamai|secret\s*seashell|seashell|goddess\s*statue|dragon\s*tear|geoglyph|rift|site\s*of\s*grace|fast\s*travel)\b/i;
+  /\b(shrine|skyview\s*tower|sheikah\s*tower|remnawave\s*tower|tower|lightroot|dungeon|temple|sanctum|settlement|town|village|stable|great\s*fairy|heart\s*piece|piece\s*of\s*heart|heart\s*container|gold\s*skulltula|skulltula|boss|notorious\s*mark|hunt|esper|classified|maiamai|secret\s*seashell|seashell|goddess\s*statue|dragon\s*tear|geoglyph|rift|site\s*of\s*grace|fast\s*travel|obelisk|chronolith|chocobo\s*stop|summon\s*crystal|protorelic|lifespring|world\s*intel|save\s*point)\b/i;
 
 function tileXToLng(x: number, z: number): number {
   return (x / 2 ** z) * 360 - 180;
@@ -657,23 +657,42 @@ Opções:
 
   // 6c. Merge manifest.json (preserve other maps & existing categories)
   const manifestPath = path.join(gameDir, 'manifest.json');
+  const publicGameDir = path.resolve('public/games', gameSlug);
+  const localCover = (await fileExists(path.join(publicGameDir, 'cover.webp')))
+    ? `/games/${gameSlug}/cover.webp`
+    : undefined;
+  const localBanner = (await fileExists(path.join(publicGameDir, 'banner.webp')))
+    ? `/games/${gameSlug}/banner.webp`
+    : undefined;
+  const localLogo = (await fileExists(path.join(publicGameDir, 'logo.webp')))
+    ? `/games/${gameSlug}/logo.webp`
+    : undefined;
+
+  // Never overwrite official covers with MapGenie map tile preview screenshots
+  const isMapPreview = (u?: string) => Boolean(u && /mapgenie\.io\/.*preview/i.test(u));
+  const safeBundleCover =
+    bundleCoverUrl && !isMapPreview(bundleCoverUrl) ? bundleCoverUrl : undefined;
+
   let manifest: GameManifest;
   if (await fileExists(manifestPath)) {
     manifest = JSON.parse(await fs.readFile(manifestPath, 'utf8')) as GameManifest;
-    // Never overwrite official covers with MapGenie map tile preview screenshots
-    const isMapPreview = (u?: string) => Boolean(u && /mapgenie\.io\/.*preview/i.test(u));
-    if (bundleCoverUrl && !isMapPreview(bundleCoverUrl) && !manifest.assets.coverImage) {
-      manifest.assets.coverImage = bundleCoverUrl;
+    if (localCover && (!manifest.assets.coverImage || isMapPreview(manifest.assets.coverImage))) {
+      manifest.assets.coverImage = localCover;
+    } else if (safeBundleCover && !manifest.assets.coverImage) {
+      manifest.assets.coverImage = safeBundleCover;
     }
-    if (bundleCoverUrl && !isMapPreview(bundleCoverUrl) && !manifest.assets.bannerImage) {
-      manifest.assets.bannerImage = bundleCoverUrl;
+    if (localBanner && (!manifest.assets.bannerImage || isMapPreview(manifest.assets.bannerImage))) {
+      manifest.assets.bannerImage = localBanner;
+    } else if (safeBundleCover && !manifest.assets.bannerImage) {
+      manifest.assets.bannerImage = safeBundleCover;
+    }
+    if (localLogo && !manifest.assets.logoImage) {
+      manifest.assets.logoImage = localLogo;
     }
   } else {
     const preset = GAME_PRESETS[gameSlug];
-    const safeCover =
-      bundleCoverUrl && !/mapgenie\.io\/.*preview/i.test(bundleCoverUrl)
-        ? bundleCoverUrl
-        : undefined;
+    const resolvedCover = localCover ?? safeBundleCover;
+    const resolvedBanner = localBanner ?? safeBundleCover;
     manifest = {
       id: `game-${gameSlug}`,
       slug: gameSlug,
@@ -684,9 +703,11 @@ Opções:
       genres: preset?.genres ?? ['Aventura', 'Mundo Aberto'],
       platforms: preset?.platforms,
       status: 'available',
-      assets: safeCover
-        ? { coverImage: safeCover, bannerImage: safeCover }
-        : {},
+      assets: {
+        ...(resolvedCover ? { coverImage: resolvedCover } : {}),
+        ...(resolvedBanner ? { bannerImage: resolvedBanner } : {}),
+        ...(localLogo ? { logoImage: localLogo } : {}),
+      },
       theme: preset?.theme ?? {
         accentPrimary: '#00F0FF',
         accentSecondary: '#FF2A85',

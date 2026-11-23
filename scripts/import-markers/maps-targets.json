@@ -131,5 +131,26 @@
     "name": "Second Quest",
     "dlc": "base",
     "url": "https://mapgenie.io/the-legend-of-zelda/maps/hyrule-second-quest"
+  },
+  {
+    "gameSlug": "final-fantasy-resonance",
+    "mapSlug": "lapis",
+    "name": "Lapis",
+    "dlc": "base",
+    "url": "https://mapgenie.io/final-fantasy-resonance/maps/lapis"
+  },
+  {
+    "gameSlug": "final-fantasy-vii-rebirth",
+    "mapSlug": "midgar",
+    "name": "Gaia (Regiões de Rebirth)",
+    "dlc": "base",
+    "url": "https://mapgenie.io/final-fantasy-vii-rebirth/maps/midgar"
+  },
+  {
+    "gameSlug": "final-fantasy-xvi",
+    "mapSlug": "valisthea",
+    "name": "Valisthea",
+    "dlc": "base",
+    "url": "https://mapgenie.io/final-fantasy-xvi/maps/valisthea"
   }
 ]

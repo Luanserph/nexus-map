@@ -1,0 +1,349 @@
+{
+  "id": "game-final-fantasy-resonance",
+  "slug": "final-fantasy-resonance",
+  "title": "Final Fantasy Resonance",
+  "subtitle": "Mundo de Lapis — Cristais, Espers & Relíquias",
+  "studio": "Square Enix",
+  "releaseYear": 2026,
+  "genres": [
+    "JRPG",
+    "Action RPG",
+    "Aventura"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox",
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/final-fantasy-resonance/cover.webp",
+    "bannerImage": "/games/final-fantasy-resonance/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#38BDF8",
+    "accentSecondary": "#818CF8",
+    "accentGlow": "rgba(56, 189, 248, 0.38)",
+    "glassTint": "rgba(10, 16, 28, 0.80)",
+    "surfaceBase": "#060A14",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "abyssal-contours",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "lapis",
+      "name": "Lapis",
+      "dlc": "base",
+      "pinsCount": 1317,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060A14",
+      "initialCenter": [
+        0.75558702583912,
+        -0.68709622716699
+      ],
+      "initialZoom": 14,
+      "maxBounds": [
+        [
+          -0.07537,
+          -1.20463
+        ],
+        [
+          1.01756,
+          0.08923
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default-1",
+          "label": "default-1",
+          "urlTemplate": "https://tiles.mapgenie.io/games/final-fantasy-resonance/lapis/default-1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 16,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "save-point",
+          "groupId": "locations",
+          "name": "Save Point",
+          "icon": "landmark",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "town",
+          "groupId": "locations",
+          "name": "Town",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "dungeon",
+          "groupId": "locations",
+          "name": "Dungeon",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "sanctum",
+          "groupId": "locations",
+          "name": "Sanctum",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "item",
+          "groupId": "items",
+          "name": "Item",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "tablet-shard",
+          "groupId": "items",
+          "name": "Tablet Shard",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "gil",
+          "groupId": "items",
+          "name": "Gil",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "magicite",
+          "groupId": "items",
+          "name": "Magicite",
+          "icon": "sparkles",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "key-item",
+          "groupId": "items",
+          "name": "Key Item",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "equipment",
+      "label": "Equipment",
+      "categories": [
+        {
+          "id": "weapon",
+          "groupId": "equipment",
+          "name": "Weapon",
+          "icon": "shopping-bag",
+          "color": "#E879F9",
+          "defaultVisible": false
+        },
+        {
+          "id": "armor",
+          "groupId": "equipment",
+          "name": "Armor",
+          "icon": "shopping-bag",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "accessory",
+          "groupId": "equipment",
+          "name": "Accessory",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "vision-crystal",
+          "groupId": "equipment",
+          "name": "Vision Crystal",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "npcs",
+      "label": "NPCs",
+      "categories": [
+        {
+          "id": "rest-spot",
+          "groupId": "npcs",
+          "name": "Rest Spot",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "item-shop",
+          "groupId": "npcs",
+          "name": "Item Shop",
+          "icon": "shopping-bag",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "accessory-shop",
+          "groupId": "npcs",
+          "name": "Accessory Shop",
+          "icon": "shopping-bag",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "weapon-shop",
+          "groupId": "npcs",
+          "name": "Weapon Shop",
+          "icon": "shopping-bag",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "armor-shop",
+          "groupId": "npcs",
+          "name": "Armor Shop",
+          "icon": "shopping-bag",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "moogle-of-light",
+          "groupId": "npcs",
+          "name": "Moogle of Light",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "main-story",
+          "groupId": "quests",
+          "name": "Main Story",
+          "icon": "scroll-text",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "sub-quest",
+          "groupId": "quests",
+          "name": "Sub Quest",
+          "icon": "scroll-text",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "enemies",
+      "label": "Enemies",
+      "categories": [
+        {
+          "id": "enemy",
+          "groupId": "enemies",
+          "name": "Enemy",
+          "icon": "skull",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "cave-master",
+          "groupId": "enemies",
+          "name": "Cave Master",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "magic-pot",
+          "groupId": "enemies",
+          "name": "Magic Pot",
+          "icon": "sparkles",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "esper",
+          "groupId": "enemies",
+          "name": "Esper",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "transition",
+          "groupId": "other",
+          "name": "Transition",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": false
+        },
+        {
+          "id": "notice-board",
+          "groupId": "other",
+          "name": "Notice Board",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 1317
+}
