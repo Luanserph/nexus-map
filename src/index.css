@@ -282,7 +282,28 @@
 }
 
 .nexus-map-pin.is-found {
-  opacity: 0.35;
+  opacity: 0.42;
+  filter: saturate(0.55);
+}
+
+.nexus-pin-found-badge {
+  position: absolute;
+  right: -3px;
+  bottom: -3px;
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 12px;
+  height: 12px;
+  border-radius: 9999px;
+  background: #10b981;
+  color: #04130d;
+  font-size: 8px;
+  font-weight: 800;
+  line-height: 1;
+  border: 1px solid #07090d;
+  box-shadow: 0 0 6px rgba(16, 185, 129, 0.55);
 }
 
 .nexus-map-pin.is-found:hover {

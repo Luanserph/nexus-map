@@ -1,12 +1,15 @@
 import {
   Activity,
-  AlertTriangle,
+  AlertCircle,
   Anchor,
   ArrowLeft,
   Bookmark,
+  Box,
+  Castle,
   CheckCircle2,
   ChevronDown,
   ChevronRight,
+  CircleDot,
   Compass,
   Copy,
   Crown,
@@ -20,6 +23,7 @@ import {
   Gem,
   Grid2x2,
   Hammer,
+  Heart,
   Landmark,
   Layers,
   Leaf,
@@ -28,13 +32,13 @@ import {
   MapPin,
   Minus,
   Moon,
+  Mountain,
   Navigation,
   PanelLeftClose,
   PanelLeftOpen,
   Plus,
   Radio,
   RotateCcw,
-  Scissors,
   ScrollText,
   Search,
   Shield,
@@ -43,12 +47,17 @@ import {
   Skull,
   Spade,
   Sparkles,
-  Sprout,
+  Star,
   StickyNote,
+  Store,
   Sun,
+  Sword,
   Swords,
   Upload,
+  User,
+  Wrench,
   X,
+  Zap,
 } from 'lucide-react';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { ChangeEvent, ReactNode } from 'react';
@@ -76,6 +85,7 @@ import { generateOptimized100Route } from '../../core/routing';
 import type { OptimizedRouteResult } from '../../core/routing';
 import { useLivePlayer } from '../../core/telemetry';
 import { useGameTheme } from '../../core/theme-engine';
+import { getCategoryIconKey } from '../../core/utils/categoryIcons';
 import {
   getCachedMarkersByGameSlug,
   getCachedRegionsByGameSlug,
@@ -109,9 +119,10 @@ export interface MapWorkspaceProps {
   onBackToHub: () => void;
 }
 
-function renderCategoryIcon(iconName: string): ReactNode {
+function renderCategoryIcon(category: Pick<Category, 'id' | 'name' | 'icon'>): ReactNode {
   const props = { className: 'h-3.5 w-3.5 shrink-0' };
-  switch (iconName) {
+  const iconKey = getCategoryIconKey(category.id, category.name, category.icon);
+  switch (iconKey) {
     case 'sparkles':
       return <Sparkles {...props} />;
     case 'landmark':
@@ -120,16 +131,20 @@ function renderCategoryIcon(iconName: string): ReactNode {
       return <Skull {...props} />;
     case 'swords':
       return <Swords {...props} />;
-    case 'sprout':
-      return <Sprout {...props} />;
+    case 'sword':
+      return <Sword {...props} />;
     case 'radio':
       return <Radio {...props} />;
     case 'activity':
       return <Activity {...props} />;
-    case 'alert-triangle':
-      return <AlertTriangle {...props} />;
+    case 'alert-circle':
+      return <AlertCircle {...props} />;
     case 'bookmark':
       return <Bookmark {...props} />;
+    case 'box':
+      return <Box {...props} />;
+    case 'castle':
+      return <Castle {...props} />;
     case 'navigation':
       return <Navigation {...props} />;
     case 'gem':
@@ -148,14 +163,26 @@ function renderCategoryIcon(iconName: string): ReactNode {
       return <Shield {...props} />;
     case 'hammer':
       return <Hammer {...props} />;
+    case 'wrench':
+      return <Wrench {...props} />;
     case 'flask-conical':
       return <FlaskConical {...props} />;
     case 'leaf':
       return <Leaf {...props} />;
+    case 'heart':
+      return <Heart {...props} />;
+    case 'star':
+      return <Star {...props} />;
+    case 'store':
+      return <Store {...props} />;
+    case 'user':
+      return <User {...props} />;
+    case 'mountain':
+      return <Mountain {...props} />;
+    case 'zap':
+      return <Zap {...props} />;
     case 'shopping-bag':
       return <ShoppingBag {...props} />;
-    case 'scissors':
-      return <Scissors {...props} />;
     case 'spade':
       return <Spade {...props} />;
     case 'compass':
@@ -166,8 +193,10 @@ function renderCategoryIcon(iconName: string): ReactNode {
       return <Flag {...props} />;
     case 'crown':
       return <Crown {...props} />;
-    default:
+    case 'map-pin':
       return <MapPin {...props} />;
+    default:
+      return <CircleDot {...props} />;
   }
 }
 
@@ -1334,7 +1363,7 @@ export function MapWorkspace({
                               >
                                 <span className="flex min-w-0 items-center gap-2">
                                   <span style={{ color: category.color }}>
-                                    {renderCategoryIcon(category.icon)}
+                                    {renderCategoryIcon(category)}
                                   </span>
                                   <span className="truncate">{category.name}</span>
                                 </span>
