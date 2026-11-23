@@ -1,0 +1,392 @@
+{
+  "id": "game-the-blood-of-dawnwalker",
+  "slug": "the-blood-of-dawnwalker",
+  "title": "The Blood of Dawnwalker",
+  "subtitle": "Vale Sangora — Fantasia Sombria, Vampiros & Relíquias",
+  "studio": "Rebel Wolves",
+  "releaseYear": 2026,
+  "genres": [
+    "Action RPG",
+    "Mundo Aberto",
+    "Fantasia Sombria"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/the-blood-of-dawnwalker/cover.webp",
+    "bannerImage": "/games/the-blood-of-dawnwalker/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#DC2626",
+    "accentSecondary": "#D4AF37",
+    "accentGlow": "rgba(220, 38, 38, 0.40)",
+    "glassTint": "rgba(22, 10, 10, 0.84)",
+    "surfaceBase": "#0D0606",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "abyssal-contours",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "vale-sangora",
+      "name": "Vale Sangora",
+      "dlc": "base",
+      "pinsCount": 719,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0D0606",
+      "initialCenter": [
+        0.69798371039415,
+        -0.77141787804496
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.36872,
+          -0.96391
+        ],
+        [
+          1.07848,
+          -0.35507
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default-v1",
+          "label": "default-v1",
+          "urlTemplate": "https://tiles.mapgenie.io/games/the-blood-of-dawnwalker/vale-sangora/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 16,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "landmarks",
+      "label": "Landmarks",
+      "categories": [
+        {
+          "id": "shrine",
+          "groupId": "landmarks",
+          "name": "Shrine",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "destroyed-shrine",
+          "groupId": "landmarks",
+          "name": "Destroyed Shrine",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "settlement",
+          "groupId": "landmarks",
+          "name": "Settlement",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "building",
+          "groupId": "landmarks",
+          "name": "Building",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "tower",
+          "groupId": "landmarks",
+          "name": "Tower",
+          "icon": "landmark",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "gate",
+          "groupId": "landmarks",
+          "name": "Gate",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "vendors",
+      "label": "Vendors",
+      "categories": [
+        {
+          "id": "general-store",
+          "groupId": "vendors",
+          "name": "General Store",
+          "icon": "shopping-bag",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "blacksmith",
+          "groupId": "vendors",
+          "name": "Blacksmith",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "armourer",
+          "groupId": "vendors",
+          "name": "Armourer",
+          "icon": "shopping-bag",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "tavern",
+          "groupId": "vendors",
+          "name": "Tavern",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "medic",
+          "groupId": "vendors",
+          "name": "Medic",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "witchcraft-vendor",
+          "groupId": "vendors",
+          "name": "Witchcraft Vendor",
+          "icon": "shopping-bag",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "silver-trader",
+          "groupId": "vendors",
+          "name": "Silver Trader",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "swordmastery-teacher",
+          "groupId": "vendors",
+          "name": "Swordmastery Teacher",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "food-vendor",
+          "groupId": "vendors",
+          "name": "Food Vendor",
+          "icon": "shopping-bag",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "activities",
+      "label": "Activities",
+      "categories": [
+        {
+          "id": "main-quest",
+          "groupId": "activities",
+          "name": "Main Quest",
+          "icon": "scroll-text",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "side-quest",
+          "groupId": "activities",
+          "name": "Side Quest",
+          "icon": "scroll-text",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "activity",
+          "groupId": "activities",
+          "name": "Activity",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "court-quest",
+          "groupId": "activities",
+          "name": "Court Quest",
+          "icon": "scroll-text",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "will-o-the-wisps",
+          "groupId": "activities",
+          "name": "Will-o-the-Wisps",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "ancient-circle",
+          "groupId": "activities",
+          "name": "Ancient Circle",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "haunted-site",
+          "groupId": "activities",
+          "name": "Haunted Site",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "brencis-s-banner",
+          "groupId": "activities",
+          "name": "Brencis's Banner",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "curious-house",
+          "groupId": "activities",
+          "name": "Curious House",
+          "icon": "bookmark",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "soldier-picket",
+          "groupId": "activities",
+          "name": "Soldier Picket",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "headhunters",
+          "groupId": "activities",
+          "name": "Headhunters",
+          "icon": "skull",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "monster-s-lair",
+          "groupId": "activities",
+          "name": "Monster's Lair",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "bandit-camp",
+          "groupId": "activities",
+          "name": "Bandit Camp",
+          "icon": "bookmark",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "soldier-camp",
+          "groupId": "activities",
+          "name": "Soldier Camp",
+          "icon": "bookmark",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "person-in-danger",
+          "groupId": "activities",
+          "name": "Person in Danger",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "manual",
+          "groupId": "items",
+          "name": "Manual",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "hidden-treasure",
+          "groupId": "items",
+          "name": "Hidden Treasure",
+          "icon": "gem",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "legendary-equipment",
+          "groupId": "items",
+          "name": "Legendary Equipment",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "easter-egg",
+          "groupId": "other",
+          "name": "Easter Egg",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 719
+}

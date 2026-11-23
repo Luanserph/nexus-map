@@ -1,0 +1,519 @@
+{
+  "id": "game-ghost-recon-wildlands",
+  "slug": "ghost-recon-wildlands",
+  "title": "Tom Clancy's Ghost Recon Wildlands",
+  "subtitle": "Operação Kingslayer — Bolívia, Narco Road & Fallen Ghosts",
+  "studio": "Ubisoft Paris",
+  "releaseYear": 2017,
+  "genres": [
+    "Tático",
+    "Mundo Aberto",
+    "Ação"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/ghost-recon-wildlands/cover.webp",
+    "bannerImage": "/games/ghost-recon-wildlands/banner.webp",
+    "logoImage": "/games/ghost-recon-wildlands/logo.webp"
+  },
+  "theme": {
+    "accentPrimary": "#F59E0B",
+    "accentSecondary": "#38BDF8",
+    "accentGlow": "rgba(245, 158, 11, 0.36)",
+    "glassTint": "rgba(18, 15, 10, 0.82)",
+    "surfaceBase": "#0C0A06",
+    "fontDisplay": "'Rajdhani', sans-serif",
+    "backgroundPattern": "tactical-grid",
+    "badgeStyle": "chamfered"
+  },
+  "maps": [
+    {
+      "id": "bolivia",
+      "name": "Bolívia",
+      "dlc": "base",
+      "pinsCount": 1735,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0C0A06",
+      "initialCenter": [
+        0.6862914383568,
+        -0.7118559732603
+      ],
+      "initialZoom": 13,
+      "maxBounds": [
+        [
+          0.34341,
+          -1.0813
+        ],
+        [
+          1.07257,
+          -0.34196
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default-v3",
+          "label": "default-v3",
+          "urlTemplate": "https://tiles.mapgenie.io/games/ghost-recon-wildlands/bolivia/default-v4/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 16,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "narco-road-fallen-ghosts",
+      "name": "Narco Road & Fallen Ghosts",
+      "dlc": "dlc",
+      "pinsCount": 793,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0C0A06",
+      "initialCenter": [
+        0.74103952086085,
+        -0.71980578086095
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.34571,
+          -1.06609
+        ],
+        [
+          1.06916,
+          -0.34278
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "bolivia-dlc-v1",
+          "label": "bolivia-dlc-v1",
+          "urlTemplate": "https://tiles.mapgenie.io/games/ghost-recon-wildlands/narco-road-fallen-ghosts/bolivia-dlc-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 16,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "landmarks",
+      "label": "Landmarks",
+      "categories": [
+        {
+          "id": "location",
+          "groupId": "landmarks",
+          "name": "Location",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "rally-point",
+          "groupId": "landmarks",
+          "name": "Rally Point",
+          "icon": "landmark",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "shrine",
+          "groupId": "landmarks",
+          "name": "Shrine",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "cartel-base",
+          "groupId": "landmarks",
+          "name": "Cartel Base",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "outpost",
+          "groupId": "landmarks",
+          "name": "Outpost",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "rebel-hideout",
+          "groupId": "landmarks",
+          "name": "Rebel Hideout",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "cartel-facility",
+          "groupId": "landmarks",
+          "name": "Cartel Facility",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "farm",
+          "groupId": "landmarks",
+          "name": "Farm",
+          "icon": "shopping-bag",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "checkpoint",
+          "groupId": "landmarks",
+          "name": "Checkpoint",
+          "icon": "landmark",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "gas-station",
+          "groupId": "landmarks",
+          "name": "Gas Station",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "mine",
+          "groupId": "landmarks",
+          "name": "Mine",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "factory",
+          "groupId": "landmarks",
+          "name": "Factory",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "observation-post",
+          "groupId": "landmarks",
+          "name": "Observation Post",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "airport",
+          "groupId": "landmarks",
+          "name": "Airport",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "ruins",
+          "groupId": "landmarks",
+          "name": "Ruins",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "cartel-site",
+          "groupId": "landmarks",
+          "name": "Cartel Site",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "cartel-property",
+          "groupId": "landmarks",
+          "name": "Cartel Property",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "unidad-base",
+          "groupId": "landmarks",
+          "name": "Unidad Base",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "activities",
+      "label": "Activities",
+      "categories": [
+        {
+          "id": "diversion",
+          "groupId": "activities",
+          "name": "Diversion",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "guns-for-hire",
+          "groupId": "activities",
+          "name": "Guns for Hire",
+          "icon": "shopping-bag",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "mortar-strike",
+          "groupId": "activities",
+          "name": "Mortar Strike",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "recon",
+          "groupId": "activities",
+          "name": "Recon",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "steal-the-helicopter",
+          "groupId": "activities",
+          "name": "Steal the Helicopter",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "steal-the-plane",
+          "groupId": "activities",
+          "name": "Steal the Plane",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "story-mission",
+          "groupId": "activities",
+          "name": "Story Mission",
+          "icon": "scroll-text",
+          "color": "eec409",
+          "defaultVisible": true
+        },
+        {
+          "id": "vehicle-drop-off",
+          "groupId": "activities",
+          "name": "Vehicle Drop-Off",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "buchon-mission",
+          "groupId": "activities",
+          "name": "Buchon Mission",
+          "icon": "scroll-text",
+          "color": "eec409",
+          "defaultVisible": true
+        },
+        {
+          "id": "tower-cast",
+          "groupId": "activities",
+          "name": "Tower Cast",
+          "icon": "landmark",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "sabotage",
+          "groupId": "activities",
+          "name": "Sabotage",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "rebel-vip",
+          "groupId": "activities",
+          "name": "Rebel VIP",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "headhunter",
+          "groupId": "activities",
+          "name": "Headhunter",
+          "icon": "skull",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "electro-challange",
+          "groupId": "activities",
+          "name": "Electro Challange",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": false
+        },
+        {
+          "id": "lost-car",
+          "groupId": "activities",
+          "name": "Lost Car",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "airspray",
+          "groupId": "activities",
+          "name": "Airspray",
+          "icon": "sparkles",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "amphetatruck",
+          "groupId": "activities",
+          "name": "Amphetatruck",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "animal-traffic",
+          "groupId": "activities",
+          "name": "Animal Traffic",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "accessory-case",
+          "groupId": "collectibles",
+          "name": "Accessory Case",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "bonus-medal",
+          "groupId": "collectibles",
+          "name": "Bonus Medal",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "kingslayer-file",
+          "groupId": "collectibles",
+          "name": "Kingslayer File",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "skill-point",
+          "groupId": "collectibles",
+          "name": "Skill Point",
+          "icon": "landmark",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "weapon-case",
+          "groupId": "collectibles",
+          "name": "Weapon Case",
+          "icon": "shopping-bag",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "lazarus-file",
+          "groupId": "collectibles",
+          "name": "Lazarus File",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "intel-cache",
+          "groupId": "other",
+          "name": "Intel Cache",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "lieutenant",
+          "groupId": "other",
+          "name": "Lieutenant",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "major-intel",
+          "groupId": "other",
+          "name": "Major Intel",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 2528
+}

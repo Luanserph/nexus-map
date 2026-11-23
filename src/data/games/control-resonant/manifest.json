@@ -1,0 +1,460 @@
+{
+  "id": "game-control-resonant",
+  "slug": "control-resonant",
+  "title": "Control Resonant",
+  "subtitle": "Manhattan District — FBC, Anomalias & Documentos",
+  "studio": "Remedy Entertainment",
+  "releaseYear": 2026,
+  "genres": [
+    "Ação",
+    "Ficção Científica",
+    "Aventura"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/control-resonant/cover.webp",
+    "bannerImage": "/games/control-resonant/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#FF2A55",
+    "accentSecondary": "#E2E8F0",
+    "accentGlow": "rgba(255, 42, 85, 0.40)",
+    "glassTint": "rgba(18, 10, 14, 0.84)",
+    "surfaceBase": "#0A0608",
+    "fontDisplay": "'Space Grotesk', sans-serif",
+    "backgroundPattern": "cyber-grid",
+    "badgeStyle": "chamfered"
+  },
+  "maps": [
+    {
+      "id": "district",
+      "name": "Manhattan District",
+      "dlc": "base",
+      "pinsCount": 2121,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0A0608",
+      "initialCenter": [
+        0.69917528048023,
+        -0.8792195080191
+      ],
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          0.18513,
+          -1.3979
+        ],
+        [
+          1.19399,
+          -0.01368
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v9",
+          "label": "v9",
+          "urlTemplate": "https://tiles.mapgenie.io/games/control-resonant/district/v9/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "points-of-interest",
+      "label": "Points of Interest",
+      "categories": [
+        {
+          "id": "fast-travel-door",
+          "groupId": "points-of-interest",
+          "name": "Fast Travel Door",
+          "icon": "navigation",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "map-pylon",
+          "groupId": "points-of-interest",
+          "name": "Map Pylon",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "map-sensor",
+          "groupId": "points-of-interest",
+          "name": "Map Sensor",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "checkpoint",
+          "groupId": "points-of-interest",
+          "name": "Checkpoint",
+          "icon": "landmark",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "important-person",
+          "groupId": "points-of-interest",
+          "name": "Important Person",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "location",
+          "groupId": "points-of-interest",
+          "name": "Location",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "player-customization",
+          "groupId": "points-of-interest",
+          "name": "Player Customization",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "ability-door",
+          "groupId": "points-of-interest",
+          "name": "Ability Door",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "world-feat",
+          "groupId": "points-of-interest",
+          "name": "World Feat",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "power-core-station",
+          "groupId": "points-of-interest",
+          "name": "Power Core Station",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "orientation-point",
+          "groupId": "points-of-interest",
+          "name": "Orientation Point",
+          "icon": "landmark",
+          "color": "#FACC15",
+          "defaultVisible": false
+        },
+        {
+          "id": "vendor",
+          "groupId": "points-of-interest",
+          "name": "Vendor",
+          "icon": "shopping-bag",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "resonant-entity",
+          "groupId": "points-of-interest",
+          "name": "Resonant Entity",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "gravity-well",
+          "groupId": "points-of-interest",
+          "name": "Gravity Well",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "document",
+          "groupId": "collectibles",
+          "name": "Document",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "video",
+          "groupId": "collectibles",
+          "name": "Video",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "audio",
+          "groupId": "collectibles",
+          "name": "Audio",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "outfit",
+          "groupId": "collectibles",
+          "name": "Outfit",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "keycard",
+          "groupId": "collectibles",
+          "name": "Keycard",
+          "icon": "gem",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "key",
+          "groupId": "collectibles",
+          "name": "Key",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "artifact",
+          "groupId": "collectibles",
+          "name": "Artifact",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "main-story",
+          "groupId": "quests",
+          "name": "Main Story",
+          "icon": "scroll-text",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "side-story",
+          "groupId": "quests",
+          "name": "Side Story",
+          "icon": "scroll-text",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "defeating-resonants",
+          "groupId": "quests",
+          "name": "Defeating Resonants",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "taskboard",
+          "groupId": "quests",
+          "name": "Taskboard",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "miniquest",
+      "label": "Miniquest",
+      "categories": [
+        {
+          "id": "dog",
+          "groupId": "miniquest",
+          "name": "Dog",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "dog-toy",
+          "groupId": "miniquest",
+          "name": "Dog Toy",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "taxi",
+          "groupId": "miniquest",
+          "name": "Taxi",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "paranatural-camera",
+          "groupId": "miniquest",
+          "name": "Paranatural Camera",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "instant-photo",
+          "groupId": "miniquest",
+          "name": "Instant Photo",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "fbc-testing-facility",
+          "groupId": "miniquest",
+          "name": "FBC Testing Facility",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "research-balloon",
+          "groupId": "miniquest",
+          "name": "Research Balloon",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "sketchbook",
+          "groupId": "miniquest",
+          "name": "Sketchbook",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "arcade-cabinet",
+          "groupId": "miniquest",
+          "name": "Arcade Cabinet",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "loot",
+      "label": "Loot",
+      "categories": [
+        {
+          "id": "large-resource-crate",
+          "groupId": "loot",
+          "name": "Large Resource Crate",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "small-resource-crate",
+          "groupId": "loot",
+          "name": "Small Resource Crate",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": false
+        },
+        {
+          "id": "vending-machine",
+          "groupId": "loot",
+          "name": "Vending Machine",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "exit",
+          "groupId": "other",
+          "name": "Exit",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "secret",
+          "groupId": "other",
+          "name": "Secret",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "entrance",
+          "groupId": "other",
+          "name": "Entrance",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "resources",
+      "label": "Resources",
+      "categories": [
+        {
+          "id": "large-health-element",
+          "groupId": "resources",
+          "name": "Large Health Element",
+          "icon": "map-pin",
+          "color": "44cdcf",
+          "defaultVisible": false
+        },
+        {
+          "id": "command-charge",
+          "groupId": "resources",
+          "name": "Command Charge",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        }
+      ]
+    }
+  ],
+  "totalPins": 2121
+}

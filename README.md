@@ -13,7 +13,7 @@
 <br />
 
 **Central de cartografia interativa de alta performance para jogos de mundo aberto.**  
-18 jogos • ~53.000 marcadores • Web (PWA) & App Desktop Nativo para Windows (~12 MB)
+30 jogos • ~77.000 marcadores • Web (PWA) & App Desktop Nativo para Windows (~12 MB)
 
 </div>
 
@@ -28,7 +28,7 @@ O **Nexus Maps** foi criado para oferecer um único lugar rápido, limpo e sem d
 
 ---
 
-## 🎮 Vitrine do Catálogo (18 Jogos • ~53.000 Pins)
+## 🎮 Vitrine do Catálogo (30 Jogos • 76.827 Pins)
 
 <table>
   <tr>
@@ -110,8 +110,58 @@ O **Nexus Maps** foi criado para oferecer um único lugar rápido, limpo e sem d
       <img src="public/games/final-fantasy-xvi/cover.webp" width="160" alt="Final Fantasy XVI" /><br />
       <b>Final Fantasy XVI</b><br /><sub>Valisthea • 943 pins</sub>
     </td>
-    <td align="center" width="20%"></td>
-    <td align="center" width="20%"></td>
+    <td align="center" width="20%">
+      <img src="public/games/world-of-warcraft-forever/cover.webp" width="160" alt="World of Warcraft: Forever" /><br />
+      <b>WoW: Forever</b><br /><sub>Azeroth • 6.054 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/phantom-blade-zero/cover.webp" width="160" alt="Phantom Blade Zero" /><br />
+      <b>Phantom Blade Zero</b><br /><sub>8 Regiões • 2.680 pins</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="20%">
+      <img src="public/games/ghost-recon-wildlands/cover.webp" width="160" alt="Ghost Recon Wildlands" /><br />
+      <b>Ghost Recon Wildlands</b><br /><sub>Bolívia + DLCs • 2.528 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/minecraft-dungeons-ii/cover.webp" width="160" alt="Minecraft Dungeons II" /><br />
+      <b>Minecraft Dungeons II</b><br /><sub>Overworld • 2.223 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/onimusha-way-of-the-sword/cover.webp" width="160" alt="Onimusha: Way of the Sword" /><br />
+      <b>Onimusha</b><br /><sub>9 Regiões • 2.205 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/control-resonant/cover.webp" width="160" alt="Control Resonant" /><br />
+      <b>Control Resonant</b><br /><sub>Manhattan • 2.121 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/mortal-shell-ii/cover.webp" width="160" alt="Mortal Shell II" /><br />
+      <b>Mortal Shell II</b><br /><sub>Fallgrim • 1.724 pins</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="20%">
+      <img src="public/games/castlevania-belmonts-curse/cover.webp" width="160" alt="Castlevania: Belmont's Curse" /><br />
+      <b>Castlevania</b><br /><sub>Streets of Paris • 1.339 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/silent-hill-townfall/cover.webp" width="160" alt="Silent Hill: Townfall" /><br />
+      <b>Silent Hill: Townfall</b><br /><sub>St. Amelia • 844 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/kingdom-hearts-3/cover.webp" width="160" alt="Kingdom Hearts III" /><br />
+      <b>Kingdom Hearts III</b><br /><sub>10 Mundos • 822 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/the-blood-of-dawnwalker/cover.webp" width="160" alt="The Blood of Dawnwalker" /><br />
+      <b>Blood of Dawnwalker</b><br /><sub>Vale Sangora • 719 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/call-of-duty-modern-warfare-4/cover.webp" width="160" alt="Call of Duty: Modern Warfare 4" /><br />
+      <b>CoD: Modern Warfare 4</b><br /><sub>Campanha &amp; DMZ • 393 pins</sub>
+    </td>
   </tr>
 </table>
 

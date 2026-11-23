@@ -1,0 +1,373 @@
+{
+  "id": "game-castlevania-belmonts-curse",
+  "slug": "castlevania-belmonts-curse",
+  "title": "Castlevania: Belmont's Curse",
+  "subtitle": "Ruas Góticas de Paris — Relíquias & Arcana",
+  "studio": "Evil Empire / Konami",
+  "releaseYear": 2026,
+  "genres": [
+    "Metroidvania",
+    "Ação",
+    "Aventura"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox",
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/castlevania-belmonts-curse/cover.webp",
+    "bannerImage": "/games/castlevania-belmonts-curse/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#E11D48",
+    "accentSecondary": "#FBBF24",
+    "accentGlow": "rgba(225, 29, 72, 0.40)",
+    "glassTint": "rgba(20, 10, 16, 0.82)",
+    "surfaceBase": "#0C060A",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "abyssal-contours",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "streets-of-paris",
+      "name": "Streets of Paris",
+      "dlc": "base",
+      "pinsCount": 1339,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0C060A",
+      "initialCenter": [
+        0.65181106102202,
+        -0.92646819953143
+      ],
+      "initialZoom": 14,
+      "maxBounds": [
+        [
+          -0.07383,
+          -1.32003
+        ],
+        [
+          0.99669,
+          0.09778
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "streets-paris-v3",
+          "label": "streets-paris_v3",
+          "urlTemplate": "https://tiles.mapgenie.io/games/castlevania-belmonts-curse/streets-of-paris/streets-paris_v3/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "point-of-interest",
+          "groupId": "locations",
+          "name": "Point of Interest",
+          "icon": "landmark",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "mirror-of-life",
+          "groupId": "locations",
+          "name": "Mirror of Life",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "ferryman-s-wharf",
+          "groupId": "locations",
+          "name": "Ferryman's Wharf",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "elevator",
+          "groupId": "locations",
+          "name": "Elevator",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "transition-mirror",
+          "groupId": "locations",
+          "name": "Transition Mirror",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "equipment",
+      "label": "Equipment",
+      "categories": [
+        {
+          "id": "arcana",
+          "groupId": "equipment",
+          "name": "Arcana",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "arcane-power",
+          "groupId": "equipment",
+          "name": "Arcane Power",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "relic",
+          "groupId": "equipment",
+          "name": "Relic",
+          "icon": "gem",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "weapon",
+          "groupId": "equipment",
+          "name": "Weapon",
+          "icon": "shopping-bag",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "character-skin",
+          "groupId": "equipment",
+          "name": "Character Skin",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "red-book",
+          "groupId": "collectibles",
+          "name": "Red Book",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "blue-book",
+          "groupId": "collectibles",
+          "name": "Blue Book",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "wise-heart-fragment",
+          "groupId": "collectibles",
+          "name": "Wise Heart Fragment",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "brave-heart-fragment",
+          "groupId": "collectibles",
+          "name": "Brave Heart Fragment",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "clue",
+          "groupId": "collectibles",
+          "name": "Clue",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "statue",
+          "groupId": "collectibles",
+          "name": "Statue",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "chicken",
+          "groupId": "items",
+          "name": "Chicken",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "keepsake",
+          "groupId": "items",
+          "name": "Keepsake",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "objective",
+          "groupId": "quests",
+          "name": "Objective",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "tarot-card",
+          "groupId": "quests",
+          "name": "Tarot Card",
+          "icon": "gem",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "enemies",
+      "label": "Enemies",
+      "categories": [
+        {
+          "id": "boss",
+          "groupId": "enemies",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "arena-battle",
+          "groupId": "enemies",
+          "name": "Arena Battle",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "haunted-coffin",
+          "groupId": "enemies",
+          "name": "Haunted Coffin",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "locked-door",
+          "groupId": "other",
+          "name": "Locked Door",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": false
+        },
+        {
+          "id": "interactable",
+          "groupId": "other",
+          "name": "Interactable",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "lore",
+          "groupId": "other",
+          "name": "Lore",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "transition",
+          "groupId": "other",
+          "name": "Transition",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "destructible-block",
+          "groupId": "other",
+          "name": "Destructible Block",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "breakable-wall",
+          "groupId": "other",
+          "name": "Breakable Wall",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "chaos-shard-wall",
+          "groupId": "other",
+          "name": "Chaos Shard Wall",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 1339
+}

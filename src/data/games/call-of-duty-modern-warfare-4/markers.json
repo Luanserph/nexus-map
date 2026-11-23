@@ -1,0 +1,5220 @@
+[
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054883",
+    "mapId": "campaign",
+    "category": "mission-objective",
+    "title": "Jamming Station",
+    "description": "_Climb the tower to send an SOS and disable the tower's jamming capabilities._ Discoverable Gear: - Bomb Drones - Heartbeat Sensor Recommended: - Thermal Scope - Shotgun",
+    "coords": [
+      -0.4190192092029,
+      0.91876045679079
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/51e1a12b-7d21-4bf3-b77e-c45d4cede4db.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054884",
+    "mapId": "campaign",
+    "category": "mission-objective",
+    "title": "SAM Site",
+    "description": "_Sabotage the SAM Site._ Discoverable Gear: - Sniper Rifle with Thermal Scope - Night Vision Goggles Recommended: - Silenced Weapon - Bomb Drones",
+    "coords": [
+      -0.96109808681967,
+      0.93310632569435
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/5b706a35-65fe-4552-a5a5-8c637f8383ed.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054885",
+    "mapId": "campaign",
+    "category": "mission-objective",
+    "title": "Bunker",
+    "description": "_Steal Industrial-grade Explosives_ Discoverable Gear: - Silenced Shotgun Recommended: - Night Vision Goggles - Heartbeat Sensor",
+    "coords": [
+      -0.54334872627831,
+      0.38623290922932
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/130e2a1b-9a39-4b71-8c54-8f1147cc9821.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054882",
+    "mapId": "campaign",
+    "category": "base-camp",
+    "title": "Base Camp",
+    "description": "Mission: Stranded",
+    "coords": [
+      -0.61877280437213,
+      0.71863574510418
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/42c55f3f-913f-49e8-95b0-d5cbb2149efe.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054925",
+    "mapId": "campaign",
+    "category": "outpost",
+    "title": "Artillery Battery #7",
+    "description": "Outpost localizado em campaign.",
+    "coords": [
+      -0.60691416263668,
+      0.60836185287972
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e2f0569f-bb87-4ca3-ac55-0f3bc2fa7d0f.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054933",
+    "mapId": "campaign",
+    "category": "outpost",
+    "title": "Infantry Checkpoint #2",
+    "description": "Outpost localizado em campaign.",
+    "coords": [
+      -0.50211776823198,
+      0.64567467505242
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/30b2b21d-c7c3-4431-befa-46a13eae8165.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054938",
+    "mapId": "campaign",
+    "category": "outpost",
+    "title": "Logistics Station #10",
+    "description": "Outpost localizado em campaign.",
+    "coords": [
+      -0.47511387122819,
+      0.52443868012408
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/7bb667a9-239c-493f-8bad-c123484431b0.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054979",
+    "mapId": "campaign",
+    "category": "outpost",
+    "title": "Logistics Station #200",
+    "description": "Mission: Stranded",
+    "coords": [
+      -0.68317399857918,
+      0.49367732512655
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/bab7bf21-4493-44e5-a74f-a648c1c17155.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054987",
+    "mapId": "campaign",
+    "category": "outpost",
+    "title": "Infantry Checkpoint #4",
+    "description": "Mission: Stranded",
+    "coords": [
+      -0.54347349046836,
+      0.39988700453517
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/baa1eb47-b3a5-41d7-8fae-fec43fc61eca.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1055031",
+    "mapId": "campaign",
+    "category": "outpost",
+    "title": "Artillery Battery #6",
+    "description": "Mission: Stranded",
+    "coords": [
+      -0.64464806205083,
+      0.89652639309432
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/fb287aa5-8439-4c7f-9c8d-4cd1ba23cfe5.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1055032",
+    "mapId": "campaign",
+    "category": "outpost",
+    "title": "Infantry Checkpoint #5",
+    "description": "Mission: Stranded",
+    "coords": [
+      -0.78999595200619,
+      0.95523537556544
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2fcbf3e2-1aee-4687-bf96-62d6efaf1467.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1055035",
+    "mapId": "campaign",
+    "category": "outpost",
+    "title": "Logistics Station #100",
+    "description": "Mission: Stranded",
+    "coords": [
+      -0.8246057534266,
+      0.8190168381835
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/edb78410-6980-4789-83eb-47e0c8dc0d54.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1055036",
+    "mapId": "campaign",
+    "category": "outpost",
+    "title": "Infantry Checkpoint #1",
+    "description": "Mission: Stranded",
+    "coords": [
+      -0.70857261724512,
+      0.62645874931493
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/13a0b290-4cc0-4e31-886a-6dfd01a0e837.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1055039",
+    "mapId": "campaign",
+    "category": "outpost",
+    "title": "Logistics Station #20",
+    "description": "Mission: Stranded",
+    "coords": [
+      -0.53963095560806,
+      0.97660690780785
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d6af7041-a984-464b-9342-3ae636e7df9e.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1055041",
+    "mapId": "campaign",
+    "category": "outpost",
+    "title": "Infantry Checkpoint #3",
+    "description": "Mission: Stranded",
+    "coords": [
+      -0.44063344358455,
+      0.83172715998418
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/5e33e3cc-533c-4a7c-8258-f1bf5d990aa4.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054734",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Cliffside Dead Soldier Note",
+    "description": "Mission: Stranded Location: Next to the dead soldier on the climb up to the [Jamming Station](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054883).",
+    "coords": [
+      -0.45435155495446,
+      0.96526660995956
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/4ac8b751-ef0a-4a12-86e9-4f6871e62585.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054735",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Train Boxcar Note",
+    "description": "Mission: Stranded Location: In the rear section of the train parked in the sidings, south of the [Logistics Station #10](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054938) outpost.",
+    "coords": [
+      -0.46880096546587,
+      0.50262545366104
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/33fca081-d168-4b33-98e6-09bab7eece51.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054736",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Work Camp Escapee Journal",
+    "description": "Mission: Stranded Location: In the front section of the train parked in the sidings, south of the [Logistics Station #10](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054938) outpost.",
+    "coords": [
+      -0.47286271751386,
+      0.4957647406689
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ef13468e-4c6b-4b3d-94d6-b36addf96752.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054737",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Provision",
+    "description": "Mission: Stranded Location: On a desk in the back-right corner of the room after Kal opens the door using a crowbar inside the [Bunker](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054885).",
+    "coords": [
+      -0.52867479074956,
+      0.37722608023725
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/4033a695-efce-4bb7-b491-9b6f6b499e17.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054738",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Traitors",
+    "description": "Mission: Stranded Location: Inside the [Bunker](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054885). After collecting the explosives and swimming through a tunnel, you'll enter a store room to resupply. This note is on a desk in the corner of the store room.",
+    "coords": [
+      -0.53715046039079,
+      0.38219679523115
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/0658e075-04f1-4e88-942b-24b0ef0ed60e.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054739",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "North East Outpost",
+    "description": "Mission: Stranded Location: On a desk inside the command building of the [Logistics Station #20](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1055039) outpost.",
+    "coords": [
+      -0.53884506225643,
+      0.98116847210957
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/7331be8f-b272-4357-ae89-f7b5b9122143.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054740",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Cultural Traitor",
+    "description": "Mission: Stranded Location: On a desk in the bedroom of the blue house in the village east of the [Artillery Battery #6](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1055031) outpost.",
+    "coords": [
+      -0.56642260215958,
+      0.89120657345856
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9003c540-44d9-4c51-958c-4b2b69366013.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054741",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "South East Village Keypad",
+    "description": "Mission: Stranded Location: On the front of the shipping container in the south-east village, next to the bridge.",
+    "coords": [
+      -0.57466623008733,
+      0.50679974434468
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/bf3f09f0-3a5d-40c4-b15c-8c5c55ccc28b.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054742",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Cargo Container Note",
+    "description": "Mission: Stranded Location: Inside the small shed with the orange door, next to the blue and grey smuggler house south-east of the [Base Camp](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054882).",
+    "coords": [
+      -0.57729721069461,
+      0.67555769569805
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/c6ce5c7d-34b7-4484-a91c-4243f25d95d6.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054743",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Snow Ghillie Suit Repair Note",
+    "description": "Mission: Stranded Location: On the workbench at the [Base Camp](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054882) when the Snow Ghillie Suit is available.",
+    "coords": [
+      -0.62275528907719,
+      0.72361929693233
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/baa37cb0-b6d6-426c-ad54-cbb27c5f9aef.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054744",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Silenced Sniper Repair Note",
+    "description": "Mission: Stranded Location: On the workbench at the [Base Camp](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054882) when the Silenced Thermal Sniper is available.",
+    "coords": [
+      -0.6165003776556,
+      0.72361929693233
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/7370c92e-3e6d-4c79-8bc6-04fd6e020dcb.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054745",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Grenade Launcher Info",
+    "description": "Mission: Stranded Location: On the workbench at the [Base Camp](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054882) when the Grenade Launcher is available.",
+    "coords": [
+      -0.61355531215861,
+      0.72361929693233
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e9fd7d4a-8665-477a-951a-fc4e90eded27.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054746",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Tactical Gloves Info Note",
+    "description": "Mission: Stranded Location: On the workbench at the [Base Camp](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054882) when the Tactical Gloves are available.",
+    "coords": [
+      -0.61971366405518,
+      0.72361929693233
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ffecb728-a2ec-4a63-b2c7-0d08035d4c93.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054747",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Tactical Boot Info",
+    "description": "Mission: Stranded Location: On the workbench at the [Base Camp](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054882) when the Tactical Boots are available.",
+    "coords": [
+      -0.6105995178219,
+      0.72361929693233
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/87d1b231-3a1d-40d3-a6f3-f88893ea4fa2.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054748",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Base Camp Keypad Note",
+    "description": "Mission: Stranded Location: On the shipping container at the bottom of the radio tower.",
+    "coords": [
+      -0.63248634338254,
+      0.7065403202064
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/126ee571-cf41-4707-be24-33b7fd6ade5e.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054749",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Radio Tower Note",
+    "description": "Mission: Stranded Location: On the platform halfway up the radio tower.",
+    "coords": [
+      -0.6300830841067,
+      0.70233493433885
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f5cf007e-295c-46c5-abca-3d15ce62cef3.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054750",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Top of Radio Tower Note",
+    "description": "Mission: Stranded Location: On the platform at the top of the radio tower.",
+    "coords": [
+      -0.62973976135115,
+      0.70516713340074
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6a1356cf-b218-4d3c-8f25-11cb27ca9844.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054751",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Under Bridge Note",
+    "description": "Mission: Stranded Location: On a makeshift workbench underneath the bridge south-west of the [Artillery Battery #7](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054925) outpost.",
+    "coords": [
+      -0.63650909975675,
+      0.57932804652955
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9874bffa-080b-4fb1-b4b8-0d02c875d988.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054752",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Water Treatment Note",
+    "description": "Mission: Stranded Location: Inside the water treatment building south of the radio tower.",
+    "coords": [
+      -0.66066168680101,
+      0.65509963113043
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/252b2ee3-be0d-4ccc-84aa-c6e4f889a879.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054753",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Cliff Near Base Camp Note",
+    "description": "Mission: Stranded Location: On the front of the shipping container on the cliff north of the [Base Camp](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054882).",
+    "coords": [
+      -0.62390789755429,
+      0.76652902936155
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/c3f2dcfe-ce22-4489-86bb-d878d506bab9.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054754",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Bombed House Note",
+    "description": "Mission: Stranded Location: On the floor inside the locked, bombed house in the village east of the [Artillery Battery #6](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1055031) outpost. Climb on to the roof and drop in through the hole to access.",
+    "coords": [
+      -0.58121988849356,
+      0.86710923724509
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ebc98726-7500-44dd-8dfa-873c5288ab02.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054755",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Southwest Village Note",
+    "description": "Mission: Stranded Location: On a workbench inside a building in the village down the road south from the [Artillery Battery #7](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054925) outpost.",
+    "coords": [
+      -0.58111023515733,
+      0.56577383319465
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/8fda1c09-be49-4692-8c96-d43fee7b503a.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054756",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Farm Field Hidden Bunker Note #1",
+    "description": "Mission: Stranded Location: On top of the keypad at the hidden bunker, north-west of the [Artillery Battery #6](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1055031) outpost.",
+    "coords": [
+      -0.72472922827572,
+      0.91692007316908
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/40f80904-0402-4e9e-aacb-c162d71ef25b.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054757",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Farm Field Hidden Bunker Note #2",
+    "description": "Mission: Stranded Location: On the radio desk inside the hidden bunker, north-west of the [Artillery Battery #6](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1055031) outpost. Key Code: ||0330 (Sum of Logistics Stations #10, #20, #100 and #200 from [Farm Field Hidden Bunker Note 1](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054756)).||",
+    "coords": [
+      -0.71808707671312,
+      0.91692007316908
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/415fa9a3-f8a1-4413-adb6-41ccdd247644.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054758",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "River Shed Note",
+    "description": "Mission: Stranded Location: On the table inside the guard post next to the large red statue north-west of the [Base Camp](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054882).",
+    "coords": [
+      -0.75183341003094,
+      0.79014180773889
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3064298e-853c-4eb9-ba65-12fb579c9e15.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054759",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Small Island Keypad Note",
+    "description": "Mission: Stranded Location: On the front of the shipping container on small watchtower island, south-east of the [SAM Site](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054884).",
+    "coords": [
+      -0.80680847168119,
+      0.88359191235509
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6148ae50-1d3b-4485-9ef7-3b2a76e9eb87.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054760",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Elevator Controls Note",
+    "description": "Mission: Stranded Location: On the wall next to the elevator controls at the [Logistics Station #100](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1055035) outpost.",
+    "coords": [
+      -0.82775115966598,
+      0.82437531814688
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/a6c0051e-2343-4d58-86f5-a808e7420eec.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054761",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "SAM Site Note About Helipad",
+    "description": "Mission: Stranded Location: On the wooden crate behind the [Yellow Supply Crate](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054732) at the base of the statue at the [SAM Site](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054884).",
+    "coords": [
+      -0.86766242980949,
+      0.93433555238512
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/cb78e4aa-192c-47ce-8319-1d4b3870a1f3.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054762",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Farmer's Note",
+    "description": "Mission: Stranded Location: On the floor of the farmouse building next to the rice paddy at the farmhouse, north-east of the [SAM Site](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054884).",
+    "coords": [
+      -0.87500404708413,
+      1.0033119434089
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/be5873c2-26d8-49ad-bd44-a068f71a6d34.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054763",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "SAM Site Note About Bunkers",
+    "description": "Mission: Stranded Location: On top of the concrete weight near to the statue at the [SAM Site](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054884).",
+    "coords": [
+      -0.88079944881858,
+      0.93443833859321
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/fb2751fb-e6c9-42c5-9eac-1ec2295bef18.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054764",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Mutiny",
+    "description": "Mission: Stranded Location: Inside the [Bunker](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054885). After restoring the power and opening the door, look immediately to your right for a set of collapsed stairs. Use the nearby yellow cart to climb to the top. This note is straight ahead on the bottom shelf of the storage rack.",
+    "coords": [
+      -0.56286067888109,
+      0.3629896552298
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/993c7711-1c45-4938-83c9-361ae51945d4.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054765",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Discipline",
+    "description": "Mission: Stranded Location: Inside the [Bunker](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054885). After restoring power and passing by a submarine, this can be found on a desk in the next room.",
+    "coords": [
+      -0.53729590545521,
+      0.36074859250192
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/44729930-4189-4079-aa4c-ac9971a3d784.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054766",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Imninban (Social Police) Report",
+    "description": "Mission: Stranded Location: On the teacher's desk inside a classroom in the eastern building of the village south-east of the [Artillery Battery #7](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054925) outpost.",
+    "coords": [
+      -0.56841015865382,
+      0.5370526383014
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/06a7ba08-60ef-4902-ab37-e417453dc2ea.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054767",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Smuggler House Note",
+    "description": "Mission: Stranded Location: Inside the blue and grey smuggler house south-east of the [Base Camp](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054882). Go in through the white double doors.",
+    "coords": [
+      -0.57249069213992,
+      0.6803638777712
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f5deea42-9b11-4c06-90e5-e85c62ce32c7.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054768",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Exiled in Snow",
+    "description": "Mission: Stranded Location: Inside a shipping container west of the [Jamming Station](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054883).",
+    "coords": [
+      -0.47730445861876,
+      0.92461387290888
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d702b09a-ea7b-4d14-a02b-f3e53dbc564a.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054769",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "South of Jamming Station Keypad Note",
+    "description": "Mission: Stranded Location: On the front of the shipping container west of the [Jamming Station](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054883).",
+    "coords": [
+      -0.48013687133761,
+      0.92984885931634
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/8d4adbae-4c23-40e4-8fa8-5387b5a849b5.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054770",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "NE Statue Note",
+    "description": "Mission: Stranded Location: On the body at the foot of the large red statue west of the [Jamming Station](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054883).",
+    "coords": [
+      -0.52455987504734,
+      0.92071543199066
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/7d3b872b-8db8-4ceb-ad63-e223a87d10e8.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054771",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Jamming Station Locker Room Note",
+    "description": "Mission: Stranded Location: At the far end of the hallway on the upper level of the summit building at the [Jamming Station](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054883).",
+    "coords": [
+      -0.44227521342924,
+      0.97494784680325
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2b651910-4ebf-4682-86cb-df7475d7f7c0.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054772",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Jamming Station Entry Room Note",
+    "description": "Mission: Stranded Location: On a filing cabinet in the control room of the summit building at the [Jamming Station](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054883).",
+    "coords": [
+      -0.43677046087299,
+      0.97313239785524
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/90283538-5084-4410-9250-56ce1ee078f9.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054773",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Jamming Station Main Room Note",
+    "description": "Mission: Stranded Location: On a bench in the locker area at the front of the summit building at the [Jamming Station](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054883).",
+    "coords": [
+      -0.43330570421134,
+      0.97194638038538
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/166b35d2-d476-4d86-83cd-f1884d499291.png"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054774",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Jamming Station Quarters Note",
+    "description": "Mission: Stranded Location: On a kitchen counter in the solider's quarters in the first blue building on the right when entering the [Jamming Station](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054883).",
+    "coords": [
+      -0.39301547655089,
+      0.94737159128596
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f80cd50f-4a62-4d0c-9023-a8770eeb2da2.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054775",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Sewer Smuggler Remains Note",
+    "description": "Mission: Stranded Location: In the sewers underneath accessed via the water treatment building. Crawl through the smugglers tunnel while following the arrows to avoid the traps.",
+    "coords": [
+      -0.66989253910484,
+      0.65723715158076
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/11371a22-065a-44fd-88a9-276c668bba9e.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054776",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Sewers Note",
+    "description": "Mission: Stranded Location: In the sewers accessed via a ladder in the water treatment building.",
+    "coords": [
+      -0.66434134562115,
+      0.65834674028855
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ba2326e2-50c3-4797-8f94-3e558f982756.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054777",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Top of the Southern Monument Note",
+    "description": "Mission: Stranded Location: On the very top of the southern monument. Climb using the red pipes to reach the top.",
+    "coords": [
+      -0.67085385534261,
+      0.55945677101006
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/8d0d9a69-30f1-4c83-b258-8c36be3d7b9d.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054778",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Shed Near Hub Note",
+    "description": "Mission: Stranded Location: 638,145",
+    "coords": [
+      -0.67430762709174,
+      0.79395029857506
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/035aac01-993a-49f6-9de7-f9a2a4b2d9d1.jpeg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054779",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Big Sign Smuggling Note",
+    "description": "Mission: Stranded Location: At the top of the Independent Unification sign south of the [Artillery Battery #6](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1055031) outpost. Use the pipes on the right-hand side of the sign to climb to the top.",
+    "coords": [
+      -0.68608220366659,
+      0.85027068720326
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/4398a575-9be4-4e77-a08c-9ba1624a8dd8.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054780",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Big Sign Patrol Note",
+    "description": "Mission: Stranded Location: On the side of the shipping container at the T-junction south-west of the [Artillery Battery #6](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1055031) outpost.",
+    "coords": [
+      -0.69857597351057,
+      0.85398372928414
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/fb4f594b-6b83-4351-83b9-135c4b46745d.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054781",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Big Sign Keypad Note",
+    "description": "Mission: Stranded Location: On the front of the shipping container at the T-junction south-west of the [Artillery Battery #6](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1055031) outpost.",
+    "coords": [
+      -0.70321083068791,
+      0.85398372928414
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/4d1deceb-9fee-493c-8368-1b168e6bd5b0.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054782",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Helipad Outpost Note",
+    "description": "Mission: Stranded Location: On a table beside the fridge inside the central building at the [Logistics Station #100](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1055035) outpost.",
+    "coords": [
+      -0.81727981567388,
+      0.82008422561404
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b6e082c6-bcec-4588-a93e-e7480310a1d0.png"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054783",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Island Hidden Bunker Note",
+    "description": "Mission: Stranded Location: On the wall beside the keyboard for the bunker.",
+    "coords": [
+      -0.82742488195902,
+      0.63355115372049
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/a64ae372-006d-40a5-8cbd-ccc0a3577d30.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054784",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "NW Island Bunker Note",
+    "description": "Mission: Stranded Location: On the radio desk inside the hidden bunker below the airstrip. Key Code: ||0008 (Sum of Infantry Checkpoints #1, #2 and #5 from [Island Hidden Bunker Note](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054783)).||",
+    "coords": [
+      -0.82307360937193,
+      0.63355115372049
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/742e72b2-9114-4bcc-969b-c1d1d9cddbe5.png"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054785",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Northwest Abandoned House Note",
+    "description": "Mission: Stranded Location: On a desk inside the abandoned house south of the [SAM Site](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054884).",
+    "coords": [
+      -0.89358329772966,
+      0.85364044464845
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e19c4adc-068d-48a8-8271-b694e0aec94d.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054786",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Family Affair",
+    "description": "Mission: Stranded Location: On a desk next to the sowing machine in the hallway of the abandoned house south of the [SAM Site](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054884).",
+    "coords": [
+      -0.89598655700789,
+      0.8562150786602
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3e97aa2f-d76c-4d0f-9e80-2152135cc51c.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054787",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Booby-Trapped Store Note",
+    "description": "Mission: Stranded Location: On a cupboard in the right-hand room inside the booby-trapped store room, on the hill north-east of the [SAM Site](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054884). Throw a grenade inside to set off the tripwires first.",
+    "coords": [
+      -0.89155626449755,
+      1.0097564065031
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/daaa7804-581d-4b84-8d59-bb1841712daf.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054788",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Change of Plans",
+    "description": "Mission: Stranded Location: On a drawer tool inside the blue doored garage at the [SAM Site](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054884).",
+    "coords": [
+      -0.94757080078196,
+      0.93971807483267
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/98f6547e-a712-4ce7-b5ff-8a1921fdef97.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054789",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Note From Your Friend",
+    "description": "Mission: Following Orders Location: As soon as the mission starts, open the door on the right and open the cupboard. This note is inside the red toolbox. Solution: ||Use the code 214 or shoot the padlock to open the toolbox.||",
+    "coords": [
+      -1.0340454275715,
+      0.13221279889541
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/fb463d6f-7464-4800-aa3f-c4b87c700620.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054790",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Baekseolgi-Tteok Recipe",
+    "description": "Mission: Following Orders Location: In the first house where you start the mission, enter the kitchen straight ahead and open the tall cupboard on the left to find this note.",
+    "coords": [
+      -0.99971315218085,
+      0.13221279889541
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/68ec8f2d-d9ae-4b9f-b63a-bb171cb7c90d.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054791",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Note From Your Neighbor",
+    "description": "Mission: Following Orders Location: Inside the third house in the master bedroom, in a cabinent beside the bed.",
+    "coords": [
+      -0.96538087679022,
+      0.13221279889541
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/8dc05958-4ae8-46b0-8a7a-a899ad2edca0.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054792",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Note From Mom",
+    "description": "Mission: Following Orders Location: Inside the third house, after removing the woman from the kitchen cellar hatch, this note can be found on the shelf inside the cellar.",
+    "coords": [
+      -0.9310486013996,
+      0.13221279889541
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/242ffd4c-5a73-4e18-a825-2e9312695fbe.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054797",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Confiscation Protocol Reminder",
+    "description": "Mission: Escape. Location: On a desk in the first room on the left after starting the level, after the fight with the prison guard.",
+    "coords": [
+      -0.48336614005174,
+      0.13181724794592
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f395586a-8bfe-428f-a9b3-a8b362a1635b.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054798",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Updated Code",
+    "description": "Mission: Escape Location: On the guard's desk at the lit help window in the security office. Wait for the guard to take a call. Gives safe code ||8410||.",
+    "coords": [
+      -0.44903386466112,
+      0.13181724794592
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d053362c-73c7-46a8-a79f-cb6e436ca105.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054928",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Supply Crates Weapon Inventory",
+    "description": "Mission: Stranded Location: Inside the [Yellow Supply Crate](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054720) in the command building at the [Artillery Battery #7](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054925) outpost.",
+    "coords": [
+      -0.61377525329482,
+      0.62208860721243
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/744b6354-c1e0-4c5b-8a89-a0d28d590414.jpeg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054942",
+    "mapId": "campaign",
+    "category": "note",
+    "title": "Supply Crates Equipment Inventory",
+    "description": "Mission: Stranded Location: Inside the [Yellow Supply Crate](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054712) in the command building of the [Logistics Station #10](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054938) outpost.",
+    "coords": [
+      -0.47131145188894,
+      0.53416552307766
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/8229ce8e-0740-4808-ab4b-493ea1fcca84.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054710",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: Inside the command building of the [Infantry Checkpoint #3](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1055041) outpost.",
+    "coords": [
+      -0.43896980679585,
+      0.82498546312885
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/730f917d-7364-49c9-81de-7039c155b60e.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054711",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: On the first platform while climbing the jamming tower at the [Jamming Station](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054883).",
+    "coords": [
+      -0.44352703899352,
+      0.96586372685213
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/68bb7fd1-b418-43df-9d1a-d5536a0b62b0.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054712",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: Inside the command building of the [Logistics Station #10](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054938) outpost.",
+    "coords": [
+      -0.46825756006677,
+      0.53416552307766
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/bea758c9-d8ee-4b9e-b967-b3e2d3c9cb26.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054713",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: Inside the shipping container west of the [Jamming Station](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054883). Key Code: ||8609 (Number sequence from [South of Jamming Station Keypad Note](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054769)).||",
+    "coords": [
+      -0.47867774963353,
+      0.93113614986736
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/4f0ecbdb-1d3e-4bb5-ac78-69c254d508a2.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054714",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: Inside the command building at the [Infantry Checkpoint #2](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054933) outpost.",
+    "coords": [
+      -0.49810921760181,
+      0.64173495663745
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/21503c7f-aaba-4f8d-858e-e2f359592999.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054715",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: Next to the [Bunker](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054885) entrance, inside the [Infantry Checkpoint #4](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054987) outpost.",
+    "coords": [
+      -0.54665924965857,
+      0.38596701349903
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/4e7ff575-4c41-4c23-afdc-149edc46b221.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054716",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: Inside the command building of the [Logistics Station #20](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1055039) outpost.",
+    "coords": [
+      -0.53635597229064,
+      0.98125429021174
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/87ce52ca-73b8-4d0f-b461-acfe656e5e73.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054717",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: Inside the shipping container in the south-east village, next to the bridge. Key Code: ||0078 (Number sequence from [South East Village Keypad](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054741)).||",
+    "coords": [
+      -0.57733902694875,
+      0.50679974434468
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3ff54976-fdf1-47e4-af33-f5010b7bd38a.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054718",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: In the bedroom of the locked, bombed house in the village east of the [Artillery Battery #6](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1055031) outpost. Climb on to the roof and drop in through the hole to access.",
+    "coords": [
+      -0.58454128228857,
+      0.86722864831719
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1e444378-3c66-45ab-ba95-049220111638.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054719",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: On a metal platform reached by climbing the water tower beside the railway, east of the [Logistics Station #200](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054979) outpost.",
+    "coords": [
+      -0.60177818679222,
+      0.47260912505361
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/fe6f74d2-e56d-4642-9b8a-f5229da7864a.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054720",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: Inside the command building at the [Artillery Battery #7](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054925) outpost.",
+    "coords": [
+      -0.61205863952492,
+      0.62337599149836
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6dd9de3f-0047-446a-a7e6-0e62a2de28ba.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054721",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: Inside the shipping container on the cliff north of the [Base Camp](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054882). Key Code: ||0600 (Number sequence from [Cliff Near Base Camp Note](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054753)).||",
+    "coords": [
+      -0.62029409569982,
+      0.76652902936155
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/0d4b062f-c9eb-4ba8-a199-f49186d32fbf.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054722",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: Inside the shipping container at the bottom of the radio tower, south of the [Base Camp](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054882). Key Code: ||0024 (Number sequence from [Base Camp Keypad Note](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054748)).||",
+    "coords": [
+      -0.63454627990586,
+      0.70422306723759
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/66a5cb3f-6f89-4cbd-ae7c-82c933f3087a.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054723",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: In a shipping container blocked by two wooden crates in the south-west corner of the [Artillery Battery #6](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1055031) outpost. Use an explosive to destory the crates.",
+    "coords": [
+      -0.65454648774175,
+      0.89490798045904
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/03e1f8ba-87d2-4b06-8d39-ce9a6a2151cb.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054724",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: In the sewers underneath accessed via the water treatment building. Crawl through the smugglers tunnel while following the arrows to avoid the traps.",
+    "coords": [
+      -0.67308075528754,
+      0.65723715158076
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b4e02919-b9a0-4dfa-ae00-438daa671ee6.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054725",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: Inside the three-bay garage at the [Logistics Station #200](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054979) outpost.",
+    "coords": [
+      -0.68939208984352,
+      0.49214711575978
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2d0544ed-227d-4231-8d48-074382e3851d.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054726",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: Inside the shipping container at the T-junction south-west of the [Artillery Battery #6](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1055031) outpost. Key Code: ||1234 (Number sequence from [Big Sign Keypad Note](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054781)).||",
+    "coords": [
+      -0.70080757141073,
+      0.85398372928414
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/a373dd8a-90a7-4660-9ce5-cbe80dafe91c.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054727",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: In the command building of the [Infantry Checkpoint #1](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1055036) outpost.",
+    "coords": [
+      -0.71593138451118,
+      0.63287193845274
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/4b4e1a88-16f6-4667-a647-a3d4c157b325.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054728",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: Inside the command building at the [Infantry Checkpoint #5](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1055032) outpost.",
+    "coords": [
+      -0.78732490539656,
+      0.96409062612932
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e36f7335-e0fa-4508-ad45-6f64c42b446b.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054729",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: Inside the shipping container on small watchtower island, south-east of the [SAM Site](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054884). Key Code: ||6789 (Number sequence from [Small Island Keypad Note](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054759)).||",
+    "coords": [
+      -0.80904006958133,
+      0.88359191235509
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/bc2f9ceb-7d24-4930-8eae-80bd7758ff87.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054730",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: On the top of the elevator support structure at the [Logistics Station #100](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1055035) outpost. Solution: ||Move the elevator into position using the nearby generator control (follow the yellow cable) so that it's lined up with the hole in the side of the elevator tower. Climb the stairs and jump over to the elevator tower and shimmy around to the hole. Go through the elevator and use the red/white beams to climb to the top of the structure.||",
+    "coords": [
+      -0.82809448242244,
+      0.82017004751133
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/96cf888c-02c0-46ec-beae-5ed4617e80cf.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054731",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: Inside the hidden bunker below the airstrip. Key Code: ||0008 (Sum of Infantry Checkpoints #1, #2 and #5 from [Island Hidden Bunker Note](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054783)).||",
+    "coords": [
+      -0.83183026246948,
+      0.63355115372049
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e086d891-2ecb-4e14-9a01-97431fcbd84e.png"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054732",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: At the base of the statue at the [SAM Site](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054884).",
+    "coords": [
+      -0.8702321980852,
+      0.93433555238512
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d851728a-1154-4463-8240-0ec9433a4fec.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054733",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: On a counter in the left-hand room inside the booby-trapped store house on the hill north-east of the [SAM Site](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054884). Throw a grenade inside to set off the tripwires.",
+    "coords": [
+      -0.89721944513133,
+      1.006489046211
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/c6604547-1deb-46b6-9caa-7a7bea3eb2f0.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054887",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: On the top platform of the radio tower.",
+    "coords": [
+      -0.63281893730181,
+      0.70267823128661
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/65af2c6d-632a-4f31-94f3-4cd23c4aaacb.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054888",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: On the freight train that goes clockwise around the map. An easy way to get onto the train is to jump from the [water tower](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054719).",
+    "coords": [
+      -0.61682376559745,
+      0.47448807997964
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6722caab-5c33-44ec-a328-bb8fb1313224.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054889",
+    "mapId": "campaign",
+    "category": "yellow-supply-crate",
+    "title": "Yellow Supply Crate",
+    "description": "Mission: Stranded Location: On the back of the green D50 Cargo convoy truck that drives around the map. It passes through and stops at [Infantry Checkpoint #3](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign?locationIds=1054710).",
+    "coords": [
+      -0.44608131227517,
+      0.82425793178339
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9581eb1b-9ee5-4a45-b5ac-099d7f60647d.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054793",
+    "mapId": "campaign",
+    "category": "contraband",
+    "title": "Heart Medicine",
+    "description": "Mission: Following Orders Location: As soon as the mission starts, open the door on the right and open the cupboard. This note is inside the red toolbox. Solution: ||Use the code 214 or shoot the padlock to open the toolbox.||",
+    "coords": [
+      -0.89671632600897,
+      0.13221279889541
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/52ff327c-6acf-4b64-9a96-92141daddec2.png"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054794",
+    "mapId": "campaign",
+    "category": "contraband",
+    "title": "MP3 Player",
+    "description": "Mission: Following Orders Location: In the first house where you start the mission, enter the bathroom on your left and open the cabinet to find this contraband.",
+    "coords": [
+      -0.86238405061835,
+      0.13221279889541
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/8dddad7f-6f61-4cfa-ae60-89a6b504221c.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054795",
+    "mapId": "campaign",
+    "category": "contraband",
+    "title": "Western Novel",
+    "description": "Mission: Following Orders Location: In the first house where you start the mission, open the door on the left to enter the bedroom and find this in the cupboard.",
+    "coords": [
+      -0.82805177522772,
+      0.13221279889541
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/71dd9772-9a59-4d2c-b3c2-dd1e96b19c5b.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-campaign-1054796",
+    "mapId": "campaign",
+    "category": "contraband",
+    "title": "Extra Rations",
+    "description": "Mission: Following Orders Location: In the first house where you start the mission, go straight ahead to enter the kitchen. This can be found in the larger cupboard on the left.",
+    "coords": [
+      -0.7937194998371,
+      0.13221279889541
+    ],
+    "region": "campaign",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/08594ebd-cbcf-4073-a0e8-998321a0e90e.jpg"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055775",
+    "mapId": "hajin-dmz",
+    "category": "uav-tower",
+    "title": "UAV Tower",
+    "description": "UAV Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.91542999472483,
+      0.45963029989551
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055782",
+    "mapId": "hajin-dmz",
+    "category": "uav-tower",
+    "title": "UAV Tower",
+    "description": "UAV Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.90644405049929,
+      0.6990841472636
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055793",
+    "mapId": "hajin-dmz",
+    "category": "uav-tower",
+    "title": "UAV Tower",
+    "description": "UAV Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.93533402988123,
+      0.56558302327217
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055901",
+    "mapId": "hajin-dmz",
+    "category": "uav-tower",
+    "title": "UAV Tower",
+    "description": "UAV Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.81534136655745,
+      0.42141479508433
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055912",
+    "mapId": "hajin-dmz",
+    "category": "uav-tower",
+    "title": "UAV Tower",
+    "description": "UAV Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.70560663733073,
+      0.63984980798382
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055920",
+    "mapId": "hajin-dmz",
+    "category": "uav-tower",
+    "title": "UAV Tower",
+    "description": "UAV Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.63747891123066,
+      0.63870727570978
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055932",
+    "mapId": "hajin-dmz",
+    "category": "uav-tower",
+    "title": "UAV Tower",
+    "description": "UAV Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.70627235957673,
+      0.50209486305232
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055937",
+    "mapId": "hajin-dmz",
+    "category": "uav-tower",
+    "title": "UAV Tower",
+    "description": "UAV Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.63740969997076,
+      0.5633645381985
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055943",
+    "mapId": "hajin-dmz",
+    "category": "uav-tower",
+    "title": "UAV Tower",
+    "description": "UAV Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.63550138390707,
+      0.39853992955251
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055951",
+    "mapId": "hajin-dmz",
+    "category": "uav-tower",
+    "title": "UAV Tower",
+    "description": "UAV Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.61069631490386,
+      0.47398291236529
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055956",
+    "mapId": "hajin-dmz",
+    "category": "uav-tower",
+    "title": "UAV Tower",
+    "description": "UAV Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.50643496012535,
+      0.46112282074911
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055967",
+    "mapId": "hajin-dmz",
+    "category": "uav-tower",
+    "title": "UAV Tower",
+    "description": "UAV Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.54803611360185,
+      0.52579587207826
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055977",
+    "mapId": "hajin-dmz",
+    "category": "uav-tower",
+    "title": "UAV Tower",
+    "description": "UAV Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.55620445888923,
+      0.64040057959494
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055981",
+    "mapId": "hajin-dmz",
+    "category": "uav-tower",
+    "title": "UAV Tower",
+    "description": "UAV Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.48239006677787,
+      0.64383359157782
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055772",
+    "mapId": "hajin-dmz",
+    "category": "fortress",
+    "title": "Re-Education Center",
+    "description": "Fortress localizado em hajin-dmz.",
+    "coords": [
+      -0.9047869893638,
+      0.46735480909703
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055781",
+    "mapId": "hajin-dmz",
+    "category": "fortress",
+    "title": "The Citadel",
+    "description": "Fortress localizado em hajin-dmz.",
+    "coords": [
+      -0.89605853719362,
+      0.70080063294193
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055792",
+    "mapId": "hajin-dmz",
+    "category": "fortress",
+    "title": "Admin Complex No. 2",
+    "description": "Fortress localizado em hajin-dmz.",
+    "coords": [
+      -0.93035584994868,
+      0.55270903308298
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055899",
+    "mapId": "hajin-dmz",
+    "category": "fortress",
+    "title": "Rice Mill",
+    "description": "Fortress localizado em hajin-dmz.",
+    "coords": [
+      -0.78572977904236,
+      0.41197366904801
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055917",
+    "mapId": "hajin-dmz",
+    "category": "fortress",
+    "title": "Heavenly Luck Casino",
+    "description": "Fortress localizado em hajin-dmz.",
+    "coords": [
+      -0.66447291590268,
+      0.6428489539299
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055931",
+    "mapId": "hajin-dmz",
+    "category": "fortress",
+    "title": "Peak Array",
+    "description": "Fortress localizado em hajin-dmz.",
+    "coords": [
+      -0.70369743892289,
+      0.49643025267883
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055936",
+    "mapId": "hajin-dmz",
+    "category": "fortress",
+    "title": "Mirae General Hospital",
+    "description": "Fortress localizado em hajin-dmz.",
+    "coords": [
+      -0.65074539584739,
+      0.57107362996059
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055968",
+    "mapId": "hajin-dmz",
+    "category": "fortress",
+    "title": "Nurigo Mall",
+    "description": "Fortress localizado em hajin-dmz.",
+    "coords": [
+      -0.56777717195141,
+      0.53188959137447
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055773",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.89800636497378,
+      0.46666818639927
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055783",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.89288280172053,
+      0.69084500729629
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055785",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.91923282306763,
+      0.6267337245134
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055787",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.91421866937441,
+      0.57419450203544
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055790",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.94649201938705,
+      0.53159562906228
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055900",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.77989329222638,
+      0.41738086079883
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055902",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.82306612852025,
+      0.42192976526931
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055904",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.80144249515337,
+      0.47803635915979
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055906",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.77059220413605,
+      0.56886952689221
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055909",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.78258953956271,
+      0.60500246200408
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055914",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.69303800022601,
+      0.63256616053444
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055915",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.67704155300166,
+      0.64199205527167
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055916",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.66690094807097,
+      0.64427711804916
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055919",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.66532986844348,
+      0.61785601794656
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055926",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.73038459978392,
+      0.4344935608555
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055930",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.68432128433832,
+      0.39686527341871
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055933",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.70112251826905,
+      0.49368377317241
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055935",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.66027260226801,
+      0.5757940814009
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055938",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.62968493800315,
+      0.59546357388719
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055942",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.58542654094654,
+      0.40203807771154
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055952",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.61224126729593,
+      0.47724436615522
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055954",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.55348479265459,
+      0.4550332113629
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055955",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.56515776627174,
+      0.50249592370905
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055957",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.49982428550689,
+      0.46378106052988
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055962",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.59235358486546,
+      0.48974839907302
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055975",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.53303792723207,
+      0.58987923702004
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055979",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.52161469142129,
+      0.65069960847497
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055980",
+    "mapId": "hajin-dmz",
+    "category": "ammo-armor-cache",
+    "title": "Ammo Armor Cache",
+    "description": "Ammo Armor Cache localizado em hajin-dmz.",
+    "coords": [
+      -0.50110115686741,
+      0.66151356616288
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055776",
+    "mapId": "hajin-dmz",
+    "category": "sam-site",
+    "title": "SAM Site",
+    "description": "SAM Site localizado em hajin-dmz.",
+    "coords": [
+      -0.93225280966101,
+      0.45516724632938
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055780",
+    "mapId": "hajin-dmz",
+    "category": "sam-site",
+    "title": "SAM Site",
+    "description": "SAM Site localizado em hajin-dmz.",
+    "coords": [
+      -0.89494273824411,
+      0.70234546951612
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055789",
+    "mapId": "hajin-dmz",
+    "category": "sam-site",
+    "title": "SAM Site",
+    "description": "SAM Site localizado em hajin-dmz.",
+    "coords": [
+      -0.89875339798783,
+      0.55274125340686
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055791",
+    "mapId": "hajin-dmz",
+    "category": "sam-site",
+    "title": "SAM Site",
+    "description": "SAM Site localizado em hajin-dmz.",
+    "coords": [
+      -0.94769364902342,
+      0.54395470377645
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055794",
+    "mapId": "hajin-dmz",
+    "category": "sam-site",
+    "title": "SAM Site",
+    "description": "SAM Site localizado em hajin-dmz.",
+    "coords": [
+      -0.94932443210485,
+      0.57888611646457
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055903",
+    "mapId": "hajin-dmz",
+    "category": "sam-site",
+    "title": "SAM Site",
+    "description": "SAM Site localizado em hajin-dmz.",
+    "coords": [
+      -0.84066141965457,
+      0.42665032371343
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055910",
+    "mapId": "hajin-dmz",
+    "category": "sam-site",
+    "title": "SAM Site",
+    "description": "SAM Site localizado em hajin-dmz.",
+    "coords": [
+      -0.70803466949263,
+      0.66512826816941
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055945",
+    "mapId": "hajin-dmz",
+    "category": "sam-site",
+    "title": "SAM Site",
+    "description": "SAM Site localizado em hajin-dmz.",
+    "coords": [
+      -0.58623456871632,
+      0.4294381704764
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055947",
+    "mapId": "hajin-dmz",
+    "category": "sam-site",
+    "title": "SAM Site",
+    "description": "SAM Site localizado em hajin-dmz.",
+    "coords": [
+      -0.66288137350298,
+      0.42806491794022
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055950",
+    "mapId": "hajin-dmz",
+    "category": "sam-site",
+    "title": "SAM Site",
+    "description": "SAM Site localizado em hajin-dmz.",
+    "coords": [
+      -0.63618802938478,
+      0.46574344332799
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055958",
+    "mapId": "hajin-dmz",
+    "category": "sam-site",
+    "title": "SAM Site",
+    "description": "SAM Site localizado em hajin-dmz.",
+    "coords": [
+      -0.49270204996174,
+      0.4724520956228
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055961",
+    "mapId": "hajin-dmz",
+    "category": "sam-site",
+    "title": "SAM Site",
+    "description": "SAM Site localizado em hajin-dmz.",
+    "coords": [
+      -0.57450080168178,
+      0.49137912237576
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055963",
+    "mapId": "hajin-dmz",
+    "category": "sam-site",
+    "title": "SAM Site",
+    "description": "SAM Site localizado em hajin-dmz.",
+    "coords": [
+      -0.61226630457375,
+      0.51541078745383
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055972",
+    "mapId": "hajin-dmz",
+    "category": "sam-site",
+    "title": "SAM Site",
+    "description": "SAM Site localizado em hajin-dmz.",
+    "coords": [
+      -0.59378387053326,
+      0.55403291456248
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055978",
+    "mapId": "hajin-dmz",
+    "category": "sam-site",
+    "title": "SAM Site",
+    "description": "SAM Site localizado em hajin-dmz.",
+    "coords": [
+      -0.53337349574673,
+      0.63671008920802
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055759",
+    "mapId": "hajin-dmz",
+    "category": "gas-station",
+    "title": "Marine Gas Station",
+    "description": "Gas Station localizado em hajin-dmz.",
+    "coords": [
+      -0.86159823924928,
+      0.78188259756072
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055760",
+    "mapId": "hajin-dmz",
+    "category": "gas-station",
+    "title": "Gas Station",
+    "description": "Gas Station localizado em hajin-dmz.",
+    "coords": [
+      -0.81181643991542,
+      0.74429209083836
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055764",
+    "mapId": "hajin-dmz",
+    "category": "gas-station",
+    "title": "Gas Station",
+    "description": "Gas Station localizado em hajin-dmz.",
+    "coords": [
+      -0.81062118754298,
+      0.63706571133825
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055768",
+    "mapId": "hajin-dmz",
+    "category": "gas-station",
+    "title": "Gas Station",
+    "description": "Gas Station localizado em hajin-dmz.",
+    "coords": [
+      -0.84718506077544,
+      0.59526858410182
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055770",
+    "mapId": "hajin-dmz",
+    "category": "gas-station",
+    "title": "Gas Station",
+    "description": "Gas Station localizado em hajin-dmz.",
+    "coords": [
+      -0.88909690278234,
+      0.50337260949431
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055777",
+    "mapId": "hajin-dmz",
+    "category": "gas-station",
+    "title": "Gas Station",
+    "description": "Gas Station localizado em hajin-dmz.",
+    "coords": [
+      -0.92624466145753,
+      0.44718523978895
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055795",
+    "mapId": "hajin-dmz",
+    "category": "gas-station",
+    "title": "Gas Station",
+    "description": "Gas Station localizado em hajin-dmz.",
+    "coords": [
+      -0.7284436516581,
+      0.34429517138469
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055796",
+    "mapId": "hajin-dmz",
+    "category": "gas-station",
+    "title": "Marine Gas Station",
+    "description": "Gas Station localizado em hajin-dmz.",
+    "coords": [
+      -0.60425541412175,
+      0.33057021369338
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055896",
+    "mapId": "hajin-dmz",
+    "category": "gas-station",
+    "title": "Gas Station",
+    "description": "Gas Station localizado em hajin-dmz.",
+    "coords": [
+      -0.79568613891621,
+      0.37712723628191
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055905",
+    "mapId": "hajin-dmz",
+    "category": "gas-station",
+    "title": "Gas Station",
+    "description": "Gas Station localizado em hajin-dmz.",
+    "coords": [
+      -0.77616239556573,
+      0.534735834681
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055918",
+    "mapId": "hajin-dmz",
+    "category": "gas-station",
+    "title": "Marine Gas Station",
+    "description": "Gas Station localizado em hajin-dmz.",
+    "coords": [
+      -0.66161640748001,
+      0.67541099484129
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055921",
+    "mapId": "hajin-dmz",
+    "category": "gas-station",
+    "title": "Gas Station",
+    "description": "Gas Station localizado em hajin-dmz.",
+    "coords": [
+      -0.62162528942881,
+      0.62856729089212
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055924",
+    "mapId": "hajin-dmz",
+    "category": "gas-station",
+    "title": "Gas Station",
+    "description": "Gas Station localizado em hajin-dmz.",
+    "coords": [
+      -0.72331698969461,
+      0.61914137181536
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055928",
+    "mapId": "hajin-dmz",
+    "category": "gas-station",
+    "title": "Gas Station",
+    "description": "Gas Station localizado em hajin-dmz.",
+    "coords": [
+      -0.69656730850869,
+      0.43801251709455
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055934",
+    "mapId": "hajin-dmz",
+    "category": "gas-station",
+    "title": "Gas Station",
+    "description": "Gas Station localizado em hajin-dmz.",
+    "coords": [
+      -0.67348503657027,
+      0.52604066113112
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055940",
+    "mapId": "hajin-dmz",
+    "category": "gas-station",
+    "title": "Marine Gas Station",
+    "description": "Gas Station localizado em hajin-dmz.",
+    "coords": [
+      -0.61924383220881,
+      0.38598811851553
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055946",
+    "mapId": "hajin-dmz",
+    "category": "gas-station",
+    "title": "Gas Station",
+    "description": "Gas Station localizado em hajin-dmz.",
+    "coords": [
+      -0.64425611411471,
+      0.42797908963406
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055953",
+    "mapId": "hajin-dmz",
+    "category": "gas-station",
+    "title": "Gas Station",
+    "description": "Gas Station localizado em hajin-dmz.",
+    "coords": [
+      -0.55219733232701,
+      0.46593335674008
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055959",
+    "mapId": "hajin-dmz",
+    "category": "gas-station",
+    "title": "Gas Station",
+    "description": "Gas Station localizado em hajin-dmz.",
+    "coords": [
+      -0.49613527749159,
+      0.49768541351595
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055960",
+    "mapId": "hajin-dmz",
+    "category": "gas-station",
+    "title": "Marine Gas Station",
+    "description": "Gas Station localizado em hajin-dmz.",
+    "coords": [
+      -0.46454958412841,
+      0.46713077182775
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055964",
+    "mapId": "hajin-dmz",
+    "category": "gas-station",
+    "title": "Gas Station",
+    "description": "Gas Station localizado em hajin-dmz.",
+    "coords": [
+      -0.6124379659372,
+      0.54347622406804
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055969",
+    "mapId": "hajin-dmz",
+    "category": "gas-station",
+    "title": "Gas Station",
+    "description": "Gas Station localizado em hajin-dmz.",
+    "coords": [
+      -0.55129767974779,
+      0.5543762212522
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055976",
+    "mapId": "hajin-dmz",
+    "category": "gas-station",
+    "title": "Gas Station",
+    "description": "Gas Station localizado em hajin-dmz.",
+    "coords": [
+      -0.57250500603965,
+      0.60494308218072
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055982",
+    "mapId": "hajin-dmz",
+    "category": "gas-station",
+    "title": "Marine Gas Station",
+    "description": "Gas Station localizado em hajin-dmz.",
+    "coords": [
+      -0.47028793969596,
+      0.62829919430874
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055761",
+    "mapId": "hajin-dmz",
+    "category": "police-station",
+    "title": "Police Station",
+    "description": "Police Station localizado em hajin-dmz.",
+    "coords": [
+      -0.79447864083281,
+      0.73356414702492
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055766",
+    "mapId": "hajin-dmz",
+    "category": "police-station",
+    "title": "Police Station",
+    "description": "Police Station localizado em hajin-dmz.",
+    "coords": [
+      -0.8458117698037,
+      0.61312037458427
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055911",
+    "mapId": "hajin-dmz",
+    "category": "police-station",
+    "title": "Police Station",
+    "description": "Police Station localizado em hajin-dmz.",
+    "coords": [
+      -0.69518038155027,
+      0.64484838359104
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055949",
+    "mapId": "hajin-dmz",
+    "category": "police-station",
+    "title": "Police Station",
+    "description": "Police Station localizado em hajin-dmz.",
+    "coords": [
+      -0.61395788107274,
+      0.44454393228193
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055970",
+    "mapId": "hajin-dmz",
+    "category": "police-station",
+    "title": "Police Station",
+    "description": "Police Station localizado em hajin-dmz.",
+    "coords": [
+      -0.56142570098768,
+      0.55368960784539
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055758",
+    "mapId": "hajin-dmz",
+    "category": "fire-station",
+    "title": "Fire Station",
+    "description": "Fire Station localizado em hajin-dmz.",
+    "coords": [
+      -0.87255573141209,
+      0.77347196489127
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055767",
+    "mapId": "hajin-dmz",
+    "category": "fire-station",
+    "title": "Fire Station",
+    "description": "Fire Station localizado em hajin-dmz.",
+    "coords": [
+      -0.85010330419257,
+      0.60299292372858
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055769",
+    "mapId": "hajin-dmz",
+    "category": "fire-station",
+    "title": "Fire Station",
+    "description": "Fire Station localizado em hajin-dmz.",
+    "coords": [
+      -0.8757931460803,
+      0.52096719756554
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055897",
+    "mapId": "hajin-dmz",
+    "category": "fire-station",
+    "title": "Fire Station",
+    "description": "Fire Station localizado em hajin-dmz.",
+    "coords": [
+      -0.80426920776407,
+      0.37901547031974
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055923",
+    "mapId": "hajin-dmz",
+    "category": "fire-station",
+    "title": "Fire Station",
+    "description": "Fire Station localizado em hajin-dmz.",
+    "coords": [
+      -0.70674924078435,
+      0.61799883503022
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055966",
+    "mapId": "hajin-dmz",
+    "category": "fire-station",
+    "title": "Fire Station",
+    "description": "Fire Station localizado em hajin-dmz.",
+    "coords": [
+      -0.54580451570152,
+      0.5251950825287
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055762",
+    "mapId": "hajin-dmz",
+    "category": "lieutenant-hunt-tower",
+    "title": "Lieutenant Hunt Tower",
+    "description": "Lieutenant Hunt Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.78092376933475,
+      0.69654234771953
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055778",
+    "mapId": "hajin-dmz",
+    "category": "lieutenant-hunt-tower",
+    "title": "Lieutenant Hunt Tower",
+    "description": "Lieutenant Hunt Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.91397087298611,
+      0.43645672274093
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055939",
+    "mapId": "hajin-dmz",
+    "category": "lieutenant-hunt-tower",
+    "title": "Lieutenant Hunt Tower",
+    "description": "Lieutenant Hunt Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.65735767504628,
+      0.4726479542108
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055941",
+    "mapId": "hajin-dmz",
+    "category": "lieutenant-hunt-tower",
+    "title": "Lieutenant Hunt Tower",
+    "description": "Lieutenant Hunt Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.59469625530622,
+      0.37148304911534
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055973",
+    "mapId": "hajin-dmz",
+    "category": "lieutenant-hunt-tower",
+    "title": "Lieutenant Hunt Tower",
+    "description": "Lieutenant Hunt Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.51467015990261,
+      0.56327307103818
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055763",
+    "mapId": "hajin-dmz",
+    "category": "clinic",
+    "title": "Clinic",
+    "description": "Clinic localizado em hajin-dmz.",
+    "coords": [
+      -0.79371254191514,
+      0.6737130169968
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055765",
+    "mapId": "hajin-dmz",
+    "category": "clinic",
+    "title": "Clinic",
+    "description": "Clinic localizado em hajin-dmz.",
+    "coords": [
+      -0.83182136758424,
+      0.62685248070761
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055774",
+    "mapId": "hajin-dmz",
+    "category": "clinic",
+    "title": "Clinic",
+    "description": "Clinic localizado em hajin-dmz.",
+    "coords": [
+      -0.91302673544772,
+      0.46108937450111
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055788",
+    "mapId": "hajin-dmz",
+    "category": "clinic",
+    "title": "Clinic",
+    "description": "Clinic localizado em hajin-dmz.",
+    "coords": [
+      -0.92451835197781,
+      0.5672425611904
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055907",
+    "mapId": "hajin-dmz",
+    "category": "clinic",
+    "title": "Clinic",
+    "description": "Clinic localizado em hajin-dmz.",
+    "coords": [
+      -0.76616461607387,
+      0.58600770701624
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055922",
+    "mapId": "hajin-dmz",
+    "category": "clinic",
+    "title": "Clinic",
+    "description": "Clinic localizado em hajin-dmz.",
+    "coords": [
+      -0.69360930199372,
+      0.61685629799928
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055927",
+    "mapId": "hajin-dmz",
+    "category": "clinic",
+    "title": "Clinic",
+    "description": "Clinic localizado em hajin-dmz.",
+    "coords": [
+      -0.7447183247549,
+      0.47182874191776
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055948",
+    "mapId": "hajin-dmz",
+    "category": "clinic",
+    "title": "Clinic",
+    "description": "Clinic localizado em hajin-dmz.",
+    "coords": [
+      -0.65738820943903,
+      0.44540221327641
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055971",
+    "mapId": "hajin-dmz",
+    "category": "clinic",
+    "title": "Clinic",
+    "description": "Clinic localizado em hajin-dmz.",
+    "coords": [
+      -0.56769134124616,
+      0.56218644312077
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055771",
+    "mapId": "hajin-dmz",
+    "category": "bounties",
+    "title": "Bounties",
+    "description": "Bounties localizado em hajin-dmz.",
+    "coords": [
+      -0.88995520966222,
+      0.48311731771446
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055786",
+    "mapId": "hajin-dmz",
+    "category": "bounties",
+    "title": "Bounties",
+    "description": "Bounties localizado em hajin-dmz.",
+    "coords": [
+      -0.90778136773918,
+      0.57805668775734
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055898",
+    "mapId": "hajin-dmz",
+    "category": "bounties",
+    "title": "Bounties",
+    "description": "Bounties localizado em hajin-dmz.",
+    "coords": [
+      -0.77397097473215,
+      0.39326304100499
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055913",
+    "mapId": "hajin-dmz",
+    "category": "bounties",
+    "title": "Bounties",
+    "description": "Bounties localizado em hajin-dmz.",
+    "coords": [
+      -0.69589450865871,
+      0.6337086941475
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055965",
+    "mapId": "hajin-dmz",
+    "category": "bounties",
+    "title": "Bounties",
+    "description": "Bounties localizado em hajin-dmz.",
+    "coords": [
+      -0.55164100253745,
+      0.51300762499497
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055779",
+    "mapId": "hajin-dmz",
+    "category": "exfil",
+    "title": "Exfil",
+    "description": "Exfil localizado em hajin-dmz.",
+    "coords": [
+      -0.87225715833432,
+      0.4444387409462
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055797",
+    "mapId": "hajin-dmz",
+    "category": "exfil",
+    "title": "Exfil",
+    "description": "Exfil localizado em hajin-dmz.",
+    "coords": [
+      -0.45775454770006,
+      0.463519263815
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055798",
+    "mapId": "hajin-dmz",
+    "category": "exfil",
+    "title": "Exfil",
+    "description": "Exfil localizado em hajin-dmz.",
+    "coords": [
+      -0.55696972453399,
+      0.50082008371386
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055894",
+    "mapId": "hajin-dmz",
+    "category": "exfil",
+    "title": "Exfil",
+    "description": "Exfil localizado em hajin-dmz.",
+    "coords": [
+      -0.62247654057802,
+      0.47006576166081
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055895",
+    "mapId": "hajin-dmz",
+    "category": "exfil",
+    "title": "Exfil",
+    "description": "Exfil localizado em hajin-dmz.",
+    "coords": [
+      -0.6533473214356,
+      0.37603713717876
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056026",
+    "mapId": "hajin-dmz",
+    "category": "exfil",
+    "title": "Exfil",
+    "description": "Exfil localizado em hajin-dmz.",
+    "coords": [
+      -0.87969449611055,
+      0.52091676305852
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056027",
+    "mapId": "hajin-dmz",
+    "category": "exfil",
+    "title": "Exfil",
+    "description": "Exfil localizado em hajin-dmz.",
+    "coords": [
+      -0.72949743448126,
+      0.61488926949784
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056028",
+    "mapId": "hajin-dmz",
+    "category": "exfil",
+    "title": "Exfil",
+    "description": "Exfil localizado em hajin-dmz.",
+    "coords": [
+      -0.65552013522026,
+      0.40261269648947
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056039",
+    "mapId": "hajin-dmz",
+    "category": "exfil",
+    "title": "Exfil",
+    "description": "Exfil localizado em hajin-dmz.",
+    "coords": [
+      -0.47334056484334,
+      0.45812927445257
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056040",
+    "mapId": "hajin-dmz",
+    "category": "exfil",
+    "title": "Exfil",
+    "description": "Exfil localizado em hajin-dmz.",
+    "coords": [
+      -0.91591015200262,
+      0.45593669668322
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056041",
+    "mapId": "hajin-dmz",
+    "category": "exfil",
+    "title": "Final Exfil",
+    "description": "Exfil localizado em hajin-dmz.",
+    "coords": [
+      -0.93742394344787,
+      0.81444610949966
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056113",
+    "mapId": "hajin-dmz",
+    "category": "exfil",
+    "title": "Exfil",
+    "description": "Exfil localizado em hajin-dmz.",
+    "coords": [
+      -0.86942252375277,
+      0.55850437235001
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056131",
+    "mapId": "hajin-dmz",
+    "category": "exfil",
+    "title": "Final Exfil",
+    "description": "Exfil localizado em hajin-dmz.",
+    "coords": [
+      -0.88643596407834,
+      0.83519617535745
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056336",
+    "mapId": "hajin-dmz",
+    "category": "exfil",
+    "title": "Final Exfil",
+    "description": "Exfil localizado em hajin-dmz.",
+    "coords": [
+      -0.53433798629786,
+      0.34491754025144
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056337",
+    "mapId": "hajin-dmz",
+    "category": "exfil",
+    "title": "Exfil",
+    "description": "Exfil localizado em hajin-dmz.",
+    "coords": [
+      -0.76549450933956,
+      0.59027865686814
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1057457",
+    "mapId": "hajin-dmz",
+    "category": "exfil",
+    "title": "Final Exfil",
+    "description": "Exfil localizado em hajin-dmz.",
+    "coords": [
+      -0.49901113240452,
+      0.42620679217794
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055784",
+    "mapId": "hajin-dmz",
+    "category": "compound",
+    "title": "Compound",
+    "description": "Compound localizado em hajin-dmz.",
+    "coords": [
+      -0.91605708759323,
+      0.6270770267175
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055908",
+    "mapId": "hajin-dmz",
+    "category": "compound",
+    "title": "Compound",
+    "description": "Compound localizado em hajin-dmz.",
+    "coords": [
+      -0.78673147679081,
+      0.60385992220968
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055925",
+    "mapId": "hajin-dmz",
+    "category": "compound",
+    "title": "Compound",
+    "description": "Compound localizado em hajin-dmz.",
+    "coords": [
+      -0.7339036580118,
+      0.43140374428511
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055929",
+    "mapId": "hajin-dmz",
+    "category": "compound",
+    "title": "Compound",
+    "description": "Compound localizado em hajin-dmz.",
+    "coords": [
+      -0.6870678663702,
+      0.39248801215972
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055944",
+    "mapId": "hajin-dmz",
+    "category": "compound",
+    "title": "Compound",
+    "description": "Compound localizado em hajin-dmz.",
+    "coords": [
+      -0.59138441002946,
+      0.43347209845724
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055974",
+    "mapId": "hajin-dmz",
+    "category": "compound",
+    "title": "Compound",
+    "description": "Compound localizado em hajin-dmz.",
+    "coords": [
+      -0.53621366270519,
+      0.58653201656446
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056119",
+    "mapId": "hajin-dmz",
+    "category": "radio-tower",
+    "title": "Radio Tower",
+    "description": "Radio Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.90673137498362,
+      0.75643761983403
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056120",
+    "mapId": "hajin-dmz",
+    "category": "radio-tower",
+    "title": "Radio Tower",
+    "description": "Radio Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.83116640631238,
+      0.7264087669021
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056121",
+    "mapId": "hajin-dmz",
+    "category": "radio-tower",
+    "title": "Radio Tower",
+    "description": "Radio Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.79756920358247,
+      0.6654036891604
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056122",
+    "mapId": "hajin-dmz",
+    "category": "radio-tower",
+    "title": "Radio Tower",
+    "description": "Radio Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.86627587261998,
+      0.52293418317467
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056123",
+    "mapId": "hajin-dmz",
+    "category": "radio-tower",
+    "title": "Radio Tower",
+    "description": "Radio Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.53791589624828,
+      0.41783489244605
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056124",
+    "mapId": "hajin-dmz",
+    "category": "radio-tower",
+    "title": "Radio Tower",
+    "description": "Radio Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.5072304734025,
+      0.47625612108806
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056125",
+    "mapId": "hajin-dmz",
+    "category": "radio-tower",
+    "title": "Radio Tower",
+    "description": "Radio Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.55939049287699,
+      0.46554889394757
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056126",
+    "mapId": "hajin-dmz",
+    "category": "radio-tower",
+    "title": "Radio Tower",
+    "description": "Radio Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.74598169271792,
+      0.48675005430128
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056127",
+    "mapId": "hajin-dmz",
+    "category": "radio-tower",
+    "title": "Radio Tower",
+    "description": "Radio Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.79172944965819,
+      0.50168403849976
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056128",
+    "mapId": "hajin-dmz",
+    "category": "radio-tower",
+    "title": "Radio Tower",
+    "description": "Radio Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.68396357438397,
+      0.53038751273212
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056129",
+    "mapId": "hajin-dmz",
+    "category": "radio-tower",
+    "title": "Radio Tower",
+    "description": "Radio Tower localizado em hajin-dmz.",
+    "coords": [
+      -0.72121409317845,
+      0.59020863946387
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055604",
+    "mapId": "hajin-dmz",
+    "category": "story-mission",
+    "title": "Breaking New Ground",
+    "description": "Steps: - Follow Rex - Clear the Area - Search Drone - Use a Tourniquet - Move Rex To Safety - Head into the Village and Look for Medical - Find and Use a Medkit - Head towards the signal - Find a Vantage Spot to Scout - Sneak into the Canal - Infiltrate the Re-education Facility - Find the Drone Black Box - Access the Black Box - Get to Exfil",
+    "coords": [
+      -0.16754150390625,
+      0.97773574620119
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055616",
+    "mapId": "hajin-dmz",
+    "category": "story-mission",
+    "title": "Operation Critical Extraction",
+    "description": "Location: Mirae General Hospital Mission Briefing: Intel confirms a High Value Target is recovering in the hospital. Locate and secure him for extraction. Let's find out what the enemy was protecting him for. Threat Assessment: Medium Recommended Gear: 2-Plate Armor Vest, Medkit Main Objectives: - Locate the HVT - Eliminate any Resistance - Extract the HVT Rewards: - x1 Mirae Electrical Room Key - x1 [Defibrillator Recipe](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055856) - x25,000 Cash",
+    "coords": [
+      -0.14694213867187,
+      0.85758610318891
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055618",
+    "mapId": "hajin-dmz",
+    "category": "story-mission",
+    "title": "Operation Shopping Hacks",
+    "description": "Location: Nurigo Mall Mission Briefing: The shopping district is home to Lieutenant Jang-ui's encampment, a potential hot spot for the enemy's weapons program... Threat Assessment: Medium Recommended Gear: 2-Plate Armor Vest, Medkit, Night Vision Goggles Main Objectives: - Hack the Network - Reprogram the Protocol - Secure any Evidence Rewards: - x1 Coin Mining Den Key - x1 Night Vision Goggles - x25,000 Cash",
+    "coords": [
+      -0.14694213867187,
+      0.62070995858079
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055619",
+    "mapId": "hajin-dmz",
+    "category": "story-mission",
+    "title": "Operation Silent Ledger",
+    "description": "Location: Cheongun Village Mission Briefing: The enemy is using stolen printing plates to bankroll their operations... Threat Assessment: Medium Recommended Gear: 2-Plate Armor Vest, Medkit Main Objectives: - Enter the Casino - Breach the Vault - Secure the Plates Rewards: - x1 Gold Bar - x1 Counting Room Vault Key - x1 Polaris Dagor A1 - x25,000 Cash",
+    "coords": [
+      -0.14694213867187,
+      0.74086596553184
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056344",
+    "mapId": "hajin-dmz",
+    "category": "story-mission",
+    "title": "Operation Iron Citadel",
+    "description": "Location: ?? Mission Briefing: ?? Threat Assessment: ?? Recommended Gear: ?? Main Objectives: - ?? Rewards: - ??",
+    "coords": [
+      -0.14694213867188,
+      0.3838319678765
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056345",
+    "mapId": "hajin-dmz",
+    "category": "story-mission",
+    "title": "Operation Grid Assault",
+    "description": "Location: ?? Mission Briefing: ?? Threat Assessment: ?? Recommended Gear: ?? Main Objectives: - ?? Rewards: - ??",
+    "coords": [
+      -0.14694213867188,
+      0.26367094433665
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055611",
+    "mapId": "hajin-dmz",
+    "category": "chapter",
+    "title": "DMZ Orders",
+    "description": "Pages: - [DMZ Orders Page 1](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055605) - [DMZ Orders Page 5](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055984) - [DMZ Orders Page 7](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1056114) - [DMZ Orders Page 10](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1056132) - [DMZ Orders Page 11](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1056334) Chapter Ending Story Mission: None",
+    "coords": [
+      -0.16067504882812,
+      0.97773574620119
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055612",
+    "mapId": "hajin-dmz",
+    "category": "chapter",
+    "title": "Human Intel",
+    "description": "Unlocked by: Completing the [Prologue](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055611) Pages: - [Human Intel Page 1](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055615) - [Human Intel Page 2](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055983) Chapter Ending Story Mission: [Operation Critical Extraction](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055616)",
+    "coords": [
+      -0.16754150390625,
+      0.85758610318891
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055613",
+    "mapId": "hajin-dmz",
+    "category": "chapter",
+    "title": "Underground",
+    "description": "Unlocked by: Completing the [Prologue](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055611) Pages: - [Underground Page 1](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1056116) - [Underground Page 2](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1056117) Chapter Ending Story Mission: [Operation Shopping Hacks](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055618)",
+    "coords": [
+      -0.16754150390625,
+      0.62070995858079
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055614",
+    "mapId": "hajin-dmz",
+    "category": "chapter",
+    "title": "Counterfeit",
+    "description": "Unlocked by: Completing the [Prologue](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055611) Pages: - [Counterfeit Page 1](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1056000) - [Counterfeit Page 2](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1056037) Chapter Ending Story Mission: [Operation Silent Ledger](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055619)",
+    "coords": [
+      -0.16754150390625,
+      0.74086596553184
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056338",
+    "mapId": "hajin-dmz",
+    "category": "chapter",
+    "title": "Hornet's Nest",
+    "description": "Unlocked by: Completing [DMZ Orders Page 11](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1056334) Pages: - [Hornet's Nest Page 1](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1056340) - [Hornet's Nest Page 2](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1056341) Chapter Ending Story Mission: [Operation Iron Citadel](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1056344)",
+    "coords": [
+      -0.16754150390625,
+      0.3838319678765
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056339",
+    "mapId": "hajin-dmz",
+    "category": "chapter",
+    "title": "The Grid",
+    "description": "Unlocked by: Completing [DMZ Orders Page 11](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1056334) Pages: - [The Grid Page 1](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1056342) - [The Grid Page 2](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1056343) Chapter Ending Story Mission: [Operation Grid Assault](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1056345)",
+    "coords": [
+      -0.16754150390625,
+      0.26367094433665
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055605",
+    "mapId": "hajin-dmz",
+    "category": "page",
+    "title": "DMZ Orders Page 1",
+    "description": "Orders: - Gear Up - Equip a Weapon, a Backpack, an Armor Vest, and a Medkit from Your Stash - Crackshot - Knock Down 3 Firing Range Targets - First Op - Deploy to DMZ in Dynamic Ops Rewards: - x1 Medkit - x1 2-Plate Armor Vest - x20,000 Cash",
+    "coords": [
+      -0.15380859375,
+      0.97773574620119
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055615",
+    "mapId": "hajin-dmz",
+    "category": "page",
+    "title": "Human Intel Page 1",
+    "description": "Orders: 1. Hunter - Locate and Climb a [Hunt Lieutenant Tower](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?search=lieutenant_hunt_tower%20%26%26%20category%3A28417) - Use the Terminal at the Top to Locate the Nearest Lieutenant 2. Triage Protocol - Head to a [Clinic](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?search=clinic%20%26%26%20category%3A28418) - Loot a Bandage - Loot 30 Chemicals 3. No One Left - Clear a [Compound](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?search=compound%20%26%26%20category%3A28422) - Loot Dropped Medical Extraction Intel Found After Clearing a Compound Rewards: - x1 [Flash Recipe](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055831) - x20,000 Cash - x1 Basic Triage Kit",
+    "coords": [
+      -0.16067504882813,
+      0.85758610318891
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055983",
+    "mapId": "hajin-dmz",
+    "category": "page",
+    "title": "Human Intel Page 2",
+    "description": "Orders: - Blindness - Print 4 Flash Grenades - Kill 8 Flashed Enemies - Payment Due - Collect a Dynamic Op Phone - Earn $11,500 Cash from Completing Dynamic Ops - Operation Critical Extraction - Complete the [Operation Critical Extraction](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055616) story mission Rewards: - x3 UAV - x20,000 Cash - x1 Operator Rescue Beacon - x1 Weapon Insurance Contract",
+    "coords": [
+      -0.15380859375,
+      0.85758610318891
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055984",
+    "mapId": "hajin-dmz",
+    "category": "page",
+    "title": "DMZ Orders Page 5",
+    "description": "Orders: - Operation Rewards - Collect a Dynamic Op in Cheongun Village - Complete a Dynamic Op - Loot a Dynamic Op Crate - Preparation - Print a Medium Backpack - Print a 2-Plate Armor Vest - Work Quietly - Gunsmith a Suppressor Onto a Weapon - Print a Throwing Knife - Kill 8 Enemies in a Row Without Being Damaged Rewards: - x1 Medium Backpack - x1 Ammo Box - x20,000 Cash",
+    "coords": [
+      -0.14694213867188,
+      0.97773574620119
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056000",
+    "mapId": "hajin-dmz",
+    "category": "page",
+    "title": "Counterfeit Page 1",
+    "description": "Orders: - Hostile Force - Locate and Enter a [Police Station](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?search=police_station%20%26%26%20category%3A28415) - Search 3 Containers in a Police Station - Eliminate 5 Soldiers While Inside a Police Station - Robbery - Open a Safe (Often Found in [Compounds](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?search=compound%20%26%26%20category%3A28422) and Locked Spaces) - Extract $5,000 Total Backpack and Loadout Value - Execute Intel - Hack a [UAV Tower in Deadtown](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055775) - Kill 5 NK Soldiers Pinged by a UAV Tower - Loot Counterfeit Cash Dropped by Pinged NK Soldiers Rewards: - x1 [Recon Drone Recipe](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055858) - x20,000 Cash - x1 Explosives Equipment Kit",
+    "coords": [
+      -0.16067504882812,
+      0.74086596553184
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056037",
+    "mapId": "hajin-dmz",
+    "category": "page",
+    "title": "Counterfeit Page 2",
+    "description": "Orders: - Suit Breach - Kill 15 Enemies in Hazmat Suits (Often Found in Irradiated Areas) - Eyes Everywhere - Print a Recon Drone - Mark 10 Enemies in the [Heavenly Luck Casino](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055917) With a Recon Drone - Operation Silent Ledger - Complete the [Operation Silent Ledger](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055619) Story Mission Rewards: - x20,000 Cash - x1 Operator Rescue Beacon - x1 Weapon Insurance Contract",
+    "coords": [
+      -0.15380859375,
+      0.74086596553184
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056114",
+    "mapId": "hajin-dmz",
+    "category": "page",
+    "title": "DMZ Orders Page 7",
+    "description": "Orders: - Recognition - Kill 15 Enemies With an Unsuppressed Weapon in a High Threat Level Location - Radiation Station - Locate a [Fire Station](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?search=fire_station%20%26%26%20category%3A28416) - Loot 3 Gas Masks or Radiation Pill Bottles - Search 5 Containers While in Radiation - Healer - Track the Medkit Recipe in the 3D Printer - Print a Medkit Rewards: - x1 UAV - x1 Armor Box - x20,000 Cash",
+    "coords": [
+      -0.14007568359375,
+      0.97773574620119
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056116",
+    "mapId": "hajin-dmz",
+    "category": "page",
+    "title": "Underground Page 1",
+    "description": "Orders: - Eye in the Sky - Commandeer a [SAM Site](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055776) - Shoot Down a Chopper Carrying Cargo With a SAM Site - Loot a Crate From a Downed Chopper - Watch for Bumps - Steal an Enemy Vehicle - Refuel and Repair a Vehicle at a [Gas Station](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?search=gas_station%20%26%26%20category%3A28414) - Run Over 7 Enemies in a Vehicle - Triangulation - Place a Transmitter on Top of 2 [Radio Towers](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?search=radio_tower%20%26%26%20category%3A28432) - Place a Transmitter on Top of La Grande Vie in Songdo Wharf Rewards: - x1 [DDOS Recipe](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055857) - x1 [Decoy Grenade Recipe](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055832) - x1 [Weak Night Vision Goggles Recipe](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055872) - x20,000 Cash",
+    "coords": [
+      -0.16067504882812,
+      0.62070995858079
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056117",
+    "mapId": "hajin-dmz",
+    "category": "page",
+    "title": "Underground Page 2",
+    "description": "Orders: - Dead Battery - Print a DDOS Field Upgrade - Disable 3 Enemy Vehicles or Drones With the DDOS Field Upgrade - Death from Above - Trick a Drone With a Decoy Grenade - Destroy 3 Drones - Loot a Drone Motherboard From a Destroyed Drone - Operation Shopping Hacks - Complete the [Operation Shopping Hacks](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055618) Story Mission Rewards: - x20,000 Cash - x1 Basic Restock Kit - x1 Operator Rescue Beacon - x1 Weapon Insurance Contract",
+    "coords": [
+      -0.15380859375,
+      0.62070995858079
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056132",
+    "mapId": "hajin-dmz",
+    "category": "page",
+    "title": "DMZ Orders Page 10",
+    "description": "Orders: - Crashed Crate - Retrieve 3 Lost Supply Drops - Complete a Loot [Radio Tower](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?search=radio_tower%20%26%26%20category%3A28432) Side Op - Surprise Me - Complete 5 Dynamic Ops - Complete a Story Mission Using the Random Mission Deploy - Healer - Print or Extract 3 Reactive Metals (Often Found in Garages and Construction Areas) - Extract 30 Metals - Print an Armor Box Rewards: - x1 Large Backpack - x20,000 Cash - x1 Basic Triage Kit",
+    "coords": [
+      -0.13320922851562,
+      0.97773574620119
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056334",
+    "mapId": "hajin-dmz",
+    "category": "page",
+    "title": "DMZ Orders Page 11",
+    "description": "Orders: - Information Power - Pay for Lieutenant Intel on the Boss Board - Kill a Lieutenant - Arms Deal - Purchase a Gun in Gunsmith - Gunsmith a Weapon With 3 or More Attachments - Friendly Face - Use the Ping Wheel to Request a Truce Rewards: - x1 Defibrillator - x1 Inflatable Decoy - x1 [C4 Recipe](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055836) - x20,000 Cash",
+    "coords": [
+      -0.1263427734375,
+      0.97773574620119
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056340",
+    "mapId": "hajin-dmz",
+    "category": "page",
+    "title": "Hornet's Nest Page 1",
+    "description": "Orders: - Goliath - Hit the Colossus With a Thermite or a Drill Charge - Hit the Colossus With a Shock Stick - Click, Boom - Print 5 C4 Charges - Kill 12 Armored Enemies with C4 - Kill 5 Enemies in One C4 Detonation - Navigate with Care - Pay for a Polaris Dagor A1 Infil - Clear a North Korean Convoy - Loot and Extract Chemical Components Found After Clearing a North Korean Convoy Rewards: - x1 [Large Backpack Recipe](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055821) - x1 Weapon Restock Kit - x20,000 Cash",
+    "coords": [
+      -0.16067504882812,
+      0.3838319678765
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056341",
+    "mapId": "hajin-dmz",
+    "category": "page",
+    "title": "Hornet's Nest Page 2",
+    "description": "Orders: - ?? Rewards: - ??",
+    "coords": [
+      -0.15380859375,
+      0.3838319678765
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056342",
+    "mapId": "hajin-dmz",
+    "category": "page",
+    "title": "The Grid Page 1",
+    "description": "Orders: - ?? Rewards: - ??",
+    "coords": [
+      -0.16067504882812,
+      0.26367094433665
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056343",
+    "mapId": "hajin-dmz",
+    "category": "page",
+    "title": "The Grid Page 2",
+    "description": "Orders: - ?? Rewards: - ??",
+    "coords": [
+      -0.15380859375,
+      0.26367094433665
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055799",
+    "mapId": "hajin-dmz",
+    "category": "consumables",
+    "title": "Bandage",
+    "description": "How to Unlock: Automatically unlocked at the start of DMZ Rarity: Uncommon Recipe: - x15 Synthetics - x15 Chemicals",
+    "coords": [
+      -0.17097473144532,
+      0.50741726870754
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055800",
+    "mapId": "hajin-dmz",
+    "category": "consumables",
+    "title": "Sedative Healer",
+    "description": "How to Unlock: Automatically unlocked at the start of DMZ Rarity: Uncommon Recipe: - x15 Synthetics - x15 Chemicals",
+    "coords": [
+      -0.16410827636719,
+      0.50741726870754
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055801",
+    "mapId": "hajin-dmz",
+    "category": "consumables",
+    "title": "Medkit",
+    "description": "How to Unlock: Automatically unlocked at the start of DMZ Rarity: Epic Recipe: - x30 Chemicals - x1 Binding Catalyst - x5 Biomaterials",
+    "coords": [
+      -0.15037536621094,
+      0.50741726870754
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055806",
+    "mapId": "hajin-dmz",
+    "category": "consumables",
+    "title": "Energy Drink",
+    "description": "How to Unlock: Find the recipe in game Rarity: Common Recipe: - x10 Chemicals - x10 Metals",
+    "coords": [
+      -0.17784118652344,
+      0.50741726870754
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055807",
+    "mapId": "hajin-dmz",
+    "category": "consumables",
+    "title": "Pain Killers",
+    "description": "How to Unlock: Find this recipe in game Rarity: Uncommon Recipe: - x15 Electronics - x15 Chemicals",
+    "coords": [
+      -0.15724182128906,
+      0.50741726870754
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055808",
+    "mapId": "hajin-dmz",
+    "category": "consumables",
+    "title": "Radiation Blockers",
+    "description": "How to Unlock: Find this recipe in game Rarity: Rare Recipe: - x30 Chemicals - x3 Biomaterials",
+    "coords": [
+      -0.14350891113282,
+      0.50741726870754
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055809",
+    "mapId": "hajin-dmz",
+    "category": "consumables",
+    "title": "Smelling Salts",
+    "description": "How to Unlock: Find this recipe in game Rarity: Rare Recipe: - x30 Chemicals - x3 Detonators",
+    "coords": [
+      -0.13664245605469,
+      0.50741726870754
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055810",
+    "mapId": "hajin-dmz",
+    "category": "consumables",
+    "title": "Self-Revive Kit",
+    "description": "How to Unlock: Reach DMZ Level 48 Rarity: Legendary Recipe: - x1 Stabilized Reagents - x5 Biomaterials - x3 Binding Catalyst",
+    "coords": [
+      -0.12977600097656,
+      0.50741726870754
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055811",
+    "mapId": "hajin-dmz",
+    "category": "consumables",
+    "title": "Door Breach Charge",
+    "description": "How to Unlock: Find this recipe in game Rarity: Ultra Recipe: - x1 Experimental Compounds - x5 Stock Rod - x3 Volatile Explosives",
+    "coords": [
+      -0.12290954589844,
+      0.50741726870754
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055802",
+    "mapId": "hajin-dmz",
+    "category": "plate-carriers",
+    "title": "1-Plate Armor Vest",
+    "description": "How to Unlock: Automatically unlocked at the start of DMZ Rarity: Uncommon Recipe: - x25 Synthetics - x25 Metals",
+    "coords": [
+      -0.17784118652344,
+      0.50055118170367
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055803",
+    "mapId": "hajin-dmz",
+    "category": "plate-carriers",
+    "title": "2-Plate Armor Vest",
+    "description": "How to Unlock: Automatically unlocked at the start of DMZ Rarity: Rare Recipe: - x50 Synthetics - x5 Reactive Metals",
+    "coords": [
+      -0.17097473144532,
+      0.50055118170367
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055812",
+    "mapId": "hajin-dmz",
+    "category": "plate-carriers",
+    "title": "2-Plate Ballistic Gel Vest",
+    "description": "How to Unlock: Find this recipe in game Rarity: Epic Recipe: - x50 Synthetics - x3 Binding Catalyst - x10 Reactive Metals",
+    "coords": [
+      -0.16410827636719,
+      0.50055118170367
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055813",
+    "mapId": "hajin-dmz",
+    "category": "plate-carriers",
+    "title": "2-Plate Helmet Armor Vest",
+    "description": "How to Unlock: Find this recipe in game Rarity: Epic Recipe: - x50 Synthetics - x3 Structural Alloy - x10 Reactive Metals",
+    "coords": [
+      -0.15724182128906,
+      0.50055118170367
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055814",
+    "mapId": "hajin-dmz",
+    "category": "plate-carriers",
+    "title": "3-Plate Armor Vest",
+    "description": "How to Unlock: DMZ Order Rarity: Legendary Recipe: - x2 Ballistic Fabric - x5 Nylon Cloth - x10 Reactive Metals",
+    "coords": [
+      -0.15037536621094,
+      0.50055118170367
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055815",
+    "mapId": "hajin-dmz",
+    "category": "plate-carriers",
+    "title": "3-Plate Ballistic Gel Vest",
+    "description": "How to Unlock: Find this recipe in game Rarity: Ultra Recipe: - x2 Experimental Compounds - x4 Stabilized Reagents - x10 Biomaterials",
+    "coords": [
+      -0.14350891113282,
+      0.50055118170367
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055816",
+    "mapId": "hajin-dmz",
+    "category": "plate-carriers",
+    "title": "3-Plate Helmet Armor Vest",
+    "description": "How to Unlock: Find this recipe in game Rarity: Ultra Recipe: - x2 Nano-Structured Alloy - x4 Alloyed Plating - x10 Reactive Metals",
+    "coords": [
+      -0.13664245605469,
+      0.50055118170367
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055817",
+    "mapId": "hajin-dmz",
+    "category": "plate-carriers",
+    "title": "Tempered Armor Vest",
+    "description": "How to Unlock: Find this recipe in game Rarity: Ultra Recipe: - x2 Military Composites - x4 Ballistic Fabric - x10 Rigid Synthetics",
+    "coords": [
+      -0.12977600097656,
+      0.50055118170367
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055804",
+    "mapId": "hajin-dmz",
+    "category": "backpacks",
+    "title": "Small Backpack",
+    "description": "How to Unlock: Automatically unlocked at the start of DMZ Rarity: Uncommon Recipe: - x25 Synthetics - x25 Metals",
+    "coords": [
+      -0.17784118652344,
+      0.49368508622932
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055805",
+    "mapId": "hajin-dmz",
+    "category": "backpacks",
+    "title": "Medium Backpack",
+    "description": "How to Unlock: Automatically unlocked at the start of DMZ Rarity: Rare Recipe: - x50 Synthetics",
+    "coords": [
+      -0.17097473144532,
+      0.49368508622932
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055818",
+    "mapId": "hajin-dmz",
+    "category": "backpacks",
+    "title": "Medium Scavenger Backpack",
+    "description": "How to Unlock: Find this recipe in game Rarity: Epic Recipe: - x50 Metals - x3 Nylon Cloth - x10 Rigid Synthetics",
+    "coords": [
+      -0.16410827636719,
+      0.49368508622932
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055819",
+    "mapId": "hajin-dmz",
+    "category": "backpacks",
+    "title": "Medium Weapon Backpack",
+    "description": "How to Unlock: Find this recipe in game Rarity: Epic Recipe: - x50 Synthetics - x3 High-Tenacity Fibers - x10 Rigid Synthetics",
+    "coords": [
+      -0.15724182128906,
+      0.49368508622932
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055820",
+    "mapId": "hajin-dmz",
+    "category": "backpacks",
+    "title": "Small Secure Backpack",
+    "description": "How to Unlock: Find this recipe in game Rarity: Epic Recipe: - x50 Metals - x3 Structural Alloy - x10 Rigid Synthetics",
+    "coords": [
+      -0.15037536621094,
+      0.49368508622932
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055821",
+    "mapId": "hajin-dmz",
+    "category": "backpacks",
+    "title": "Large Backpack",
+    "description": "How to Unlock: Complete [Hornet's Nest Page 1](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1056340) Rarity: Legendary Recipe: - x2 Nylon Laminate - x5 Structural Alloy - x10 Rigid Synthetics",
+    "coords": [
+      -0.14350891113282,
+      0.49368508622932
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055822",
+    "mapId": "hajin-dmz",
+    "category": "backpacks",
+    "title": "Large Scavenger Backpack",
+    "description": "How to Unlock: Find this recipe in game Rarity: Legendary Recipe: - x2 Nylon Laminate - x5 High-Tenacity Fibers - x10 Rigid Synthetics",
+    "coords": [
+      -0.13664245605469,
+      0.49368508622932
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055823",
+    "mapId": "hajin-dmz",
+    "category": "backpacks",
+    "title": "Medium Secure Backpack",
+    "description": "How to Unlock: Find this recipe in game Rarity: Legendary Recipe: - x2 Alloyed Plating - x5 Nylon Cloth - x10 Reactive Metals",
+    "coords": [
+      -0.12977600097656,
+      0.49368508622932
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055824",
+    "mapId": "hajin-dmz",
+    "category": "backpacks",
+    "title": "Large Secure Backpack",
+    "description": "How to Unlock: Find this recipe in game Rarity: Ultra Recipe: - x2 Prototype RF Module - x4 Alloyed Plating - x10 Rigid Synthetics",
+    "coords": [
+      -0.12290954589844,
+      0.49368508622932
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055825",
+    "mapId": "hajin-dmz",
+    "category": "backpacks",
+    "title": "Secure Scavenger Backpack",
+    "description": "How to Unlock: Find this recipe in game Rarity: Ultra Recipe: - x2 Military Composites - x4 Nylon Laminate - x10 Reactive Metals",
+    "coords": [
+      -0.11604309082032,
+      0.49368508622932
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055826",
+    "mapId": "hajin-dmz",
+    "category": "tacticals",
+    "title": "Concussion Grenade",
+    "description": "How to Unlock: Reach DMZ Level 4 Rarity: Common Recipe: - x10 Synthetics - x10 Chemicals",
+    "coords": [
+      -0.17784118652344,
+      0.48681898238307
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055827",
+    "mapId": "hajin-dmz",
+    "category": "tacticals",
+    "title": "Snapshot Grenade",
+    "description": "How to Unlock: Reach DMZ Level 9 Rarity: Common Recipe: - x10 Synthetics - x10 Chemicals",
+    "coords": [
+      -0.17097473144532,
+      0.48681898238307
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055828",
+    "mapId": "hajin-dmz",
+    "category": "tacticals",
+    "title": "Smoke Grenade",
+    "description": "How to Unlock: Reach DMZ Level 4 Rarity: Common Recipe: - x10 Synthetics - x10 Chemicals",
+    "coords": [
+      -0.16410827636719,
+      0.48681898238307
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055829",
+    "mapId": "hajin-dmz",
+    "category": "tacticals",
+    "title": "Shock Stick",
+    "description": "How to Unlock: Reach DMZ Level 17 Rarity: Common Recipe: - x10 Synthetics - x10 Chemicals",
+    "coords": [
+      -0.15724182128906,
+      0.48681898238307
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055830",
+    "mapId": "hajin-dmz",
+    "category": "tacticals",
+    "title": "Screamer Mine",
+    "description": "How to Unlock: Find this recipe in game Rarity: Common Recipe: - x10 Synthetics - x10 Chemicals",
+    "coords": [
+      -0.15037536621094,
+      0.48681898238307
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055831",
+    "mapId": "hajin-dmz",
+    "category": "tacticals",
+    "title": "Flash",
+    "description": "How to Unlock: Complete [Human Intel Page\\_2](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055615) Rarity: Common Recipe: - x10 Synthetics - x10 Chemicals",
+    "coords": [
+      -0.14350891113282,
+      0.48681898238307
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055832",
+    "mapId": "hajin-dmz",
+    "category": "tacticals",
+    "title": "Decoy Grenade",
+    "description": "How to Unlock: Complete [Underground Page 1](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1056116) Rarity: Common Recipe: - x10 Synthetics - x10 Chemicals",
+    "coords": [
+      -0.13664245605469,
+      0.48681898238307
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055833",
+    "mapId": "hajin-dmz",
+    "category": "tacticals",
+    "title": "Stim",
+    "description": "How to Unlock: Find this recipe in game Rarity: Uncommon Recipe: - x15 Synthetics - x15 Chemicals",
+    "coords": [
+      -0.12977600097656,
+      0.48681898238307
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055834",
+    "mapId": "hajin-dmz",
+    "category": "tacticals",
+    "title": "Heartbeat Sensor",
+    "description": "How to Unlock: Find this recipe in game Rarity: Uncommon Recipe: - x25 Synthetics - x25 Chemicals",
+    "coords": [
+      -0.12290954589844,
+      0.48681898238307
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055835",
+    "mapId": "hajin-dmz",
+    "category": "tacticals",
+    "title": "Spotter Scope",
+    "description": "How to Unlock: Reach DMZ Level 12 Rarity: Rare Recipe: - x50 Synthetics - x5 Electronic Sensors",
+    "coords": [
+      -0.11604309082032,
+      0.48681898238307
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055836",
+    "mapId": "hajin-dmz",
+    "category": "lethals",
+    "title": "C4",
+    "description": "How to Unlock: Complete [DMZ Orders Page 11](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1056334) Rarity: Common Recipe: - x10 Chemicals - x10 Metals",
+    "coords": [
+      -0.17784118652344,
+      0.47995287026357
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055837",
+    "mapId": "hajin-dmz",
+    "category": "lethals",
+    "title": "Claymore",
+    "description": "How to Unlock: Find this recipe in game Rarity: Common Recipe: - x10 Chemicals - x10 Metals",
+    "coords": [
+      -0.17097473144532,
+      0.47995287026357
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055838",
+    "mapId": "hajin-dmz",
+    "category": "lethals",
+    "title": "Frag Grenade",
+    "description": "How to Unlock: Reach DMZ Level 7 Rarity: Common Recipe: - x10 Chemicals - x10 Metals",
+    "coords": [
+      -0.16410827636719,
+      0.47995287026357
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055839",
+    "mapId": "hajin-dmz",
+    "category": "lethals",
+    "title": "Molotov Cocktail",
+    "description": "How to Unlock: Reach DMZ Level 36 Rarity: Common Recipe: - x10 Chemicals - x10 Metals",
+    "coords": [
+      -0.15724182128906,
+      0.47995287026357
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055840",
+    "mapId": "hajin-dmz",
+    "category": "lethals",
+    "title": "Zip Gun",
+    "description": "How to Unlock: Find this recipe in game Rarity: Common Recipe: - x10 Chemicals - x10 Metals",
+    "coords": [
+      -0.15037536621094,
+      0.47995287026357
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055841",
+    "mapId": "hajin-dmz",
+    "category": "lethals",
+    "title": "Proximity Mine",
+    "description": "How to Unlock: Find this recipe in game Rarity: Common Recipe: - x10 Chemicals - x10 Metals",
+    "coords": [
+      -0.14350891113282,
+      0.47995287026357
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055842",
+    "mapId": "hajin-dmz",
+    "category": "lethals",
+    "title": "Semtex",
+    "description": "How to Unlock: Reach DMZ Level 23 Rarity: Common Recipe: - x10 Chemicals - x10 Metals",
+    "coords": [
+      -0.13664245605469,
+      0.47995287026357
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055843",
+    "mapId": "hajin-dmz",
+    "category": "lethals",
+    "title": "Thermite",
+    "description": "How to Unlock: Reach DMZ Level 41 Rarity: Common Recipe: - x10 Chemicals - x10 Metals",
+    "coords": [
+      -0.12977600097656,
+      0.47995287026357
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055844",
+    "mapId": "hajin-dmz",
+    "category": "lethals",
+    "title": "Drill Charge",
+    "description": "How to Unlock: Find this recipe in game Rarity: Uncommon Recipe: - x15 Chemicals - x15 Metals",
+    "coords": [
+      -0.12290954589844,
+      0.47995287026357
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055845",
+    "mapId": "hajin-dmz",
+    "category": "lethals",
+    "title": "Trip Wire",
+    "description": "How to Unlock: Find this recipe in game Rarity: Uncommon Recipe: - x15 Chemicals - x15 Metals",
+    "coords": [
+      -0.11604309082032,
+      0.47995287026357
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055846",
+    "mapId": "hajin-dmz",
+    "category": "field-upgrades",
+    "title": "Inflatable Decoy",
+    "description": "How to Unlock: Reach DMZ Level 52 Rarity: Uncommon Recipe: - x15 Synthetics - x15 Electronics",
+    "coords": [
+      -0.17784118652344,
+      0.47308674996935
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055847",
+    "mapId": "hajin-dmz",
+    "category": "field-upgrades",
+    "title": "Ammo Box",
+    "description": "How to Unlock: Reach DMZ Level 12 Rarity: Uncommon Recipe: - x15 Synthetics - x15 Metals",
+    "coords": [
+      -0.17097473144532,
+      0.47308674996935
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055848",
+    "mapId": "hajin-dmz",
+    "category": "field-upgrades",
+    "title": "Portable Radar",
+    "description": "How to Unlock: Find this recipe in game Rarity: Uncommon Recipe: - x15 Synthetics - x15 Electronics",
+    "coords": [
+      -0.16410827636719,
+      0.47308674996935
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055849",
+    "mapId": "hajin-dmz",
+    "category": "field-upgrades",
+    "title": "Razor Wire Trap",
+    "description": "How to Unlock: Find this recipe in game Rarity: Uncommon Recipe: - x15 Electronics - x15 Metals",
+    "coords": [
+      -0.15724182128906,
+      0.47308674996935
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055850",
+    "mapId": "hajin-dmz",
+    "category": "field-upgrades",
+    "title": "Rebreather",
+    "description": "How to Unlock: Find this recipe in game Rarity: Uncommon Recipe: - x15 Synthetics - x15 Chemicals",
+    "coords": [
+      -0.15037536621094,
+      0.47308674996935
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055851",
+    "mapId": "hajin-dmz",
+    "category": "field-upgrades",
+    "title": "Riot Shield",
+    "description": "How to Unlock: Find this recipe in game Rarity: Uncommon Recipe: - x15 Synthetics - x15 Metals",
+    "coords": [
+      -0.14350891113282,
+      0.47308674996935
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055852",
+    "mapId": "hajin-dmz",
+    "category": "field-upgrades",
+    "title": "Seeker Drone",
+    "description": "How to Unlock: Find this recipe in game Rarity: Uncommon Recipe: - x15 Synthetics - x15 Electronics",
+    "coords": [
+      -0.13664245605469,
+      0.47308674996935
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055853",
+    "mapId": "hajin-dmz",
+    "category": "field-upgrades",
+    "title": "Smoke Wall",
+    "description": "How to Unlock: Find this recipe in game Rarity: Uncommon Recipe: - x15 Electronics - x15 Chemicals",
+    "coords": [
+      -0.12977600097656,
+      0.47308674996935
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055854",
+    "mapId": "hajin-dmz",
+    "category": "field-upgrades",
+    "title": "Trophy System",
+    "description": "How to Unlock: Find this recipe in game Rarity: Rare Recipe: - x15 Electronics - x3 Control Unit",
+    "coords": [
+      -0.12290954589844,
+      0.47308674996935
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055855",
+    "mapId": "hajin-dmz",
+    "category": "field-upgrades",
+    "title": "Armor Box",
+    "description": "How to Unlock: Reach DMZ Level 14 Rarity: Rare Recipe: - x30 Metals - x3 Reactive Metals",
+    "coords": [
+      -0.11604309082032,
+      0.47308674996935
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055856",
+    "mapId": "hajin-dmz",
+    "category": "field-upgrades",
+    "title": "Defibrillator",
+    "description": "How to Unlock: Complete [Operation Critical Extraction](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1055616) Rarity: Rare Recipe: - x30 Electronics - x3 Control Unit",
+    "coords": [
+      -0.10917663574219,
+      0.47308674996935
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055857",
+    "mapId": "hajin-dmz",
+    "category": "field-upgrades",
+    "title": "DDOS",
+    "description": "How to Unlock: Complete [Underground Page 1](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1056116) Rarity: Rare Recipe: - x30 Electronics - x3 Detonators",
+    "coords": [
+      -0.10231018066406,
+      0.47308674996935
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055858",
+    "mapId": "hajin-dmz",
+    "category": "field-upgrades",
+    "title": "Recon Drone",
+    "description": "How to Unlock: Complete [Counterfeit Page 1](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1056000) Rarity: Rare Recipe: - x30 Metals - x3 Electronic Sensors",
+    "coords": [
+      -0.09544372558594,
+      0.47308674996935
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055859",
+    "mapId": "hajin-dmz",
+    "category": "field-upgrades",
+    "title": "SAM Airburst Turret",
+    "description": "How to Unlock: Find this recipe in game Rarity: Rare Recipe: - x30 Metals - x3 Detonators",
+    "coords": [
+      -0.08857727050782,
+      0.47308674996935
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055860",
+    "mapId": "hajin-dmz",
+    "category": "field-upgrades",
+    "title": "Revive Pistol",
+    "description": "How to Unlock: Reach DMZ Level 25 Rarity: Legendary Recipe: - x2 Power Regulator - x3 Binding Catalyst - x5 Detonators",
+    "coords": [
+      -0.17784118652344,
+      0.46622014800724
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055861",
+    "mapId": "hajin-dmz",
+    "category": "field-upgrades",
+    "title": "Fulton Drop Marker",
+    "description": "How to Unlock: Find this recipe in game Rarity: Ultra Recipe: - x1 Prototype RF Module - x3 Comms Module - x5 Control Unit",
+    "coords": [
+      -0.17097473144531,
+      0.46622014800724
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055862",
+    "mapId": "hajin-dmz",
+    "category": "fire-support",
+    "title": "Care Package",
+    "description": "How to Unlock: Reach DMZ Level 28 Rarity: Rare Recipe: - x20 Electronics - x2 Control Unit - x2 Rigid Synthetics",
+    "coords": [
+      -0.17784118652344,
+      0.45935369914511
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055863",
+    "mapId": "hajin-dmz",
+    "category": "fire-support",
+    "title": "Bombing Run",
+    "description": "How to Unlock: Find this recipe in game Rarity: Epic Recipe: - x30 Chemicals - x2 Nitro Compounds - x5 Control Unit",
+    "coords": [
+      -0.17097473144532,
+      0.45935369914511
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055864",
+    "mapId": "hajin-dmz",
+    "category": "fire-support",
+    "title": "Combat Drone",
+    "description": "How to Unlock: Find this recipe in game Rarity: Epic Recipe: - x30 Electronics - x2 CPU - x5 Control Unit",
+    "coords": [
+      -0.16410827636719,
+      0.45935369914511
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055865",
+    "mapId": "hajin-dmz",
+    "category": "fire-support",
+    "title": "Bomb Glider",
+    "description": "How to Unlock: Find this recipe in game Rarity: Epic Recipe: - x30 Chemicals - x2 Stock Rod - x5 Control Unit",
+    "coords": [
+      -0.15724182128906,
+      0.45935369914511
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055866",
+    "mapId": "hajin-dmz",
+    "category": "fire-support",
+    "title": "UAV",
+    "description": "How to Unlock: Reach DMZ Level 31 Rarity: Epic Recipe: - x30 Electronics - x2 Structural Alloy - x5 Electronic Sensors",
+    "coords": [
+      -0.15037536621094,
+      0.45935369914511
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055867",
+    "mapId": "hajin-dmz",
+    "category": "fire-support",
+    "title": "Artillery Beacon",
+    "description": "How to Unlock: Find this recipe in game Rarity: Legendary Recipe: - x2 Volatile Explosives - x3 Nitro Compounds - x5 Detonators",
+    "coords": [
+      -0.14350891113282,
+      0.45935369914511
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055868",
+    "mapId": "hajin-dmz",
+    "category": "fire-support",
+    "title": "Advanced UAV",
+    "description": "How to Unlock: Find this recipe in game Rarity: Legendary Recipe: - x2 Comms Module - x3 Nitro Compounds - x5 Electronic Sensors",
+    "coords": [
+      -0.13664245605469,
+      0.45935369914511
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055869",
+    "mapId": "hajin-dmz",
+    "category": "fire-support",
+    "title": "Impact Warhead",
+    "description": "How to Unlock: Find this recipe in game Rarity: Legendary Recipe: - x2 Turned Components - x3 Nitro Compounds - x5 Detonators",
+    "coords": [
+      -0.12977600097656,
+      0.45935369914511
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055870",
+    "mapId": "hajin-dmz",
+    "category": "fire-support",
+    "title": "Railgun Sentry",
+    "description": "How to Unlock: Find this recipe in game Rarity: Legendary Recipe: - x2 Power Regulator - x3 Nitro Compounds - x5 Control Unit",
+    "coords": [
+      -0.12290954589844,
+      0.45935369914511
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055871",
+    "mapId": "hajin-dmz",
+    "category": "fire-support",
+    "title": "Crossfire",
+    "description": "How to Unlock: Find this recipe in game Rarity: Ultra Recipe: - x2 Prototype RF Module - x3 Volatile Explosives - x5 Electronic Sensors",
+    "coords": [
+      -0.11604309082032,
+      0.45935369914511
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055872",
+    "mapId": "hajin-dmz",
+    "category": "gear",
+    "title": "Weak Night Vision Goggles",
+    "description": "How to Unlock: Complete [Underground Page 1](https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz?locationIds=1056116) Rarity: Uncommon Recipe: - x25 Metals - x5 Control Unit",
+    "coords": [
+      -0.17784118652344,
+      0.45248756279732
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055873",
+    "mapId": "hajin-dmz",
+    "category": "gear",
+    "title": "Gas Mask",
+    "description": "How to Unlock: Reach DMZ Level 26 Rarity: Rare Recipe: - x30 Chemicals - x3 Rigid Synthetics",
+    "coords": [
+      -0.17097473144532,
+      0.45248756279732
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055874",
+    "mapId": "hajin-dmz",
+    "category": "gear",
+    "title": "Disposable Parachute",
+    "description": "How to Unlock: Reach DMZ Level 55 Rarity: Rare Recipe: - x30 Chemicals - x3 Rigid Synthetics",
+    "coords": [
+      -0.16410827636719,
+      0.45248756279732
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055875",
+    "mapId": "hajin-dmz",
+    "category": "gear",
+    "title": "Night Vision Goggles",
+    "description": "How to Unlock: DMZ Order Rarity: Rare Recipe: - x50 Metals - x3 Printed Circuit Board - x10 Control Unit",
+    "coords": [
+      -0.15724182128906,
+      0.45248756279732
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055876",
+    "mapId": "hajin-dmz",
+    "category": "gear",
+    "title": "Durable Gas Mask",
+    "description": "How to Unlock: Find this recipe in game Rarity: Epic Recipe: - x30 Chemicals - x1 High-Tenacity Fibers - x5 Biomaterials",
+    "coords": [
+      -0.15037536621094,
+      0.45248756279732
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055877",
+    "mapId": "hajin-dmz",
+    "category": "gear",
+    "title": "Elite Night Vision Goggles",
+    "description": "How to Unlock: Find this recipe in game Rarity: Legendary Recipe: - x2 Power Regulator - x3 CPU - x5 Electronic Sensors",
+    "coords": [
+      -0.14350891113282,
+      0.45248756279732
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055878",
+    "mapId": "hajin-dmz",
+    "category": "gear",
+    "title": "Parachute",
+    "description": "How to Unlock: Find this recipe in game Rarity: Legendary Recipe: - x2 Turned Components - x5 Nylon Cloth - x10 Rigid Synthetics",
+    "coords": [
+      -0.13664245605469,
+      0.45248756279732
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055879",
+    "mapId": "hajin-dmz",
+    "category": "ingredients",
+    "title": "Biomaterials",
+    "description": "How to Unlock: Print the Uncommon Ingredient Printing Upgrade Rarity: Uncommon Recipe: - x20 Synthetics - x20 Chemicals",
+    "coords": [
+      -0.17784118652344,
+      0.4456214185706
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055880",
+    "mapId": "hajin-dmz",
+    "category": "ingredients",
+    "title": "Control Unit",
+    "description": "How to Unlock: Print the Uncommon Ingredient Printing Upgrade Rarity: Uncommon Recipe: - x20 Electronics - x20 Metals",
+    "coords": [
+      -0.17097473144532,
+      0.4456214185706
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055881",
+    "mapId": "hajin-dmz",
+    "category": "ingredients",
+    "title": "Detonators",
+    "description": "How to Unlock: Print the Uncommon Ingredient Printing Upgrade Rarity: Uncommon Recipe: - x20 Electronics - x20 Chemicals",
+    "coords": [
+      -0.16410827636719,
+      0.4456214185706
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055882",
+    "mapId": "hajin-dmz",
+    "category": "ingredients",
+    "title": "Electronic Sensors",
+    "description": "How to Unlock: Print the Uncommon Ingredient Printing Upgrade Rarity: Uncommon Recipe: - x20 Synthetics - x20 Electronics",
+    "coords": [
+      -0.15724182128906,
+      0.4456214185706
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055883",
+    "mapId": "hajin-dmz",
+    "category": "ingredients",
+    "title": "Reactive Metals",
+    "description": "How to Unlock: Print the Uncommon Ingredient Printing Upgrade Rarity: Uncommon Recipe: - x20 Chemicals - x20 Metals",
+    "coords": [
+      -0.15037536621094,
+      0.4456214185706
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055884",
+    "mapId": "hajin-dmz",
+    "category": "ingredients",
+    "title": "Rigid Synthetics",
+    "description": "How to Unlock: Print the Uncommon Ingredient Printing Upgrade Rarity: Uncommon Recipe: - x20 Synthetics - x20 Metals",
+    "coords": [
+      -0.14350891113282,
+      0.4456214185706
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055885",
+    "mapId": "hajin-dmz",
+    "category": "ingredients",
+    "title": "Alloyed Plating",
+    "description": "How to Unlock: Print the Epic Ingredient Printing Upgrade Rarity: Epic Recipe: - x100 Metals - x3 Structural Alloy",
+    "coords": [
+      -0.13664245605469,
+      0.4456214185706
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055886",
+    "mapId": "hajin-dmz",
+    "category": "ingredients",
+    "title": "Ballistic Fabric",
+    "description": "How to Unlock: Print the Epic Ingredient Printing Upgrade Rarity: Epic Recipe: - x100 Synthetics - x3 High-Tenacity Fibers",
+    "coords": [
+      -0.12977600097656,
+      0.4456214185706
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055887",
+    "mapId": "hajin-dmz",
+    "category": "ingredients",
+    "title": "Comms Module",
+    "description": "How to Unlock: Print the Epic Ingredient Printing Upgrade Rarity: Epic Recipe: - x100 Electronics - x3 CPU",
+    "coords": [
+      -0.12290954589844,
+      0.4456214185706
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055888",
+    "mapId": "hajin-dmz",
+    "category": "ingredients",
+    "title": "Nylon Laminate",
+    "description": "How to Unlock: Print the Epic Ingredient Printing Upgrade Rarity: Epic Recipe: - x100 Synthetics - x3 Nylon Cloth",
+    "coords": [
+      -0.11604309082032,
+      0.4456214185706
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055889",
+    "mapId": "hajin-dmz",
+    "category": "ingredients",
+    "title": "Power Regulator",
+    "description": "How to Unlock: Print the Epic Ingredient Printing Upgrade Rarity: Epic Recipe: - x100 Electronics - x3 Printed Circuit Board",
+    "coords": [
+      -0.10917663574219,
+      0.4456214185706
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055890",
+    "mapId": "hajin-dmz",
+    "category": "ingredients",
+    "title": "Stabilized Reagents",
+    "description": "How to Unlock: Print the Epic Ingredient Printing Upgrade Rarity: Epic Recipe: - x100 Chemicals - x3 Binding Catalyst",
+    "coords": [
+      -0.10231018066406,
+      0.4456214185706
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055891",
+    "mapId": "hajin-dmz",
+    "category": "ingredients",
+    "title": "Turned Components",
+    "description": "How to Unlock: Print the Epic Ingredient Printing Upgrade Rarity: Epic Recipe: - x100 Metals - x3 Stock Rod",
+    "coords": [
+      -0.09544372558594,
+      0.4456214185706
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055892",
+    "mapId": "hajin-dmz",
+    "category": "ingredients",
+    "title": "Volatile Explosives",
+    "description": "How to Unlock: Print the Epic Ingredient Printing Upgrade Rarity: Epic Recipe: - x100 Chemicals - x3 Nitro Compounds",
+    "coords": [
+      -0.08857727050782,
+      0.4456214185706
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055757",
+    "mapId": "hajin-dmz",
+    "category": "spawn-point",
+    "title": "Spawn Point",
+    "description": "Spawn Point localizado em hajin-dmz.",
+    "coords": [
+      -0.9488862725774,
+      0.7179026531899
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1055893",
+    "mapId": "hajin-dmz",
+    "category": "spawn-point",
+    "title": "Spawn Point",
+    "description": "Spawn Point localizado em hajin-dmz.",
+    "coords": [
+      -0.47648308820567,
+      0.43612943015009
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056025",
+    "mapId": "hajin-dmz",
+    "category": "spawn-point",
+    "title": "Spawn Point",
+    "description": "Spawn Point localizado em hajin-dmz.",
+    "coords": [
+      -0.93902841593214,
+      0.82506488721673
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056038",
+    "mapId": "hajin-dmz",
+    "category": "spawn-point",
+    "title": "Spawn Point",
+    "description": "Spawn Point localizado em hajin-dmz.",
+    "coords": [
+      -0.49164472668105,
+      0.3528176837723
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056112",
+    "mapId": "hajin-dmz",
+    "category": "spawn-point",
+    "title": "Spawn Point",
+    "description": "Spawn Point localizado em hajin-dmz.",
+    "coords": [
+      -0.98384328564623,
+      0.47934339120198
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056115",
+    "mapId": "hajin-dmz",
+    "category": "spawn-point",
+    "title": "Spawn Point",
+    "description": "Spawn Point localizado em hajin-dmz.",
+    "coords": [
+      -0.58845641609201,
+      0.64972983182814
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056118",
+    "mapId": "hajin-dmz",
+    "category": "spawn-point",
+    "title": "Spawn Point",
+    "description": "Spawn Point localizado em hajin-dmz.",
+    "coords": [
+      -0.87348284885883,
+      0.80929521898884
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056130",
+    "mapId": "hajin-dmz",
+    "category": "spawn-point",
+    "title": "Spawn Point",
+    "description": "Spawn Point localizado em hajin-dmz.",
+    "coords": [
+      -0.65821505947477,
+      0.34193412539848
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056133",
+    "mapId": "hajin-dmz",
+    "category": "spawn-point",
+    "title": "Spawn Point",
+    "description": "Spawn Point localizado em hajin-dmz.",
+    "coords": [
+      -0.78861701312749,
+      0.74641283250824
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056333",
+    "mapId": "hajin-dmz",
+    "category": "spawn-point",
+    "title": "Spawn Point",
+    "description": "Spawn Point localizado em hajin-dmz.",
+    "coords": [
+      -0.63417647915531,
+      0.66448845782354
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4-hajin-dmz-1056335",
+    "mapId": "hajin-dmz",
+    "category": "spawn-point",
+    "title": "Spawn Point",
+    "description": "Spawn Point localizado em hajin-dmz.",
+    "coords": [
+      -0.57475842916131,
+      0.33106083389897
+    ],
+    "region": "hajin-dmz",
+    "dlc": "base"
+  }
+]

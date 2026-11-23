@@ -1,0 +1,281 @@
+{
+  "id": "game-world-of-warcraft-forever",
+  "slug": "world-of-warcraft-forever",
+  "title": "World of Warcraft: Forever",
+  "subtitle": "Azeroth — Reinos Orientais, Kalimdor & Segredos",
+  "studio": "Blizzard Entertainment",
+  "releaseYear": 2026,
+  "genres": [
+    "MMORPG",
+    "RPG",
+    "Mundo Aberto"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/world-of-warcraft-forever/cover.webp",
+    "bannerImage": "/games/world-of-warcraft-forever/banner.webp",
+    "logoImage": "/games/world-of-warcraft-forever/logo.webp"
+  },
+  "theme": {
+    "accentPrimary": "#FACC15",
+    "accentSecondary": "#3B82F6",
+    "accentGlow": "rgba(250, 204, 21, 0.38)",
+    "glassTint": "rgba(14, 16, 24, 0.82)",
+    "surfaceBase": "#080A12",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "azeroth",
+      "name": "Azeroth",
+      "dlc": "base",
+      "pinsCount": 6054,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#080A12",
+      "initialCenter": [
+        0.69655050264382,
+        -0.74205145840881
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.45285,
+          -0.99526
+        ],
+        [
+          0.97665,
+          -0.29973
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "azeroth2",
+          "label": "azeroth2",
+          "urlTemplate": "https://tiles.mapgenie.io/games/world-of-warcraft-forever/azeroth/azeroth2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 16,
+          "maxZoom": 18,
+          "tileBounds": [
+            [
+              0.44494,
+              -0.97229
+            ],
+            [
+              0.95577,
+              -0.32959
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "points-of-interest",
+      "label": "Points of Interest",
+      "categories": [
+        {
+          "id": "auctioneer",
+          "groupId": "points-of-interest",
+          "name": "Auctioneer",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "banker",
+          "groupId": "points-of-interest",
+          "name": "Banker",
+          "icon": "gem",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "barber-shop",
+          "groupId": "points-of-interest",
+          "name": "Barber Shop",
+          "icon": "shopping-bag",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "city",
+          "groupId": "points-of-interest",
+          "name": "City",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "graveyard",
+          "groupId": "points-of-interest",
+          "name": "Graveyard",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "innkeeper",
+          "groupId": "points-of-interest",
+          "name": "Innkeeper",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "instance",
+          "groupId": "points-of-interest",
+          "name": "Instance",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "mailbox",
+          "groupId": "points-of-interest",
+          "name": "Mailbox",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "profession-trainer",
+          "groupId": "points-of-interest",
+          "name": "Profession Trainer",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "repair-vendor",
+          "groupId": "points-of-interest",
+          "name": "Repair Vendor",
+          "icon": "shopping-bag",
+          "color": "#E879F9",
+          "defaultVisible": false
+        },
+        {
+          "id": "stable-master",
+          "groupId": "points-of-interest",
+          "name": "Stable Master",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "town",
+          "groupId": "points-of-interest",
+          "name": "Town",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "transmogrifier",
+          "groupId": "points-of-interest",
+          "name": "Transmogrifier",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "class-trainer",
+          "groupId": "points-of-interest",
+          "name": "Class Trainer",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": false
+        },
+        {
+          "id": "guild-vault",
+          "groupId": "points-of-interest",
+          "name": "Guild Vault",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "merchant",
+          "groupId": "points-of-interest",
+          "name": "Merchant",
+          "icon": "shopping-bag",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "battlemaster",
+          "groupId": "points-of-interest",
+          "name": "Battlemaster",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "travel",
+      "label": "Travel",
+      "categories": [
+        {
+          "id": "transport",
+          "groupId": "travel",
+          "name": "Transport",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "flight-master",
+          "groupId": "travel",
+          "name": "Flight Master",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "repeatable",
+          "groupId": "quests",
+          "name": "Repeatable",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "quest",
+          "groupId": "quests",
+          "name": "Quest",
+          "icon": "scroll-text",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "treasure",
+          "groupId": "collectibles",
+          "name": "Treasure",
+          "icon": "gem",
+          "color": "#E879F9",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 6054
+}

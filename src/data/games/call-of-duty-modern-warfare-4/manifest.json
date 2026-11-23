@@ -1,0 +1,418 @@
+{
+  "id": "game-call-of-duty-modern-warfare-4",
+  "slug": "call-of-duty-modern-warfare-4",
+  "title": "Call of Duty: Modern Warfare 4",
+  "subtitle": "Campanha Tática & Zona DMZ de Hajin",
+  "studio": "Infinity Ward",
+  "releaseYear": 2026,
+  "genres": [
+    "FPS",
+    "Ação",
+    "Tático"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/call-of-duty-modern-warfare-4/cover.webp",
+    "bannerImage": "/games/call-of-duty-modern-warfare-4/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#22C55E",
+    "accentSecondary": "#38BDF8",
+    "accentGlow": "rgba(34, 197, 94, 0.36)",
+    "glassTint": "rgba(10, 18, 14, 0.82)",
+    "surfaceBase": "#060C09",
+    "fontDisplay": "'Rajdhani', sans-serif",
+    "backgroundPattern": "tactical-grid",
+    "badgeStyle": "chamfered"
+  },
+  "maps": [
+    {
+      "id": "campaign",
+      "name": "Campanha",
+      "dlc": "base",
+      "pinsCount": 109,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060C09",
+      "initialCenter": [
+        0.71671647015931,
+        -0.84040381685645
+      ],
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          0.06158,
+          -1.08533
+        ],
+        [
+          1.07999,
+          -0.34173
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v3",
+          "label": "v3",
+          "urlTemplate": "https://tiles.mapgenie.io/games/call-of-duty-modern-warfare-4/campaign/v3/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hajin-dmz",
+      "name": "Hajin (DMZ)",
+      "dlc": "base",
+      "pinsCount": 284,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060C09",
+      "initialCenter": [
+        0.59805899877588,
+        -0.91551913876879
+      ],
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          0.20655,
+          -1.05546
+        ],
+        [
+          1.03486,
+          -0.01696
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v5",
+          "label": "v5",
+          "urlTemplate": "https://tiles.mapgenie.io/games/call-of-duty-modern-warfare-4/hajin-dmz/v5/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "points-of-interest",
+      "label": "Points of Interest",
+      "categories": [
+        {
+          "id": "mission-objective",
+          "groupId": "points-of-interest",
+          "name": "Mission Objective",
+          "icon": "scroll-text",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "base-camp",
+          "groupId": "points-of-interest",
+          "name": "Base Camp",
+          "icon": "bookmark",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "outpost",
+          "groupId": "points-of-interest",
+          "name": "Outpost",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "uav-tower",
+          "groupId": "points-of-interest",
+          "name": "UAV Tower",
+          "icon": "landmark",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "fortress",
+          "groupId": "points-of-interest",
+          "name": "Fortress",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "ammo-armor-cache",
+          "groupId": "points-of-interest",
+          "name": "Ammo Armor Cache",
+          "icon": "shopping-bag",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "sam-site",
+          "groupId": "points-of-interest",
+          "name": "SAM Site",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "gas-station",
+          "groupId": "points-of-interest",
+          "name": "Gas Station",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "police-station",
+          "groupId": "points-of-interest",
+          "name": "Police Station",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "fire-station",
+          "groupId": "points-of-interest",
+          "name": "Fire Station",
+          "icon": "flame",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "lieutenant-hunt-tower",
+          "groupId": "points-of-interest",
+          "name": "Lieutenant Hunt Tower",
+          "icon": "skull",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "clinic",
+          "groupId": "points-of-interest",
+          "name": "Clinic",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "bounties",
+          "groupId": "points-of-interest",
+          "name": "Bounties",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "exfil",
+          "groupId": "points-of-interest",
+          "name": "Exfil",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "compound",
+          "groupId": "points-of-interest",
+          "name": "Compound",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "radio-tower",
+          "groupId": "points-of-interest",
+          "name": "Radio Tower",
+          "icon": "landmark",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "note",
+          "groupId": "collectibles",
+          "name": "Note",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "yellow-supply-crate",
+          "groupId": "collectibles",
+          "name": "Yellow Supply Crate",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "contraband",
+          "groupId": "collectibles",
+          "name": "Contraband",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "missions",
+      "label": "Missions",
+      "categories": [
+        {
+          "id": "story-mission",
+          "groupId": "missions",
+          "name": "Story Mission",
+          "icon": "scroll-text",
+          "color": "#F472B6",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "dmz-orders",
+      "label": "DMZ Orders",
+      "categories": [
+        {
+          "id": "chapter",
+          "groupId": "dmz-orders",
+          "name": "Chapter",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "page",
+          "groupId": "dmz-orders",
+          "name": "Page",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "3d-printer-recipes",
+      "label": "3D Printer Recipes",
+      "categories": [
+        {
+          "id": "consumables",
+          "groupId": "3d-printer-recipes",
+          "name": "Consumables",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "plate-carriers",
+          "groupId": "3d-printer-recipes",
+          "name": "Plate Carriers",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "backpacks",
+          "groupId": "3d-printer-recipes",
+          "name": "Backpacks",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "tacticals",
+          "groupId": "3d-printer-recipes",
+          "name": "Tacticals",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "lethals",
+          "groupId": "3d-printer-recipes",
+          "name": "Lethals",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "field-upgrades",
+          "groupId": "3d-printer-recipes",
+          "name": "Field Upgrades",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "fire-support",
+          "groupId": "3d-printer-recipes",
+          "name": "Fire Support",
+          "icon": "flame",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "gear",
+          "groupId": "3d-printer-recipes",
+          "name": "Gear",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "ingredients",
+          "groupId": "3d-printer-recipes",
+          "name": "Ingredients",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "miscellaneous",
+      "label": "Miscellaneous",
+      "categories": [
+        {
+          "id": "spawn-point",
+          "groupId": "miscellaneous",
+          "name": "Spawn Point",
+          "icon": "landmark",
+          "color": "#F472B6",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 393
+}

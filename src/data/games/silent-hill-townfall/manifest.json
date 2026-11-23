@@ -1,0 +1,321 @@
+{
+  "id": "game-silent-hill-townfall",
+  "slug": "silent-hill-townfall",
+  "title": "Silent Hill: Townfall",
+  "subtitle": "Ilha de St. Amelia — Sinais CRTV, Pistas & Memos",
+  "studio": "Screen Burn Interactive / Konami",
+  "releaseYear": 2026,
+  "genres": [
+    "Survival Horror",
+    "Terror Psicológico",
+    "Aventura"
+  ],
+  "platforms": [
+    "pc",
+    "playstation"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/silent-hill-townfall/cover.webp",
+    "bannerImage": "/games/silent-hill-townfall/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#94A3B8",
+    "accentSecondary": "#DC2626",
+    "accentGlow": "rgba(148, 163, 184, 0.36)",
+    "glassTint": "rgba(14, 16, 18, 0.85)",
+    "surfaceBase": "#08090B",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "abyssal-contours",
+    "badgeStyle": "minimal"
+  },
+  "maps": [
+    {
+      "id": "st-amelia",
+      "name": "St. Amelia",
+      "dlc": "base",
+      "pinsCount": 844,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#08090B",
+      "initialCenter": [
+        0.69829801230469,
+        -0.9330628747897
+      ],
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          -0.0926,
+          -1.32271
+        ],
+        [
+          1.25012,
+          0.09798
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v5",
+          "label": "v5",
+          "urlTemplate": "https://tiles.mapgenie.io/games/silent-hill-townfall/st-amelia/v5/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "telephone",
+          "groupId": "locations",
+          "name": "Telephone",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "point-of-interest",
+          "groupId": "locations",
+          "name": "Point of Interest",
+          "icon": "landmark",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "puzzle",
+          "groupId": "locations",
+          "name": "Puzzle",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "document",
+          "groupId": "collectibles",
+          "name": "Document",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "clue",
+          "groupId": "collectibles",
+          "name": "Clue",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "key-item",
+          "groupId": "collectibles",
+          "name": "Key Item",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "lockbox",
+          "groupId": "collectibles",
+          "name": "Lockbox",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "area-map",
+          "groupId": "collectibles",
+          "name": "Area Map",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "phone-number",
+          "groupId": "collectibles",
+          "name": "Phone Number",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "crtv-signal",
+          "groupId": "collectibles",
+          "name": "CRTV Signal",
+          "icon": "radio",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "postcard",
+          "groupId": "collectibles",
+          "name": "Postcard",
+          "icon": "gem",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "lockbox-key",
+          "groupId": "collectibles",
+          "name": "Lockbox Key",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "pickups",
+      "label": "Pickups",
+      "categories": [
+        {
+          "id": "weapon",
+          "groupId": "pickups",
+          "name": "Weapon",
+          "icon": "shopping-bag",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "ammo",
+          "groupId": "pickups",
+          "name": "Ammo",
+          "icon": "shopping-bag",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "gauze",
+          "groupId": "pickups",
+          "name": "Gauze",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "first-aid-kit",
+          "groupId": "pickups",
+          "name": "First Aid Kit",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "brick",
+          "groupId": "pickups",
+          "name": "Brick",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "bottle",
+          "groupId": "pickups",
+          "name": "Bottle",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "alcohol",
+          "groupId": "pickups",
+          "name": "Alcohol",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "iv-bag",
+          "groupId": "pickups",
+          "name": "IV Bag",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "iv-fluid",
+          "groupId": "pickups",
+          "name": "IV Fluid",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "antibiotics",
+          "groupId": "pickups",
+          "name": "Antibiotics",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "easter-egg",
+          "groupId": "other",
+          "name": "Easter Egg",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "examinable",
+          "groupId": "other",
+          "name": "Examinable",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "lock",
+          "groupId": "other",
+          "name": "Lock",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "traversal",
+          "groupId": "other",
+          "name": "Traversal",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "radio",
+          "groupId": "other",
+          "name": "Radio",
+          "icon": "radio",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 844
+}

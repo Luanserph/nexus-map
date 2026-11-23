@@ -152,5 +152,271 @@
     "name": "Valisthea",
     "dlc": "base",
     "url": "https://mapgenie.io/final-fantasy-xvi/maps/valisthea"
+  },
+  {
+    "gameSlug": "phantom-blade-zero",
+    "mapSlug": "weeping-creek-valley",
+    "name": "Weeping Creek Valley",
+    "dlc": "base",
+    "url": "https://mapgenie.io/phantom-blade-zero/maps/weeping-creek-valley"
+  },
+  {
+    "gameSlug": "phantom-blade-zero",
+    "mapSlug": "crimson-forest",
+    "name": "Crimson Forest",
+    "dlc": "base",
+    "url": "https://mapgenie.io/phantom-blade-zero/maps/crimson-forest"
+  },
+  {
+    "gameSlug": "phantom-blade-zero",
+    "mapSlug": "village-of-lu",
+    "name": "Village of Lu",
+    "dlc": "base",
+    "url": "https://mapgenie.io/phantom-blade-zero/maps/village-of-lu"
+  },
+  {
+    "gameSlug": "phantom-blade-zero",
+    "mapSlug": "pangzhen",
+    "name": "Pangzhen",
+    "dlc": "base",
+    "url": "https://mapgenie.io/phantom-blade-zero/maps/pangzhen"
+  },
+  {
+    "gameSlug": "phantom-blade-zero",
+    "mapSlug": "the-mandates-encampment",
+    "name": "The Mandate's Encampment",
+    "dlc": "base",
+    "url": "https://mapgenie.io/phantom-blade-zero/maps/the-mandates-encampment"
+  },
+  {
+    "gameSlug": "phantom-blade-zero",
+    "mapSlug": "meigu-lake",
+    "name": "Meigu Lake",
+    "dlc": "base",
+    "url": "https://mapgenie.io/phantom-blade-zero/maps/meigu-lake"
+  },
+  {
+    "gameSlug": "phantom-blade-zero",
+    "mapSlug": "mountain-of-imprisonment",
+    "name": "Mountain of Imprisonment",
+    "dlc": "base",
+    "url": "https://mapgenie.io/phantom-blade-zero/maps/mountain-of-imprisonment"
+  },
+  {
+    "gameSlug": "phantom-blade-zero",
+    "mapSlug": "mount-soulrend",
+    "name": "Mount Soulrend",
+    "dlc": "base",
+    "url": "https://mapgenie.io/phantom-blade-zero/maps/mount-soulrend"
+  },
+  {
+    "gameSlug": "call-of-duty-modern-warfare-4",
+    "mapSlug": "campaign",
+    "name": "Campanha",
+    "dlc": "base",
+    "url": "https://mapgenie.io/call-of-duty-modern-warfare-4/maps/campaign"
+  },
+  {
+    "gameSlug": "call-of-duty-modern-warfare-4",
+    "mapSlug": "hajin-dmz",
+    "name": "Hajin (DMZ)",
+    "dlc": "base",
+    "url": "https://mapgenie.io/call-of-duty-modern-warfare-4/maps/hajin-dmz"
+  },
+  {
+    "gameSlug": "castlevania-belmonts-curse",
+    "mapSlug": "streets-of-paris",
+    "name": "Streets of Paris",
+    "dlc": "base",
+    "url": "https://mapgenie.io/castlevania-belmonts-curse/maps/streets-of-paris"
+  },
+  {
+    "gameSlug": "ghost-recon-wildlands",
+    "mapSlug": "bolivia",
+    "name": "Bolívia",
+    "dlc": "base",
+    "url": "https://mapgenie.io/ghost-recon-wildlands/maps/bolivia"
+  },
+  {
+    "gameSlug": "ghost-recon-wildlands",
+    "mapSlug": "narco-road-fallen-ghosts",
+    "name": "Narco Road & Fallen Ghosts",
+    "dlc": "dlc",
+    "url": "https://mapgenie.io/ghost-recon-wildlands/maps/narco-road-fallen-ghosts"
+  },
+  {
+    "gameSlug": "kingdom-hearts-3",
+    "mapSlug": "olympus",
+    "name": "Olympus",
+    "dlc": "base",
+    "url": "https://mapgenie.io/kingdom-hearts-3/maps/olympus"
+  },
+  {
+    "gameSlug": "kingdom-hearts-3",
+    "mapSlug": "twilight-town",
+    "name": "Twilight Town",
+    "dlc": "base",
+    "url": "https://mapgenie.io/kingdom-hearts-3/maps/twilight-town"
+  },
+  {
+    "gameSlug": "kingdom-hearts-3",
+    "mapSlug": "toy-box",
+    "name": "Toy Box",
+    "dlc": "base",
+    "url": "https://mapgenie.io/kingdom-hearts-3/maps/toy-box"
+  },
+  {
+    "gameSlug": "kingdom-hearts-3",
+    "mapSlug": "kingdom-of-corona",
+    "name": "Kingdom of Corona",
+    "dlc": "base",
+    "url": "https://mapgenie.io/kingdom-hearts-3/maps/kingdom-of-corona"
+  },
+  {
+    "gameSlug": "kingdom-hearts-3",
+    "mapSlug": "monstropolis",
+    "name": "Monstropolis",
+    "dlc": "base",
+    "url": "https://mapgenie.io/kingdom-hearts-3/maps/monstropolis"
+  },
+  {
+    "gameSlug": "kingdom-hearts-3",
+    "mapSlug": "arendelle",
+    "name": "Arendelle",
+    "dlc": "base",
+    "url": "https://mapgenie.io/kingdom-hearts-3/maps/arendelle"
+  },
+  {
+    "gameSlug": "kingdom-hearts-3",
+    "mapSlug": "the-caribbean",
+    "name": "The Caribbean",
+    "dlc": "base",
+    "url": "https://mapgenie.io/kingdom-hearts-3/maps/the-caribbean"
+  },
+  {
+    "gameSlug": "kingdom-hearts-3",
+    "mapSlug": "san-fransokyo",
+    "name": "San Fransokyo",
+    "dlc": "base",
+    "url": "https://mapgenie.io/kingdom-hearts-3/maps/san-fransokyo"
+  },
+  {
+    "gameSlug": "kingdom-hearts-3",
+    "mapSlug": "keyblade-graveyard",
+    "name": "Keyblade Graveyard",
+    "dlc": "base",
+    "url": "https://mapgenie.io/kingdom-hearts-3/maps/keyblade-graveyard"
+  },
+  {
+    "gameSlug": "kingdom-hearts-3",
+    "mapSlug": "remind",
+    "name": "Re Mind",
+    "dlc": "remind",
+    "url": "https://mapgenie.io/kingdom-hearts-3/maps/remind"
+  },
+  {
+    "gameSlug": "minecraft-dungeons-ii",
+    "mapSlug": "world",
+    "name": "Overworld",
+    "dlc": "base",
+    "url": "https://mapgenie.io/minecraft-dungeons-ii/maps/world"
+  },
+  {
+    "gameSlug": "control-resonant",
+    "mapSlug": "district",
+    "name": "Manhattan District",
+    "dlc": "base",
+    "url": "https://mapgenie.io/control-resonant/maps/district"
+  },
+  {
+    "gameSlug": "silent-hill-townfall",
+    "mapSlug": "st-amelia",
+    "name": "St. Amelia",
+    "dlc": "base",
+    "url": "https://mapgenie.io/silent-hill-townfall/maps/st-amelia"
+  },
+  {
+    "gameSlug": "world-of-warcraft-forever",
+    "mapSlug": "azeroth",
+    "name": "Azeroth",
+    "dlc": "base",
+    "url": "https://mapgenie.io/world-of-warcraft-forever/maps/azeroth"
+  },
+  {
+    "gameSlug": "the-blood-of-dawnwalker",
+    "mapSlug": "vale-sangora",
+    "name": "Vale Sangora",
+    "dlc": "base",
+    "url": "https://mapgenie.io/the-blood-of-dawnwalker/maps/vale-sangora"
+  },
+  {
+    "gameSlug": "mortal-shell-ii",
+    "mapSlug": "fallgrim",
+    "name": "Fallgrim",
+    "dlc": "base",
+    "url": "https://mapgenie.io/mortal-shell-ii/maps/fallgrim"
+  },
+  {
+    "gameSlug": "onimusha-way-of-the-sword",
+    "mapSlug": "kiyomizu-dera-temple",
+    "name": "Kiyomizu-dera Temple",
+    "dlc": "base",
+    "url": "https://mapgenie.io/onimusha-way-of-the-sword/maps/kiyomizu-dera-temple"
+  },
+  {
+    "gameSlug": "onimusha-way-of-the-sword",
+    "mapSlug": "oni-refuge",
+    "name": "Oni Refuge",
+    "dlc": "base",
+    "url": "https://mapgenie.io/onimusha-way-of-the-sword/maps/oni-refuge"
+  },
+  {
+    "gameSlug": "onimusha-way-of-the-sword",
+    "mapSlug": "eastern-tokyo",
+    "name": "Eastern Kyoto",
+    "dlc": "base",
+    "url": "https://mapgenie.io/onimusha-way-of-the-sword/maps/eastern-tokyo"
+  },
+  {
+    "gameSlug": "onimusha-way-of-the-sword",
+    "mapSlug": "nijo-jo-castle",
+    "name": "Nijo-jo Castle",
+    "dlc": "base",
+    "url": "https://mapgenie.io/onimusha-way-of-the-sword/maps/nijo-jo-castle"
+  },
+  {
+    "gameSlug": "onimusha-way-of-the-sword",
+    "mapSlug": "underground-laboratory",
+    "name": "Underground Laboratory",
+    "dlc": "base",
+    "url": "https://mapgenie.io/onimusha-way-of-the-sword/maps/underground-laboratory"
+  },
+  {
+    "gameSlug": "onimusha-way-of-the-sword",
+    "mapSlug": "kyoto-imperial-palace",
+    "name": "Kyoto Imperial Palace",
+    "dlc": "base",
+    "url": "https://mapgenie.io/onimusha-way-of-the-sword/maps/kyoto-imperial-palace"
+  },
+  {
+    "gameSlug": "onimusha-way-of-the-sword",
+    "mapSlug": "mount-oe",
+    "name": "Mount Oe",
+    "dlc": "base",
+    "url": "https://mapgenie.io/onimusha-way-of-the-sword/maps/mount-oe"
+  },
+  {
+    "gameSlug": "onimusha-way-of-the-sword",
+    "mapSlug": "arashiyama",
+    "name": "Arashiyama",
+    "dlc": "base",
+    "url": "https://mapgenie.io/onimusha-way-of-the-sword/maps/arashiyama"
+  },
+  {
+    "gameSlug": "onimusha-way-of-the-sword",
+    "mapSlug": "shanaoh-castle",
+    "name": "Shanaoh Castle",
+    "dlc": "base",
+    "url": "https://mapgenie.io/onimusha-way-of-the-sword/maps/shanaoh-castle"
   }
 ]

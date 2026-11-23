@@ -1,0 +1,297 @@
+{
+  "id": "game-minecraft-dungeons-ii",
+  "slug": "minecraft-dungeons-ii",
+  "title": "Minecraft Dungeons II",
+  "subtitle": "Overworld — Masmorras, Segredos & Relíquias",
+  "studio": "Mojang Studios / Double Eleven",
+  "releaseYear": 2026,
+  "genres": [
+    "Action RPG",
+    "Dungeon Crawler",
+    "Aventura"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox",
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/minecraft-dungeons-ii/cover.webp",
+    "bannerImage": "/games/minecraft-dungeons-ii/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#4ADE80",
+    "accentSecondary": "#A855F7",
+    "accentGlow": "rgba(74, 222, 128, 0.36)",
+    "glassTint": "rgba(10, 20, 14, 0.80)",
+    "surfaceBase": "#070E0A",
+    "fontDisplay": "'Space Grotesk', sans-serif",
+    "backgroundPattern": "tactical-grid",
+    "badgeStyle": "minimal"
+  },
+  "maps": [
+    {
+      "id": "world",
+      "name": "Overworld",
+      "dlc": "base",
+      "pinsCount": 2223,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#070E0A",
+      "initialCenter": [
+        0.80448075774846,
+        -0.85709396525044
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          -0.08316,
+          -1.33317
+        ],
+        [
+          1.12272,
+          0.09875
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "main-v4",
+          "label": "main-v4",
+          "urlTemplate": "https://tiles.mapgenie.io/games/minecraft-dungeons-ii/world/main-v4/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "dungeon",
+          "groupId": "locations",
+          "name": "Dungeon",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "enchantsmith",
+          "groupId": "locations",
+          "name": "Enchantsmith",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "interior-entrance",
+          "groupId": "locations",
+          "name": "Interior Entrance",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "key",
+          "groupId": "locations",
+          "name": "Key",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "locked-door",
+          "groupId": "locations",
+          "name": "Locked Door",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "minecart-station",
+          "groupId": "locations",
+          "name": "Minecart Station",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "respawn-beacon",
+          "groupId": "locations",
+          "name": "Respawn Beacon",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "rift",
+          "groupId": "locations",
+          "name": "Rift",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "town-merchant",
+          "groupId": "locations",
+          "name": "Town Merchant",
+          "icon": "shopping-bag",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "core-quest",
+          "groupId": "quests",
+          "name": "Core Quest",
+          "icon": "scroll-text",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "side-quest",
+          "groupId": "quests",
+          "name": "Side Quest",
+          "icon": "scroll-text",
+          "color": "#FACC15",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "enchantment-book",
+          "groupId": "collectibles",
+          "name": "Enchantment Book",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "equipment",
+      "label": "Equipment",
+      "categories": [
+        {
+          "id": "melee-weapon",
+          "groupId": "equipment",
+          "name": "Melee Weapon",
+          "icon": "shopping-bag",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "ranged-weapon",
+          "groupId": "equipment",
+          "name": "Ranged Weapon",
+          "icon": "shopping-bag",
+          "color": "#F472B6",
+          "defaultVisible": false
+        },
+        {
+          "id": "helmet",
+          "groupId": "equipment",
+          "name": "Helmet",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "chestplate",
+          "groupId": "equipment",
+          "name": "Chestplate",
+          "icon": "gem",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "leggings",
+          "groupId": "equipment",
+          "name": "Leggings",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "boots",
+          "groupId": "equipment",
+          "name": "Boots",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "artifact",
+          "groupId": "equipment",
+          "name": "Artifact",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "talisman",
+          "groupId": "equipment",
+          "name": "Talisman",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "loot",
+      "label": "Loot",
+      "categories": [
+        {
+          "id": "emerald-pot",
+          "groupId": "loot",
+          "name": "Emerald Pot",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "chest",
+          "groupId": "loot",
+          "name": "Chest",
+          "icon": "gem",
+          "color": "#E879F9",
+          "defaultVisible": false
+        },
+        {
+          "id": "random-loot",
+          "groupId": "loot",
+          "name": "Random Loot",
+          "icon": "gem",
+          "color": "#FACC15",
+          "defaultVisible": false
+        }
+      ]
+    }
+  ],
+  "totalPins": 2223
+}

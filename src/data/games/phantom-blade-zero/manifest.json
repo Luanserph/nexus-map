@@ -1,0 +1,939 @@
+{
+  "id": "game-phantom-blade-zero",
+  "slug": "phantom-blade-zero",
+  "title": "Phantom Blade Zero",
+  "subtitle": "Kungfupunk Sombrio — 8 Regiões de Wulin",
+  "studio": "S-Game",
+  "releaseYear": 2026,
+  "genres": [
+    "Action RPG",
+    "Soulslike",
+    "Ação"
+  ],
+  "platforms": [
+    "pc",
+    "playstation"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/phantom-blade-zero/cover.webp",
+    "bannerImage": "/games/phantom-blade-zero/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#EF4444",
+    "accentSecondary": "#F59E0B",
+    "accentGlow": "rgba(239, 68, 68, 0.38)",
+    "glassTint": "rgba(22, 10, 12, 0.82)",
+    "surfaceBase": "#0E0608",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "abyssal-contours",
+    "badgeStyle": "chamfered"
+  },
+  "maps": [
+    {
+      "id": "crimson-forest",
+      "name": "Crimson Forest",
+      "dlc": "base",
+      "pinsCount": 320,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0E0608",
+      "initialCenter": [
+        0.7181625035952,
+        -0.84273087309793
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.54572,
+          -1.10648
+        ],
+        [
+          0.88953,
+          -0.31087
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v1",
+          "label": "v1",
+          "urlTemplate": "https://tiles.mapgenie.io/games/phantom-blade-zero/crimson-forest/v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0.54931,
+              -1.07666
+            ],
+            [
+              0.91183,
+              -0.34058
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meigu-lake",
+      "name": "Meigu Lake",
+      "dlc": "base",
+      "pinsCount": 424,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0E0608",
+      "initialCenter": [
+        0.6350841978452,
+        -0.83792560761708
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.18949,
+          -1.41193
+        ],
+        [
+          1.09124,
+          -0.02846
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "meigu-lake",
+          "label": "Meigu Lake",
+          "urlTemplate": "https://tiles.mapgenie.io/games/phantom-blade-zero/meigu-lake/v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "mirror-realm",
+          "label": "Mirror Realm",
+          "urlTemplate": "https://tiles.mapgenie.io/games/phantom-blade-zero/meigu-lake/mirror/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mount-soulrend",
+      "name": "Mount Soulrend",
+      "dlc": "base",
+      "pinsCount": 79,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0E0608",
+      "initialCenter": [
+        0.68313039751521,
+        -0.71103347986946
+      ],
+      "initialZoom": 9,
+      "maxBounds": [
+        [
+          0.13278,
+          -1.40549
+        ],
+        [
+          1.22548,
+          -0.09642
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v1",
+          "label": "v1",
+          "urlTemplate": "https://tiles.mapgenie.io/games/phantom-blade-zero/mount-soulrend/v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mountain-of-imprisonment",
+      "name": "Mountain of Imprisonment",
+      "dlc": "base",
+      "pinsCount": 200,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0E0608",
+      "initialCenter": [
+        0.6350841978452,
+        -0.83792560761708
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          -0.02328,
+          -1.32453
+        ],
+        [
+          1.45743,
+          -0.05132
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v1",
+          "label": "v1",
+          "urlTemplate": "https://tiles.mapgenie.io/games/phantom-blade-zero/mountain-of-imprisonment/v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pangzhen",
+      "name": "Pangzhen",
+      "dlc": "base",
+      "pinsCount": 738,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0E0608",
+      "initialCenter": [
+        0.6350841978452,
+        -0.83792560761708
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.3636,
+          -1.18396
+        ],
+        [
+          0.9514,
+          -0.21436
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v1",
+          "label": "v1",
+          "urlTemplate": "https://tiles.mapgenie.io/games/phantom-blade-zero/pangzhen/v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0.30762,
+              -1.40625
+            ],
+            [
+              1.09857,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-mandates-encampment",
+      "name": "The Mandate's Encampment",
+      "dlc": "base",
+      "pinsCount": 259,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0E0608",
+      "initialCenter": [
+        0.6350841978452,
+        -0.83792560761708
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          -0.00592,
+          -1.40182
+        ],
+        [
+          1.26132,
+          -0.01626
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v1",
+          "label": "v1",
+          "urlTemplate": "https://tiles.mapgenie.io/games/phantom-blade-zero/the-mandates-encampment/v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "village-of-lu",
+      "name": "Village of Lu",
+      "dlc": "base",
+      "pinsCount": 344,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0E0608",
+      "initialCenter": [
+        0.6350841978452,
+        -0.83792560761708
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          -0.03964,
+          -1.3238
+        ],
+        [
+          1.26491,
+          0.01122
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v1",
+          "label": "v1",
+          "urlTemplate": "https://tiles.mapgenie.io/games/phantom-blade-zero/village-of-lu/v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weeping-creek-valley",
+      "name": "Weeping Creek Valley",
+      "dlc": "base",
+      "pinsCount": 316,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0E0608",
+      "initialCenter": [
+        0.61816463913316,
+        -0.74157640653129
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          0.41886,
+          -0.93444
+        ],
+        [
+          0.99202,
+          -0.4675
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v1",
+          "label": "v1",
+          "urlTemplate": "https://tiles.mapgenie.io/games/phantom-blade-zero/weeping-creek-valley/v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "points-of-interest",
+      "label": "Points of Interest",
+      "categories": [
+        {
+          "id": "bell",
+          "groupId": "points-of-interest",
+          "name": "Bell",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "transition",
+          "groupId": "points-of-interest",
+          "name": "Transition",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "interactable",
+          "groupId": "points-of-interest",
+          "name": "Interactable",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "challenge",
+          "groupId": "points-of-interest",
+          "name": "Challenge",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "points-of-interest",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "key-items",
+      "label": "Key Items",
+      "categories": [
+        {
+          "id": "weapon",
+          "groupId": "key-items",
+          "name": "Weapon",
+          "icon": "shopping-bag",
+          "color": "#FB7185",
+          "defaultVisible": false
+        },
+        {
+          "id": "phantom-edge",
+          "groupId": "key-items",
+          "name": "Phantom Edge",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "accessory",
+          "groupId": "key-items",
+          "name": "Accessory",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "treasure",
+          "groupId": "key-items",
+          "name": "Treasure",
+          "icon": "gem",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "medicine",
+          "groupId": "key-items",
+          "name": "Medicine",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "sha-chi-amber",
+          "groupId": "key-items",
+          "name": "Sha-Chi Amber",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "blackstone",
+          "groupId": "key-items",
+          "name": "Blackstone",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "memory-flower",
+          "groupId": "key-items",
+          "name": "Memory Flower",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "key",
+          "groupId": "key-items",
+          "name": "Key",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "quest-item",
+          "groupId": "key-items",
+          "name": "Quest Item",
+          "icon": "scroll-text",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "book",
+          "groupId": "key-items",
+          "name": "Book",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "accessory-fragment",
+          "groupId": "key-items",
+          "name": "Accessory Fragment",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "soul-tempering-material",
+          "groupId": "key-items",
+          "name": "Soul Tempering Material",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "traversal-talisman",
+          "groupId": "items",
+          "name": "Traversal Talisman",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "weapon-reforge-talisman",
+          "groupId": "items",
+          "name": "Weapon Reforge Talisman",
+          "icon": "shopping-bag",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "phantom-reforge-talisman",
+          "groupId": "items",
+          "name": "Phantom Reforge Talisman",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "characters",
+      "label": "Characters",
+      "categories": [
+        {
+          "id": "boss",
+          "groupId": "characters",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "merchant",
+          "groupId": "characters",
+          "name": "Merchant",
+          "icon": "shopping-bag",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "character",
+          "groupId": "characters",
+          "name": "Character",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "blacksmith",
+          "groupId": "characters",
+          "name": "Blacksmith",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "story-main-quest",
+          "groupId": "quests",
+          "name": "Story Main Quest",
+          "icon": "scroll-text",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "story-side-quest",
+          "groupId": "quests",
+          "name": "Story Side Quest",
+          "icon": "scroll-text",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "tale",
+          "groupId": "quests",
+          "name": "Tale",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "collectible-quest",
+          "groupId": "quests",
+          "name": "Collectible Quest",
+          "icon": "scroll-text",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "materials",
+      "label": "Materials",
+      "categories": [
+        {
+          "id": "remnant-dust",
+          "groupId": "materials",
+          "name": "Remnant Dust",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "forged-metal",
+          "groupId": "materials",
+          "name": "Forged Metal",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "polished-forged-metal",
+          "groupId": "materials",
+          "name": "Polished Forged Metal",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "flawless-forged-metal",
+          "groupId": "materials",
+          "name": "Flawless Forged Metal",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "twinned-metal",
+          "groupId": "materials",
+          "name": "Twinned Metal",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "polished-twinned-metal",
+          "groupId": "materials",
+          "name": "Polished Twinned Metal",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "flawless-twinned-metal",
+          "groupId": "materials",
+          "name": "Flawless Twinned Metal",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "broadplate-metal",
+          "groupId": "materials",
+          "name": "Broadplate Metal",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "polished-broadplate-metal",
+          "groupId": "materials",
+          "name": "Polished Broadplate Metal",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "flawless-broadplate-metal",
+          "groupId": "materials",
+          "name": "Flawless Broadplate Metal",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "solvent",
+          "groupId": "materials",
+          "name": "Solvent",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "universal-solvent",
+          "groupId": "materials",
+          "name": "Universal Solvent",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "exotic-copper-ingot",
+          "groupId": "materials",
+          "name": "Exotic Copper Ingot",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "forged-otherworldly-copper",
+          "groupId": "materials",
+          "name": "Forged Otherworldly Copper",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "darkfire-charcoal",
+          "groupId": "materials",
+          "name": "Darkfire Charcoal",
+          "icon": "flame",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "searing-darkfire-charcoal",
+          "groupId": "materials",
+          "name": "Searing Darkfire Charcoal",
+          "icon": "flame",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "mechanical-gear",
+          "groupId": "materials",
+          "name": "Mechanical Gear",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "ying-mechanical-gear",
+          "groupId": "materials",
+          "name": "Ying Mechanical Gear",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "ancient-timber",
+          "groupId": "materials",
+          "name": "Ancient Timber",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "forbidden-camphor-timber",
+          "groupId": "materials",
+          "name": "Forbidden Camphor Timber",
+          "icon": "bookmark",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "tainted-crystal-shard",
+          "groupId": "materials",
+          "name": "Tainted Crystal Shard",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "refined-indigo-crystal",
+          "groupId": "materials",
+          "name": "Refined Indigo Crystal",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "incense-ash",
+          "groupId": "materials",
+          "name": "Incense Ash",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "incense-ash-for-the-lady",
+          "groupId": "materials",
+          "name": "Incense Ash for the Lady",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "apprentice-healer-s-memory",
+          "groupId": "materials",
+          "name": "Apprentice Healer's Memory",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "master-healer-s-memory",
+          "groupId": "materials",
+          "name": "Master Healer's Memory",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "otherworldly-copper",
+          "groupId": "materials",
+          "name": "Otherworldly Copper",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "blazing-darkfire-charcoal",
+          "groupId": "materials",
+          "name": "Blazing Darkfire Charcoal",
+          "icon": "flame",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "precision-mechanical-gear",
+          "groupId": "materials",
+          "name": "Precision Mechanical Gear",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "camphor-timber",
+          "groupId": "materials",
+          "name": "Camphor Timber",
+          "icon": "bookmark",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "illusory-incense-ash",
+          "groupId": "materials",
+          "name": "Illusory Incense Ash",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "skilled-healer-s-memory",
+          "groupId": "materials",
+          "name": "Skilled Healer's Memory",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "concentrated-solvent",
+          "groupId": "materials",
+          "name": "Concentrated Solvent",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 2680
+}

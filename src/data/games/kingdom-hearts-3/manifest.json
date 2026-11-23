@@ -1,0 +1,646 @@
+{
+  "id": "game-kingdom-hearts-3",
+  "slug": "kingdom-hearts-3",
+  "title": "Kingdom Hearts III",
+  "subtitle": "10 Mundos & Re Mind — Lucky Emblems & Tesouros",
+  "studio": "Square Enix",
+  "releaseYear": 2019,
+  "genres": [
+    "Action RPG",
+    "JRPG",
+    "Aventura"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox",
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/kingdom-hearts-3/cover.webp",
+    "bannerImage": "/games/kingdom-hearts-3/banner.webp",
+    "logoImage": "/games/kingdom-hearts-3/logo.webp"
+  },
+  "theme": {
+    "accentPrimary": "#38BDF8",
+    "accentSecondary": "#F472B6",
+    "accentGlow": "rgba(56, 189, 248, 0.40)",
+    "glassTint": "rgba(10, 16, 28, 0.80)",
+    "surfaceBase": "#060A16",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "arendelle",
+      "name": "Arendelle",
+      "dlc": "base",
+      "pinsCount": 83,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060A16",
+      "initialCenter": [
+        0.70862538994039,
+        -0.91208741980972
+      ],
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          0.02525,
+          -1.39303
+        ],
+        [
+          1.3804,
+          -0.08951
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/kingdom-hearts-3/arendelle/default-v3/{z}/{y}/{x}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 12,
+          "maxZoom": 13,
+          "tileBounds": [
+            [
+              0.02525,
+              -1.39303
+            ],
+            [
+              1.3804,
+              -0.08951
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keyblade-graveyard",
+      "name": "Keyblade Graveyard",
+      "dlc": "base",
+      "pinsCount": 0,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060A16",
+      "initialCenter": [
+        0.70862538994039,
+        -0.91208741980972
+      ],
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          0,
+          -1.40625
+        ],
+        [
+          1.40611,
+          0
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/kingdom-hearts-3/keyblade-graveyard/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kingdom-of-corona",
+      "name": "Kingdom of Corona",
+      "dlc": "base",
+      "pinsCount": 118,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060A16",
+      "initialCenter": [
+        0.70862538994039,
+        -0.91208741980972
+      ],
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          0.20175,
+          -0.93557
+        ],
+        [
+          1.17437,
+          -0.51734
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/kingdom-hearts-3/kingdom-of-corona/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0.20175,
+              -0.93557
+            ],
+            [
+              1.17437,
+              -0.51734
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "monstropolis",
+      "name": "Monstropolis",
+      "dlc": "base",
+      "pinsCount": 63,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060A16",
+      "initialCenter": [
+        0.70862538994039,
+        -0.91208741980972
+      ],
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          0.1895,
+          -0.95109
+        ],
+        [
+          1.20265,
+          -0.30886
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/kingdom-hearts-3/monstropolis/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0.1895,
+              -0.95109
+            ],
+            [
+              1.20265,
+              -0.30886
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "olympus",
+      "name": "Olympus",
+      "dlc": "base",
+      "pinsCount": 111,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060A16",
+      "initialCenter": [
+        0.70862538994039,
+        -0.91208741980972
+      ],
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          0.10806,
+          -1.29935
+        ],
+        [
+          1.26163,
+          -0.08908
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/kingdom-hearts-3/olympus/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0.10806,
+              -1.29935
+            ],
+            [
+              1.26163,
+              -0.08908
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "remind",
+      "name": "Re Mind",
+      "dlc": "remind",
+      "pinsCount": 16,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060A16",
+      "initialCenter": [
+        0.70862538994039,
+        -0.91208741980972
+      ],
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          0.72536,
+          -1.05449
+        ],
+        [
+          1.22884,
+          -0.43514
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/kingdom-hearts-3/remind/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0.72536,
+              -1.05449
+            ],
+            [
+              1.22884,
+              -0.43514
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "san-fransokyo",
+      "name": "San Fransokyo",
+      "dlc": "base",
+      "pinsCount": 63,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060A16",
+      "initialCenter": [
+        0.70862538994039,
+        -0.91208741980972
+      ],
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          0.43071,
+          -1.08704
+        ],
+        [
+          1.00721,
+          -0.34072
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/kingdom-hearts-3/san-fransokyo/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0.43071,
+              -1.08704
+            ],
+            [
+              1.00721,
+              -0.34072
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-caribbean",
+      "name": "The Caribbean",
+      "dlc": "base",
+      "pinsCount": 191,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060A16",
+      "initialCenter": [
+        0.70862538994039,
+        -0.91208741980972
+      ],
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          0.28101,
+          -1.35831
+        ],
+        [
+          1.13326,
+          -0.00931
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/kingdom-hearts-3/the-caribbean/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0.28101,
+              -1.35831
+            ],
+            [
+              1.13326,
+              -0.00931
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toy-box",
+      "name": "Toy Box",
+      "dlc": "base",
+      "pinsCount": 92,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060A16",
+      "initialCenter": [
+        0.70862538994039,
+        -0.91208741980972
+      ],
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          0.14111,
+          -1.08987
+        ],
+        [
+          1.22081,
+          -0.37822
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/kingdom-hearts-3/toy-box/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0.14111,
+              -1.08987
+            ],
+            [
+              1.22081,
+              -0.37822
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "twilight-town",
+      "name": "Twilight Town",
+      "dlc": "base",
+      "pinsCount": 85,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060A16",
+      "initialCenter": [
+        0.70862538994039,
+        -0.91208741980972
+      ],
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          0.24684,
+          -1.34981
+        ],
+        [
+          1.14626,
+          -0.21797
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/kingdom-hearts-3/twilight-town/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0.24684,
+              -1.34981
+            ],
+            [
+              1.14626,
+              -0.21797
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "moogle-shop",
+          "groupId": "locations",
+          "name": "Moogle Shop",
+          "icon": "shopping-bag",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "save-point",
+          "groupId": "locations",
+          "name": "Save Point",
+          "icon": "landmark",
+          "color": "#F472B6",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "lucky-emblem",
+          "groupId": "collectibles",
+          "name": "Lucky Emblem",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "treasure-chest",
+          "groupId": "collectibles",
+          "name": "Treasure Chest",
+          "icon": "gem",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "photo-mission",
+          "groupId": "collectibles",
+          "name": "Photo Mission",
+          "icon": "scroll-text",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "recipe",
+          "groupId": "collectibles",
+          "name": "Recipe",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "game-records",
+      "label": "Game Records",
+      "categories": [
+        {
+          "id": "battlegate",
+          "groupId": "game-records",
+          "name": "Battlegate",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "flantastic-seven",
+          "groupId": "game-records",
+          "name": "Flantastic Seven",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "mini-game",
+          "groupId": "game-records",
+          "name": "Mini-Game",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "classic-kingdom",
+          "groupId": "game-records",
+          "name": "Classic Kingdom",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "ingredient",
+          "groupId": "other",
+          "name": "Ingredient",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "golden-herc-figure",
+          "groupId": "other",
+          "name": "Golden Herc Figure",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "thankful-citizen",
+          "groupId": "other",
+          "name": "Thankful Citizen",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "help-citizen",
+          "groupId": "other",
+          "name": "Help Citizen",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "heart-piece",
+          "groupId": "other",
+          "name": "Heart Piece",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "enemies",
+      "label": "Enemies",
+      "categories": [
+        {
+          "id": "boss",
+          "groupId": "enemies",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 822
+}

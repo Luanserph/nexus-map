@@ -1,0 +1,582 @@
+{
+  "id": "game-mortal-shell-ii",
+  "slug": "mortal-shell-ii",
+  "title": "Mortal Shell II",
+  "subtitle": "Fallgrim — Shells, Sesters, Masmorras & Chefes",
+  "studio": "Cold Symmetry",
+  "releaseYear": 2026,
+  "genres": [
+    "Soulslike",
+    "Action RPG",
+    "Fantasia Sombria"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/mortal-shell-ii/cover.webp",
+    "bannerImage": "/games/mortal-shell-ii/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#CBD5E1",
+    "accentSecondary": "#EA580C",
+    "accentGlow": "rgba(203, 213, 225, 0.36)",
+    "glassTint": "rgba(16, 16, 18, 0.84)",
+    "surfaceBase": "#09090B",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "abyssal-contours",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "fallgrim",
+      "name": "Fallgrim",
+      "dlc": "base",
+      "pinsCount": 1724,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#09090B",
+      "initialCenter": [
+        0.73162707006162,
+        -0.77313583098183
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          -0.07032,
+          -0.99019
+        ],
+        [
+          0.94925,
+          0.07335
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default-v1",
+          "label": "default-v1",
+          "urlTemplate": "https://tiles.mapgenie.io/games/mortal-shell-ii/fallgrim/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "landmarks",
+      "label": "Landmarks",
+      "categories": [
+        {
+          "id": "area",
+          "groupId": "landmarks",
+          "name": "Area",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "beacon",
+          "groupId": "landmarks",
+          "name": "Beacon",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "gate",
+          "groupId": "landmarks",
+          "name": "Gate",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "dungeon",
+          "groupId": "landmarks",
+          "name": "Dungeon",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "bone-gate",
+          "groupId": "landmarks",
+          "name": "Bone Gate",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "corrupted-statue",
+          "groupId": "landmarks",
+          "name": "Corrupted Statue",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "small-beacon",
+          "groupId": "landmarks",
+          "name": "Small Beacon",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "ghost-beacon",
+          "groupId": "landmarks",
+          "name": "Ghost Beacon",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "key",
+          "groupId": "items",
+          "name": "Key",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "map-fragment",
+          "groupId": "items",
+          "name": "Map Fragment",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "key-item",
+          "groupId": "items",
+          "name": "Key Item",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "chest",
+          "groupId": "items",
+          "name": "Chest",
+          "icon": "gem",
+          "color": "#4ADE80",
+          "defaultVisible": false
+        },
+        {
+          "id": "offering-chest",
+          "groupId": "items",
+          "name": "Offering Chest",
+          "icon": "gem",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "ovum",
+          "groupId": "items",
+          "name": "Ovum",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "valuable-item",
+          "groupId": "items",
+          "name": "Valuable Item",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "permanent-pickups",
+      "label": "Permanent Pickups",
+      "categories": [
+        {
+          "id": "weltcap",
+          "groupId": "permanent-pickups",
+          "name": "Weltcap",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "common-moonshine",
+          "groupId": "permanent-pickups",
+          "name": "Common Moonshine",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "burnt-effigy",
+          "groupId": "permanent-pickups",
+          "name": "Burnt Effigy",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "tarspore",
+          "groupId": "permanent-pickups",
+          "name": "Tarspore",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "martyr-s-ash",
+          "groupId": "permanent-pickups",
+          "name": "Martyr's Ash",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "bloodseed",
+          "groupId": "permanent-pickups",
+          "name": "Bloodseed",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "galvanic-shard",
+          "groupId": "permanent-pickups",
+          "name": "Galvanic Shard",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "sheephead-totem",
+          "groupId": "permanent-pickups",
+          "name": "Sheephead Totem",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "grisha-remnant",
+          "groupId": "permanent-pickups",
+          "name": "Grisha Remnant",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "mango",
+          "groupId": "permanent-pickups",
+          "name": "Mango",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "scripture",
+          "groupId": "permanent-pickups",
+          "name": "Scripture",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "equipment",
+      "label": "Equipment",
+      "categories": [
+        {
+          "id": "tarstone",
+          "groupId": "equipment",
+          "name": "Tarstone",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "shell",
+          "groupId": "equipment",
+          "name": "Shell",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "weapon",
+          "groupId": "equipment",
+          "name": "Weapon",
+          "icon": "shopping-bag",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "sidearm",
+          "groupId": "equipment",
+          "name": "Sidearm",
+          "icon": "shopping-bag",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "seal",
+          "groupId": "equipment",
+          "name": "Seal",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "shade",
+          "groupId": "equipment",
+          "name": "Shade",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "fragile-tarstone",
+          "groupId": "equipment",
+          "name": "Fragile Tarstone",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "mask",
+          "groupId": "equipment",
+          "name": "Mask",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "mortal-clothing",
+          "groupId": "equipment",
+          "name": "Mortal Clothing",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "quest",
+          "groupId": "quests",
+          "name": "Quest",
+          "icon": "scroll-text",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "materials",
+      "label": "Materials",
+      "categories": [
+        {
+          "id": "smithing-stone",
+          "groupId": "materials",
+          "name": "Smithing Stone",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "revered-gland",
+          "groupId": "materials",
+          "name": "Revered Gland",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "synaptic-vessel",
+          "groupId": "materials",
+          "name": "Synaptic Vessel",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "glimpse",
+          "groupId": "materials",
+          "name": "Glimpse",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "npcs",
+      "label": "NPCs",
+      "categories": [
+        {
+          "id": "npc",
+          "groupId": "npcs",
+          "name": "NPC",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "merchant",
+          "groupId": "npcs",
+          "name": "Merchant",
+          "icon": "shopping-bag",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "lore",
+      "label": "Lore",
+      "categories": [
+        {
+          "id": "tattered-note",
+          "groupId": "lore",
+          "name": "Tattered Note",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "journal",
+          "groupId": "lore",
+          "name": "Journal",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "tattered-page",
+          "groupId": "lore",
+          "name": "Tattered Page",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "portrait",
+          "groupId": "lore",
+          "name": "Portrait",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "engraving",
+          "groupId": "lore",
+          "name": "Engraving",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "enemies",
+      "label": "Enemies",
+      "categories": [
+        {
+          "id": "major-boss",
+          "groupId": "enemies",
+          "name": "Major Boss",
+          "icon": "skull",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "boss",
+          "groupId": "enemies",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "offering-candle",
+          "groupId": "other",
+          "name": "Offering Candle",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "stone-platform",
+          "groupId": "other",
+          "name": "Stone Platform",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "locked-door",
+          "groupId": "other",
+          "name": "Locked Door",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "corruption",
+          "groupId": "other",
+          "name": "Corruption",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "coins",
+          "groupId": "other",
+          "name": "Coins",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 1724
+}
