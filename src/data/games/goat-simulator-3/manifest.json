@@ -1,0 +1,446 @@
+{
+  "id": "game-goat-simulator-3",
+  "slug": "goat-simulator-3",
+  "title": "Goat Simulator 3",
+  "subtitle": "San Angora + 3 DLCs — Trinkets, Torres & Caos Sandbox",
+  "studio": "Coffee Stain North",
+  "releaseYear": 2022,
+  "genres": [
+    "Sandbox",
+    "Comédia",
+    "Mundo Aberto"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox",
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/goat-simulator-3/cover.webp",
+    "bannerImage": "/games/goat-simulator-3/banner.webp",
+    "logoImage": "/games/goat-simulator-3/logo.webp"
+  },
+  "theme": {
+    "accentPrimary": "#F472B6",
+    "accentSecondary": "#FACC15",
+    "accentGlow": "rgba(244, 114, 182, 0.40)",
+    "glassTint": "rgba(22, 12, 20, 0.80)",
+    "surfaceBase": "#0E070D",
+    "fontDisplay": "'Space Grotesk', sans-serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "minimal"
+  },
+  "maps": [
+    {
+      "id": "baadlands-furry-road",
+      "name": "Baadlands: Furry Road",
+      "dlc": "dlc",
+      "pinsCount": 280,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0E070D",
+      "initialCenter": [
+        0.68097752427234,
+        -0.78768699369891
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.36349,
+          -1.06911
+        ],
+        [
+          1.02597,
+          -0.3112
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/goat-simulator-3/baadlands-fury-road/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.36349,
+              -1.06911
+            ],
+            [
+              1.02597,
+              -0.3112
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "multiverse-of-nonsense",
+      "name": "Multiverse of Nonsense",
+      "dlc": "dlc",
+      "pinsCount": 326,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0E070D",
+      "initialCenter": [
+        0.68097752427234,
+        -0.78768699369891
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.34612,
+          -0.95643
+        ],
+        [
+          1.02563,
+          -0.42881
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/goat-simulator-3/multiverse-of-nonsense/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.34612,
+              -0.95643
+            ],
+            [
+              1.02563,
+              -0.42881
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "san-angora",
+      "name": "San Angora",
+      "dlc": "base",
+      "pinsCount": 1025,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0E070D",
+      "initialCenter": [
+        0.68097752427234,
+        -0.78768699369891
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          -0.08988,
+          -1.05075
+        ],
+        [
+          1.21332,
+          0.07783
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/goat-simulator-3/san-angora/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              -0.08988,
+              -1.05075
+            ],
+            [
+              1.21332,
+              0.07783
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ticket-to-dizzyworld",
+      "name": "Ticket to Dizzyworld",
+      "dlc": "dlc",
+      "pinsCount": 245,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0E070D",
+      "initialCenter": [
+        0.6871473576244,
+        -0.81310227980009
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.23273,
+          -1.23653
+        ],
+        [
+          1.13813,
+          -0.06087
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v2",
+          "label": "v2",
+          "urlTemplate": "https://tiles.mapgenie.io/games/goat-simulator-3/ticket-to-dizzyworld/v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.10986,
+              -1.18652
+            ],
+            [
+              1.20841,
+              -0.06592
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "area",
+          "groupId": "locations",
+          "name": "Area",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "camp-upgrade",
+          "groupId": "locations",
+          "name": "Camp Upgrade",
+          "icon": "bookmark",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "goat-tower",
+          "groupId": "locations",
+          "name": "Goat Tower",
+          "icon": "landmark",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "point-of-interest",
+          "groupId": "locations",
+          "name": "Point of Interest",
+          "icon": "landmark",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "gear-vending-machine",
+          "groupId": "locations",
+          "name": "Gear Vending Machine",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "prize-wheel",
+          "groupId": "locations",
+          "name": "Prize Wheel",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "event",
+          "groupId": "quests",
+          "name": "Event",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "instinct",
+          "groupId": "quests",
+          "name": "Instinct",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "secret-event",
+          "groupId": "quests",
+          "name": "Secret Event",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "mega-rift",
+          "groupId": "quests",
+          "name": "Mega Rift",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "goat-gear",
+          "groupId": "collectibles",
+          "name": "Goat Gear",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "golden-wheel",
+          "groupId": "collectibles",
+          "name": "Golden Wheel",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "instinct-shrine",
+          "groupId": "collectibles",
+          "name": "Instinct Shrine",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "ramp",
+          "groupId": "collectibles",
+          "name": "Ramp",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "trinket",
+          "groupId": "collectibles",
+          "name": "Trinket",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "broken-relic",
+          "groupId": "collectibles",
+          "name": "Broken Relic",
+          "icon": "gem",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "minigames",
+      "label": "Minigames",
+      "categories": [
+        {
+          "id": "car-derby",
+          "groupId": "minigames",
+          "name": "Car Derby",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "hoofball",
+          "groupId": "minigames",
+          "name": "Hoofball",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "king-of-the-hill",
+          "groupId": "minigames",
+          "name": "King of the Hill",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "prop-golf",
+          "groupId": "minigames",
+          "name": "Prop Golf",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "prop-hunt",
+          "groupId": "minigames",
+          "name": "Prop Hunt",
+          "icon": "skull",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "the-floor-is-lava",
+          "groupId": "minigames",
+          "name": "The Floor is Lava",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "headsplat",
+          "groupId": "minigames",
+          "name": "Headsplat",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "achievement",
+          "groupId": "other",
+          "name": "Achievement",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 1876
+}

@@ -1,0 +1,5641 @@
+[
+  {
+    "id": "yakuza-0-kamurocho-939986",
+    "mapId": "kamurocho",
+    "category": "fishing-spot",
+    "title": "Sea Fishing",
+    "description": "Spawns: - Whitebait - Goby - Squid - Scorpionfish - Tiger Prawn - Spider Crab - Fugu - Coelacanth - Tuna",
+    "coords": [
+      -0.29291398273062,
+      0.28460183797866
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f3049e98-b55e-48ba-90c6-494b6b80c956.jpg"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939987",
+    "mapId": "kamurocho",
+    "category": "fishing-spot",
+    "title": "Sea Fishing",
+    "description": "Spawns: - Filefish - Porcupinefish - Octopus - Flounder - Conger Eel - Sea Bream - Great White - Marlin - Oarfish",
+    "coords": [
+      -0.25504656442564,
+      0.28532317093305
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/09c969d1-90ce-4bbe-a098-4ca1418dc64b.jpg"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939886",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Shoten",
+    "description": "Minigame localizado em kamurocho.",
+    "coords": [
+      -0.53035267216086,
+      0.37006672145075
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939888",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Teltel Boys Club",
+    "description": "Minigame localizado em kamurocho.",
+    "coords": [
+      -0.52045583725135,
+      0.43847252098701
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939891",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Gandhara Kamurocho",
+    "description": "Minigame localizado em kamurocho.",
+    "coords": [
+      -0.50550243286969,
+      0.65984945935186
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939896",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Vincent",
+    "description": "Minigame localizado em kamurocho.",
+    "coords": [
+      -0.49902308439812,
+      0.82292266392716
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939901",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Yoshida Batting Center",
+    "description": "Minigame localizado em kamurocho.",
+    "coords": [
+      -0.80194097374314,
+      0.8872791375927
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939902",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Maharaja Kamurocho",
+    "description": "Minigame localizado em kamurocho.",
+    "coords": [
+      -0.73135825548576,
+      0.83929638584281
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939905",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Pocket Circuit Stadium",
+    "description": "Minigame localizado em kamurocho.",
+    "coords": [
+      -0.98106622695695,
+      0.84448975234628
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939907",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Mach Bowl",
+    "description": "Minigame localizado em kamurocho.",
+    "coords": [
+      -0.99387219228237,
+      0.73321197321688
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939908",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "SEGA HI-TECH LAND Theater Sq.",
+    "description": "Minigame localizado em kamurocho.",
+    "coords": [
+      -0.85965105857318,
+      0.77070371604502
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939909",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "JCC",
+    "description": "Unlocked as part of Chapter 6.",
+    "coords": [
+      -0.78407252346145,
+      0.7514145262444
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939911",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Heroine Karaoke Bar",
+    "description": "Minigame localizado em kamurocho.",
+    "coords": [
+      -0.59895990862444,
+      0.63160228958044
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939926",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Orchid Palace Mahjong",
+    "description": "Minigame localizado em kamurocho.",
+    "coords": [
+      -0.63984663563929,
+      0.41161222151999
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939933",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Cee-lo",
+    "description": "Within [West Park](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939897#L), only accessible in Chapter 10 onwards.",
+    "coords": [
+      -0.53202152252337,
+      0.95825496055285
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e4a1430e-403b-4394-9b58-3a1795d3b48f.jpg"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939934",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Koi-koi",
+    "description": "Within [West Park](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939897#L), only accessible in Chapter 10 onwards.",
+    "coords": [
+      -0.45129776000996,
+      0.90264401022337
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/af3912dc-4d2d-408d-a4d4-20dbbb5e8b97.jpg"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939935",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Cho-han",
+    "description": "Within [West Park](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939897#L), only accessible in Chapter 10 onwards.",
+    "coords": [
+      -0.48567295074594,
+      1.0096599600583
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e678a183-44ec-4425-bd17-851fa80cb379.jpg"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939936",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Oicho-kabu",
+    "description": "Within [West Park](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939897#L), only accessible in Chapter 10 onwards.",
+    "coords": [
+      -0.50695896148599,
+      0.99976949406083
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/78e2a393-b2b9-42c8-9620-94f4274427ba.jpg"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939940",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "SEGA HI-TECH LAND Nakamichi",
+    "description": "Minigame localizado em kamurocho.",
+    "coords": [
+      -0.71575107444542,
+      0.45374207902721
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939881",
+    "mapId": "kamurocho",
+    "category": "general-store",
+    "title": "Don Quijote Kamurocho",
+    "description": "General Store localizado em kamurocho.",
+    "coords": [
+      -0.70408082198949,
+      0.37349987671764
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939882",
+    "mapId": "kamurocho",
+    "category": "general-store",
+    "title": "Poppo Showa St.",
+    "description": "General Store localizado em kamurocho.",
+    "coords": [
+      -0.61722016524439,
+      0.36989506365435
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939885",
+    "mapId": "kamurocho",
+    "category": "general-store",
+    "title": "Le Marche Kamurocho",
+    "description": "General Store localizado em kamurocho.",
+    "coords": [
+      -0.54734714847896,
+      0.36938009023896
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939904",
+    "mapId": "kamurocho",
+    "category": "general-store",
+    "title": "M Store Kamurocho",
+    "description": "General Store localizado em kamurocho.",
+    "coords": [
+      -0.86119626223916,
+      0.84591080368597
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939913",
+    "mapId": "kamurocho",
+    "category": "general-store",
+    "title": "Kotobuki Drugs",
+    "description": "General Store localizado em kamurocho.",
+    "coords": [
+      -0.60064245707414,
+      0.55321462526287
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939914",
+    "mapId": "kamurocho",
+    "category": "general-store",
+    "title": "Shrine",
+    "description": "General Store localizado em kamurocho.",
+    "coords": [
+      -0.64487675736498,
+      0.51961665902019
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939920",
+    "mapId": "kamurocho",
+    "category": "general-store",
+    "title": "Poppo Tenkaichi St.",
+    "description": "General Store localizado em kamurocho.",
+    "coords": [
+      -0.87045190424624,
+      0.5091613059562
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939925",
+    "mapId": "kamurocho",
+    "category": "general-store",
+    "title": "Ebisu Pawn Kamurocho",
+    "description": "General Store localizado em kamurocho.",
+    "coords": [
+      -0.68293364125461,
+      0.41607530089591
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939883",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em kamurocho.",
+    "coords": [
+      -0.61069703292068,
+      0.35358755792315
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939887",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em kamurocho.",
+    "coords": [
+      -0.40973294485445,
+      0.41263752773438
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939890",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em kamurocho.",
+    "coords": [
+      -0.51168224244589,
+      0.5707813864736
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939894",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em kamurocho.",
+    "coords": [
+      -0.39214681203944,
+      0.74881123091316
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939900",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em kamurocho.",
+    "coords": [
+      -0.82460027550104,
+      0.90753269541506
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939903",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em kamurocho.",
+    "coords": [
+      -0.69679073697503,
+      0.81601219880169
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939906",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em kamurocho.",
+    "coords": [
+      -0.99788904189836,
+      0.8230343522258
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939922",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em kamurocho.",
+    "coords": [
+      -0.86077482777762,
+      0.39049838954173
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939928",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em kamurocho.",
+    "coords": [
+      -1.0145273782097,
+      0.6637310339506
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939929",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em kamurocho.",
+    "coords": [
+      -0.78742449681837,
+      0.494329322228
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939930",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em kamurocho.",
+    "coords": [
+      -0.70899862258855,
+      0.61579797525265
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939931",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em kamurocho.",
+    "coords": [
+      -0.87930996090122,
+      0.70435834141986
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939932",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Within [West Park](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939897#L), only accessible in Chapter 10 onwards.",
+    "coords": [
+      -0.63712058188042,
+      0.89429800203372
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/090c9431-6f4f-4ebb-95f4-e811773cd13a.jpg"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939938",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Within [Sugita Building](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939919)",
+    "coords": [
+      -0.89718818664446,
+      0.50365872215977
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939939",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Within Little Asia, only accessible in Chapter 10 onwards.",
+    "coords": [
+      -0.54756059836888,
+      0.68135703424278
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939880",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Sushi Gin",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.78527665328804,
+      0.36680522272843
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939884",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Ringer Hut Kamurocho",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.56434846114232,
+      0.36749185413487
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939889",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Tengokuken",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.53802201172172,
+      0.52576495523336
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939892",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Earth Angel",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.43064475059433,
+      0.67513930016007
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939893",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Shellac",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.41227698326054,
+      0.6892145353325
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939895",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Kanrai",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.54205803235277,
+      0.78919391132504
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939912",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Akaushimaru Taihei Boulevard",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.63983933489482,
+      0.58513492642152
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939915",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Smile Burger",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.70984244610815,
+      0.51811045288932
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939916",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Fuji Soba",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.7684362969091,
+      0.54003727800588
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939917",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Gindaco Highball Sakaba",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.83176250710602,
+      0.57609821842262
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939918",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Akaushimaru Tenkaichi Street",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.86146228993681,
+      0.61250758984677
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939923",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Cafe Alps",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.76704771596118,
+      0.42173997492638
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939924",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Yoronotaki Kamurocho",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.71039915084822,
+      0.41916115703884
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939876",
+    "mapId": "kamurocho",
+    "category": "taxi",
+    "title": "Park Boulevard East",
+    "description": "Taxi localizado em kamurocho.",
+    "coords": [
+      -0.38486031250127,
+      0.85113859732044
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939877",
+    "mapId": "kamurocho",
+    "category": "taxi",
+    "title": "Pink Street Entrance",
+    "description": "Taxi localizado em kamurocho.",
+    "coords": [
+      -0.57529922182928,
+      0.35275941472052
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939878",
+    "mapId": "kamurocho",
+    "category": "taxi",
+    "title": "Hotel District North",
+    "description": "Taxi localizado em kamurocho.",
+    "coords": [
+      -0.75673658952564,
+      1.0364316800103
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939879",
+    "mapId": "kamurocho",
+    "category": "taxi",
+    "title": "Shichifuku Street West",
+    "description": "Taxi localizado em kamurocho.",
+    "coords": [
+      -1.0244907775646,
+      0.81405062501216
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939927",
+    "mapId": "kamurocho",
+    "category": "taxi",
+    "title": "Tenkaichi Street Entrance",
+    "description": "Taxi localizado em kamurocho.",
+    "coords": [
+      -0.8467219233722,
+      0.35112777759635
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939985",
+    "mapId": "kamurocho",
+    "category": "taxi",
+    "title": "Tokyo: Pier",
+    "description": "Taxi localizado em kamurocho.",
+    "coords": [
+      -0.2744048586635,
+      0.25982091002064
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939897",
+    "mapId": "kamurocho",
+    "category": "point-of-interest",
+    "title": "West Park",
+    "description": "Only accessible in Chapter 10 onwards.",
+    "coords": [
+      -0.50732126718322,
+      0.8744091094364
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939919",
+    "mapId": "kamurocho",
+    "category": "point-of-interest",
+    "title": "Sugita Building",
+    "description": "Point of Interest localizado em kamurocho.",
+    "coords": [
+      -0.89688777923743,
+      0.52031993927918
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939921",
+    "mapId": "kamurocho",
+    "category": "point-of-interest",
+    "title": "Serena",
+    "description": "Point of Interest localizado em kamurocho.",
+    "coords": [
+      -0.87983980979462,
+      0.46904185111693
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939910",
+    "mapId": "kamurocho",
+    "category": "gear-store",
+    "title": "The Dragon & Tiger Kamurocho",
+    "description": "Gear Store localizado em kamurocho.",
+    "coords": [
+      -0.63270092010541,
+      0.72340473731886
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939951",
+    "mapId": "kamurocho",
+    "category": "gear-store",
+    "title": "Black Market Dealer",
+    "description": "Only accessible after completing [08 - Password Protected](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940034)",
+    "coords": [
+      -0.63901061980681,
+      0.64215973077245
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939730",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "02 - Arakure Quest",
+    "description": "Prerequisite: Progress the story until you've encountered Mr. Shakedown and the objective is to head home. Reward: - Sunburst (weapon)",
+    "coords": [
+      -0.72655104640617,
+      0.37068777221958
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940031",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "04 - Kamurocho Undercover",
+    "description": "Prerequisite: Progress the story until you've encountered Mr. Shakedown and the objective is to head home. Reward: - 9mm Automatic Pistol (Weapon)",
+    "coords": [
+      -0.40954789584447,
+      0.6898333250117
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940032",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "06 - Damned Yanki",
+    "description": "Prerequisite: Progress the story until you've encountered Mr. Shakedown and the objective is to head home. Tips: - Rewards vary based on your answers. The best answers are as follows: - \"Hello in English\" / \"Start your engines!\" - \"Fighting every day\" / \"Rescuing puppies\" - \"The time you crushed a gang\" / \"Stay silent\" Reward: - Wild Shirt (gear) - for three best answers chosen - Charismatic Autobiography (accessory) - for two best answers chosen - Charismatic Photo (accessory) - for one best answer chosen - Krazy Kyo (Business Advisor)",
+    "coords": [
+      -0.94835809756594,
+      0.80261943180786
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940033",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "07 - How to Train Your Dominatrix",
+    "description": "Prerequisite: Complete [09 - The Show Must Go On](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940035) Tips: - Rewards vary based on your choices. - Route A: - \"Who gave you permission to speak, pig!?\" - \"I want to be humiliated.\" - \"I bet you'd like that, you pervert!\" - \"They're watching you get humiliated!\" - Route B: - \"It's not like I'm happy to see you or anything!\" - \"I want to be stepped on with heels.\" - \"Gross! I'm the only who would do that for you!\" - \"Keep your eyes on me, and me alone!\" Reward: - Fur Belly Warmer (accessory) - Reward for Route A - Collapsible Steel Staff (weapon) - Reward for Route B - Toughness Z (consumable) - Reward for a mix of A and B - Masochistic Man (Business Advisor)",
+    "coords": [
+      -0.59043097744731,
+      0.63018093070838
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940034",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "08 - Password Protected",
+    "description": "Prerequisite: Progress the story until you've encountered Mr. Shakedown and the objective is to head home. Tips: - When speaking to the woman, mention \"Plans for today\" and \"Tomorrow's weather\" - When speaking to the man, mention \"A movie date\" and \"Rain at noon\" - The password is a case-sensitive \"Subotenuhigeukiro\" Reward: - Access to the [Black Market Dealer](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939951)'s stock - Li Leung (Security Staff)",
+    "coords": [
+      -0.63912018980747,
+      0.64958637342583
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940035",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "09 - The Show Must Go On",
+    "description": "Prerequisite: Progress the story until you've encountered Mr. Shakedown and the objective is to head home. Tips: - The \"Erasable\" is food - To \"Grocer\" is to tilt it at an angle - To \"Jeer\" and \"strike the set\" is to remove the dish. Reward: - Magnetic Necklace (accessory) - if you performed the correct actions - Tauriner+ (consumable) - if you did not",
+    "coords": [
+      -0.65872872009561,
+      0.49596949637061
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940036",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "12 - Miracle on Tenkaichi Street",
+    "description": "Prerequisite: Complete [09 - The Show Must Go On](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940035) Tips: - Reward varies based on the present chosen. Reward: - Silent Shoes (black present) - Baseball Shirt (white present) - Papillon Kato (Business Manager) - Stephen Spining (Business Manager)",
+    "coords": [
+      -0.8464441948334,
+      0.61592328905799
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940037",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "17 - Underneath It All",
+    "description": "Prerequisite: Progress the story until you've encountered Mr. Shakedown and the objective is to head home. Tips: - Sachiko is standing near the plants and wearing a blue scarf. Reward: - Sachiko (Business Manager)",
+    "coords": [
+      -0.65289552735058,
+      0.78444685242265
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940038",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "24 - The Girl in the Video",
+    "description": "Prerequisite: Progress the story until you've encountered Mr. Shakedown and the objective is to head home, then watch any three videos at [Gandhara Kamurocho](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939891). Tips: - The girl you need to find is at [Kanrai](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939895#L). Reward: - Video Boy (Security Staff)",
+    "coords": [
+      -0.49200905136797,
+      0.66065822735001
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940039",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "28 - Don't Dance Alone",
+    "description": "Prerequisite: Progress the story until you've encountered Mr. Shakedown and the objective is to head home, then dance at [Maharaja Kamurocho](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939902) three times. Tips: - The dance battle can be attempted on any difficulty. Reward: - N/A",
+    "coords": [
+      -0.73797225952137,
+      0.82051333507724
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940040",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "29 - Technique to Die For",
+    "description": "Prerequisite: Complete [28 - Don't Dance Alone](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940039), re-enter [Maharaja Kamurocho](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939902) some time later, and approach the bar. Tips: - The dance battle can be attempted on any difficulty. Reward: - N/A",
+    "coords": [
+      -0.73044061660724,
+      0.8201436242845
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940041",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "30 - Maharaja Showdown",
+    "description": "Prerequisite: Complete [29 - Technique to Die For](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940040), and re-enter [Maharaja Kamurocho](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939902) some time later. Tips: - The dance battle can be attempted on any difficulty. - Aim for as many extra steps as possible - but keep your combo going above all else. Reward: - Isobe Fan (cosmetic; only appears while dancing)",
+    "coords": [
+      -0.72308063507106,
+      0.82072788978992
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940042",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "36 - I am Kazuma-kun",
+    "description": "Prerequisite: Progress the story until you've slept and begun the hunt for information on Tachibana Real Estate, then join a few [Pocket Circuit Stadium](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939905) races. Tips: - Recommended Parts: - Slick Tires - Balanced Frame - High Torque Motor 2.0 - Balanced Gears - High Speed Battery Reward: - Blue Bolt (car decal)",
+    "coords": [
+      -0.99357604980608,
+      0.86947441632992
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940043",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "37 - The Rocky Road of Romance",
+    "description": "Prerequisite: Complete [36 - I am Kazuma-kun](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940042) Tips: - Recommended Parts: - Slim Tires Plus - Balanced Frame - High Torque Motor 2.0 - Balanced Gears Plus - High Speed Battery Reward: - N/A",
+    "coords": [
+      -0.9580850601175,
+      0.84666746888911
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940044",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "38 - Gift of Love",
+    "description": "Prerequisite: Complete [37 - The Rocky Road of Romance](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940043) Tips: - Recommended Parts: - Soft Tires Plus - Balanced Frame Plus - High Torque Motor 2.0 - Balanced Gears Plus - High Capacity Battery - Bumper Plate Reward: - DRAG-ON (car) - Boost Gears (car part)",
+    "coords": [
+      -0.98861396312799,
+      0.86944759732809
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940045",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "39 - Suspicion of Perversion",
+    "description": "Prerequisite: Complete [38 - Gift of Love](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940044) Tips: - Recommended Parts: - Extra Spiked Tires - Extra Balanced Frame - High Torque Motor 2.0 - Godspeed Gears - High Speed Battery - Bumper Plate Reward: - N/A",
+    "coords": [
+      -0.98372161388522,
+      0.86961923893645
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940046",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "40 - The Prodigious Racer",
+    "description": "Prerequisite: Complete [39 - Suspicion of Perversion](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940045) Tips: - Recommended Parts: - Super Lower Profile Tires - Super Balanced Frame - High Torque Motor 2.0 - Godspeed Gears Plus - High Speed Battery - Bumper Plate Reward: - Sunshine (car decal)",
+    "coords": [
+      -0.9781426191324,
+      0.86970505973797
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940047",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "41 - The Woman They Call Professor",
+    "description": "Prerequisite: Complete [40 - The Prodigious Racer](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940046) Tips: - Recommended Parts: - Super Spiked Tires - Super Balanced Frame - High Torque Motor 2.0 - Godspeed Gears Plus - High Speed Battery - Bumper Plate Reward: - Cool Striker (car) - Heavy Suspension (car part)",
+    "coords": [
+      -0.43501675128806,
+      0.67463507984401
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940048",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "42 - The Greatest Glory",
+    "description": "Prerequisite: Complete [41 - The Woman They Call Professor](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940047) Tips: - Recommended Parts: - Ultra Slim Tires - Ultra Metal Frame - Godspeed Motor - Extra Godspeed Gears - High Capacity Battery - Heavy Suspension - Bumper Plate Reward: - Dark Purple (car decal)",
+    "coords": [
+      -0.97217202186877,
+      0.86978551674081
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940049",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "43 - The Fighter's Crown",
+    "description": "Prerequisite: Complete [42 - The Greatest Glory](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940048) Tips: - Recommended Parts: - Ultra Spiked Tires - Ultra Metal Frame - Godspeed Motor - Ultra Boost Gears - High Speed Battery - Side Stabilizer 3.0 - Heavy Suspension - Bumper Plate Reward: - N/A",
+    "coords": [
+      -0.96655547619108,
+      0.86981769954006
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940050",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "50 - Pocket Circuit Fighter!",
+    "description": "Prerequisite: Progress the story until you've slept and begun the hunt for information on Tachibana Real Estate. Tips: - To progress your friendship with Pocket Circuit Fighter after this substory, complete races and progress the substories beginning with [36 - I am Kazuma-kun](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940042). - After reaching maximum friendship level and unlocking the real estate minigame, speak to Pocket Circuit Fighter to receive the [Pocket Circuit Stadium](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939718) business. Reward: - Golem Tiger (car) - Slick Tires (car part) - Power Motor (car part) - Balanced Frame (car part) - Regular Gears (car part) - Regular Battery (car part) - Red Blaze (car decal)",
+    "coords": [
+      -0.9809803962718,
+      0.876597536475
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940051",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "46 - The Stop-and-Search Specialist",
+    "description": "Prerequisite: Progress the story until you've encountered Mr. Shakedown and the objective is to head home. Tips: - To progress your friendship with Officer Kikuchi after this substory, show non-illegal things whenever you're searched. - You'll get to keep the item. Reward: - Officer Kikuchi (Security Staff) - after reaching maximum friendship level and unlocking the real estate minigame",
+    "coords": [
+      -0.4855190814578,
+      0.62332725700692
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940052",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "47 - The Mushroom Merchant",
+    "description": "Prerequisite: Progress the story until you've encountered Mr. Shakedown and the objective is to head home. Tips: - To progress your friendship with Kitajima after this substory, purchase mushrooms until he runs out. Reward: - Mafia Boss (Security Staff) - after reaching maximum friendship level and unlocking the real estate minigame",
+    "coords": [
+      -0.45931821131546,
+      0.82655875732081
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940053",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "51 - Miho, Convenience Store Clerk",
+    "description": "Prerequisite: Progress the story until you've encountered Mr. Shakedown and the objective is to head home, then purchase anything from [Poppo Tenkaichi St.](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939920) Tips: - To progress your friendship with Miho after this substory, purchase anything from the store. Reward: - After reaching maximum friendship level and unlocking the real estate minigame, speak to Miho to receive the [Poppo Tenkaichi St.](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939669) business.",
+    "coords": [
+      -0.87045370453924,
+      0.50327085109483
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940054",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "52 - Emiri, Mach Bowl Receptionist",
+    "description": "Prerequisite: ?? Tips: - To progress your friendship with Emiri after this substory, continue bowling. - After unlocking the real estate minigame, complete her challenge to reach maximum friendship. Reward: - Nugget (Business Manager) - after reaching maximum friendship level - [Mach Bowl](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939709) - after reaching maximum friendship level",
+    "coords": [
+      -0.97980349376687,
+      0.7348202045408
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940055",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "53 - Sushi Gin's Chef",
+    "description": "Prerequisite: Progress the story until you've encountered Mr. Shakedown and the objective is to head home, then order food from [Sushi Gin](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939880). Tips: - To progress your friendship with the chef after this substory, bring him any fish from the [Pier](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939985). Reward: - [Sushi Gin](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939670) - after reaching maximum friendship level and unlocking the real estate minigame",
+    "coords": [
+      -0.78528235674224,
+      0.3619963565932
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940056",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "54 - Luka at SEGA HI-TECH LAND",
+    "description": "Prerequisite: Progress the story until you've encountered Mr. Shakedown and the objective is to head home, then play Out Run at [SEGA HI-TECH LAND Nakamichi](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939940) Tips: - To progress your friendship with Luka after this substory, beat her Out Run scores. Reward: - [HL SEGA Nakamichi St.](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939679) - after reaching maximum friendship level and unlocking the real estate minigame",
+    "coords": [
+      -0.70857848275099,
+      0.45536178866614
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940057",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "90 - Kamoji's Training",
+    "description": "Prerequisite: Progress the story until you've encountered Mr. Shakedown and the objective is to head home, then speak to Kamoji. Reward: - Kamoji's Rush style training unlocked",
+    "coords": [
+      -0.48193692700744,
+      0.76633582156258
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940058",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "89 - Bacchus' Training",
+    "description": "Prerequisite: Progress the story until you've shared a drink with homeless men, then speak to Bacchus. Reward: - Bacchus' Brawler style training unlocked",
+    "coords": [
+      -0.79810569569673,
+      0.53924942503376
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940059",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "91 - Miss Tatsu's Training",
+    "description": "Prerequisite: Progress the story until you've unlocked the Beast fighting style. Reward: - Miss Tatsu's Beast style training unlocked",
+    "coords": [
+      -0.27436548001569,
+      0.30198966300443
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940061",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "92 - Apex Predator",
+    "description": "Prerequisite: Progress the story until you've encountered Mr. Shakedown and the objective is to head home, then find him again. Tips: - If you're struggling to win the fight, purchase upgrades to your fighting styles. Reward: - Your money back! Yippee!",
+    "coords": [
+      -0.7777724018577,
+      0.48016411076894
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940062",
+    "mapId": "kamurocho",
+    "category": "chapter-2",
+    "title": "93 - A Dream Unfulfilled",
+    "description": "Prerequisite: Complete [92 - Apex Predator](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940061), then encounter the other Mr. Shakedown. Tips: - If you're struggling to win the fight, purchase upgrades to your fighting styles. Reward: - Your money back, again! Yippee!",
+    "coords": [
+      -0.77367782593021,
+      0.48027608612442
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940110",
+    "mapId": "kamurocho",
+    "category": "chapter-5",
+    "title": "01 - The Visionary Fortune-teller",
+    "description": "Prerequisite: Progress the story until Kiryu's purchased a white suit, and complete [51 - Rise of the Dragon](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940067) as Majima. Reward: - Fortune Teller (Business Advisor)",
+    "coords": [
+      -0.49730290465581,
+      0.49621891615367
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940111",
+    "mapId": "kamurocho",
+    "category": "chapter-5",
+    "title": "05 - The Human Trafficking Ring",
+    "description": "Prerequisite: Progress the story until Kiryu's purchased a white suit, and complete [04 - Kamurocho Undercover](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940031) Reward: - Kasuga (Business Manager)",
+    "coords": [
+      -0.40615818770576,
+      0.68988657983481
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940112",
+    "mapId": "kamurocho",
+    "category": "chapter-5",
+    "title": "03 - Passport to Pizza",
+    "description": "Prerequisite: Progress the story until Kiryu's purchased a white suit, then give the girl an energising drink. Tips: - You have about a minute and a half to deliver the pizza - try not to bump into anybody! Reward: - Security Wallet (accessory)",
+    "coords": [
+      -0.39315649609139,
+      0.6455559471343
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940115",
+    "mapId": "kamurocho",
+    "category": "chapter-5",
+    "title": "13 - The Tax Lady",
+    "description": "Prerequisite: Defeat the Electronics King, then return to the [Sugita Building](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939919) office Reward: - Trouble Finder (accessory) - Marui (Business Advisor)",
+    "coords": [
+      -0.91628551483058,
+      0.51979961216203
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940117",
+    "mapId": "kamurocho",
+    "category": "chapter-5",
+    "title": "15 - Help Wanted!",
+    "description": "Prerequisite: Defeat the Leisure King Reward: - N/A",
+    "coords": [
+      -0.94835062532871,
+      0.61663545989956
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940118",
+    "mapId": "kamurocho",
+    "category": "chapter-5",
+    "title": "16 - Help Wanted! Again...",
+    "description": "Prerequisite: Complete [15 - Help Wanted!](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940117) Tips: - The inconsistencies are her \"Summary\" and \"Signature Dishes\" Reward: - N/A",
+    "coords": [
+      -0.91157555580011,
+      0.51978888376753
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940119",
+    "mapId": "kamurocho",
+    "category": "chapter-5",
+    "title": "19 - Heir to the Family",
+    "description": "Prerequisite: Progress the story until Kiryu's purchased a white suit. Reward: - N/A",
+    "coords": [
+      -0.76657241199533,
+      0.89406062031024
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940120",
+    "mapId": "kamurocho",
+    "category": "chapter-5",
+    "title": "21 - First Impressions",
+    "description": "Prerequisite: Complete [16 - Help Wanted! Again...](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940118) Reward: - Koshimizu (Security Staff)",
+    "coords": [
+      -0.90679585933555,
+      0.51997663066885
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940121",
+    "mapId": "kamurocho",
+    "category": "chapter-5",
+    "title": "22 - A Watery Investment",
+    "description": "Prerequisite: Unlock the real estate minigame Tips: - For the best reward, choose these options: - \"No.\" - \"Absolutely not!\" - \"Late forties.\" - \"I still don't want it.\" - \"I'm not buying.\" - \"I'm really not buying.\" Reward: - Mew Shoes (accessory) - if you chose the best options.",
+    "coords": [
+      -0.69546823457114,
+      0.46262088644018
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940123",
+    "mapId": "kamurocho",
+    "category": "chapter-5",
+    "title": "23 - Miracle in Maharaja",
+    "description": "Prerequisite: Unlock the real estate minigame and complete [12 - Miracle on Tenkaichi Street](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940036) Tips: - You don't need to win the dance battle. - Reward varies based on the present chosen. Reward: - Encounter Finder (black present) - Tour T-Shirt (white present) - Miracle Johnson (Business Advisor)",
+    "coords": [
+      -0.84153580885726,
+      0.61043796502416
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940127",
+    "mapId": "kamurocho",
+    "category": "chapter-5",
+    "title": "31 - The Innocent Hook-Up",
+    "description": "Prerequisite: [Teltel Boys Club](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939888) - Arrange a date with a girl wearing a blue bikini. Tips: - Riku is the girl in front. Reward: - N/A",
+    "coords": [
+      -0.52593879875693,
+      0.44432141774971
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940129",
+    "mapId": "kamurocho",
+    "category": "chapter-5",
+    "title": "32 - The Sexy Hook-Up",
+    "description": "Prerequisite: [Teltel Boys Club](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939888) - Arrange a date with a girl wearing a white bikini. Tips: - Move in for a better look, then choose the farther woman to find Ayaka. Reward: - N/A",
+    "coords": [
+      -0.52190423011757,
+      0.44431956312374
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940130",
+    "mapId": "kamurocho",
+    "category": "chapter-5",
+    "title": "33 - The Flirty Hook-Up",
+    "description": "Prerequisite: [Teltel Boys Club](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939888) - Arrange a date with a girl wearing a green bikini. Tips: - Haruki is the Further Woman. Reward: - N/A",
+    "coords": [
+      -0.51787018775872,
+      0.44440539122996
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940134",
+    "mapId": "kamurocho",
+    "category": "chapter-5",
+    "title": "34 - Sakura Shock",
+    "description": "Prerequisite: [Teltel Boys Club](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939888) - Arrange a date with a girl wearing any bikini. Tips: - Carry a healing item or two - just in case! Reward: - N/A",
+    "coords": [
+      -0.52576661110123,
+      0.43839742133363
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940136",
+    "mapId": "kamurocho",
+    "category": "chapter-5",
+    "title": "35 - Verbal Warning",
+    "description": "Prerequisite: [Teltel Boys Club](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939888) - Arrange a date with a girl wearing a blue bikini. Tips: - Carry a healing item or two - just in case! Reward: - N/A",
+    "coords": [
+      -0.52542328834744,
+      0.43290441606325
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940139",
+    "mapId": "kamurocho",
+    "category": "chapter-5",
+    "title": "44 - The Predator's Call",
+    "description": "Prerequisite: [Teltel Boys Club](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939888) - Arrange a date with a girl wearing a white bikini. Tips: - Carry a healing item or two - just in case! Reward: - N/A",
+    "coords": [
+      -0.52113175392293,
+      0.43299024429966
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940141",
+    "mapId": "kamurocho",
+    "category": "chapter-5",
+    "title": "45 - A Mother's Touch",
+    "description": "Prerequisite: [Teltel Boys Club](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939888) - Arrange a date with a girl wearing a green bikini. Tips: - Carry a healing item or two - just in case! Reward: - N/A",
+    "coords": [
+      -0.51701188087358,
+      0.43333355724208
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940145",
+    "mapId": "kamurocho",
+    "category": "chapter-5",
+    "title": "48 - Kamurocho's Mr. Libido",
+    "description": "Prerequisite: Progress the story until Kiryu's purchased a white suit, find at least one telephone card, then speak to the bald man Tips: - To progress your friendship with Mr. Libido after this substory, show him more telephone cards to a total of 30. - When he needs a new girl, visit [Earth Angel](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939892#L). Reward: - N/A",
+    "coords": [
+      -0.52277056123864,
+      0.35956522530037
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940148",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "10 - Sugar Daddy",
+    "description": "Prerequisite: N/A Reward: - Goddess of Children Amulet (accessory)",
+    "coords": [
+      -0.83456401651969,
+      0.97091411468415
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940149",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "11 - The Shrink-Wrapped Dream",
+    "description": "Prerequisite: N/A Tips: - Move slowly and observe the ladies from afar to learn their patterns. Reward: - N/A",
+    "coords": [
+      -0.80559344364136,
+      0.51170131097753
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940150",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "18 - Beyond the Door",
+    "description": "Prerequisite: Progress the story; this substory is started automatically. Tips: - N/A Reward: - Access to [JCC](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939909)",
+    "coords": [
+      -0.80581372976778,
+      0.75019621955508
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940151",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "25 - Postcard Rookie - Kiryu",
+    "description": "Prerequisite: Complete any five substories, then visit [Sugita Building](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939919) Tips: - Only some substories will get onto the radio. They include: - [01 - The Visionary Fortune-teller](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940110) - [02 - Arakure Quest](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939730) - [07 - How to Train Your Dominatrix](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940033) - [11 - The Shrink-Wrapped Dream](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940149) - [12 - Miracle on Tenkaichi Street](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940036) - [23 - Miracle in Maharaja](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940123) Reward: - N/A",
+    "coords": [
+      -0.91623187065272,
+      0.51550288869066
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940154",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "26 - Postcard Pro - Kiryu",
+    "description": "Prerequisite: Complete [25 - Postcard Rookie - Kiryu](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940151) Tips: - Only some substories will get onto the radio. They include: - [01 - The Visionary Fortune-teller](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940110) - [02 - Arakure Quest](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939730) - [07 - How to Train Your Dominatrix](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940033) - [11 - The Shrink-Wrapped Dream](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940149) - [12 - Miracle on Tenkaichi Street](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940036) - [23 - Miracle in Maharaja](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940123) Reward: - N/A",
+    "coords": [
+      -0.91151118278626,
+      0.51558871590429
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940155",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "27 - Postcard Master - Kiryu",
+    "description": "Prerequisite: Complete [26 - Postcard Pro - Kiryu](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940154) Tips: - Only some substories will get onto the radio. They include: - [01 - The Visionary Fortune-teller](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940110) - [02 - Arakure Quest](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939730) - [07 - How to Train Your Dominatrix](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940033) - [11 - The Shrink-Wrapped Dream](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940149) - [12 - Miracle on Tenkaichi Street](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940036) - [23 - Miracle in Maharaja](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940123) Reward: - N/A",
+    "coords": [
+      -0.90679049492095,
+      0.51541706147594
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940158",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "49 - Kamurocho's Mr. Moneybags",
+    "description": "Prerequisite: Progress the story until you've met Mr. Moneybags, then speak to him again within [Vincent](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939896). Tips: - To progress your friendship with Mr. Moneybags after this substory, send more money to Majima. Reward: - Tax-free cash injections for Majima (after reaching the maximum friendship level)",
+    "coords": [
+      -0.49895154940654,
+      0.81477563804529
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940217",
+    "mapId": "kamurocho",
+    "category": "chapter-10",
+    "title": "14 - Destiny Calls",
+    "description": "Prerequisite: Progress the story past the fight at the Tojo Clan's headquarters. Reward: - Super Spicy Knife (weapon)",
+    "coords": [
+      -0.57521049137694,
+      0.69281194307571
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940218",
+    "mapId": "kamurocho",
+    "category": "chapter-10",
+    "title": "20 - A Shining Example",
+    "description": "Prerequisite: Progress the story past the fight at the Tojo Clan's headquarters. Reward: - N/A",
+    "coords": [
+      -0.59407699318518,
+      0.74675613400532
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940219",
+    "mapId": "kamurocho",
+    "category": "endgame",
+    "title": "94 - The Head of the Clan",
+    "description": "Prerequisite: Complete all of Kiryu's substories. Tips: - Stock up on HP / Heat consumables - Bring plenty of weapons, e.g Zap Guns & Spicy Knives - Level up as much as you can - remember that Majima can send Kiryu money via Mr. Moneybags - Move unpredictably during the cannon phase - In the final phase, use the furniture to your advantage with Beast fighting style - Watch out for golden bottles - these grant invincibility to whoever grabs them Reward: - Amon Sunglasses (accessory)",
+    "coords": [
+      -0.75862780834743,
+      1.0998843178976
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939662",
+    "mapId": "kamurocho",
+    "category": "leisure-king",
+    "title": "Pachinko New Eden",
+    "description": "Cost: ¥18,400,000",
+    "coords": [
+      -0.86611281958264,
+      0.43042449792675
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939663",
+    "mapId": "kamurocho",
+    "category": "leisure-king",
+    "title": "Pachinko Marufuku",
+    "description": "Cost: ¥18,400,000",
+    "coords": [
+      -0.83671758562349,
+      0.51650025368541
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939664",
+    "mapId": "kamurocho",
+    "category": "leisure-king",
+    "title": "Kamuro Health Plaza",
+    "description": "Cost: ¥12,400,000",
+    "coords": [
+      -0.8406702590483,
+      0.47098114433241
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939665",
+    "mapId": "kamurocho",
+    "category": "leisure-king",
+    "title": "Sukiyaki Muranaka",
+    "description": "Cost: ¥14,000,000",
+    "coords": [
+      -0.86893512677659,
+      0.48945281056987
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939666",
+    "mapId": "kamurocho",
+    "category": "leisure-king",
+    "title": "Nyoki-Nyoki Academy",
+    "description": "Cost: ¥10,800,000",
+    "coords": [
+      -0.83799956286211,
+      0.54131681410402
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939667",
+    "mapId": "kamurocho",
+    "category": "leisure-king",
+    "title": "Health Wild Apple",
+    "description": "Cost: ¥16,400,000",
+    "coords": [
+      -0.89699585983973,
+      0.53681209897445
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939668",
+    "mapId": "kamurocho",
+    "category": "leisure-king",
+    "title": "Harashima Design",
+    "description": "Cost: ¥13,200,000",
+    "coords": [
+      -0.77747884464259,
+      0.49420290295575
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939669",
+    "mapId": "kamurocho",
+    "category": "leisure-king",
+    "title": "Poppo Tenkaichi St.",
+    "description": "Cost: N/A - Unlocked when friendship with Miho reaches maximum level.",
+    "coords": [
+      -0.87053775787365,
+      0.5143656779956
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939670",
+    "mapId": "kamurocho",
+    "category": "leisure-king",
+    "title": "Sushi Gin",
+    "description": "Cost: N/A - Unlocked when friendship with the Sushi Gin Chef reaches maximum level.",
+    "coords": [
+      -0.78545808792131,
+      0.37273859319559
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939681",
+    "mapId": "kamurocho",
+    "category": "leisure-king",
+    "title": "Yurikaze",
+    "description": "Cost: N/A - Unlocked by default",
+    "coords": [
+      -0.88540507332738,
+      0.51800331133107
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939671",
+    "mapId": "kamurocho",
+    "category": "electronics-king",
+    "title": "Shokichi Camera",
+    "description": "Cost: ¥62,400,000",
+    "coords": [
+      -0.75838114501357,
+      0.58275799292666
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939672",
+    "mapId": "kamurocho",
+    "category": "electronics-king",
+    "title": "Pachinko Aloha",
+    "description": "Cost: ¥75,200,000",
+    "coords": [
+      -0.71443892579151,
+      0.55805471429677
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939673",
+    "mapId": "kamurocho",
+    "category": "electronics-king",
+    "title": "Asai Building No. 3",
+    "description": "Cost: ¥51,200,000",
+    "coords": [
+      -0.7574796714126,
+      0.44961869589953
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939674",
+    "mapId": "kamurocho",
+    "category": "electronics-king",
+    "title": "Pachinko 777",
+    "description": "Cost: ¥78,400,000",
+    "coords": [
+      -0.75562707699999,
+      0.48975809595827
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939675",
+    "mapId": "kamurocho",
+    "category": "electronics-king",
+    "title": "Tenpo Sushi",
+    "description": "Cost: ¥51,200,000",
+    "coords": [
+      -0.75604018319737,
+      0.51454351577483
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939676",
+    "mapId": "kamurocho",
+    "category": "electronics-king",
+    "title": "Lovely Bunny",
+    "description": "Cost: ¥56,000,000",
+    "coords": [
+      -0.71638198809998,
+      0.48934500482953
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939677",
+    "mapId": "kamurocho",
+    "category": "electronics-king",
+    "title": "Beijing Chinese Eatery",
+    "description": "Cost: ¥41,600,000",
+    "coords": [
+      -0.75548171997053,
+      0.55506910851227
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939678",
+    "mapId": "kamurocho",
+    "category": "electronics-king",
+    "title": "AMUSEMENT GAME YOU",
+    "description": "Cost: ¥59,200,000",
+    "coords": [
+      -0.79304397605981,
+      0.58020606283608
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939679",
+    "mapId": "kamurocho",
+    "category": "electronics-king",
+    "title": "HL SEGA Nakamichi St.",
+    "description": "Cost: N/A - Unlocked when friendship with Luka reaches maximum level.",
+    "coords": [
+      -0.71116089820899,
+      0.44944779077012
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939680",
+    "mapId": "kamurocho",
+    "category": "electronics-king",
+    "title": "DoReMiFa Zone",
+    "description": "Cost: N/A - Unlocked by default",
+    "coords": [
+      -0.71638207712544,
+      0.40944705491393
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939688",
+    "mapId": "kamurocho",
+    "category": "pleasure-king",
+    "title": "Sexual Harassment Cop",
+    "description": "Cost: ¥102,400,000",
+    "coords": [
+      -0.58884148721737,
+      0.39113073016262
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939689",
+    "mapId": "kamurocho",
+    "category": "pleasure-king",
+    "title": "Cabaret Valentine",
+    "description": "Cost: ¥160,000,000",
+    "coords": [
+      -0.60558031259069,
+      0.41019392619675
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939692",
+    "mapId": "kamurocho",
+    "category": "pleasure-king",
+    "title": "Tontenshan",
+    "description": "Cost: ¥96,000,000",
+    "coords": [
+      -0.5742305003601,
+      0.50384584347046
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939693",
+    "mapId": "kamurocho",
+    "category": "pleasure-king",
+    "title": "Arabia Records",
+    "description": "Cost: ¥ 158,800,000",
+    "coords": [
+      -0.58125081566007,
+      0.36453584412087
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939694",
+    "mapId": "kamurocho",
+    "category": "pleasure-king",
+    "title": "Kamuro World Theater",
+    "description": "Cost: ¥108,800,000",
+    "coords": [
+      -0.60323722827761,
+      0.44618057152236
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939695",
+    "mapId": "kamurocho",
+    "category": "pleasure-king",
+    "title": "Quartier Latin",
+    "description": "Cost: ¥89,600,000",
+    "coords": [
+      -0.60951428777352,
+      0.38399419932306
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939696",
+    "mapId": "kamurocho",
+    "category": "pleasure-king",
+    "title": "Ogando Arts",
+    "description": "Cost: ¥115,200,000",
+    "coords": [
+      -0.50265958851332,
+      0.38701017152813
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939697",
+    "mapId": "kamurocho",
+    "category": "pleasure-king",
+    "title": "No-Panties BBQ",
+    "description": "Cost: ¥124,800,000",
+    "coords": [
+      -0.60098648071212,
+      0.4867507081285
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939698",
+    "mapId": "kamurocho",
+    "category": "pleasure-king",
+    "title": "Moscow Western Cuisine",
+    "description": "Cost: ¥102,400,000",
+    "coords": [
+      -0.51495607230422,
+      0.45013901252257
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939699",
+    "mapId": "kamurocho",
+    "category": "pleasure-king",
+    "title": "Hayashi Construction",
+    "description": "Cost: N/A - Unlocked by default",
+    "coords": [
+      -0.55003512476853,
+      0.48737029512161
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939700",
+    "mapId": "kamurocho",
+    "category": "gambling-king",
+    "title": "Pachinko BIG STAR",
+    "description": "Cost: ¥326,400,000",
+    "coords": [
+      -0.84138011807659,
+      0.66371728281776
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939701",
+    "mapId": "kamurocho",
+    "category": "gambling-king",
+    "title": "Kamuro La Scala Cinema",
+    "description": "Cost: ¥275,200,000",
+    "coords": [
+      -0.92894454263327,
+      0.74272140506332
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939702",
+    "mapId": "kamurocho",
+    "category": "gambling-king",
+    "title": "Sanwa Leisure Hall",
+    "description": "Cost: ¥268,800,000",
+    "coords": [
+      -0.82820350459747,
+      0.78501076768929
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939703",
+    "mapId": "kamurocho",
+    "category": "gambling-king",
+    "title": "New Montmartre",
+    "description": "Cost: ¥262,400,000",
+    "coords": [
+      -0.96302518946911,
+      0.79562666370725
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939704",
+    "mapId": "kamurocho",
+    "category": "gambling-king",
+    "title": "Pachinko New Cosmos",
+    "description": "Cost: ¥224,000,000",
+    "coords": [
+      -0.93826072760316,
+      0.66557687294014
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939705",
+    "mapId": "kamurocho",
+    "category": "gambling-king",
+    "title": "TOKYO POPURI",
+    "description": "Cost: ¥275,200,000",
+    "coords": [
+      -0.96625892870472,
+      0.75353667439779
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939706",
+    "mapId": "kamurocho",
+    "category": "gambling-king",
+    "title": "Gibson Hall",
+    "description": "Cost: ¥307,200,000",
+    "coords": [
+      -0.90549483321212,
+      0.68358438382556
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939707",
+    "mapId": "kamurocho",
+    "category": "gambling-king",
+    "title": "NY Hot Dog",
+    "description": "Cost: ¥204,800,000",
+    "coords": [
+      -0.80497729800007,
+      0.75802282091638
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939708",
+    "mapId": "kamurocho",
+    "category": "gambling-king",
+    "title": "Kamuro Soba",
+    "description": "Cost: N/A - Unlocked by default",
+    "coords": [
+      -0.79789280891501,
+      0.70267823128538
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939709",
+    "mapId": "kamurocho",
+    "category": "gambling-king",
+    "title": "Mach Bowl",
+    "description": "Cost: N/A - Unlocked when friendship with Emiri reaches maximum level.",
+    "coords": [
+      -0.98576516250671,
+      0.68077579171174
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939710",
+    "mapId": "kamurocho",
+    "category": "media-king",
+    "title": "Disco City Boy",
+    "description": "Cost: ¥1,228,800,000",
+    "coords": [
+      -0.58041185528324,
+      0.78165200148041
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939711",
+    "mapId": "kamurocho",
+    "category": "media-king",
+    "title": "Kamuro Hot Springs",
+    "description": "Cost: ¥972,800,000",
+    "coords": [
+      -0.60087841306031,
+      0.85443994778214
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939712",
+    "mapId": "kamurocho",
+    "category": "media-king",
+    "title": "Hotel Blue Light",
+    "description": "Cost: ¥998,400,000",
+    "coords": [
+      -0.53385653826919,
+      0.83813545190048
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939713",
+    "mapId": "kamurocho",
+    "category": "media-king",
+    "title": "Hotel Mermaid",
+    "description": "Cost: ¥921,600,000",
+    "coords": [
+      -0.7686652578129,
+      0.9432592191931
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939714",
+    "mapId": "kamurocho",
+    "category": "media-king",
+    "title": "Kogetsu Theater",
+    "description": "Cost: ¥793,600,000",
+    "coords": [
+      -0.47448175867299,
+      0.83626448883317
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939715",
+    "mapId": "kamurocho",
+    "category": "media-king",
+    "title": "Telekura Rinrin-bo",
+    "description": "Cost: ¥921,600,000",
+    "coords": [
+      -0.61271239343569,
+      0.8020339435339
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939716",
+    "mapId": "kamurocho",
+    "category": "media-king",
+    "title": "Hotel Diamond Palace",
+    "description": "Cost: ¥998,400,000",
+    "coords": [
+      -0.82953399083519,
+      0.94424154956195
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939717",
+    "mapId": "kamurocho",
+    "category": "media-king",
+    "title": "Hotel White",
+    "description": "Cost: ¥921,600,000",
+    "coords": [
+      -0.85404454065608,
+      0.9488780478169
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939718",
+    "mapId": "kamurocho",
+    "category": "media-king",
+    "title": "Pocket Circuit Stadium",
+    "description": "Cost: N/A - Unlocked when friendship with Pocket Circuit Fighter reaches maximum level.",
+    "coords": [
+      -0.98501443862955,
+      0.85777058587215
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939719",
+    "mapId": "kamurocho",
+    "category": "media-king",
+    "title": "Tokiwa Restaurant",
+    "description": "Cost: N/A - Unlocked by default",
+    "coords": [
+      -0.77270286854321,
+      0.8402056106183
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939952",
+    "mapId": "kamurocho",
+    "category": "miscellaneous",
+    "title": "Card Collector",
+    "description": "Share completed Telephone Card sets for rewards.",
+    "coords": [
+      -0.53955603930561,
+      0.44230724183542
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939953",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Marina Shiraishi Type C",
+    "description": "Previous: [Marina Shiraishi Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939994#L)",
+    "coords": [
+      -0.77357261879186,
+      1.0105064115882
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939954",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Riku Minato Type B",
+    "description": "Previous: [Riku Minato Type A](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940027#L) Next: [Riku Minato Type C](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940025#L)",
+    "coords": [
+      -0.83404871743866,
+      0.93605959356749
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939988",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Ayu Sakurai Type C",
+    "description": "Previous: [Ayu Sakurai Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940016#L)",
+    "coords": [
+      -0.7726963581762,
+      0.89027924770285
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939989",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Ayu Sakurai Type A",
+    "description": "Next: [Ayu Sakurai Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940016#L)",
+    "coords": [
+      -0.80230516732237,
+      0.87757781749109
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939990",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Nanase Otoha Type B",
+    "description": "Previous: [Nanase Otoha Type A](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940013#L) Next: [Nanase Otoha Type C](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940024#L) Within [West Park](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939897), only accessible in Chapter 10 onwards.",
+    "coords": [
+      -0.63707971973835,
+      0.88356087676934
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939991",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Reika Aiba Type B",
+    "description": "Previous: [Reika Aiba Type A](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940019#L) Next: [Reika Aiba Type C](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940030#L) Within [West Park](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939897#L), only accessible in Chapter 10 onwards.",
+    "coords": [
+      -0.45955340071345,
+      0.94337816135612
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939992",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Riona Minami Type C",
+    "description": "Previous: [Riona Minami Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940028#L)",
+    "coords": [
+      -0.39449924683649,
+      0.87803247779063
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939993",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Luka Kanae Type A",
+    "description": "Next: [Luka Kanae Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939997#L)",
+    "coords": [
+      -0.49147274766617,
+      0.8358008529554
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939994",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Marina Shiraishi Type B",
+    "description": "Previous: [Marina Shiraishi Type A](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939995#L) Next: [Marina Shiraishi Type C](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939953#L)",
+    "coords": [
+      -0.61041288050325,
+      0.85624070714654
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939995",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Marina Shiraishi Type A",
+    "description": "Next: [Marina Shiraishi Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939994#L)",
+    "coords": [
+      -0.68952514724415,
+      0.8164413549808
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939996",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Chika Arimura Type A",
+    "description": "Next: [Chika Arimura Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940009#L)",
+    "coords": [
+      -0.98902708582131,
+      0.85140035659198
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939997",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Luka Kanae Type B",
+    "description": "Previous: [Luka Kanae Type A](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939993#L) Next: [Luka Kanae Type C](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940026#L)",
+    "coords": [
+      -1.0075665145321,
+      0.83200471416637
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939998",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Haruki Sato Type B",
+    "description": "Previous: [Haruki Sato Type A](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940012#L) Next: [Haruki Sato Type C](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940006#L) South-western edge of the pier, by the fence and a stack of pallets.",
+    "coords": [
+      -0.29284518673188,
+      0.24443278030354
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d7ed0e1d-02ad-4a6c-b713-47515432c218.jpg"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939999",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Ayaka Tomoda Type C",
+    "description": "Previous: [Ayaka Tomoda Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940004#L) North-eastern edge of the [Pier](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939985), behind a truck.",
+    "coords": [
+      -0.2550718070606,
+      0.24503235228916
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/cb2df9f1-5530-48ab-b342-f9db1719177f.jpg"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940000",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Miku Abeno Type B",
+    "description": "Previous: [Miku Abeno Type A](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940018#L) Next: [Miku Abeno Type C](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940021#L)",
+    "coords": [
+      -0.92167427297292,
+      0.73782819074466
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940001",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Maika Type B",
+    "description": "Previous: [Maika Type A](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940005#L) Next: [Maika Type C](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940022#L)",
+    "coords": [
+      -0.87721397634195,
+      0.7155140066595
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940002",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Emiri Okazaki Type A",
+    "description": "Next: [Emiri Okazaki Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940015#L) Within [SEGA HI-TECH LAND Theater Sq.](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939908)",
+    "coords": [
+      -0.85976122329097,
+      0.78270449396547
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940003",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Erika Kitagawa Type B",
+    "description": "Previous: [Erika Kitagawa Type A](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940007#L) Next: [Erika Kitagawa Type C](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940029#L)",
+    "coords": [
+      -0.79564017623889,
+      0.71257523176375
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940004",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Ayaka Tomoda Type B",
+    "description": "Previous: [Ayaka Tomoda Type A](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940023#L) Next: [Ayaka Tomoda Type C](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939999#L) On top of the cardboard boxes",
+    "coords": [
+      -0.9965879833143,
+      0.68034182581768
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940005",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Maika Type A",
+    "description": "Next: [Maika Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940001#L) Within [Mach Bowl](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939907)",
+    "coords": [
+      -0.97498944081838,
+      0.70797974669472
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940006",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Haruki Sato Type C",
+    "description": "Previous: [Haruki Sato Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939998#L)",
+    "coords": [
+      -0.94044089318561,
+      0.58233521394295
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940007",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Erika Kitagawa Type A",
+    "description": "Next: [Erika Kitagawa Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940003#L) Within the [Sugita Building](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939919), only accessible in Chapter 5 onwards.",
+    "coords": [
+      -0.8930683136002,
+      0.51302462739199
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940008",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Miho Tono Type A",
+    "description": "Next: [Miho Tono Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940020#L)",
+    "coords": [
+      -0.78475072413531,
+      0.48624917398067
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940009",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Chika Arimura Type B",
+    "description": "Previous: [Chika Arimura Type A](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939996#L) Next: [Chika Arimura Type C](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940017#L)",
+    "coords": [
+      -0.75196340115309,
+      0.55044907058726
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940010",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Riona Minami Type A",
+    "description": "Next: [Riona Minami Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940028#L)",
+    "coords": [
+      -0.71640706125211,
+      0.61149972117529
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940011",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Miho Tono Type C",
+    "description": "Previous: [Miho Tono Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940020#L)",
+    "coords": [
+      -0.64836314843419,
+      0.64885339859633
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940012",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Haruki Sato Type A",
+    "description": "Next: [Haruki Sato Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939998#L)",
+    "coords": [
+      -0.61368755029571,
+      0.69760186279166
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940013",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Nanase Otoha Type A",
+    "description": "Next: [Nanase Otoha Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939990#L)",
+    "coords": [
+      -0.59161290053049,
+      0.65690479771726
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940014",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Emiri Okazaki Type C",
+    "description": "Previous: [Emiri Okazaki Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940015#L) Within Little Asia, only accessible in Chapter 10 onwards.",
+    "coords": [
+      -0.54717934660476,
+      0.67492588424106
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940015",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Emiri Okazaki Type B",
+    "description": "Previous: [Emiri Okazaki Type A](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940002#L) Next: [Emiri Okazaki Type C](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940014#L) Within Little Asia, only accessible in Chapter 10 onwards.",
+    "coords": [
+      -0.53276181220957,
+      0.73277025496047
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940016",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Ayu Sakurai Type B",
+    "description": "Previous: [Ayu Sakurai Type A](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939989#L) Next: [Ayu Sakurai Type C](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939988#L)",
+    "coords": [
+      -0.39439479952185,
+      0.74524720591201
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940017",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Chika Arimura Type C",
+    "description": "Previous: [Chika Arimura Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940009#L)",
+    "coords": [
+      -0.39113381563297,
+      0.69637842096026
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940018",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Miku Abeno Type A",
+    "description": "Next: [Miku Abeno Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940000#L) Within [Earth Angel](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939892)",
+    "coords": [
+      -0.43074301913555,
+      0.67102048219215
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940019",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Reika Aiba Type A",
+    "description": "Next: [Reika Aiba Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939991#L)",
+    "coords": [
+      -0.44344596102943,
+      0.66140809493632
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940020",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Miho Tono Type B",
+    "description": "Previous: [Miho Tono Type A](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940008#L) Next: [Miho Tono Type C](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940011#L)",
+    "coords": [
+      -0.49588851170148,
+      0.64664617834376
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940021",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Miku Abeno Type C",
+    "description": "Previous: [Miku Abeno Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940000#L)",
+    "coords": [
+      -0.5210213723702,
+      0.56286305841959
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940022",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Maika Type C",
+    "description": "Previous: [Maika Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940001#L)",
+    "coords": [
+      -0.61907447312441,
+      0.53286482465317
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940023",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Ayaka Tomoda Type A",
+    "description": "Next: [Ayaka Tomoda Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940004#L)",
+    "coords": [
+      -0.59584617743047,
+      0.49099547207712
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940024",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Nanase Otoha Type C",
+    "description": "Previous: [Nanase Otoha Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939990#L)",
+    "coords": [
+      -0.63043893462341,
+      0.46614567692752
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940025",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Riku Minato Type C",
+    "description": "Previous: [Riku Minato Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939954#L) In a crevice.",
+    "coords": [
+      -0.54580354362554,
+      0.43462913791082
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940026",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Luka Kanae Type C",
+    "description": "Previous: [Luka Kanae Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939997#L) In a crevice.",
+    "coords": [
+      -0.51780190294733,
+      0.3934469998606
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940027",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Riku Minato Type A",
+    "description": "Next: [Riku Minato Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939954#L) Between fences in front of the bicycles.",
+    "coords": [
+      -0.44633008592896,
+      0.41576242229809
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940028",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Riona Minami Type B",
+    "description": "Previous: [Riona Minami Type A](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940010#L) Next: [Riona Minami Type C](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939992#L) Within [Orchid Palace Mahjong](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939926)",
+    "coords": [
+      -0.6328376257936,
+      0.41159593285678
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940029",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Erika Kitagawa Type C",
+    "description": "Previous: [Erika Kitagawa Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940003#L)",
+    "coords": [
+      -0.69829177749847,
+      0.42377869307248
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940030",
+    "mapId": "kamurocho",
+    "category": "telephone-card",
+    "title": "Reika Aiba Type C",
+    "description": "Previous: [Reika Aiba Type B](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939991#L)",
+    "coords": [
+      -0.61955779169165,
+      0.35760548977794
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-940060",
+    "mapId": "kamurocho",
+    "category": "mr-shakedown",
+    "title": "Mr Shakedown",
+    "description": "In addition to his random spawns (which you can find by equipping the [Encounter Finder accessory](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=940123)), Mr. Shakedown can sometimes be found sleeping on the bench here.",
+    "coords": [
+      -0.78405261039717,
+      0.47917476968392
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939937",
+    "mapId": "kamurocho",
+    "category": "dream-machine",
+    "title": "Dream Machine",
+    "description": "Within [West Park](https://mapgenie.io/yakuza-0/maps/kamurocho?locationIds=939897#L), only accessible in Chapter 10 onwards.",
+    "coords": [
+      -0.63742160797179,
+      0.91583881692696
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/75696f56-6538-440f-98a6-3458672ac890.jpg"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939941",
+    "mapId": "kamurocho",
+    "category": "dream-machine",
+    "title": "Dream Machine",
+    "description": "Dream Machine localizado em kamurocho.",
+    "coords": [
+      -0.86180375802221,
+      0.40223384989727
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939942",
+    "mapId": "kamurocho",
+    "category": "dream-machine",
+    "title": "Dream Machine",
+    "description": "Dream Machine localizado em kamurocho.",
+    "coords": [
+      -0.84647857516362,
+      0.62336457243777
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939943",
+    "mapId": "kamurocho",
+    "category": "dream-machine",
+    "title": "Dream Machine",
+    "description": "Dream Machine localizado em kamurocho.",
+    "coords": [
+      -0.97193598747114,
+      0.85907935696889
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939944",
+    "mapId": "kamurocho",
+    "category": "dream-machine",
+    "title": "Dream Machine",
+    "description": "Dream Machine localizado em kamurocho.",
+    "coords": [
+      -0.74510693550184,
+      0.84934938413492
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939945",
+    "mapId": "kamurocho",
+    "category": "dream-machine",
+    "title": "Dream Machine",
+    "description": "Dream Machine localizado em kamurocho.",
+    "coords": [
+      -0.51199073878703,
+      0.77831761045302
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939946",
+    "mapId": "kamurocho",
+    "category": "dream-machine",
+    "title": "Dream Machine",
+    "description": "Dream Machine localizado em kamurocho.",
+    "coords": [
+      -0.46482308328896,
+      0.81968732503357
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939947",
+    "mapId": "kamurocho",
+    "category": "dream-machine",
+    "title": "Dream Machine",
+    "description": "Dream Machine localizado em kamurocho.",
+    "coords": [
+      -0.4072307641477,
+      0.60634894140408
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939948",
+    "mapId": "kamurocho",
+    "category": "dream-machine",
+    "title": "Dream Machine",
+    "description": "Dream Machine localizado em kamurocho.",
+    "coords": [
+      -0.60439203211664,
+      0.39812783512387
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939949",
+    "mapId": "kamurocho",
+    "category": "dream-machine",
+    "title": "Dream Machine",
+    "description": "Dream Machine localizado em kamurocho.",
+    "coords": [
+      -0.6633440093691,
+      0.4835796265705
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-kamurocho-939950",
+    "mapId": "kamurocho",
+    "category": "dream-machine",
+    "title": "Dream Machine",
+    "description": "Dream Machine localizado em kamurocho.",
+    "coords": [
+      -0.71803080575438,
+      0.62368843889219
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939983",
+    "mapId": "sotenbori",
+    "category": "fishing-spot",
+    "title": "River Fishing",
+    "description": "Spawns: - Crayfish - Sweetfish - Snakehead - Arowana - Softshell Turtle - Black Bass - Rainbow Trout - Ito",
+    "coords": [
+      -0.91278040740363,
+      0.77047065158698
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939984",
+    "mapId": "sotenbori",
+    "category": "fishing-spot",
+    "title": "River Fishing",
+    "description": "Spawns: - Crayfish - Crucian - Koi Carp - Eel - Axolotl - Salmon - Nishiki Carp - Ghost Koi",
+    "coords": [
+      -0.68305670487661,
+      0.84931727389134
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939783",
+    "mapId": "sotenbori",
+    "category": "minigame",
+    "title": "Shot Bar STIJL",
+    "description": "Minigame localizado em sotenbori.",
+    "coords": [
+      -0.87037682533216,
+      0.90448914056179
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939791",
+    "mapId": "sotenbori",
+    "category": "minigame",
+    "title": "SEGA HI-TECH LAND Sotenbori",
+    "description": "Minigame localizado em sotenbori.",
+    "coords": [
+      -0.57356357574329,
+      0.96808118580491
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939815",
+    "mapId": "sotenbori",
+    "category": "minigame",
+    "title": "Pleasure Boat",
+    "description": "Bed of Styx - Unlocked in Chapter 12",
+    "coords": [
+      -0.49810767173724,
+      0.83978030205924
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939828",
+    "mapId": "sotenbori",
+    "category": "minigame",
+    "title": "Mahjong Jambalaya",
+    "description": "Minigame localizado em sotenbori.",
+    "coords": [
+      -1.0134682884373,
+      0.617908459706
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939838",
+    "mapId": "sotenbori",
+    "category": "minigame",
+    "title": "Casino",
+    "description": "Minigame localizado em sotenbori.",
+    "coords": [
+      -0.66426515579298,
+      0.74835795155263
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939849",
+    "mapId": "sotenbori",
+    "category": "minigame",
+    "title": "The Old Shogi Player",
+    "description": "Minigame localizado em sotenbori.",
+    "coords": [
+      -0.49292564392033,
+      0.56956306793262
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939862",
+    "mapId": "sotenbori",
+    "category": "minigame",
+    "title": "Maharaja Sotenbori",
+    "description": "Minigame localizado em sotenbori.",
+    "coords": [
+      -0.64407348632696,
+      0.66045252125171
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939866",
+    "mapId": "sotenbori",
+    "category": "minigame",
+    "title": "Utahime Karaoke Bar",
+    "description": "Minigame localizado em sotenbori.",
+    "coords": [
+      -0.66649129767333,
+      0.49573836611914
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939874",
+    "mapId": "sotenbori",
+    "category": "minigame",
+    "title": "Gandhara Sotenbori",
+    "description": "Minigame localizado em sotenbori.",
+    "coords": [
+      -0.78320339764821,
+      0.42825204820512
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939774",
+    "mapId": "sotenbori",
+    "category": "general-store",
+    "title": "Daikoku Drugstore",
+    "description": "General Store localizado em sotenbori.",
+    "coords": [
+      -0.83315163006444,
+      0.96660505425838
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939807",
+    "mapId": "sotenbori",
+    "category": "general-store",
+    "title": "M Store Sotenbori",
+    "description": "General Store localizado em sotenbori.",
+    "coords": [
+      -0.31635046005059,
+      0.99247498809879
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939821",
+    "mapId": "sotenbori",
+    "category": "general-store",
+    "title": "Don Quijote Sotenbori",
+    "description": "General Store localizado em sotenbori.",
+    "coords": [
+      -0.83017587661854,
+      0.70175562068367
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939824",
+    "mapId": "sotenbori",
+    "category": "general-store",
+    "title": "M Store Shofukucho",
+    "description": "General Store localizado em sotenbori.",
+    "coords": [
+      -1.0218273520153,
+      0.70073605485386
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939841",
+    "mapId": "sotenbori",
+    "category": "general-store",
+    "title": "Le Marche Sotenbori",
+    "description": "General Store localizado em sotenbori.",
+    "coords": [
+      -0.55438528259128,
+      0.70120082911932
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939863",
+    "mapId": "sotenbori",
+    "category": "general-store",
+    "title": "Ebisu Pawn Sotenbori",
+    "description": "General Store localizado em sotenbori.",
+    "coords": [
+      -0.59390544891451,
+      0.65933679630238
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939871",
+    "mapId": "sotenbori",
+    "category": "general-store",
+    "title": "Temple",
+    "description": "General Store localizado em sotenbori.",
+    "coords": [
+      -0.82125337197505,
+      0.58383557544059
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939766",
+    "mapId": "sotenbori",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em sotenbori.",
+    "coords": [
+      -0.96218442400499,
+      0.92031269935372
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939777",
+    "mapId": "sotenbori",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em sotenbori.",
+    "coords": [
+      -0.69223429736837,
+      0.96005767882852
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939800",
+    "mapId": "sotenbori",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em sotenbori.",
+    "coords": [
+      -0.43421002512818,
+      0.90709157219706
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939825",
+    "mapId": "sotenbori",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Only available after [55 - Calling the Future](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940071)",
+    "coords": [
+      -1.0142742514293,
+      0.69198197122726
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939836",
+    "mapId": "sotenbori",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em sotenbori.",
+    "coords": [
+      -0.74790716171151,
+      0.66613842332151
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939845",
+    "mapId": "sotenbori",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em sotenbori.",
+    "coords": [
+      -0.37694425518686,
+      0.66332951337627
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939855",
+    "mapId": "sotenbori",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em sotenbori.",
+    "coords": [
+      -0.5204049983181,
+      0.49962758871874
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939873",
+    "mapId": "sotenbori",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em sotenbori.",
+    "coords": [
+      -0.7088282002166,
+      0.38508394007482
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939875",
+    "mapId": "sotenbori",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em sotenbori.",
+    "coords": [
+      -1.0002276925478,
+      0.38293765674645
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940072",
+    "mapId": "sotenbori",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Within [Club Sunshine](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939955)'s office.",
+    "coords": [
+      -0.85731983184843,
+      0.52379593786459
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939769",
+    "mapId": "sotenbori",
+    "category": "restaurant",
+    "title": "Kinryu Ramen",
+    "description": "Restaurant localizado em sotenbori.",
+    "coords": [
+      -0.88843122261812,
+      0.9662599877322
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939772",
+    "mapId": "sotenbori",
+    "category": "restaurant",
+    "title": "Kushikatsu Daruma",
+    "description": "Restaurant localizado em sotenbori.",
+    "coords": [
+      -0.89250234405597,
+      0.90807756767576
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939776",
+    "mapId": "sotenbori",
+    "category": "restaurant",
+    "title": "Ganko Sushi",
+    "description": "Restaurant localizado em sotenbori.",
+    "coords": [
+      -0.63519612431014,
+      0.96612349666916
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939788",
+    "mapId": "sotenbori",
+    "category": "restaurant",
+    "title": "Zuboraya",
+    "description": "Restaurant localizado em sotenbori.",
+    "coords": [
+      -0.72629928588819,
+      0.91062526492247
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939789",
+    "mapId": "sotenbori",
+    "category": "restaurant",
+    "title": "Yoronotaki Sotenbori",
+    "description": "Restaurant localizado em sotenbori.",
+    "coords": [
+      -0.60936124732538,
+      0.90388134428477
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939799",
+    "mapId": "sotenbori",
+    "category": "restaurant",
+    "title": "Kani Douraku",
+    "description": "Restaurant localizado em sotenbori.",
+    "coords": [
+      -0.51080590710745,
+      0.90926141068623
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939803",
+    "mapId": "sotenbori",
+    "category": "restaurant",
+    "title": "Tsuruhashi Fugetsu",
+    "description": "Restaurant localizado em sotenbori.",
+    "coords": [
+      -0.4146627488588,
+      0.99075959365022
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939809",
+    "mapId": "sotenbori",
+    "category": "restaurant",
+    "title": "Magutako",
+    "description": "Restaurant localizado em sotenbori.",
+    "coords": [
+      -0.3576621992209,
+      0.95733020622878
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939833",
+    "mapId": "sotenbori",
+    "category": "restaurant",
+    "title": "Komian",
+    "description": "Restaurant localizado em sotenbori.",
+    "coords": [
+      -0.91819385870548,
+      0.64024539280949
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939759",
+    "mapId": "sotenbori",
+    "category": "taxi",
+    "title": "Sotenbori Street West",
+    "description": "Taxi localizado em sotenbori.",
+    "coords": [
+      -1.0719394683825,
+      0.97421719850166
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939805",
+    "mapId": "sotenbori",
+    "category": "taxi",
+    "title": "Sotenbori Street East",
+    "description": "Taxi localizado em sotenbori.",
+    "coords": [
+      -0.28243866565455,
+      0.96615968206241
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939823",
+    "mapId": "sotenbori",
+    "category": "taxi",
+    "title": "Shofukucho West",
+    "description": "Taxi localizado em sotenbori.",
+    "coords": [
+      -1.0535571228066,
+      0.67510272663621
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939844",
+    "mapId": "sotenbori",
+    "category": "taxi",
+    "title": "Bunzaemon Outdoor Mall East",
+    "description": "Taxi localizado em sotenbori.",
+    "coords": [
+      -0.30557870864686,
+      0.68463365158013
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939870",
+    "mapId": "sotenbori",
+    "category": "taxi",
+    "title": "Shofukucho South",
+    "description": "Taxi localizado em sotenbori.",
+    "coords": [
+      -0.71903193824087,
+      0.37223839615963
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939758",
+    "mapId": "sotenbori",
+    "category": "point-of-interest",
+    "title": "The Grand",
+    "description": "Point of Interest localizado em sotenbori.",
+    "coords": [
+      -1.0044204824267,
+      0.93237887948392
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939819",
+    "mapId": "sotenbori",
+    "category": "point-of-interest",
+    "title": "Majima's Apartment",
+    "description": "Point of Interest localizado em sotenbori.",
+    "coords": [
+      -0.89420557022166,
+      0.74563305879498
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939872",
+    "mapId": "sotenbori",
+    "category": "point-of-interest",
+    "title": "Odyssey Warehouse",
+    "description": "Point of Interest localizado em sotenbori.",
+    "coords": [
+      -0.65519804171967,
+      0.41322982829499
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939955",
+    "mapId": "sotenbori",
+    "category": "point-of-interest",
+    "title": "Club Sunshine",
+    "description": "Point of Interest localizado em sotenbori.",
+    "coords": [
+      -0.86937855013292,
+      0.51921178209254
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939956",
+    "mapId": "sotenbori",
+    "category": "point-of-interest",
+    "title": "Hogushi Kaikan Massage",
+    "description": "Point of Interest localizado em sotenbori.",
+    "coords": [
+      -0.86427628116053,
+      0.42287220572474
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939797",
+    "mapId": "sotenbori",
+    "category": "gear-store",
+    "title": "The Dragon & Tiger Sotenbori",
+    "description": "Gear Store localizado em sotenbori.",
+    "coords": [
+      -0.52498340606815,
+      0.9676735482046
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940063",
+    "mapId": "sotenbori",
+    "category": "chapter-3",
+    "title": "49 - From the Heart",
+    "description": "Prerequisite: Progress the story until you've unlocked the Slugger fighting style. Reward: - Secret Wallet (accessory)",
+    "coords": [
+      -0.54714918008546,
+      0.68849481427169
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940064",
+    "mapId": "sotenbori",
+    "category": "chapter-3",
+    "title": "98 - Play-Money Shakedown",
+    "description": "Prerequisite: Progress the story until your objective is to visit the Odyssey. Tips: - If you're struggling with the fight, upgrade your fighting styles. Reward: - Your money back! Yippee!",
+    "coords": [
+      -0.4621393790874,
+      0.80262012204145
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940065",
+    "mapId": "sotenbori",
+    "category": "chapter-3",
+    "title": "99 - The Ultimate Plan",
+    "description": "Prerequisite: Progress the story until your objective is to visit the Odyssey. Tips: - If you're struggling with the fight, upgrade your fighting styles. Reward: - Your money back! Yippee!",
+    "coords": [
+      -0.44880867004113,
+      0.80235372343121
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940066",
+    "mapId": "sotenbori",
+    "category": "chapter-3",
+    "title": "50 - The Entertainer's Throne",
+    "description": "Prerequisite: Progress the story until you've unlocked the Slugger fighting style. Tips: - To successfully distract the crowd, sing a song. Reward: - Staminan Royale",
+    "coords": [
+      -0.43842672954,
+      0.83797921268344
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940067",
+    "mapId": "sotenbori",
+    "category": "chapter-3",
+    "title": "51 - Rise of the Dragon",
+    "description": "Prerequisite: Progress the story until you've unlocked the Slugger fighting style. Tips: - Be ready for a tough fight; bring some healing items. Reward: - N/A",
+    "coords": [
+      -0.35429044833194,
+      0.69629205157013
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940068",
+    "mapId": "sotenbori",
+    "category": "chapter-3",
+    "title": "52 - Be My Boyfriend!",
+    "description": "Prerequisite: Progress the story until you've unlocked the Slugger fighting style. Tips: - Rewards vary based on your answers. The best answers are as follows: - \"Pleased to meet you sir. I'm Goro Majima.\" - \"I'm a dentist.\" - \"We sat next to each other at a movie.\" - \"She's so innocent and childlike.\" Reward: - Sprite Belt (accessory) - for four best answers chosen - Fluorite x5 (crafting material) - for two or three best answers chosen - Bulletproof Glass Amulet (accessory) - for one best answer chosen",
+    "coords": [
+      -0.71028205282641,
+      0.92597115635662
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940069",
+    "mapId": "sotenbori",
+    "category": "chapter-3",
+    "title": "53 - Man with a Stranger's Face",
+    "description": "Prerequisite: Progress the story until you've unlocked the Slugger fighting style. Reward: - Sakura Storm (weapon)",
+    "coords": [
+      -0.63914490943995,
+      0.52417257099711
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940070",
+    "mapId": "sotenbori",
+    "category": "chapter-3",
+    "title": "54 - Disciple of the New Order",
+    "description": "Prerequisite: Progress the story until you've unlocked the Slugger fighting style. Tips: - To avoid an extra fight, choose the correct actions & words: - \"I want to join the Order of Munan Chohept Onast\" - Call her Iori - Say it with the pose - \"Onast\" - \"Shooreh Pippi\" - \"Circle with the Left Hand, Then Bring Palms Together\" - \"Munan Suzuki\" Reward: - Crystal (crafting material) - if you got the answers right - Traveler's Amulet (accessory)",
+    "coords": [
+      -0.70120591547428,
+      0.51964638276503
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940071",
+    "mapId": "sotenbori",
+    "category": "chapter-3",
+    "title": "55 - Calling the Future",
+    "description": "Prerequisite: Progress the story until you've unlocked the Slugger fighting style, then use the [Save Point](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939766) Tips: - Batteries can be purchased from [Don Quijote Sotenbori](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939821) Reward: - New [Save Point](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939825) available",
+    "coords": [
+      -0.95886254938304,
+      0.91106978679835
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940073",
+    "mapId": "sotenbori",
+    "category": "chapter-3",
+    "title": "56 - A Taxing Issue",
+    "description": "Prerequisite: Progress the story until you've unlocked the Slugger fighting style Tips: - Rewards vary based on your answers. The best answers are as follows: - \"To provide public services\" - \"Tobacco\" - \"Gasoline\" - \"8%\" Reward: - Primeval Spirit Stone (accessory) - for picking the best answers",
+    "coords": [
+      -0.84244767171541,
+      0.60864268910471
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940074",
+    "mapId": "sotenbori",
+    "category": "chapter-3",
+    "title": "57 - Crossed Words",
+    "description": "Prerequisite: Progress the story until you've unlocked the Slugger fighting style Tips: - Rewards vary based on your answers. The best answers are as follows: - \"Mashed\" - \"Popcorn\" - \"Shoulder\" - \"Soy sauce\" Reward: - Pearl x3 (crafting material) - for choosing the correct answers - Quality Iron (crafting material) - for choosing the wrong answers",
+    "coords": [
+      -0.49281370973623,
+      0.91790428361011
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940078",
+    "mapId": "sotenbori",
+    "category": "chapter-3",
+    "title": "58 - Stadium Jumper Strut",
+    "description": "Prerequisite: Progress the story until you've unlocked the Slugger fighting style Tips: - Invest in your skills to take the enemies down quickly Reward: - Encounter Finder (accessory)",
+    "coords": [
+      -0.47963216887356,
+      0.76046344662907
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940079",
+    "mapId": "sotenbori",
+    "category": "chapter-3",
+    "title": "62 - The ¥10 Million Drug Test",
+    "description": "Prerequisite: Progress the story until you've unlocked the Slugger fighting style Reward: - ¥10,000,000",
+    "coords": [
+      -1.0593294334285,
+      0.56507550265708
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940080",
+    "mapId": "sotenbori",
+    "category": "chapter-3",
+    "title": "63 - Errands on the Run",
+    "description": "Prerequisite: Progress the story until you've unlocked the Slugger fighting style Tips: - Medical items can be purchased from [Daikoku Drugstore](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939774) - New shoes can be purchased from [Don Quijote Sotenbori](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939821) Reward: - Erran-kun's services - Emi / Erranda (Hostess) - after unlocking the cabaret minigame",
+    "coords": [
+      -0.97066624843691,
+      0.50547684701706
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940081",
+    "mapId": "sotenbori",
+    "category": "chapter-3",
+    "title": "64 - Toilet Talk",
+    "description": "Prerequisite: Progress the story until you've unlocked the Slugger fighting style Reward: - Calming Towel (accessory)",
+    "coords": [
+      -0.65456937629833,
+      0.59255641872539
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940083",
+    "mapId": "sotenbori",
+    "category": "chapter-3",
+    "title": "65 - The Obatarian Strikes",
+    "description": "Prerequisite: Progress the story until you've unlocked the Slugger fighting style Reward: - Etsuko (Hostess) - after unlocking the cabaret minigame",
+    "coords": [
+      -0.7467297964649,
+      0.92768000348929
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940084",
+    "mapId": "sotenbori",
+    "category": "chapter-3",
+    "title": "78 - The Doll Girl",
+    "description": "Prerequisite: Progress the story until you've unlocked the Slugger fighting style, Tips: - To progress your friendship with the girl after this substory, purchase anything from the store. Reward: - Security Wallet (accessory) - after reaching the maximum friendship level - Dolly (Hostess) - after unlocking the cabaret minigame",
+    "coords": [
+      -0.55553857947197,
+      0.95622313130724
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940087",
+    "mapId": "sotenbori",
+    "category": "chapter-3",
+    "title": "79 - Komian's Chef",
+    "description": "Prerequisite: Progress the story until you've unlocked the Slugger fighting style, then order food at [Komian](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939833). Tips: - To progress your friendship with the chef after this substory, purchase food and prepare to fish up an Eel, Turtle, and Salmon. Reward: - Trouble Finder (accessory) - after reaching maximum friendship level",
+    "coords": [
+      -0.9179039757031,
+      0.63118864663412
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940089",
+    "mapId": "sotenbori",
+    "category": "chapter-3",
+    "title": "80 - STIJL's Barkeep",
+    "description": "Prerequisite: Progress the story until you've unlocked the Slugger fighting style, then order a drink at [Shot Bar STIJL](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939783) Tips: - To progress your friendship with the bartender after this substory, purchase anything from the bar. - When you're running the bar, these are the correct answers: - \"Sherry casks\" - \"Ballantine's\" - \"Fruity aroma\" Reward: - French wallet (gift) - if you chose the correct answers - After reaching maximum friendship level and unlocking the cabaret minigame, speak to the bartender again to partner with [Shot Bar STIJL](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939784).",
+    "coords": [
+      -0.86203376487174,
+      0.89533111146037
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940092",
+    "mapId": "sotenbori",
+    "category": "chapter-3",
+    "title": "81 - Gandhara's Clerk",
+    "description": "Prerequisite: Progress the story until you've unlocked the Slugger fighting style, then watch any video at [Gandhara Sotenbori](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939874) Tips: - To progress your friendship with the clerk after this substory, watch more videos. Reward: - After reaching maximum friendship level and unlocking the cabaret minigame, speak to the clerk to partner with [Gandhara](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939720).",
+    "coords": [
+      -0.78305494072751,
+      0.44052582125788
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940093",
+    "mapId": "sotenbori",
+    "category": "chapter-3",
+    "title": "82 - Kyoko at SEGA HI-TECH LAND",
+    "description": "Prerequisite: Progress the story until you've unlocked the Slugger fighting style, then play Space Harrier at [SEGA HI-TECH LAND Sotenbori](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939791) Tips: - To progress your friendship with Kyoko after this substory, beat her high scores. Reward: - After reaching maximum friendship level and unlocking the cabaret minigame, speak to Kyoko to partner with [SEGA Hi-Tech Land](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939792).",
+    "coords": [
+      -0.5784943057655,
+      0.98381374522187
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940094",
+    "mapId": "sotenbori",
+    "category": "chapter-3",
+    "title": "96 - Fei Hu's Training",
+    "description": "Prerequisite: Progress the story until you've completed your first weapon search, then speak to Fei Hu. Reward: - Fei Hu's Slugger style training unlocked",
+    "coords": [
+      -0.52476429477838,
+      0.9802093857716
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940097",
+    "mapId": "sotenbori",
+    "category": "chapter-4",
+    "title": "66 - Party at Maharaja",
+    "description": "Prerequisite: Dance at [Maharaja Sotenbori](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939862) three times, then speak to the woman that appears inside the club some time later. Tips: - The dance battle can be attempted on any difficulty. Reward: - N/A",
+    "coords": [
+      -0.65336877156412,
+      0.6526012784858
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940098",
+    "mapId": "sotenbori",
+    "category": "chapter-4",
+    "title": "67 - Disco Transformation",
+    "description": "Prerequisite: Complete [66 - Party at Maharaja](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940097), then return to Maharaja some time later. Tips: - The dance battle can be attempted on any difficulty. Reward: - N/A",
+    "coords": [
+      -0.64495325088504,
+      0.6507113758133
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940101",
+    "mapId": "sotenbori",
+    "category": "chapter-4",
+    "title": "68 - Disco Dancing Goddess",
+    "description": "Prerequisite: Complete [67 - Disco Transformation](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940098), then return to Maharaja some time later. Tips: - The dance battle can be attempted on any difficulty. - Aim for as many extra steps as possible - but keep your combo going above all else. Reward: - Isobe Fan (cosmetic; only appears while dancing) - Ms. Isobe (Hostess) - after unlocking the cabaret minigame",
+    "coords": [
+      -0.63791924763879,
+      0.65397448023384
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940107",
+    "mapId": "sotenbori",
+    "category": "chapter-4",
+    "title": "77 - Sotenbori's Mr. Libido",
+    "description": "Prerequisite: Encounter Mr. Libido during the main story. Tips: - To progress your friendship with Mr. Libido after this substory, watch unique videos at [Gandhara Sotenbori](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939874). - The drink he needs can be purchased from [Daikoku Drugstore](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939774#L) Reward: - Incomparable Habu Drink now sold at Daikoku",
+    "coords": [
+      -0.78283945562461,
+      0.40814475132635
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940108",
+    "mapId": "sotenbori",
+    "category": "chapter-4",
+    "title": "95 - Sparring with Komeki",
+    "description": "Prerequisite: Progress the story until your objective is to visit [Hogushi Kaikan Massage](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939956), then speak to Komeki. Reward: - Komeki's Thug style training unlocked",
+    "coords": [
+      -0.66232636564632,
+      0.5312748400306
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940109",
+    "mapId": "sotenbori",
+    "category": "chapter-4",
+    "title": "97 - Areshi's Training",
+    "description": "Prerequisite: Progress the story until your objective is to visit [Hogushi Kaikan Massage](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939956), then speak to Areshi. Reward: - Areshi's Breaker style training unlocked",
+    "coords": [
+      -1.0762727142915,
+      0.54064963165328
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940161",
+    "mapId": "sotenbori",
+    "category": "chapter-7",
+    "title": "69 - Paternal Instincts",
+    "description": "Prerequisite: Complete Yuki's hostess training Reward: - N/A",
+    "coords": [
+      -0.88618393718559,
+      0.53326372357503
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940162",
+    "mapId": "sotenbori",
+    "category": "chapter-7",
+    "title": "70 - A Moment Shared",
+    "description": "Prerequisite: Complete Chika's hostess training after defeating Club Venus Reward: - N/A",
+    "coords": [
+      -0.87948560714699,
+      0.5334300225945
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940163",
+    "mapId": "sotenbori",
+    "category": "chapter-7",
+    "title": "71 - Of Love and Ramen",
+    "description": "Prerequisite: Complete Mana's hostess training after defeating Club Moon Reward: - N/A",
+    "coords": [
+      -0.87261915206946,
+      0.5334300225945
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940165",
+    "mapId": "sotenbori",
+    "category": "chapter-7",
+    "title": "72 - The First Friend",
+    "description": "Prerequisite: Complete Ai's hostess training after defeating Club Mars Reward: - N/A",
+    "coords": [
+      -0.86609955608196,
+      0.53360703144941
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940167",
+    "mapId": "sotenbori",
+    "category": "chapter-7",
+    "title": "73 - A Little Brotherly Love",
+    "description": "Prerequisite: Complete Hibiki's hostess training after defeating Club Mercury Reward: - N/A",
+    "coords": [
+      -0.85922956466703,
+      0.53394498438549
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940169",
+    "mapId": "sotenbori",
+    "category": "chapter-7",
+    "title": "74 - Dream Chaser",
+    "description": "Prerequisite: Complete Saki's hostess training after defeating Club Jupiter Reward: - N/A",
+    "coords": [
+      -0.85236664592568,
+      0.53446530105198
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940172",
+    "mapId": "sotenbori",
+    "category": "chapter-7",
+    "title": "75 - Mystery Caller",
+    "description": "Prerequisite: Unlock the Cabaret minigame, then use the [Save Point](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939873). Tips: - Pistols can be acquired via [The Dragon & Tiger Sotenbori](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939797) - To progress your friendship with the caller after this substory, acquire the weapons they ask for. Reward: - Unknown (hostess) - after reaching maximum friendship level",
+    "coords": [
+      -0.71679072335374,
+      0.38620268230278
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940174",
+    "mapId": "sotenbori",
+    "category": "chapter-7",
+    "title": "76 - Sotenbori's Mr Moneybags",
+    "description": "Prerequisite: Unlock the cabaret minigame, then speak to Mr. Moneybags. Tips: - To progress your friendship with Mr. Moneybags after this substory, send more money to Kiryu. Reward: - Tax-free cash injections for Kiryu (after reaching the maximum friendship level)",
+    "coords": [
+      -1.0053255445984,
+      0.99344415992648
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940175",
+    "mapId": "sotenbori",
+    "category": "chapter-8",
+    "title": "59 - Postcard Rookie - Majima",
+    "description": "Prerequisite: Complete any five substories, then visit [Club Sunshine](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939955)'s office. Tips: - Only some substories will get onto the radio. They include: - [49 - From the Heart](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940063) - [52 - Be My Boyfriend!](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940068) - [56 - A Taxing Issue](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940073) - [57 - Crossed Words](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940074) - [62 - The ¥10 Million Drug Test](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940079) - [64 - Toilet Talk](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940081) Reward: - N/A",
+    "coords": [
+      -0.86282045920294,
+      0.51549359743018
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940176",
+    "mapId": "sotenbori",
+    "category": "chapter-8",
+    "title": "60 - Postcard Pro - Majima",
+    "description": "Prerequisite: Complete [59 - Postcard Rookie - Majima](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940175) Tips: - Only some substories will get onto the radio. They include: - [49 - From the Heart](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940063) - [52 - Be My Boyfriend!](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940068) - [56 - A Taxing Issue](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940073) - [57 - Crossed Words](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940074) - [62 - The ¥10 Million Drug Test](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940079) - [64 - Toilet Talk](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940081) Reward: - N/A",
+    "coords": [
+      -0.85630059242075,
+      0.51566381471595
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940177",
+    "mapId": "sotenbori",
+    "category": "chapter-8",
+    "title": "61 - Postcard Master - Majima",
+    "description": "Prerequisite: Complete [60 - Postcard Pro - Majima](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940176) Tips: - Only some substories will get onto the radio. They include: - [49 - From the Heart](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940063) - [52 - Be My Boyfriend!](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940068) - [56 - A Taxing Issue](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940073) - [57 - Crossed Words](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940074) - [62 - The ¥10 Million Drug Test](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940079) - [64 - Toilet Talk](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940081) Reward: - N/A",
+    "coords": [
+      -0.84943413734203,
+      0.51532050585743
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940221",
+    "mapId": "sotenbori",
+    "category": "endgame",
+    "title": "100 - Sotenbori in Peril",
+    "description": "Prerequisite: Complete all of Majima's substories. Tips: - Stock up on HP & Heat consumables - Bring plenty of weapons, e.g Zap Guns & Spicy Knives - Level up as much as you can - remember that Kiryu can send Majima money via Mr. Moneybags - Do not consume 'Staniman Spork' - it'll drain your health! Reward: - Amon Sunglasses (accessory)",
+    "coords": [
+      -0.24795615950944,
+      0.96693701210576
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939723",
+    "mapId": "sotenbori",
+    "category": "hostess",
+    "title": "Akemi",
+    "description": "Gift: Wallet / Wristwatch",
+    "coords": [
+      -0.94484348145161,
+      0.39436087746731
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939724",
+    "mapId": "sotenbori",
+    "category": "hostess",
+    "title": "Mitsuko",
+    "description": "Gift: Ring / Necklace / Bracelet",
+    "coords": [
+      -0.49357164364994,
+      0.48149552061243
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939725",
+    "mapId": "sotenbori",
+    "category": "hostess",
+    "title": "Hiroko",
+    "description": "Gift: Coat / Scarf",
+    "coords": [
+      -0.39299768734216,
+      0.6660109232722
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939726",
+    "mapId": "sotenbori",
+    "category": "hostess",
+    "title": "Fusae",
+    "description": "Gift: Perfume",
+    "coords": [
+      -0.53820748630332,
+      0.84971700053929
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939727",
+    "mapId": "sotenbori",
+    "category": "hostess",
+    "title": "Harumi",
+    "description": "Gift: Handbag",
+    "coords": [
+      -0.45661343744229,
+      0.97180992596839
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939728",
+    "mapId": "sotenbori",
+    "category": "hostess",
+    "title": "Kirara",
+    "description": "Gift: Boots / Sandals",
+    "coords": [
+      -0.7635927301057,
+      0.6019322773075
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939729",
+    "mapId": "sotenbori",
+    "category": "hostess",
+    "title": "Ume",
+    "description": "Gift: Leopard Print",
+    "coords": [
+      -0.92900901262033,
+      0.99740601325236
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939720",
+    "mapId": "sotenbori",
+    "category": "club-mars",
+    "title": "Gandhara",
+    "description": "Cost: N/A - Unlocked when friendship with clerk reaches maximum level.",
+    "coords": [
+      -0.78255057335014,
+      0.41538470689854
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939721",
+    "mapId": "sotenbori",
+    "category": "club-mars",
+    "title": "Salon Rose",
+    "description": "Cost: ¥ 2,500,000",
+    "coords": [
+      -1.008940742433,
+      0.38669614528166
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939722",
+    "mapId": "sotenbori",
+    "category": "club-mars",
+    "title": "Cabaret Ron Ron",
+    "description": "Cost: ¥4,300,000",
+    "coords": [
+      -0.97213027228096,
+      0.46360650928861
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939957",
+    "mapId": "sotenbori",
+    "category": "club-mars",
+    "title": "Sushi Eeyaro",
+    "description": "Cost: ¥1,700,000",
+    "coords": [
+      -0.96833213549846,
+      0.37910755795252
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939961",
+    "mapId": "sotenbori",
+    "category": "club-mars",
+    "title": "Iiko Massage",
+    "description": "Cost: ¥3,600,000",
+    "coords": [
+      -1.0083149570277,
+      0.43260591820642
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939962",
+    "mapId": "sotenbori",
+    "category": "club-mars",
+    "title": "Izakaya Naniwa",
+    "description": "Cost: ¥1,500,000",
+    "coords": [
+      -0.97363006913392,
+      0.48857728224911
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939963",
+    "mapId": "sotenbori",
+    "category": "club-mars",
+    "title": "Nukiya Massage",
+    "description": "Cost: ¥3,000,000",
+    "coords": [
+      -1.0072379451312,
+      0.49533421872242
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939970",
+    "mapId": "sotenbori",
+    "category": "club-mars",
+    "title": "Konno's Meats",
+    "description": "Cost: ¥500,000",
+    "coords": [
+      -0.81098646704748,
+      0.390354536506
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939981",
+    "mapId": "sotenbori",
+    "category": "club-mars",
+    "title": "Salon Salary Man",
+    "description": "Cost: ¥2,000,000",
+    "coords": [
+      -0.97339509742719,
+      0.56019786971189
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939982",
+    "mapId": "sotenbori",
+    "category": "club-mars",
+    "title": "Rakuen-en",
+    "description": "Cost: ¥1,100,000",
+    "coords": [
+      -0.87905727993541,
+      0.42142049905182
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939820",
+    "mapId": "sotenbori",
+    "category": "club-mercury",
+    "title": "Barber Ashitaba",
+    "description": "Cost: ¥3,000,000",
+    "coords": [
+      -0.89471842848837,
+      0.69728623107561
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939827",
+    "mapId": "sotenbori",
+    "category": "club-mercury",
+    "title": "Kokusai Ghetto",
+    "description": "Cost: ¥33,000,000",
+    "coords": [
+      -1.0088992054477,
+      0.655938577895
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939831",
+    "mapId": "sotenbori",
+    "category": "club-mercury",
+    "title": "Sushi Tsuru",
+    "description": "Cost: ¥8,000,000",
+    "coords": [
+      -0.87088847862051,
+      0.66111114509766
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939832",
+    "mapId": "sotenbori",
+    "category": "club-mercury",
+    "title": "Komian",
+    "description": "Cost: N/A - Unlocked when friendship with the Chef reaches its maximum level.",
+    "coords": [
+      -0.91860294341805,
+      0.65388690547911
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939851",
+    "mapId": "sotenbori",
+    "category": "club-mercury",
+    "title": "Ryoshimaru",
+    "description": "Cost: ¥5,000,000",
+    "coords": [
+      -0.55423302159878,
+      0.66200586539263
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939864",
+    "mapId": "sotenbori",
+    "category": "club-mercury",
+    "title": "M Zoku Sotenbori",
+    "description": "Cost: ¥17,500,000",
+    "coords": [
+      -0.61565471020299,
+      0.66394108875303
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939977",
+    "mapId": "sotenbori",
+    "category": "club-mercury",
+    "title": "Katsu Kin",
+    "description": "Cost: ¥8,000,000",
+    "coords": [
+      -0.66268801689176,
+      0.69346284513492
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939978",
+    "mapId": "sotenbori",
+    "category": "club-mercury",
+    "title": "The Megalopolis",
+    "description": "Cost: ¥13,000,000",
+    "coords": [
+      -0.64597249031064,
+      0.69402070371527
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939979",
+    "mapId": "sotenbori",
+    "category": "club-mercury",
+    "title": "Exodus",
+    "description": "Cost: ¥9,500,000",
+    "coords": [
+      -0.63120961189293,
+      0.69402070371527
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939980",
+    "mapId": "sotenbori",
+    "category": "club-mercury",
+    "title": "Hammurabi",
+    "description": "Cost: ¥3,000,000",
+    "coords": [
+      -0.59018729347318,
+      0.69435970160676
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939848",
+    "mapId": "sotenbori",
+    "category": "club-jupiter",
+    "title": "Bunza Theater",
+    "description": "Cost: ¥16,000,000",
+    "coords": [
+      -0.46977281570156,
+      0.64676341722378
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939850",
+    "mapId": "sotenbori",
+    "category": "club-jupiter",
+    "title": "Maido Diner",
+    "description": "Cost: ¥2,500,000",
+    "coords": [
+      -0.52145864979008,
+      0.63506970630837
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939853",
+    "mapId": "sotenbori",
+    "category": "club-jupiter",
+    "title": "Smart Ball",
+    "description": "Cost: ¥8,000,000",
+    "coords": [
+      -0.48802394137257,
+      0.49785526227454
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939854",
+    "mapId": "sotenbori",
+    "category": "club-jupiter",
+    "title": "Kawachi-ken",
+    "description": "Cost: ¥2,800,000",
+    "coords": [
+      -0.51937503005652,
+      0.47782738708415
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939857",
+    "mapId": "sotenbori",
+    "category": "club-jupiter",
+    "title": "Misuta Realty",
+    "description": "Cost: ¥10,000,000",
+    "coords": [
+      -0.54623723029957,
+      0.53807540551433
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939858",
+    "mapId": "sotenbori",
+    "category": "club-jupiter",
+    "title": "Mikado",
+    "description": "Cost: ¥2,500,000",
+    "coords": [
+      -0.63897908919597,
+      0.61802154983232
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939861",
+    "mapId": "sotenbori",
+    "category": "club-jupiter",
+    "title": "Sushi Toki",
+    "description": "Cost: ¥8,000,000",
+    "coords": [
+      -0.70431590080202,
+      0.62111234058769
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939868",
+    "mapId": "sotenbori",
+    "category": "club-jupiter",
+    "title": "Yakitori Kabachi",
+    "description": "Cost: ¥3,500,000",
+    "coords": [
+      -0.70533925585616,
+      0.46750457079638
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939972",
+    "mapId": "sotenbori",
+    "category": "club-jupiter",
+    "title": "Hyotan",
+    "description": "Cost: ¥4,500,000",
+    "coords": [
+      -0.70382000502639,
+      0.41733607433868
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939974",
+    "mapId": "sotenbori",
+    "category": "club-jupiter",
+    "title": "Nishihori Rice",
+    "description": "Cost: ¥4,000,000",
+    "coords": [
+      -0.70696788611556,
+      0.44938583327337
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939764",
+    "mapId": "sotenbori",
+    "category": "club-moon",
+    "title": "Hama-don",
+    "description": "Cost: ¥20,000,000",
+    "coords": [
+      -0.96887921771722,
+      1.001252696899
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939765",
+    "mapId": "sotenbori",
+    "category": "club-moon",
+    "title": "Ka-en Restaurant",
+    "description": "Cost: ¥56,000,000",
+    "coords": [
+      -0.94621991595918,
+      1.001424332061
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939768",
+    "mapId": "sotenbori",
+    "category": "club-moon",
+    "title": "New Garcia",
+    "description": "Cost: ¥25,000,000",
+    "coords": [
+      -0.90130582590004,
+      0.98239382406491
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939770",
+    "mapId": "sotenbori",
+    "category": "club-moon",
+    "title": "Fuguno Sakai",
+    "description": "Cost: ¥87,000,000",
+    "coords": [
+      -0.93304686915658,
+      0.91258612843808
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939773",
+    "mapId": "sotenbori",
+    "category": "club-moon",
+    "title": "Namidazaka Bar",
+    "description": "Cost: ¥84,000,000",
+    "coords": [
+      -0.85735588422128,
+      0.96179921629424
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939775",
+    "mapId": "sotenbori",
+    "category": "club-moon",
+    "title": "Akantare",
+    "description": "Cost: ¥76,000,000",
+    "coords": [
+      -0.8089473759083,
+      0.96368722486304
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939779",
+    "mapId": "sotenbori",
+    "category": "club-moon",
+    "title": "Yokohori Theater",
+    "description": "Cost: ¥185,000,000",
+    "coords": [
+      -0.75864301938594,
+      0.96416909427327
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939780",
+    "mapId": "sotenbori",
+    "category": "club-moon",
+    "title": "Meshibugyo",
+    "description": "Cost: ¥67,000,000",
+    "coords": [
+      -0.66158294677462,
+      0.91757666591228
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939782",
+    "mapId": "sotenbori",
+    "category": "club-moon",
+    "title": "Tetsuji's Tripe",
+    "description": "Cost: ¥100,000,000",
+    "coords": [
+      -0.80027713013675,
+      0.91603325290562
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939784",
+    "mapId": "sotenbori",
+    "category": "club-moon",
+    "title": "Shot Bar STIJL",
+    "description": "Cost: N/A - Unlocked when friendship with the Barkeep reaches its maximum level.",
+    "coords": [
+      -0.8626842498779,
+      0.90521861043491
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939790",
+    "mapId": "sotenbori",
+    "category": "club-venus",
+    "title": "Winde West",
+    "description": "Cost: ¥55,000,000",
+    "coords": [
+      -0.59899221218305,
+      0.96230445140979
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939792",
+    "mapId": "sotenbori",
+    "category": "club-venus",
+    "title": "SEGA Hi-Tech Land",
+    "description": "Cost: N/A - Unlocked when friendship with Kyoko reaches its maximum level.",
+    "coords": [
+      -0.5652082023276,
+      0.96098940579996
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939794",
+    "mapId": "sotenbori",
+    "category": "club-venus",
+    "title": "Sokyu Cinema",
+    "description": "Cost: ¥26,000,000",
+    "coords": [
+      -0.54757934940699,
+      0.96033127407526
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939796",
+    "mapId": "sotenbori",
+    "category": "club-venus",
+    "title": "Cakes Marianne",
+    "description": "Cost: ¥15,000,000",
+    "coords": [
+      -0.5511381981101,
+      0.91631534271934
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939798",
+    "mapId": "sotenbori",
+    "category": "club-venus",
+    "title": "Gyu-masu",
+    "description": "Cost: ¥22,000,000",
+    "coords": [
+      -0.50129579752002,
+      0.96664644190979
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939804",
+    "mapId": "sotenbori",
+    "category": "club-venus",
+    "title": "Death Curry",
+    "description": "Cost: ¥11,000,000",
+    "coords": [
+      -0.40092983870221,
+      0.98526724628884
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939806",
+    "mapId": "sotenbori",
+    "category": "club-venus",
+    "title": "Fuguta",
+    "description": "Cost: ¥14,000,000",
+    "coords": [
+      -0.29134075184166,
+      0.98358251992811
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939808",
+    "mapId": "sotenbori",
+    "category": "club-venus",
+    "title": "Kabuki Theater",
+    "description": "Cost: ¥42,000,000",
+    "coords": [
+      -0.36255744133817,
+      0.99040012746164
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939812",
+    "mapId": "sotenbori",
+    "category": "club-venus",
+    "title": "Crepe Cats",
+    "description": "Cost: ¥10,000,000",
+    "coords": [
+      -0.3367195112333,
+      0.94737522172113
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939813",
+    "mapId": "sotenbori",
+    "category": "club-venus",
+    "title": "Yakitori Torikko",
+    "description": "Cost: ¥5,000,000",
+    "coords": [
+      -0.38804054260365,
+      0.94340829609996
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939811",
+    "mapId": "sotenbori",
+    "category": "miscellaneous",
+    "title": "Card Collector",
+    "description": "Share completed Telephone Card sets for rewards.",
+    "coords": [
+      -0.36779022046085,
+      0.95303926815765
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939760",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Nozomi Hazuki Type A",
+    "description": "Next: [Nozomi Hazuki Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939761#L)",
+    "coords": [
+      -0.89614772171856,
+      0.72415459556409
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939761",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Nozomi Hazuki Type B",
+    "description": "Previous: [Nozomi Hazuki Type A](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939760#L) Next: [Nozomi Hazuki Type C](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939762#L)",
+    "coords": [
+      -0.53768401022199,
+      0.50201216578601
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939762",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Nozomi Hazuki Type C",
+    "description": "Previous: [Nozomi Hazuki Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939761#L)",
+    "coords": [
+      -1.1020026155461,
+      0.99661854413567
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939767",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Mana Sakura Type A",
+    "description": "Next: [Mana Sakura Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939814#L)",
+    "coords": [
+      -0.97120523056216,
+      0.91484454477046
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939771",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Iori Kogawa Type A",
+    "description": "Next: [Iori Kogawa Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939847#L)",
+    "coords": [
+      -0.93403741740951,
+      0.8559865868144
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939778",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Ai Haneda Type A",
+    "description": "Next: [Ai Haneda Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939842#L)",
+    "coords": [
+      -0.7047758826437,
+      0.96355238227724
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939781",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Nao Mizuki Type B",
+    "description": "Previous: [Nao Mizuki Type A](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939860#L) Next: [Nao Mizuki Type C](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939959#L)",
+    "coords": [
+      -0.63284465626788,
+      0.88150968719593
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939785",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Yuki Natsume Type C",
+    "description": "Previous: [Yuki Natsume Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939817#L)",
+    "coords": [
+      -0.96619606018103,
+      0.88671363108637
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939786",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Rina Ito Type A",
+    "description": "Next: [Rina Ito Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939840#L)",
+    "coords": [
+      -0.86957216262834,
+      0.89397617614406
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939793",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Ai Haneda Type C",
+    "description": "Previous: [Ai Haneda Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939842#L)",
+    "coords": [
+      -0.56611877811878,
+      0.97577859284812
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939795",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Kotomi Asakura Type A",
+    "description": "Next: [Kotomi Asakura Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939965#L)",
+    "coords": [
+      -0.56230893967788,
+      0.93713026518117
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939801",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Ai Uehera Type A",
+    "description": "Next: [Ai Uehara Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939869#L)",
+    "coords": [
+      -0.43056861169131,
+      0.90278799521805
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939810",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Kotomi Asakura Type C",
+    "description": "Previous: [Kotomi Asakura Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939965#L)",
+    "coords": [
+      -0.3490791303733,
+      0.95046470274633
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939814",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Mana Sakura Type B",
+    "description": "Previous: [Mana Sakura Type A](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939767#L) Next: [Mana Sakura Type C](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939865#L)",
+    "coords": [
+      -0.43819419298944,
+      0.82674256685245
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939816",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Ai Uehara Type C",
+    "description": "Previous: [Ai Uehara Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939869#L) At the top of the [Bed of Styx](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939815) area, only accessible in Chapter 11 onwards, tucked into a corner.",
+    "coords": [
+      -0.48927783966059,
+      0.83968375290367
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939817",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Yuki Natsume Type B",
+    "description": "Previous: [Yuki Natsume Type A](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939835#L) Next: [Yuki Natsume Type C](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939785#L)",
+    "coords": [
+      -0.5292776563856,
+      0.85324152188439
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939818",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Saki Hatsumi Type C",
+    "description": "Previous: [Saki Hatsumi Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939969#L)",
+    "coords": [
+      -0.95909023674983,
+      0.75370067582459
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939822",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Shizuku Hasegawa Type C",
+    "description": "Previous: [Shizuku Hasegawa Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939843#L)",
+    "coords": [
+      -0.79292323192965,
+      0.75925097922783
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939826",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Rina Ito Type C",
+    "description": "Previous: [Rina Ito Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939840#L)",
+    "coords": [
+      -0.99484685126851,
+      0.69292819543487
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939829",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Shizuku Hasegawa Type A",
+    "description": "Next: [Shizuku Hasegawa Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939843#L)",
+    "coords": [
+      -1.0144982566989,
+      0.60932588308521
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939830",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Kyoko Maki Type B",
+    "description": "Previous: [Kyoko Maki Type A](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939867#L) Next: [Kyoko Maki Type C](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939856#L)",
+    "coords": [
+      -1.0021386375589,
+      0.60778101783606
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939834",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Kokoa Aisu Type B",
+    "description": "Previous: [Kokoa Aisu Type A](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939958#L) Next: [Kokoa Aisu Type C](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939846#L)",
+    "coords": [
+      -0.80775735670557,
+      0.61098731630388
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939835",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Yuki Natsume Type A",
+    "description": "Next: [Yuki Natsume Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939817#L)",
+    "coords": [
+      -0.76138257980398,
+      0.66528017437329
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939837",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Hibiki Otsuki Type B",
+    "description": "Previous: [Hibiki Otsuki Type A](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939964#L) Next: [Hibiki Otsuki Type C](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939971#L)",
+    "coords": [
+      -0.70764031472405,
+      0.71820191651129
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939839",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Saki Hatsumi Type A",
+    "description": "Next: [Saki Hatsumi Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939969#L)",
+    "coords": [
+      -0.6686537924289,
+      0.74024440728677
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939840",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Rina Ito Type B",
+    "description": "Previous: [Rina Ito Type A](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939786#L) Next: [Rina Ito Type C](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939826#L)",
+    "coords": [
+      -0.65972685814049,
+      0.74110587103844
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939842",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Ai Haneda Type B",
+    "description": "Previous: [Ai Haneda Type A](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939778#L) Next: [Ai Haneda Type C](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939793#L)",
+    "coords": [
+      -0.58171749115019,
+      0.75706901465169
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939843",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Shizuku Hasegawa Type B",
+    "description": "Previous: [Shizuku Hasegawa Type A](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939829#L) Next: [Shizuku Hasegawa Type C](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939822#L)",
+    "coords": [
+      -0.50094008445828,
+      0.70907213231625
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939846",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Kokoa Aisu Type C",
+    "description": "Previous: [Kokoa Aisu Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939834#L)",
+    "coords": [
+      -0.36495208740254,
+      0.67263965426072
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939847",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Iori Kogawa Type B",
+    "description": "Previous: [Iori Kogawa Type A](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939771#L) Next: [Iori Kogawa Type C](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939968#L)",
+    "coords": [
+      -0.48256158828616,
+      0.65792068351061
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939856",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Kyoko Maki Type C",
+    "description": "Previous: [Kyoko Maki Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939830#L)",
+    "coords": [
+      -0.51817059516713,
+      0.51661864238011
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939860",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Nao Mizuki Type A",
+    "description": "Next: [Nao Mizuki Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939781#L)",
+    "coords": [
+      -0.62587738037035,
+      0.57108648717951
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939865",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Mana Sakura Type C",
+    "description": "Previous: [Mana Sakura Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939814#L)",
+    "coords": [
+      -0.73172807693464,
+      0.54237747753685
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939867",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Kyoko Maki Type A",
+    "description": "Next: [Kyoko Maki Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939830#L)",
+    "coords": [
+      -0.6668293476113,
+      0.48750169951261
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939869",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Ai Uehara Type B",
+    "description": "Previous: [Ai Uehera Type A](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939801#L) Next: [Ai Uehara Type C](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939816#L)",
+    "coords": [
+      -0.64044713973985,
+      0.47522834424323
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939958",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Kokoa Aisu Type A",
+    "description": "Next: [Kokoa Aisu Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939834#L)",
+    "coords": [
+      -0.97708686572875,
+      0.38751877718056
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939959",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Nao Mizuki Type C",
+    "description": "Previous: [Nao Mizuki Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939781#L)",
+    "coords": [
+      -1.0187863010203,
+      0.39132242510017
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939964",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Hibiki Otsuki Type A",
+    "description": "Next: [Hibiki Otsuki Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939837#L)",
+    "coords": [
+      -1.0557341936129,
+      0.47626573104269
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939965",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Kotomi Asakura Type B",
+    "description": "Previous: [Kotomi Asakura Type A](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939795#L) Next: [Kotomi Asakura Type C](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939810#L)",
+    "coords": [
+      -1.0052657487892,
+      0.50707781332216
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939966",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Riri Kuribayashi Type C",
+    "description": "Previous: [Riri Kuribayashi Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939975#L)",
+    "coords": [
+      -0.9113946846395,
+      0.4990958669966
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939968",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Iori Kogawa Type C",
+    "description": "Next: [Iori Kogawa Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939847#L)",
+    "coords": [
+      -0.84567291072017,
+      0.54801826398392
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939969",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Saki Hatsumi Type B",
+    "description": "Previous: [Saki Hatsumi Type A](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939839#L) Next: [Saki Hatsumi Type C](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939818#L)",
+    "coords": [
+      -0.82265944068217,
+      0.39370185500113
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939971",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Hibiki Otsuki Type C",
+    "description": "Previous: [Hibiki Otsuki Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939837#L)",
+    "coords": [
+      -0.77373594824826,
+      0.39138448080061
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939975",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Riri Kuribayashi Type B",
+    "description": "Previous: [Riri Kuribayashi Type A](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939976#L) Next: [Riri Kuribayashi Type C](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939966#L)",
+    "coords": [
+      -0.69211747635231,
+      0.44277246929066
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939976",
+    "mapId": "sotenbori",
+    "category": "telephone-card",
+    "title": "Riri Kuribayashi Type A",
+    "description": "Next: [Riri Kuribayashi Type B](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=939975#L)",
+    "coords": [
+      -0.67549612973099,
+      0.6673435048321
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-940288",
+    "mapId": "sotenbori",
+    "category": "mr-shakedown",
+    "title": "Mr. Shakedown",
+    "description": "Spawns in random places throughout Sotenbori. To learn exactly where he is at any given time you'll need to equip the Encounter Finder accessory, obtained as part of substory [58 - Stadium Jumper Strut](https://mapgenie.io/yakuza-0/maps/sotenbori?locationIds=940078)",
+    "coords": [
+      -0.45621078093345,
+      0.81795414373768
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939763",
+    "mapId": "sotenbori",
+    "category": "dream-machine",
+    "title": "Dream Machine",
+    "description": "Dream Machine localizado em sotenbori.",
+    "coords": [
+      -1.056598181341,
+      0.99970798004063
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939787",
+    "mapId": "sotenbori",
+    "category": "dream-machine",
+    "title": "Dream Machine",
+    "description": "Dream Machine localizado em sotenbori.",
+    "coords": [
+      -0.79976565269388,
+      0.86981347728226
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939802",
+    "mapId": "sotenbori",
+    "category": "dream-machine",
+    "title": "Dream Machine",
+    "description": "Dream Machine localizado em sotenbori.",
+    "coords": [
+      -0.43303051619247,
+      0.98355088587951
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939852",
+    "mapId": "sotenbori",
+    "category": "dream-machine",
+    "title": "Dream Machine",
+    "description": "Dream Machine localizado em sotenbori.",
+    "coords": [
+      -0.49128550756231,
+      0.51811050855824
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939859",
+    "mapId": "sotenbori",
+    "category": "dream-machine",
+    "title": "Dream Machine",
+    "description": "Dream Machine localizado em sotenbori.",
+    "coords": [
+      -0.68502391449192,
+      0.60253599940145
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939960",
+    "mapId": "sotenbori",
+    "category": "dream-machine",
+    "title": "Dream Machine",
+    "description": "Dream Machine localizado em sotenbori.",
+    "coords": [
+      -1.0261677402298,
+      0.40325260397137
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-0-sotenbori-939967",
+    "mapId": "sotenbori",
+    "category": "dream-machine",
+    "title": "Dream Machine",
+    "description": "Dream Machine localizado em sotenbori.",
+    "coords": [
+      -0.84861045754852,
+      0.52292745187988
+    ],
+    "region": "sotenbori",
+    "dlc": "base"
+  }
+]

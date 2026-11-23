@@ -1,0 +1,396 @@
+{
+  "id": "game-mina-the-hollower",
+  "slug": "mina-the-hollower",
+  "title": "Mina the Hollower",
+  "subtitle": "Tenebrous Isle — Terror Gótico 8-Bit, Relíquias & Masmorras",
+  "studio": "Yacht Club Games",
+  "releaseYear": 2026,
+  "genres": [
+    "Ação",
+    "Aventura",
+    "Indie"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox",
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/mina-the-hollower/cover.webp",
+    "bannerImage": "/games/mina-the-hollower/banner.webp",
+    "logoImage": "/games/mina-the-hollower/logo.webp"
+  },
+  "theme": {
+    "accentPrimary": "#A855F7",
+    "accentSecondary": "#F43F5E",
+    "accentGlow": "rgba(168, 85, 247, 0.40)",
+    "glassTint": "rgba(18, 10, 24, 0.84)",
+    "surfaceBase": "#0B0610",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "abyssal-contours",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "tenebrous-isle",
+      "name": "Tenebrous Isle",
+      "dlc": "base",
+      "pinsCount": 1584,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0B0610",
+      "initialCenter": [
+        0.42062533090858,
+        -1.0336298508415
+      ],
+      "initialZoom": 14,
+      "maxBounds": [
+        [
+          -0.08766,
+          -1.36549
+        ],
+        [
+          1.18344,
+          0.10115
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/mina-the-hollower/walter/white-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              -0.08766,
+              -1.36549
+            ],
+            [
+              1.18344,
+              0.10115
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "breakable-surface",
+          "groupId": "locations",
+          "name": "Breakable Surface",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "button",
+          "groupId": "locations",
+          "name": "Button",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "kear-lock",
+          "groupId": "locations",
+          "name": "Kear Lock",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "lock",
+          "groupId": "locations",
+          "name": "Lock",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "mirror",
+          "groupId": "locations",
+          "name": "Mirror",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "pipe",
+          "groupId": "locations",
+          "name": "Pipe",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "point-of-interest",
+          "groupId": "locations",
+          "name": "Point of Interest",
+          "icon": "landmark",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "spark-lock",
+          "groupId": "locations",
+          "name": "Spark Lock",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "statue",
+          "groupId": "locations",
+          "name": "Statue",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "statue-head",
+          "groupId": "locations",
+          "name": "Statue Head",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "train-station",
+          "groupId": "locations",
+          "name": "Train Station",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "transition",
+          "groupId": "locations",
+          "name": "Transition",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": false
+        },
+        {
+          "id": "underlab",
+          "groupId": "locations",
+          "name": "Underlab",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "vial-lock",
+          "groupId": "locations",
+          "name": "Vial Lock",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collection",
+      "label": "Collection",
+      "categories": [
+        {
+          "id": "bonestone-gem",
+          "groupId": "collection",
+          "name": "Bonestone Gem",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "cloak-upgrade",
+          "groupId": "collection",
+          "name": "Cloak Upgrade",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "fish",
+          "groupId": "collection",
+          "name": "Fish",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "fishing-upgrade",
+          "groupId": "collection",
+          "name": "Fishing Upgrade",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "health-rose",
+          "groupId": "collection",
+          "name": "Health Rose",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "joule-box",
+          "groupId": "collection",
+          "name": "Joule Box",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "kear",
+          "groupId": "collection",
+          "name": "Kear",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "sidearm",
+          "groupId": "collection",
+          "name": "Sidearm",
+          "icon": "shopping-bag",
+          "color": "#E879F9",
+          "defaultVisible": false
+        },
+        {
+          "id": "spark-container",
+          "groupId": "collection",
+          "name": "Spark Container",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "spark-generator",
+          "groupId": "collection",
+          "name": "Spark Generator",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "trinket",
+          "groupId": "collection",
+          "name": "Trinket",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "trinket-bag",
+          "groupId": "collection",
+          "name": "Trinket Bag",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "underlab-equipment",
+          "groupId": "collection",
+          "name": "Underlab Equipment",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "vial-pouch",
+          "groupId": "collection",
+          "name": "Vial Pouch",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "weapon",
+          "groupId": "collection",
+          "name": "Weapon",
+          "icon": "shopping-bag",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "npcs",
+      "label": "NPCs",
+      "categories": [
+        {
+          "id": "boss",
+          "groupId": "npcs",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "merchant",
+          "groupId": "npcs",
+          "name": "Merchant",
+          "icon": "shopping-bag",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "npc",
+          "groupId": "npcs",
+          "name": "NPC",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "easter-egg",
+          "groupId": "other",
+          "name": "Easter Egg",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "interactable",
+          "groupId": "other",
+          "name": "Interactable",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "newspaper",
+          "groupId": "other",
+          "name": "Newspaper",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 1584
+}

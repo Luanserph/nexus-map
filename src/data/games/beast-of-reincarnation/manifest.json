@@ -1,0 +1,982 @@
+{
+  "id": "game-beast-of-reincarnation",
+  "slug": "beast-of-reincarnation",
+  "title": "Beast of Reincarnation",
+  "subtitle": "Japão Pós-Apocalíptico — 13 Zonas de Exploração",
+  "studio": "Game Freak",
+  "releaseYear": 2026,
+  "genres": [
+    "Action RPG",
+    "Ação",
+    "Aventura"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/beast-of-reincarnation/cover.webp",
+    "bannerImage": "/games/beast-of-reincarnation/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#10B981",
+    "accentSecondary": "#F43F5E",
+    "accentGlow": "rgba(16, 185, 129, 0.38)",
+    "glassTint": "rgba(10, 20, 16, 0.82)",
+    "surfaceBase": "#060E0B",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "abyssal-contours",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "ancient-civilization-zone",
+      "name": "Ancient Civilization Zone",
+      "dlc": "base",
+      "pinsCount": 121,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060E0B",
+      "initialCenter": [
+        0.68119076263588,
+        -0.78913780513577
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.43903,
+          -0.92
+        ],
+        [
+          0.96107,
+          -0.46912
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/beast-of-reincarnation/walt/white-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.43903,
+              -0.92
+            ],
+            [
+              0.96107,
+              -0.46912
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crater-zone",
+      "name": "Crater Zone",
+      "dlc": "base",
+      "pinsCount": 92,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060E0B",
+      "initialCenter": [
+        0.68119076263588,
+        -0.78913780513577
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.41798,
+          -0.96989
+        ],
+        [
+          0.9215,
+          -0.47022
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/beast-of-reincarnation/zone/14-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.41798,
+              -0.96989
+            ],
+            [
+              0.9215,
+              -0.47022
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fuji-frontier-zone",
+      "name": "Fuji Frontier Zone",
+      "dlc": "base",
+      "pinsCount": 96,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060E0B",
+      "initialCenter": [
+        0.68119076263588,
+        -0.78913780513577
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.40642,
+          -0.89774
+        ],
+        [
+          0.93677,
+          -0.62907
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/beast-of-reincarnation/zone/09-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.40642,
+              -0.89774
+            ],
+            [
+              0.93677,
+              -0.62907
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "giant-tree-zone",
+      "name": "Giant Tree Zone",
+      "dlc": "base",
+      "pinsCount": 161,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060E0B",
+      "initialCenter": [
+        0.68119076263588,
+        -0.78913780513577
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.46224,
+          -0.82092
+        ],
+        [
+          0.88464,
+          -0.57837
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/beast-of-reincarnation/zone/12-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.46224,
+              -0.82092
+            ],
+            [
+              0.88464,
+              -0.57837
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inukami-river-zone",
+      "name": "Inukami River Zone",
+      "dlc": "base",
+      "pinsCount": 61,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060E0B",
+      "initialCenter": [
+        0.68119076263588,
+        -0.78913780513577
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.41615,
+          -0.81024
+        ],
+        [
+          0.93583,
+          -0.62405
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/beast-of-reincarnation/zone/16-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.41615,
+              -0.81024
+            ],
+            [
+              0.93583,
+              -0.62405
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matsukawa-zone",
+      "name": "Matsukawa Zone",
+      "dlc": "base",
+      "pinsCount": 123,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060E0B",
+      "initialCenter": [
+        0.68119076263588,
+        -0.78913780513577
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.45351,
+          -0.96201
+        ],
+        [
+          0.9502,
+          -0.41724
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/beast-of-reincarnation/zone/08-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.45351,
+              -0.96201
+            ],
+            [
+              0.9502,
+              -0.41724
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mount-hiei-zone",
+      "name": "Mount Hiei Zone",
+      "dlc": "base",
+      "pinsCount": 5,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060E0B",
+      "initialCenter": [
+        0.68119076263588,
+        -0.78913780513577
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.49005,
+          -0.74258
+        ],
+        [
+          0.87458,
+          -0.63917
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/beast-of-reincarnation/zone/18-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.49005,
+              -0.74258
+            ],
+            [
+              0.87458,
+              -0.63917
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ogouchi-buffer-zone",
+      "name": "Ogouchi Buffer Zone",
+      "dlc": "base",
+      "pinsCount": 237,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060E0B",
+      "initialCenter": [
+        0.68119076263588,
+        -0.78913780513577
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.476,
+          -0.91465
+        ],
+        [
+          0.93537,
+          -0.44752
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/beast-of-reincarnation/dan/roid-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.476,
+              -0.91465
+            ],
+            [
+              0.93537,
+              -0.44752
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pilgrims-zone",
+      "name": "Pilgrims Zone",
+      "dlc": "base",
+      "pinsCount": 123,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060E0B",
+      "initialCenter": [
+        0.68119076263588,
+        -0.78913780513577
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.44253,
+          -0.84561
+        ],
+        [
+          1.00053,
+          -0.52077
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/beast-of-reincarnation/zone/07-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.44253,
+              -0.84561
+            ],
+            [
+              1.00053,
+              -0.52077
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starfall-tower",
+      "name": "Starfall Tower",
+      "dlc": "base",
+      "pinsCount": 42,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060E0B",
+      "initialCenter": [
+        0.68119076263588,
+        -0.78913780513577
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.51416,
+          -0.77219
+        ],
+        [
+          0.84074,
+          -0.59812
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/beast-of-reincarnation/zone/17-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.51416,
+              -0.77219
+            ],
+            [
+              0.84074,
+              -0.59812
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-capital",
+      "name": "The Capital",
+      "dlc": "base",
+      "pinsCount": 32,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060E0B",
+      "initialCenter": [
+        0.68119076263588,
+        -0.78913780513577
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.38536,
+          -0.75063
+        ],
+        [
+          0.9286,
+          -0.52953
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/beast-of-reincarnation/zone/19-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.38536,
+              -0.75063
+            ],
+            [
+              0.9286,
+              -0.52953
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-great-wall-terraces",
+      "name": "The Great Wall Terraces",
+      "dlc": "base",
+      "pinsCount": 180,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060E0B",
+      "initialCenter": [
+        0.68119076263588,
+        -0.78913780513577
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.39811,
+          -0.79408
+        ],
+        [
+          0.92223,
+          -0.52647
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/beast-of-reincarnation/zone/06-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.39811,
+              -0.79408
+            ],
+            [
+              0.92223,
+              -0.52647
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "points-of-interest",
+      "label": "Points of Interest",
+      "categories": [
+        {
+          "id": "campsite",
+          "groupId": "points-of-interest",
+          "name": "Campsite",
+          "icon": "bookmark",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "cleanse-walker",
+          "groupId": "points-of-interest",
+          "name": "Cleanse Walker",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "dragon-vein-shrine",
+          "groupId": "points-of-interest",
+          "name": "Dragon Vein Shrine",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "bulkhead",
+          "groupId": "points-of-interest",
+          "name": "Bulkhead",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "control-panel",
+          "groupId": "points-of-interest",
+          "name": "Control Panel",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "colony",
+          "groupId": "points-of-interest",
+          "name": "Colony",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "enemy-lair",
+          "groupId": "points-of-interest",
+          "name": "Enemy Lair",
+          "icon": "skull",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "npcs",
+      "label": "NPCs",
+      "categories": [
+        {
+          "id": "merchant",
+          "groupId": "npcs",
+          "name": "Merchant",
+          "icon": "shopping-bag",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "keeper-golem",
+          "groupId": "npcs",
+          "name": "Keeper Golem",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "npc",
+          "groupId": "npcs",
+          "name": "NPC",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "document",
+          "groupId": "items",
+          "name": "Document",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "recipe",
+          "groupId": "items",
+          "name": "Recipe",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "skill-amber",
+          "groupId": "items",
+          "name": "Skill Amber",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "manual",
+          "groupId": "items",
+          "name": "Manual",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "key",
+          "groupId": "items",
+          "name": "Key",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "equipment",
+      "label": "Equipment",
+      "categories": [
+        {
+          "id": "weapon",
+          "groupId": "equipment",
+          "name": "Weapon",
+          "icon": "shopping-bag",
+          "color": "#FACC15",
+          "defaultVisible": false
+        },
+        {
+          "id": "armor",
+          "groupId": "equipment",
+          "name": "Armor",
+          "icon": "shopping-bag",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "spirit-stone",
+          "groupId": "equipment",
+          "name": "Spirit Stone",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "valuables",
+      "label": "Valuables",
+      "categories": [
+        {
+          "id": "electronic-brain",
+          "groupId": "valuables",
+          "name": "Electronic Brain",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "fertilized-egg",
+          "groupId": "valuables",
+          "name": "Fertilized Egg",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "memory-chip",
+          "groupId": "valuables",
+          "name": "Memory Chip",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "facility-module",
+          "groupId": "valuables",
+          "name": "Facility Module",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "generator-device",
+          "groupId": "valuables",
+          "name": "Generator Device",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "decoration",
+          "groupId": "valuables",
+          "name": "Decoration",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "life-fruit",
+          "groupId": "valuables",
+          "name": "Life Fruit",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "containers",
+      "label": "Containers",
+      "categories": [
+        {
+          "id": "arrows",
+          "groupId": "containers",
+          "name": "Arrows",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "wooden-box",
+          "groupId": "containers",
+          "name": "Wooden Box",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "books",
+          "groupId": "containers",
+          "name": "Books",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "strongbox",
+          "groupId": "containers",
+          "name": "Strongbox",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "iron-box",
+          "groupId": "containers",
+          "name": "Iron Box",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "bird-nest",
+          "groupId": "containers",
+          "name": "Bird Nest",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "rusted-golem",
+          "groupId": "containers",
+          "name": "Rusted Golem",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "fish",
+          "groupId": "containers",
+          "name": "Fish",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "toolbox",
+          "groupId": "containers",
+          "name": "Toolbox",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "basket",
+          "groupId": "containers",
+          "name": "Basket",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "overgrown-malefact",
+          "groupId": "containers",
+          "name": "Overgrown Malefact",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "crop-seedling",
+          "groupId": "containers",
+          "name": "Crop Seedling",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "bucket",
+          "groupId": "containers",
+          "name": "Bucket",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "veg-box",
+          "groupId": "containers",
+          "name": "Veg Box",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "censer",
+          "groupId": "containers",
+          "name": "Censer",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "rice",
+          "groupId": "containers",
+          "name": "Rice",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "vase",
+          "groupId": "containers",
+          "name": "Vase",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "enemies",
+      "label": "Enemies",
+      "categories": [
+        {
+          "id": "elite-enemy",
+          "groupId": "enemies",
+          "name": "Elite Enemy",
+          "icon": "skull",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "boss",
+          "groupId": "enemies",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "miscellaneous",
+      "label": "Miscellaneous",
+      "categories": [
+        {
+          "id": "painting-of-lore",
+          "groupId": "miscellaneous",
+          "name": "Painting of Lore",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "locked-door",
+          "groupId": "miscellaneous",
+          "name": "Locked Door",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 1273
+}

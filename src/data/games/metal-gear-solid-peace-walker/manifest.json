@@ -1,0 +1,219 @@
+{
+  "id": "game-metal-gear-solid-peace-walker",
+  "slug": "metal-gear-solid-peace-walker",
+  "title": "Metal Gear Solid: Peace Walker",
+  "subtitle": "Costa Rica — Fitas Cassete, Blueprints & Operações",
+  "studio": "Kojima Productions / Konami",
+  "releaseYear": 2010,
+  "genres": [
+    "Stealth",
+    "Ação",
+    "Tático"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox",
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/metal-gear-solid-peace-walker/cover.webp",
+    "bannerImage": "/games/metal-gear-solid-peace-walker/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#EAB308",
+    "accentSecondary": "#84CC16",
+    "accentGlow": "rgba(234, 179, 8, 0.36)",
+    "glassTint": "rgba(16, 18, 12, 0.84)",
+    "surfaceBase": "#0A0C08",
+    "fontDisplay": "'Rajdhani', sans-serif",
+    "backgroundPattern": "tactical-grid",
+    "badgeStyle": "chamfered"
+  },
+  "maps": [
+    {
+      "id": "costa-rica",
+      "name": "Costa Rica",
+      "dlc": "base",
+      "pinsCount": 659,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0A0C08",
+      "initialCenter": [
+        0.68645528551268,
+        -1.0517578908101
+      ],
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          -0.04202,
+          -1.37902
+        ],
+        [
+          1.45055,
+          0.04118
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v3",
+          "label": "v3",
+          "urlTemplate": "https://tiles.mapgenie.io/games/metal-gear-solid-peace-walker/costa-rica/v3/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "points-of-interest",
+      "label": "Points of Interest",
+      "categories": [
+        {
+          "id": "objective",
+          "groupId": "points-of-interest",
+          "name": "Objective",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "extraction-point",
+          "groupId": "points-of-interest",
+          "name": "Extraction Point",
+          "icon": "landmark",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "area",
+          "groupId": "points-of-interest",
+          "name": "Area",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "missions",
+      "label": "Missions",
+      "categories": [
+        {
+          "id": "main-op",
+          "groupId": "missions",
+          "name": "Main Op",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "extra-op",
+          "groupId": "missions",
+          "name": "Extra Op",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "outer-op",
+          "groupId": "missions",
+          "name": "Outer Op",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "camouflage",
+          "groupId": "collectibles",
+          "name": "Camouflage",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "schematic",
+          "groupId": "collectibles",
+          "name": "Schematic",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "ammo",
+          "groupId": "other",
+          "name": "Ammo",
+          "icon": "shopping-bag",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "ration",
+          "groupId": "other",
+          "name": "Ration",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "prisoner",
+          "groupId": "other",
+          "name": "Prisoner",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "explosive",
+          "groupId": "other",
+          "name": "Explosive",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "item",
+          "groupId": "other",
+          "name": "Item",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 659
+}

@@ -1,0 +1,802 @@
+{
+  "id": "game-subnautica-2",
+  "slug": "subnautica-2",
+  "title": "Subnautica 2",
+  "subtitle": "Planeta Oceânico — Naufrágios, Blueprints, PDAs & Biomas",
+  "studio": "Unknown Worlds Entertainment",
+  "releaseYear": 2026,
+  "genres": [
+    "Sobrevivência",
+    "Exploração",
+    "Mundo Aberto"
+  ],
+  "platforms": [
+    "pc",
+    "xbox"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/subnautica-2/cover.webp",
+    "bannerImage": "/games/subnautica-2/banner.webp",
+    "logoImage": "/games/subnautica-2/logo.webp"
+  },
+  "theme": {
+    "accentPrimary": "#0EA5E9",
+    "accentSecondary": "#2DD4BF",
+    "accentGlow": "rgba(14, 165, 233, 0.40)",
+    "glassTint": "rgba(6, 18, 28, 0.82)",
+    "surfaceBase": "#040C14",
+    "fontDisplay": "'Space Grotesk', sans-serif",
+    "backgroundPattern": "abyssal-contours",
+    "badgeStyle": "minimal"
+  },
+  "maps": [
+    {
+      "id": "world",
+      "name": "Mundo Subaquático",
+      "dlc": "base",
+      "pinsCount": 8047,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#040C14",
+      "initialCenter": [
+        0.71436910323246,
+        -1.0197963827431
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          -0.07154,
+          -1.19844
+        ],
+        [
+          0.96581,
+          0.08877
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/subnautica-2/world/default-v4/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 16,
+          "maxZoom": 18,
+          "tileBounds": [
+            [
+              -0.07154,
+              -1.19844
+            ],
+            [
+              0.96581,
+              0.08877
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "abandoned-base",
+          "groupId": "locations",
+          "name": "Abandoned Base",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "alien-structure",
+          "groupId": "locations",
+          "name": "Alien Structure",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "lifepod",
+          "groupId": "locations",
+          "name": "Lifepod",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "point-of-interest",
+          "groupId": "locations",
+          "name": "Point of Interest",
+          "icon": "landmark",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "wreck",
+          "groupId": "locations",
+          "name": "Wreck",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "biological",
+      "label": "Biological",
+      "categories": [
+        {
+          "id": "leviathan",
+          "groupId": "biological",
+          "name": "Leviathan",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "label": "Tech",
+      "categories": [
+        {
+          "id": "adaptation",
+          "groupId": "tech",
+          "name": "Adaptation",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "data-box",
+          "groupId": "tech",
+          "name": "Data Box",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "electronics",
+          "groupId": "tech",
+          "name": "Electronics",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "equipment",
+          "groupId": "tech",
+          "name": "Equipment",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "fragment",
+          "groupId": "tech",
+          "name": "Fragment",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": false
+        },
+        {
+          "id": "supply-crate",
+          "groupId": "tech",
+          "name": "Supply Crate",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "communications",
+      "label": "Communications",
+      "categories": [
+        {
+          "id": "blackbox",
+          "groupId": "communications",
+          "name": "Blackbox",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "data-terminal",
+          "groupId": "communications",
+          "name": "Data Terminal",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "databank-entry",
+          "groupId": "communications",
+          "name": "Databank Entry",
+          "icon": "gem",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "resources",
+      "label": "Resources",
+      "categories": [
+        {
+          "id": "atacamite",
+          "groupId": "resources",
+          "name": "Atacamite",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "celestine",
+          "groupId": "resources",
+          "name": "Celestine",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "copper",
+          "groupId": "resources",
+          "name": "Copper",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": false
+        },
+        {
+          "id": "gold",
+          "groupId": "resources",
+          "name": "Gold",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "lead",
+          "groupId": "resources",
+          "name": "Lead",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "lithium",
+          "groupId": "resources",
+          "name": "Lithium",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "metal-salvage",
+          "groupId": "resources",
+          "name": "Metal Salvage",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "quartz",
+          "groupId": "resources",
+          "name": "Quartz",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": false
+        },
+        {
+          "id": "salt",
+          "groupId": "resources",
+          "name": "Salt",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "shark-needle",
+          "groupId": "resources",
+          "name": "Shark Needle",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "silver",
+          "groupId": "resources",
+          "name": "Silver",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": false
+        },
+        {
+          "id": "sulfur",
+          "groupId": "resources",
+          "name": "Sulfur",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "titanium",
+          "groupId": "resources",
+          "name": "Titanium",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "wildlife",
+      "label": "Wildlife",
+      "categories": [
+        {
+          "id": "anemone-crab",
+          "groupId": "wildlife",
+          "name": "Anemone Crab",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "bullethead",
+          "groupId": "wildlife",
+          "name": "Bullethead",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "cerathecan",
+          "groupId": "wildlife",
+          "name": "Cerathecan",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "coral-crab",
+          "groupId": "wildlife",
+          "name": "Coral Crab",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "crimson-shrimp",
+          "groupId": "wildlife",
+          "name": "Crimson Shrimp",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "deepwing-brooder",
+          "groupId": "wildlife",
+          "name": "Deepwing Brooder",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "electric-geordie",
+          "groupId": "wildlife",
+          "name": "Electric Geordie",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "epicurean",
+          "groupId": "wildlife",
+          "name": "Epicurean",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "epicurean-symbiote",
+          "groupId": "wildlife",
+          "name": "Epicurean Symbiote",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "flash-fish",
+          "groupId": "wildlife",
+          "name": "Flash Fish",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": false
+        },
+        {
+          "id": "four-eye",
+          "groupId": "wildlife",
+          "name": "Four Eye",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "geordie",
+          "groupId": "wildlife",
+          "name": "Geordie",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "hammerhead",
+          "groupId": "wildlife",
+          "name": "Hammerhead",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "jelly-ring",
+          "groupId": "wildlife",
+          "name": "Jelly Ring",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "jetocaris",
+          "groupId": "wildlife",
+          "name": "JetoCaris",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "locust",
+          "groupId": "wildlife",
+          "name": "Locust",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "marrowbreach",
+          "groupId": "wildlife",
+          "name": "Marrowbreach",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "needler-shark",
+          "groupId": "wildlife",
+          "name": "Needler Shark",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "nibbler-shark",
+          "groupId": "wildlife",
+          "name": "Nibbler Shark",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "pneumo",
+          "groupId": "wildlife",
+          "name": "Pneumo",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "sandspear",
+          "groupId": "wildlife",
+          "name": "Sandspear",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "spiney-tail",
+          "groupId": "wildlife",
+          "name": "Spiney Tail",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": false
+        },
+        {
+          "id": "surge-jelly",
+          "groupId": "wildlife",
+          "name": "Surge Jelly",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "teal-cycloplet",
+          "groupId": "wildlife",
+          "name": "Teal Cycloplet",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "twin-eel",
+          "groupId": "wildlife",
+          "name": "Twin Eel",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "waxmoon",
+          "groupId": "wildlife",
+          "name": "Waxmoon",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "plants",
+      "label": "Plants",
+      "categories": [
+        {
+          "id": "aceta-plate",
+          "groupId": "plants",
+          "name": "Aceta Plate",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "acid-anemone",
+          "groupId": "plants",
+          "name": "Acid Anemone",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "anemone-hills-anemone",
+          "groupId": "plants",
+          "name": "Anemone Hills Anemone",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "bloom-core",
+          "groupId": "plants",
+          "name": "Bloom Core",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "bloom-node",
+          "groupId": "plants",
+          "name": "Bloom Node",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "bulb-flower",
+          "groupId": "plants",
+          "name": "Bulb Flower",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": false
+        },
+        {
+          "id": "cave-plant-tendrils",
+          "groupId": "plants",
+          "name": "Cave Plant Tendrils",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "cherimoya-rotsac",
+          "groupId": "plants",
+          "name": "Cherimoya Rotsac",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "coral-cabbage",
+          "groupId": "plants",
+          "name": "Coral Cabbage",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "coral-clump",
+          "groupId": "plants",
+          "name": "Coral Clump",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "coral-dome",
+          "groupId": "plants",
+          "name": "Coral Dome",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "coral-pad",
+          "groupId": "plants",
+          "name": "Coral Pad",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": false
+        },
+        {
+          "id": "coral-wafers",
+          "groupId": "plants",
+          "name": "Coral Wafers",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "eyeball-sponge",
+          "groupId": "plants",
+          "name": "Eyeball Sponge",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "freesia",
+          "groupId": "plants",
+          "name": "Freesia",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "megajelly-bell",
+          "groupId": "plants",
+          "name": "Megajelly Bell",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "necrolei-egg",
+          "groupId": "plants",
+          "name": "Necrolei Egg",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "oxygen-tunic",
+          "groupId": "plants",
+          "name": "Oxygen Tunic",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "plant-air-sac",
+          "groupId": "plants",
+          "name": "Plant Air Sac",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "plant-paddle",
+          "groupId": "plants",
+          "name": "Plant Paddle",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": false
+        },
+        {
+          "id": "pome-plant",
+          "groupId": "plants",
+          "name": "Pome Plant",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "smooth-cactus",
+          "groupId": "plants",
+          "name": "Smooth Cactus",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "spline-tentacle",
+          "groupId": "plants",
+          "name": "Spline Tentacle",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "stilt-orb",
+          "groupId": "plants",
+          "name": "Stilt Orb",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "super-coral",
+          "groupId": "plants",
+          "name": "Super Coral",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "tall-kelp",
+          "groupId": "plants",
+          "name": "Tall Kelp",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "tendril",
+          "groupId": "plants",
+          "name": "Tendril",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "toxic-sponge",
+          "groupId": "plants",
+          "name": "Toxic Sponge",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "witch-hand",
+          "groupId": "plants",
+          "name": "Witch Hand",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "easter-egg",
+          "groupId": "other",
+          "name": "Easter Egg",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 8047
+}

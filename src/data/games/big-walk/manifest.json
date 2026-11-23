@@ -1,0 +1,323 @@
+{
+  "id": "game-big-walk",
+  "slug": "big-walk",
+  "title": "Big Walk",
+  "subtitle": "Aventura Cooperativa — A Ilha & Quebra-Cabeças",
+  "studio": "House House",
+  "releaseYear": 2026,
+  "genres": [
+    "Aventura",
+    "Co-op",
+    "Exploração"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/big-walk/cover.webp",
+    "bannerImage": "/games/big-walk/banner.webp",
+    "logoImage": "/games/big-walk/logo.webp"
+  },
+  "theme": {
+    "accentPrimary": "#FB923C",
+    "accentSecondary": "#38BDF8",
+    "accentGlow": "rgba(251, 146, 60, 0.38)",
+    "glassTint": "rgba(20, 14, 10, 0.80)",
+    "surfaceBase": "#0E0906",
+    "fontDisplay": "'Space Grotesk', sans-serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "minimal"
+  },
+  "maps": [
+    {
+      "id": "island",
+      "name": "The Island",
+      "dlc": "base",
+      "pinsCount": 230,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0E0906",
+      "initialCenter": [
+        0.69877288342981,
+        -0.82763764741398
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.30917,
+          -1.017
+        ],
+        [
+          1.09054,
+          -0.34949
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/big-walk/island/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0.30917,
+              -1.017
+            ],
+            [
+              1.09054,
+              -0.34949
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "point-of-interest",
+          "groupId": "locations",
+          "name": "Point of Interest",
+          "icon": "landmark",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "puzzle",
+          "groupId": "locations",
+          "name": "Puzzle",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "key-cutter",
+          "groupId": "locations",
+          "name": "Key Cutter",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "music-station",
+          "groupId": "locations",
+          "name": "Music Station",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "firework-launcher",
+          "groupId": "locations",
+          "name": "Firework Launcher",
+          "icon": "flame",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "tower",
+          "groupId": "locations",
+          "name": "Tower",
+          "icon": "landmark",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "key-holder",
+          "groupId": "locations",
+          "name": "Key Holder",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "train-station",
+          "groupId": "locations",
+          "name": "Train Station",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "lift-station",
+          "groupId": "locations",
+          "name": "Lift Station",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "scanner",
+          "groupId": "items",
+          "name": "Scanner",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "music-player",
+          "groupId": "items",
+          "name": "Music Player",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "flashlight",
+          "groupId": "items",
+          "name": "Flashlight",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "flare-gun",
+          "groupId": "items",
+          "name": "Flare Gun",
+          "icon": "shopping-bag",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "backpack",
+          "groupId": "items",
+          "name": "Backpack",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "hip-pack",
+          "groupId": "items",
+          "name": "Hip Pack",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "megaphone",
+          "groupId": "items",
+          "name": "Megaphone",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "walkie-talkie",
+          "groupId": "items",
+          "name": "Walkie-Talkie",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "double-blob-holder",
+          "groupId": "items",
+          "name": "Double Blob Holder",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "clock",
+          "groupId": "items",
+          "name": "Clock",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "map",
+          "groupId": "items",
+          "name": "Map",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "compass",
+          "groupId": "items",
+          "name": "Compass",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "binoculars",
+          "groupId": "items",
+          "name": "Binoculars",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "laser-pointer",
+          "groupId": "items",
+          "name": "Laser Pointer",
+          "icon": "landmark",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "whiteboard",
+          "groupId": "items",
+          "name": "Whiteboard",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "coordinate-displayer",
+          "groupId": "items",
+          "name": "Coordinate Displayer",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "key",
+          "groupId": "other",
+          "name": "Key",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "radio-transmitter",
+          "groupId": "other",
+          "name": "Radio Transmitter",
+          "icon": "radio",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 230
+}

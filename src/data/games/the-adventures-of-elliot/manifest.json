@@ -1,0 +1,531 @@
+{
+  "id": "game-the-adventures-of-elliot",
+  "slug": "the-adventures-of-elliot",
+  "title": "The Adventures of Elliot: The Millennium Tales",
+  "subtitle": "4 Eras de Philabieldia — Safekeeping, Reconstruction, Magic & Budding",
+  "studio": "Square Enix / Claytechworks",
+  "releaseYear": 2026,
+  "genres": [
+    "Action RPG",
+    "JRPG",
+    "Aventura"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox",
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/the-adventures-of-elliot/cover.webp",
+    "bannerImage": "/games/the-adventures-of-elliot/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#34D399",
+    "accentSecondary": "#FBBF24",
+    "accentGlow": "rgba(52, 211, 153, 0.38)",
+    "glassTint": "rgba(10, 20, 16, 0.80)",
+    "surfaceBase": "#060E0A",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "age-of-budding",
+      "name": "Age of Budding",
+      "dlc": "base",
+      "pinsCount": 506,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060E0A",
+      "initialCenter": [
+        0.69241477361849,
+        -0.75165445465331
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          -0.07207,
+          -0.97405
+        ],
+        [
+          0.97301,
+          0.07215
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v2",
+          "label": "V2",
+          "urlTemplate": "https://tiles.mapgenie.io/games/the-adventures-of-elliot/A1/default-v6/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 16,
+          "maxZoom": 18,
+          "tileBounds": [
+            [
+              -0.07207,
+              -0.97405
+            ],
+            [
+              0.97301,
+              0.07215
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "age-of-magic",
+      "name": "Age of Magic",
+      "dlc": "base",
+      "pinsCount": 581,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060E0A",
+      "initialCenter": [
+        0.69241477361849,
+        -0.75165445465331
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          -0.0717,
+          -0.98766
+        ],
+        [
+          0.96789,
+          0.07316
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v2",
+          "label": "V2",
+          "urlTemplate": "https://tiles.mapgenie.io/games/the-adventures-of-elliot/A2/default-v6/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 16,
+          "maxZoom": 18,
+          "tileBounds": [
+            [
+              -0.0717,
+              -0.98766
+            ],
+            [
+              0.96789,
+              0.07316
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "age-of-reconstruction",
+      "name": "Age of Reconstruction",
+      "dlc": "base",
+      "pinsCount": 618,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060E0A",
+      "initialCenter": [
+        0.69241477361849,
+        -0.75165445465331
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          -0.06929,
+          -0.96198
+        ],
+        [
+          0.93547,
+          0.07126
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v2",
+          "label": "V2",
+          "urlTemplate": "https://tiles.mapgenie.io/games/the-adventures-of-elliot/A3/default-v3/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 16,
+          "maxZoom": 18,
+          "tileBounds": [
+            [
+              -0.06929,
+              -0.96198
+            ],
+            [
+              0.93547,
+              0.07126
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "age-of-safekeeping",
+      "name": "Age of Safekeeping",
+      "dlc": "base",
+      "pinsCount": 598,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060E0A",
+      "initialCenter": [
+        0.69241477361849,
+        -0.75165445465331
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          -0.07351,
+          -0.98503
+        ],
+        [
+          0.99237,
+          0.07297
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v2",
+          "label": "V2",
+          "urlTemplate": "https://tiles.mapgenie.io/games/the-adventures-of-elliot/A4/default-v3/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 16,
+          "maxZoom": 18,
+          "tileBounds": [
+            [
+              -0.07351,
+              -0.98503
+            ],
+            [
+              0.99237,
+              0.07297
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "ailurophilic-traveler",
+          "groupId": "locations",
+          "name": "Ailurophilic Traveler",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "cave",
+          "groupId": "locations",
+          "name": "Cave",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "dungeon",
+          "groupId": "locations",
+          "name": "Dungeon",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "guidepost",
+          "groupId": "locations",
+          "name": "Guidepost",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "item-shop",
+          "groupId": "locations",
+          "name": "Item Shop",
+          "icon": "shopping-bag",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "locked-door",
+          "groupId": "locations",
+          "name": "Locked Door",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "magic-spring",
+          "groupId": "locations",
+          "name": "Magic Spring",
+          "icon": "sparkles",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "magicite-shop",
+          "groupId": "locations",
+          "name": "Magicite Shop",
+          "icon": "shopping-bag",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "shrine-of-life",
+          "groupId": "locations",
+          "name": "Shrine of Life",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "shrine-of-the-mystic",
+          "groupId": "locations",
+          "name": "Shrine of the Mystic",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "castle",
+          "groupId": "locations",
+          "name": "Castle",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "temple-of-trials",
+          "groupId": "locations",
+          "name": "Temple of Trials",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "magicite",
+          "groupId": "items",
+          "name": "Magicite",
+          "icon": "sparkles",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "magicite-fragment",
+          "groupId": "items",
+          "name": "Magicite Fragment",
+          "icon": "sparkles",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "tul",
+          "groupId": "items",
+          "name": "Tul",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "cat",
+          "groupId": "collectibles",
+          "name": "Cat",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "key",
+          "groupId": "collectibles",
+          "name": "Key",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "key-item",
+          "groupId": "collectibles",
+          "name": "Key Item",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "manuscript",
+          "groupId": "collectibles",
+          "name": "Manuscript",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "shard-of-life",
+          "groupId": "collectibles",
+          "name": "Shard of Life",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "weapon",
+          "groupId": "collectibles",
+          "name": "Weapon",
+          "icon": "shopping-bag",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "accessory",
+          "groupId": "collectibles",
+          "name": "Accessory",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "shield",
+          "groupId": "collectibles",
+          "name": "Shield",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "request",
+          "groupId": "quests",
+          "name": "Request",
+          "icon": "scroll-text",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "obstacles",
+      "label": "Obstacles",
+      "categories": [
+        {
+          "id": "boss",
+          "groupId": "obstacles",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "button",
+          "groupId": "obstacles",
+          "name": "Button",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "destructible-rock",
+          "groupId": "obstacles",
+          "name": "Destructible Rock",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "peg",
+          "groupId": "obstacles",
+          "name": "Peg",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "special-door",
+          "groupId": "obstacles",
+          "name": "Special Door",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "torch",
+          "groupId": "obstacles",
+          "name": "Torch",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "underwater-passage",
+          "groupId": "obstacles",
+          "name": "Underwater Passage",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "weak-wall",
+          "groupId": "obstacles",
+          "name": "Weak Wall",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "droppable-ladder",
+          "groupId": "other",
+          "name": "Droppable Ladder",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "transition",
+          "groupId": "other",
+          "name": "Transition",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": false
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 2303
+}

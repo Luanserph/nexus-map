@@ -1,0 +1,613 @@
+{
+  "id": "game-007-first-light",
+  "slug": "007-first-light",
+  "title": "007 First Light",
+  "subtitle": "Espionagem Internacional — 8 Missões & Locais Secretos",
+  "studio": "IO Interactive",
+  "releaseYear": 2026,
+  "genres": [
+    "Ação",
+    "Stealth",
+    "Aventura"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox",
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/007-first-light/cover.webp",
+    "bannerImage": "/games/007-first-light/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#D4AF37",
+    "accentSecondary": "#38BDF8",
+    "accentGlow": "rgba(212, 175, 55, 0.40)",
+    "glassTint": "rgba(14, 14, 18, 0.84)",
+    "surfaceBase": "#08080C",
+    "fontDisplay": "'Rajdhani', sans-serif",
+    "backgroundPattern": "tactical-grid",
+    "badgeStyle": "chamfered"
+  },
+  "maps": [
+    {
+      "id": "grand-carpathian-hotel",
+      "name": "Grand Carpathian Hotel",
+      "dlc": "base",
+      "pinsCount": 337,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#08080C",
+      "initialCenter": [
+        0.72023675699403,
+        -0.86029319714342
+      ],
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          0.1846,
+          -1.25237
+        ],
+        [
+          1.26376,
+          0.01726
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/007-first-light/great-carpathian-hotel/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.1846,
+              -1.25237
+            ],
+            [
+              1.26376,
+              0.01726
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iceland",
+      "name": "Iceland",
+      "dlc": "base",
+      "pinsCount": 36,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#08080C",
+      "initialCenter": [
+        0.66241272494838,
+        -0.76096252530982
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.52403,
+          -1.01552
+        ],
+        [
+          0.86421,
+          -0.35303
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/007-first-light/iceland/default-v3/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.52403,
+              -1.01552
+            ],
+            [
+              0.86421,
+              -0.35303
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "london-nightclub",
+      "name": "London Nightclub",
+      "dlc": "base",
+      "pinsCount": 57,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#08080C",
+      "initialCenter": [
+        0.73432730053629,
+        -0.72431480019691
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.5693,
+          -1.01367
+        ],
+        [
+          1.01607,
+          -0.35761
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/007-first-light/london-nightclub/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.5693,
+              -1.01367
+            ],
+            [
+              1.01607,
+              -0.35761
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "malta",
+      "name": "Malta",
+      "dlc": "base",
+      "pinsCount": 19,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#08080C",
+      "initialCenter": [
+        0.68584915226414,
+        -0.72780950995246
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.64096,
+          -0.8474
+        ],
+        [
+          0.91696,
+          -0.21778
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/007-first-light/malta/default-v3/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.64096,
+              -0.8474
+            ],
+            [
+              0.91696,
+              -0.21778
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mauritania",
+      "name": "Mauritania",
+      "dlc": "base",
+      "pinsCount": 114,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#08080C",
+      "initialCenter": [
+        0.74746287060691,
+        -0.71072180668864
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.39279,
+          -0.8057
+        ],
+        [
+          1.03922,
+          -0.45708
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v2",
+          "label": "V2",
+          "urlTemplate": "https://tiles.mapgenie.io/games/007-first-light/mauritania/default-v4/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0.39279,
+              -0.8057
+            ],
+            [
+              1.03922,
+              -0.45708
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-pearl",
+      "name": "The Pearl",
+      "dlc": "base",
+      "pinsCount": 135,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#08080C",
+      "initialCenter": [
+        0.69394153597366,
+        -0.69367979484866
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.49499,
+          -1.04753
+        ],
+        [
+          0.95573,
+          -0.25502
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default-v2",
+          "label": "default-v2",
+          "urlTemplate": "https://tiles.mapgenie.io/games/007-first-light/the-pearl/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "webb-industries",
+      "name": "Webb Industries",
+      "dlc": "base",
+      "pinsCount": 780,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#08080C",
+      "initialCenter": [
+        0.65907326264423,
+        -0.83630821002629
+      ],
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          0.34885,
+          -1.28777
+        ],
+        [
+          1.04455,
+          -0.2265
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/007-first-light/webb-industries/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0.34885,
+              -1.28777
+            ],
+            [
+              1.04455,
+              -0.2265
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "works-and-arts-museum",
+      "name": "Works & Arts Museum",
+      "dlc": "base",
+      "pinsCount": 505,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#08080C",
+      "initialCenter": [
+        0.55912618856706,
+        -0.83148057777962
+      ],
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          0.33083,
+          -1.31351
+        ],
+        [
+          0.97639,
+          -0.10934
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v2",
+          "label": "V2",
+          "urlTemplate": "https://tiles.mapgenie.io/games/007-first-light/works-and-arts-museum/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0.33083,
+              -1.31351
+            ],
+            [
+              0.97639,
+              -0.10934
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "points-of-interest",
+      "label": "Points of Interest",
+      "categories": [
+        {
+          "id": "challenge",
+          "groupId": "points-of-interest",
+          "name": "Challenge",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "disguise",
+          "groupId": "points-of-interest",
+          "name": "Disguise",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "hint",
+          "groupId": "points-of-interest",
+          "name": "Hint",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "key",
+          "groupId": "points-of-interest",
+          "name": "Key",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "location",
+          "groupId": "points-of-interest",
+          "name": "Location",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "locked-door",
+          "groupId": "points-of-interest",
+          "name": "Locked Door",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "sabotage",
+          "groupId": "points-of-interest",
+          "name": "Sabotage",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "security-check",
+          "groupId": "points-of-interest",
+          "name": "Security Check",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "security-camera",
+          "groupId": "points-of-interest",
+          "name": "Security Camera",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "legacy-item",
+          "groupId": "collectibles",
+          "name": "Legacy Item",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "memento",
+          "groupId": "collectibles",
+          "name": "Memento",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "playing-card",
+          "groupId": "collectibles",
+          "name": "Playing Card",
+          "icon": "gem",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "postcard",
+          "groupId": "collectibles",
+          "name": "Postcard",
+          "icon": "gem",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "intel",
+          "groupId": "collectibles",
+          "name": "Intel",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "weapons-tools",
+      "label": "Weapons & Tools",
+      "categories": [
+        {
+          "id": "battery",
+          "groupId": "weapons-tools",
+          "name": "Battery",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "chemical",
+          "groupId": "weapons-tools",
+          "name": "Chemical",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "lighter",
+          "groupId": "weapons-tools",
+          "name": "Lighter",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "object-toss",
+          "groupId": "weapons-tools",
+          "name": "Object Toss",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "firearm",
+          "groupId": "weapons-tools",
+          "name": "Firearm",
+          "icon": "shopping-bag",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "navigation",
+      "label": "Navigation",
+      "categories": [
+        {
+          "id": "passage",
+          "groupId": "navigation",
+          "name": "Passage",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "stairs",
+          "groupId": "navigation",
+          "name": "Stairs",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "vertical-traversal",
+          "groupId": "navigation",
+          "name": "Vertical Traversal",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "easter-egg",
+          "groupId": "other",
+          "name": "Easter Egg",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 1983
+}

@@ -1,0 +1,453 @@
+{
+  "id": "game-call-of-duty-vanguard",
+  "slug": "call-of-duty-vanguard",
+  "title": "Call of Duty: Vanguard",
+  "subtitle": "Zombies — Der Anfang, Terra Maledicta, Shi No Numa & The Archon",
+  "studio": "Sledgehammer Games / Treyarch",
+  "releaseYear": 2021,
+  "genres": [
+    "FPS",
+    "Ação",
+    "Zombies"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/call-of-duty-vanguard/cover.webp",
+    "bannerImage": "/games/call-of-duty-vanguard/banner.webp",
+    "logoImage": "/games/call-of-duty-vanguard/logo.webp"
+  },
+  "theme": {
+    "accentPrimary": "#DC2626",
+    "accentSecondary": "#F59E0B",
+    "accentGlow": "rgba(220, 38, 38, 0.38)",
+    "glassTint": "rgba(22, 10, 10, 0.82)",
+    "surfaceBase": "#0D0606",
+    "fontDisplay": "'Rajdhani', sans-serif",
+    "backgroundPattern": "tactical-grid",
+    "badgeStyle": "chamfered"
+  },
+  "maps": [
+    {
+      "id": "zombies-der-anfang",
+      "name": "Zombies: Der Anfang",
+      "dlc": "base",
+      "pinsCount": 72,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0D0606",
+      "initialCenter": [
+        0.69049534923516,
+        -0.77408383533736
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          -0.08649,
+          -1.01787
+        ],
+        [
+          1.16768,
+          0.0754
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default-v1",
+          "label": "default-v1",
+          "urlTemplate": "https://tiles.mapgenie.io/games/call-of-duty-vanguard/zombies-der-anfang/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zombies-shi-no-numa",
+      "name": "Zombies: Shi No Numa",
+      "dlc": "base",
+      "pinsCount": 124,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0D0606",
+      "initialCenter": [
+        0.69855483152632,
+        -0.78382648316631
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          -0.06943,
+          -0.91171
+        ],
+        [
+          0.93731,
+          0.06753
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default-v1",
+          "label": "default-v1",
+          "urlTemplate": "https://tiles.mapgenie.io/games/call-of-duty-vanguard/zombies-shi-no-numa/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zombies-terra-maledicta",
+      "name": "Zombies: Terra Maledicta",
+      "dlc": "base",
+      "pinsCount": 122,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0D0606",
+      "initialCenter": [
+        0.70049888537307,
+        -0.77544231279808
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          -0.06732,
+          -0.96279
+        ],
+        [
+          0.90882,
+          0.07132
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default-v1",
+          "label": "default-v1",
+          "urlTemplate": "https://tiles.mapgenie.io/games/call-of-duty-vanguard/zombies-terra-maledicta/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zombies-the-archon",
+      "name": "Zombies: The Archon",
+      "dlc": "base",
+      "pinsCount": 189,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0D0606",
+      "initialCenter": [
+        0.73102283966253,
+        -0.82122799198237
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          -0.06644,
+          -0.95144
+        ],
+        [
+          0.89698,
+          0.07048
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default-v1",
+          "label": "default-v1",
+          "urlTemplate": "https://tiles.mapgenie.io/games/call-of-duty-vanguard/zombies-the-archon/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "challenge-portal",
+          "groupId": "locations",
+          "name": "Challenge Portal",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "crafting-table",
+          "groupId": "locations",
+          "name": "Crafting Table",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": false
+        },
+        {
+          "id": "exfil",
+          "groupId": "locations",
+          "name": "Exfil",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "rampage-inducer",
+          "groupId": "locations",
+          "name": "Rampage Inducer",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "trap",
+          "groupId": "locations",
+          "name": "Trap",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "workbench",
+          "groupId": "locations",
+          "name": "Workbench",
+          "icon": "bookmark",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "fast-travel",
+          "groupId": "locations",
+          "name": "Fast Travel",
+          "icon": "navigation",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "power-door",
+          "groupId": "locations",
+          "name": "Power Door",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "purchasables",
+      "label": "Purchasables",
+      "categories": [
+        {
+          "id": "altar-of-covenant",
+          "groupId": "purchasables",
+          "name": "Altar of Covenant",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "ammo-cache",
+          "groupId": "purchasables",
+          "name": "Ammo Cache",
+          "icon": "shopping-bag",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "mystery-box",
+          "groupId": "purchasables",
+          "name": "Mystery Box",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "pack-a-punch",
+          "groupId": "purchasables",
+          "name": "Pack-A-Punch",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "perk-fountain",
+          "groupId": "purchasables",
+          "name": "Perk Fountain",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "tome-of-rituals",
+          "groupId": "purchasables",
+          "name": "Tome of Rituals",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "door-buy",
+          "groupId": "purchasables",
+          "name": "Door Buy",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "weapon-wall-buy",
+          "groupId": "purchasables",
+          "name": "Weapon Wall Buy",
+          "icon": "shopping-bag",
+          "color": "#34D399",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "intel",
+      "label": "Intel",
+      "categories": [
+        {
+          "id": "radio",
+          "groupId": "intel",
+          "name": "Radio",
+          "icon": "radio",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "ancient-tablet",
+          "groupId": "intel",
+          "name": "Ancient Tablet",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "aether-crystal",
+          "groupId": "other",
+          "name": "Aether Crystal",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "power-switch",
+          "groupId": "other",
+          "name": "Power Switch",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "zipline-ascender",
+          "groupId": "other",
+          "name": "Zipline/Ascender",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "dig-spot",
+          "groupId": "other",
+          "name": "Dig Spot",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "shovel",
+          "groupId": "other",
+          "name": "Shovel",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "easter-eggs",
+      "label": "Easter Eggs",
+      "categories": [
+        {
+          "id": "easter-egg",
+          "groupId": "easter-eggs",
+          "name": "Easter Egg",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "easter-egg-item",
+          "groupId": "easter-eggs",
+          "name": "Easter Egg Item",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "easter-egg-location",
+          "groupId": "easter-eggs",
+          "name": "Easter Egg Location",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 507
+}

@@ -1,0 +1,760 @@
+{
+  "id": "game-assassins-creed-black-flag-resynced",
+  "slug": "assassins-creed-black-flag-resynced",
+  "title": "Assassin's Creed: Black Flag Resynced",
+  "subtitle": "Mar do Caribe — Shanties, Naufrágios & Fragmentos do Animus",
+  "studio": "Ubisoft Singapore",
+  "releaseYear": 2026,
+  "genres": [
+    "Ação",
+    "Aventura",
+    "Mundo Aberto"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/assassins-creed-black-flag-resynced/cover.webp",
+    "bannerImage": "/games/assassins-creed-black-flag-resynced/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#06B6D4",
+    "accentSecondary": "#EAB308",
+    "accentGlow": "rgba(6, 182, 212, 0.40)",
+    "glassTint": "rgba(8, 18, 24, 0.82)",
+    "surfaceBase": "#050C12",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "caribbean-sea",
+      "name": "Caribbean Sea",
+      "dlc": "base",
+      "pinsCount": 1526,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#050C12",
+      "initialCenter": [
+        0.79450580843083,
+        -0.94632776516303
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          -0.10963,
+          -1.51544
+        ],
+        [
+          1.47999,
+          0.12777
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v5",
+          "label": "v5",
+          "urlTemplate": "https://tiles.mapgenie.io/games/assassins-creed-black-flag-resynced/caribbean-sea/v5/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 17,
+          "maxZoom": 18,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "camp",
+          "groupId": "locations",
+          "name": "Camp",
+          "icon": "bookmark",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "cave",
+          "groupId": "locations",
+          "name": "Cave",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "city",
+          "groupId": "locations",
+          "name": "City",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "cove-upgrade",
+          "groupId": "locations",
+          "name": "Cove Upgrade",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "fort",
+          "groupId": "locations",
+          "name": "Fort",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "jungle",
+          "groupId": "locations",
+          "name": "Jungle",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "minigame",
+          "groupId": "locations",
+          "name": "Minigame",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "plantation",
+          "groupId": "locations",
+          "name": "Plantation",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "ruins",
+          "groupId": "locations",
+          "name": "Ruins",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "treasure-dealer",
+          "groupId": "locations",
+          "name": "Treasure Dealer",
+          "icon": "gem",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "underwater-shipwreck",
+          "groupId": "locations",
+          "name": "Underwater Shipwreck",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "viewpoint",
+          "groupId": "locations",
+          "name": "Viewpoint",
+          "icon": "landmark",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "warehouse",
+          "groupId": "locations",
+          "name": "Warehouse",
+          "icon": "bookmark",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "shops",
+      "label": "Shops",
+      "categories": [
+        {
+          "id": "general-store",
+          "groupId": "shops",
+          "name": "General Store",
+          "icon": "shopping-bag",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "harbourmaster",
+          "groupId": "shops",
+          "name": "Harbourmaster",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "tavern",
+          "groupId": "shops",
+          "name": "Tavern",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "art-piece",
+          "groupId": "collectibles",
+          "name": "Art Piece",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "buried-chest",
+          "groupId": "collectibles",
+          "name": "Buried Chest",
+          "icon": "gem",
+          "color": "#FB7185",
+          "defaultVisible": false
+        },
+        {
+          "id": "chest",
+          "groupId": "collectibles",
+          "name": "Chest",
+          "icon": "gem",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "codex-entry",
+          "groupId": "collectibles",
+          "name": "Codex Entry",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "design-plan",
+          "groupId": "collectibles",
+          "name": "Design Plan",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "letter",
+          "groupId": "collectibles",
+          "name": "Letter",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "manuscript",
+          "groupId": "collectibles",
+          "name": "Manuscript",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "mayan-stela",
+          "groupId": "collectibles",
+          "name": "Mayan Stela",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "painting",
+          "groupId": "collectibles",
+          "name": "Painting",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "pet",
+          "groupId": "collectibles",
+          "name": "Pet",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "portrait",
+          "groupId": "collectibles",
+          "name": "Portrait",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "shanty",
+          "groupId": "collectibles",
+          "name": "Shanty",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "ship-model",
+          "groupId": "collectibles",
+          "name": "Ship Model",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "special-chest",
+          "groupId": "collectibles",
+          "name": "Special Chest",
+          "icon": "gem",
+          "color": "#FB7185",
+          "defaultVisible": false
+        },
+        {
+          "id": "treasure-map",
+          "groupId": "collectibles",
+          "name": "Treasure Map",
+          "icon": "gem",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "vault-entry",
+          "groupId": "collectibles",
+          "name": "Vault Entry",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "equipment",
+      "label": "Equipment",
+      "categories": [
+        {
+          "id": "equipment-upgrade",
+          "groupId": "equipment",
+          "name": "Equipment Upgrade",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "outfit",
+          "groupId": "equipment",
+          "name": "Outfit",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "pistol",
+          "groupId": "equipment",
+          "name": "Pistol",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "ship-upgrade",
+          "groupId": "equipment",
+          "name": "Ship Upgrade",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "ship-vanity",
+          "groupId": "equipment",
+          "name": "Ship Vanity",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "sword",
+          "groupId": "equipment",
+          "name": "Sword",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "trinket",
+          "groupId": "equipment",
+          "name": "Trinket",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "a-world-without-gold",
+          "groupId": "quests",
+          "name": "A World Without Gold",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "assassin-contract",
+          "groupId": "quests",
+          "name": "Assassin Contract",
+          "icon": "scroll-text",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "local-event",
+          "groupId": "quests",
+          "name": "Local Event",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "main-quest",
+          "groupId": "quests",
+          "name": "Main Quest",
+          "icon": "scroll-text",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "naval-contract",
+          "groupId": "quests",
+          "name": "Naval Contract",
+          "icon": "scroll-text",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "officer-quest",
+          "groupId": "quests",
+          "name": "Officer Quest",
+          "icon": "scroll-text",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "rift",
+          "groupId": "quests",
+          "name": "Rift",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "side-quest",
+          "groupId": "quests",
+          "name": "Side Quest",
+          "icon": "scroll-text",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "templar-hunt",
+          "groupId": "quests",
+          "name": "Templar Hunt",
+          "icon": "skull",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "hunting",
+      "label": "Hunting",
+      "categories": [
+        {
+          "id": "black-jaguar",
+          "groupId": "hunting",
+          "name": "Black Jaguar",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "capuchin-monkey",
+          "groupId": "hunting",
+          "name": "Capuchin Monkey",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "crocodile",
+          "groupId": "hunting",
+          "name": "Crocodile",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "deer",
+          "groupId": "hunting",
+          "name": "Deer",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "howler-monkey",
+          "groupId": "hunting",
+          "name": "Howler Monkey",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "hutia",
+          "groupId": "hunting",
+          "name": "Hutia",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "iguana",
+          "groupId": "hunting",
+          "name": "Iguana",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "jaguar",
+          "groupId": "hunting",
+          "name": "Jaguar",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "ocelot",
+          "groupId": "hunting",
+          "name": "Ocelot",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "rabbit",
+          "groupId": "hunting",
+          "name": "Rabbit",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "red-howler-monkey",
+          "groupId": "hunting",
+          "name": "Red Howler Monkey",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "white-jaguar",
+          "groupId": "hunting",
+          "name": "White Jaguar",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "wild-pig",
+          "groupId": "hunting",
+          "name": "Wild Pig",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "harpooning",
+      "label": "Harpooning",
+      "categories": [
+        {
+          "id": "bull-shark",
+          "groupId": "harpooning",
+          "name": "Bull Shark",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "great-white-shark",
+          "groupId": "harpooning",
+          "name": "Great White Shark",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "hammerhead-shark",
+          "groupId": "harpooning",
+          "name": "Hammerhead Shark",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "humpback-whale",
+          "groupId": "harpooning",
+          "name": "Humpback Whale",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "killer-whale",
+          "groupId": "harpooning",
+          "name": "Killer Whale",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "naval-exploration",
+      "label": "Naval Exploration",
+      "categories": [
+        {
+          "id": "air-barrel",
+          "groupId": "naval-exploration",
+          "name": "Air Barrel",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "air-pocket",
+          "groupId": "naval-exploration",
+          "name": "Air Pocket",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "legendary-ship",
+          "groupId": "naval-exploration",
+          "name": "Legendary Ship",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "burning-ship",
+          "groupId": "naval-exploration",
+          "name": "Burning Ship",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "alarm-bell",
+          "groupId": "other",
+          "name": "Alarm Bell",
+          "icon": "shopping-bag",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "animus-keys",
+          "groupId": "other",
+          "name": "Animus Keys",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "easter-egg",
+          "groupId": "other",
+          "name": "Easter Egg",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "kenway-s-fleet-mission",
+          "groupId": "other",
+          "name": "Kenway's Fleet Mission",
+          "icon": "scroll-text",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "local-officer",
+          "groupId": "other",
+          "name": "Local Officer",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "note",
+          "groupId": "other",
+          "name": "Note",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "rowboat",
+          "groupId": "other",
+          "name": "Rowboat",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 1526
+}

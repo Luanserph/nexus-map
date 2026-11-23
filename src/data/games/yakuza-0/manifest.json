@@ -1,0 +1,413 @@
+{
+  "id": "game-yakuza-0",
+  "slug": "yakuza-0",
+  "title": "Yakuza 0 Director's Cut",
+  "subtitle": "Kamurocho & Sotenbori — Substories, Locker Keys & Telefones",
+  "studio": "Ryu Ga Gotoku Studio",
+  "releaseYear": 2025,
+  "genres": [
+    "Ação",
+    "Aventura",
+    "Beat em Up"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox",
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/yakuza-0/cover.webp",
+    "bannerImage": "/games/yakuza-0/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#F43F5E",
+    "accentSecondary": "#FACC15",
+    "accentGlow": "rgba(244, 63, 94, 0.40)",
+    "glassTint": "rgba(22, 10, 14, 0.82)",
+    "surfaceBase": "#0E0608",
+    "fontDisplay": "'Rajdhani', sans-serif",
+    "backgroundPattern": "cyber-grid",
+    "badgeStyle": "chamfered"
+  },
+  "maps": [
+    {
+      "id": "kamurocho",
+      "name": "Kamurocho",
+      "dlc": "base",
+      "pinsCount": 234,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0E0608",
+      "initialCenter": [
+        0.68776090889891,
+        -0.77205928771548
+      ],
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          0.176,
+          -1.08605
+        ],
+        [
+          1.16832,
+          -0.19349
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "kamurocho",
+          "label": "kamurocho",
+          "urlTemplate": "https://tiles.mapgenie.io/games/yakuza-0/kamurocho/kamurocho/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sotenbori",
+      "name": "Sotenbori",
+      "dlc": "base",
+      "pinsCount": 199,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0E0608",
+      "initialCenter": [
+        0.723098065418,
+        -0.87609018455649
+      ],
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          0.3219,
+          -1.17033
+        ],
+        [
+          1.05176,
+          -0.17963
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "sotenbori",
+          "label": "sotenbori",
+          "urlTemplate": "https://tiles.mapgenie.io/games/yakuza-0/sotenbori/sotenbori/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "fishing-spot",
+          "groupId": "locations",
+          "name": "Fishing Spot",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "minigame",
+          "groupId": "locations",
+          "name": "Minigame",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "general-store",
+          "groupId": "locations",
+          "name": "General Store",
+          "icon": "shopping-bag",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "telephone",
+          "groupId": "locations",
+          "name": "Telephone",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "restaurant",
+          "groupId": "locations",
+          "name": "Restaurant",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "taxi",
+          "groupId": "locations",
+          "name": "Taxi",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "point-of-interest",
+          "groupId": "locations",
+          "name": "Point of Interest",
+          "icon": "landmark",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "gear-store",
+          "groupId": "locations",
+          "name": "Gear Store",
+          "icon": "shopping-bag",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "substories",
+      "label": "Substories",
+      "categories": [
+        {
+          "id": "chapter-2",
+          "groupId": "substories",
+          "name": "Chapter 2",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "chapter-5",
+          "groupId": "substories",
+          "name": "Chapter 5",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "chapter-6",
+          "groupId": "substories",
+          "name": "Chapter 6",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "chapter-10",
+          "groupId": "substories",
+          "name": "Chapter 10",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "endgame",
+          "groupId": "substories",
+          "name": "Endgame",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "chapter-3",
+          "groupId": "substories",
+          "name": "Chapter 3",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "chapter-4",
+          "groupId": "substories",
+          "name": "Chapter 4",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "chapter-7",
+          "groupId": "substories",
+          "name": "Chapter 7",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "chapter-8",
+          "groupId": "substories",
+          "name": "Chapter 8",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "real-estate",
+      "label": "Real Estate",
+      "categories": [
+        {
+          "id": "leisure-king",
+          "groupId": "real-estate",
+          "name": "Leisure King",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "electronics-king",
+          "groupId": "real-estate",
+          "name": "Electronics King",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "pleasure-king",
+          "groupId": "real-estate",
+          "name": "Pleasure King",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "gambling-king",
+          "groupId": "real-estate",
+          "name": "Gambling King",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "media-king",
+          "groupId": "real-estate",
+          "name": "Media King",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "telephone-card",
+          "groupId": "other",
+          "name": "Telephone Card",
+          "icon": "gem",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "mr-shakedown",
+          "groupId": "other",
+          "name": "Mr Shakedown",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "dream-machine",
+          "groupId": "other",
+          "name": "Dream Machine",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "cabaret",
+      "label": "Cabaret",
+      "categories": [
+        {
+          "id": "hostess",
+          "groupId": "cabaret",
+          "name": "Hostess",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "club-mars",
+          "groupId": "cabaret",
+          "name": "Club Mars",
+          "icon": "sparkles",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "club-mercury",
+          "groupId": "cabaret",
+          "name": "Club Mercury",
+          "icon": "sparkles",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "club-jupiter",
+          "groupId": "cabaret",
+          "name": "Club Jupiter",
+          "icon": "sparkles",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "club-moon",
+          "groupId": "cabaret",
+          "name": "Club Moon",
+          "icon": "sparkles",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "club-venus",
+          "groupId": "cabaret",
+          "name": "Club Venus",
+          "icon": "sparkles",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 433
+}

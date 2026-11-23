@@ -1,0 +1,713 @@
+{
+  "id": "game-metal-gear-solid-5-the-phantom-pain",
+  "slug": "metal-gear-solid-5-the-phantom-pain",
+  "title": "Metal Gear Solid V: The Phantom Pain",
+  "subtitle": "Afeganistão & África — Postos, Blueprints, Fitas & Diamantes",
+  "studio": "Kojima Productions / Konami",
+  "releaseYear": 2015,
+  "genres": [
+    "Stealth",
+    "Ação",
+    "Mundo Aberto"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/metal-gear-solid-5-the-phantom-pain/cover.webp",
+    "bannerImage": "/games/metal-gear-solid-5-the-phantom-pain/banner.webp",
+    "logoImage": "/games/metal-gear-solid-5-the-phantom-pain/logo.webp"
+  },
+  "theme": {
+    "accentPrimary": "#F59E0B",
+    "accentSecondary": "#EF4444",
+    "accentGlow": "rgba(245, 158, 11, 0.38)",
+    "glassTint": "rgba(20, 15, 10, 0.84)",
+    "surfaceBase": "#0C0906",
+    "fontDisplay": "'Rajdhani', sans-serif",
+    "backgroundPattern": "tactical-grid",
+    "badgeStyle": "chamfered"
+  },
+  "maps": [
+    {
+      "id": "afghanistan",
+      "name": "Afeganistão",
+      "dlc": "base",
+      "pinsCount": 258,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0C0906",
+      "initialCenter": [
+        0.68451040459227,
+        -0.76323408195758
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          0.47345,
+          -0.91672
+        ],
+        [
+          1.0127,
+          -0.42103
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "tactical",
+          "label": "Tactical",
+          "urlTemplate": "https://tiles.mapgenie.io/games/metal-gear-solid-5-the-phantom-pain/afghanistan/tactical-v1/{z}/{x}/{y}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "satellite",
+          "label": "Satellite",
+          "urlTemplate": "https://tiles.mapgenie.io/games/metal-gear-solid-5-the-phantom-pain/afghanistan/satellite-v1/{z}/{x}/{y}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "africa",
+      "name": "África",
+      "dlc": "base",
+      "pinsCount": 230,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0C0906",
+      "initialCenter": [
+        0.70804075598661,
+        -0.8050030533438
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.52176,
+          -0.91715
+        ],
+        [
+          0.88905,
+          -0.41509
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "tactical",
+          "label": "Tactical",
+          "urlTemplate": "https://tiles.mapgenie.io/games/metal-gear-solid-5-the-phantom-pain/africa/tactical-v1/{z}/{x}/{y}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "satellite",
+          "label": "Satellite",
+          "urlTemplate": "https://tiles.mapgenie.io/games/metal-gear-solid-5-the-phantom-pain/africa/satellite-v1/{z}/{x}/{y}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "delivery-point",
+          "groupId": "locations",
+          "name": "Delivery Point",
+          "icon": "landmark",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "guard-post",
+          "groupId": "locations",
+          "name": "Guard Post",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "outpost",
+          "groupId": "locations",
+          "name": "Outpost",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "landing-zone",
+          "groupId": "locations",
+          "name": "Landing Zone",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "blueprint",
+          "groupId": "collectibles",
+          "name": "Blueprint",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "cassette-tape",
+          "groupId": "collectibles",
+          "name": "Cassette Tape",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "poster",
+          "groupId": "collectibles",
+          "name": "Poster",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "shipping-containers",
+      "label": "Shipping Containers",
+      "categories": [
+        {
+          "id": "biological-material",
+          "groupId": "shipping-containers",
+          "name": "Biological Material",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "biological-material-red",
+          "groupId": "shipping-containers",
+          "name": "Biological Material (Red)",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "common-metal",
+          "groupId": "shipping-containers",
+          "name": "Common Metal",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "common-metal-red",
+          "groupId": "shipping-containers",
+          "name": "Common Metal (Red)",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "fuel-resources",
+          "groupId": "shipping-containers",
+          "name": "Fuel Resources",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "fuel-resources-red",
+          "groupId": "shipping-containers",
+          "name": "Fuel Resources (Red)",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "minor-metal",
+          "groupId": "shipping-containers",
+          "name": "Minor Metal",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "minor-metal-red",
+          "groupId": "shipping-containers",
+          "name": "Minor Metal (Red)",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "precious-metal",
+          "groupId": "shipping-containers",
+          "name": "Precious Metal",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "precious-metal-red",
+          "groupId": "shipping-containers",
+          "name": "Precious Metal (Red)",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "wild-animals",
+      "label": "Wild Animals",
+      "categories": [
+        {
+          "id": "afghan-pika",
+          "groupId": "wild-animals",
+          "name": "Afghan Pika",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "bechstein-s-bat",
+          "groupId": "wild-animals",
+          "name": "Bechstein's Bat",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "black-stork",
+          "groupId": "wild-animals",
+          "name": "Black Stork",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "blanford-s-fox",
+          "groupId": "wild-animals",
+          "name": "Blanford's Fox",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "brown-bear",
+          "groupId": "wild-animals",
+          "name": "Brown Bear",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "caracal",
+          "groupId": "wild-animals",
+          "name": "Caracal",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "cashmere-goat",
+          "groupId": "wild-animals",
+          "name": "Cashmere Goat",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "common-raven",
+          "groupId": "wild-animals",
+          "name": "Common Raven",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "deathstalker",
+          "groupId": "wild-animals",
+          "name": "Deathstalker",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "gerbil",
+          "groupId": "wild-animals",
+          "name": "Gerbil",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "gray-wolf",
+          "groupId": "wild-animals",
+          "name": "Gray Wolf",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "griffon-vulture",
+          "groupId": "wild-animals",
+          "name": "Griffon Vulture",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "himalayan-brown-bear",
+          "groupId": "wild-animals",
+          "name": "Himalayan Brown Bear",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "honey-badger",
+          "groupId": "wild-animals",
+          "name": "Honey Badger",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "karakul-sheep",
+          "groupId": "wild-animals",
+          "name": "Karakul Sheep",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "leopard-gecko",
+          "groupId": "wild-animals",
+          "name": "Leopard Gecko",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "long-eared-hedgehog",
+          "groupId": "wild-animals",
+          "name": "Long-eared Hedgehog",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "oriental-ratsnake",
+          "groupId": "wild-animals",
+          "name": "Oriental Ratsnake",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "oriental-stork",
+          "groupId": "wild-animals",
+          "name": "Oriental Stork",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "red-fox",
+          "groupId": "wild-animals",
+          "name": "Red Fox",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "russian-tortoise",
+          "groupId": "wild-animals",
+          "name": "Russian Tortoise",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "sand-cat",
+          "groupId": "wild-animals",
+          "name": "Sand Cat",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "wild-ass",
+          "groupId": "wild-animals",
+          "name": "Wild Ass",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "african-bullfrog",
+          "groupId": "wild-animals",
+          "name": "African Bullfrog",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "african-civet",
+          "groupId": "wild-animals",
+          "name": "African Civet",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "african-fat-tailed-gecko",
+          "groupId": "wild-animals",
+          "name": "African Fat-Tailed Gecko",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "african-wild-dog",
+          "groupId": "wild-animals",
+          "name": "African Wild Dog",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "anubis",
+          "groupId": "wild-animals",
+          "name": "Anubis",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "black-mamba",
+          "groupId": "wild-animals",
+          "name": "Black Mamba",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "boer-goat",
+          "groupId": "wild-animals",
+          "name": "Boer Goat",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "emperor-scorpion",
+          "groupId": "wild-animals",
+          "name": "Emperor Scorpion",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "four-toed-hedgehog",
+          "groupId": "wild-animals",
+          "name": "Four-toed hedgehog",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "grant-s-zebra",
+          "groupId": "wild-animals",
+          "name": "Grant's Zebra",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "jehuty",
+          "groupId": "wild-animals",
+          "name": "Jehuty",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "lappet-faced-vulture",
+          "groupId": "wild-animals",
+          "name": "Lappet-faced Vulture",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "leopard-tortoise",
+          "groupId": "wild-animals",
+          "name": "Leopard Tortoise",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "marsh-mongoose",
+          "groupId": "wild-animals",
+          "name": "Marsh Mongoose",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "martial-eagle",
+          "groupId": "wild-animals",
+          "name": "Martial Eagle",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "namaqua-chameleon",
+          "groupId": "wild-animals",
+          "name": "Namaqua Chameleon",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "nubian",
+          "groupId": "wild-animals",
+          "name": "Nubian",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "okapi",
+          "groupId": "wild-animals",
+          "name": "Okapi",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "rainbow-agama",
+          "groupId": "wild-animals",
+          "name": "Rainbow Agama",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "rock-hyrax",
+          "groupId": "wild-animals",
+          "name": "Rock Hyrax",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "side-striped-jackal",
+          "groupId": "wild-animals",
+          "name": "Side-striped Jackal",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "tree-pangolin",
+          "groupId": "wild-animals",
+          "name": "Tree Pangolin",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "trumpeter-hornbill",
+          "groupId": "wild-animals",
+          "name": "Trumpeter Hornbill",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "tsuchinoko",
+          "groupId": "wild-animals",
+          "name": "Tsuchinoko",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "rough-diamonds",
+          "groupId": "other",
+          "name": "Rough Diamonds",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 488
+}

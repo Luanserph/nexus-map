@@ -418,5 +418,355 @@
     "name": "Shanaoh Castle",
     "dlc": "base",
     "url": "https://mapgenie.io/onimusha-way-of-the-sword/maps/shanaoh-castle"
+  },
+  {
+    "gameSlug": "croc-legend-of-gobbos",
+    "mapSlug": "forest-island",
+    "name": "Forest Island",
+    "dlc": "base",
+    "url": "https://mapgenie.io/croc-legend-of-gobbos/maps/forest-island"
+  },
+  {
+    "gameSlug": "croc-legend-of-gobbos",
+    "mapSlug": "ice-island",
+    "name": "Ice Island",
+    "dlc": "base",
+    "url": "https://mapgenie.io/croc-legend-of-gobbos/maps/ice-island"
+  },
+  {
+    "gameSlug": "croc-legend-of-gobbos",
+    "mapSlug": "desert-island",
+    "name": "Desert Island",
+    "dlc": "base",
+    "url": "https://mapgenie.io/croc-legend-of-gobbos/maps/desert-island"
+  },
+  {
+    "gameSlug": "croc-legend-of-gobbos",
+    "mapSlug": "castle-island",
+    "name": "Castle Island",
+    "dlc": "base",
+    "url": "https://mapgenie.io/croc-legend-of-gobbos/maps/castle-island"
+  },
+  {
+    "gameSlug": "croc-legend-of-gobbos",
+    "mapSlug": "crystal-island",
+    "name": "Crystal Island",
+    "dlc": "base",
+    "url": "https://mapgenie.io/croc-legend-of-gobbos/maps/crystal-island"
+  },
+  {
+    "gameSlug": "call-of-duty-vanguard",
+    "mapSlug": "zombies-der-anfang",
+    "name": "Zombies: Der Anfang",
+    "dlc": "base",
+    "url": "https://mapgenie.io/call-of-duty-vanguard/maps/zombies-der-anfang"
+  },
+  {
+    "gameSlug": "call-of-duty-vanguard",
+    "mapSlug": "zombies-terra-maledicta",
+    "name": "Zombies: Terra Maledicta",
+    "dlc": "base",
+    "url": "https://mapgenie.io/call-of-duty-vanguard/maps/zombies-terra-maledicta"
+  },
+  {
+    "gameSlug": "call-of-duty-vanguard",
+    "mapSlug": "zombies-shi-no-numa",
+    "name": "Zombies: Shi No Numa",
+    "dlc": "base",
+    "url": "https://mapgenie.io/call-of-duty-vanguard/maps/zombies-shi-no-numa"
+  },
+  {
+    "gameSlug": "call-of-duty-vanguard",
+    "mapSlug": "zombies-the-archon",
+    "name": "Zombies: The Archon",
+    "dlc": "base",
+    "url": "https://mapgenie.io/call-of-duty-vanguard/maps/zombies-the-archon"
+  },
+  {
+    "gameSlug": "big-walk",
+    "mapSlug": "island",
+    "name": "The Island",
+    "dlc": "base",
+    "url": "https://mapgenie.io/big-walk/maps/island"
+  },
+  {
+    "gameSlug": "beast-of-reincarnation",
+    "mapSlug": "ogouchi-buffer-zone",
+    "name": "Ogouchi Buffer Zone",
+    "dlc": "base",
+    "url": "https://mapgenie.io/beast-of-reincarnation/maps/ogouchi-buffer-zone"
+  },
+  {
+    "gameSlug": "beast-of-reincarnation",
+    "mapSlug": "ancient-civilization-zone",
+    "name": "Ancient Civilization Zone",
+    "dlc": "base",
+    "url": "https://mapgenie.io/beast-of-reincarnation/maps/ancient-civilization-zone"
+  },
+  {
+    "gameSlug": "beast-of-reincarnation",
+    "mapSlug": "the-great-wall-terraces",
+    "name": "The Great Wall Terraces",
+    "dlc": "base",
+    "url": "https://mapgenie.io/beast-of-reincarnation/maps/the-great-wall-terraces"
+  },
+  {
+    "gameSlug": "beast-of-reincarnation",
+    "mapSlug": "pilgrims-zone",
+    "name": "Pilgrims Zone",
+    "dlc": "base",
+    "url": "https://mapgenie.io/beast-of-reincarnation/maps/pilgrims-zone"
+  },
+  {
+    "gameSlug": "beast-of-reincarnation",
+    "mapSlug": "matsukawa-zone",
+    "name": "Matsukawa Zone",
+    "dlc": "base",
+    "url": "https://mapgenie.io/beast-of-reincarnation/maps/matsukawa-zone"
+  },
+  {
+    "gameSlug": "beast-of-reincarnation",
+    "mapSlug": "fuji-frontier-zone",
+    "name": "Fuji Frontier Zone",
+    "dlc": "base",
+    "url": "https://mapgenie.io/beast-of-reincarnation/maps/fuji-frontier-zone"
+  },
+  {
+    "gameSlug": "beast-of-reincarnation",
+    "mapSlug": "giant-tree-zone",
+    "name": "Giant Tree Zone",
+    "dlc": "base",
+    "url": "https://mapgenie.io/beast-of-reincarnation/maps/giant-tree-zone"
+  },
+  {
+    "gameSlug": "beast-of-reincarnation",
+    "mapSlug": "crater-zone",
+    "name": "Crater Zone",
+    "dlc": "base",
+    "url": "https://mapgenie.io/beast-of-reincarnation/maps/crater-zone"
+  },
+  {
+    "gameSlug": "beast-of-reincarnation",
+    "mapSlug": "inukami-river-zone",
+    "name": "Inukami River Zone",
+    "dlc": "base",
+    "url": "https://mapgenie.io/beast-of-reincarnation/maps/inukami-river-zone"
+  },
+  {
+    "gameSlug": "beast-of-reincarnation",
+    "mapSlug": "starfall-tower",
+    "name": "Starfall Tower",
+    "dlc": "base",
+    "url": "https://mapgenie.io/beast-of-reincarnation/maps/starfall-tower"
+  },
+  {
+    "gameSlug": "beast-of-reincarnation",
+    "mapSlug": "mount-hiei-zone",
+    "name": "Mount Hiei Zone",
+    "dlc": "base",
+    "url": "https://mapgenie.io/beast-of-reincarnation/maps/mount-hiei-zone"
+  },
+  {
+    "gameSlug": "beast-of-reincarnation",
+    "mapSlug": "the-capital",
+    "name": "The Capital",
+    "dlc": "base",
+    "url": "https://mapgenie.io/beast-of-reincarnation/maps/the-capital"
+  },
+  {
+    "gameSlug": "beast-of-reincarnation",
+    "mapSlug": "zone19",
+    "name": "Zone 19",
+    "dlc": "base",
+    "url": "https://mapgenie.io/beast-of-reincarnation/maps/zone19"
+  },
+  {
+    "gameSlug": "assassins-creed-black-flag-resynced",
+    "mapSlug": "caribbean-sea",
+    "name": "Caribbean Sea",
+    "dlc": "base",
+    "url": "https://mapgenie.io/assassins-creed-black-flag-resynced/maps/caribbean-sea"
+  },
+  {
+    "gameSlug": "007-first-light",
+    "mapSlug": "iceland",
+    "name": "Iceland",
+    "dlc": "base",
+    "url": "https://mapgenie.io/007-first-light/maps/iceland"
+  },
+  {
+    "gameSlug": "007-first-light",
+    "mapSlug": "malta",
+    "name": "Malta",
+    "dlc": "base",
+    "url": "https://mapgenie.io/007-first-light/maps/malta"
+  },
+  {
+    "gameSlug": "007-first-light",
+    "mapSlug": "london-nightclub",
+    "name": "London Nightclub",
+    "dlc": "base",
+    "url": "https://mapgenie.io/007-first-light/maps/london-nightclub"
+  },
+  {
+    "gameSlug": "007-first-light",
+    "mapSlug": "grand-carpathian-hotel",
+    "name": "Grand Carpathian Hotel",
+    "dlc": "base",
+    "url": "https://mapgenie.io/007-first-light/maps/grand-carpathian-hotel"
+  },
+  {
+    "gameSlug": "007-first-light",
+    "mapSlug": "mauritania",
+    "name": "Mauritania",
+    "dlc": "base",
+    "url": "https://mapgenie.io/007-first-light/maps/mauritania"
+  },
+  {
+    "gameSlug": "007-first-light",
+    "mapSlug": "works-and-arts-museum",
+    "name": "Works & Arts Museum",
+    "dlc": "base",
+    "url": "https://mapgenie.io/007-first-light/maps/works-and-arts-museum"
+  },
+  {
+    "gameSlug": "007-first-light",
+    "mapSlug": "webb-industries",
+    "name": "Webb Industries",
+    "dlc": "base",
+    "url": "https://mapgenie.io/007-first-light/maps/webb-industries"
+  },
+  {
+    "gameSlug": "007-first-light",
+    "mapSlug": "the-pearl",
+    "name": "The Pearl",
+    "dlc": "base",
+    "url": "https://mapgenie.io/007-first-light/maps/the-pearl"
+  },
+  {
+    "gameSlug": "metal-gear-solid-peace-walker",
+    "mapSlug": "costa-rica",
+    "name": "Costa Rica",
+    "dlc": "base",
+    "url": "https://mapgenie.io/metal-gear-solid-peace-walker/maps/costa-rica"
+  },
+  {
+    "gameSlug": "forza-horizon-6",
+    "mapSlug": "japan",
+    "name": "Japão",
+    "dlc": "base",
+    "url": "https://mapgenie.io/forza-horizon-6/maps/japan"
+  },
+  {
+    "gameSlug": "subnautica-2",
+    "mapSlug": "world",
+    "name": "Mundo Subaquático",
+    "dlc": "base",
+    "url": "https://mapgenie.io/subnautica-2/maps/world"
+  },
+  {
+    "gameSlug": "the-adventures-of-elliot",
+    "mapSlug": "age-of-safekeeping",
+    "name": "Age of Safekeeping",
+    "dlc": "base",
+    "url": "https://mapgenie.io/the-adventures-of-elliot/maps/age-of-safekeeping"
+  },
+  {
+    "gameSlug": "the-adventures-of-elliot",
+    "mapSlug": "age-of-reconstruction",
+    "name": "Age of Reconstruction",
+    "dlc": "base",
+    "url": "https://mapgenie.io/the-adventures-of-elliot/maps/age-of-reconstruction"
+  },
+  {
+    "gameSlug": "the-adventures-of-elliot",
+    "mapSlug": "age-of-magic",
+    "name": "Age of Magic",
+    "dlc": "base",
+    "url": "https://mapgenie.io/the-adventures-of-elliot/maps/age-of-magic"
+  },
+  {
+    "gameSlug": "the-adventures-of-elliot",
+    "mapSlug": "age-of-budding",
+    "name": "Age of Budding",
+    "dlc": "base",
+    "url": "https://mapgenie.io/the-adventures-of-elliot/maps/age-of-budding"
+  },
+  {
+    "gameSlug": "mina-the-hollower",
+    "mapSlug": "tenebrous-isle",
+    "name": "Tenebrous Isle",
+    "dlc": "base",
+    "url": "https://mapgenie.io/mina-the-hollower/maps/tenebrous-isle"
+  },
+  {
+    "gameSlug": "metal-gear-solid-5-the-phantom-pain",
+    "mapSlug": "afghanistan",
+    "name": "Afeganistão",
+    "dlc": "base",
+    "url": "https://mapgenie.io/metal-gear-solid-5-the-phantom-pain/maps/afghanistan"
+  },
+  {
+    "gameSlug": "metal-gear-solid-5-the-phantom-pain",
+    "mapSlug": "africa",
+    "name": "África",
+    "dlc": "base",
+    "url": "https://mapgenie.io/metal-gear-solid-5-the-phantom-pain/maps/africa"
+  },
+  {
+    "gameSlug": "goat-simulator-3",
+    "mapSlug": "san-angora",
+    "name": "San Angora",
+    "dlc": "base",
+    "url": "https://mapgenie.io/goat-simulator-3/maps/san-angora"
+  },
+  {
+    "gameSlug": "goat-simulator-3",
+    "mapSlug": "multiverse-of-nonsense",
+    "name": "Multiverse of Nonsense",
+    "dlc": "dlc",
+    "url": "https://mapgenie.io/goat-simulator-3/maps/multiverse-of-nonsense"
+  },
+  {
+    "gameSlug": "goat-simulator-3",
+    "mapSlug": "baadlands-furry-road",
+    "name": "Baadlands: Furry Road",
+    "dlc": "dlc",
+    "url": "https://mapgenie.io/goat-simulator-3/maps/baadlands-furry-road"
+  },
+  {
+    "gameSlug": "goat-simulator-3",
+    "mapSlug": "ticket-to-dizzyworld",
+    "name": "Ticket to Dizzyworld",
+    "dlc": "dlc",
+    "url": "https://mapgenie.io/goat-simulator-3/maps/ticket-to-dizzyworld"
+  },
+  {
+    "gameSlug": "yakuza-0",
+    "mapSlug": "kamurocho",
+    "name": "Kamurocho",
+    "dlc": "base",
+    "url": "https://mapgenie.io/yakuza-0/maps/kamurocho"
+  },
+  {
+    "gameSlug": "yakuza-0",
+    "mapSlug": "sotenbori",
+    "name": "Sotenbori",
+    "dlc": "base",
+    "url": "https://mapgenie.io/yakuza-0/maps/sotenbori"
+  },
+  {
+    "gameSlug": "yakuza-kiwami",
+    "mapSlug": "kamurocho",
+    "name": "Kamurocho",
+    "dlc": "base",
+    "url": "https://mapgenie.io/yakuza-kiwami/maps/kamurocho"
+  },
+  {
+    "gameSlug": "crimson-desert",
+    "mapSlug": "pywel",
+    "name": "Pywel",
+    "dlc": "base",
+    "url": "https://mapgenie.io/crimson-desert/maps/pywel"
   }
 ]

@@ -7,13 +7,13 @@
 
 [![Acessar Web App](https://img.shields.io/badge/🌐_Acessar_Web_App-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://nexus-map-zeta.vercel.app)
 [![Download Windows](https://img.shields.io/badge/⬇️_Download_Windows-Tauri_v2_(.exe)-06B6D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Luanserph/nexus-map/releases/latest)
-[![Versão](https://img.shields.io/badge/Release-v2.1.0-8B5CF6?style=for-the-badge)](https://github.com/Luanserph/nexus-map/releases/tag/v2.1.0)
+[![Versão](https://img.shields.io/badge/Release-v2.2.0-8B5CF6?style=for-the-badge)](https://github.com/Luanserph/nexus-map/releases/tag/v2.2.0)
 [![Licença](https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge)](LICENSE)
 
 <br />
 
 **Central de cartografia interativa de alta performance para jogos de mundo aberto.**  
-30 jogos • ~77.000 marcadores • Web (PWA) & App Desktop Nativo para Windows (~12 MB)
+46 jogos • ~117.000 marcadores • Web (PWA) & App Desktop Nativo para Windows (~12 MB)
 
 </div>
 
@@ -28,7 +28,7 @@ O **Nexus Maps** foi criado para oferecer um único lugar rápido, limpo e sem d
 
 ---
 
-## 🎮 Vitrine do Catálogo (30 Jogos • 76.827 Pins)
+## 🎮 Vitrine do Catálogo (46 Jogos • 116.692 Pins)
 
 <table>
   <tr>
@@ -162,6 +162,82 @@ O **Nexus Maps** foi criado para oferecer um único lugar rápido, limpo e sem d
       <img src="public/games/call-of-duty-modern-warfare-4/cover.webp" width="160" alt="Call of Duty: Modern Warfare 4" /><br />
       <b>CoD: Modern Warfare 4</b><br /><sub>Campanha &amp; DMZ • 393 pins</sub>
     </td>
+  </tr>
+  <tr>
+    <td align="center" width="20%">
+      <img src="public/games/crimson-desert/cover.webp" width="160" alt="Crimson Desert" /><br />
+      <b>Crimson Desert</b><br /><sub>Pywel • 15.572 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/subnautica-2/cover.webp" width="160" alt="Subnautica 2" /><br />
+      <b>Subnautica 2</b><br /><sub>Mundo Subaquático • 8.047 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/croc-legend-of-gobbos/cover.webp" width="160" alt="Croc: Legend of the Gobbos" /><br />
+      <b>Croc: Gobbos</b><br /><sub>5 Ilhas • 2.322 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/the-adventures-of-elliot/cover.webp" width="160" alt="The Adventures of Elliot" /><br />
+      <b>Adventures of Elliot</b><br /><sub>4 Eras • 2.303 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/007-first-light/cover.webp" width="160" alt="007 First Light" /><br />
+      <b>007 First Light</b><br /><sub>8 Missões • 1.983 pins</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="20%">
+      <img src="public/games/goat-simulator-3/cover.webp" width="160" alt="Goat Simulator 3" /><br />
+      <b>Goat Simulator 3</b><br /><sub>4 Mapas • 1.876 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/mina-the-hollower/cover.webp" width="160" alt="Mina the Hollower" /><br />
+      <b>Mina the Hollower</b><br /><sub>Tenebrous Isle • 1.584 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/assassins-creed-black-flag-resynced/cover.webp" width="160" alt="Assassin's Creed: Black Flag Resynced" /><br />
+      <b>AC: Black Flag Resynced</b><br /><sub>Caribbean Sea • 1.526 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/beast-of-reincarnation/cover.webp" width="160" alt="Beast of Reincarnation" /><br />
+      <b>Beast of Reincarnation</b><br /><sub>12 Zonas • 1.273 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/forza-horizon-6/cover.webp" width="160" alt="Forza Horizon 6" /><br />
+      <b>Forza Horizon 6</b><br /><sub>Japão • 806 pins</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="20%">
+      <img src="public/games/metal-gear-solid-peace-walker/cover.webp" width="160" alt="Metal Gear Solid: Peace Walker" /><br />
+      <b>MGS: Peace Walker</b><br /><sub>Costa Rica • 659 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/call-of-duty-vanguard/cover.webp" width="160" alt="Call of Duty: Vanguard" /><br />
+      <b>CoD: Vanguard</b><br /><sub>4 Mapas Zombies • 507 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/metal-gear-solid-5-the-phantom-pain/cover.webp" width="160" alt="Metal Gear Solid V: The Phantom Pain" /><br />
+      <b>MGSV: Phantom Pain</b><br /><sub>Afeganistão &amp; África • 488 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/yakuza-0/cover.webp" width="160" alt="Yakuza 0 Director's Cut" /><br />
+      <b>Yakuza 0 Director's Cut</b><br /><sub>2 Cidades • 433 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/yakuza-kiwami/cover.webp" width="160" alt="Yakuza Kiwami" /><br />
+      <b>Yakuza Kiwami</b><br /><sub>Kamurocho • 256 pins</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="20%">
+      <img src="public/games/big-walk/cover.webp" width="160" alt="Big Walk" /><br />
+      <b>Big Walk</b><br /><sub>The Island • 230 pins</sub>
+    </td>
+    <td align="center" width="20%"></td>
+    <td align="center" width="20%"></td>
+    <td align="center" width="20%"></td>
+    <td align="center" width="20%"></td>
   </tr>
 </table>
 

@@ -1,0 +1,251 @@
+{
+  "id": "game-yakuza-kiwami",
+  "slug": "yakuza-kiwami",
+  "title": "Yakuza Kiwami",
+  "subtitle": "Kamurocho — Substories, Coin Lockers & Majima Everywhere",
+  "studio": "Ryu Ga Gotoku Studio",
+  "releaseYear": 2016,
+  "genres": [
+    "Ação",
+    "Aventura",
+    "Beat em Up"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox",
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/yakuza-kiwami/cover.webp",
+    "bannerImage": "/games/yakuza-kiwami/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#E11D48",
+    "accentSecondary": "#38BDF8",
+    "accentGlow": "rgba(225, 29, 72, 0.40)",
+    "glassTint": "rgba(20, 10, 16, 0.82)",
+    "surfaceBase": "#0C060A",
+    "fontDisplay": "'Rajdhani', sans-serif",
+    "backgroundPattern": "cyber-grid",
+    "badgeStyle": "chamfered"
+  },
+  "maps": [
+    {
+      "id": "kamurocho",
+      "name": "Kamurocho",
+      "dlc": "base",
+      "pinsCount": 256,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0C060A",
+      "initialCenter": [
+        0.67406118322045,
+        -0.91305922943991
+      ],
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          0.28702,
+          -1.08147
+        ],
+        [
+          1.08995,
+          -0.3283
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "kamurocho",
+          "label": "kamurocho",
+          "urlTemplate": "https://tiles.mapgenie.io/games/yakuza-kiwami/kamurocho/kamurocho/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "minigame",
+          "groupId": "locations",
+          "name": "Minigame",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "general-store",
+          "groupId": "locations",
+          "name": "General Store",
+          "icon": "shopping-bag",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "telephone",
+          "groupId": "locations",
+          "name": "Telephone",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "restaurant",
+          "groupId": "locations",
+          "name": "Restaurant",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "taxi",
+          "groupId": "locations",
+          "name": "Taxi",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "point-of-interest",
+          "groupId": "locations",
+          "name": "Point of Interest",
+          "icon": "landmark",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "mesuking",
+      "label": "MesuKing",
+      "categories": [
+        {
+          "id": "insect-card",
+          "groupId": "mesuking",
+          "name": "Insect Card",
+          "icon": "gem",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "skill-card",
+          "groupId": "mesuking",
+          "name": "Skill Card",
+          "icon": "gem",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "substories",
+      "label": "Substories",
+      "categories": [
+        {
+          "id": "chapter-4",
+          "groupId": "substories",
+          "name": "Chapter 4",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "chapter-5",
+          "groupId": "substories",
+          "name": "Chapter 5",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "chapter-6",
+          "groupId": "substories",
+          "name": "Chapter 6",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "chapter-7",
+          "groupId": "substories",
+          "name": "Chapter 7",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "chapter-8",
+          "groupId": "substories",
+          "name": "Chapter 8",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "chapter-10",
+          "groupId": "substories",
+          "name": "Chapter 10",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "chapter-11",
+          "groupId": "substories",
+          "name": "Chapter 11",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "endgame",
+          "groupId": "substories",
+          "name": "Endgame",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "locker-key",
+          "groupId": "other",
+          "name": "Locker Key",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 256
+}

@@ -1,0 +1,407 @@
+{
+  "id": "game-croc-legend-of-gobbos",
+  "slug": "croc-legend-of-gobbos",
+  "title": "Croc: Legend of the Gobbos",
+  "subtitle": "5 Ilhas dos Gobbos — Floresta, Gelo, Deserto, Castelo & Cristal",
+  "studio": "Argonaut Games",
+  "releaseYear": 2025,
+  "genres": [
+    "Plataforma",
+    "Aventura",
+    "Clássico"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox",
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/croc-legend-of-gobbos/cover.webp",
+    "bannerImage": "/games/croc-legend-of-gobbos/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#22C55E",
+    "accentSecondary": "#FACC15",
+    "accentGlow": "rgba(34, 197, 94, 0.38)",
+    "glassTint": "rgba(10, 22, 14, 0.80)",
+    "surfaceBase": "#070F0A",
+    "fontDisplay": "'Space Grotesk', sans-serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "minimal"
+  },
+  "maps": [
+    {
+      "id": "castle-island",
+      "name": "Castle Island",
+      "dlc": "base",
+      "pinsCount": 568,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#070F0A",
+      "initialCenter": [
+        1.1695855092163,
+        -0.98583894560659
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.94143,
+          -1.43788
+        ],
+        [
+          1.39378,
+          -0.18102
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v2",
+          "label": "v2",
+          "urlTemplate": "https://tiles.mapgenie.io/games/croc-legend-of-gobbos/castle-island/v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0.96675,
+              -1.39526
+            ],
+            [
+              1.38414,
+              -0.25269
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crystal-island",
+      "name": "Crystal Island",
+      "dlc": "base",
+      "pinsCount": 212,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#070F0A",
+      "initialCenter": [
+        0.9734432755607,
+        -0.902843144499
+      ],
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          0.47706,
+          -1.11119
+        ],
+        [
+          1.35585,
+          -0.01312
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v2",
+          "label": "v2",
+          "urlTemplate": "https://tiles.mapgenie.io/games/croc-legend-of-gobbos/crystal-island/v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.50536,
+              -1.38428
+            ],
+            [
+              1.36218,
+              -0.04395
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "desert-island",
+      "name": "Desert Island",
+      "dlc": "base",
+      "pinsCount": 509,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#070F0A",
+      "initialCenter": [
+        1.1299027654795,
+        -1.017577421509
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.8886,
+          -1.45966
+        ],
+        [
+          1.3919,
+          -0.17442
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v2",
+          "label": "v2",
+          "urlTemplate": "https://tiles.mapgenie.io/games/croc-legend-of-gobbos/desert-island/v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0.90084,
+              -1.39526
+            ],
+            [
+              1.38414,
+              -0.2417
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forest-island",
+      "name": "Forest Island",
+      "dlc": "base",
+      "pinsCount": 543,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#070F0A",
+      "initialCenter": [
+        1.1818213030818,
+        -1.0729353240683
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          1.01219,
+          -1.45884
+        ],
+        [
+          1.39216,
+          -0.1738
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v7",
+          "label": "v7",
+          "urlTemplate": "https://tiles.mapgenie.io/games/croc-legend-of-gobbos/forest-island/v7/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              1.03266,
+              -1.39526
+            ],
+            [
+              1.38414,
+              -0.2417
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ice-island",
+      "name": "Ice Island",
+      "dlc": "base",
+      "pinsCount": 490,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#070F0A",
+      "initialCenter": [
+        1.1804442111076,
+        -1.0386655325606
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.97674,
+          -1.39599
+        ],
+        [
+          1.39189,
+          -0.26259
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v4",
+          "label": "v4",
+          "urlTemplate": "https://tiles.mapgenie.io/games/croc-legend-of-gobbos/ice-island/v4/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0.99971,
+              -1.39526
+            ],
+            [
+              1.38414,
+              -0.3186
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "points-of-interest",
+      "label": "Points of Interest",
+      "categories": [
+        {
+          "id": "crystal-door",
+          "groupId": "points-of-interest",
+          "name": "Crystal Door",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "passage",
+          "groupId": "points-of-interest",
+          "name": "Passage",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "level-exit",
+          "groupId": "points-of-interest",
+          "name": "Level Exit",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "level-start",
+          "groupId": "points-of-interest",
+          "name": "Level Start",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "locked-door",
+          "groupId": "points-of-interest",
+          "name": "Locked Door",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "secret",
+          "groupId": "points-of-interest",
+          "name": "Secret",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "secret-area",
+          "groupId": "points-of-interest",
+          "name": "Secret Area",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "boss",
+          "groupId": "points-of-interest",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "ab2121",
+          "defaultVisible": true
+        },
+        {
+          "id": "red-button",
+          "groupId": "points-of-interest",
+          "name": "Red Button",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "crystal",
+          "groupId": "collectibles",
+          "name": "Crystal",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "gobbo",
+          "groupId": "collectibles",
+          "name": "Gobbo",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "coloured-crystal",
+          "groupId": "collectibles",
+          "name": "Coloured Crystal",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "jigsaw-piece",
+          "groupId": "collectibles",
+          "name": "Jigsaw Piece",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "key",
+          "groupId": "collectibles",
+          "name": "Key",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "heart",
+          "groupId": "collectibles",
+          "name": "Heart",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "smash-box",
+          "groupId": "collectibles",
+          "name": "Smash Box",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "cage",
+          "groupId": "collectibles",
+          "name": "Cage",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 2322
+}

@@ -1,0 +1,3222 @@
+[
+  {
+    "id": "big-walk-island-930136",
+    "mapId": "island",
+    "category": "point-of-interest",
+    "title": "Painting Room",
+    "description": "_Paint your friends using different colors and a paint brush!_",
+    "coords": [
+      -0.92606619061996,
+      0.8252483441221
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/675c341f-3d1b-42b1-86be-ba64684796ff.jpg"
+  },
+  {
+    "id": "big-walk-island-930137",
+    "mapId": "island",
+    "category": "point-of-interest",
+    "title": "Starting Hub",
+    "description": "_This is where you start the game as well as a hub you can return to as you progress through the island._",
+    "coords": [
+      -0.83625912666321,
+      0.8513983661269
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ee0c6406-8318-4e5d-b15b-35172fca75e8.jpg"
+  },
+  {
+    "id": "big-walk-island-930158",
+    "mapId": "island",
+    "category": "point-of-interest",
+    "title": "Checkpoint",
+    "description": "Click this button to open the way back to the [Starting Hub](https://mapgenie.io/big-walk/maps/island?locationIds=930137)",
+    "coords": [
+      -0.83551883697712,
+      0.8360309748256
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/17bae19d-c668-43ed-acf2-ec2780c1a8d8.jpg"
+  },
+  {
+    "id": "big-walk-island-930174",
+    "mapId": "island",
+    "category": "point-of-interest",
+    "title": "Checkpoint",
+    "description": "Click this button to open the way back to the other [Checkpoint](https://mapgenie.io/big-walk/maps/island?locationIds=930158)",
+    "coords": [
+      -0.80856800079462,
+      0.81146447962001
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/8305a883-9162-49ff-941e-9d9ab12e96ec.jpg"
+  },
+  {
+    "id": "big-walk-island-930191",
+    "mapId": "island",
+    "category": "point-of-interest",
+    "title": "Map Room",
+    "description": "_Contains a large map on the floor to view the whole island, including which puzzles you've completed!_",
+    "coords": [
+      -0.79442384680615,
+      0.82820954785618
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f6470cf6-bff6-4c2e-ab80-d7c97ce4ce09.jpg"
+  },
+  {
+    "id": "big-walk-island-930271",
+    "mapId": "island",
+    "category": "point-of-interest",
+    "title": "Green Tunnel Entrance",
+    "description": "Unlocks after placing the [Yellow Key](https://mapgenie.io/big-walk/maps/island?locationIds=930251) into the [Yellow Key Holder](https://mapgenie.io/big-walk/maps/island?locationIds=930265)",
+    "coords": [
+      -0.60506780393681,
+      0.71268046919184
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/304155d2-8314-446f-adb0-b965d9f36f43.jpg"
+  },
+  {
+    "id": "big-walk-island-930272",
+    "mapId": "island",
+    "category": "point-of-interest",
+    "title": "Blue Tunnel Entrance",
+    "description": "Unlocks after placing the [Yellow Key](https://mapgenie.io/big-walk/maps/island?locationIds=930251) into the [Yellow Key Holder](https://mapgenie.io/big-walk/maps/island?locationIds=930265)",
+    "coords": [
+      -0.63782280719994,
+      0.82701498217416
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2de1cb8f-d20d-49fe-a639-68215923689d.jpg"
+  },
+  {
+    "id": "big-walk-island-930273",
+    "mapId": "island",
+    "category": "point-of-interest",
+    "title": "Painting Room",
+    "description": "Inside the tunnel system _Paint your friends using different colors and a paint brush, now with SHINY COLORS!_",
+    "coords": [
+      -0.70641754516441,
+      0.85267911178255
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ccdeaf64-bd1e-4d5a-85d8-ccfcbb9d166a.jpg"
+  },
+  {
+    "id": "big-walk-island-930275",
+    "mapId": "island",
+    "category": "point-of-interest",
+    "title": "Red Tunnel Entrance",
+    "description": "Unlocks after placing the [Yellow Key](https://mapgenie.io/big-walk/maps/island?locationIds=930251) into the [Yellow Key Holder](https://mapgenie.io/big-walk/maps/island?locationIds=930265)",
+    "coords": [
+      -0.79056383672255,
+      0.78270767252005
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/8afe9fc5-83d5-43cc-bd6f-c578ab041521.jpg"
+  },
+  {
+    "id": "big-walk-island-930290",
+    "mapId": "island",
+    "category": "point-of-interest",
+    "title": "Purple Tunnel Entrance",
+    "description": "Unlocks after placing the [Yellow Key](https://mapgenie.io/big-walk/maps/island?locationIds=930251) into the [Yellow Key Holder](https://mapgenie.io/big-walk/maps/island?locationIds=930265)",
+    "coords": [
+      -0.59793558408168,
+      0.48981560472497
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6fd4f764-10a6-420d-aa15-84774a2660ce.jpg"
+  },
+  {
+    "id": "big-walk-island-930291",
+    "mapId": "island",
+    "category": "point-of-interest",
+    "title": "Purple Tunnel Entrance",
+    "description": "Unlocks after placing the [Yellow Key](https://mapgenie.io/big-walk/maps/island?locationIds=930251) into the [Yellow Key Holder](https://mapgenie.io/big-walk/maps/island?locationIds=930265)",
+    "coords": [
+      -0.61355676938419,
+      0.46930278882137
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e9061d08-6180-4e20-8cd6-9a5a0599be4f.jpg"
+  },
+  {
+    "id": "big-walk-island-930292",
+    "mapId": "island",
+    "category": "point-of-interest",
+    "title": "Beach Party",
+    "description": "Place your music player into the aux cord and jam out on the beach with your friends!",
+    "coords": [
+      -0.71037743513173,
+      0.53860160411759
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1876318f-e1d4-40b9-9fbe-8d4c7daa2279.jpg"
+  },
+  {
+    "id": "big-walk-island-930342",
+    "mapId": "island",
+    "category": "point-of-interest",
+    "title": "Coordinate Sign",
+    "description": "Points as a hint to solve the [Super Camouflage Box Puzzle](https://mapgenie.io/big-walk/maps/island?locationIds=930340)",
+    "coords": [
+      -0.5819910764688,
+      0.63556857779434
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/5e5f15c4-e5f7-4a92-8b14-4070557739a3.jpg"
+  },
+  {
+    "id": "big-walk-island-930358",
+    "mapId": "island",
+    "category": "point-of-interest",
+    "title": "Starting Hub Entrance",
+    "description": "Point of Interest localizado em island.",
+    "coords": [
+      -0.85788282632475,
+      0.84453953152767
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e0342b56-75c5-42d4-86b3-fd9f40866b2c.jpg"
+  },
+  {
+    "id": "big-walk-island-930365",
+    "mapId": "island",
+    "category": "point-of-interest",
+    "title": "Checkpoint",
+    "description": "Click this button to open the way back to the other [Checkpoint](https://mapgenie.io/big-walk/maps/island?locationIds=930158)",
+    "coords": [
+      -0.81562431283339,
+      0.84310614622784
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/af077928-be79-46f4-a403-9ed027ec827b.jpg"
+  },
+  {
+    "id": "big-walk-island-930133",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Stacking Button Puzzle",
+    "description": "Location: In the middle of the starting field near the cliff Solution: Stack up your friend to reach the button on the crane Reward: Red Blob",
+    "coords": [
+      -0.88859054796814,
+      0.84758537169083
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e4ca62cd-6318-4995-9b82-2decd0f75c88.jpg"
+  },
+  {
+    "id": "big-walk-island-930139",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Timing Button Puzzle",
+    "description": "Location: On top of a hill over the valley Solution: Click every button on the green structure at the same time Reward: Red Blob",
+    "coords": [
+      -0.9116538253223,
+      0.7847479187265
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/23a64bd0-57b2-4f48-af9e-b6d370a8f719.jpg"
+  },
+  {
+    "id": "big-walk-island-930141",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Matching Tiles Puzzle",
+    "description": "Location: At the top of the hill over the valley Solution: Match the tiles on the pegboard outside with what can be seen inside the room Reward: Red Blob",
+    "coords": [
+      -0.87844136464869,
+      0.78170092106376
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/0fe58780-457d-4ed2-a2d6-e39eb95b826a.jpg"
+  },
+  {
+    "id": "big-walk-island-930142",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Locked Box Puzzle",
+    "description": "Location: On top of the cliff looking over the valley Solution: Have one person sit and press the button, opening the box across the valley, while another heads to the box - [Locked Box](https://mapgenie.io/big-walk/maps/island?locationIds=930216) Reward: Red Blob",
+    "coords": [
+      -0.92290666166164,
+      0.84714038097715
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2af1d39a-5f14-4108-b4c2-b15905337e18.jpg"
+  },
+  {
+    "id": "big-walk-island-930170",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Maze Puzzle",
+    "description": "Location: Down the mountain on the beach Solution: Grab the timer and hand off the timer through the holes to your friends to place it on the pedestal Reward: Red Blob",
+    "coords": [
+      -0.84733128547748,
+      0.69783988760682
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ee1235b4-e96c-48d2-ae59-4134505fc412.jpg"
+  },
+  {
+    "id": "big-walk-island-930171",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Point and Click Puzzle",
+    "description": "Location: On the side of a mountain Solution: Press the buttons in the correct sequence copying the lights from the inside without being able to communicate Reward: Red Blob",
+    "coords": [
+      -0.81067621707695,
+      0.73120397272278
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d3592e82-0ad7-4a94-ad1b-162bd07d70a3.jpg"
+  },
+  {
+    "id": "big-walk-island-930177",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Cannon Puzzle",
+    "description": "Location: On the rocks next to the [Train Station](https://mapgenie.io/big-walk/maps/island?locationIds=930175) Solution: Activate the timer to shoot it out of the cannon, then have a friend grab it and throw it back and place it into the pedestal Reward: Red Blob",
+    "coords": [
+      -0.77167058787003,
+      0.67886402229185
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/106a366c-3f00-46c8-9eb1-38471d820a26.jpg"
+  },
+  {
+    "id": "big-walk-island-930178",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Basketball Puzzle",
+    "description": "Location: Next to the stream in the open Solution: Throw the light through the hoop until the bar fills up Reward: Red Blob",
+    "coords": [
+      -0.75287977476404,
+      0.70061462713061
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/8a8d04a7-42d7-4e03-a003-3093b1ce4591.jpg"
+  },
+  {
+    "id": "big-walk-island-930184",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Memory Puzzle",
+    "description": "Location: On a ledge of a cliff Solution: Open up only the orbs that have the green blobs in them to activate the pillar Reward: Red Blob",
+    "coords": [
+      -0.61010172331552,
+      0.60845150704483
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2c957d66-7a0f-4123-bd96-7abe9021aa8a.jpg"
+  },
+  {
+    "id": "big-walk-island-930195",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Pose Puzzle",
+    "description": "Location: On top of the cliff looking over the valley Solution: Have a friend head to each of the points with the red ledges and match the poses on the cards, then place the cards with the correct pose into each of the slots - [Pose Picture](https://mapgenie.io/big-walk/maps/island?locationIds=930217) - [Pose Picture](https://mapgenie.io/big-walk/maps/island?locationIds=930218) - [Pose Picture](https://mapgenie.io/big-walk/maps/island?locationIds=930219) - [Pose Picture](https://mapgenie.io/big-walk/maps/island?locationIds=930220) - [Pose Picture](https://mapgenie.io/big-walk/maps/island?locationIds=930221) Reward: Red Blob",
+    "coords": [
+      -0.7296824183085,
+      0.65962387599775
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/cb1e15d9-e8e8-4337-809c-9bef9cb58b66.jpg"
+  },
+  {
+    "id": "big-walk-island-930205",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Counting Lights Puzzle",
+    "description": "Location: Near the train tracks in the open Solution: Count how many of the lights change after clicking the button for the period of time they change, then input that amount into the counter on the wall Reward: Red Blob",
+    "coords": [
+      -0.60844106851405,
+      0.57685196793945
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/4d283363-56a2-4f5e-9c87-e66e534d250f.jpg"
+  },
+  {
+    "id": "big-walk-island-930212",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Locked Up Puzzle",
+    "description": "Location: In the middle of the brush Solution: Press both buttons on the walls to unlock the red blob, then hit the secret button and give the correct order for the symbols on the wall to escape Reward: Red Blob",
+    "coords": [
+      -0.65076828003006,
+      0.55694656642005
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/00c9ad24-5110-4b2c-b6d0-40718f688608.jpg"
+  },
+  {
+    "id": "big-walk-island-930214",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Far Away Lights Puzzle",
+    "description": "Location: On the beach in two separate buildings - [Far Away Lights Puzzle Second Building](https://mapgenie.io/big-walk/maps/island?locationIds=930215) Solution: Have at least one friend in each building and count the lights on the wall. Relay that information to the other building to increment the counter. Reward: Red Blob",
+    "coords": [
+      -0.46882867813127,
+      0.53821487423289
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/516853f6-2e9e-46bd-b518-f304e5eb2619.jpg"
+  },
+  {
+    "id": "big-walk-island-930222",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Double Press Puzzle",
+    "description": "Location: On a ledge up the mountain Solution: Press the switch the same time as a friend pushes the switch on the rocks near the beach - [Second Switch](https://mapgenie.io/big-walk/maps/island?locationIds=930223) Reward: Red Blob",
+    "coords": [
+      -0.68386611228831,
+      0.77849579909743
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f4a6a6ea-1a54-4e19-8adb-e5382c9c904a.jpg"
+  },
+  {
+    "id": "big-walk-island-930238",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Clifftop Golf Puzzle",
+    "description": "Location: On the edge of the cliff Solution: Carry the ball from the starting point and place it into the hole - [Golf Tee](https://mapgenie.io/big-walk/maps/island?locationIds=930296) Reward: Purple Blob",
+    "coords": [
+      -0.61066097647029,
+      0.49740614583165
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/7e83f725-d8be-413a-94c6-f60a4958c671.jpg"
+  },
+  {
+    "id": "big-walk-island-930239",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Warehouse Puzzle",
+    "description": "Location: On a ledge between the water and the middle of the mountains Solution: Head through both doors, close them, and head through the turnstiles, then communicate the order of the icons from one player to the other Reward: Purple Blob",
+    "coords": [
+      -0.61253102640225,
+      0.42279506350525
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/57a1bf2a-d5ed-4c70-a5d3-11fb86517444.jpg"
+  },
+  {
+    "id": "big-walk-island-930252",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Beach House Icon Puzzle",
+    "description": "Location: On a ledge over the shore Solution: Head through both turnstiles, then communicate the order of the icons from one player to the other on the back porch Reward: Purple Blob",
+    "coords": [
+      -0.59329684026144,
+      0.38290675501929
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/875c940d-ef3a-461b-95c9-ff63c1cd79ef.jpg"
+  },
+  {
+    "id": "big-walk-island-930254",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Greenhouse Puzzle",
+    "description": "Location: On a ledge between the beach and the middle of the mountains Solution: Have a friend go into the side room and communicate which sounds match the speaker in the sound room and slot them into the right hole Reward: Purple Blob",
+    "coords": [
+      -0.64012608920623,
+      0.44003436033381
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/51e0082a-6319-4a44-bbd9-2d35d577e92a.jpg"
+  },
+  {
+    "id": "big-walk-island-930255",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Beach Timer Puzzle",
+    "description": "Location: On top of some scaffolding over the water on the beach Solution: Using your friends, carry one over the different obstacles to open the doors, requiring clicking switches at the same time and maneuvering over a large staircase, to bring the timer to the pedestal at the end Reward: Purple Blob",
+    "coords": [
+      -0.66840552269102,
+      0.36305335438783
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/80a98c10-6325-4e7a-88c6-73307a97f129.jpg"
+  },
+  {
+    "id": "big-walk-island-930258",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Multi-Light Puzzle",
+    "description": "Location: Split between two buildings on a ledge over the water - [Multi-Light Puzzle Second Building](https://mapgenie.io/big-walk/maps/island?locationIds=930259) Solution: Head into both buildings and, using the intercom and the red light, communicate which lights to click in sequence Reward: Purple Blob",
+    "coords": [
+      -0.69586778234645,
+      0.43136703727359
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/c081a984-dfc0-49ae-9cef-f1bc020af890.jpg"
+  },
+  {
+    "id": "big-walk-island-930293",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Patience Puzzle",
+    "description": "Location: On top of the cliff overlooking the water Solution: Sit there for 30 minutes with a friend and enjoy their company :) Reward: Purple Blob",
+    "coords": [
+      -0.70873472274522,
+      0.48930335264032
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/924c9dfd-79d9-445c-bded-61ffcde42ccd.jpg"
+  },
+  {
+    "id": "big-walk-island-930295",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Ravine Golf Puzzle",
+    "description": "Location: At the bottom of the cliff at the end of the ravine Solution: Carry the ball from the starting point and place it into the hole - [Golf Tee](https://mapgenie.io/big-walk/maps/island?locationIds=930296) Reward: Red Blob",
+    "coords": [
+      -0.72251532478097,
+      0.77962455302217
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/8a52cfc0-5559-4a10-87eb-291b713e6ae2.jpg"
+  },
+  {
+    "id": "big-walk-island-930298",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Passing Puzzle",
+    "description": "Location: On top of a ledge up the cliff Solution: Have a friend head across to the opposite side and communicate which pieces need to be passed across to fill in the symbols Reward: Red Blob",
+    "coords": [
+      -0.71781090104602,
+      0.82296885434867
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/c5adab9b-52f7-4682-a890-b3b524793aef.jpg"
+  },
+  {
+    "id": "big-walk-island-930302",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Interrogation Puzzle",
+    "description": "Location: In the side of the cliff Solution: Using the one-way glass and the red light, relay the information between players on which symbols need to go to which spot Reward: Red Blob",
+    "coords": [
+      -0.67893683243565,
+      0.86867823920063
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2e5f2369-6abd-4d4e-8c0a-cf1d293a120e.jpg"
+  },
+  {
+    "id": "big-walk-island-930308",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Climbing Puzzle",
+    "description": "Location: On top of the cliff embedded into the ground Solution: Start at the bottom and keep kicking the block with the blob in it up onto the platforms. Slowly but surely keep doing it until it reaches the top, then place it on the pedestal Reward: Red Blob",
+    "coords": [
+      -0.75090249918006,
+      0.80968707262758
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2b850378-6e67-4871-a3bc-d556c6ce0a12.jpg"
+  },
+  {
+    "id": "big-walk-island-930316",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Stage Puzzle",
+    "description": "Location: Embedded in the cliff wall Solution: Have a friend head into the upper stage area and communicate which buttons need to be clicked by which ones are lit up Reward: Red Blob",
+    "coords": [
+      -0.74198248139089,
+      0.90185712958305
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ae397992-ab6b-41ba-be72-e0eb701a064f.jpg"
+  },
+  {
+    "id": "big-walk-island-930319",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "50/50 Puzzle",
+    "description": "Location: In a building raised over the forest Solution: Using the red light and the speaker, communicate between each other the rest of the symbols to complete both sides Reward: Red Blob",
+    "coords": [
+      -0.5793699077804,
+      0.70040472160665
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/df1c9618-e49b-418d-917f-19d2889c3c80.jpg"
+  },
+  {
+    "id": "big-walk-island-930321",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Headless Chicken Puzzle",
+    "description": "Location: On the side of the hill near the coast Solution: Have a friend put on the mask and head into the area through the turnstile, then navigate your blind friend to match the symbols in pairs Reward: Red Blob",
+    "coords": [
+      -0.50051119603407,
+      0.64903534428235
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9c73983d-7243-484f-a592-11b733de108b.jpg"
+  },
+  {
+    "id": "big-walk-island-930325",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Tower Puzzle",
+    "description": "Location: On the beach next to the water Solution: Hit both of the nearby switches at the same time - [Tower Switch](https://mapgenie.io/big-walk/maps/island?locationIds=930326) - [Tower Switch](https://mapgenie.io/big-walk/maps/island?locationIds=930327) Reward: Red Blob",
+    "coords": [
+      -0.4287132798602,
+      0.7216293507764
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/823b848c-4b2d-4383-a6c4-b286160cd4a3.jpg"
+  },
+  {
+    "id": "big-walk-island-930328",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Forget-Me-Not Puzzle",
+    "description": "Location: In the middle of a peninsula embedded into the ground Solution: Head to previous puzzles with the corresponding icons and sounds and place the icon/sound on the corresponding slot Reward: Red Blob",
+    "coords": [
+      -0.42874139293275,
+      0.67975516242188
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1d1983e1-bafa-4071-9284-29344941c119.jpg"
+  },
+  {
+    "id": "big-walk-island-930329",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Brown Tower Puzzle",
+    "description": "Location: In the middle of the forest Solution: Have a friend head to and push the hidden button to open the box - [Brown Tower Button](https://mapgenie.io/big-walk/maps/island?locationIds=930343) Reward: Red Blob",
+    "coords": [
+      -0.79508977382849,
+      0.66618838707458
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/77396da7-1035-409e-a2b3-78ac96003e42.jpg"
+  },
+  {
+    "id": "big-walk-island-930330",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Invisible Ink Puzzle",
+    "description": "Location: In the middle of the forest on a hill Solution: Using the telescope, look at each blank sign to read their symbols. Memorize their symbols then head out of the room and close the door to figure out the order to place them Reward: Red Blob",
+    "coords": [
+      -0.4778193719018,
+      0.7410533214814
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e34d4df8-9495-485e-ae95-6e6ebd3c44b8.jpg"
+  },
+  {
+    "id": "big-walk-island-930331",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Hanging Timer Puzzle",
+    "description": "Location: On top of some scaffolding off the side of the cliff Solution: Using your friends, carry one over the different obstacles to open the doors, requiring clicking switches at the same time and maneuvering over a large staircase, to bring the timer past the last door to the pedestal at the end Reward: Red Blob",
+    "coords": [
+      -0.55100786694626,
+      0.7684208249666
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3c9b9db5-86fd-4fc9-8bb6-864b4c0bb8f4.jpg"
+  },
+  {
+    "id": "big-walk-island-930332",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Camouflage Puzzle",
+    "description": "Location: Embedded in the rocks on the beach Solution: Hold the button down on the green obstacle down the beach to open the box - [Camouflage Box Button](https://mapgenie.io/big-walk/maps/island?locationIds=930333) Reward: Red Blob",
+    "coords": [
+      -0.43382581259175,
+      0.75101539839864
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/c30d5d66-4822-4075-bf80-4b2b57276b7f.jpg"
+  },
+  {
+    "id": "big-walk-island-930336",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Little Patience Puzzle",
+    "description": "Location: On top of a ledge over the water Solution: Sit there for 5 minutes with a friend and enjoy their company :) Reward: Red Blob",
+    "coords": [
+      -0.5348729418015,
+      0.81295238896647
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/10741cf5-269b-4cb7-a9c0-f7ca868a033d.jpg"
+  },
+  {
+    "id": "big-walk-island-930340",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Super Camouflage Box Puzzle",
+    "description": "Location: Hidden on top of the large rock near the stream Solution: Hit this switch at the same time as a friend hits the switch down the stream - [Super Camouflage Box Switch](https://mapgenie.io/big-walk/maps/island?locationIds=930341) Reward: Red Bolb",
+    "coords": [
+      -0.60471033575138,
+      0.96696829905926
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/dc9ada17-0ee8-4aff-b3ad-b8e10a88807d.jpg"
+  },
+  {
+    "id": "big-walk-island-930344",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Mountain Icon Puzzle",
+    "description": "Location: On top of the mountain overlooking the cliff Solution: Head through both turnstiles, then communicate the order of the icons from one player to the other on the back porch Reward: Red Blob",
+    "coords": [
+      -0.56681345122161,
+      0.85198237387687
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/22c5446a-9831-4994-96d5-d1409db4c48c.jpg"
+  },
+  {
+    "id": "big-walk-island-930347",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Mask Maze Puzzle",
+    "description": "Location: On top of some scaffolding hanging over the stream Solution: Have a friend put on the mask and guide them through the obstacle course without them falling off to the button at the end Reward: Red Bulb",
+    "coords": [
+      -0.57637918041547,
+      0.92755033725371
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e00a4e32-b0a8-4645-b09d-3f2f65c724c7.jpg"
+  },
+  {
+    "id": "big-walk-island-930349",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Large Warehouse Puzzle",
+    "description": "Location: Between two parts of a stream in the open Solution: Head into both sides of the warehouse and communicate the order of the symbols using different poses Reward: Red Blob",
+    "coords": [
+      -0.57496363187502,
+      0.9645283202922
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/19fccb5a-8c92-42eb-81c3-d916c40ac018.jpg"
+  },
+  {
+    "id": "big-walk-island-930350",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Playground Puzzle",
+    "description": "Location: Embedded in the ground Solution: Head into each section of the puzzle and set up the kettles to be in the places where it would communicate to the other person where the dots should be, then allow the other person to head in then set up the symbols on the wall correctly Reward: Red Blob",
+    "coords": [
+      -0.62497229857539,
+      0.98092758321887
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/de993da8-1b87-4fe4-9349-d029c5736940.jpg"
+  },
+  {
+    "id": "big-walk-island-930355",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Double Cliff Puzzle",
+    "description": "Location: On top of the cliff over the train tracks Solution: Head into each of the different buildings and communicate over the valley which lights need to be pressed - [Double Cliff Puzzle Second Building](https://mapgenie.io/big-walk/maps/island?locationIds=930356) Reward: Red Blob",
+    "coords": [
+      -0.70077576065125,
+      0.95985574849114
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e7989528-c716-4cd2-b88c-e3269a1228ce.jpg"
+  },
+  {
+    "id": "big-walk-island-930359",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Musical Speaker Puzzle",
+    "description": "Location: In the open on top of a hill Solution: Have a friend go into the side room and communicate which sounds match the speaker in the sound room and slot them into the right hole Reward: Red Blob",
+    "coords": [
+      -0.89385198955625,
+      1.000502100111
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/280829df-1743-4fc8-9393-c5aa327e5e07.jpg"
+  },
+  {
+    "id": "big-walk-island-930362",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Hide and Seek Puzzle",
+    "description": "Location: On top of the cliff overlooking the valley Solution: Look around the area and find all 9 yellow dots, 9 red dots, 9 green dots, and 9 blue dots, corresponding to different parts of the scenery, then place them all on the board Reward: Red Blob",
+    "coords": [
+      -0.79221757346082,
+      0.91717613114487
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/31481554-1583-46fc-8f60-2bd04627e861.jpg"
+  },
+  {
+    "id": "big-walk-island-930369",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Musical Chair Puzzle",
+    "description": "Location: On a ledge overlooking the valley Solution: Have someone sit in the chair and speak into each microphone. The correct microphone will hear clearly for the person in the chair, while the other ones will be one-sided Reward: Red Blob",
+    "coords": [
+      -0.90752694491405,
+      0.90191711831613
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e67a05b1-66c6-4b2a-8abf-844988db717a.jpg"
+  },
+  {
+    "id": "big-walk-island-930370",
+    "mapId": "island",
+    "category": "puzzle",
+    "title": "Musical Camouflage Box Puzzle",
+    "description": "Location: Surrounded by large rocks near the speaker area Solution: Have a friend head to the listening station over the water and have them listen to the song and press the button to open the box - [Musical Camouflage Box Button](https://mapgenie.io/big-walk/maps/island?locationIds=930337) Reward: Red Blob",
+    "coords": [
+      -0.65277012100665,
+      0.67226686084109
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/14b2ca63-e256-4586-9b3e-8db6508e58f6.jpg"
+  },
+  {
+    "id": "big-walk-island-930148",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "First Section Gray Key Cutter",
+    "description": "Next: [Second Section Gray Key Cutter](https://mapgenie.io/big-walk/maps/island?locationIds=930152)",
+    "coords": [
+      -0.95349424556747,
+      0.84149729445397
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/54352bf8-57e8-4019-af6b-8e84ea2c03fa.jpg"
+  },
+  {
+    "id": "big-walk-island-930149",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "Fourth Section Gray Key Cutter",
+    "description": "Next: [Fifth Section Gray Key Cutter](https://mapgenie.io/big-walk/maps/island?locationIds=930150)",
+    "coords": [
+      -0.95615499691019,
+      0.84759061132748
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/60744fa4-6172-4644-b5a5-94d563e3d930.jpg"
+  },
+  {
+    "id": "big-walk-island-930150",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "Fifth Section Gray Key Cutter",
+    "description": "Next: [Gray Key Holder](https://mapgenie.io/big-walk/maps/island?locationIds=930153)",
+    "coords": [
+      -0.95830076412329,
+      0.85754586894073
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3f88f949-f7db-49a0-b179-de2352aa51c4.jpg"
+  },
+  {
+    "id": "big-walk-island-930151",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "Third Section Gray Key Cutter",
+    "description": "Next: [Fourth Section Gray Key Cutter](https://mapgenie.io/big-walk/maps/island?locationIds=930149)",
+    "coords": [
+      -0.94577194040133,
+      0.85404685516991
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ea3d1cc3-7251-4abc-bfbc-d93dda3b5d2c.jpg"
+  },
+  {
+    "id": "big-walk-island-930152",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "Second Section Gray Key Cutter",
+    "description": "Next: [Third Section Gray Key Cutter](https://mapgenie.io/big-walk/maps/island?locationIds=930151)",
+    "coords": [
+      -0.94654441659759,
+      0.84555055162063
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/17e70ded-550b-46b3-bdbe-e1e0527adca1.jpg"
+  },
+  {
+    "id": "big-walk-island-930185",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "First Section Red Key Cutter",
+    "description": "Next: [Second Section Red Key Cutter](https://mapgenie.io/big-walk/maps/island?locationIds=930186)",
+    "coords": [
+      -0.81685999211464,
+      0.78673786029823
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2e0503cc-99a9-4b8d-8fff-56cdb083f20f.jpg"
+  },
+  {
+    "id": "big-walk-island-930186",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "Second Section Red Key Cutter",
+    "description": "Next: [Third Section Red Key Cutter](https://mapgenie.io/big-walk/maps/island?locationIds=930187)",
+    "coords": [
+      -0.83957053693399,
+      0.76230428372115
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/0f84aeb9-5b54-4743-a5d6-c57a08bc82fa.jpg"
+  },
+  {
+    "id": "big-walk-island-930187",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "Third Section Red Key Cutter",
+    "description": "Next: [Fourth Section Red Key Cutter](https://mapgenie.io/big-walk/maps/island?locationIds=930188)",
+    "coords": [
+      -0.84115898903002,
+      0.79608231827898
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d2b4886d-ea88-472b-b50c-02933a2475ed.jpg"
+  },
+  {
+    "id": "big-walk-island-930188",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "Fourth Section Red Key Cutter",
+    "description": "Next: [Fifth Section Red Key Cutter](https://mapgenie.io/big-walk/maps/island?locationIds=930189)",
+    "coords": [
+      -0.83227928828398,
+      0.81384098060059
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1cb7fd1d-b1a1-44a0-b45e-4657d316a6dd.jpg"
+  },
+  {
+    "id": "big-walk-island-930189",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "Fifth Section Red Key Cutter",
+    "description": "Next: [Red Key Holder](https://mapgenie.io/big-walk/maps/island?locationIds=930190)",
+    "coords": [
+      -0.82065362330522,
+      0.82633110704248
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f5de131c-132e-427f-a895-ad3ee708b650.jpg"
+  },
+  {
+    "id": "big-walk-island-930224",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "First Section Green Key Cutter",
+    "description": "Next: [Second Section Green Key Cutter](https://mapgenie.io/big-walk/maps/island?locationIds=930225)",
+    "coords": [
+      -0.58946993196429,
+      0.64923994881826
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b26af0a5-12eb-4205-a0cc-ccdc2cdca099.jpg"
+  },
+  {
+    "id": "big-walk-island-930225",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "Second Section Green Key Cutter",
+    "description": "Next: [Third Section Green Key Cutter](https://mapgenie.io/big-walk/maps/island?locationIds=930226)",
+    "coords": [
+      -0.58117821405202,
+      0.65769222618641
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/a554d463-7f98-4342-bf3f-b10c4eeff92c.jpg"
+  },
+  {
+    "id": "big-walk-island-930226",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "Third Section Green Key Cutter",
+    "description": "Next: [Fourth Section Green Key Cutter](https://mapgenie.io/big-walk/maps/island?locationIds=930227)",
+    "coords": [
+      -0.56782879868294,
+      0.6529079670602
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f55d1be9-7286-42c4-b7aa-3512954491e2.jpg"
+  },
+  {
+    "id": "big-walk-island-930227",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "Fourth Section Green Key Cutter",
+    "description": "Next: [Fifth Section Green Key Cutter](https://mapgenie.io/big-walk/maps/island?locationIds=930228)",
+    "coords": [
+      -0.56885876694463,
+      0.63634369266259
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2ff44b62-3351-4372-8614-0677f3012ca1.jpg"
+  },
+  {
+    "id": "big-walk-island-930228",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "Fifth Section Green Key Cutter",
+    "description": "Next: [Green Key Holder](https://mapgenie.io/big-walk/maps/island?locationIds=930207)",
+    "coords": [
+      -0.576326036842,
+      0.63857515244764
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1c5d8a7b-b70d-4b85-9ec3-2d3aae54f84f.jpg"
+  },
+  {
+    "id": "big-walk-island-930260",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "First Section Yellow Key Cutter",
+    "description": "Next: [Second Section Yellow Key Cutter](https://mapgenie.io/big-walk/maps/island?locationIds=930261)",
+    "coords": [
+      -0.74406082307809,
+      0.9474514457075
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/59aafe88-84e1-46eb-96c6-52b5e07e8fdd.jpg"
+  },
+  {
+    "id": "big-walk-island-930261",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "Second Section Yellow Key Cutter",
+    "description": "Next: [Third Section Yellow Key Cutter](https://mapgenie.io/big-walk/maps/island?locationIds=930262)",
+    "coords": [
+      -0.74491912996282,
+      0.93689569837031
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3cc7fe95-1900-46ca-abe3-99454ffdc6d9.jpg"
+  },
+  {
+    "id": "big-walk-island-930262",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "Third Section Yellow Key Cutter",
+    "description": "Next: [Fourth Section Yellow Key Cutter](https://mapgenie.io/big-walk/maps/island?locationIds=930263)",
+    "coords": [
+      -0.74549337368026,
+      0.91503228304815
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b7ee7ca2-aad8-4f1c-bed9-04b675ab5115.jpg"
+  },
+  {
+    "id": "big-walk-island-930263",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "Fourth Section Yellow Key Cutter",
+    "description": "Next: [Fifth Section Yellow Key Cutter](https://mapgenie.io/big-walk/maps/island?locationIds=930264)",
+    "coords": [
+      -0.75600758355051,
+      0.88477223415428
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/5d8d39b4-d625-4aef-a87a-d977aafdbcd7.jpg"
+  },
+  {
+    "id": "big-walk-island-930264",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "Fifth Section Yellow Key Cutter",
+    "description": "Next: [Yellow Key Holder](https://mapgenie.io/big-walk/maps/island?locationIds=930265)",
+    "coords": [
+      -0.74069682199092,
+      0.8613301998689
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/32f449d5-d240-4d95-be13-afba7d00daa5.jpg"
+  },
+  {
+    "id": "big-walk-island-930309",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "First Section Blue Key Cutter",
+    "description": "Next: [Second Section Blue Key Cutter](https://mapgenie.io/big-walk/maps/island?locationIds=930310)",
+    "coords": [
+      -0.62493145101988,
+      0.82995984757083
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/67910d6a-8eb8-4a77-a40a-579456602348.jpg"
+  },
+  {
+    "id": "big-walk-island-930310",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "Second Section Blue Key Cutter",
+    "description": "Next: [Third Section Blue Key Cutter](https://mapgenie.io/big-walk/maps/island?locationIds=930311)",
+    "coords": [
+      -0.61265766256832,
+      0.83176210251693
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/39d41255-e905-4f98-8db7-722d82c00165.jpg"
+  },
+  {
+    "id": "big-walk-island-930311",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "Third Section Blue Key Cutter",
+    "description": "Next: [Fourth Section Blue Key Cutter](https://mapgenie.io/big-walk/maps/island?locationIds=930312)",
+    "coords": [
+      -0.61076938742113,
+      0.8502995338747
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6a7abcd4-b56f-4d6f-a757-5b4428b8c624.jpg"
+  },
+  {
+    "id": "big-walk-island-930312",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "Fourth Section Blue Key Cutter",
+    "description": "Next: [Fifth Section Blue Key Cutter](https://mapgenie.io/big-walk/maps/island?locationIds=930313)",
+    "coords": [
+      -0.60244381063902,
+      0.85476223560956
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/250564f1-35a9-45c6-917a-fc6d4fcee251.jpg"
+  },
+  {
+    "id": "big-walk-island-930313",
+    "mapId": "island",
+    "category": "key-cutter",
+    "title": "Fifth Section Blue Key Cutter",
+    "description": "Next: [Blue Key Holder](https://mapgenie.io/big-walk/maps/island?locationIds=930284)",
+    "coords": [
+      -0.61574756735357,
+      0.86171374143574
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f7916e5d-29e6-4a04-bf49-1ecaf6575522.jpg"
+  },
+  {
+    "id": "big-walk-island-930156",
+    "mapId": "island",
+    "category": "music-station",
+    "title": "Music Station 01",
+    "description": "Location: On top of a small pedestal on the side of the catwalk",
+    "coords": [
+      -0.92905601900006,
+      0.75892415868927
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d95b6432-2e9f-4660-adb3-3393cc21d352.jpg"
+  },
+  {
+    "id": "big-walk-island-930179",
+    "mapId": "island",
+    "category": "music-station",
+    "title": "Music Station 03",
+    "description": "Location: Past the speaker area next to the stream",
+    "coords": [
+      -0.70671401194687,
+      0.70509203535575
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/89ff5442-0fff-416d-b10d-5bd2412ccd04.jpg"
+  },
+  {
+    "id": "big-walk-island-930182",
+    "mapId": "island",
+    "category": "music-station",
+    "title": "Music Station 06",
+    "description": "Location: At the end of the ravine past the speaker area",
+    "coords": [
+      -0.6420020475926,
+      0.6784593751804
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/c93c6a5e-fda2-471e-be8c-053185cfa815.jpg"
+  },
+  {
+    "id": "big-walk-island-930230",
+    "mapId": "island",
+    "category": "music-station",
+    "title": "Music Station 02",
+    "description": "Location: On top of the cliff next to the speaker area",
+    "coords": [
+      -0.54293956275194,
+      0.49696072518859
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f2140f41-79e8-4cf7-af33-40efef6314ab.jpg"
+  },
+  {
+    "id": "big-walk-island-930267",
+    "mapId": "island",
+    "category": "music-station",
+    "title": "Music Station 05",
+    "description": "Location: Inside the tunnel behind the [Yellow Key Holder](https://mapgenie.io/big-walk/maps/island?locationIds=930265) in a side room with speakers",
+    "coords": [
+      -0.71220147653372,
+      0.85239538690925
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/52b11797-973b-492b-824a-7e8f633f19c2.jpg"
+  },
+  {
+    "id": "big-walk-island-930338",
+    "mapId": "island",
+    "category": "music-station",
+    "title": "Music Station 04",
+    "description": "Location: In the yellow speaker area near a wall on a pedestal",
+    "coords": [
+      -0.62724794406012,
+      0.93967937257261
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/df4ddcc8-5638-4249-8afc-52b899119ff0.jpg"
+  },
+  {
+    "id": "big-walk-island-930360",
+    "mapId": "island",
+    "category": "music-station",
+    "title": "Music Station 07",
+    "description": "Location: In the pink speaker area in the corner",
+    "coords": [
+      -0.89409352251369,
+      0.94298735736099
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/be48aebc-bff7-4cf7-8d46-4b71eb96118b.jpg"
+  },
+  {
+    "id": "big-walk-island-930134",
+    "mapId": "island",
+    "category": "firework-launcher",
+    "title": "Firework Launcher",
+    "description": "Firework Launcher localizado em island.",
+    "coords": [
+      -0.90844567838116,
+      0.83151332952605
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/dd911ce3-b0b1-4ad8-ab8f-5e4ba7d27cbd.jpg"
+  },
+  {
+    "id": "big-walk-island-930157",
+    "mapId": "island",
+    "category": "firework-launcher",
+    "title": "Firework Launcher",
+    "description": "Firework Launcher localizado em island.",
+    "coords": [
+      -0.83446480056062,
+      0.82418652259237
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1fa1b4fb-edcc-4058-b470-3e0a11fd23f3.jpg"
+  },
+  {
+    "id": "big-walk-island-930165",
+    "mapId": "island",
+    "category": "firework-launcher",
+    "title": "Firework Launcher",
+    "description": "Firework Launcher localizado em island.",
+    "coords": [
+      -0.81444740295302,
+      0.79520116288265
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/a797222a-33a9-4014-91a4-73ef41689ca2.jpg"
+  },
+  {
+    "id": "big-walk-island-930203",
+    "mapId": "island",
+    "category": "firework-launcher",
+    "title": "Firework Launcher",
+    "description": "Firework Launcher localizado em island.",
+    "coords": [
+      -0.59352552126825,
+      0.65824164873258
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b2e71ec8-6a14-412f-a68e-38be3e1f4718.jpg"
+  },
+  {
+    "id": "big-walk-island-930232",
+    "mapId": "island",
+    "category": "firework-launcher",
+    "title": "Firework Launcher",
+    "description": "Firework Launcher localizado em island.",
+    "coords": [
+      -0.56273840131936,
+      0.52197254788524
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/cb1928cb-a53b-47cb-9e11-0eabcdabb54a.jpg"
+  },
+  {
+    "id": "big-walk-island-930247",
+    "mapId": "island",
+    "category": "firework-launcher",
+    "title": "Firework Launcher",
+    "description": "Firework Launcher localizado em island.",
+    "coords": [
+      -0.74944674968611,
+      0.95194191775613
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9c058895-0042-40cc-858d-b773491905b9.jpg"
+  },
+  {
+    "id": "big-walk-island-930280",
+    "mapId": "island",
+    "category": "firework-launcher",
+    "title": "Firework Launcher",
+    "description": "Firework Launcher localizado em island.",
+    "coords": [
+      -0.61815319456903,
+      0.83543864388764
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1972c6bd-d91a-420f-bab3-aaa4d1b478d2.jpg"
+  },
+  {
+    "id": "big-walk-island-930304",
+    "mapId": "island",
+    "category": "firework-launcher",
+    "title": "Firework Launcher",
+    "description": "Firework Launcher localizado em island.",
+    "coords": [
+      -0.67288663831346,
+      0.80919011062291
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/864507be-0384-4da5-9051-469fc33b1404.jpg"
+  },
+  {
+    "id": "big-walk-island-930161",
+    "mapId": "island",
+    "category": "tower",
+    "title": "Red Tower",
+    "description": "Tower localizado em island.",
+    "coords": [
+      -0.81852436065623,
+      0.79231001902671
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/121d76a1-38bb-4559-ab4f-e46b34ec4edc.jpg"
+  },
+  {
+    "id": "big-walk-island-930196",
+    "mapId": "island",
+    "category": "tower",
+    "title": "Green Tower",
+    "description": "Tower localizado em island.",
+    "coords": [
+      -0.59338226799559,
+      0.65361427933465
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/112ffb8e-7a13-4fe4-916d-ab4852f36604.jpg"
+  },
+  {
+    "id": "big-walk-island-930244",
+    "mapId": "island",
+    "category": "tower",
+    "title": "Yellow Tower",
+    "description": "Tower localizado em island.",
+    "coords": [
+      -0.74900820884528,
+      0.94816826298813
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/a27f0a71-dc3d-40c3-a159-3cdbba6224f4.jpg"
+  },
+  {
+    "id": "big-walk-island-930276",
+    "mapId": "island",
+    "category": "tower",
+    "title": "Blue Tower",
+    "description": "Tower localizado em island.",
+    "coords": [
+      -0.62309576032169,
+      0.83303563935326
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3b658be8-f208-4f91-8a9e-a0236c316721.jpg"
+  },
+  {
+    "id": "big-walk-island-930314",
+    "mapId": "island",
+    "category": "tower",
+    "title": "Black Tower",
+    "description": "Unlocks after placing all five keys in their rightful location",
+    "coords": [
+      -0.69959169577498,
+      0.86978672293255
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/c65581a0-38f0-4f0c-bba0-a332bb45d565.jpg"
+  },
+  {
+    "id": "big-walk-island-930153",
+    "mapId": "island",
+    "category": "key-holder",
+    "title": "Gray Key Holder",
+    "description": "Unlocks: The bridge to cross the catwalk Requires: [Gray Key](https://mapgenie.io/big-walk/maps/island?locationIds=930138)",
+    "coords": [
+      -0.96718735498251,
+      0.8343375432824
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/16990e0f-20f3-43c7-a910-f3621436f40d.jpg"
+  },
+  {
+    "id": "big-walk-island-930190",
+    "mapId": "island",
+    "category": "key-holder",
+    "title": "Red Key Holder",
+    "description": "Unlocks: The door to the map room Requires: [Red Key](https://mapgenie.io/big-walk/maps/island?locationIds=930164)",
+    "coords": [
+      -0.81533549996385,
+      0.82694942911839
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/0ff0a3f7-60ea-49dd-9173-869c2b95379e.jpg"
+  },
+  {
+    "id": "big-walk-island-930207",
+    "mapId": "island",
+    "category": "key-holder",
+    "title": "Green Key Holder",
+    "description": "Unlocks: The [Lift Station](https://mapgenie.io/big-walk/maps/island?locationIds=930206) Requires: [Green Key](https://mapgenie.io/big-walk/maps/island?locationIds=930199)",
+    "coords": [
+      -0.5702427939577,
+      0.64966388884301
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d597c1d2-682c-41bf-ab4b-65959e4b3bde.jpg"
+  },
+  {
+    "id": "big-walk-island-930265",
+    "mapId": "island",
+    "category": "key-holder",
+    "title": "Yellow Key Holder",
+    "description": "Unlocks: The Tunnel System Requires: [Yellow Key](https://mapgenie.io/big-walk/maps/island?locationIds=930251)",
+    "coords": [
+      -0.72387400704974,
+      0.85360630295401
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/05bd7b41-4bfc-4f20-9ac2-526cc46e622d.jpg"
+  },
+  {
+    "id": "big-walk-island-930284",
+    "mapId": "island",
+    "category": "key-holder",
+    "title": "Blue Key Holder",
+    "description": "Unlocks: The Train System Requires: [Blue Key](https://mapgenie.io/big-walk/maps/island?locationIds=930279)",
+    "coords": [
+      -0.62908047820667,
+      0.86544186397472
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ebfbffd8-3583-4dec-893a-3c5d921cee53.jpg"
+  },
+  {
+    "id": "big-walk-island-930334",
+    "mapId": "island",
+    "category": "key-holder",
+    "title": "Black Key Holder",
+    "description": "Unlocks: The Wall Requires: [Black Key](https://mapgenie.io/big-walk/maps/island?locationIds=930315)",
+    "coords": [
+      -0.71608112373931,
+      1.0366484516406
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d2e2f923-fa66-4f28-afc4-c0f1ce5b19e1.jpg"
+  },
+  {
+    "id": "big-walk-island-930371",
+    "mapId": "island",
+    "category": "key-holder",
+    "title": "Silver Key Holder",
+    "description": "Unlocks: The Secret Ending Requires: [Silver Key](https://mapgenie.io/big-walk/maps/island?locationIds=930366)",
+    "coords": [
+      -0.83023345680763,
+      0.84830864685448
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/af7bf63b-b430-430b-b196-eda9e7e0144a.jpg"
+  },
+  {
+    "id": "big-walk-island-930175",
+    "mapId": "island",
+    "category": "train-station",
+    "title": "Train Station",
+    "description": "Train Station localizado em island.",
+    "coords": [
+      -0.77838953091862,
+      0.68716127120776
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1d7ebb73-37a9-4030-8bdd-7c28b8b76da3.jpg"
+  },
+  {
+    "id": "big-walk-island-930208",
+    "mapId": "island",
+    "category": "train-station",
+    "title": "Train Station",
+    "description": "Train Station localizado em island.",
+    "coords": [
+      -0.63183270377797,
+      0.54103783871595
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/492ed9f9-c210-4b26-a0fa-284cdc4718be.jpg"
+  },
+  {
+    "id": "big-walk-island-930210",
+    "mapId": "island",
+    "category": "train-station",
+    "title": "Train Station",
+    "description": "Train Station localizado em island.",
+    "coords": [
+      -0.70641338825331,
+      0.57382756797166
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ca71db5b-3cee-499a-8300-0eb7d76e7ffb.jpg"
+  },
+  {
+    "id": "big-walk-island-930285",
+    "mapId": "island",
+    "category": "train-station",
+    "title": "Train Station",
+    "description": "Train Station localizado em island.",
+    "coords": [
+      -0.62828878848552,
+      0.86228143594474
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/fcc55e4f-c869-4799-84ad-408c23ae18c5.jpg"
+  },
+  {
+    "id": "big-walk-island-930286",
+    "mapId": "island",
+    "category": "train-station",
+    "title": "Train Station",
+    "description": "Train Station localizado em island.",
+    "coords": [
+      -0.7964470652897,
+      0.86052936973846
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/84925cd3-0160-41aa-8cce-65ba8238464c.jpg"
+  },
+  {
+    "id": "big-walk-island-930288",
+    "mapId": "island",
+    "category": "train-station",
+    "title": "Train Station",
+    "description": "Train Station localizado em island.",
+    "coords": [
+      -0.59215670044094,
+      0.68459665347086
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/5dd3f2f6-4a26-4802-baaa-58800fe82f8d.jpg"
+  },
+  {
+    "id": "big-walk-island-930352",
+    "mapId": "island",
+    "category": "train-station",
+    "title": "Train Station",
+    "description": "Train Station localizado em island.",
+    "coords": [
+      -0.67197259446209,
+      0.91699846336955
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d31c2b2d-ea52-4f4f-af81-cf81e87a478b.jpg"
+  },
+  {
+    "id": "big-walk-island-930206",
+    "mapId": "island",
+    "category": "lift-station",
+    "title": "Lift Station",
+    "description": "Lift Station localizado em island.",
+    "coords": [
+      -0.57256022254779,
+      0.64829068591924
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e49875a5-6c58-4d27-96c2-25f6017e6be7.jpg"
+  },
+  {
+    "id": "big-walk-island-930240",
+    "mapId": "island",
+    "category": "lift-station",
+    "title": "Lift Station",
+    "description": "Lift Station localizado em island.",
+    "coords": [
+      -0.58502343310326,
+      0.51459362260994
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/a25c93b9-5a8d-43ae-a78f-27d654a30961.jpg"
+  },
+  {
+    "id": "big-walk-island-930241",
+    "mapId": "island",
+    "category": "lift-station",
+    "title": "Lift Station",
+    "description": "Lift Station localizado em island.",
+    "coords": [
+      -0.66239516288954,
+      0.81009277937348
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/68732430-d40b-4dee-a005-b3640fe5a2b4.jpg"
+  },
+  {
+    "id": "big-walk-island-930242",
+    "mapId": "island",
+    "category": "lift-station",
+    "title": "Lift Station",
+    "description": "Lift Station localizado em island.",
+    "coords": [
+      -0.73317962424508,
+      0.95177677703221
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3ef2d93b-8a91-4adb-9f7b-2055a513ed7e.jpg"
+  },
+  {
+    "id": "big-walk-island-930243",
+    "mapId": "island",
+    "category": "lift-station",
+    "title": "Lift Station",
+    "description": "Lift Station localizado em island.",
+    "coords": [
+      -0.84529758022421,
+      0.99119092633671
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/87184c12-6244-45ba-960c-ad6a8a38a3ab.jpg"
+  },
+  {
+    "id": "big-walk-island-930135",
+    "mapId": "island",
+    "category": "scanner",
+    "title": "Scanner",
+    "description": "Location: On top of the bench next to the [Firework Launcher](https://mapgenie.io/big-walk/maps/island?locationIds=930134)",
+    "coords": [
+      -0.91053083600468,
+      0.82876983782086
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/898efe29-1f83-4000-a36d-515895a210ff.jpg"
+  },
+  {
+    "id": "big-walk-island-930163",
+    "mapId": "island",
+    "category": "scanner",
+    "title": "Scanner",
+    "description": "Location: On a ledge on the bottom floor of the [Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930161)",
+    "coords": [
+      -0.81594944000159,
+      0.79102268159328
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9251dac4-c419-4667-a2b0-e13f68133a99.jpg"
+  },
+  {
+    "id": "big-walk-island-930198",
+    "mapId": "island",
+    "category": "scanner",
+    "title": "Scanner",
+    "description": "Location: On a ledge on the bottom floor of the [Green Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930196)",
+    "coords": [
+      -0.59099762442239,
+      0.65516704278323
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/87e8f23b-84e6-4e5c-aa7b-3f70eb4dcc8e.jpg"
+  },
+  {
+    "id": "big-walk-island-930235",
+    "mapId": "island",
+    "category": "scanner",
+    "title": "Scanner",
+    "description": "Location: On top of a table on the cliff next to the [Radio Transmitter](https://mapgenie.io/big-walk/maps/island?locationIds=930233)",
+    "coords": [
+      -0.55154035395609,
+      0.52244748651857
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/def6e373-51b8-4ce9-b103-5cf9d7f9d4d9.jpg"
+  },
+  {
+    "id": "big-walk-island-930246",
+    "mapId": "island",
+    "category": "scanner",
+    "title": "Scanner",
+    "description": "Location: On a ledge on the bottom floor of the [Yellow Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930244)",
+    "coords": [
+      -0.74669855799627,
+      0.94662352179527
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/db295041-ccda-45e9-857b-e43f93a96887.jpg"
+  },
+  {
+    "id": "big-walk-island-930278",
+    "mapId": "island",
+    "category": "scanner",
+    "title": "Scanner",
+    "description": "Location: On a ledge on the bottom floor of the [Blue Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930276)",
+    "coords": [
+      -0.62023267724567,
+      0.83397967702338
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/dea7b12b-f98c-4a23-b694-744607dad8bc.jpg"
+  },
+  {
+    "id": "big-walk-island-930368",
+    "mapId": "island",
+    "category": "scanner",
+    "title": "Scanner",
+    "description": "Location: On top of a pedestal near the [Train Station](https://mapgenie.io/big-walk/maps/island?locationIds=930286)",
+    "coords": [
+      -0.80000683223864,
+      0.85409278871202
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/149b80b0-57f6-48e5-b28a-3ad66abdd17a.jpg"
+  },
+  {
+    "id": "big-walk-island-930155",
+    "mapId": "island",
+    "category": "music-player",
+    "title": "Music Player",
+    "description": "Location: On top of a small pedestal on the side of the catwalk next to [Music Station 01](https://mapgenie.io/big-walk/maps/island?locationIds=930156)",
+    "coords": [
+      -0.93078093125615,
+      0.76097186086945
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ce250b59-f676-4b22-95b9-099aa5e03811.jpg"
+  },
+  {
+    "id": "big-walk-island-930180",
+    "mapId": "island",
+    "category": "music-player",
+    "title": "Music Player",
+    "description": "Location: Next to the [Music Station 03](https://mapgenie.io/big-walk/maps/island?locationIds=930179)",
+    "coords": [
+      -0.70920310191266,
+      0.70586445299601
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/08279a19-8766-4d44-8e62-2e19c70094bd.jpg"
+  },
+  {
+    "id": "big-walk-island-930183",
+    "mapId": "island",
+    "category": "music-player",
+    "title": "Music Player",
+    "description": "Location: Next to the [Music Station 06](https://mapgenie.io/big-walk/maps/island?locationIds=930182)",
+    "coords": [
+      -0.64457696824684,
+      0.67828772583525
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/32cb9c32-e887-4edf-ac69-4fd72626b706.jpg"
+  },
+  {
+    "id": "big-walk-island-930231",
+    "mapId": "island",
+    "category": "music-player",
+    "title": "Music Player",
+    "description": "Location: Next to the [Music Station 02](https://mapgenie.io/big-walk/maps/island?locationIds=930230)",
+    "coords": [
+      -0.54113711829521,
+      0.49498669331595
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/80c47a5f-e017-4432-9cee-7ef3063fbefa.jpg"
+  },
+  {
+    "id": "big-walk-island-930268",
+    "mapId": "island",
+    "category": "music-player",
+    "title": "Music Player",
+    "description": "Location: Next to the [Music Station 05](https://mapgenie.io/big-walk/maps/island?locationIds=930267)",
+    "coords": [
+      -0.70928323312555,
+      0.85248120809855
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ce88cb31-42bb-4ce9-811d-d3cc5a7ab584.jpg"
+  },
+  {
+    "id": "big-walk-island-930305",
+    "mapId": "island",
+    "category": "music-player",
+    "title": "Music Player",
+    "description": "Location: On a small table at the top of the mountain next to the [Radio Transmitter](https://mapgenie.io/big-walk/maps/island?locationIds=930303)",
+    "coords": [
+      -0.67820814099849,
+      0.81099237492515
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/82511ee0-b8b2-4600-88dc-b5a57c520ef6.jpg"
+  },
+  {
+    "id": "big-walk-island-930339",
+    "mapId": "island",
+    "category": "music-player",
+    "title": "Music Player",
+    "description": "Location: Next to [Music Station 04](https://mapgenie.io/big-walk/maps/island?locationIds=930338)",
+    "coords": [
+      -0.62699045199565,
+      0.936589881969
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ba518043-b6f1-4d35-86e0-6f3df5375a2e.jpg"
+  },
+  {
+    "id": "big-walk-island-930361",
+    "mapId": "island",
+    "category": "music-player",
+    "title": "Music Player",
+    "description": "Location: Next to the [Music Station 07](https://mapgenie.io/big-walk/maps/island?locationIds=930360)",
+    "coords": [
+      -0.89186192461258,
+      0.94418882405051
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2a9ed1e4-a210-490f-a8b0-cb9babec0107.jpg"
+  },
+  {
+    "id": "big-walk-island-930367",
+    "mapId": "island",
+    "category": "music-player",
+    "title": "Music Player",
+    "description": "Location: On top of a pedestal near the [Train Station](https://mapgenie.io/big-walk/maps/island?locationIds=930286)",
+    "coords": [
+      -0.8023242608279,
+      0.85538689840125
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f373d37f-59da-464a-aa23-bff30347bebb.jpg"
+  },
+  {
+    "id": "big-walk-island-930154",
+    "mapId": "island",
+    "category": "flashlight",
+    "title": "Flashlight",
+    "description": "Location: On top of a pedestal across from the bridge on the catwalk",
+    "coords": [
+      -0.97096390527417,
+      0.83080054023894
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9321cf94-d74c-460c-bc42-d590876bed32.jpg"
+  },
+  {
+    "id": "big-walk-island-930162",
+    "mapId": "island",
+    "category": "flashlight",
+    "title": "Flashlight",
+    "description": "Location: On a ledge on the bottom floor of the [Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930161)",
+    "coords": [
+      -0.82092725371299,
+      0.79368583910532
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/fff3eb20-ab58-464c-a247-57b06228bd18.jpg"
+  },
+  {
+    "id": "big-walk-island-930197",
+    "mapId": "island",
+    "category": "flashlight",
+    "title": "Flashlight",
+    "description": "Location: On a ledge on the bottom floor of the [Green Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930196)",
+    "coords": [
+      -0.59151260855324,
+      0.65164821338732
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/14bb1fcb-1e84-45d7-b63d-783b23ba5225.jpg"
+  },
+  {
+    "id": "big-walk-island-930245",
+    "mapId": "island",
+    "category": "flashlight",
+    "title": "Flashlight",
+    "description": "Location: On a ledge on the bottom floor of the [Yellow Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930244)",
+    "coords": [
+      -0.746784388686,
+      0.95054589171848
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/4281faee-5646-45dd-ba55-d0e1c16d2647.jpg"
+  },
+  {
+    "id": "big-walk-island-930266",
+    "mapId": "island",
+    "category": "flashlight",
+    "title": "Flashlight",
+    "description": "Location: Inside the yellow tunnel behind the [Yellow Key Holder](https://mapgenie.io/big-walk/maps/island?locationIds=930265)",
+    "coords": [
+      -0.71676602637825,
+      0.85305239259759
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/cf2dd43e-83e9-4503-af5c-5e2e279530a5.jpg"
+  },
+  {
+    "id": "big-walk-island-930269",
+    "mapId": "island",
+    "category": "flashlight",
+    "title": "Flashlight",
+    "description": "Location: At the beginning of the blue tunnel",
+    "coords": [
+      -0.64015116097596,
+      0.82547332767064
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/18a9bcf5-4f30-42e7-b55b-ec55ca8d9a46.jpg"
+  },
+  {
+    "id": "big-walk-island-930270",
+    "mapId": "island",
+    "category": "flashlight",
+    "title": "Flashlight",
+    "description": "Location: At the entrance to the green tunnel",
+    "coords": [
+      -0.60584028013307,
+      0.71594178188724
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/853865cf-782f-4a28-9aa2-cb527d36fed0.jpg"
+  },
+  {
+    "id": "big-walk-island-930274",
+    "mapId": "island",
+    "category": "flashlight",
+    "title": "Flashlight",
+    "description": "Location: At the entrance of the red tunnel",
+    "coords": [
+      -0.78798891606829,
+      0.78365172189173
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2688fd19-cfc4-47c5-974a-9548a9f4e186.jpg"
+  },
+  {
+    "id": "big-walk-island-930277",
+    "mapId": "island",
+    "category": "flashlight",
+    "title": "Flashlight",
+    "description": "Location: On a ledge on the bottom floor of the [Blue Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930276)",
+    "coords": [
+      -0.62203512170615,
+      0.8362349838208
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b0a1a1f5-f6b5-4c36-adf9-859af946cbf8.jpg"
+  },
+  {
+    "id": "big-walk-island-930307",
+    "mapId": "island",
+    "category": "flare-gun",
+    "title": "Green Flare Gun",
+    "description": "Location: At the bottom of the hole before the slide off the cliff",
+    "coords": [
+      -0.69288518872875,
+      0.79666006057823
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e1ac273d-fcd2-4d66-be5f-7a2ab9208396.jpg"
+  },
+  {
+    "id": "big-walk-island-930317",
+    "mapId": "island",
+    "category": "flare-gun",
+    "title": "Red Flare Gun",
+    "description": "Location: At the bottom of the hole before the slide off the cliff",
+    "coords": [
+      -0.67347357399947,
+      0.74609457320828
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/dacc2833-2a22-42cd-8cf4-49c29f6e5745.jpg"
+  },
+  {
+    "id": "big-walk-island-930354",
+    "mapId": "island",
+    "category": "flare-gun",
+    "title": "Blue Flare Gun",
+    "description": "Location: At the bottom of the hole before going out the hole in the side of the cliff",
+    "coords": [
+      -0.66681265663649,
+      0.90490209923368
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1eb880ba-2c11-4a22-8dc3-34324a67668b.jpg"
+  },
+  {
+    "id": "big-walk-island-930364",
+    "mapId": "island",
+    "category": "flare-gun",
+    "title": "Yellow Flare Gun",
+    "description": "Location: At the bottom of the hole before heading down the path to the shore",
+    "coords": [
+      -0.94223479089433,
+      0.87733096121491
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/51921382-591b-4bf1-a718-89bcac7f645f.jpg"
+  },
+  {
+    "id": "big-walk-island-930169",
+    "mapId": "island",
+    "category": "backpack",
+    "title": "Yellow Backpack",
+    "description": "Location: Hanging from a pole in the middle of the blue structure",
+    "coords": [
+      -0.83914518356647,
+      0.73685760533182
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/a09f6335-7bd5-4c07-8c55-01e75f356528.jpg"
+  },
+  {
+    "id": "big-walk-island-930213",
+    "mapId": "island",
+    "category": "backpack",
+    "title": "Pink Backpack",
+    "description": "Location: Hanging from a pole in the middle of the blue structure",
+    "coords": [
+      -0.65518319606724,
+      0.4977151739301
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f36c7164-966f-4de9-a596-e6c946e515d9.jpg"
+  },
+  {
+    "id": "big-walk-island-930236",
+    "mapId": "island",
+    "category": "backpack",
+    "title": "Red Backpack",
+    "description": "Location: Hanging from a pole in the middle of the blue structure",
+    "coords": [
+      -0.5238063856815,
+      0.46157441778816
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/838cfcfa-5ac9-4c8d-9448-8e048831fa26.jpg"
+  },
+  {
+    "id": "big-walk-island-930294",
+    "mapId": "island",
+    "category": "backpack",
+    "title": "Green Backpack",
+    "description": "Location: Hanging from a pole in the middle of the blue structure",
+    "coords": [
+      -0.70552084846275,
+      0.75113130718285
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6056c6f2-9708-4778-a0e9-4f44fcc7aff1.jpg"
+  },
+  {
+    "id": "big-walk-island-930348",
+    "mapId": "island",
+    "category": "backpack",
+    "title": "Orange Backpack",
+    "description": "Location: Hanging from a pole in the middle of the blue structure",
+    "coords": [
+      -0.54879179558156,
+      0.94302601716556
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/84e06724-aa0c-4b2e-9750-cc94249a9bcc.jpg"
+  },
+  {
+    "id": "big-walk-island-930363",
+    "mapId": "island",
+    "category": "backpack",
+    "title": "Blue Backpack",
+    "description": "Location: Hanging from a pole in the middle of the blue structure",
+    "coords": [
+      -0.85861989625855,
+      0.88603136837801
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d8cca9d5-1c4f-4b5a-91ab-75c46b23f380.jpg"
+  },
+  {
+    "id": "big-walk-island-930237",
+    "mapId": "island",
+    "category": "hip-pack",
+    "title": "Hip Pack",
+    "description": "Location: Hanging from a pole in the middle of the blue structure",
+    "coords": [
+      -0.52595215289338,
+      0.45960037573813
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f20d85f7-8ec9-44d2-a996-5def2d8e1ecc.jpg"
+  },
+  {
+    "id": "big-walk-island-930297",
+    "mapId": "island",
+    "category": "hip-pack",
+    "title": "Hip Pack",
+    "description": "Location: Hanging from a pole in the middle of the blue structure",
+    "coords": [
+      -0.76474506545026,
+      0.85585856148893
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/28728919-ac29-4976-9e26-b5d888e3e77d.jpg"
+  },
+  {
+    "id": "big-walk-island-930318",
+    "mapId": "island",
+    "category": "hip-pack",
+    "title": "Hip Pack",
+    "description": "Location: Hanging from a pole in the middle of the blue structure",
+    "coords": [
+      -0.60835105392295,
+      0.73670197854088
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/c6e13484-7b75-4640-b53e-e97ea614a78f.jpg"
+  },
+  {
+    "id": "big-walk-island-930335",
+    "mapId": "island",
+    "category": "hip-pack",
+    "title": "Hip Pack",
+    "description": "Location: Hanging from a pole in the middle of the blue structure in the blue tunnel",
+    "coords": [
+      -0.64292572147411,
+      0.82435975940405
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/c1d6ba1f-0750-4596-abff-7f8aae4395e0.jpg"
+  },
+  {
+    "id": "big-walk-island-930351",
+    "mapId": "island",
+    "category": "hip-pack",
+    "title": "Hip Pack",
+    "description": "Location: Hanging from a pole in the middle of the blue structure",
+    "coords": [
+      -0.67579738809854,
+      0.98501360031437
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/daafabd2-97c0-44f8-a632-a838fcb01bbe.jpg"
+  },
+  {
+    "id": "big-walk-island-930253",
+    "mapId": "island",
+    "category": "megaphone",
+    "title": "Megaphone",
+    "description": "Location: On top of a yellow structure on a ledge over the beach",
+    "coords": [
+      -0.55776293523044,
+      0.39198262560524
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/28b8b9a4-dc55-4303-adb8-d4ec3af62564.jpg"
+  },
+  {
+    "id": "big-walk-island-930320",
+    "mapId": "island",
+    "category": "megaphone",
+    "title": "Megaphone",
+    "description": "Location: On top of a yellow pyramid in the middle of the forest",
+    "coords": [
+      -0.52944206651884,
+      0.67614553803811
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/8cd9f662-7c31-4949-a489-b93a6f4d9f25.jpg"
+  },
+  {
+    "id": "big-walk-island-930357",
+    "mapId": "island",
+    "category": "megaphone",
+    "title": "Megaphone",
+    "description": "Location: On top of a yellow structure on top of the cliff",
+    "coords": [
+      -0.80325088609246,
+      1.0024776456792
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1c7e04fa-e3aa-40dd-8cd9-73cd06af5001.jpg"
+  },
+  {
+    "id": "big-walk-island-930172",
+    "mapId": "island",
+    "category": "walkie-talkie",
+    "title": "Yellow Walkie-Talkie",
+    "description": "Location: On top of a pedestal on the cliff",
+    "coords": [
+      -0.8006823062893,
+      0.76116170637042
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/02cd4460-4bed-4c7d-afed-c7ae9b2692aa.jpg"
+  },
+  {
+    "id": "big-walk-island-930173",
+    "mapId": "island",
+    "category": "walkie-talkie",
+    "title": "Blue Walkie-Talkie",
+    "description": "Location: On top of a pedestal in the valley near the stream",
+    "coords": [
+      -0.78034043312064,
+      0.76339310677368
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/62deb86d-b0cc-4896-b87a-72cc8a701827.jpg"
+  },
+  {
+    "id": "big-walk-island-930300",
+    "mapId": "island",
+    "category": "walkie-talkie",
+    "title": "Yellow Walkie-Talkie",
+    "description": "Location: Down the cliff from the [Lift Station](https://mapgenie.io/big-walk/maps/island?locationIds=930241)",
+    "coords": [
+      -0.64421981243001,
+      0.80689719541253
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d2a2104d-b1ef-4b32-a3ec-ec4942202037.jpg"
+  },
+  {
+    "id": "big-walk-island-930301",
+    "mapId": "island",
+    "category": "walkie-talkie",
+    "title": "Blue Walkie-Talkie",
+    "description": "Location: On top of the cliff next to the [Lift Station](https://mapgenie.io/big-walk/maps/island?locationIds=930241)",
+    "coords": [
+      -0.65752356914101,
+      0.80672555105632
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3dd5d2e6-f261-4733-baec-e1b0a4c8ad62.jpg"
+  },
+  {
+    "id": "big-walk-island-930322",
+    "mapId": "island",
+    "category": "walkie-talkie",
+    "title": "Yellow Walkie-Talkie",
+    "description": "Location: On top of a yellow pedestal in the water",
+    "coords": [
+      -0.44809256770549,
+      0.64397521800554
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/192e4a34-aca2-4bf4-9650-90f658a6d147.jpg"
+  },
+  {
+    "id": "big-walk-island-930324",
+    "mapId": "island",
+    "category": "walkie-talkie",
+    "title": "Blue Walkie-Talkie",
+    "description": "Location: On a blue pedestal on a rock on the shore",
+    "coords": [
+      -0.39552360787189,
+      0.64315441173611
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/158dee92-9903-4436-accb-75263aae6967.jpg"
+  },
+  {
+    "id": "big-walk-island-930345",
+    "mapId": "island",
+    "category": "walkie-talkie",
+    "title": "Yellow Walkie-Talkie",
+    "description": "Location: On top of a pedestal on the edge of a cliff",
+    "coords": [
+      -0.59617008218831,
+      0.89759729400073
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/556392da-9c37-47cc-83f0-70bd0cd2c91b.jpg"
+  },
+  {
+    "id": "big-walk-island-930346",
+    "mapId": "island",
+    "category": "walkie-talkie",
+    "title": "Blue Walkie-Talkie",
+    "description": "Location: On top of a pedestal on the edge of a rock",
+    "coords": [
+      -0.65010309219232,
+      0.9533954740934
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/58bba478-58d6-43bb-886e-0aad06b54dee.jpg"
+  },
+  {
+    "id": "big-walk-island-930323",
+    "mapId": "island",
+    "category": "double-blob-holder",
+    "title": "Double Blob Holder",
+    "description": "Location: At the base of the large white balloon",
+    "coords": [
+      -0.46669048694253,
+      0.68814485154057
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/145c0dcc-00b5-404c-9fe3-6c31af3ff2bd.jpg"
+  },
+  {
+    "id": "big-walk-island-930176",
+    "mapId": "island",
+    "category": "clock",
+    "title": "Clock",
+    "description": "Location: On the wall of the [Train Station](https://mapgenie.io/big-walk/maps/island?locationIds=930175)",
+    "coords": [
+      -0.78087862088188,
+      0.68595972783798
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/5da789ec-39e4-430f-89fd-41c20a884af7.jpg"
+  },
+  {
+    "id": "big-walk-island-930209",
+    "mapId": "island",
+    "category": "clock",
+    "title": "Clock",
+    "description": "Location: On the wall of the [Train Station](https://mapgenie.io/big-walk/maps/island?locationIds=930208)",
+    "coords": [
+      -0.63011609001094,
+      0.53897799368056
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/8cdd8ae1-f441-4225-ba2d-774683461250.jpg"
+  },
+  {
+    "id": "big-walk-island-930211",
+    "mapId": "island",
+    "category": "clock",
+    "title": "Clock",
+    "description": "Location: On the wall of the [Train Station](https://mapgenie.io/big-walk/maps/island?locationIds=930210)",
+    "coords": [
+      -0.70624172687636,
+      0.57125277587495
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/7a02707a-920e-490e-a7f0-2a0837abee2a.jpg"
+  },
+  {
+    "id": "big-walk-island-930287",
+    "mapId": "island",
+    "category": "clock",
+    "title": "Clock",
+    "description": "Location: On the wall of the [Train Station](https://mapgenie.io/big-walk/maps/island?locationIds=930286)",
+    "coords": [
+      -0.7953312663395,
+      0.85795473862511
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/818b4d52-f7f7-486f-a734-069e89e367ec.jpg"
+  },
+  {
+    "id": "big-walk-island-930289",
+    "mapId": "island",
+    "category": "clock",
+    "title": "Clock",
+    "description": "Location: On the wall of the [Train Station](https://mapgenie.io/big-walk/maps/island?locationIds=930288)",
+    "coords": [
+      -0.59455995971823,
+      0.68296598652017
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d20f34ce-95da-4c48-8170-d96258bff49a.jpg"
+  },
+  {
+    "id": "big-walk-island-930353",
+    "mapId": "island",
+    "category": "clock",
+    "title": "Clock",
+    "description": "Location: On the wall of the [Train Station](https://mapgenie.io/big-walk/maps/island?locationIds=930352)",
+    "coords": [
+      -0.67128594895422,
+      0.91433805180272
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/a27bc568-9568-4f31-bad7-7a95a0ae8fec.jpg"
+  },
+  {
+    "id": "big-walk-island-930194",
+    "mapId": "island",
+    "category": "map",
+    "title": "Map",
+    "description": "Location: On top of a ledge on the wall of the [Map Room](https://mapgenie.io/big-walk/maps/island?locationIds=930191)",
+    "coords": [
+      -0.80001175403646,
+      0.82418221908503
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/bf21e943-9662-4754-92f4-cc68ecbdec26.jpg"
+  },
+  {
+    "id": "big-walk-island-930193",
+    "mapId": "island",
+    "category": "compass",
+    "title": "Compass",
+    "description": "Location: On top of a ledge on the wall of the [Map Room](https://mapgenie.io/big-walk/maps/island?locationIds=930191)",
+    "coords": [
+      -0.79769432544759,
+      0.8221224951462
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/145cb531-0ad7-4e4f-a876-29cf39722f67.jpg"
+  },
+  {
+    "id": "big-walk-island-930167",
+    "mapId": "island",
+    "category": "binoculars",
+    "title": "Binoculars",
+    "description": "Location: On top of the [Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930161) on a table next to the [Radio Transmitter](https://mapgenie.io/big-walk/maps/island?locationIds=930166)",
+    "coords": [
+      -0.81813812255746,
+      0.80060797192696
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/a6ebd64f-c31a-4efa-affa-84edea71e50c.jpg"
+  },
+  {
+    "id": "big-walk-island-930201",
+    "mapId": "island",
+    "category": "binoculars",
+    "title": "Binoculars",
+    "description": "Location: On top of the [Green Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930196) on a table next to the [Radio Transmitter](https://mapgenie.io/big-walk/maps/island?locationIds=930200)",
+    "coords": [
+      -0.59696244730625,
+      0.65156122841798
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6c4a61f7-b6bf-4862-ac91-54b42728726a.jpg"
+  },
+  {
+    "id": "big-walk-island-930234",
+    "mapId": "island",
+    "category": "binoculars",
+    "title": "Binoculars",
+    "description": "Location: On top of the [Radio Transmitter](https://mapgenie.io/big-walk/maps/island?locationIds=930233) on the cliff",
+    "coords": [
+      -0.54996927431694,
+      0.52658925018606
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/7743253d-367e-43b0-b2cf-298c0861c4ef.jpg"
+  },
+  {
+    "id": "big-walk-island-930249",
+    "mapId": "island",
+    "category": "binoculars",
+    "title": "Binoculars",
+    "description": "Location: On top of the [Yellow Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930244) on a table next to the [Radio Transmitter](https://mapgenie.io/big-walk/maps/island?locationIds=930248)",
+    "coords": [
+      -0.75154378811717,
+      0.94595674588362
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/7e8259e7-2eb4-47f4-9f00-aaf6cd556a9a.jpg"
+  },
+  {
+    "id": "big-walk-island-930282",
+    "mapId": "island",
+    "category": "binoculars",
+    "title": "Binoculars",
+    "description": "Location: On top of the [Blue Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930276) on a table next to the [Radio Transmitter](https://mapgenie.io/big-walk/maps/island?locationIds=930281)",
+    "coords": [
+      -0.6169241666808,
+      0.83914200483234
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/14f68ee2-d6a1-4d6b-8366-769e7333db93.jpg"
+  },
+  {
+    "id": "big-walk-island-930299",
+    "mapId": "island",
+    "category": "binoculars",
+    "title": "Binoculars",
+    "description": "Location: On top of the ledge on the [Passing Puzzle](https://mapgenie.io/big-walk/maps/island?locationIds=930298)",
+    "coords": [
+      -0.73883941972306,
+      0.82777487419182
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/60a1ec2c-be5d-47dc-8f56-48a338f18ff7.jpg"
+  },
+  {
+    "id": "big-walk-island-930306",
+    "mapId": "island",
+    "category": "binoculars",
+    "title": "Binoculars",
+    "description": "Location: On a small table at the top of the mountain next to the [Radio Transmitter](https://mapgenie.io/big-walk/maps/island?locationIds=930303)",
+    "coords": [
+      -0.67477491345934,
+      0.81159312951478
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6ad8274f-59b5-4672-877d-e0365c2ea4fe.jpg"
+  },
+  {
+    "id": "big-walk-island-930168",
+    "mapId": "island",
+    "category": "laser-pointer",
+    "title": "Laser Pointer",
+    "description": "Location: On top of the [Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930161) on a table next to the [Radio Transmitter](https://mapgenie.io/big-walk/maps/island?locationIds=930166)",
+    "coords": [
+      -0.81521987914928,
+      0.79949228175401
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/157884bc-ae9a-4afe-9283-b67abed1a956.jpg"
+  },
+  {
+    "id": "big-walk-island-930192",
+    "mapId": "island",
+    "category": "laser-pointer",
+    "title": "Laser Pointers",
+    "description": "Location: On top of a ledge on the wall of the [Map Room](https://mapgenie.io/big-walk/maps/island?locationIds=930191)",
+    "coords": [
+      -0.79503357410488,
+      0.82100681090222
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/fc92cdd1-65cc-448a-8bb6-9916cf07feee.jpg"
+  },
+  {
+    "id": "big-walk-island-930202",
+    "mapId": "island",
+    "category": "laser-pointer",
+    "title": "Laser Pointer",
+    "description": "Location: On top of the [Green Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930196) on a table next to the [Radio Transmitter](https://mapgenie.io/big-walk/maps/island?locationIds=930200)",
+    "coords": [
+      -0.59859395027149,
+      0.65464860317611
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/a63f2df8-5f6a-49d7-bd10-43d6f3d718fa.jpg"
+  },
+  {
+    "id": "big-walk-island-930250",
+    "mapId": "island",
+    "category": "laser-pointer",
+    "title": "Laser Pointer",
+    "description": "Location: On top of the [Yellow Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930244) on a table next to the [Radio Transmitter](https://mapgenie.io/big-walk/maps/island?locationIds=930248)",
+    "coords": [
+      -0.75214460293276,
+      0.94989299228426
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9d40cda0-921a-4431-a3d2-871e3b834b39.jpg"
+  },
+  {
+    "id": "big-walk-island-930283",
+    "mapId": "island",
+    "category": "laser-pointer",
+    "title": "Laser Pointer",
+    "description": "Location: On top of the [Blue Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930276) on a table next to the [Radio Transmitter](https://mapgenie.io/big-walk/maps/island?locationIds=930281)",
+    "coords": [
+      -0.61864078045031,
+      0.84181856142752
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/0ecd0ff4-8657-476b-80d2-63d20e69ca1a.jpg"
+  },
+  {
+    "id": "big-walk-island-930159",
+    "mapId": "island",
+    "category": "whiteboard",
+    "title": "Whiteboards",
+    "description": "Location: On the side of a display against the wall",
+    "coords": [
+      -0.83054817514085,
+      0.8375717336326
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/a420d75f-bf27-4e84-8c87-1c8cc711f391.jpg"
+  },
+  {
+    "id": "big-walk-island-930204",
+    "mapId": "island",
+    "category": "whiteboard",
+    "title": "Whiteboard",
+    "description": "Location: On the back of the display",
+    "coords": [
+      -0.58209836483027,
+      0.63277388719797
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/387d7cbe-1a82-4413-9bd1-dc5c7c8a4c55.jpg"
+  },
+  {
+    "id": "big-walk-island-930229",
+    "mapId": "island",
+    "category": "coordinate-displayer",
+    "title": "Coordinate Displayer",
+    "description": "Location: On top of the pedestal near the [Green Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930196)",
+    "coords": [
+      -0.58212120021949,
+      0.63803760002958
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ab497e8d-02b8-4882-9fc5-5a8dd376b3cc.jpg"
+  },
+  {
+    "id": "big-walk-island-930138",
+    "mapId": "island",
+    "category": "key",
+    "title": "Gray Key",
+    "description": "Location: Locked inside a machine on the beach until 4 blobs are placed in Unlocks: [Gray Key Holder](https://mapgenie.io/big-walk/maps/island?locationIds=930153)",
+    "coords": [
+      -0.95654010772728,
+      0.83860025668133
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/5a53bc11-6edf-48d8-98bd-c2901d9540e9.jpg"
+  },
+  {
+    "id": "big-walk-island-930164",
+    "mapId": "island",
+    "category": "key",
+    "title": "Red Key",
+    "description": "Location: Locked inside a machine on top of the [Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930161) until 5 blobs are placed in Unlocks: [Red Key Holder](https://mapgenie.io/big-walk/maps/island?locationIds=930190)",
+    "coords": [
+      -0.81745147704964,
+      0.79623103181953
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/78669c8f-488c-4c74-93e8-7e2b6d2ce9e1.jpg"
+  },
+  {
+    "id": "big-walk-island-930199",
+    "mapId": "island",
+    "category": "key",
+    "title": "Green Key",
+    "description": "Location: Locked inside a machine on top of the [Green Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930196) until 5 blobs are placed in Unlocks: [Green Key Holder](https://mapgenie.io/big-walk/maps/island?locationIds=930207)",
+    "coords": [
+      -0.59591226964383,
+      0.65521698615156
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3089f9db-5271-40a7-a9fe-deab8bf6eba4.jpg"
+  },
+  {
+    "id": "big-walk-island-930251",
+    "mapId": "island",
+    "category": "key",
+    "title": "Yellow Key",
+    "description": "Location: Locked inside a machine on top of the [Yellow Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930244) until 5 blobs are placed in Unlocks: [Yellow Key Holder](https://mapgenie.io/big-walk/maps/island?locationIds=930265)",
+    "coords": [
+      -0.7548053542755,
+      0.94834825186091
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/7e70a955-2e36-4e7c-865d-f3341ce17d07.jpg"
+  },
+  {
+    "id": "big-walk-island-930279",
+    "mapId": "island",
+    "category": "key",
+    "title": "Blue Key",
+    "description": "Location: Locked inside a machine on top of the [Blue Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930276) until 5 blobs are placed in Unlocks: [Blue Key Holder](https://mapgenie.io/big-walk/maps/island?locationIds=930284)",
+    "coords": [
+      -0.61967830499785,
+      0.83834438811458
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/5dffd4e4-09ab-4589-838b-0b6146b919ee.jpg"
+  },
+  {
+    "id": "big-walk-island-930315",
+    "mapId": "island",
+    "category": "key",
+    "title": "Black Key",
+    "description": "Location: Locked inside a machine on top of the [Black Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930314) until 6 blobs are placed in Unlocks: [Black Key Holder](https://mapgenie.io/big-walk/maps/island?locationIds=930334)",
+    "coords": [
+      -0.69982354405073,
+      0.87360924783286
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9206cca6-4b6d-44a8-9ee9-be56f860777c.jpg"
+  },
+  {
+    "id": "big-walk-island-930366",
+    "mapId": "island",
+    "category": "key",
+    "title": "Silver Key",
+    "description": "Location: Locked inside a machine inside the green structure, after completing the [Black Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930314). Requires completing every puzzle in the game to achieve Unlocks: [Silver Key Holder](https://mapgenie.io/big-walk/maps/island?locationIds=930371)",
+    "coords": [
+      -0.78542050825925,
+      0.84357316975755
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/13151000-06d6-41d5-aba5-3dda51c33695.jpg"
+  },
+  {
+    "id": "big-walk-island-930160",
+    "mapId": "island",
+    "category": "radio-transmitter",
+    "title": "Radio Transmitter",
+    "description": "Location: Against a wall next to the [Checkpoint](https://mapgenie.io/big-walk/maps/island?locationIds=930158)",
+    "coords": [
+      -0.83046234445237,
+      0.83456797936161
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/862e008f-8671-4e8f-98fa-3bc48b4cd2f1.jpg"
+  },
+  {
+    "id": "big-walk-island-930166",
+    "mapId": "island",
+    "category": "radio-transmitter",
+    "title": "Radio Transmitter",
+    "description": "Location: On top of the [Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930161) next to the edge",
+    "coords": [
+      -0.82028388976934,
+      0.79811912420199
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3c381a41-23a4-49ec-a13f-c4a2bec9eab8.jpg"
+  },
+  {
+    "id": "big-walk-island-930200",
+    "mapId": "island",
+    "category": "radio-transmitter",
+    "title": "Radio Transmitter",
+    "description": "Location: On top of the [Green Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930196) next to the edge",
+    "coords": [
+      -0.59419492809815,
+      0.65046742444406
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/4629b6f7-8270-4394-8d25-1a09f66f7363.jpg"
+  },
+  {
+    "id": "big-walk-island-930233",
+    "mapId": "island",
+    "category": "radio-transmitter",
+    "title": "Radio Transmitter",
+    "description": "Location: On top of the cliff near the [Firework Launcher](https://mapgenie.io/big-walk/maps/island?locationIds=930232)",
+    "coords": [
+      -0.55411121154455,
+      0.52658925018606
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6b9399a2-2812-437c-81a6-d405a1ffd0a6.jpg"
+  },
+  {
+    "id": "big-walk-island-930248",
+    "mapId": "island",
+    "category": "radio-transmitter",
+    "title": "Radio Transmitter",
+    "description": "Location: On top of the [Yellow Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930244) next to the edge",
+    "coords": [
+      -0.74867963790842,
+      0.94414312166708
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1f89659d-117a-46eb-b8c6-b1985d041934.jpg"
+  },
+  {
+    "id": "big-walk-island-930281",
+    "mapId": "island",
+    "category": "radio-transmitter",
+    "title": "Radio Transmitter",
+    "description": "Location: On top of the [Blue Tower](https://mapgenie.io/big-walk/maps/island?locationIds=930276) next to the edge",
+    "coords": [
+      -0.61557357946549,
+      0.83615245180206
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f18f5801-259f-49c0-852e-1b6d596f74ad.jpg"
+  },
+  {
+    "id": "big-walk-island-930303",
+    "mapId": "island",
+    "category": "radio-transmitter",
+    "title": "Radio Transmitter",
+    "description": "Location: At the very top of the mountain",
+    "coords": [
+      -0.67631986585261,
+      0.80876099995689
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/96dff7fd-ec84-4756-9d91-ae4b17d7a099.jpg"
+  },
+  {
+    "id": "big-walk-island-930215",
+    "mapId": "island",
+    "category": "miscellaneous",
+    "title": "Far Away Lights Puzzle Second Building",
+    "description": "Second building as part of the [Far Away Lights Puzzle](https://mapgenie.io/big-walk/maps/island?locationIds=930214)",
+    "coords": [
+      -0.50883791206755,
+      0.60336873566602
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/275e6b54-3ceb-430c-8ebc-19fddbaf9ff6.jpg"
+  },
+  {
+    "id": "big-walk-island-930216",
+    "mapId": "island",
+    "category": "miscellaneous",
+    "title": "Locked Box",
+    "description": "The lock box as seen in the [Locked Box Puzzle](https://mapgenie.io/big-walk/maps/island?locationIds=930142)",
+    "coords": [
+      -0.85798884849333,
+      0.81341302774446
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f166342c-e7a1-497f-8949-a40af385c6ea.png"
+  },
+  {
+    "id": "big-walk-island-930217",
+    "mapId": "island",
+    "category": "miscellaneous",
+    "title": "Pose Picture",
+    "description": "One of the pose images needed for the [Pose Puzzle](https://mapgenie.io/big-walk/maps/island?locationIds=930195)",
+    "coords": [
+      -0.69005035282066,
+      0.6819140843218
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ccb14fe1-b6c7-494a-b885-877fa0f2b0dd.jpg"
+  },
+  {
+    "id": "big-walk-island-930218",
+    "mapId": "island",
+    "category": "miscellaneous",
+    "title": "Pose Picture",
+    "description": "One of the pose images needed for the [Pose Puzzle](https://mapgenie.io/big-walk/maps/island?locationIds=930195)",
+    "coords": [
+      -0.69720330076524,
+      0.65807255481731
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b6668b5e-cf31-4bce-8ff2-c7d6cb8b51dd.jpg"
+  },
+  {
+    "id": "big-walk-island-930219",
+    "mapId": "island",
+    "category": "miscellaneous",
+    "title": "Pose Picture",
+    "description": "One of the pose images needed for the [Pose Puzzle](https://mapgenie.io/big-walk/maps/island?locationIds=930195)",
+    "coords": [
+      -0.65866532163787,
+      0.64519878422416
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/19dbb5eb-1ad9-427b-81a1-be333ab9711a.jpg"
+  },
+  {
+    "id": "big-walk-island-930220",
+    "mapId": "island",
+    "category": "miscellaneous",
+    "title": "Pose Picture",
+    "description": "One of the pose images needed for the [Pose Puzzle](https://mapgenie.io/big-walk/maps/island?locationIds=930195)",
+    "coords": [
+      -0.65297943271921,
+      0.61630480573551
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/742a1741-36c9-4b35-a3f1-b3b7e57f661a.jpg"
+  },
+  {
+    "id": "big-walk-island-930221",
+    "mapId": "island",
+    "category": "miscellaneous",
+    "title": "Pose Picture",
+    "description": "One of the pose images needed for the [Pose Puzzle](https://mapgenie.io/big-walk/maps/island?locationIds=930195)",
+    "coords": [
+      -0.67581039585238,
+      0.60197189084586
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/135c0141-0d26-4bde-9542-a399db8aa732.jpg"
+  },
+  {
+    "id": "big-walk-island-930223",
+    "mapId": "island",
+    "category": "miscellaneous",
+    "title": "Second Switch",
+    "description": "The second switch for the [Double Press Puzzle](https://mapgenie.io/big-walk/maps/island?locationIds=930222)",
+    "coords": [
+      -0.75451314250856,
+      0.5185076670581
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/87b327b3-34d2-4c0a-851b-0770eecfe85e.jpg"
+  },
+  {
+    "id": "big-walk-island-930259",
+    "mapId": "island",
+    "category": "miscellaneous",
+    "title": "Multi-Light Puzzle Second Building",
+    "description": "Second building as part of the [Multi-Light Puzzle](https://mapgenie.io/big-walk/maps/island?locationIds=930258)",
+    "coords": [
+      -0.68342952369832,
+      0.43915200890794
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/c979230c-b224-402f-865c-14cdf18999e3.jpg"
+  },
+  {
+    "id": "big-walk-island-930296",
+    "mapId": "island",
+    "category": "miscellaneous",
+    "title": "Golf Tee",
+    "description": "The start of the [Ravine Golf Puzzle](https://mapgenie.io/big-walk/maps/island?locationIds=930295) and the [Clifftop Golf Puzzle](https://mapgenie.io/big-walk/maps/island?locationIds=930238)",
+    "coords": [
+      -0.72680685920554,
+      0.7442654367694
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/8d4164dc-7913-4426-ab4b-83cf124aba9f.jpg"
+  },
+  {
+    "id": "big-walk-island-930326",
+    "mapId": "island",
+    "category": "miscellaneous",
+    "title": "Tower Switch",
+    "description": "One of the two switches for the [Tower Puzzle](https://mapgenie.io/big-walk/maps/island?locationIds=930325)",
+    "coords": [
+      -0.42785497297351,
+      0.73579026894508
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e331bb4e-8b76-45cc-860e-f3bd01cdf9da.jpg"
+  },
+  {
+    "id": "big-walk-island-930327",
+    "mapId": "island",
+    "category": "miscellaneous",
+    "title": "Tower Switch",
+    "description": "One of the two switches for the [Tower Puzzle](https://mapgenie.io/big-walk/maps/island?locationIds=930325)",
+    "coords": [
+      -0.40133329023379,
+      0.71270365843705
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3d4fdd22-97f4-4653-b376-531994bb5f86.jpg"
+  },
+  {
+    "id": "big-walk-island-930333",
+    "mapId": "island",
+    "category": "miscellaneous",
+    "title": "Camouflage Box Button",
+    "description": "The button that opens the box for the [Camouflage Puzzle](https://mapgenie.io/big-walk/maps/island?locationIds=930332)",
+    "coords": [
+      -0.52500484241688,
+      0.77716193694158
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/be93b787-dc13-417c-8e70-0f229e10247a.jpg"
+  },
+  {
+    "id": "big-walk-island-930337",
+    "mapId": "island",
+    "category": "miscellaneous",
+    "title": "Musical Camouflage Box Button",
+    "description": "Press to open the box for the [Musical Camouflage Box Puzzle](https://mapgenie.io/big-walk/maps/island?locationIds=930370)",
+    "coords": [
+      -0.52920453501685,
+      0.82883718695599
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d31f4c33-e5c0-47a6-87cc-7e43d1f62810.jpg"
+  },
+  {
+    "id": "big-walk-island-930341",
+    "mapId": "island",
+    "category": "miscellaneous",
+    "title": "Super Camouflage Box Switch",
+    "description": "One of the switches needed to be pushed for the [Super Camouflage Box Puzzle](https://mapgenie.io/big-walk/maps/island?locationIds=930340)",
+    "coords": [
+      -0.5608865742164,
+      0.98143260999578
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1b5efbdd-e829-4df0-9d04-6eb7ca37d905.jpg"
+  },
+  {
+    "id": "big-walk-island-930343",
+    "mapId": "island",
+    "category": "miscellaneous",
+    "title": "Brown Tower Button",
+    "description": "The button used for the [Brown Tower Puzzle](https://mapgenie.io/big-walk/maps/island?locationIds=930329)",
+    "coords": [
+      -0.59705807184815,
+      0.54647482578362
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b0647fd9-d12c-4a80-bde7-01b7f7775127.jpg"
+  },
+  {
+    "id": "big-walk-island-930356",
+    "mapId": "island",
+    "category": "miscellaneous",
+    "title": "Double Cliff Puzzle Second Building",
+    "description": "The second building for the [Double Cliff Puzzle](https://mapgenie.io/big-walk/maps/island?locationIds=930355)",
+    "coords": [
+      -0.70884384536765,
+      0.95196042410585
+    ],
+    "region": "island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/168f35e9-e7ff-4c10-bd56-30aa09c04ee7.jpg"
+  }
+]

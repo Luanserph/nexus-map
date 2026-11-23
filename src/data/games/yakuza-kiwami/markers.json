@@ -1,0 +1,3421 @@
+[
+  {
+    "id": "yakuza-kiwami-kamurocho-942766",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Yoshida Batting Center",
+    "description": "Minigame localizado em kamurocho.",
+    "coords": [
+      -0.79896974740174,
+      0.88218368602894
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942792",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Asia",
+    "description": "Minigame localizado em kamurocho.",
+    "coords": [
+      -0.56074703089325,
+      0.52987366908104
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942793",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Karaokekan",
+    "description": "Minigame localizado em kamurocho.",
+    "coords": [
+      -0.51613595430808,
+      0.43363176217848
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942794",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Club SEGA, Theater Square",
+    "description": "Minigame localizado em kamurocho.",
+    "coords": [
+      -0.85435053606588,
+      0.76549779096472
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942795",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Club SEGA, Nakamichi Street",
+    "description": "Minigame localizado em kamurocho.",
+    "coords": [
+      -0.70760326478356,
+      0.4489832713837
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942796",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "SHINE",
+    "description": "Only accessible after learning about it at [MEB](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942804)",
+    "coords": [
+      -0.56678081114518,
+      0.47666064128504
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942798",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Shoten",
+    "description": "Minigame localizado em kamurocho.",
+    "coords": [
+      -0.52746176719702,
+      0.36370509979949
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942799",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "JeweL",
+    "description": "Only accessible after learning about it at [MEB](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942804)",
+    "coords": [
+      -0.60331634642276,
+      0.79403467040881
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942800",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Lottery Ticket Booth",
+    "description": "Minigame localizado em kamurocho.",
+    "coords": [
+      -0.72222271825936,
+      0.61759286788801
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942801",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Vincent",
+    "description": "Minigame localizado em kamurocho.",
+    "coords": [
+      -0.49775829610408,
+      0.82085958239517
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942802",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Pocket Circuit Stadium",
+    "description": "Minigame localizado em kamurocho.",
+    "coords": [
+      -0.98377949806527,
+      0.84415326550121
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942803",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Mach Bowl",
+    "description": "Minigame localizado em kamurocho.",
+    "coords": [
+      -0.99189306854603,
+      0.68139114394651
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942804",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "MEB",
+    "description": "Minigame localizado em kamurocho.",
+    "coords": [
+      -0.70494148682934,
+      0.82386373173983
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942805",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Orchid Palace Mahjong",
+    "description": "Minigame localizado em kamurocho.",
+    "coords": [
+      -0.63546606246723,
+      0.40664558303749
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943925",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Secret Casino",
+    "description": "Accessed through [Kyushu No. 1 Star](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942772) after learning the password through substory [01 - The Price of an F-cup](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943489) or [32 - The Yakuza's Apprentice III](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943921).",
+    "coords": [
+      -0.54389834403972,
+      0.51947239612076
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944183",
+    "mapId": "kamurocho",
+    "category": "minigame",
+    "title": "Coliseum",
+    "description": "Unlocked in Chapter 5.",
+    "coords": [
+      -0.72258532690691,
+      1.0100305222854
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942783",
+    "mapId": "kamurocho",
+    "category": "general-store",
+    "title": "Ebisu Pawn",
+    "description": "General Store localizado em kamurocho.",
+    "coords": [
+      -0.67940354347391,
+      0.40833604372573
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942784",
+    "mapId": "kamurocho",
+    "category": "general-store",
+    "title": "M Store",
+    "description": "General Store localizado em kamurocho.",
+    "coords": [
+      -0.85887865557385,
+      0.84184452843627
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942785",
+    "mapId": "kamurocho",
+    "category": "general-store",
+    "title": "Kotobuki Drugs",
+    "description": "General Store localizado em kamurocho.",
+    "coords": [
+      -0.59645697154099,
+      0.54852311279571
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942786",
+    "mapId": "kamurocho",
+    "category": "general-store",
+    "title": "Don Quijote",
+    "description": "General Store localizado em kamurocho.",
+    "coords": [
+      -0.69983851965591,
+      0.37514122987606
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942787",
+    "mapId": "kamurocho",
+    "category": "general-store",
+    "title": "Beam",
+    "description": "General Store localizado em kamurocho.",
+    "coords": [
+      -0.59756658846845,
+      0.7077251787189
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942788",
+    "mapId": "kamurocho",
+    "category": "general-store",
+    "title": "Poppo, Showa Street",
+    "description": "General Store localizado em kamurocho.",
+    "coords": [
+      -0.61374730853089,
+      0.36777434691331
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942789",
+    "mapId": "kamurocho",
+    "category": "general-store",
+    "title": "Poppo, Tenkaichi Street",
+    "description": "General Store localizado em kamurocho.",
+    "coords": [
+      -0.86765768969354,
+      0.50383306801824
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942790",
+    "mapId": "kamurocho",
+    "category": "general-store",
+    "title": "Poppo, Nakamichi Alley",
+    "description": "General Store localizado em kamurocho.",
+    "coords": [
+      -0.65005023403421,
+      0.51460770480774
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942791",
+    "mapId": "kamurocho",
+    "category": "general-store",
+    "title": "Le Marche",
+    "description": "General Store localizado em kamurocho.",
+    "coords": [
+      -0.54395923892525,
+      0.36761292061412
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942767",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em kamurocho.",
+    "coords": [
+      -0.82308285110386,
+      0.90207458503215
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942824",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em kamurocho.",
+    "coords": [
+      -1.017286990717,
+      0.82503063612251
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942825",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em kamurocho.",
+    "coords": [
+      -0.69437618094983,
+      0.80997698316824
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942826",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em kamurocho.",
+    "coords": [
+      -0.3917678186306,
+      0.74263437850578
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942827",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em kamurocho.",
+    "coords": [
+      -0.40645122528338,
+      0.40966638550056
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942828",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em kamurocho.",
+    "coords": [
+      -0.60431807988505,
+      0.35412054447924
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942829",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em kamurocho.",
+    "coords": [
+      -0.50700733665042,
+      0.56480218058454
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942830",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em kamurocho.",
+    "coords": [
+      -0.70493566240484,
+      0.60884468346633
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942831",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em kamurocho.",
+    "coords": [
+      -1.0212457180017,
+      0.66592386110111
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942832",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Telephone localizado em kamurocho.",
+    "coords": [
+      -0.85607644296979,
+      0.69187461401702
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944127",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Inside [Serena](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942815); accessed by approaching the back room.",
+    "coords": [
+      -0.86735367642217,
+      0.46373311585572
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/044079ab-1ad6-4819-ac49-4359d2cfe304.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944171",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "Within [West Park](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765)",
+    "coords": [
+      -0.6317087954921,
+      0.93406440208742
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/fe98cae4-1294-41b1-83db-669410a45a86.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944178",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "[Purgatory (West Park)](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765) - In the underground red-light district, near a red umbrella found soon after you enter.",
+    "coords": [
+      -0.72013020515539,
+      0.983346105782
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9fe3514c-69b9-4f2a-b0a4-74d0561cbc2f.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944184",
+    "mapId": "kamurocho",
+    "category": "telephone",
+    "title": "Save Point",
+    "description": "In the [Coliseum](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944183).",
+    "coords": [
+      -0.71829379248388,
+      1.022559831497
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9472140b-81d3-45db-ba24-542f3205b2ea.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942769",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Akaushimaru, Taihei Boulevard",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.63652853862439,
+      0.58150860220945
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942770",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Akaushimaru, Tenkaichi Street",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.85879182931131,
+      0.60612233386016
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942771",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Cafe Alps",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.75415134429974,
+      0.41630736249743
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942772",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Kyushu No. 1 Star",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.53672216050782,
+      0.51963999220715
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942773",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Shellac",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.40674090385548,
+      0.68381831818202
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942774",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Sushi Gin",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.78101328992202,
+      0.36706647888111
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942775",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Smile Burger",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.70521193195734,
+      0.51233818385415
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942777",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Yoronotaki",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.7068941548745,
+      0.41515459764085
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942778",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Gindaco Highball Tavern",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.82880613427491,
+      0.57001255076017
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942779",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Kanrai",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.53924155488042,
+      0.78831601959065
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942780",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Bantam",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.61855797276385,
+      0.6897908562761
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942782",
+    "mapId": "kamurocho",
+    "category": "restaurant",
+    "title": "Pronto",
+    "description": "Restaurant localizado em kamurocho.",
+    "coords": [
+      -0.76562879342185,
+      0.53303456144435
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942817",
+    "mapId": "kamurocho",
+    "category": "taxi",
+    "title": "Hotel District, North",
+    "description": "Taxi localizado em kamurocho.",
+    "coords": [
+      -0.75387700961829,
+      1.0345739773064
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942818",
+    "mapId": "kamurocho",
+    "category": "taxi",
+    "title": "Park Boulevard East",
+    "description": "Taxi localizado em kamurocho.",
+    "coords": [
+      -0.38694341045723,
+      0.8447946669026
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942819",
+    "mapId": "kamurocho",
+    "category": "taxi",
+    "title": "Pink Street Entrance",
+    "description": "Taxi localizado em kamurocho.",
+    "coords": [
+      -0.57672805531911,
+      0.34608064312138
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942821",
+    "mapId": "kamurocho",
+    "category": "taxi",
+    "title": "Tenkaichi Street Entrance",
+    "description": "Taxi localizado em kamurocho.",
+    "coords": [
+      -0.82982548705246,
+      0.34239244164819
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942822",
+    "mapId": "kamurocho",
+    "category": "taxi",
+    "title": "Shichifuku Street West",
+    "description": "Taxi localizado em kamurocho.",
+    "coords": [
+      -1.0295246397969,
+      0.81608388156408
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942765",
+    "mapId": "kamurocho",
+    "category": "point-of-interest",
+    "title": "Purgatory (West Park)",
+    "description": "Unlocked in Chapter 5.",
+    "coords": [
+      -0.42134849714122,
+      0.87218773890449
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942806",
+    "mapId": "kamurocho",
+    "category": "point-of-interest",
+    "title": "Kazama Family Office",
+    "description": "Point of Interest localizado em kamurocho.",
+    "coords": [
+      -0.82279374935382,
+      0.39852255550862
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942807",
+    "mapId": "kamurocho",
+    "category": "point-of-interest",
+    "title": "Stardust",
+    "description": "Point of Interest localizado em kamurocho.",
+    "coords": [
+      -0.82527294382928,
+      0.46773564505065
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942808",
+    "mapId": "kamurocho",
+    "category": "point-of-interest",
+    "title": "Ryujin Hall",
+    "description": "Point of Interest localizado em kamurocho.",
+    "coords": [
+      -0.54886249926614,
+      0.41020545078092
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942809",
+    "mapId": "kamurocho",
+    "category": "point-of-interest",
+    "title": "Peace Finance",
+    "description": "Point of Interest localizado em kamurocho.",
+    "coords": [
+      -0.77308075290259,
+      0.4826898895145
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942810",
+    "mapId": "kamurocho",
+    "category": "point-of-interest",
+    "title": "Hanagata Building",
+    "description": "Point of Interest localizado em kamurocho.",
+    "coords": [
+      -0.57824886091421,
+      0.40594343437373
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942811",
+    "mapId": "kamurocho",
+    "category": "point-of-interest",
+    "title": "Multi-tenant Building",
+    "description": "Point of Interest localizado em kamurocho.",
+    "coords": [
+      -0.68914660476594,
+      0.86750190812077
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942812",
+    "mapId": "kamurocho",
+    "category": "point-of-interest",
+    "title": "Todo Building",
+    "description": "Point of Interest localizado em kamurocho.",
+    "coords": [
+      -0.78169477475879,
+      0.78215110899774
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942813",
+    "mapId": "kamurocho",
+    "category": "point-of-interest",
+    "title": "Shangri-La",
+    "description": "Point of Interest localizado em kamurocho.",
+    "coords": [
+      -0.45269416465842,
+      0.59708762022748
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942814",
+    "mapId": "kamurocho",
+    "category": "point-of-interest",
+    "title": "Debolah",
+    "description": "Point of Interest localizado em kamurocho.",
+    "coords": [
+      -0.93186159311233,
+      0.74072589173387
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942815",
+    "mapId": "kamurocho",
+    "category": "point-of-interest",
+    "title": "Serena",
+    "description": "Point of Interest localizado em kamurocho.",
+    "coords": [
+      -0.87818504676022,
+      0.46273437185803
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-942816",
+    "mapId": "kamurocho",
+    "category": "point-of-interest",
+    "title": "Millennium Tower",
+    "description": "Point of Interest localizado em kamurocho.",
+    "coords": [
+      -0.67957516994028,
+      0.69968661277538
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943658",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "015 - Japanese Rhino Beetle",
+    "description": "Obtained when speaking to the boy inside [Club SEGA, Nakamichi Street](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942795) as part of [53 - MesuKing: The Queen of Beetles](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943496)",
+    "coords": [
+      -0.71662187576163,
+      0.45651787276388
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943662",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "026 - Kuwana's Ladybug",
+    "description": "On the floor in the corner of [Club SEGA, Nakamichi Street](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942795).",
+    "coords": [
+      -0.70254162084748,
+      0.45377364733793
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/bab8ad70-813d-4e18-b0b5-c0c544a79d0f.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943663",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "008 - Stag Beetle",
+    "description": "Insect Card localizado em kamurocho.",
+    "coords": [
+      -0.89802884612649,
+      0.44204591818348
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6cdb29b6-958d-44c2-a498-41f6134388cb.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943668",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "007 - Seven-Spotted Ladybug",
+    "description": "Insect Card localizado em kamurocho.",
+    "coords": [
+      -0.66419261493945,
+      0.34973663575703
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/34ef9b9a-be35-4fd9-ae71-806922d92508.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943678",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "017 - Western Hercules Beetle",
+    "description": "Insect Card localizado em kamurocho.",
+    "coords": [
+      -0.41277317002604,
+      0.41035892222033
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f4991043-4fbd-419e-b973-54859e6a98ad.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943679",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "018 - Small White",
+    "description": "Insect Card localizado em kamurocho.",
+    "coords": [
+      -0.51489004556058,
+      0.50424953860558
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/064a9e0a-53fc-48ac-aff8-a373ea14a59c.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943680",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "022 - Walking Flower Mantis",
+    "description": "Insect Card localizado em kamurocho.",
+    "coords": [
+      -0.42451619595073,
+      0.55382409867362
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/24459820-ca94-4dcc-b2fb-18240a8afe64.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943681",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "025 - Orange Ladybug",
+    "description": "Insect Card localizado em kamurocho.",
+    "coords": [
+      -0.41376870655483,
+      0.61946619548843
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/927b7a45-7631-4b27-b6a5-fa44d40d8428.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943682",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "021 - Autumn Darter",
+    "description": "In the alley just north of [Shellac](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942773)",
+    "coords": [
+      -0.40314054954834,
+      0.69002622470413
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ccd51292-6873-4baa-9a9c-15809cb2a144.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943684",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "023 - Atlas Moth",
+    "description": "In front of the taxi.",
+    "coords": [
+      -0.38024435341754,
+      0.84544433174008
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b7ae5ba6-a632-46d5-9d36-88029c80fcb7.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943685",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "024 - Atlas Beetle",
+    "description": "Insect Card localizado em kamurocho.",
+    "coords": [
+      -0.40556334377715,
+      0.58132217013869
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/8a2ceec7-a758-44db-bbf1-74797116aaa5.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943686",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "006 - Iwasakikusa Cicada",
+    "description": "Insect Card localizado em kamurocho.",
+    "coords": [
+      -0.71494861904611,
+      0.62201011484947
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/af847fb6-9d45-4d0e-9883-29c625831f56.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943692",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "028 - White-Tailed Skimmer",
+    "description": "Insect Card localizado em kamurocho.",
+    "coords": [
+      -0.56053786633407,
+      0.85172537258686
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/720479ac-381b-4c1b-982c-19b2a8110080.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943693",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "030 - Devil's Flower Mantis",
+    "description": "Right outside of [Kanrai](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942779)",
+    "coords": [
+      -0.52812817931843,
+      0.78790670998974
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/332fd12d-f739-4926-b7a3-321573a3bd9c.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943694",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "014 - Honey Bee",
+    "description": "Insect Card localizado em kamurocho.",
+    "coords": [
+      -0.58356722626954,
+      0.43474447453507
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/267a6497-d256-49af-aa32-19064643cc4f.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943700",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "027 - Asian Giant Hornet",
+    "description": "Insect Card localizado em kamurocho.",
+    "coords": [
+      -0.78871548045754,
+      0.66259519048704
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d340a61d-a0c6-481f-823e-d6f569aeb182.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943703",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "003 - Empress Cicada",
+    "description": "Insect Card localizado em kamurocho.",
+    "coords": [
+      -0.52503687803193,
+      0.51591464783712
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f145927b-af7d-41ff-aabe-e6d318eec803.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943704",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "005 - Minminzemi Cicada",
+    "description": "Purchased from [Ebisu Pawn](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942783) for 50,000 Yen.",
+    "coords": [
+      -0.68523615995176,
+      0.41711455302141
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943707",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "012 - Paper Wasp",
+    "description": "Insect Card localizado em kamurocho.",
+    "coords": [
+      -0.72128724910817,
+      0.44706842560906
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/5279c38c-3faa-4e59-b472-8f62224476f5.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943708",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "009 - Damselfly",
+    "description": "Stuck in a tree. To grab it, you'll need to enter first-person view and look up at it.",
+    "coords": [
+      -0.80147809511496,
+      0.4739186426626
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f348ad40-9a57-410f-a615-547e5545481b.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943709",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "013 - Sawtooth Stag Beetle",
+    "description": "Insect Card localizado em kamurocho.",
+    "coords": [
+      -0.6896183755143,
+      0.50311857492288
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/986d9883-97c5-43c2-ad70-17debc62ede2.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943710",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "016 - Old World Swallowtail",
+    "description": "In a crevice between two buildings; enter first person to grab it.",
+    "coords": [
+      -0.75707074001113,
+      0.44015184697544
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/096a1f72-95de-46f8-a9d8-ba06b63a3e4b.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943931",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "010 - Japanese Giant Mantis",
+    "description": "Reward for completing [74 - Time for a Raid!](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943930)",
+    "coords": [
+      -0.68252563476562,
+      0.42846280341875
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943935",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "020 - Wasp King",
+    "description": "Reward for completing [76 - The Professor's Past 2](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943934)",
+    "coords": [
+      -0.85418701171875,
+      0.74430279557514
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943938",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "019 - Ashy Gray Ladybug",
+    "description": "Reward for winning 20 MesuKing battles.",
+    "coords": [
+      -0.71685791015625,
+      0.42846280341875
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944165",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "004 - Queen Alexandra Birdwing",
+    "description": "Purchased from the [West Park](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765) Weapon Vendor for 50,000 Yen.",
+    "coords": [
+      -0.66639520554256,
+      0.9978283139142
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944186",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "001 - Giraffe Stag-Beetle",
+    "description": "Between the seats in the [Coliseum](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944183) corridor.",
+    "coords": [
+      -0.72683669757154,
+      1.0285595942524
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/44909398-5f4f-447b-8424-91b92dc7cabc.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944187",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "029 - Giant Petaltail",
+    "description": "[West Park](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765) - Stuck to the top of a structure near a water fountain. Stand next to it and enter first person view to grab the card.",
+    "coords": [
+      -0.66176430561302,
+      1.0277949144262
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/fb5e69c0-e320-4bdf-9b54-fd2abf0cd3c9.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944189",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "011 - Miyama Stag Beetle",
+    "description": "Insect Card localizado em kamurocho.",
+    "coords": [
+      -0.78597014199829,
+      0.53263479815189
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/da84f088-99d6-4dee-9d4c-5fbd25f812d9.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944212",
+    "mapId": "kamurocho",
+    "category": "insect-card",
+    "title": "002 - Hercules Beetle",
+    "description": "Reward for completing [78 - Battle for the MesuKing Throne](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944211)",
+    "coords": [
+      -0.66192626953125,
+      0.42846280341875
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943659",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "002 - Face Masher",
+    "description": "Obtained when speaking to the boy inside [Club SEGA, Nakamichi Street](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942795) as part of [53 - MesuKing: The Queen of Beetles](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943496)",
+    "coords": [
+      -0.71061372756807,
+      0.46475735256028
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943660",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "009 - Omni Choke",
+    "description": "Obtained when speaking to the boy inside [Club SEGA, Nakamichi Street](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942795) as part of [53 - MesuKing: The Queen of Beetles](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943496)",
+    "coords": [
+      -0.70409059524417,
+      0.46510066401044
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943661",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "017 - Body Slam",
+    "description": "Obtained when speaking to the boy inside [Club SEGA, Nakamichi Street](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942795) as part of [53 - MesuKing: The Queen of Beetles](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943496)",
+    "coords": [
+      -0.71696519851491,
+      0.4644140410926
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943683",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "023 - Taunt",
+    "description": "Near a save point telephone.",
+    "coords": [
+      -0.39820098092042,
+      0.74094849260588
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/92268b7b-c1a7-41f2-a468-9532adee7455.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943688",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "011 - Romero Special",
+    "description": "Beside a large bowling pin outside of [Mach Bowl](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942803).",
+    "coords": [
+      -0.98545592876494,
+      0.67212701735866
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/aa37c8d0-9d55-49e0-9520-25c322bf8d3c.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943689",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "010 - Strangle Hold",
+    "description": "Near a line of bicycles.",
+    "coords": [
+      -1.0247148651637,
+      0.80049702900638
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1ba45c8a-7881-45b3-9e7e-dbdf68440c3a.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943690",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "005 - Kestrel Punch",
+    "description": "Near the vending machines.",
+    "coords": [
+      -0.85257668157612,
+      0.93638131355685
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/4703317a-8327-4e98-b146-d14cc9529c8e.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943691",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "001 - Cartwheel Kick",
+    "description": "Near the taxi.",
+    "coords": [
+      -0.76931639021137,
+      1.0109662668712
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/c6fc6eb0-21bc-4fae-b169-c28fa9c0bafd.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943695",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "003 - Elbow Drop",
+    "description": "Skill Card localizado em kamurocho.",
+    "coords": [
+      -0.84157962412016,
+      0.38959846264126
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/19c8b326-f0f2-4c8e-9088-795af4b25da0.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943696",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "018 - Tomoe Nage",
+    "description": "In front of a truck.",
+    "coords": [
+      -0.8569671426018,
+      0.54572406711365
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/64e57f4c-e0a9-4a85-9312-b3b7efd51865.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943697",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "013 - Leg Splitter",
+    "description": "At the end of the street.",
+    "coords": [
+      -0.94650208152061,
+      0.57633845053726
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943698",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "020 - Super Giant Swing",
+    "description": "Inside [Pocket Circuit Stadium](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942802)",
+    "coords": [
+      -0.98395163332603,
+      0.85363960781555
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/c39171c2-b9cb-48ed-ac73-e18ce86ff4d6.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943699",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "021 - Piledriver",
+    "description": "In the corner of [MEB](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942804).",
+    "coords": [
+      -0.7139404175125,
+      0.81880483076695
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f13487d7-5346-451e-9866-0d179461bc63.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943701",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "025 - Double Drop",
+    "description": "In the corner of the alley.",
+    "coords": [
+      -0.55014685653197,
+      0.65459591540534
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/fdb8be21-4e3e-4f26-905c-9dca361280da.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943702",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "027 - Banana Split",
+    "description": "In front of a truck.",
+    "coords": [
+      -0.53840499881605,
+      0.57765847090647
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/7b5ed6ac-e979-40f3-84d5-75b7d9c5ab7c.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943705",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "004 - Super Elbow Drop",
+    "description": "Purchased from [Ebisu Pawn](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942783) for 10,00 Yen.",
+    "coords": [
+      -0.67940354347391,
+      0.41797028801538
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943706",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "014 - Super Leg Spliter",
+    "description": "Purchased from [Ebisu Pawn](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942783) for 10,00 Yen.",
+    "coords": [
+      -0.67270874977294,
+      0.41745531757007
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943711",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "006 - Super Kestrel Punch",
+    "description": "Inside [Cafe Alps](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942771)",
+    "coords": [
+      -0.76477682916024,
+      0.41555035785665
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f8ec137f-60f0-45b2-86cc-43296393db48.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943715",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "019 - Giant Swing",
+    "description": "Reward for completing [71 - First Rival](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943714)",
+    "coords": [
+      -0.703125,
+      0.42846280341875
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943918",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "016 - Finish Time",
+    "description": "Reward for completing [72 - Private Lesson](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943917)",
+    "coords": [
+      -0.69625854492188,
+      0.42846280341875
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943929",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "012 - Super Romero Special",
+    "description": "Reward for completing [73 - As Long as There's Love](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943928)",
+    "coords": [
+      -0.68939208984375,
+      0.42846280341875
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943933",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "008 - Last Resort",
+    "description": "Reward for completing [75 - The Professor's Past](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943932)",
+    "coords": [
+      -0.6756591796875,
+      0.42846280341875
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943937",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "015 - Tie Breaker",
+    "description": "Reward for completing [77 - Enjoying It With Everyone](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943936)",
+    "coords": [
+      -0.66879272460938,
+      0.42846280341875
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944166",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "022 - Super Piledriver",
+    "description": "Purchased from the [West Park](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765) Weapon Vendor for 10,000 Yen.",
+    "coords": [
+      -0.65714120865118,
+      0.99813895883395
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944167",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "026 - Super Double Drop",
+    "description": "Purchased from the [West Park](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765) Weapon Vendor for 10,000 Yen.",
+    "coords": [
+      -0.64838363139947,
+      0.99865645614859
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944168",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "024 - Counter Heal",
+    "description": "Purchased from the [West Park](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765) Weapon Vendor for 10,000 Yen.",
+    "coords": [
+      -0.63980056255173,
+      0.99865645614859
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944169",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "028 - Mystic Heal",
+    "description": "Purchased from the [West Park](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765) Weapon Vendor for 10,000 Yen.",
+    "coords": [
+      -0.62984420268839,
+      0.99882809144653
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944176",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "029 - Tornado Back Fist",
+    "description": "[Purgatory (West Park)](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765) - In the underground red-light district, beside some chairs soon after you enter.",
+    "coords": [
+      -0.70098080911063,
+      0.97734897324857
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2e2ff349-4a9e-4935-bb05-db210c8aac2c.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944188",
+    "mapId": "kamurocho",
+    "category": "skill-card",
+    "title": "007 - Finish Breaker",
+    "description": "[Purgatory (West Park)](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765) - In the underground red-light district. Hug the right side of the walkway to find it after going up some stairs.",
+    "coords": [
+      -0.70719619913095,
+      0.99449779356559
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/529b3ace-bcf8-4811-afba-c8f0de46b53c.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943121",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "17 - Bump and Scam",
+    "description": "Prerequisite: Bump into the thugs, then refuse to pay them. Reward: - 5,000 XP",
+    "coords": [
+      -0.84435939788801,
+      0.85845715437414
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943123",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "14 - The Yakuza Hater",
+    "description": "Prerequisite: Speak to the kneeling man. Reward: - President's Business Card - Red Jewel - 5,000 XP",
+    "coords": [
+      -0.94356661579036,
+      0.82597024046582
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943165",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "47 - Crisis on the Crapper",
+    "description": "Prerequisite: Examine the public restroom. Tips: - Have six packets of pocket tissues at the ready. - They can be purchased from the nearby [M Store](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942784) Reward: - Chairman's Business Card - Stone of Enduring - 1,000 XP",
+    "coords": [
+      -0.97437708786703,
+      0.85292021102376
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943166",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "56 - The Fighter's Successor",
+    "description": "Prerequisite: Approach the [Pocket Circuit Stadium](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942802) Reward: - Godspeed Motor Mark II - 5,000 XP",
+    "coords": [
+      -0.99525661017046,
+      0.8610845603406
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943184",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "12 - The Toll Collector",
+    "description": "Prerequisite: Walk down the street. Reward: - Leech Gloves - 5,000 XP",
+    "coords": [
+      -0.42855047420656,
+      0.81138875073891
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943194",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "36 - Professional Brawler",
+    "description": "Prerequisite: Enter the parking lot. Reward: - 30,000 Yen - 1,000 XP",
+    "coords": [
+      -0.47951184604455,
+      0.77082331237267
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943199",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "16 - Collection Call",
+    "description": "Prerequisite: Receive a call while walking down the street outside of [Vincent](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942801) Reward: - Sakura Storm - 5,000 XP",
+    "coords": [
+      -0.52364751531442,
+      0.83332679724509
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943354",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "30 - The Yakuza's Apprentice",
+    "description": "Prerequisite: Approach the man outside of [Karaokekan](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942793) Tips: - Kano will later appear outside of [Shangri-La](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942813) Reward: - Gold Champagne - 2,000 XP",
+    "coords": [
+      -0.49314138202101,
+      0.43136535564499
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943438",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "21 - Con-tacts",
+    "description": "Prerequisite: Walk in front of the kneeling man. Tips: - Enter and exit [Orchid Palace Mahjong](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942805) to quickly respawn the conman. Reward: - 20,000 Yen - 5,000 XP",
+    "coords": [
+      -0.64909458160164,
+      0.39283325457117
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943479",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "26 - The Drunkard",
+    "description": "Prerequisite: Walk past the man sitting on the ground. Tips: - You can purchase alcohol from the nearby [Poppo, Tenkaichi Street](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942789) - The Premium Malt's is a good cheap option. - Scotch whisky can be purchased from [Poppo, Nakamichi Alley](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942790) - The final stage requires medicine; something like Toughness Z from [Don Quijote](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942786) will do the trick. Reward: - 10 Yen - 500 Yen - Alertness Hood - 5,000 XP",
+    "coords": [
+      -0.83714035680936,
+      0.48695539694032
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943483",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "08 - Molestation Accusation",
+    "description": "Prerequisite: Bump into a woman standing outside the stadium. Reward: - 20,000 Yen - 1,000 XP",
+    "coords": [
+      -0.82862119540189,
+      0.66924666227609
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943486",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "35 - The Truth about Beauty",
+    "description": "Prerequisite: Enter the alleyway and agree to follow the woman. Tips: - Be ready to lose some health before the fighting even starts! Reward: - Black Belt - 2,000 XP",
+    "coords": [
+      -0.6180983752219,
+      0.54496969008513
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943487",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "18 - Bump and Scam: Revenge",
+    "description": "Prerequisite: Complete [17 - Bump and Scam](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943121) and return some time later to bump into the thugs again. Reward: - 10,000 XP",
+    "coords": [
+      -0.83729982376062,
+      0.85860734121684
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943489",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "01 - The Price of an F-cup",
+    "description": "Prerequisite: Walk along the street. Tips: - Join Mai for a drink, then refuse to actually drink three times. After the fight, tell the barkeep there's 'not a chance' of you letting him off the hook for the password to a secret casino. Reward: - 100,000 Yen - 5,000 XP.",
+    "coords": [
+      -0.57978185185345,
+      0.67830195829504
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943494",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "11 - The Price of a Palm-reading",
+    "description": "Prerequisite: Approach the man on the street corner. Tips: - Refuse the Lifestone three times to avoid being scammed. Reward: - Lifestone (if you purchased it or avoided the scam) - 30,000 Yen (if you avoided the scam) - 1,000 XP",
+    "coords": [
+      -0.49861552681679,
+      0.4797522482633
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943496",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "53 - MesuKing: The Queen of Beetles",
+    "description": "Prerequisite: Pick up the MesuKing card in front of [Club SEGA, Nakamichi Street](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942795) Reward: - [015 - Japanese Rhino Beetle](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943658) - [002 - Face Masher](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943659) - [009 - Omni Choke](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943660) - [017 - Body Slam](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943661) - 1,000 XP",
+    "coords": [
+      -0.71685791015625,
+      0.43532906341242
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943653",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "10 - Dine and Dash",
+    "description": "Prerequisite: Approach the man and [Akaushimaru, Tenkaichi Street](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942770) employee. Tips: - The dasher moves to the northern end of Nakamichi Street - He then runs to Public Park 3 Reward: - Toughness Infinity - 1,000 XP",
+    "coords": [
+      -0.84718614563312,
+      0.59151183991341
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943654",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "15 - The Bouncer",
+    "description": "Prerequisite: Approach the woman wearing a white dress. Reward: - Italian Scarf - 5,000 XP",
+    "coords": [
+      -0.66987816907454,
+      0.35733333616972
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943655",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "22 - The Little Match Girl",
+    "description": "Prerequisite: Approach the woman holding a basket. Tips: - After helping her sell some matches, you'll find Moemi in Public Park 3. Reward: - Staminan X - Celebrity Perfume - 10,000 XP",
+    "coords": [
+      -0.58514609745032,
+      0.35494041469366
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943656",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "19 - Bump and Scam: Three Strikes",
+    "description": "Prerequisite: Complete [18 - Bump and Scam: Revenge](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943487) and return some time later to bump into the thugs again. Reward: - Colorful Parasol - 15,000 XP",
+    "coords": [
+      -0.82971453666627,
+      0.85884334910062
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943657",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "31 - The Yakuza's Apprentice II",
+    "description": "Prerequisite: Complete [30 - The Yakuza's Apprentice](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943354) Tips: - Kano's at the north-western end of the Hotel District. Reward: - Password to a secret casino - Tauriner Maximum - 3,000 XP",
+    "coords": [
+      -0.50785399328191,
+      0.38522539040807
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943664",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "24 - Prodigal Son",
+    "description": "Prerequisite: Approach the homeless man. Tips: - The homeless hunters can be found near [Park Boulevard East](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942818) Reward: - Photo of Gen-san - Sacrifice Stone - 2,000 XP",
+    "coords": [
+      -0.76025235142774,
+      0.87922602577289
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943665",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "20 - Bump and Scam: Epilogue",
+    "description": "Prerequisite: Complete [19 - Bump and Scam: Three Strikes](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943656) and return some time later to bump into the thugs one last time. Reward: - 20,000 XP",
+    "coords": [
+      -0.82167863845774,
+      0.85910081223022
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943666",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "23 - The Crane Game",
+    "description": "Prerequisite: Enter [Club SEGA, Nakamichi Street](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942795). You may need to have completed [53 - MesuKing: The Queen of Beetles](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943496) first. Tips: - The first prize needed is a small white-and-orange bird with a red hat. - Aim for dead centre; the claw must grab the bird's hat. - The next three prizes are colourful axolotls; one pink, one blue, and one purple. - The final prize is a large yellow cowboy squirrel. - Try to grab it by the head or the tail. Reward: - 10,000 Yen - 30,000 Yen - 50,000 Yen - [Key I3](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943919) - 1,000 XP",
+    "coords": [
+      -0.70321083068654,
+      0.44336472536396
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943677",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "34 - Man Scout",
+    "description": "Prerequisite: Approach the man on the street corner. Tips: - Rewards vary based on your answers. The best answers are as follows: - \"My manly and beautiful physique\" - \"I don't look back at the past\" - \"Tachibana\" Reward: - 10,000 Yen - Staminan Spark - for three best answers chosen - Gauntlets - for two best answers chosen - Repair Kit - for one best answer chosen - 10,000 XP",
+    "coords": [
+      -0.52100710231767,
+      0.35581997960929
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943687",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "28 - Under Suspicion",
+    "description": "Prerequisite: Approach the man standing by the street. Tips: - The woman you need to speak to is in front of Volcanic Volcano, wearing a long coat. - Tell her that 'You're very sexy'. - Do not peek, or you'll get a reduced reward. Reward: - 80,000 Yen (if you did not peek - 50,000 if you did) - 10,000 XP",
+    "coords": [
+      -0.93886971473825,
+      0.61670304622484
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943712",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "27 - Handbag Hunt",
+    "description": "Prerequisite: Speak to the woman standing on the street opposite the Millennium Tower. Reward: - 10,000 Yen - 15,000 XP",
+    "coords": [
+      -0.67750941865665,
+      0.58582503766313
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943713",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "70 - Practice Match with Professor",
+    "description": "Prerequisite: Complete [53 - MesuKing: The Queen of Beetles](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943496) and speak to the Professor in [Club SEGA, Nakamichi Street](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942795) Tips: - You can hunt for insect and skill cards before beginning your MesuKing journey. Reward: - 1,500 XP",
+    "coords": [
+      -0.70999145507812,
+      0.43532906341242
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943714",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "71 - First Rival",
+    "description": "Prerequisite: Complete [70 - Practice Match with Professor](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943713) and ask to play against someone besides the Professor. Tips: - Tomohiro _always_ chooses Rock. Kick his ass with Paper! Reward: - 2,000 XP - [019 - Giant Swing](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943715)",
+    "coords": [
+      -0.703125,
+      0.43532906341242
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943917",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "72 - Private Lesson",
+    "description": "Prerequisite: Complete [71 - First Rival](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943714) and ask to play against a new opponent. Tips: - If an exclamation mark appears on Sachi's rock attack, she'll use it - counter with Paper! Reward: - 4,000 XP - [016 - Finish Time](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943918)",
+    "coords": [
+      -0.69625854492188,
+      0.43532906341242
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943920",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "25 - Bowling Battle",
+    "description": "Prerequisite: Walk past a man standing next to the reception desk of [Mach Bowl](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942803). You'll need to have completed [23 - The Crane Game](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943666), and may also need to have played the bowling minigame a few times. Some reports say the man you need to walk past only appears at night. Tips: - My go-to strike strategy is to choose the Heavy Tank, start on the far left side, and aim as close to the middle as possible. - Put power to maximum, and use 1-3 'nudges' to get the ball as close to the middle pin as possible. - See the screenshot for reference. Reward: - 30,000 Yen - 2,000 XP",
+    "coords": [
+      -1.0021523878524,
+      0.68066324483513
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e1e1caa4-4b63-4d8a-8039-ec90e24a9ede.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943921",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "32 - The Yakuza's Apprentice III",
+    "description": "Prerequisite: Complete [31 - The Yakuza's Apprentice II](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943657) Tips: - Use the Rush fighting style to land hits! - The fights will be a little easier if you upgrade Rush's basic combo to have more hits. Reward: - 100,000 Yen - Steel Knuckles - 4,000 XP",
+    "coords": [
+      -0.58208899715811,
+      0.69906661956782
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943922",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "33 - The Yakuza's Apprentice IV",
+    "description": "Prerequisite: Complete [32 - The Yakuza's Apprentice III](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943921) Tips: - After he runs off, Kano can be found outside of [Smile Burger](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942775) Reward: - Masterwork Dagger - 5,000 XP",
+    "coords": [
+      -0.46581870766482,
+      0.576816419379
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943923",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "38 - Pick Pocket Pursuit",
+    "description": "Prerequisite: Walk past the man wearing a brown coat. Tips: - He's wearing glasses and a grey suit - see the screenshot. Reward: - 70,000 Yen - 1,000 XP",
+    "coords": [
+      -0.70942608411221,
+      0.89935862956115
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/42067ece-8eb3-4504-8f1c-b77663e23033.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943926",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "54 - A Goodbye Promise",
+    "description": "Prerequisite: Fill the A-rank bar with Yui, a hostess at [JeweL](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942799). Reward: - Affection Rank S",
+    "coords": [
+      -0.60837864875677,
+      0.8013320975969
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943927",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "55 - Freedom to Romance",
+    "description": "Prerequisite: Fill the A-rank bar with Rina, a hostess at [SHINE](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942796). Reward: - Affection Rank S",
+    "coords": [
+      -0.55866122245973,
+      0.47648357477057
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943928",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "73 - As Long as There's Love",
+    "description": "Prerequisite: Complete [72 - Private Lesson](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943917) and ask to play against a new opponent. Tips: - Choose an insect that has powerful Rock attacks, e.g [030 - Devil's Flower Mantis](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943693) with [001 - Cartwheel Kick](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943691) - for an easy victory. Reward: - 8,000 XP - [012 - Super Romero Special](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943929)",
+    "coords": [
+      -0.68939208984375,
+      0.43532906341242
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943930",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "74 - Time for a Raid!",
+    "description": "Prerequisite: Complete [73 - As Long as There's Love](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943928) and ask to play against a new opponent. You'll need to have found at least 30 cards. Tips: - My winning cards were: - [030 - Devil's Flower Mantis](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943693) - [001 - Cartwheel Kick](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943691) - [009 - Omni Choke](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943660) - [017 - Body Slam](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943661) Reward: - [010 - Japanese Giant Mantis](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943931)",
+    "coords": [
+      -0.68252563476562,
+      0.43532906341242
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943932",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "75 - The Professor's Past",
+    "description": "Prerequisite: Complete [74 - Time for a Raid!](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943930) and speak to the Professor. Tips: - My winning cards were: - [027 - Asian Giant Hornet](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943700) - [002 - Face Masher](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943659) - [027 - Banana Split](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943702) - [018 - Tomoe Nage](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943696) Reward: - 15,000 XP - [008 - Last Resort](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943933)",
+    "coords": [
+      -0.6756591796875,
+      0.43532906341242
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943934",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "76 - The Professor's Past 2",
+    "description": "Prerequisite: Complete [75 - The Professor's Past](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943932) and speak to Hime inside [Club SEGA, Theater Square](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942794) Tips: - My winning cards were: - [027 - Asian Giant Hornet](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943700) - [002 - Face Masher](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943659) - [027 - Banana Split](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943702) - [018 - Tomoe Nage](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943696) Reward: - 20,000 XP - [020 - Wasp King](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943935)",
+    "coords": [
+      -0.85418701171875,
+      0.75116866592987
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943936",
+    "mapId": "kamurocho",
+    "category": "chapter-4",
+    "title": "77 - Enjoying It With Everyone",
+    "description": "Prerequisite: Speak to the Professor after completing [76 - The Professor's Past 2](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943934) Tips: - You can only battle Masashi after collecting at least 40 cards. - My winning cards were: - [003 - Empress Cicada](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943703) - [001 - Cartwheel Kick](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943691) - [009 - Omni Choke](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943660) - [017 - Body Slam](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943661) Reward: - 25,000 XP - [015 - Tie Breaker](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943937)",
+    "coords": [
+      -0.66879272460938,
+      0.43532906341242
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943924",
+    "mapId": "kamurocho",
+    "category": "chapter-5",
+    "title": "45 - Of Luck and Debt",
+    "description": "Prerequisite: Drink at [Shellac](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942773) 2-3 times. The substory will start when you enter to find a different person behind the bar. Tips: - The secret casino is beneath [Kyushu No. 1 Star](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942772). You'll learn the password via [01 - The Price of an F-cup](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943489) or [31 - The Yakuza's Apprentice II](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943657). - A Goddess of Children Amulet is the reward for completing [42 - The Cell Phone Plan](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944129), but it can also be purchased in the [Coliseum](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944183). Reward: - 50,000 Yen - 5,000 XP",
+    "coords": [
+      -0.40692121880971,
+      0.67968315019186
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944129",
+    "mapId": "kamurocho",
+    "category": "chapter-5",
+    "title": "42 - The Cell Phone Plan",
+    "description": "Prerequisite: Approach the men standing by the vending machines. Tips: - You'll need to manually open Locker C1. - The amulet you get as a reward can be used to complete [45 - Of Luck and Debt](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943924) Reward: - Goddess of Children Amulet - 5,000 XP",
+    "coords": [
+      -0.79841755808047,
+      0.5307487039959
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944143",
+    "mapId": "kamurocho",
+    "category": "chapter-5",
+    "title": "48 - Memories of the Bubble",
+    "description": "Prerequisite: Walk past a woman standing at the edge of the [Debolah](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942814) dance floor. Tips: - The fan and bodycon dress you need to buy are at [Don Quijote](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942786) - You'll need 59,800 Yen. Reward: - Double Feathered Fans - 15,000 XP",
+    "coords": [
+      -0.9317580936308,
+      0.75068140834367
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944160",
+    "mapId": "kamurocho",
+    "category": "chapter-5",
+    "title": "52 - The Value of 2,000 Yen",
+    "description": "Prerequisite: Approach the glasses-wearing man sitting at the bar in [Vincent](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942801). Tips: - Only one bill can be held at a time; bring them back to the collector to get a new one. - The bills can be found in these places: - [Yoshida Batting Center](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942766#L) - held by the man near the arcade cabinets. - [Club SEGA, Theater Square](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942794#L) - held by a man sitting near the counter. - Held by a man on the corner of the street north-east of [Kotobuki Drugs](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942785#L) - Held by the clerk of [Poppo, Tenkaichi Street](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942789#L) - Held by a man opposite [Kazama Family Office](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942806#L) Reward: - 20,000 Yen per bill - 15,000 XP",
+    "coords": [
+      -0.49706586644891,
+      0.81253002861369
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943503",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "13 - Pay It Forward",
+    "description": "Prerequisite: Enter the park. Tips: - This substory is available in Chapter 4, but can only be completed in Chapter 6. - Sake can be purchased from [M Store](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942784) - The Worn-out Coat is given to a homeless man just south of [Beam](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942787) - The glasses are given to a man outside of [Asia](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942792) - Super Strength Adhesive Tape is given to a man at the top-middle part of [West Park](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765). - Finally, the Silver Briefcase goes to a man in the alley near [Key I5](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943185). Reward: - Swiss Watch - 1,000 XP",
+    "coords": [
+      -0.79186831709035,
+      0.47556851871261
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944111",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "02 - My Baby's A Showgirl",
+    "description": "Prerequisite: Receive a call from Yuya. May only be possible after completing [13 - Pay It Forward](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943503) Reward: - Free Pass for Asia - 20,000 XP",
+    "coords": [
+      -0.57520550021633,
+      0.52950887017592
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944190",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "58 - In Pursuit of Pleasure",
+    "description": "Prerequisite: Approach the street corner. Tips: - You'll meet for food at [Kanrai](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942779). - You'll then go to [JeweL](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942799). - Next up is the [Coliseum](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944183) - be ready for a fairly tough fight! Reward: - Shinichi Shinohara added to roster of Coliseum fighters - 15,000 XP",
+    "coords": [
+      -0.48612776015963,
+      0.59039325621812
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944191",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "29 - The Heart of Vandalism",
+    "description": "Prerequisite: Approach the old man standing opposite [Mach Bowl](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942803). Reward: - 50,000 Yen - 30,000 XP",
+    "coords": [
+      -0.99248513378188,
+      0.65562604753501
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944192",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "43 - Yakuza on the Run",
+    "description": "Prerequisite: Speak to the man running around this area. Reward: - [Key J5](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944193) - 30,000 XP",
+    "coords": [
+      -0.64473322099875,
+      0.43450174432668
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944194",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "44 - Bad Boy in Blue",
+    "description": "Prerequisite: Approach the cop standing by the alley. Reward: - 70,000 Yen - 35,000 XP",
+    "coords": [
+      -0.54283479199356,
+      0.48836021025627
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944195",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "59 - Komaki Style: Shot Stopper",
+    "description": "Prerequisite: Speak to Komaki in [West Park](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765). Reward: - Komaki Shot Stopper fighting move unlocked - 1,000 XP",
+    "coords": [
+      -0.61386108398438,
+      0.98460119449685
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944196",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "60 - Komaki Style: Swordsmanship",
+    "description": "Prerequisite: Speak to Komaki in [West Park](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765) after completing [59 - Komaki Style: Shot Stopper](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944195) and equipping a wooden katana. Tips: - You can buy a wooden katana from [Ebisu Pawn](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942783). Reward: - Komaki Slash Attack fighting move unlocked - 2,000 XP",
+    "coords": [
+      -0.60012817382812,
+      0.98460119449685
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944197",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "61 - Komaki Style - Roundhouse Attack",
+    "description": "Prerequisite: Speak to Komaki in [West Park](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765) after completing [60 - Komaki Style: Swordsmanship](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944196) and acquiring the Image of an Asura. Tips: - You can buy the Image of an Asura from the [Coliseum](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944183). Reward: - Komaki Roundhouse Attack fighting move unlocked - 3,000 XP",
+    "coords": [
+      -0.58639526367188,
+      0.98460119449685
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944198",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "62 - Komaki Style: Cat-Like Reflexes",
+    "description": "Prerequisite: Speak to Komaki in [West Park](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765) after completing [61 - Komaki Style - Roundhouse Attack](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944197) and acquiring the Image of a Cat. Tips: - You can buy the Image of a Cat from the [Coliseum](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944183). Reward: - Komaki Cat-Like Reflexes fighting move unlocked - 4,000 XP",
+    "coords": [
+      -0.61386108398438,
+      0.97087028386588
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944199",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "63 - Komaki Style: Clear-Minded Mastery",
+    "description": "Prerequisite: Speak to Komaki in [West Park](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765) after completing [62 - Komaki Style: Cat-Like Reflexes](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944198) and acquiring the Image of a Snake. Tips: - You can buy the Image of a Snake from the [Coliseum](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944183). - Majima must be around; if he's specifically waiting for you somewhere or in a pre-rank-up ambush, sort that out first. Reward: - Komaki Clear-Minded Mastery fighting move unlocked - 5,000 XP",
+    "coords": [
+      -0.60012817382812,
+      0.97087028386588
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944200",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "64 - Komaki Style: Evade and Strike",
+    "description": "Prerequisite: Speak to Komaki in [West Park](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765) after completing [63 - Komaki Style: Clear-Minded Mastery](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944199) and acquiring the Image of a Kamaitachi. Tips: - You can buy the Image of a Kamaitachi from the [Coliseum](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944183). Reward: - Komaki Evade and Strike fighting move unlocked - 6,000 XP",
+    "coords": [
+      -0.58639526367188,
+      0.97087028386588
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944201",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "65 - Komaki Style: Dharma Tumbler",
+    "description": "Prerequisite: Speak to Komaki in [West Park](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765) after completing [64 - Komaki Style: Evade and Strike](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944200) and acquiring the Image of Dharma. Tips: - You can buy the Image of Dharma from the [Coliseum](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944183). Reward: - Komaki Dharma Tumbler fighting move unlocked - 7,000 XP",
+    "coords": [
+      -0.61386108398438,
+      0.95713931747039
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944202",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "66 - Komaki Style: Fist Reversal",
+    "description": "Prerequisite: Speak to Komaki in [West Park](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765) after completing [65 - Komaki Style: Dharma Tumbler](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944201) and acquiring the Image of Four Gods. Tips: - You can buy the Image of Four Gods from the [Coliseum](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944183). Reward: - Komaki Fist Reversal fighting move unlocked - 8,000 XP",
+    "coords": [
+      -0.60012817382812,
+      0.95713931747039
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944203",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "67 - Komaki Style: Knock Back",
+    "description": "Prerequisite: Speak to Komaki in [West Park](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765) after completing [66 - Komaki Style: Fist Reversal](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944202) and acquiring the Image of an Elephant. Tips: - You can buy the Image of an Elephant from the [Coliseum](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944183). Reward: - Komaki Knock Back fighting move unlocked - 9,000 XP",
+    "coords": [
+      -0.58639526367188,
+      0.95713931747039
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944204",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "68 - Komaki Style: Tiger Drop",
+    "description": "Prerequisite: Speak to Komaki in [West Park](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765) after completing [67 - Komaki Style: Knock Back](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944203) and acquiring the Image of a Tiger. Tips: - You can buy the Image of a Tiger from the [Coliseum](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944183). Reward: - Komaki Tiger Drop fighting move unlocked - 10,000 XP",
+    "coords": [
+      -0.61386108398438,
+      0.94340829609877
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944205",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "69 - Komaki Style: Parry",
+    "description": "Prerequisite: Speak to Komaki in [West Park](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765) after completing [68 - Komaki Style: Tiger Drop](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944204) and acquiring the Image of a Dragon. Tips: - You can buy the Image of a Dragon from the [Coliseum](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944183). Reward: - Komaki Parry fighting move unlocked - 11,000 XP",
+    "coords": [
+      -0.60012817382812,
+      0.94340829609877
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944211",
+    "mapId": "kamurocho",
+    "category": "chapter-6",
+    "title": "78 - Battle for the MesuKing Throne",
+    "description": "Prerequisite: Speak to the Professor after completing [77 - Enjoying It With Everyone](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943936) and finding at least 50 MesuKing cards. Reward: - 30,000 XP - [002 - Hercules Beetle](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944212)",
+    "coords": [
+      -0.66192626953125,
+      0.43532906341242
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944206",
+    "mapId": "kamurocho",
+    "category": "chapter-7",
+    "title": "05 - A Doctor's Duty",
+    "description": "Prerequisite: Approach the boy. May only be possible after completing [13 - Pay It Forward](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943503) Tips: - This substory can be started in Chapter 6, but is impossible to finish until Chapter 7. - After feeding him, bring Haruka to the boy at night. - The doctor you need is a few buildings west of [Akaushimaru, Tenkaichi Street](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942770). Reward: - 45,000 XP",
+    "coords": [
+      -0.42182028066185,
+      0.8561276693811
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944207",
+    "mapId": "kamurocho",
+    "category": "chapter-7",
+    "title": "03 - Bet on a Champ",
+    "description": "Prerequisite: Bring Haruka to [Bantam](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942780). Tips: - The password is \"I came to take shelter from the rain\". Reward: - 45,000 XP",
+    "coords": [
+      -0.62218400143922,
+      0.68495187238916
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944208",
+    "mapId": "kamurocho",
+    "category": "chapter-7",
+    "title": "41 - The B-King's Misfortune",
+    "description": "Prerequisite: Approach the group of men. Reward: - Brawler Amulet - 50,000 XP",
+    "coords": [
+      -0.90686552590876,
+      0.71405599490251
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944209",
+    "mapId": "kamurocho",
+    "category": "chapter-7",
+    "title": "40 - The Medicine Goes Down",
+    "description": "Prerequisite: Approach the man laying in the street after completing [41 - The B-King's Misfortune](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944208). Tips: - Confront the men wearing red. Reward: - 150,000 Yen - 50,000 XP",
+    "coords": [
+      -0.45991401441114,
+      0.4007035935625
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944210",
+    "mapId": "kamurocho",
+    "category": "chapter-7",
+    "title": "39 - Kyoka and Takashi",
+    "description": "Prerequisite: Approach the man standing outside of West Park after completing [41 - The B-King's Misfortune](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944208). Tips: - A sandwich can be purchased from [M Store](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942784). Any kind will do. Reward: - Gambler's Binding - 50,000 XP",
+    "coords": [
+      -0.53644014184823,
+      0.86078682742853
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944213",
+    "mapId": "kamurocho",
+    "category": "chapter-7",
+    "title": "50 - Searching for the Present",
+    "description": "Prerequisite: Bring Haruka to the park. Tips: - The reward you get is determined by the presents you deliver. Reward: - Mew Shoes (if you chose the AiAi plush, Golem Tiger, Shrink-Wrapped Book, or Crossword) - Staminan Royale (if you chose the Math Book or Car Compendium) - 3,000 XP",
+    "coords": [
+      -0.96330832022329,
+      0.83112004004094
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944214",
+    "mapId": "kamurocho",
+    "category": "chapter-7",
+    "title": "51 - Bad Ass Dads",
+    "description": "Prerequisite: Speak to the woman near the fountain in [West Park](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765). Tips: - The reward you get is determined by your final answer. Reward: - Italian Shoulder Bag (if your final answer is \"Having less common sense than normal men.\") - Wild Shirt (if your final answer is \"Going to a tanning salon every day.\" or \"...I have no clue!\") - 50,000 XP",
+    "coords": [
+      -0.63056331183606,
+      0.96898294572279
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944215",
+    "mapId": "kamurocho",
+    "category": "chapter-8",
+    "title": "49 - The Rumored Party",
+    "description": "Prerequisite: Visit [Stardust](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942807) and speak to a host inside. Reward: - Tourmaline Bracelet - 50,000 XP",
+    "coords": [
+      -0.83633688593196,
+      0.46848027242282
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944216",
+    "mapId": "kamurocho",
+    "category": "chapter-10",
+    "title": "37 - Gangbusters",
+    "description": "Prerequisite: Pass by the men standing on the street corner. Reward: - 30,000 Yen - 50,000 XP",
+    "coords": [
+      -0.73779678000614,
+      0.91184153072311
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944217",
+    "mapId": "kamurocho",
+    "category": "chapter-10",
+    "title": "09 - The Stalker",
+    "description": "Prerequisite: Approach the woman standing by the street after completing [37 - Gangbusters](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944216) Reward: - 30,000 Yen - 50,000 XP",
+    "coords": [
+      -0.61511487350126,
+      0.43519277037031
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944218",
+    "mapId": "kamurocho",
+    "category": "chapter-10",
+    "title": "06 - The Fake Mizuki's Truth",
+    "description": "Prerequisite: Visit the Florist's office in [Purgatory](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765) after completing [05 - A Doctor's Duty](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944206). Haruka cannot be with you. Reward: - 50,000 XP",
+    "coords": [
+      -0.70856443098342,
+      1.0194243294497
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944219",
+    "mapId": "kamurocho",
+    "category": "chapter-11",
+    "title": "07 - Man on a Ledge",
+    "description": "Prerequisite: Approach the crowd while Haruka is with you. Reward: - 60,000 XP",
+    "coords": [
+      -0.66419484886012,
+      0.87865306873604
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944220",
+    "mapId": "kamurocho",
+    "category": "endgame",
+    "title": "04 - The Yakuza's Wife",
+    "description": "Prerequisite: Visit the Florist's office in [Purgatory](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765) after receiving a call from him. Haruka cannot be with you. Reward: - 59,200 XP",
+    "coords": [
+      -0.70058226585527,
+      1.0196362130647
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944221",
+    "mapId": "kamurocho",
+    "category": "endgame",
+    "title": "57 - Behind the Assassin",
+    "description": "Prerequisite: Approach the man standing by the street. Haruka cannot be with you. Reward: - 35,000 XP",
+    "coords": [
+      -0.89486156866678,
+      0.57864971423388
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944222",
+    "mapId": "kamurocho",
+    "category": "endgame",
+    "title": "46 - The Last Assassin",
+    "description": "Prerequisite: Complete every other substory, purchase every ability, and reach Majima rank SSS. Tips: - Tiger Drop is your best friend. - Stock up on HP / Heat consumables - Bring plenty of weapons, e.g Zap Guns & Spicy Knives - Equip Gauntlets to block his knife in phase 2. Reward: - Amon Sunglasses - 89,300 XP",
+    "coords": [
+      -0.88249296518816,
+      0.70716407150361
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943485",
+    "mapId": "kamurocho",
+    "category": "miscellaneous",
+    "title": "Lockers",
+    "description": "- [A1](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943478) - Medieval Silver Coin - [A2](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943476) - Buddhist Statue - [A3](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943314) - Dinosaur Fossil - [A4](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943195) - Clay Figurine - [A5](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943173) - Meteor Fragment - [B1](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943484) - Sacrifice Stone - [B2](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943481) - Brass Knuckles - [B3](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943228) - Scotch Whiskey - [B4](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943171) - All Ones Charm - [B5](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944181) - Medieval Painting - [C1](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944130) - Dagger - [C2](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943488) - Dagger - [C3](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943175) - 1-2-3 Gum - [C4](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943285) - Trips Yokan - [C5](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943176) - Staminan Spark - [D1](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943499) - Binding - [D2](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943180) - Bloody Binding - [D3](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943500) - Fighter's Binding - [D4](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943491) - Metal Jacket - [D5](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943403) - Springy Arm Guards - [E1](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943477) - Gentleman's Umbrella - [E2](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943416) - Tauriner Maximum - [E3](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943202) - Piss Mountain Stone - [E4](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943118) - Even Goro's Beads - [E5](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943498) - Cool Striker - [F1](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943116) - Golden Blackjack - [F2](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943497) - Repair Kit - [F3](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943134) - Lopsided Cigarette - [F4](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943464) - BANKER's Piece - [F5](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943492) - Toughness Infinity - [G1](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943122) - Blackjack - [G2](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943117) - PLAYER's Piece - [G3](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943501) - Blackjack Amulet - [G4](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943482) - Bust Amulet - [G5](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943502) - Stone of Enduring - [H1](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943504) - Stun Gun - [H2](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943174) - Black Jewel - [H3](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943356) - Royal Joker Card - [H4](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943493) - Lucky Hanafuda Card - [H5](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943197) - Ruby Plate - [I1](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943429) - Zero Jewel - [I2](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943480) - Lucky Tile - [I3](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943919) - Modified Model Gun - [I4](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944223) - Marble Sphere - [I5](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943185) - 10-10-1 Charm - [J1](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943490) - Metal Bat - [J2](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943170) - Metal Frame - [J3](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943505) - Give Up Piece - [J4](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944224) - Diamond Plate - [J5](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944193) - Charismatic Photo",
+    "coords": [
+      -0.75368601123762,
+      0.63000351160808
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d7de0169-0366-4f5c-a322-43740b3ed373.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943116",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key F1",
+    "description": "North of the [Millennium Tower](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942816), near a save point.",
+    "coords": [
+      -0.71274320322988,
+      0.78999835628763
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/7658cf36-181c-429a-a455-d805c6ebb4f0.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943117",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key G2",
+    "description": "In a corner of the street outside of [Purgatory (West Park)](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765)",
+    "coords": [
+      -0.65613115353176,
+      0.91003680644941
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/381b078e-cf5f-45ca-ba37-45621018450d.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943118",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key E4",
+    "description": "North of [Yoshida Batting Center](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942766).",
+    "coords": [
+      -0.85356212082408,
+      0.99906751359921
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2bc64f82-1f8f-44bd-af4e-7f5abf64499a.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943122",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key G1",
+    "description": "North of [Club SEGA, Theater Square](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942794)",
+    "coords": [
+      -0.84812466304311,
+      0.81340567957731
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/5ea996ac-d959-4ef3-a315-bee715a6be84.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943134",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key F3",
+    "description": "In the corner of the park.",
+    "coords": [
+      -0.97602795479924,
+      0.83198300934238
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/c8c5fa07-668e-4b7b-8545-6f4bc4e131f4.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943170",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key J2",
+    "description": "On the floor inside [Pocket Circuit Stadium](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942802)",
+    "coords": [
+      -0.98375916480961,
+      0.83791368465778
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b6c4f618-6b77-40cb-9fc4-f7f095a97b7c.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943171",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key B4",
+    "description": "Next to a pillar.",
+    "coords": [
+      -0.9579348878716,
+      0.751152283837
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d7bb6a6b-b033-4f92-8108-0aa7a699d2b5.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943173",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key A5",
+    "description": "At the edge of the dance floor within [Debolah](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942814).",
+    "coords": [
+      -0.9254742091785,
+      0.74113426058992
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b5a0685d-fb4a-4599-93ef-73a5d57a6e68.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943174",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key H2",
+    "description": "On the ground behind a car.",
+    "coords": [
+      -0.90830229659866,
+      0.73356446220575
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/a0f54816-219f-4d29-96fe-cbaa57e67fbd.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943175",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key C3",
+    "description": "On the ground between two posts.",
+    "coords": [
+      -0.85039754552602,
+      0.7088420239477
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/28e5e5f7-3f97-445c-9357-204133e4e4e4.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943176",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key C5",
+    "description": "On the ground near the vending machines after going down some stairs.",
+    "coords": [
+      -0.79790078915826,
+      0.76308786668891
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/4e866130-1594-4de4-87be-0171c23e0148.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943180",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key D2",
+    "description": "On the pavement outside of [Purgatory (West Park)](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765).",
+    "coords": [
+      -0.59388711477072,
+      0.86645309530765
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/0d87265b-b4af-48f4-8868-2070fc4328f7.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943185",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key I5",
+    "description": "Near the end of the alley.",
+    "coords": [
+      -0.4517771277026,
+      0.81338629208422
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/a404d562-de4b-4be6-b190-281ea504f189.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943195",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key A4",
+    "description": "In front of the vending machines in the parking lot.",
+    "coords": [
+      -0.50881535110162,
+      0.77500914648631
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6321abfb-9333-4ce0-afa5-46582588412f.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943197",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key H5",
+    "description": "In the corner of [Vincent](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942801)",
+    "coords": [
+      -0.48675050411373,
+      0.80789716937822
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/a3165d6b-f1ad-48e1-85a0-01e701fe57aa.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943202",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key E3",
+    "description": "Next to the planters.",
+    "coords": [
+      -0.39872134725553,
+      0.76071536098175
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/8cda92f7-3bde-47f6-8999-f8a792819eb2.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943228",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key B3",
+    "description": "In the middle of the street outside the Champion District.",
+    "coords": [
+      -0.48266798295015,
+      0.65178311084979
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3d089f2d-13ea-4618-a740-35ea1860d1df.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943285",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key C4",
+    "description": "In the middle of a narrow street in the south-western corner of the Champion District.",
+    "coords": [
+      -0.4423249872967,
+      0.657073408005
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f81c8fb1-32ec-4bbd-833c-9cfd10ca10d5.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943314",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key A3",
+    "description": "Around the corner from a save point.",
+    "coords": [
+      -0.4796322050982,
+      0.54718434254606
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f358b419-0073-45ba-8e6e-86cde75ba5d6.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943356",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key H3",
+    "description": "Near the [Save Point](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942827).",
+    "coords": [
+      -0.41948676109547,
+      0.39939914531945
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/499796f9-39ed-4870-a715-12e69c9b639f.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943403",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key D5",
+    "description": "Inside [Shoten](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942798)",
+    "coords": [
+      -0.52751353901047,
+      0.37364882592738
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/158247af-0529-4e69-8a28-ade00419e35f.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943416",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key E2",
+    "description": "North of a save point at the end of Pink Street.",
+    "coords": [
+      -0.59582557621192,
+      0.37017676436714
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/da0424ad-ddd2-481d-8e3a-934de8278958.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943429",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key I1",
+    "description": "In a nook south-east of [Ebisu Pawn](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942783)",
+    "coords": [
+      -0.65630712972984,
+      0.37978959559162
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b10576da-fd97-4b2a-a0ec-e33ed731e307.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943464",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key F4",
+    "description": "Inside [Orchid Palace Mahjong](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942805)",
+    "coords": [
+      -0.62849798666684,
+      0.40605316844842
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ad63c4ba-312d-4454-804a-5b3910dbc78e.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943476",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key A2",
+    "description": "Near the stairs leading down below the street.",
+    "coords": [
+      -0.80134981771042,
+      0.34935000327788
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/7a61cc34-8aa1-47f9-ad06-91a2d02c8a08.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943477",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key E1",
+    "description": "At the top of the first set of stairs; right outside [Serena](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942815)'s back door.",
+    "coords": [
+      -0.90058323099947,
+      0.4540796218504
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/572bbd39-2b4b-4a58-9a9d-b12567f854ca.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943478",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key A1",
+    "description": "In the middle of the street outside of [Poppo, Tenkaichi Street](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942789)",
+    "coords": [
+      -0.85150791414989,
+      0.4963265575112
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6e293f59-b361-48d4-93b8-ba99ad74f921.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943480",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key I2",
+    "description": "West of [Poppo, Tenkaichi Street](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942789)",
+    "coords": [
+      -0.906455361707,
+      0.5172103594264
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/cfe4c78e-c792-4f72-9ef1-3f9e80e329e1.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943481",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key B2",
+    "description": "On the street corner near a Pachinko flag.",
+    "coords": [
+      -0.93466224599234,
+      0.59119127583524
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1df615b0-3312-4043-b327-2f9a32dd7ed3.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943482",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key G4",
+    "description": "Outside the men's restrooms in [Mach Bowl](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942803)",
+    "coords": [
+      -1.0072097005556,
+      0.70075349422935
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b22af616-2b00-49c1-a061-8e0a8b5aebef.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943484",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key B1",
+    "description": "Opposite the lockers.",
+    "coords": [
+      -0.74268452469582,
+      0.6292381993742
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3039fea5-7bf7-45a7-ae47-0ff24b40bb60.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943488",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key C2",
+    "description": "Next to some bicycles parked just east of the [Millennium Tower](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942816).",
+    "coords": [
+      -0.60581489729284,
+      0.65472250711339
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/0bc743f5-63a7-477f-a4cc-c0de84537df1.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943490",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key J1",
+    "description": "Outside of [Kotobuki Drugs](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942785)",
+    "coords": [
+      -0.58906009407119,
+      0.55969297844361
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/39f2df68-0ca9-4607-8b24-b4774a644289.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943491",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key D4",
+    "description": "On the ground in the middle of Nakamichi Alley.",
+    "coords": [
+      -0.62798745109157,
+      0.53458761642078
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/db82e187-2c5c-47af-ade9-04987a9ca640.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943492",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key F5",
+    "description": "Inside [Akaushimaru, Taihei Boulevard](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942769) - At the back of the restaurant. You can't move the camera in here, so look out for the 'Check' icon in the top right.",
+    "coords": [
+      -0.63091073696003,
+      0.58903309277143
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/850c9421-afa5-40da-b808-35a1cbde3991.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943493",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key H4",
+    "description": "On the street just north of [Beam](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942787).",
+    "coords": [
+      -0.58260968737781,
+      0.72349021737632
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/800b980a-4ac6-4e2d-9606-4ba1b9523b6a.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943497",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key F2",
+    "description": "In the corner of the alley.",
+    "coords": [
+      -0.62815943479256,
+      0.46544643592318
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ee1654e8-9256-4443-81c4-0ec965532a89.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943498",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key E5",
+    "description": "North of [Karaokekan](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942793).",
+    "coords": [
+      -0.52181346050475,
+      0.46215102436864
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/495378f5-f20e-4ab8-a164-c199ac6320dc.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943499",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key D1",
+    "description": "South-west of the save point outside of the [Millennium Tower](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942816).",
+    "coords": [
+      -0.74344464448026,
+      0.58590119395261
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3cf26289-68c9-4569-88ff-2318d565fda6.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943500",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key D3",
+    "description": "Between the arcade machines inside [Yoshida Batting Center](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942766)",
+    "coords": [
+      -0.78340383591114,
+      0.88289349535454
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/5ac345ee-b440-4373-b01a-f878088be9b4.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943501",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key G3",
+    "description": "By the kitchen counter in [Cafe Alps](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942771)",
+    "coords": [
+      -0.7712667505082,
+      0.42360012710159
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b9c74c98-b107-4864-8488-1f34aaf37b27.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943502",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key G5",
+    "description": "In the alley behind [Pronto](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942782)",
+    "coords": [
+      -0.80585920229692,
+      0.52861241060154
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/01bf62b8-cbb1-4344-8b4b-d99494d04441.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943504",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key H1",
+    "description": "Between the burning barrel and play equipment in Public Park 3.",
+    "coords": [
+      -0.79358493086005,
+      0.46647077317505
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/578c9e19-322e-45e1-9bae-fd5c4e6646f4.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943505",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key J3",
+    "description": "On the ramp.",
+    "coords": [
+      -0.67512690894512,
+      0.64066425238046
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/34e872be-d3c3-4913-b1f0-65285a947fe4.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-943919",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key I3",
+    "description": "Reward for completing [23 - The Crane Game](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=943666)",
+    "coords": [
+      -0.69648385049865,
+      0.44500797211174
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6444fe5e-cc97-4c27-ad6a-bedcf217f686.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944130",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key C1",
+    "description": "Received from a woman as part of [42 - The Cell Phone Plan](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944129)",
+    "coords": [
+      -0.62984102514602,
+      0.69013872223614
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f19b24cb-6366-4de5-a81c-6c303a5e6ce7.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944181",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key B5",
+    "description": "[Purgatory (West Park)](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765) - In the underground red-light district. Hug the right side of the walkway to find on a small wooden offshoot.",
+    "coords": [
+      -0.70708290912839,
+      1.0025646530758
+    ],
+    "region": "kamurocho",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/5cd5dcea-ab98-4b89-9ca4-9d697865de5b.jpg"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944193",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key J5",
+    "description": "Reward for defeating the Yakuza as part of [43 - Yakuza on the Run](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=944192)",
+    "coords": [
+      -0.63718012041133,
+      0.43467340076339
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944223",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key I4",
+    "description": "Within [West Park](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942765); east of the fountain along a middle road cutting between campsites.",
+    "coords": [
+      -0.54919626234383,
+      0.94310935594342
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  },
+  {
+    "id": "yakuza-kiwami-kamurocho-944224",
+    "mapId": "kamurocho",
+    "category": "locker-key",
+    "title": "Key J4",
+    "description": "Within the [Gambling Hall](https://mapgenie.io/yakuza-kiwami/maps/kamurocho?locationIds=942800); at the end of a hall.",
+    "coords": [
+      -0.72239808703449,
+      0.6298890179517
+    ],
+    "region": "kamurocho",
+    "dlc": "base"
+  }
+]

@@ -1,0 +1,494 @@
+{
+  "id": "game-forza-horizon-6",
+  "slug": "forza-horizon-6",
+  "title": "Forza Horizon 6",
+  "subtitle": "Japão — Barn Finds, Placas de XP, Radares & Fast Travel",
+  "studio": "Playground Games",
+  "releaseYear": 2026,
+  "genres": [
+    "Corrida",
+    "Mundo Aberto",
+    "Simulação"
+  ],
+  "platforms": [
+    "pc",
+    "xbox",
+    "playstation"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/forza-horizon-6/cover.webp",
+    "bannerImage": "/games/forza-horizon-6/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#EC4899",
+    "accentSecondary": "#38BDF8",
+    "accentGlow": "rgba(236, 72, 153, 0.40)",
+    "glassTint": "rgba(20, 10, 22, 0.80)",
+    "surfaceBase": "#0D0610",
+    "fontDisplay": "'Rajdhani', sans-serif",
+    "backgroundPattern": "cyber-grid",
+    "badgeStyle": "chamfered"
+  },
+  "maps": [
+    {
+      "id": "japan",
+      "name": "Japão",
+      "dlc": "base",
+      "pinsCount": 806,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0D0610",
+      "initialCenter": [
+        0.63304429669553,
+        -0.75286564169164
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          -0.08024,
+          -0.98006
+        ],
+        [
+          1.08323,
+          0.0726
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "spring",
+          "label": "Spring",
+          "urlTemplate": "https://tiles.mapgenie.io/games/forza-horizon-6/one/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              -0.08024,
+              -0.98006
+            ],
+            [
+              1.08323,
+              0.0726
+            ]
+          ]
+        },
+        {
+          "id": "summer",
+          "label": "Summer",
+          "urlTemplate": "https://tiles.mapgenie.io/games/forza-horizon-6/two/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              -0.08024,
+              -0.98006
+            ],
+            [
+              1.08323,
+              0.0726
+            ]
+          ]
+        },
+        {
+          "id": "autumn",
+          "label": "Autumn",
+          "urlTemplate": "https://tiles.mapgenie.io/games/forza-horizon-6/three/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              -0.08024,
+              -0.98006
+            ],
+            [
+              1.08323,
+              0.0726
+            ]
+          ]
+        },
+        {
+          "id": "winter",
+          "label": "Winter",
+          "urlTemplate": "https://tiles.mapgenie.io/games/forza-horizon-6/four/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              -0.08024,
+              -0.98006
+            ],
+            [
+              1.08323,
+              0.0726
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "car-meet",
+          "groupId": "locations",
+          "name": "Car Meet",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "drag-meet",
+          "groupId": "locations",
+          "name": "Drag Meet",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "landmark",
+          "groupId": "locations",
+          "name": "Landmark",
+          "icon": "landmark",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "player-house",
+          "groupId": "locations",
+          "name": "Player House",
+          "icon": "bookmark",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "story",
+      "label": "Story",
+      "categories": [
+        {
+          "id": "day-trip",
+          "groupId": "story",
+          "name": "Day Trip",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "drift-club-japan",
+          "groupId": "story",
+          "name": "Drift Club Japan",
+          "icon": "sparkles",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "moto-auto-zine",
+          "groupId": "story",
+          "name": "Moto Auto Zine",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "yuji-s-auto",
+          "groupId": "story",
+          "name": "Yuji's Auto",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "jobs",
+      "label": "Jobs",
+      "categories": [
+        {
+          "id": "food-delivery-job",
+          "groupId": "jobs",
+          "name": "Food Delivery Job",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "horizon-festival",
+      "label": "Horizon Festival",
+      "categories": [
+        {
+          "id": "festival-site",
+          "groupId": "horizon-festival",
+          "name": "Festival Site",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "horizon-event",
+          "groupId": "horizon-festival",
+          "name": "Horizon Event",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "pr-stunts",
+      "label": "PR Stunts",
+      "categories": [
+        {
+          "id": "danger-sign",
+          "groupId": "pr-stunts",
+          "name": "Danger Sign",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "drift-zone",
+          "groupId": "pr-stunts",
+          "name": "Drift Zone",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "speed-trap",
+          "groupId": "pr-stunts",
+          "name": "Speed Trap",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "speed-zone",
+          "groupId": "pr-stunts",
+          "name": "Speed Zone",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "trailblazer-start-gate",
+          "groupId": "pr-stunts",
+          "name": "Trailblazer Start Gate",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "race-events",
+      "label": "Race Events",
+      "categories": [
+        {
+          "id": "cross-country-event",
+          "groupId": "race-events",
+          "name": "Cross-Country Event",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "dirt-racing-event",
+          "groupId": "race-events",
+          "name": "Dirt Racing Event",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "drag-racing-event",
+          "groupId": "race-events",
+          "name": "Drag Racing Event",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "road-racing-event",
+          "groupId": "race-events",
+          "name": "Road Racing Event",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "street-racing-event",
+          "groupId": "race-events",
+          "name": "Street Racing Event",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "time-attack",
+          "groupId": "race-events",
+          "name": "Time Attack",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "touge-racing-event",
+          "groupId": "race-events",
+          "name": "Touge Racing Event",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "aftermarket-car",
+          "groupId": "collectibles",
+          "name": "Aftermarket Car",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "barn-find",
+          "groupId": "collectibles",
+          "name": "Barn Find",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "bonus-board",
+          "groupId": "collectibles",
+          "name": "Bonus Board",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": false
+        },
+        {
+          "id": "photo-location",
+          "groupId": "collectibles",
+          "name": "Photo Location",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "treasure-car",
+          "groupId": "collectibles",
+          "name": "Treasure Car",
+          "icon": "gem",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "mascots",
+      "label": "Mascots",
+      "categories": [
+        {
+          "id": "curry",
+          "groupId": "mascots",
+          "name": "Curry",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "dango",
+          "groupId": "mascots",
+          "name": "Dango",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "edamame",
+          "groupId": "mascots",
+          "name": "Edamame",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "kakigori",
+          "groupId": "mascots",
+          "name": "Kakigori",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "matcha",
+          "groupId": "mascots",
+          "name": "Matcha",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "omurice",
+          "groupId": "mascots",
+          "name": "Omurice",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "onigiri",
+          "groupId": "mascots",
+          "name": "Onigiri",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "ramen",
+          "groupId": "mascots",
+          "name": "Ramen",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "tempura",
+          "groupId": "mascots",
+          "name": "Tempura",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "trailblazer-finish",
+          "groupId": "other",
+          "name": "Trailblazer Finish",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 806
+}
