@@ -1,112 +1,144 @@
 <div align="center">
 
-# 🗺️ Nexus Maps `v2.0.0`
+<img src="docs/banner-hero.png" alt="Nexus Maps — Interactive Open-World Cartography" width="100%" />
 
-**Central de cartografia interativa de alta performance para jogos de mundo aberto — Web, PWA e App Desktop nativo para Windows.**
+<br />
+<br />
 
-[![Live Demo](https://img.shields.io/badge/Vercel-Acessar%20Web%20App-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://nexus-map-zeta.vercel.app)
-[![GitHub Releases](https://img.shields.io/badge/Windows-Baixar%20Desktop%20(.exe)-0EA5E9?style=for-the-badge&logo=tauri&logoColor=white)](https://github.com/Luanserph/nexus-map/releases)
-[![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tauri v2](https://img.shields.io/badge/Tauri_v2-24C8DB?style=for-the-badge&logo=tauri&logoColor=0F172A)](https://v2.tauri.app/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)](./LICENSE)
+[![Acessar Web App](https://img.shields.io/badge/🌐_Acessar_Web_App-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://nexus-map-zeta.vercel.app)
+[![Download Windows](https://img.shields.io/badge/⬇️_Download_Windows-Tauri_v2_(.exe)-06B6D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Luanserph/nexus-map/releases/latest)
+[![Versão](https://img.shields.io/badge/Release-v2.0.0-8B5CF6?style=for-the-badge)](https://github.com/Luanserph/nexus-map/releases/tag/v2.0.0)
+[![Licença](https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge)](LICENSE)
+
+<br />
+
+**Central de cartografia interativa de alta performance para jogos de mundo aberto.**  
+15 jogos • ~49.000 marcadores • Web (PWA) & App Desktop Nativo para Windows (~12 MB)
 
 </div>
 
 ---
 
-## Sobre o Projeto
+## ✨ Por que o Nexus Maps?
 
-O **Nexus Maps** nasceu da vontade de ter um único lugar rápido, limpo e sem distrações para acompanhar exploração 100% em jogos de mundo aberto — seja no segundo monitor do PC, como aplicativo nativo no Windows ou direto no celular.
+O **Nexus Maps** foi criado para oferecer um único lugar rápido, limpo e sem distrações para acompanhar exploração **100%** em jogos de mundo aberto — seja no segundo monitor do PC, sobreposto ao jogo com atalho global, ou instalado no celular como PWA.
 
-O motor do projeto trabalha com **pirâmides de tiles sob demanda (`EPSG:3857`)**, lazy-load de datasets por jogo, **ícones semânticos em cache por categoria**, clustering otimizado para mais de 16.000 pins simultâneos, camadas dinâmicas (como **Dia / Noite**) e persistência local offline-first com exportação e importação em JSON.
-
----
-
-## App Desktop (Windows — Tauri v2)
-
-Além da versão Web/PWA, o Nexus Maps conta com um aplicativo nativo para Windows construído em **Tauri v2**, compartilhando 100% da interface React/Vite com recursos exclusivos para jogar no PC:
-
-- **Atalho Global `Alt + M`:** exibe, oculta e traz o mapa para frente instantaneamente sobre qualquer jogo sem precisar usar `Alt + Tab`.
-- **Modo Sempre no Topo (*Always-on-Top*):** botão dedicado na barra superior para fixar o mapa como overlay ou no segundo monitor.
-- **Persistência Nativa em Disco (`progress.json`):** todo o progresso (pins encontrados, notas pessoais, rotas e checklists) é salvo automaticamente em `%APPDATA%\com.nexusmaps.desktop\progress.json` via `@tauri-apps/plugin-fs`, com backup/restore em `.json` diretamente no rodapé do Hub.
-- **Zero Flash Branco:** janela inicial configurada com fundo `#07090f` e abertura instantânea.
-
-> **Download do Instalador:** baixe o instalador `.exe` (NSIS) ou `.msi` diretamente na aba [**GitHub Releases**](https://github.com/Luanserph/nexus-map/releases).
+> [!TIP]
+> **Modo Overlay no Windows:** no App Desktop (`Tauri v2`), pressione **`Alt + M`** a qualquer momento durante a gameplay para chamar ou ocultar o mapa instantaneamente, e use o botão **Fixar no Topo (Pin)** para mantê-lo sobreposto ao jogo.
 
 ---
 
-## Principais Recursos
+## 🎮 Vitrine do Catálogo (15 Jogos • 48.966 Pins)
 
-* **Motor de Mapas de Alta Performance:** renderização fluida com tiles sob demanda (`EPSG:3857`), polígonos de regiões em GeoJSON, ícones SVG semânticos em cache por categoria e clustering com `chunkedLoading` pronto para mais de 16.000 pins.
-* **Lazy-Load por Jogo:** o Hub carrega apenas os manifestos leves (`< 560 kB` no chunk principal), baixando marcadores e regiões sob demanda somente ao abrir um mapa.
-* **Camadas em Tempo Real:** alternância instantânea entre variações visuais do mapa (ex.: **Dia / Noite** em *GTA VI*, **Superfície / Subterrâneo** em *Elden Ring*).
-* **Ferramentas de Exploração 100%:** busca rápida (`Ctrl + K`), filtros por categoria, Modo Guia 100%, notas personalizadas, traçado de rotas e backup/restauração em JSON.
-* **Estética Neon Glassmorphism Dinâmica:** Theme Engine orientado a manifesto que injeta automaticamente a paleta neon de cada jogo via CSS Variables.
-* **Multi-idioma (i18n):** interface e categorias traduzidas em **Português (`pt-BR`)**, **Inglês (`en-US`)** e **Espanhol (`es-ES`)**.
-* **Mobile & PWA Instalável:** layout adaptado para Android/iOS com suporte a instalação como aplicativo offline-first.
+<table>
+  <tr>
+    <td align="center" width="20%">
+      <img src="public/games/gta-vi/cover.webp" width="160" alt="GTA VI" /><br />
+      <b>GTA VI</b><br /><sub>Leonida (Dia/Noite) • 2.690 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/cyberpunk-2077/cover.webp" width="160" alt="Cyberpunk 2077" /><br />
+      <b>Cyberpunk 2077</b><br /><sub>Night City • 2.754 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/elden-ring/cover.webp" width="160" alt="Elden Ring" /><br />
+      <b>Elden Ring</b><br /><sub>Base + DLC • 7.578 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/the-witcher-3-wild-hunt/cover.webp" width="160" alt="The Witcher 3" /><br />
+      <b>The Witcher 3</b><br /><sub>6 Regiões • 3.000 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/hollow-knight/cover.webp" width="160" alt="Hollow Knight" /><br />
+      <b>Hollow Knight</b><br /><sub>Hallownest • 979 pins</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="20%">
+      <img src="public/games/zelda-breath-of-the-wild/cover.webp" width="160" alt="Breath of the Wild" /><br />
+      <b>Zelda: BotW</b><br /><sub>Hyrule • 16.504 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/zelda-tears-of-the-kingdom/cover.webp" width="160" alt="Tears of the Kingdom" /><br />
+      <b>Zelda: TotK</b><br /><sub>Hyrule • 7.956 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/zelda-ocarina-of-time/cover.webp" width="160" alt="Ocarina of Time" /><br />
+      <b>Ocarina of Time</b><br /><sub>Past &amp; Future • 3.218 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/zelda-wind-waker/cover.webp" width="160" alt="The Wind Waker" /><br />
+      <b>The Wind Waker</b><br /><sub>Great Sea • 1.232 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/zelda-echoes-of-wisdom/cover.webp" width="160" alt="Echoes of Wisdom" /><br />
+      <b>Echoes of Wisdom</b><br /><sub>Hyrule • 696 pins</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="20%">
+      <img src="public/games/zelda-a-link-to-the-past/cover.webp" width="160" alt="A Link to the Past" /><br />
+      <b>A Link to the Past</b><br /><sub>World • 815 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/the-legend-of-zelda/cover.webp" width="160" alt="The Legend of Zelda" /><br />
+      <b>Zelda (1986)</b><br /><sub>1st &amp; 2nd Quest • 545 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/zelda-links-awakening/cover.webp" width="160" alt="Link's Awakening" /><br />
+      <b>Link's Awakening</b><br /><sub>Koholint • 409 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/zelda-a-link-between-worlds/cover.webp" width="160" alt="A Link Between Worlds" /><br />
+      <b>A Link Between Worlds</b><br /><sub>Hyrule &amp; Lorule • 332 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/zelda-2-adventure-of-link/cover.webp" width="160" alt="Zelda II" /><br />
+      <b>Zelda II</b><br /><sub>Hyrule • 258 pins</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## Catálogo Atual (15 Jogos · 23 Mapas · 48.966 Pins)
+## ⚡ Recursos Principais
 
-### Mundos Abertos em Destaque
-
-| Jogo | Mapas Disponíveis | Pins | Destaques |
-| :--- | :--- | :---: | :--- |
-| **Grand Theft Auto VI** | Estado de Leonida | 2.690 | Camadas Dia/Noite, 112 regiões GeoJSON e clustering |
-| **Cyberpunk 2077** | Night City & Dogtown | 2.754 | Serviços, cyberpsicopatas, tarô e expansão integrada |
-| **Elden Ring** | Terras Intermédias (+ Subterrâneo) & Reino das Sombras | 7.578 | Jogo base + *Shadow of the Erdtree* com clustering otimizado |
-| **The Witcher 3: Wild Hunt** | Velen & Novigrad, Skellige, Toussaint, White Orchard, Kaer Morhen, Torre de Fyke | 3.000 | 6 mapas integrados com progresso unificado e DLCs |
-| **Hollow Knight** | Hallownest | 979 | 43 áreas mapeadas, amuletos, chefes e segredos |
-
-### Coleção *The Legend of Zelda* (10 Jogos · 31.965 Pins)
-
-| Jogo | Mapas Disponíveis | Pins |
-| :--- | :--- | :---: |
-| **The Legend of Zelda: Breath of the Wild** | Hyrule | 16.504 |
-| **The Legend of Zelda: Tears of the Kingdom** | Hyrule (Céu, Superfície e Profundezas) | 7.956 |
-| **The Legend of Zelda: Ocarina of Time** | Passado (Criança) & Futuro (Adulto) | 3.218 |
-| **The Legend of Zelda: The Wind Waker** | Great Sea | 1.232 |
-| **The Legend of Zelda: A Link to the Past** | Light & Dark World | 815 |
-| **The Legend of Zelda: Echoes of Wisdom** | Hyrule | 696 |
-| **The Legend of Zelda (NES)** | First Quest & Second Quest | 545 |
-| **The Legend of Zelda: Link's Awakening** | Koholint Island | 409 |
-| **The Legend of Zelda: A Link Between Worlds** | Hyrule & Lorule | 332 |
-| **Zelda II: The Adventure of Link** | Hyrule | 258 |
+| Recurso | Descrição |
+| :--- | :--- |
+| 🗺️ **Motor `EPSG:3857` sob Demanda** | Pirâmides de tiles externas, polígonos de regiões em GeoJSON e **lazy-load por jogo** (carregamento inicial leve, sem travar o navegador). |
+| 🎯 **Ícones Semânticos em Cache** | Pins categorizados automaticamente (baús, chefes, shrines, NPCs, missões, colecionáveis) reutilizados em cache `L.divIcon` para manter 60 FPS mesmo com +16.000 pins. |
+| 🌗 **Camadas em Tempo Real** | Alternância instantânea de estilos visuais no mesmo mapa (como **Dia / Noite** em *GTA VI* e **Superfície / Subterrâneo** em *Elden Ring*). |
+| 🖥️ **App Desktop Nativo (Tauri v2)** | Executável leve (~12 MB) para Windows com atalho global **`Alt + M`**, modo **Sempre no Topo** e salvamento nativo em `%APPDATA%\com.nexusmaps.desktop\progress.json`. |
+| 📱 **Mobile & PWA Instalável** | Interface responsiva para Android/iOS com backup e restauração de progresso via arquivo `.json` entre PC e celular. |
+| 🌍 **Multi-idioma (i18n)** | Suporte completo para **Português (`pt-BR`)**, **Inglês (`en-US`)** e **Espanhol (`es-ES`)**. |
 
 ---
 
-## Roadmap
+## 🛠️ Stack Tecnológica
 
-- [x] Motor de mapas `EPSG:3857` com clustering (`chunkedLoading`) e polígonos GeoJSON
-- [x] Persistência offline-first (IndexedDB / Dexie.js) com exportação e importação JSON
-- [x] Layout responsivo para Mobile e suporte a PWA instalável
-- [x] Coleção completa de 10 jogos de **The Legend of Zelda** + lazy-load de datasets por jogo
-- [x] Ícones semânticos em cache por categoria nos pins do mapa e na sidebar
-- [x] **App Desktop nativo para Windows (Tauri v2)** com atalho global `Alt + M`, *Sempre no Topo* e persistência em `%APPDATA%\progress.json`
-- [ ] Expansão contínua do catálogo com novos RPGs e jogos de mundo aberto ([veja como adicionar novos jogos](./docs/ADDING_GAMES.md))
-- [ ] Sincronização em nuvem opcional entre Desktop e Mobile
+<div align="center">
 
----
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0F172A?style=flat-square&logo=tailwind-css&logoColor=38BDF8)
+![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white)
+![Tauri](https://img.shields.io/badge/Tauri_v2-FFC131?style=flat-square&logo=tauri&logoColor=black)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
 
-## Stack Tecnológica
-
-* **Frontend:** React 19, TypeScript, Vite 8, Tailwind CSS v4
-* **Desktop Nativo:** Tauri v2 (Rust), `@tauri-apps/plugin-global-shortcut`, `@tauri-apps/plugin-fs`
-* **Mapas & Geodados:** Leaflet (`EPSG:3857` / `CRS.Simple`), GeoJSON, `leaflet.markercluster`
-* **Persistência & Offline:** IndexedDB (Dexie.js), `progress.json` nativo no Desktop, `vite-plugin-pwa`
-* **Pipeline de Dados:** Scripts automatizados em TypeScript (`tsx`) para extração, padronização de manifestos, marcadores e regiões
+</div>
 
 ---
 
-## Rodando Localmente
+<details>
+<summary><b>🚀 Como rodar localmente (Web &amp; Desktop Tauri v2)</b></summary>
+
+<br />
 
 ### Pré-requisitos
-* **Web:** Node.js 18+ e npm
-* **Desktop (Tauri v2):** Rust (`rustup`) + Visual Studio Build Tools (*Desenvolvimento para desktop com C++*)
-
-### Instalação e Execução
+* **Node.js 18+** e **npm**
+* *(Apenas para compilar o App Desktop)* **Rust + Cargo** e **Visual Studio C++ Build Tools**
 
 ```bash
 # 1. Clone o repositório
@@ -116,24 +148,39 @@ cd nexus-map
 # 2. Instale as dependências
 npm install
 
-# 3. Inicie a versão Web
+# 3. Rode a versão Web em desenvolvimento
 npm run dev
 
-# 4. Ou inicie o App Desktop (Tauri v2)
+# 4. Rode a versão Desktop (Tauri v2)
 npm run tauri:dev
 
-# 5. Para gerar os instaladores Windows (.exe / .msi)
+# 5. Gere o instalador Windows (.exe / .msi)
 npm run tauri:build
 ```
 
----
-
-## Adicionando Novos Jogos
-
-O catálogo é 100% orientado a manifesto (`src/data/games/<slug>/manifest.json`). Para adicionar um novo jogo ou mapa usando nosso pipeline automatizado, consulte o guia completo em [**`docs/ADDING_GAMES.md`**](./docs/ADDING_GAMES.md).
+</details>
 
 ---
 
-## Licença
+## 🧭 Roadmap
 
-Distribuído sob a licença **MIT**. Consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
+- [x] Motor de mapas `EPSG:3857` com clustering (`chunkedLoading`) e polígonos GeoJSON
+- [x] Persistência offline-first (IndexedDB / Dexie.js) com backup e restauração `.json`
+- [x] Layout responsivo para Mobile e PWA instalável
+- [x] Coleção completa de 10 jogos de **The Legend of Zelda** + lazy-load de datasets por jogo
+- [x] Ícones semânticos em cache por categoria na sidebar e nos pins do mapa
+- [x] **App Desktop nativo para Windows (Tauri v2)** com atalho global `Alt + M`, *Sempre no Topo* e persistência em `%APPDATA%\progress.json`
+- [ ] Expansão contínua do catálogo ([veja como adicionar novos jogos](./docs/ADDING_GAMES.md))
+- [ ] Sincronização em nuvem opcional entre Desktop e Mobile
+
+---
+
+## 🧩 Adicionando Novos Jogos
+
+O catálogo é 100% orientado a manifesto (`src/data/games/<slug>/manifest.json`). Para adicionar novos jogos usando o pipeline automatizado, consulte [**`docs/ADDING_GAMES.md`**](./docs/ADDING_GAMES.md).
+
+---
+
+## 📄 Licença
+
+Distribuído sob a licença **MIT**. Consulte [LICENSE](./LICENSE) para mais detalhes.
