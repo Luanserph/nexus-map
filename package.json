@@ -15,7 +15,8 @@
     "import-map:all": "tsx scripts/import-markers/import-all-maps.ts",
     "extract-maps": "tsx scripts/import-markers/extract-maps.ts",
     "tauri:dev": "tauri dev",
-    "tauri:build": "tauri build"
+    "tauri:build": "tauri build",
+    "tauri": "tauri"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.5",
