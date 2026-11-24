@@ -17,6 +17,8 @@ const ptBR = {
   'hub.statusCompleted': 'Concluídos',
   'hub.statusNotStarted': 'Não iniciados',
   'hub.genre': 'Gênero',
+  'hub.searchGenrePlaceholder': 'Filtrar gênero...',
+  'hub.clearFilter': 'Limpar filtro',
   'hub.heroBadge': 'Atlas Interativo v1.5',
   'hub.heroTitle': 'Selecione um universo para explorar',
   'hub.heroDesc':
@@ -202,6 +204,8 @@ const enUS: Dictionary = {
   'hub.statusCompleted': 'Completed',
   'hub.statusNotStarted': 'Not Started',
   'hub.genre': 'Genre',
+  'hub.searchGenrePlaceholder': 'Filter genre...',
+  'hub.clearFilter': 'Clear filter',
   'hub.heroBadge': 'Interactive Atlas v1.5',
   'hub.heroTitle': 'Select a universe to explore',
   'hub.heroDesc':
@@ -378,6 +382,8 @@ const esES: Dictionary = {
   'hub.statusCompleted': 'Completados',
   'hub.statusNotStarted': 'Sin iniciar',
   'hub.genre': 'Género',
+  'hub.searchGenrePlaceholder': 'Filtrar género...',
+  'hub.clearFilter': 'Limpiar filtro',
   'hub.heroBadge': 'Atlas Interactivo v1.5',
   'hub.heroTitle': 'Selecciona un universo para explorar',
   'hub.heroDesc':

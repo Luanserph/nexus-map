@@ -1,4 +1,4 @@
-import { ArrowUpDown, Clock, Compass, Download, Globe, Layers, MapPin, RotateCcw, Upload } from 'lucide-react';
+import { ArrowUpDown, Clock, Compass, Download, Globe, Layers, MapPin, RotateCcw, Search, Upload, X } from 'lucide-react';
 import { useMemo, useRef, useState } from 'react';
 import type { ChangeEvent } from 'react';
 import { getGenreLabel, normalizeGenreKey, useI18n } from '../../core/i18n';
@@ -7,10 +7,11 @@ import { downloadBackupFile, importBackupJson } from '../../core/storage';
 import type { LastVisitedRecord } from '../../core/storage';
 import { getGameStatus, getTotalPinsCount } from '../../data/games';
 import type { ExplorationStatus, HubGameEntry } from '../../types/schema';
-import { GlassBadge, GlassPanel, NeonButton } from '../glass';
+import { GlassBadge, GlassInput, GlassPanel, NeonButton } from '../glass';
 import { ContinueExploringBanner } from './ContinueExploringBanner';
 import { FeaturedSpotlightBanner } from './FeaturedSpotlightBanner';
 import { GameCard } from './GameCard';
+import { HubFilterBar } from './HubFilterBar';
 import { HubNavbar } from './HubNavbar';
 import { PwaInstallBanner, PwaInstallModal } from './PwaInstallBanner';
 import { RecentGameCard } from './RecentGameCard';
@@ -74,16 +75,22 @@ export function HubShell({ games, lastVisited, onOpenGame }: HubShellProps) {
     }
   }
 
-  const availableGenres = useMemo(() => {
-    const normalizedSet = new Set<string>();
+  const { availableGenres, genreCounts } = useMemo(() => {
+    const counts: Record<string, number> = {};
     for (const entry of games) {
+      const seenForGame = new Set<string>();
       for (const genre of entry.manifest.genres) {
-        normalizedSet.add(normalizeGenreKey(genre));
+        const key = normalizeGenreKey(genre);
+        if (!seenForGame.has(key)) {
+          seenForGame.add(key);
+          counts[key] = (counts[key] ?? 0) + 1;
+        }
       }
     }
-    return Array.from(normalizedSet).sort((a, b) =>
+    const sorted = Object.keys(counts).sort((a, b) =>
       getGenreLabel(a, locale).localeCompare(getGenreLabel(b, locale), locale)
     );
+    return { availableGenres: sorted, genreCounts: counts };
   }, [games, locale]);
 
   const lastVisitedEntry = useMemo(() => {
@@ -233,23 +240,40 @@ export function HubShell({ games, lastVisited, onOpenGame }: HubShellProps) {
         className="nexus-noise-layer pointer-events-none fixed inset-0 opacity-[0.025]"
       />
 
+      {/* Full-width 1-line Sticky Header (never overlaps cards) */}
+      <HubNavbar
+        searchQuery={searchQuery}
+        onSearchChange={setSearchQuery}
+        resultsCount={hasActiveFilters ? filteredGames.length : games.length}
+        totalCount={games.length}
+        showInstallButton={pwa.canShowInstallUi}
+        onInstallClick={() => void handleInstallClick()}
+      />
+
       {/* Main Content Container */}
       <div className="relative z-10 mx-auto flex min-h-svh max-w-7xl flex-col px-4 pt-4 pb-14 sm:px-6 lg:px-8">
-        <HubNavbar
-          searchQuery={searchQuery}
-          onSearchChange={setSearchQuery}
-          selectedGenre={selectedGenre}
-          onGenreChange={setSelectedGenre}
-          availableGenres={availableGenres}
-          selectedStatus={selectedStatus}
-          onStatusChange={setSelectedStatus}
-          resultsCount={
-            hasActiveFilters ? filteredGames.length : games.length
-          }
-          totalCount={games.length}
-          showInstallButton={pwa.canShowInstallUi}
-          onInstallClick={() => void handleInstallClick()}
-        />
+        {/* Mobile Search Bar (scrolls naturally below sticky header) */}
+        <div className="mb-3 md:hidden">
+          <GlassInput
+            value={searchQuery}
+            onChange={(event) => setSearchQuery(event.target.value)}
+            placeholder={t('hub.searchPlaceholder')}
+            aria-label={t('hub.searchPlaceholder')}
+            leftIcon={<Search className="h-4 w-4" />}
+            rightSlot={
+              searchQuery ? (
+                <button
+                  type="button"
+                  onClick={() => setSearchQuery('')}
+                  aria-label="Limpar busca"
+                  className="flex h-6 w-6 cursor-pointer items-center justify-center rounded text-[var(--text-muted)] transition-colors hover:bg-white/10 hover:text-[var(--text-primary)]"
+                >
+                  <X className="h-3.5 w-3.5" />
+                </button>
+              ) : undefined
+            }
+          />
+        </div>
 
         {/* Subtle Dismissible PWA Install Reminder Banner (Web Only) */}
         {pwa.canShowBanner && (
@@ -447,6 +471,16 @@ export function HubShell({ games, lastVisited, onOpenGame }: HubShellProps) {
               })}
             </div>
           </div>
+
+          {/* Non-sticky Compact Filter Bar (Status + Genre Popover) right above the game grid */}
+          <HubFilterBar
+            selectedStatus={selectedStatus}
+            onStatusChange={setSelectedStatus}
+            selectedGenre={selectedGenre}
+            onGenreChange={setSelectedGenre}
+            availableGenres={availableGenres}
+            genreCounts={genreCounts}
+          />
 
           {filteredGames.length > 0 ? (
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
