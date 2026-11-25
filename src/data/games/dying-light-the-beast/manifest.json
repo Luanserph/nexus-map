@@ -1,0 +1,374 @@
+{
+  "id": "game-dying-light-the-beast",
+  "slug": "dying-light-the-beast",
+  "title": "Dying Light: The Beast",
+  "subtitle": "Castor Woods — Zonas Seguras, Zonas Escuras, Comboios & Blueprints",
+  "studio": "Techland",
+  "releaseYear": 2025,
+  "genres": [
+    "Survival Horror",
+    "Ação",
+    "Mundo Aberto"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/dying-light-the-beast/cover.webp",
+    "bannerImage": "/games/dying-light-the-beast/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#84CC16",
+    "accentSecondary": "#EF4444",
+    "accentGlow": "rgba(132, 204, 22, 0.40)",
+    "glassTint": "rgba(12, 18, 10, 0.84)",
+    "surfaceBase": "#080C06",
+    "fontDisplay": "'Rajdhani', sans-serif",
+    "backgroundPattern": "tactical-grid",
+    "badgeStyle": "chamfered"
+  },
+  "maps": [
+    {
+      "id": "castor-woods",
+      "name": "Castor Woods",
+      "dlc": "base",
+      "pinsCount": 422,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#080C06",
+      "initialCenter": [
+        0.70028655970926,
+        -0.78841141838515
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          0.49179,
+          -0.99842
+        ],
+        [
+          0.91258,
+          -0.44106
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/dying-light-the-beast/castor-woods/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.49179,
+              -0.99842
+            ],
+            [
+              0.91258,
+              -0.44106
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "convoy",
+          "groupId": "locations",
+          "name": "Convoy",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "dark-zone",
+          "groupId": "locations",
+          "name": "Dark Zone",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "safe-spot",
+          "groupId": "locations",
+          "name": "Safe Spot",
+          "icon": "gem",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "safe-zone",
+          "groupId": "locations",
+          "name": "Safe Zone",
+          "icon": "gem",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "substation",
+          "groupId": "locations",
+          "name": "Substation",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "trader",
+          "groupId": "locations",
+          "name": "Trader",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "asylum-patient-record",
+          "groupId": "collectibles",
+          "name": "Asylum Patient Record",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "baron-s-research-recording",
+          "groupId": "collectibles",
+          "name": "Baron's Research Recording",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "blueprint",
+          "groupId": "collectibles",
+          "name": "Blueprint",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "castor-woods-beaver",
+          "groupId": "collectibles",
+          "name": "Castor Woods Beaver",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "castor-woods-newspaper",
+          "groupId": "collectibles",
+          "name": "Castor Woods Newspaper",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "castor-woods-recipe",
+          "groupId": "collectibles",
+          "name": "Castor Woods Recipe",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "dr-peter-paulaner-diary",
+          "groupId": "collectibles",
+          "name": "Dr. Peter Paulaner Diary",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "dr-tal-cubero-recording",
+          "groupId": "collectibles",
+          "name": "Dr. Tal Cubero Recording",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "fisher-family-document",
+          "groupId": "collectibles",
+          "name": "Fisher Family Document",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "hidden-truths-with-spark",
+          "groupId": "collectibles",
+          "name": "Hidden Truths with Spark",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "mural",
+          "groupId": "collectibles",
+          "name": "Mural",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "olivia-s-recording",
+          "groupId": "collectibles",
+          "name": "Olivia's Recording",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "sigil",
+          "groupId": "collectibles",
+          "name": "Sigil",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "treasure-map",
+          "groupId": "collectibles",
+          "name": "Treasure Map",
+          "icon": "gem",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "loot",
+      "label": "Loot",
+      "categories": [
+        {
+          "id": "armor",
+          "groupId": "loot",
+          "name": "Armor",
+          "icon": "shopping-bag",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "item",
+          "groupId": "loot",
+          "name": "Item",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "loot",
+          "groupId": "loot",
+          "name": "Loot",
+          "icon": "gem",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "weapon",
+          "groupId": "loot",
+          "name": "Weapon",
+          "icon": "shopping-bag",
+          "color": "#4ADE80",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "driving-challenge",
+          "groupId": "quests",
+          "name": "Driving Challenge",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "side-quest",
+          "groupId": "quests",
+          "name": "Side Quest",
+          "icon": "scroll-text",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "story-quest",
+          "groupId": "quests",
+          "name": "Story Quest",
+          "icon": "scroll-text",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "enemies",
+      "label": "Enemies",
+      "categories": [
+        {
+          "id": "chimera",
+          "groupId": "enemies",
+          "name": "Chimera",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "easter-egg",
+          "groupId": "other",
+          "name": "Easter Egg",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "hive",
+          "groupId": "other",
+          "name": "Hive",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "vehicle",
+          "groupId": "other",
+          "name": "Vehicle",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 422
+}

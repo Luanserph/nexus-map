@@ -768,5 +768,509 @@
     "name": "Pywel",
     "dlc": "base",
     "url": "https://mapgenie.io/crimson-desert/maps/pywel"
+  },
+  {
+    "gameSlug": "starrupture",
+    "mapSlug": "arcadia-7",
+    "name": "Arcadia-7",
+    "dlc": "base",
+    "url": "https://mapgenie.io/starrupture/maps/arcadia-7"
+  },
+  {
+    "gameSlug": "gothic-1-remake",
+    "mapSlug": "valley-of-mines",
+    "name": "Valley of Mines",
+    "dlc": "base",
+    "url": "https://mapgenie.io/gothic-1-remake/maps/valley-of-mines"
+  },
+  {
+    "gameSlug": "lego-batman-legacy-of-the-dark-knight",
+    "mapSlug": "gotham",
+    "name": "Gotham City",
+    "dlc": "base",
+    "url": "https://mapgenie.io/lego-batman-legacy-of-the-dark-knight/maps/gotham"
+  },
+  {
+    "gameSlug": "pragmata",
+    "mapSlug": "world",
+    "name": "Lunar Station",
+    "dlc": "base",
+    "url": "https://mapgenie.io/pragmata/maps/"
+  },
+  {
+    "gameSlug": "resident-evil-requiem",
+    "mapSlug": "world",
+    "name": "Raccoon City",
+    "dlc": "base",
+    "url": "https://mapgenie.io/resident-evil-requiem/maps/world"
+  },
+  {
+    "gameSlug": "marathon",
+    "mapSlug": "perimeter",
+    "name": "Perimeter",
+    "dlc": "base",
+    "url": "https://mapgenie.io/marathon/maps/perimeter"
+  },
+  {
+    "gameSlug": "marathon",
+    "mapSlug": "dire-marsh",
+    "name": "Dire Marsh",
+    "dlc": "base",
+    "url": "https://mapgenie.io/marathon/maps/dire-marsh"
+  },
+  {
+    "gameSlug": "marathon",
+    "mapSlug": "outpost",
+    "name": "Outpost",
+    "dlc": "base",
+    "url": "https://mapgenie.io/marathon/maps/outpost"
+  },
+  {
+    "gameSlug": "marathon",
+    "mapSlug": "cryo-archive",
+    "name": "Cryo Archive",
+    "dlc": "base",
+    "url": "https://mapgenie.io/marathon/maps/cryo-archive"
+  },
+  {
+    "gameSlug": "call-of-duty-black-ops-7",
+    "mapSlug": "ashes-of-the-damned",
+    "name": "Ashes of the Damned",
+    "dlc": "base",
+    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/ashes-of-the-damned"
+  },
+  {
+    "gameSlug": "call-of-duty-black-ops-7",
+    "mapSlug": "astra-malorum",
+    "name": "Astra Malorum",
+    "dlc": "base",
+    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/astra-malorum"
+  },
+  {
+    "gameSlug": "call-of-duty-black-ops-7",
+    "mapSlug": "paradox-junction",
+    "name": "Paradox Junction",
+    "dlc": "base",
+    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/paradox-junction"
+  },
+  {
+    "gameSlug": "call-of-duty-black-ops-7",
+    "mapSlug": "totenreich",
+    "name": "Totenreich",
+    "dlc": "base",
+    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/totenreich"
+  },
+  {
+    "gameSlug": "call-of-duty-black-ops-7",
+    "mapSlug": "kowakujo",
+    "name": "Kowakujō",
+    "dlc": "base",
+    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/kowakujo"
+  },
+  {
+    "gameSlug": "call-of-duty-black-ops-7",
+    "mapSlug": "rex-infernus",
+    "name": "Rex Infernus",
+    "dlc": "base",
+    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/rex-infernus"
+  },
+  {
+    "gameSlug": "call-of-duty-black-ops-7",
+    "mapSlug": "vandorn-farm",
+    "name": "Vandorn Farm",
+    "dlc": "base",
+    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/vandorn-farm"
+  },
+  {
+    "gameSlug": "call-of-duty-black-ops-7",
+    "mapSlug": "exit-115",
+    "name": "Exit 115",
+    "dlc": "base",
+    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/exit-115"
+  },
+  {
+    "gameSlug": "call-of-duty-black-ops-7",
+    "mapSlug": "zarya-cosmodrome",
+    "name": "Zarya Cosmodrome",
+    "dlc": "base",
+    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/zarya-cosmodrome"
+  },
+  {
+    "gameSlug": "pokemon-pokopia",
+    "mapSlug": "kanto",
+    "name": "Kanto",
+    "dlc": "base",
+    "url": "https://mapgenie.io/pokopia/maps/kanto"
+  },
+  {
+    "gameSlug": "dragon-quest-vii-reimagined",
+    "mapSlug": "past",
+    "name": "Passado (Past)",
+    "dlc": "base",
+    "url": "https://mapgenie.io/dragon-quest-vii/maps/past"
+  },
+  {
+    "gameSlug": "dragon-quest-vii-reimagined",
+    "mapSlug": "present",
+    "name": "Presente (Present)",
+    "dlc": "base",
+    "url": "https://mapgenie.io/dragon-quest-vii/maps/present"
+  },
+  {
+    "gameSlug": "oblivion-remastered",
+    "mapSlug": "cyrodiil",
+    "name": "Cyrodiil",
+    "dlc": "base",
+    "url": "https://mapgenie.io/oblivion/maps/cyrodiil"
+  },
+  {
+    "gameSlug": "oblivion-remastered",
+    "mapSlug": "shivering-isles",
+    "name": "Shivering Isles",
+    "dlc": "shivering-isles",
+    "url": "https://mapgenie.io/oblivion/maps/shivering-isles"
+  },
+  {
+    "gameSlug": "escape-from-tarkov",
+    "mapSlug": "ground-zero",
+    "name": "Ground Zero",
+    "dlc": "base",
+    "url": "https://mapgenie.io/tarkov/maps/ground-zero"
+  },
+  {
+    "gameSlug": "escape-from-tarkov",
+    "mapSlug": "customs",
+    "name": "Customs",
+    "dlc": "base",
+    "url": "https://mapgenie.io/tarkov/maps/customs"
+  },
+  {
+    "gameSlug": "escape-from-tarkov",
+    "mapSlug": "woods",
+    "name": "Woods",
+    "dlc": "base",
+    "url": "https://mapgenie.io/tarkov/maps/woods"
+  },
+  {
+    "gameSlug": "escape-from-tarkov",
+    "mapSlug": "factory",
+    "name": "Factory",
+    "dlc": "base",
+    "url": "https://mapgenie.io/tarkov/maps/factory"
+  },
+  {
+    "gameSlug": "escape-from-tarkov",
+    "mapSlug": "interchange",
+    "name": "Interchange",
+    "dlc": "base",
+    "url": "https://mapgenie.io/tarkov/maps/interchange"
+  },
+  {
+    "gameSlug": "escape-from-tarkov",
+    "mapSlug": "shoreline",
+    "name": "Shoreline",
+    "dlc": "base",
+    "url": "https://mapgenie.io/tarkov/maps/shoreline"
+  },
+  {
+    "gameSlug": "escape-from-tarkov",
+    "mapSlug": "reserve",
+    "name": "Reserve",
+    "dlc": "base",
+    "url": "https://mapgenie.io/tarkov/maps/reserve"
+  },
+  {
+    "gameSlug": "escape-from-tarkov",
+    "mapSlug": "lighthouse",
+    "name": "Lighthouse",
+    "dlc": "base",
+    "url": "https://mapgenie.io/tarkov/maps/lighthouse"
+  },
+  {
+    "gameSlug": "escape-from-tarkov",
+    "mapSlug": "streets-of-tarkov",
+    "name": "Streets of Tarkov",
+    "dlc": "base",
+    "url": "https://mapgenie.io/tarkov/maps/streets-of-tarkov"
+  },
+  {
+    "gameSlug": "escape-from-tarkov",
+    "mapSlug": "the-lab",
+    "name": "The Lab",
+    "dlc": "base",
+    "url": "https://mapgenie.io/tarkov/maps/the-lab"
+  },
+  {
+    "gameSlug": "slime-rancher-2",
+    "mapSlug": "rainbow-island",
+    "name": "Rainbow Island",
+    "dlc": "base",
+    "url": "https://mapgenie.io/slime-rancher-2/maps/rainbow-island"
+  },
+  {
+    "gameSlug": "grounded-2",
+    "mapSlug": "brookhollow-park",
+    "name": "Brookhollow Park",
+    "dlc": "base",
+    "url": "https://mapgenie.io/grounded-2/maps/brookhollow-park"
+  },
+  {
+    "gameSlug": "schedule-1",
+    "mapSlug": "hyland-point",
+    "name": "Hyland Point",
+    "dlc": "base",
+    "url": "https://mapgenie.io/schedule-1/maps/hyland-point"
+  },
+  {
+    "gameSlug": "runescape-dragonwilds",
+    "mapSlug": "ashenfall",
+    "name": "Ashenfall",
+    "dlc": "base",
+    "url": "https://mapgenie.io/runescape-dragonwilds/maps/ashenfall"
+  },
+  {
+    "gameSlug": "clair-obscur-expedition-33",
+    "mapSlug": "the-continent",
+    "name": "The Continent",
+    "dlc": "base",
+    "url": "https://mapgenie.io/clair-obscur-expedition-33/maps/the-continent"
+  },
+  {
+    "gameSlug": "doom-the-dark-ages",
+    "mapSlug": "village-of-khalim",
+    "name": "Village of Khalim",
+    "dlc": "base",
+    "url": "https://mapgenie.io/doom-the-dark-ages/maps/village-of-khalim"
+  },
+  {
+    "gameSlug": "doom-the-dark-ages",
+    "mapSlug": "hebeth",
+    "name": "Hebeth",
+    "dlc": "base",
+    "url": "https://mapgenie.io/doom-the-dark-ages/maps/hebeth"
+  },
+  {
+    "gameSlug": "doom-the-dark-ages",
+    "mapSlug": "sentinel-barracks",
+    "name": "Sentinel Barracks",
+    "dlc": "base",
+    "url": "https://mapgenie.io/doom-the-dark-ages/maps/sentinel-barracks"
+  },
+  {
+    "gameSlug": "doom-the-dark-ages",
+    "mapSlug": "the-holy-city-of-aratum",
+    "name": "The Holy City of Aratum",
+    "dlc": "base",
+    "url": "https://mapgenie.io/doom-the-dark-ages/maps/the-holy-city-of-aratum"
+  },
+  {
+    "gameSlug": "doom-the-dark-ages",
+    "mapSlug": "siege-part-1",
+    "name": "Siege - Part 1",
+    "dlc": "base",
+    "url": "https://mapgenie.io/doom-the-dark-ages/maps/siege-part-1"
+  },
+  {
+    "gameSlug": "doom-the-dark-ages",
+    "mapSlug": "siege-part-2",
+    "name": "Siege - Part 2",
+    "dlc": "base",
+    "url": "https://mapgenie.io/doom-the-dark-ages/maps/siege-part-2"
+  },
+  {
+    "gameSlug": "doom-the-dark-ages",
+    "mapSlug": "abyssal-forest",
+    "name": "Abyssal Forest",
+    "dlc": "base",
+    "url": "https://mapgenie.io/doom-the-dark-ages/maps/abyssal-forest"
+  },
+  {
+    "gameSlug": "doom-the-dark-ages",
+    "mapSlug": "ancestral-forge",
+    "name": "Ancestral Forge",
+    "dlc": "base",
+    "url": "https://mapgenie.io/doom-the-dark-ages/maps/ancestral-forge"
+  },
+  {
+    "gameSlug": "doom-the-dark-ages",
+    "mapSlug": "the-forsaken-plains",
+    "name": "The Forsaken Plains",
+    "dlc": "base",
+    "url": "https://mapgenie.io/doom-the-dark-ages/maps/the-forsaken-plains"
+  },
+  {
+    "gameSlug": "doom-the-dark-ages",
+    "mapSlug": "sentinel-command-station",
+    "name": "Sentinel Command Station",
+    "dlc": "base",
+    "url": "https://mapgenie.io/doom-the-dark-ages/maps/sentinel-command-station"
+  },
+  {
+    "gameSlug": "doom-the-dark-ages",
+    "mapSlug": "spire-of-nerathul",
+    "name": "Spire of Nerathul",
+    "dlc": "base",
+    "url": "https://mapgenie.io/doom-the-dark-ages/maps/spire-of-nerathul"
+  },
+  {
+    "gameSlug": "doom-the-dark-ages",
+    "mapSlug": "city-of-ryuul",
+    "name": "City of Ry'uul",
+    "dlc": "base",
+    "url": "https://mapgenie.io/doom-the-dark-ages/maps/city-of-ryuul"
+  },
+  {
+    "gameSlug": "doom-the-dark-ages",
+    "mapSlug": "kar-thul-marshes",
+    "name": "Kar'Thul Marshes",
+    "dlc": "base",
+    "url": "https://mapgenie.io/doom-the-dark-ages/maps/kar-thul-marshes"
+  },
+  {
+    "gameSlug": "doom-the-dark-ages",
+    "mapSlug": "temple-of-lomarith",
+    "name": "Temple of Lomarith",
+    "dlc": "base",
+    "url": "https://mapgenie.io/doom-the-dark-ages/maps/temple-of-lomarith"
+  },
+  {
+    "gameSlug": "doom-the-dark-ages",
+    "mapSlug": "belly-of-the-beast",
+    "name": "Belly of the Beast",
+    "dlc": "base",
+    "url": "https://mapgenie.io/doom-the-dark-ages/maps/belly-of-the-beast"
+  },
+  {
+    "gameSlug": "doom-the-dark-ages",
+    "mapSlug": "harbor-of-souls",
+    "name": "Harbor of Souls",
+    "dlc": "base",
+    "url": "https://mapgenie.io/doom-the-dark-ages/maps/harbor-of-souls"
+  },
+  {
+    "gameSlug": "doom-the-dark-ages",
+    "mapSlug": "resurrection",
+    "name": "Resurrection",
+    "dlc": "base",
+    "url": "https://mapgenie.io/doom-the-dark-ages/maps/resurrection"
+  },
+  {
+    "gameSlug": "doom-the-dark-ages",
+    "mapSlug": "reckoning",
+    "name": "Reckoning",
+    "dlc": "base",
+    "url": "https://mapgenie.io/doom-the-dark-ages/maps/reckoning"
+  },
+  {
+    "gameSlug": "fantasy-life-i",
+    "mapSlug": "ginormosia",
+    "name": "Ginormosia",
+    "dlc": "base",
+    "url": "https://mapgenie.io/fantasy-life-i/maps/ginormosia"
+  },
+  {
+    "gameSlug": "dune-awakening",
+    "mapSlug": "arrakis",
+    "name": "Arrakis",
+    "dlc": "base",
+    "url": "https://mapgenie.io/dune-awakening/maps/arrakis"
+  },
+  {
+    "gameSlug": "elden-ring-nightreign",
+    "mapSlug": "limveld",
+    "name": "Limveld",
+    "dlc": "base",
+    "url": "https://mapgenie.io/elden-ring-nightreign/maps/limveld"
+  },
+  {
+    "gameSlug": "death-stranding-2",
+    "mapSlug": "mexico",
+    "name": "México",
+    "dlc": "base",
+    "url": "https://mapgenie.io/death-stranding-2/maps/mexico"
+  },
+  {
+    "gameSlug": "death-stranding-2",
+    "mapSlug": "australia",
+    "name": "Austrália",
+    "dlc": "base",
+    "url": "https://mapgenie.io/death-stranding-2/maps/australia"
+  },
+  {
+    "gameSlug": "titan-quest-2",
+    "mapSlug": "world",
+    "name": "Grécia Antiga",
+    "dlc": "base",
+    "url": "https://mapgenie.io/titan-quest-2/maps/world"
+  },
+  {
+    "gameSlug": "hollow-knight-silksong",
+    "mapSlug": "pharloom",
+    "name": "Pharloom",
+    "dlc": "base",
+    "url": "https://mapgenie.io/hollow-knight-silksong/maps/pharloom"
+  },
+  {
+    "gameSlug": "borderlands-4",
+    "mapSlug": "kairos",
+    "name": "Kairos",
+    "dlc": "base",
+    "url": "https://mapgenie.io/borderlands-4/maps/kairos"
+  },
+  {
+    "gameSlug": "borderlands-4",
+    "mapSlug": "the-whispering-glacier",
+    "name": "The Whispering Glacier",
+    "dlc": "dlc",
+    "url": "https://mapgenie.io/borderlands-4/maps/the-whispering-glacier"
+  },
+  {
+    "gameSlug": "borderlands-4",
+    "mapSlug": "providence-island",
+    "name": "Providence Island",
+    "dlc": "dlc",
+    "url": "https://mapgenie.io/borderlands-4/maps/providence-island"
+  },
+  {
+    "gameSlug": "dying-light-the-beast",
+    "mapSlug": "castor-woods",
+    "name": "Castor Woods",
+    "dlc": "base",
+    "url": "https://mapgenie.io/dying-light-the-beast/maps/castor-woods"
+  },
+  {
+    "gameSlug": "silent-hill-f",
+    "mapSlug": "ebisugaoka",
+    "name": "Ebisugaoka",
+    "dlc": "base",
+    "url": "https://mapgenie.io/silent-hill-f/maps/ebisugaoka"
+  },
+  {
+    "gameSlug": "baby-steps",
+    "mapSlug": "world",
+    "name": "The Mountain",
+    "dlc": "base",
+    "url": "https://mapgenie.io/baby-steps/maps/world"
+  },
+  {
+    "gameSlug": "tainted-grail-the-fall-of-avalon",
+    "mapSlug": "horns-of-the-south",
+    "name": "Horns of the South",
+    "dlc": "base",
+    "url": "https://mapgenie.io/tainted-grail-the-fall-of-avalon/maps/horns-of-the-south"
+  },
+  {
+    "gameSlug": "tainted-grail-the-fall-of-avalon",
+    "mapSlug": "cuanacht",
+    "name": "Cuanacht",
+    "dlc": "base",
+    "url": "https://mapgenie.io/tainted-grail-the-fall-of-avalon/maps/cuanacht"
+  },
+  {
+    "gameSlug": "tainted-grail-the-fall-of-avalon",
+    "mapSlug": "forlorn-swords",
+    "name": "Forlorn Swords",
+    "dlc": "base",
+    "url": "https://mapgenie.io/tainted-grail-the-fall-of-avalon/maps/forlorn-swords"
   }
 ]

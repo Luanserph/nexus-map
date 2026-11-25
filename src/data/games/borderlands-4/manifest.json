@@ -1,0 +1,683 @@
+{
+  "id": "game-borderlands-4",
+  "slug": "borderlands-4",
+  "title": "Borderlands 4",
+  "subtitle": "Kairos + DLCs — Símbolos da Arca, ECHO Logs, Baús Vermelhos & Chefes",
+  "studio": "Gearbox Software",
+  "releaseYear": 2025,
+  "genres": [
+    "FPS",
+    "Action RPG",
+    "Mundo Aberto"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox",
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/borderlands-4/cover.webp",
+    "bannerImage": "/games/borderlands-4/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#FACC15",
+    "accentSecondary": "#EC4899",
+    "accentGlow": "rgba(250, 204, 21, 0.42)",
+    "glassTint": "rgba(20, 16, 10, 0.84)",
+    "surfaceBase": "#0D0A05",
+    "fontDisplay": "'Rajdhani', sans-serif",
+    "backgroundPattern": "cyber-grid",
+    "badgeStyle": "chamfered"
+  },
+  "maps": [
+    {
+      "id": "kairos",
+      "name": "Kairos",
+      "dlc": "base",
+      "pinsCount": 1904,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0D0A05",
+      "initialCenter": [
+        0.69008910372534,
+        -0.76956997733456
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          -0.08527,
+          -1.16671
+        ],
+        [
+          1.15113,
+          0.08642
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/borderlands-4/fw3dcanb/93nfns-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 15,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              -0.08527,
+              -1.16671
+            ],
+            [
+              1.15113,
+              0.08642
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "providence-island",
+      "name": "Providence Island",
+      "dlc": "dlc",
+      "pinsCount": 221,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0D0A05",
+      "initialCenter": [
+        0.68490609294945,
+        -1.0421010676016
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.46526,
+          -1.23166
+        ],
+        [
+          0.90408,
+          -0.20585
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default-v2",
+          "label": "default-v2",
+          "urlTemplate": "https://tiles.mapgenie.io/games/borderlands-4/providence-island/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-whispering-glacier",
+      "name": "The Whispering Glacier",
+      "dlc": "dlc",
+      "pinsCount": 190,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0D0A05",
+      "initialCenter": [
+        0.63101440633048,
+        -0.75727292117918
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          -0.06513,
+          -0.96685
+        ],
+        [
+          0.8793,
+          0.07162
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/borderlands-4/fw3dcanb/the-whispering-glacier-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              -0.06513,
+              -0.96685
+            ],
+            [
+              0.8793,
+              0.07162
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "contract-board",
+          "groupId": "locations",
+          "name": "Contract Board",
+          "icon": "scroll-text",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "faction-town",
+          "groupId": "locations",
+          "name": "Faction Town",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "fast-travel-station",
+          "groupId": "locations",
+          "name": "Fast Travel Station",
+          "icon": "navigation",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "fortress",
+          "groupId": "locations",
+          "name": "Fortress",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "level-travel-station",
+          "groupId": "locations",
+          "name": "Level Travel Station",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "point-of-interest",
+          "groupId": "locations",
+          "name": "Point of Interest",
+          "icon": "landmark",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "vault",
+          "groupId": "locations",
+          "name": "Vault",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "speakeasy-door",
+          "groupId": "locations",
+          "name": "Speakeasy Door",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "vending",
+      "label": "Vending",
+      "categories": [
+        {
+          "id": "bank-of-kairos",
+          "groupId": "vending",
+          "name": "Bank of Kairos",
+          "icon": "gem",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "firmware-transfer-machine",
+          "groupId": "vending",
+          "name": "Firmware Transfer Machine",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "lost-loot-machine",
+          "groupId": "vending",
+          "name": "Lost Loot Machine",
+          "icon": "gem",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "maurice-s-black-market",
+          "groupId": "vending",
+          "name": "Maurice's Black Market",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "moxxi-s-big-encore",
+          "groupId": "vending",
+          "name": "Moxxi's Big Encore",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "respec-machine",
+          "groupId": "vending",
+          "name": "Respec Machine",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "vending-machine",
+          "groupId": "vending",
+          "name": "Vending Machine",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "auger-shrine",
+          "groupId": "collectibles",
+          "name": "Auger Shrine",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "burrito",
+          "groupId": "collectibles",
+          "name": "Burrito",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "dead-bolt",
+          "groupId": "collectibles",
+          "name": "Dead Bolt",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "echo-log",
+          "groupId": "collectibles",
+          "name": "ECHO Log",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": false
+        },
+        {
+          "id": "electi-safe",
+          "groupId": "collectibles",
+          "name": "Electi Safe",
+          "icon": "gem",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "evocarium",
+          "groupId": "collectibles",
+          "name": "Evocarium",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "lost-capsule",
+          "groupId": "collectibles",
+          "name": "Lost Capsule",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "marcus-bobblehead",
+          "groupId": "collectibles",
+          "name": "Marcus Bobblehead",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": false
+        },
+        {
+          "id": "propaganda-speaker",
+          "groupId": "collectibles",
+          "name": "Propaganda Speaker",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "survivalist-cache",
+          "groupId": "collectibles",
+          "name": "Survivalist Cache",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "vault-fragment",
+          "groupId": "collectibles",
+          "name": "Vault Fragment",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "vault-hunter-s-guide-to-kairos",
+          "groupId": "collectibles",
+          "name": "Vault Hunter's Guide to Kairos",
+          "icon": "skull",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "vault-symbol",
+          "groupId": "collectibles",
+          "name": "Vault Symbol",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "island-safe",
+          "groupId": "collectibles",
+          "name": "Island Safe",
+          "icon": "gem",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "lieutenant-harmony-echo-log",
+          "groupId": "collectibles",
+          "name": "Lieutenant Harmony ECHO Log",
+          "icon": "shopping-bag",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "substation-switch",
+          "groupId": "collectibles",
+          "name": "Substation Switch",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "tediore-guns",
+          "groupId": "collectibles",
+          "name": "Tediore Guns",
+          "icon": "shopping-bag",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "dahl-cache",
+          "groupId": "collectibles",
+          "name": "DAHL Cache",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "eldritch-phonograph",
+          "groupId": "collectibles",
+          "name": "Eldritch Phonograph",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "vault-symbol-of-the-damned",
+          "groupId": "collectibles",
+          "name": "Vault Symbol of the Damned",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "loot",
+      "label": "Loot",
+      "categories": [
+        {
+          "id": "golden-chest",
+          "groupId": "loot",
+          "name": "Golden Chest",
+          "icon": "gem",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "legendary-gear",
+          "groupId": "loot",
+          "name": "Legendary Gear",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "red-chest",
+          "groupId": "loot",
+          "name": "Red Chest",
+          "icon": "gem",
+          "color": "#FB7185",
+          "defaultVisible": false
+        },
+        {
+          "id": "white-chest",
+          "groupId": "loot",
+          "name": "White Chest",
+          "icon": "gem",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "missions",
+      "label": "Missions",
+      "categories": [
+        {
+          "id": "faction-mission",
+          "groupId": "missions",
+          "name": "Faction Mission",
+          "icon": "scroll-text",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "main-mission",
+          "groupId": "missions",
+          "name": "Main Mission",
+          "icon": "scroll-text",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "side-mission",
+          "groupId": "missions",
+          "name": "Side Mission",
+          "icon": "scroll-text",
+          "color": "#E879F9",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "activities",
+      "label": "Activities",
+      "categories": [
+        {
+          "id": "abandoned-auger-mine",
+          "groupId": "activities",
+          "name": "Abandoned Auger Mine",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "ancient-crawler",
+          "groupId": "activities",
+          "name": "Ancient Crawler",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "order-bunker",
+          "groupId": "activities",
+          "name": "Order Bunker",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "order-silo",
+          "groupId": "activities",
+          "name": "Order Silo",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "ripper-drill-site",
+          "groupId": "activities",
+          "name": "Ripper Drill Site",
+          "icon": "shopping-bag",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "safehouse",
+          "groupId": "activities",
+          "name": "Safehouse",
+          "icon": "gem",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "tediore-lockdown",
+          "groupId": "activities",
+          "name": "Tediore Lockdown",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "occupied-sector",
+          "groupId": "activities",
+          "name": "Occupied Sector",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "dahl-bunker",
+          "groupId": "activities",
+          "name": "DAHL Bunker",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "fuel-siphon",
+          "groupId": "activities",
+          "name": "Fuel Siphon",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "enemies",
+      "label": "Enemies",
+      "categories": [
+        {
+          "id": "boss",
+          "groupId": "enemies",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "named-enemy",
+          "groupId": "enemies",
+          "name": "Named Enemy",
+          "icon": "skull",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "easter-egg",
+          "groupId": "other",
+          "name": "Easter Egg",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "world-event",
+          "groupId": "other",
+          "name": "World Event",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "clot",
+          "groupId": "other",
+          "name": "Clot",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 2315
+}

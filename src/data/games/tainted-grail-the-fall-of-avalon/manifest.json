@@ -1,0 +1,610 @@
+{
+  "id": "game-tainted-grail-the-fall-of-avalon",
+  "slug": "tainted-grail-the-fall-of-avalon",
+  "title": "Tainted Grail: The Fall of Avalon",
+  "subtitle": "Avalon — Horns of the South, Cuanacht & Forlorn Swords",
+  "studio": "Questline",
+  "releaseYear": 2025,
+  "genres": [
+    "Action RPG",
+    "RPG",
+    "Fantasia Sombria"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/tainted-grail-the-fall-of-avalon/cover.webp",
+    "bannerImage": "/games/tainted-grail-the-fall-of-avalon/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#DC2626",
+    "accentSecondary": "#CBD5E1",
+    "accentGlow": "rgba(220, 38, 38, 0.42)",
+    "glassTint": "rgba(20, 10, 12, 0.86)",
+    "surfaceBase": "#0B0607",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "abyssal-contours",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "cuanacht",
+      "name": "Cuanacht",
+      "dlc": "base",
+      "pinsCount": 1390,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0B0607",
+      "initialCenter": [
+        0.62151700410622,
+        -0.80061199065617
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          0.39293,
+          -1.12253
+        ],
+        [
+          0.96529,
+          -0.3801
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/tainted-grail-the-fall-of-avalon/cuanacht/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.39293,
+              -1.12253
+            ],
+            [
+              0.96529,
+              -0.3801
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forlorn-swords",
+      "name": "Forlorn Swords",
+      "dlc": "base",
+      "pinsCount": 1019,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0B0607",
+      "initialCenter": [
+        0.66230109336276,
+        -0.76047031172934
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          0.45425,
+          -0.98193
+        ],
+        [
+          1.07818,
+          -0.46806
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/tainted-grail-the-fall-of-avalon/forlorn/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0.45425,
+              -0.98193
+            ],
+            [
+              1.07818,
+              -0.46806
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "horns-of-the-south",
+      "name": "Horns of the South",
+      "dlc": "base",
+      "pinsCount": 1400,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0B0607",
+      "initialCenter": [
+        0.48621650048965,
+        -0.70215467734795
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          0.15651,
+          -1.09358
+        ],
+        [
+          1.13164,
+          -0.30081
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/tainted-grail-the-fall-of-avalon/horns-of-the-south/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0.15651,
+              -1.09358
+            ],
+            [
+              1.13164,
+              -0.30081
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "dungeon",
+          "groupId": "locations",
+          "name": "Dungeon",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "fast-travel",
+          "groupId": "locations",
+          "name": "Fast Travel",
+          "icon": "navigation",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "location",
+          "groupId": "locations",
+          "name": "Location",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "region-transition",
+          "groupId": "locations",
+          "name": "Region Transition",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "shrine",
+          "groupId": "locations",
+          "name": "Shrine",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "stash",
+          "groupId": "locations",
+          "name": "Stash",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "statue",
+          "groupId": "locations",
+          "name": "Statue",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "transition",
+          "groupId": "locations",
+          "name": "Transition",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "label": "Services",
+      "categories": [
+        {
+          "id": "alchemy-station",
+          "groupId": "services",
+          "name": "Alchemy Station",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "blacksmith",
+          "groupId": "services",
+          "name": "Blacksmith",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "cooking-pot",
+          "groupId": "services",
+          "name": "Cooking Pot",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "grindstone",
+          "groupId": "services",
+          "name": "Grindstone",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "merchant",
+          "groupId": "services",
+          "name": "Merchant",
+          "icon": "shopping-bag",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "lore-entry",
+          "groupId": "collectibles",
+          "name": "Lore Entry",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "quest-item",
+          "groupId": "collectibles",
+          "name": "Quest Item",
+          "icon": "scroll-text",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "recipe",
+          "groupId": "collectibles",
+          "name": "Recipe",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "equipment",
+      "label": "Equipment",
+      "categories": [
+        {
+          "id": "amulet",
+          "groupId": "equipment",
+          "name": "Amulet",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "boots",
+          "groupId": "equipment",
+          "name": "Boots",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "cloak",
+          "groupId": "equipment",
+          "name": "Cloak",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "cuirass",
+          "groupId": "equipment",
+          "name": "Cuirass",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "gauntlets",
+          "groupId": "equipment",
+          "name": "Gauntlets",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "greaves",
+          "groupId": "equipment",
+          "name": "Greaves",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "helmet",
+          "groupId": "equipment",
+          "name": "Helmet",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "magic-weapon",
+          "groupId": "equipment",
+          "name": "Magic Weapon",
+          "icon": "shopping-bag",
+          "color": "#4ADE80",
+          "defaultVisible": false
+        },
+        {
+          "id": "melee-weapon",
+          "groupId": "equipment",
+          "name": "Melee Weapon",
+          "icon": "shopping-bag",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "ranged-weapon",
+          "groupId": "equipment",
+          "name": "Ranged Weapon",
+          "icon": "shopping-bag",
+          "color": "#F472B6",
+          "defaultVisible": false
+        },
+        {
+          "id": "relic",
+          "groupId": "equipment",
+          "name": "Relic",
+          "icon": "gem",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "ring",
+          "groupId": "equipment",
+          "name": "Ring",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "shield",
+          "groupId": "equipment",
+          "name": "Shield",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "chest",
+          "groupId": "items",
+          "name": "Chest",
+          "icon": "gem",
+          "color": "#FB7185",
+          "defaultVisible": false
+        },
+        {
+          "id": "item",
+          "groupId": "items",
+          "name": "Item",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "lumbering-spot",
+          "groupId": "items",
+          "name": "Lumbering Spot",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "mineral",
+          "groupId": "items",
+          "name": "Mineral",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "plant",
+          "groupId": "items",
+          "name": "Plant",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": false
+        },
+        {
+          "id": "supplies",
+          "groupId": "items",
+          "name": "Supplies",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "tool",
+          "groupId": "items",
+          "name": "Tool",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "ethereal-cobweb",
+          "groupId": "items",
+          "name": "Ethereal Cobweb",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "main-quest",
+          "groupId": "quests",
+          "name": "Main Quest",
+          "icon": "scroll-text",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "misc-quest",
+          "groupId": "quests",
+          "name": "Misc Quest",
+          "icon": "scroll-text",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "side-quest",
+          "groupId": "quests",
+          "name": "Side Quest",
+          "icon": "scroll-text",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "enemies",
+      "label": "Enemies",
+      "categories": [
+        {
+          "id": "boss",
+          "groupId": "enemies",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "enemy",
+          "groupId": "enemies",
+          "name": "Enemy",
+          "icon": "skull",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "bed",
+          "groupId": "other",
+          "name": "Bed",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "bounty-board",
+          "groupId": "other",
+          "name": "Bounty Board",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "easter-egg",
+          "groupId": "other",
+          "name": "Easter Egg",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "horse",
+          "groupId": "other",
+          "name": "Horse",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "note",
+          "groupId": "other",
+          "name": "Note",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "npc",
+          "groupId": "other",
+          "name": "NPC",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 3809
+}

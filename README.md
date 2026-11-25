@@ -7,13 +7,13 @@
 
 [![Acessar Web App](https://img.shields.io/badge/🌐_Acessar_Web_App-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://nexus-map-zeta.vercel.app)
 [![Download Windows](https://img.shields.io/badge/⬇️_Download_Windows-Tauri_v2_(.exe)-06B6D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Luanserph/nexus-map/releases/latest)
-[![Versão](https://img.shields.io/badge/Release-v2.2.0-8B5CF6?style=for-the-badge)](https://github.com/Luanserph/nexus-map/releases/tag/v2.2.0)
+[![Versão](https://img.shields.io/badge/Release-v2.3.0-8B5CF6?style=for-the-badge)](https://github.com/Luanserph/nexus-map/releases/tag/v2.3.0)
 [![Licença](https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge)](LICENSE)
 
 <br />
 
 **Central de cartografia interativa de alta performance para jogos de mundo aberto.**  
-46 jogos • ~117.000 marcadores • Web (PWA) & App Desktop Nativo para Windows (~12 MB)
+52 jogos • ~126.000 marcadores • Web (PWA) & App Desktop Nativo para Windows (~12 MB)
 
 </div>
 
@@ -28,7 +28,7 @@ O **Nexus Maps** foi criado para oferecer um único lugar rápido, limpo e sem d
 
 ---
 
-## 🎮 Vitrine do Catálogo (46 Jogos • 116.692 Pins)
+## 🎮 Vitrine do Catálogo (52 Jogos • 126.449 Pins)
 
 <table>
   <tr>
@@ -234,7 +234,32 @@ O **Nexus Maps** foi criado para oferecer um único lugar rápido, limpo e sem d
       <img src="public/games/big-walk/cover.webp" width="160" alt="Big Walk" /><br />
       <b>Big Walk</b><br /><sub>The Island • 230 pins</sub>
     </td>
-    <td align="center" width="20%"></td>
+    <td align="center" width="20%">
+      <img src="public/games/tainted-grail-the-fall-of-avalon/cover.webp" width="160" alt="Tainted Grail: The Fall of Avalon" /><br />
+      <b>Tainted Grail</b><br /><sub>3 Regiões • 3.809 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/borderlands-4/cover.webp" width="160" alt="Borderlands 4" /><br />
+      <b>Borderlands 4</b><br /><sub>3 Mapas • 2.315 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/hollow-knight-silksong/cover.webp" width="160" alt="Hollow Knight: Silksong" /><br />
+      <b>Hollow Knight: Silksong</b><br /><sub>Pharloom • 1.939 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/silent-hill-f/cover.webp" width="160" alt="Silent Hill f" /><br />
+      <b>Silent Hill f</b><br /><sub>Ebisugaoka • 1.057 pins</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="20%">
+      <img src="public/games/dying-light-the-beast/cover.webp" width="160" alt="Dying Light: The Beast" /><br />
+      <b>Dying Light: The Beast</b><br /><sub>Castor Woods • 422 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/baby-steps/cover.webp" width="160" alt="Baby Steps" /><br />
+      <b>Baby Steps</b><br /><sub>The Mountain • 215 pins</sub>
+    </td>
     <td align="center" width="20%"></td>
     <td align="center" width="20%"></td>
     <td align="center" width="20%"></td>

@@ -1,0 +1,2889 @@
+[
+  {
+    "id": "baby-steps-world-488865",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Camp",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.67757316901464,
+      0.35983275075985
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488872",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Cave with a Donkey",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.72886237199896,
+      0.3802028582565
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2a01fb82-0115-4467-b2e8-4496fc97f2c6.png"
+  },
+  {
+    "id": "baby-steps-world-488875",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Fire Tower",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.70416028531434,
+      0.38887342812271
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488883",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Stockades",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.65731465090863,
+      0.3906601929216
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488884",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Carrosel",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.71723430333458,
+      0.33928086585823
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488885",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Ferris Wheel",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.73451281016335,
+      0.35545064019357
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488886",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Barn",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.75722292551143,
+      0.38604380594546
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488887",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Flea Pit",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.74838236459789,
+      0.38492803224833
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488892",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Camp",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.66276334638067,
+      0.41117389052839
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488894",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Ruined Barracks",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.65253315029943,
+      0.44051447401904
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488895",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Soccer/Football Field",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.64415853818028,
+      0.43978934508021
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488899",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Bear on a Bridge",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.67896674822669,
+      0.42432611944371
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488902",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Frog Temple",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.68986117937746,
+      0.42718504137774
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488908",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Mitchell's House",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.71437224488196,
+      0.44424805916232
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488911",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Boring Tower",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.71801772665901,
+      0.42897626188578
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488917",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Fire Tower",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.74592868693784,
+      0.43921384589835
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488921",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Chest",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.64981378391252,
+      0.4270636601468
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d676c345-6e9c-4ff8-aac8-7bd78631e084.png"
+  },
+  {
+    "id": "baby-steps-world-488922",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Box Hell",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.75446825390225,
+      0.45101472852876
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488925",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Egg-shaped Stone",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.7303274652221,
+      0.45000616080387
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488928",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Retirement Village",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.74454976813269,
+      0.4704215526326
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488933",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Lemming Leap",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.73283444988451,
+      0.47858836982572
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488934",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Trophy Cove",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.72212818852151,
+      0.46752609094889
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488936",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Fire Tower",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.7074260574451,
+      0.47837946644351
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488942",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Cave",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.68593560336907,
+      0.47199141855725
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488943",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Cave",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.71132355289279,
+      0.47412828124703
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488950",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Camp",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.69280234437457,
+      0.45315342834347
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488952",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Camp",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.67295092833589,
+      0.49210566245938
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488958",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Kart on a Track",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.6869314566012,
+      0.51511524914569
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488959",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Sleepy Lady Sand Mounds",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.72077016592934,
+      0.5072197477643
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488960",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Free Shoes Stand",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.69234920081101,
+      0.35602803179256
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488961",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Ice Cream Stand",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.71633919763158,
+      0.51649274670011
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488963",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Fire Tower",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.74951785118742,
+      0.54088240122054
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488967",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Dry Pool",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.66114428347393,
+      0.52642891613804
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488969",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Holy Bucket",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.69471117958125,
+      0.55617286350365
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488971",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Cave",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.66377780508563,
+      0.55335723049956
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488972",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Cave",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.65970084738217,
+      0.55756273659807
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488973",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Always Tired Sand Dunes",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.67572210618491,
+      0.56842734689243
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488976",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Holy Bucket",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.73207136382561,
+      0.55973622048963
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488983",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Camp",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.72888225317075,
+      0.58163508148562
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488986",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Camp",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.72739821491305,
+      0.61432916508146
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488988",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Cave",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.68024976452983,
+      0.61515782597365
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488992",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Norman's House",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.69703227285262,
+      0.64095660231727
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488994",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "\"Your Mum\"",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.69342130397553,
+      0.65824875590482
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489000",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Seesaw",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.65208876229173,
+      0.683512440735
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489006",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Tower \"Big and Small\"",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.72419911623075,
+      0.67581785188494
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489007",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Actual Art",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.71598262611644,
+      0.65162593095322
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489008",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Fire Tower",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.73763948404226,
+      0.63441617819161
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489009",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Egg Statue",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.68034274493607,
+      0.68373991257596
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489015",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Big Kahuna",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.74332256119212,
+      0.6803416771601
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489017",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Red Light Green Light",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.76007892677649,
+      0.69714485907237
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489019",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Salt Mine",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.73792076389594,
+      0.69856248908218
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489020",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Camp",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.74861100302627,
+      0.71078746697076
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489024",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Fire Tower",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.72802151819045,
+      0.71493414415936
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489032",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "House",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.66825665662324,
+      0.71936549738189
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489038",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Camp",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.68589047914264,
+      0.76598614232601
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489046",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Cave",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.66883008408948,
+      0.8108287962979
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489049",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Train",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.66925995371321,
+      0.82716967819943
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489050",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Mattress",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.70619394405429,
+      0.80501476377991
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489051",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Boulder",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.76001474065842,
+      0.82188784594381
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489052",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Moose's Cabin",
+    "description": "Point of Interest localizado em world.",
+    "coords": [
+      -0.70937722921263,
+      0.93973952962106
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-503558",
+    "mapId": "world",
+    "category": "point-of-interest",
+    "title": "Soccer Field",
+    "description": "There is a ball here that you can use to score a goal",
+    "coords": [
+      -0.75645284914293,
+      0.43986649368064
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488857",
+    "mapId": "world",
+    "category": "key-item",
+    "title": "Pedometer",
+    "description": "Location: On top of a rock near the ferris wheel. Achievement: [Most Economical](https://mapgenie.io/baby-steps/maps/world?locationIds=489056)",
+    "coords": [
+      -0.73072357605579,
+      0.34638812061092
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f0c8d9f8-677b-4aec-af65-a794e7ecc09c.png"
+  },
+  {
+    "id": "baby-steps-world-488900",
+    "mapId": "world",
+    "category": "key-item",
+    "title": "Clock",
+    "description": "Location: On top of a ledge under the [bear on a bridge](https://mapgenie.io/baby-steps/maps/world?locationIds=488899) Achievement: [Most Punctual](https://mapgenie.io/baby-steps/maps/world?locationIds=489057)",
+    "coords": [
+      -0.67991088580069,
+      0.42389697775835
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6cea2add-7489-49b2-ac90-5ce5652dcbd9.png"
+  },
+  {
+    "id": "baby-steps-world-488929",
+    "mapId": "world",
+    "category": "key-item",
+    "title": "Binoculars",
+    "description": "Location: On top of a box on a ledge under the [Retirement Village](https://mapgenie.io/baby-steps/maps/world?locationIds=488928)",
+    "coords": [
+      -0.74334813849597,
+      0.46870499651131
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/49d36bc2-f575-4c53-b182-5c5ef163724e.png"
+  },
+  {
+    "id": "baby-steps-world-488981",
+    "mapId": "world",
+    "category": "key-item",
+    "title": "Lantern",
+    "description": "Location: Given by Moose during [Inspector Gadget's Lantern Cutscene](https://mapgenie.io/baby-steps/maps/world?locationIds=488980)",
+    "coords": [
+      -0.72733730077834,
+      0.57973617503015
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488982",
+    "mapId": "world",
+    "category": "key-item",
+    "title": "Ice Cream",
+    "description": "Location: Given at the [Ice Cream Stand](https://mapgenie.io/baby-steps/maps/world?locationIds=488961) during the [Ice Cream Cutscene](https://mapgenie.io/baby-steps/maps/world?locationIds=488962)",
+    "coords": [
+      -0.71570623995223,
+      0.51504225787835
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488997",
+    "mapId": "world",
+    "category": "key-item",
+    "title": "Polaroid Camera",
+    "description": "Location: On the last stair on the structure over the Milk Lake",
+    "coords": [
+      -0.65595835447232,
+      0.64950177741612
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3c950422-cfb9-47f5-af57-0874b1bd8215.png"
+  },
+  {
+    "id": "baby-steps-world-488860",
+    "mapId": "world",
+    "category": "quest-item",
+    "title": "Cup",
+    "description": "Location: On top of an old wagon. Bring up to the basket in front of the [Fire Tower](https://mapgenie.io/baby-steps/maps/world?locationIds=488875) for the [World's Best Dad](https://mapgenie.io/baby-steps/maps/world?locationIds=488876) achievement.",
+    "coords": [
+      -0.71978974322647,
+      0.35520386632255
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1d2a6a94-aff4-4fdf-a134-3dc7acc4cafa.png"
+  },
+  {
+    "id": "baby-steps-world-488909",
+    "mapId": "world",
+    "category": "quest-item",
+    "title": "Keys",
+    "description": "Location: Inside [Mitchell's House](https://mapgenie.io/baby-steps/maps/world?locationIds=488908) in a bowl on the table",
+    "coords": [
+      -0.71428641419348,
+      0.44317520772843
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/5d66ff51-e0cc-478f-ab68-5bdd02482853.png"
+  },
+  {
+    "id": "baby-steps-world-488935",
+    "mapId": "world",
+    "category": "quest-item",
+    "title": "Vase",
+    "description": "Location: Inside [Trophy Cove](https://mapgenie.io/baby-steps/maps/world?locationIds=488934) on a table behind a sitting man",
+    "coords": [
+      -0.72174195042345,
+      0.46641032905694
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b298b656-95bc-419d-ad9a-3eef203fca34.png"
+  },
+  {
+    "id": "baby-steps-world-488989",
+    "mapId": "world",
+    "category": "quest-item",
+    "title": "Chest Key",
+    "description": "Location: Inside the [Cave](https://mapgenie.io/baby-steps/maps/world?locationIds=488988) on a pedestal",
+    "coords": [
+      -0.68020684918739,
+      0.61756094619548
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e2c44a92-d4e3-440a-8aba-64d72d625fb1.png"
+  },
+  {
+    "id": "baby-steps-world-489010",
+    "mapId": "world",
+    "category": "quest-item",
+    "title": "Baby Trophy",
+    "description": "Location: Inside a rock clearing in a crib",
+    "coords": [
+      -0.67356088546254,
+      0.68995185040895
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/bc3905b8-e0e3-4a8a-8579-842b276fee41.png"
+  },
+  {
+    "id": "baby-steps-world-489026",
+    "mapId": "world",
+    "category": "quest-item",
+    "title": "\"Falcon\"",
+    "description": "Location: On a ledge on the side of a cliff near a staircase",
+    "coords": [
+      -0.73245864691077,
+      0.72490246152536
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/459a8603-d4e3-4189-9d05-bf92345261a4.png"
+  },
+  {
+    "id": "baby-steps-world-488870",
+    "mapId": "world",
+    "category": "follower",
+    "title": "Chick",
+    "description": "Follower localizado em world.",
+    "coords": [
+      -0.7559905697635,
+      0.38686537441872
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488920",
+    "mapId": "world",
+    "category": "follower",
+    "title": "Duckling",
+    "description": "Follower localizado em world.",
+    "coords": [
+      -0.73591704115529,
+      0.43769092090656
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-500232",
+    "mapId": "world",
+    "category": "follower",
+    "title": "Chick",
+    "description": "Follower localizado em world.",
+    "coords": [
+      -0.75017111546231,
+      0.63016979271964
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488867",
+    "mapId": "world",
+    "category": "fruit",
+    "title": "Apple",
+    "description": "Location: Hanging off a branch on a structure on top of a rock",
+    "coords": [
+      -0.68073723132517,
+      0.3443688956412
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9c25dc8b-5b7e-4889-a784-a94944ec27dc.png"
+  },
+  {
+    "id": "baby-steps-world-488869",
+    "mapId": "world",
+    "category": "fruit",
+    "title": "Pear",
+    "description": "Location: Hanging off a branch on the side of a ledge up a cliff",
+    "coords": [
+      -0.64533505344906,
+      0.35466187107916
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/301e803d-b53c-464d-a4d4-3e9fd89182c5.png"
+  },
+  {
+    "id": "baby-steps-world-488880",
+    "mapId": "world",
+    "category": "fruit",
+    "title": "Orange",
+    "description": "Location: Hanging on a branch over the [stockades](https://mapgenie.io/baby-steps/maps/world?locationIds=488883)",
+    "coords": [
+      -0.65581327943275,
+      0.3890725104584
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/42d7cfc8-c66b-4289-ae54-174eba1df522.png"
+  },
+  {
+    "id": "baby-steps-world-488890",
+    "mapId": "world",
+    "category": "fruit",
+    "title": "Persimmon",
+    "description": "Location: Hanging from a high branch red tree surrounded by a brick wall",
+    "coords": [
+      -0.68058816426711,
+      0.40114571648908
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2e417329-fe36-48a1-94a2-10b098ea8d45.png"
+  },
+  {
+    "id": "baby-steps-world-488897",
+    "mapId": "world",
+    "category": "fruit",
+    "title": "Banana",
+    "description": "Location: Hanging from a small branch of a tree on top of a brick staircase",
+    "coords": [
+      -0.66949071797382,
+      0.43892233390322
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/fa403c51-c1d5-4014-a5dd-c8d70a79cc45.png"
+  },
+  {
+    "id": "baby-steps-world-488916",
+    "mapId": "world",
+    "category": "fruit",
+    "title": "Avocado",
+    "description": "Location: Hanging off the branch of a tree in a ravine near a waterfall",
+    "coords": [
+      -0.73425496046187,
+      0.42011479633209
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/5ceac511-60cb-414e-91ed-7bac030161fa.png"
+  },
+  {
+    "id": "baby-steps-world-488927",
+    "mapId": "world",
+    "category": "fruit",
+    "title": "Peach",
+    "description": "Location: Hanging off the branch of a tree on top of a cliff over a canyon",
+    "coords": [
+      -0.73291970984405,
+      0.46201042363143
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/16c57480-c0dd-4271-b9e2-f0d7ec1bda7f.png"
+  },
+  {
+    "id": "baby-steps-world-488944",
+    "mapId": "world",
+    "category": "fruit",
+    "title": "Papaya",
+    "description": "Location: On a top branch of a tree at the edge of a cliff with a swing on it",
+    "coords": [
+      -0.69123435691037,
+      0.46505300609418
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/fced1373-fd51-4a94-a8c4-e22c3c49340f.png"
+  },
+  {
+    "id": "baby-steps-world-488946",
+    "mapId": "world",
+    "category": "fruit",
+    "title": "Cherimoya",
+    "description": "Location: Hanging from a branch of a tree in a wooden and brick structure",
+    "coords": [
+      -0.65999305750813,
+      0.44732537943003
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/12f11117-c782-40a8-85c4-2b7ebc412175.png"
+  },
+  {
+    "id": "baby-steps-world-488975",
+    "mapId": "world",
+    "category": "fruit",
+    "title": "Mango",
+    "description": "Location: Hanging off a branch at the very top of the slippery slope",
+    "coords": [
+      -0.69447774744219,
+      0.59444985758917
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/317eb23d-a6cc-458e-942e-6ccdc41dcba1.png"
+  },
+  {
+    "id": "baby-steps-world-488977",
+    "mapId": "world",
+    "category": "fruit",
+    "title": "Fig",
+    "description": "Location: On a branch of a tree on top of the [red holy bucket](https://mapgenie.io/baby-steps/maps/world?locationIds=488976)",
+    "coords": [
+      -0.73202844848137,
+      0.55836299484427
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/da824fc9-ff76-4991-8697-9bc4b97cfb4a.png"
+  },
+  {
+    "id": "baby-steps-world-488990",
+    "mapId": "world",
+    "category": "fruit",
+    "title": "Pomegranate",
+    "description": "Location: Hanging off a branch of a tree on top of a stone wall",
+    "coords": [
+      -0.66602149011442,
+      0.63208674849177
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/958da7fc-3ac5-4dd3-8647-804598c22a8d.png"
+  },
+  {
+    "id": "baby-steps-world-488993",
+    "mapId": "world",
+    "category": "fruit",
+    "title": "Kiwi",
+    "description": "Location: Hanging off the branch of a tree above [Norman's House](https://mapgenie.io/baby-steps/maps/world?locationIds=488992)",
+    "coords": [
+      -0.69651728872185,
+      0.63992669839899
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e3a8286a-c07a-466d-9435-d52ba6da959c.png"
+  },
+  {
+    "id": "baby-steps-world-489001",
+    "mapId": "world",
+    "category": "fruit",
+    "title": "Starfruit",
+    "description": "Location: Hanging off a branch of a tree on top of a rock next to the [Seesaw](https://mapgenie.io/baby-steps/maps/world?locationIds=489000)",
+    "coords": [
+      -0.65462076760139,
+      0.68479980927769
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/8a891754-8b3f-4f22-a1aa-3dae270a3a48.png"
+  },
+  {
+    "id": "baby-steps-world-489016",
+    "mapId": "world",
+    "category": "fruit",
+    "title": "Wax Jambu",
+    "description": "Location: Hanging on a branch of a tree next to the [Big Kahuna](https://mapgenie.io/baby-steps/maps/world?locationIds=489015)",
+    "coords": [
+      -0.7398464183093,
+      0.6803416771601
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/5fd987d0-27a8-4c86-8de6-ded4fdcfffeb.png"
+  },
+  {
+    "id": "baby-steps-world-489022",
+    "mapId": "world",
+    "category": "fruit",
+    "title": "Tamarillo",
+    "description": "Location: Hanging off a branch of a tree in a hole on top of the cliff",
+    "coords": [
+      -0.74547818289733,
+      0.70357823830993
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6c82d0ad-0fd6-44ec-815e-3469adffa054.png"
+  },
+  {
+    "id": "baby-steps-world-489023",
+    "mapId": "world",
+    "category": "fruit",
+    "title": "Watermelon",
+    "description": "Location: Hanging off a branch of a tree over the railroad tracks",
+    "coords": [
+      -0.74762395010893,
+      0.71567943715867
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/94466899-7cbe-4813-b554-eedaa209c342.png"
+  },
+  {
+    "id": "baby-steps-world-489030",
+    "mapId": "world",
+    "category": "fruit",
+    "title": "Cacao",
+    "description": "Location: Hanging from a branch of a tree on a ledge behind a waterwheel",
+    "coords": [
+      -0.70851209864753,
+      0.7348247718291
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ae17165d-2231-4829-8a14-01184e6827fd.png"
+  },
+  {
+    "id": "baby-steps-world-489031",
+    "mapId": "world",
+    "category": "fruit",
+    "title": "Passion Fruit",
+    "description": "Location: Hanging from a branch of a tree on a ledge behind a waterwheel",
+    "coords": [
+      -0.70722341537541,
+      0.73422389312013
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/29ff1710-5c64-4c50-af35-eec211ea33a9.png"
+  },
+  {
+    "id": "baby-steps-world-489033",
+    "mapId": "world",
+    "category": "fruit",
+    "title": "Rambutan",
+    "description": "Location: On the third floor of the [House](https://mapgenie.io/baby-steps/maps/world?locationIds=489032) through the window hanging off of the branch of a tree",
+    "coords": [
+      -0.66997327039255,
+      0.71773484254281
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2d856e4f-a3b3-4979-b600-d41c6172b8a3.png"
+  },
+  {
+    "id": "baby-steps-world-489042",
+    "mapId": "world",
+    "category": "fruit",
+    "title": "Lemon",
+    "description": "Location: Hanging from a branch of a tree on top of some ruins in a frozen lake",
+    "coords": [
+      -0.6959564556002,
+      0.78569876685219
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/53660128-455b-4505-a4a2-03c1b734298a.png"
+  },
+  {
+    "id": "baby-steps-world-893837",
+    "mapId": "world",
+    "category": "fruit",
+    "title": "Pear",
+    "description": "Location: ??",
+    "coords": [
+      -0.75668438767536,
+      0.36434269562803
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488858",
+    "mapId": "world",
+    "category": "graffiti",
+    "title": "Graffiti",
+    "description": "Graffiti localizado em world.",
+    "coords": [
+      -0.73276576604633,
+      0.35577734361829
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d08a3f0c-8f0b-40da-8290-15ae40e3200e.png"
+  },
+  {
+    "id": "baby-steps-world-488873",
+    "mapId": "world",
+    "category": "graffiti",
+    "title": "Graffiti",
+    "description": "Graffiti localizado em world.",
+    "coords": [
+      -0.68086873146714,
+      0.3868402778194
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/16151d05-f70f-4f23-b8fa-096bd6250002.png"
+  },
+  {
+    "id": "baby-steps-world-488905",
+    "mapId": "world",
+    "category": "graffiti",
+    "title": "Graffiti",
+    "description": "Graffiti localizado em world.",
+    "coords": [
+      -0.69902659100646,
+      0.44205503483676
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/412217ba-21e2-4b91-92df-7a41a9fea106.png"
+  },
+  {
+    "id": "baby-steps-world-488919",
+    "mapId": "world",
+    "category": "graffiti",
+    "title": "Graffiti",
+    "description": "Graffiti localizado em world.",
+    "coords": [
+      -0.7382776030943,
+      0.43712029947135
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f4019710-22ec-4718-871e-e8c4c99a908e.png"
+  },
+  {
+    "id": "baby-steps-world-488940",
+    "mapId": "world",
+    "category": "graffiti",
+    "title": "Graffiti",
+    "description": "Graffiti localizado em world.",
+    "coords": [
+      -0.70209210209964,
+      0.47895545032745
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/4900a87a-813e-4d93-b6d4-7df57f3d6f56.png"
+  },
+  {
+    "id": "baby-steps-world-489012",
+    "mapId": "world",
+    "category": "graffiti",
+    "title": "Graffiti",
+    "description": "Graffiti localizado em world.",
+    "coords": [
+      -0.72364315649187,
+      0.6743802510472
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d7e1d966-7eb1-4ce1-8b1d-faa6157156f1.png"
+  },
+  {
+    "id": "baby-steps-world-489029",
+    "mapId": "world",
+    "category": "graffiti",
+    "title": "Graffiti",
+    "description": "Graffiti localizado em world.",
+    "coords": [
+      -0.70582214137048,
+      0.73138812891354
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/49205f08-a54d-4864-8d46-7f89064480ec.png"
+  },
+  {
+    "id": "baby-steps-world-488854",
+    "mapId": "world",
+    "category": "hat",
+    "title": "Cowboy Hat",
+    "description": "Location: Hanging on a nail in the side of a wooden beam in a brick structure",
+    "coords": [
+      -0.66138427640382,
+      0.35381518632967
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ebcb00e2-816f-47c3-ba6c-678ee68b5887.png"
+  },
+  {
+    "id": "baby-steps-world-488856",
+    "mapId": "world",
+    "category": "hat",
+    "title": "Propeller Hat",
+    "description": "Location: On the very top of the [carrosel](https://mapgenie.io/baby-steps/maps/world?locationIds=488884)",
+    "coords": [
+      -0.71621686220246,
+      0.33913652754424
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ddf9e8d6-f896-4fd0-80a2-9ef4ed6fbcac.png"
+  },
+  {
+    "id": "baby-steps-world-488879",
+    "mapId": "world",
+    "category": "hat",
+    "title": "Bucket Hat",
+    "description": "Location: On top of a rock under an overhang up the cliff",
+    "coords": [
+      -0.65510253820059,
+      0.38215240600177
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/8deb254d-b4c3-4a3b-a55d-610481c72bb7.png"
+  },
+  {
+    "id": "baby-steps-world-488888",
+    "mapId": "world",
+    "category": "hat",
+    "title": "Crown Hat",
+    "description": "Location: On the edge of a cliff on top of the head of a baby doll",
+    "coords": [
+      -0.67846398073942,
+      0.38997111092675
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/03ff32e7-859e-4fa7-9a2e-0a6a8d8f1b69.png"
+  },
+  {
+    "id": "baby-steps-world-488898",
+    "mapId": "world",
+    "category": "hat",
+    "title": "Bike Helmet with Camera",
+    "description": "Location: On top of a wooden post at the top of a stone pillar Note: Wearing this hat will make the game first person",
+    "coords": [
+      -0.67765086436685,
+      0.43728766588823
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/288adab7-89f9-4aa2-8c98-03b569c65494.png"
+  },
+  {
+    "id": "baby-steps-world-488903",
+    "mapId": "world",
+    "category": "hat",
+    "title": "Frog Hat",
+    "description": "Location: On top of a stack of stones in the middle of the [Frog Temple](https://mapgenie.io/baby-steps/maps/world?locationIds=488902)",
+    "coords": [
+      -0.68985693456116,
+      0.42592847184193
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/97ee1304-363c-45c3-b009-014678ef92e3.png"
+  },
+  {
+    "id": "baby-steps-world-488923",
+    "mapId": "world",
+    "category": "hat",
+    "title": "Box Hat",
+    "description": "Location: On top of [Box Hell](https://mapgenie.io/baby-steps/maps/world?locationIds=488922) hanging off the top of a shovel embedded into a ladder",
+    "coords": [
+      -0.75418100616156,
+      0.44923536323999
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d7c403ba-aef9-4d11-8bf0-3b6c658c57f1.png"
+  },
+  {
+    "id": "baby-steps-world-488939",
+    "mapId": "world",
+    "category": "hat",
+    "title": "Straw Hat with Feather",
+    "description": "Location: At the top of dead tree hanging off what is left of a branch",
+    "coords": [
+      -0.69866492196419,
+      0.45894781180877
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/621511c2-16a2-400d-a775-384124ea91f4.png"
+  },
+  {
+    "id": "baby-steps-world-488941",
+    "mapId": "world",
+    "category": "hat",
+    "title": "Donkey Hat",
+    "description": "Location: Inside a cave through the hole in the ground or through the [east](https://mapgenie.io/baby-steps/maps/world?locationIds=488942) or [west](https://mapgenie.io/baby-steps/maps/world?locationIds=488943) cave entrance next to a large stuffed animal and a barrel",
+    "coords": [
+      -0.70097630314783,
+      0.47878379494695
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3ad1938b-8fe7-470c-bd5c-eb69b74850f3.png"
+  },
+  {
+    "id": "baby-steps-world-488954",
+    "mapId": "world",
+    "category": "hat",
+    "title": "Trophy Hat",
+    "description": "Location: On top of a turtle wandering around the sand Achievement: [Cassie's Trophy](https://mapgenie.io/baby-steps/maps/world?locationIds=488955)",
+    "coords": [
+      -0.69632964427569,
+      0.49143782691519
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/414302ce-33af-4f6f-b3c7-be1fd478d539.png"
+  },
+  {
+    "id": "baby-steps-world-489002",
+    "mapId": "world",
+    "category": "hat",
+    "title": "Sunglasses",
+    "description": "Location: On top of a stone cylinder at the end of the \"Procession\" Note: The sunglasses reveal invisible platforms in the world",
+    "coords": [
+      -0.68849293415659,
+      0.69378382125376
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b1613e1c-571f-478a-a974-5446dc33d1ea.png"
+  },
+  {
+    "id": "baby-steps-world-489018",
+    "mapId": "world",
+    "category": "hat",
+    "title": "Paper Hat",
+    "description": "Location: On top of a stick poking out of the river",
+    "coords": [
+      -0.75294113438068,
+      0.6933272033119
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ef1c0ef2-5e0a-4df4-9b6e-0cba53ad53ab.png"
+  },
+  {
+    "id": "baby-steps-world-489034",
+    "mapId": "world",
+    "category": "hat",
+    "title": "Hard Hat",
+    "description": "Location: At the edge of a girder coming off the side of a cliff",
+    "coords": [
+      -0.68555418050497,
+      0.73010178567066
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ca23f972-d37d-4fcb-8183-46f241602689.png"
+  },
+  {
+    "id": "baby-steps-world-489043",
+    "mapId": "world",
+    "category": "hat",
+    "title": "Pacifier",
+    "description": "Location: On a ledge partially down the cliff",
+    "coords": [
+      -0.71807428125848,
+      0.77490142629173
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e6ddd673-b506-483d-aa9d-dd5e15826f2e.png"
+  },
+  {
+    "id": "baby-steps-world-489045",
+    "mapId": "world",
+    "category": "hat",
+    "title": "Winter Hat",
+    "description": "Location: Hanging off a branch over the edge of a cliff",
+    "coords": [
+      -0.65002206449492,
+      0.81051392680106
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/82dec416-1c2a-42e4-8d7e-7e956921f967.png"
+  },
+  {
+    "id": "baby-steps-world-488896",
+    "mapId": "world",
+    "category": "phone",
+    "title": "Payphone",
+    "description": "Phone localizado em world.",
+    "coords": [
+      -0.66356616106381,
+      0.42730323897194
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/93f9c096-01a7-4017-ac1f-9eee8d03a761.png"
+  },
+  {
+    "id": "baby-steps-world-488978",
+    "mapId": "world",
+    "category": "phone",
+    "title": "Payphone",
+    "description": "Phone localizado em world.",
+    "coords": [
+      -0.7530754771544,
+      0.56334017916456
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e2e98535-2c4f-4dcc-a172-2bde6885e7ae.png"
+  },
+  {
+    "id": "baby-steps-world-489048",
+    "mapId": "world",
+    "category": "phone",
+    "title": "Payphone",
+    "description": "Phone localizado em world.",
+    "coords": [
+      -0.66908205076416,
+      0.82008264943447
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/fa8510d4-54e6-472f-9cc5-010de266cb52.png"
+  },
+  {
+    "id": "baby-steps-world-488855",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: On top of a wooden platform in a ravine",
+    "coords": [
+      -0.74716777400076,
+      0.34569241012316
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/5e32ccbe-516f-42cc-864d-57df6ee122c0.png"
+  },
+  {
+    "id": "baby-steps-world-488859",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: On top of a cabin of the [ferris wheel](https://mapgenie.io/baby-steps/maps/world?locationIds=488885)",
+    "coords": [
+      -0.73493885974571,
+      0.35795039516552
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/babef2ff-59b1-487e-b67b-6e1609067b32.png"
+  },
+  {
+    "id": "baby-steps-world-488862",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: On top of a rock next to the mud slide",
+    "coords": [
+      -0.69656181385619,
+      0.34993630384835
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/a8ba8411-179e-4d15-baf3-41d2c2e6dbb2.png"
+  },
+  {
+    "id": "baby-steps-world-488863",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: On a ledge on the side of a cliff",
+    "coords": [
+      -0.69985006477603,
+      0.35846363242109
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/acfa29a6-c1c8-4375-8caa-59db01b8691e.png"
+  },
+  {
+    "id": "baby-steps-world-488866",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: On top of a square rock near the [Camp](https://mapgenie.io/baby-steps/maps/world?locationIds=488865)",
+    "coords": [
+      -0.67701526953962,
+      0.35665707736369
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9d77584f-09ea-4ec0-b1d0-6cb08392ce8e.png"
+  },
+  {
+    "id": "baby-steps-world-488877",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: In a small hole near the [Fire Tower](https://mapgenie.io/baby-steps/maps/world?locationIds=488875)",
+    "coords": [
+      -0.69151860090784,
+      0.38799246455275
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/bd2a1c20-b5dc-40ed-89d3-c68eb007ad13.png"
+  },
+  {
+    "id": "baby-steps-world-488881",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: On top of a square cliff across from a path",
+    "coords": [
+      -0.66645458812837,
+      0.38776425704775
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/178a2d92-4cb1-425f-b4d4-096acf841368.png"
+  },
+  {
+    "id": "baby-steps-world-488901",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: On top of a rock in the middle of the forest",
+    "coords": [
+      -0.68333804705327,
+      0.42950240520594
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1575587b-b901-443f-a077-a12f078d0582.png"
+  },
+  {
+    "id": "baby-steps-world-488904",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: On the wall above the entrance to the [Frog Temple](https://mapgenie.io/baby-steps/maps/world?locationIds=488902)",
+    "coords": [
+      -0.68874113561114,
+      0.42665801250088
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/85a40603-4107-43d1-907d-70c86af93b6b.png"
+  },
+  {
+    "id": "baby-steps-world-488906",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: On top of a stack of bricks in the ruins near the archway with the [Graffiti](https://mapgenie.io/baby-steps/maps/world?locationIds=488905) on it",
+    "coords": [
+      -0.70073673983768,
+      0.44294490378337
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d971793e-e514-4c5b-aaf0-7ba6e022a2f4.png"
+  },
+  {
+    "id": "baby-steps-world-488910",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: On top of a wooden platform in a field",
+    "coords": [
+      -0.71473274196097,
+      0.4336893672416
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/fd13dd02-3d32-428d-afcc-4e1b8906dbb2.png"
+  },
+  {
+    "id": "baby-steps-world-488914",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: On top of a small ledge over a flower field",
+    "coords": [
+      -0.72544989633795,
+      0.426462441513
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3f1fe0d2-5fda-4edd-bfa1-a71c72fb1de4.png"
+  },
+  {
+    "id": "baby-steps-world-488915",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: On a plank of wood high up on a tree on a ledge",
+    "coords": [
+      -0.72703776407457,
+      0.42092651347517
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/8d87eaf0-a7e6-4871-a0f5-798a1d9ea952.png"
+  },
+  {
+    "id": "baby-steps-world-488924",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: On the very edge of a diving board",
+    "coords": [
+      -0.73894605904016,
+      0.45648782992497
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/7df44d76-5aa3-4e9a-a8bd-4ca014ecec0f.png"
+  },
+  {
+    "id": "baby-steps-world-488926",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: On top of the [Egg-shaped Stone](https://mapgenie.io/baby-steps/maps/world?locationIds=488925)",
+    "coords": [
+      -0.7303274652221,
+      0.44876165410173
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/34264631-983e-4ed9-be43-9a102978aad4.png"
+  },
+  {
+    "id": "baby-steps-world-488931",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: Under a street lamp on the edge of a cliff",
+    "coords": [
+      -0.74670393526617,
+      0.47921653322101
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/825fedff-6bad-4e12-9611-5043d64f9997.png"
+  },
+  {
+    "id": "baby-steps-world-488938",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: At the end of a stone wall near the [Fire Tower](https://mapgenie.io/baby-steps/maps/world?locationIds=488936)",
+    "coords": [
+      -0.70585063393528,
+      0.48091138303438
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/fce981d6-4688-45c8-9e91-eaf2a9b2e5f6.png"
+  },
+  {
+    "id": "baby-steps-world-488947",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: On top of a rock surrounded by trees",
+    "coords": [
+      -0.65780437495141,
+      0.45080141554662
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1cab189f-a72b-4bf1-a7cc-fc8ef92f6c27.png"
+  },
+  {
+    "id": "baby-steps-world-488956",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: On top of a rock on a ledge",
+    "coords": [
+      -0.68426564971071,
+      0.50419744599553
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/cfc8aaf3-ba12-4d1f-9990-1f237d8df38c.png"
+  },
+  {
+    "id": "baby-steps-world-488965",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: On the edge of a cliff on a rock",
+    "coords": [
+      -0.74783335511066,
+      0.52335946142945
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/efe369bf-a82f-4917-8ac4-88eab876e1cd.png"
+  },
+  {
+    "id": "baby-steps-world-488966",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: On the edge of a diving board under a tree on a sand hill",
+    "coords": [
+      -0.67667963808861,
+      0.53522618413092
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f6c165e7-0d45-4add-af10-4090b5f09cd4.png"
+  },
+  {
+    "id": "baby-steps-world-488991",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: On top of a rock next to the road",
+    "coords": [
+      -0.67947290842909,
+      0.63083565944204
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/dc0e829c-35b4-4090-ac99-3233a794cc4a.png"
+  },
+  {
+    "id": "baby-steps-world-488999",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: On top of a rock between a path and \"Procession\"",
+    "coords": [
+      -0.67012578426207,
+      0.67508318779512
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d11d21e3-b7b2-4d6e-b412-1e463eee1b50.png"
+  },
+  {
+    "id": "baby-steps-world-489014",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: On top of a rock next to the path",
+    "coords": [
+      -0.73351443630369,
+      0.67790614681709
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/a60b9017-7b29-41d1-8ade-291b723d5e2d.png"
+  },
+  {
+    "id": "baby-steps-world-489044",
+    "mapId": "world",
+    "category": "stack-of-cans",
+    "title": "Stack of Cans",
+    "description": "Location: On top of a rock on an island in the lake",
+    "coords": [
+      -0.73724693026998,
+      0.77824851567945
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/bb67fb7f-13d3-4018-bd77-6b9255b73e14.png"
+  },
+  {
+    "id": "baby-steps-world-488876",
+    "mapId": "world",
+    "category": "achievement",
+    "title": "World's Best Dad",
+    "description": "What to do: Bring the [Cup](https://mapgenie.io/baby-steps/maps/world?locationIds=488860) from the old wagon up to the basket in front of the [Fire Tower](https://mapgenie.io/baby-steps/maps/world?locationIds=488875)",
+    "coords": [
+      -0.70291844907268,
+      0.38857627210612
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2eb5656f-fc8f-4aba-be47-19d5d2ea7975.png"
+  },
+  {
+    "id": "baby-steps-world-488918",
+    "mapId": "world",
+    "category": "achievement",
+    "title": "Most Perceptive Person",
+    "description": "What to do: Bring the [Keys](https://mapgenie.io/baby-steps/maps/world?locationIds=488909) from [Mitchell's House](https://mapgenie.io/baby-steps/maps/world?locationIds=488908) up to the basket in front of the [Fire Tower](https://mapgenie.io/baby-steps/maps/world?locationIds=488917)",
+    "coords": [
+      -0.74488218024229,
+      0.43863504716413
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/73582b8e-7451-47fb-9ee0-828b443684c3.png"
+  },
+  {
+    "id": "baby-steps-world-488937",
+    "mapId": "world",
+    "category": "achievement",
+    "title": "Most Careful Person",
+    "description": "What to do: Bring the [Vase](https://mapgenie.io/baby-steps/maps/world?locationIds=488935) from the [Trophy Cove](https://mapgenie.io/baby-steps/maps/world?locationIds=488934) up to the basket in front of the [Fire Tower](https://mapgenie.io/baby-steps/maps/world?locationIds=488936) without breaking it",
+    "coords": [
+      -0.70708273469126,
+      0.4770062231571
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f712ac27-7ee3-4096-a789-7933a71c281e.png"
+  },
+  {
+    "id": "baby-steps-world-488949",
+    "mapId": "world",
+    "category": "achievement",
+    "title": "The Greatest",
+    "description": "What to do: Achieve a better time on the obstacle course inside the [Underwater Gym](https://mapgenie.io/baby-steps/maps/world?locationIds=488948) than the designer (1'18\".24)",
+    "coords": [
+      -0.6565652339464,
+      0.45897888121668
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2e32581a-5a75-4535-a254-035a498afd33.png"
+  },
+  {
+    "id": "baby-steps-world-488955",
+    "mapId": "world",
+    "category": "achievement",
+    "title": "Cassie's Trophy",
+    "description": "What to do: Experience one of the Onward and Upward cutscenes while wearing the [Trophy Hat](https://mapgenie.io/baby-steps/maps/world?locationIds=488954)",
+    "coords": [
+      -0.76090153303741,
+      1.0877324753942
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488964",
+    "mapId": "world",
+    "category": "achievement",
+    "title": "Coolest Hand",
+    "description": "What to do: Bring an [ice cream](https://mapgenie.io/baby-steps/maps/world?locationIds=488982) from the [Ice Cream Stand](https://mapgenie.io/baby-steps/maps/world?locationIds=488961) up to the basket in front of the [Fire Tower](https://mapgenie.io/baby-steps/maps/world?locationIds=488963)",
+    "coords": [
+      -0.7489170363682,
+      0.539509171243
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/4adc1e3c-c7ae-433d-8374-a0c3dbc8389d.png"
+  },
+  {
+    "id": "baby-steps-world-489003",
+    "mapId": "world",
+    "category": "achievement",
+    "title": "Invisible Trophy",
+    "description": "What to do: Wear the [Sunglasses](https://mapgenie.io/baby-steps/maps/world?locationIds=489002) and follow the trail across the hidden platforms to the stone cylinder",
+    "coords": [
+      -0.71267379062104,
+      0.6933977729359
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3a77db10-2191-4512-a753-7aebe901de83.png"
+  },
+  {
+    "id": "baby-steps-world-489011",
+    "mapId": "world",
+    "category": "achievement",
+    "title": "Most Responsible Person",
+    "description": "What to do: Bring the [Baby Trophy](https://mapgenie.io/baby-steps/maps/world?locationIds=489010) from the crib up to the basket in front of the [Fire Tower](https://mapgenie.io/baby-steps/maps/world?locationIds=489008)",
+    "coords": [
+      -0.73678307703057,
+      0.63346813233892
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/112433f1-e4ac-4a19-a09b-ca111163b338.png"
+  },
+  {
+    "id": "baby-steps-world-489025",
+    "mapId": "world",
+    "category": "achievement",
+    "title": "Mister Falconer",
+    "description": "What to do: Bring the [\"falcon\"](https://mapgenie.io/baby-steps/maps/world?locationIds=489026) from the crib up to the basket in front of the [Fire Tower](https://mapgenie.io/baby-steps/maps/world?locationIds=489024)",
+    "coords": [
+      -0.7269915499289,
+      0.71416172803448
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/25d67b78-d4ae-42fa-b1d3-69e9395fdcfe.png"
+  },
+  {
+    "id": "baby-steps-world-489055",
+    "mapId": "world",
+    "category": "achievement",
+    "title": "Jiminy's Cricket",
+    "description": "What to do: Climb the staircase and finish watching the [Partway up the Cliff Cutscene](https://mapgenie.io/baby-steps/maps/world?locationIds=489036)",
+    "coords": [
+      -0.68732554655287,
+      0.74804579474032
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489056",
+    "mapId": "world",
+    "category": "achievement",
+    "title": "Most Economical",
+    "description": "What to do: Beat the game with less than 10,000 steps on the [Pedometer](https://mapgenie.io/baby-steps/maps/world?locationIds=488857)",
+    "coords": [
+      -0.7579562965997,
+      1.0877685074773
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489057",
+    "mapId": "world",
+    "category": "achievement",
+    "title": "Most Punctual",
+    "description": "What to do: Pick up the [Clock](https://mapgenie.io/baby-steps/maps/world?locationIds=488900) and finish the game before the clock goes off",
+    "coords": [
+      -0.75511682885082,
+      1.0878605115951
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488851",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Intro Cutscene",
+    "description": "How to trigger: Start the game",
+    "coords": [
+      -0.65440524093509,
+      0.32709732597829
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488852",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Meeting Jim Cutscene",
+    "description": "How to trigger: Step off the large step in the cave",
+    "coords": [
+      -0.65412500461605,
+      0.33025275627294
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488853",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Exiting Cave Cutscene",
+    "description": "How to trigger: Exit the cave",
+    "coords": [
+      -0.65786306636727,
+      0.34478100779805
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488861",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Mud Slide Cutscene",
+    "description": "How to trigger: Get stuck at the bottom of the mud slide",
+    "coords": [
+      -0.69973985919469,
+      0.33783532580338
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488864",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Free Shoes Cutscene",
+    "description": "How to trigger: Approach the [free shoes stand](https://mapgenie.io/baby-steps/maps/world?locationIds=488960)",
+    "coords": [
+      -0.69144666195146,
+      0.35621920218084
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488868",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Onward and Upward Cutscene",
+    "description": "How to trigger: Approach the [Camp](https://mapgenie.io/baby-steps/maps/world?locationIds=488865)",
+    "coords": [
+      -0.67617684602669,
+      0.35988034599738
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488871",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Flea Pit Cutscene",
+    "description": "How to trigger: Get stuck in the [circular pit](https://mapgenie.io/baby-steps/maps/world?locationIds=488887)",
+    "coords": [
+      -0.74693620205028,
+      0.38489141659821
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488874",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Horace Cutscene",
+    "description": "How to trigger: Walk through the clay bricks",
+    "coords": [
+      -0.68237006664373,
+      0.37890217691539
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488878",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Portaloo Cutscene",
+    "description": "How to trigger: Push the portaloo off the cliff",
+    "coords": [
+      -0.71765675705191,
+      0.40104759776887
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488882",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Screaming Cutscene",
+    "description": "How to trigger: Fall off the cliff near the [stockades](https://mapgenie.io/baby-steps/maps/world?locationIds=488883)",
+    "coords": [
+      -0.66036060924651,
+      0.38364447735181
+    ],
+    "region": "world",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/0a97f223-aefc-4c6e-b9c9-91dadc95b2ba.png"
+  },
+  {
+    "id": "baby-steps-world-488889",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Rock Cutscene",
+    "description": "How to trigger: Knock down the stack of rocks on the path",
+    "coords": [
+      -0.67580322939614,
+      0.39177351344544
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488891",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Grapple Point Cutscene",
+    "description": "How to trigger: Approach the mudslide under the grapple point",
+    "coords": [
+      -0.6401578327993,
+      0.40269705284332
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488893",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Onward and Upward Cutscene",
+    "description": "How to trigger: Approach the [Camp](https://mapgenie.io/baby-steps/maps/world?locationIds=488892)",
+    "coords": [
+      -0.66128622733871,
+      0.41126583894818
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488907",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Bear Trap Cutscene",
+    "description": "How to trigger: Walk onto the bear trap",
+    "coords": [
+      -0.70434198714057,
+      0.4375486980953
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488912",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Bottom of the Tower Cutscene",
+    "description": "How to trigger: Take a step up the [Boring Tower](https://mapgenie.io/baby-steps/maps/world?locationIds=488911)",
+    "coords": [
+      -0.7163075461026,
+      0.42680713662466
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488913",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Partway up the Tower Cutscene",
+    "description": "How to trigger: Walk partway up the [Boring Tower](https://mapgenie.io/baby-steps/maps/world?locationIds=488911)",
+    "coords": [
+      -0.71768134832513,
+      0.4266791840905
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488930",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Retirement Cutscene",
+    "description": "How to trigger: Climb to the top of the [Retirement Village](https://mapgenie.io/baby-steps/maps/world?locationIds=488928)",
+    "coords": [
+      -0.74347688452869,
+      0.47042155263263
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488932",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Jumping Cutscene",
+    "description": "How to trigger: Speak with Mike at the edge of [Lemming Leap](https://mapgenie.io/baby-steps/maps/world?locationIds=488933)",
+    "coords": [
+      -0.73327834563156,
+      0.47693140602429
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488945",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Outhouse Cutscene",
+    "description": "How to trigger: Approach the outhouse in the middle of the canyon",
+    "coords": [
+      -0.68291636106974,
+      0.45417966606972
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488951",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Onward and Upward Cutscene",
+    "description": "How to trigger: Approach the [Camp](https://mapgenie.io/baby-steps/maps/world?locationIds=488950)",
+    "coords": [
+      -0.69190209268481,
+      0.45277127939563
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488953",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Onward and Upward Cutscene",
+    "description": "How to trigger: Approach the [Camp](https://mapgenie.io/baby-steps/maps/world?locationIds=488952)",
+    "coords": [
+      -0.67165041205527,
+      0.49214260773164
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488957",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Staircase Cutscene",
+    "description": "How to trigger: Reach the top of the staircase",
+    "coords": [
+      -0.68336476610187,
+      0.51539370323722
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488962",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Ice Cream Cutscene",
+    "description": "How to trigger: Approach the [Ice Cream Stand](https://mapgenie.io/baby-steps/maps/world?locationIds=488961)",
+    "coords": [
+      -0.71500464928209,
+      0.51649602028853
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488968",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Pool Cutscene",
+    "description": "How to trigger: Get stuck in the [Dry Pool](https://mapgenie.io/baby-steps/maps/world?locationIds=488967)",
+    "coords": [
+      -0.65951350039316,
+      0.52574229957493
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488970",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Blue Bucket Cutscene",
+    "description": "How to trigger: Knock the [blue holy bucket](https://mapgenie.io/baby-steps/maps/world?locationIds=488969) off the ledge",
+    "coords": [
+      -0.69462534889192,
+      0.55501420368626
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488974",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Sunbathing Cutscene",
+    "description": "How to trigger: Speak with Mike on the face of the [Always Tired Sand Dunes](https://mapgenie.io/baby-steps/maps/world?locationIds=488973)",
+    "coords": [
+      -0.69336031266886,
+      0.56868482627861
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488979",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Jim's Lantern Cutscene",
+    "description": "How to trigger: Enter the castle",
+    "coords": [
+      -0.72887311676581,
+      0.57787504945827
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488980",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Inspector Gadget's Lantern Cutscene",
+    "description": "How to trigger: Approach Moose with the lanterns in the castle",
+    "coords": [
+      -0.72894662618751,
+      0.57975763160425
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488984",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Wishing Camp Cutscene",
+    "description": "How to trigger: Approach the [Camp](https://mapgenie.io/baby-steps/maps/world?locationIds=488983)",
+    "coords": [
+      -0.72736948728675,
+      0.58164312769711
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488985",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Onward and Upward Cutscene",
+    "description": "How to trigger: Approach the angel statue inside the castle",
+    "coords": [
+      -0.72885006666345,
+      0.58360908525832
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488987",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Onward and Upward Cutscene",
+    "description": "How to trigger: Approach the [Camp](https://mapgenie.io/baby-steps/maps/world?locationIds=488986)",
+    "coords": [
+      -0.72602492389763,
+      0.61441499083561
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488995",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Childish Games Cutscene",
+    "description": "How to trigger: Stand in the head of the \"Dad\" in the [\"Your Mum\"](https://mapgenie.io/baby-steps/maps/world?locationIds=488994) sculpture",
+    "coords": [
+      -0.69239133571307,
+      0.65842040595207
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488996",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Pergola Cutscene",
+    "description": "How to trigger: Approach the chairs underneath the pergola",
+    "coords": [
+      -0.64849855016223,
+      0.6397211824525
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489005",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Well Cutscene",
+    "description": "How to trigger: Jump into the well",
+    "coords": [
+      -0.71859598159747,
+      0.63669771819308
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489013",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Tower Cutscene",
+    "description": "How to trigger: Reach the top of the [Tower \"Big and Small\"](https://mapgenie.io/baby-steps/maps/world?locationIds=489006)",
+    "coords": [
+      -0.72288483381286,
+      0.67560865413019
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489021",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Onward and Upward Cutscene",
+    "description": "How to trigger: Approach the [Camp](https://mapgenie.io/baby-steps/maps/world?locationIds=489020)",
+    "coords": [
+      -0.74723771201084,
+      0.71083037901251
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489027",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Danger Cutscene",
+    "description": "How to trigger: Stand at the edge of the ledge next to the sign",
+    "coords": [
+      -0.71152619879157,
+      0.72065805656274
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489035",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Bottom of the Staircase Cutscene",
+    "description": "How to trigger: Approach the bottom of the spiral staircase",
+    "coords": [
+      -0.68821708303457,
+      0.74002925468889
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489036",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Partway up the Cliff Cutscene",
+    "description": "How to trigger: Make it partway up the cliff or staircase",
+    "coords": [
+      -0.688780219715,
+      0.74805299929413
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489037",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Top of the Cliff",
+    "description": "How to trigger: Reach the top of the staircase or cliff",
+    "coords": [
+      -0.68694293840485,
+      0.75761632341191
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489039",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Onward and Upward Cutscene",
+    "description": "How to trigger: Approach the [Camp](https://mapgenie.io/baby-steps/maps/world?locationIds=489038)",
+    "coords": [
+      -0.68443268537328,
+      0.76598657189099
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489040",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Carrie Cutscene",
+    "description": "How to trigger: Approach Carrie sitting on the cliff",
+    "coords": [
+      -0.68253319450056,
+      0.76889489755695
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489041",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Snowman Cutscene",
+    "description": "How to trigger: Knock down the snowman next to the frozen river",
+    "coords": [
+      -0.67777765916856,
+      0.78804381087362
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489047",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Between a Rock and a Hard Place Cutscene",
+    "description": "How to trigger: Approach Mike under the rock inside the [Cave](https://mapgenie.io/baby-steps/maps/world?locationIds=489046)",
+    "coords": [
+      -0.6680576078933,
+      0.81207321647055
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489053",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Ending Cutscene",
+    "description": "How to trigger: Approach [Moose's Cabin](https://mapgenie.io/baby-steps/maps/world?locationIds=489052)",
+    "coords": [
+      -0.70796102285297,
+      0.93978243919281
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-489054",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Secret Ending Cutscene",
+    "description": "How to trigger: Make it to the peak of the mountain",
+    "coords": [
+      -0.6945455959137,
+      1.0819928030166
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-503561",
+    "mapId": "world",
+    "category": "cutscene",
+    "title": "Chest opening",
+    "description": "How to trigger: Bring a treasure key ([chest key](https://mapgenie.io/baby-steps/maps/world?locationIds=488989)) here from \"Avoid this place\" location on the map",
+    "coords": [
+      -0.76246024934105,
+      0.42701478197796
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488948",
+    "mapId": "world",
+    "category": "easter-egg",
+    "title": "Underwater Gym",
+    "description": "Swim down into the lake and underneath the rocks until you arrive at a gym in the mountain with an obstacle course",
+    "coords": [
+      -0.65789020563992,
+      0.45899798794399
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-488998",
+    "mapId": "world",
+    "category": "easter-egg",
+    "title": "Well",
+    "description": "Jump into the well to fall from the sky above the well",
+    "coords": [
+      -0.68745962776612,
+      0.67350883838375
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-503554",
+    "mapId": "world",
+    "category": "easter-egg",
+    "title": "Invisible Ice Slide",
+    "description": "Bring [Sunglasses](https://mapgenie.io/baby-steps/maps/world?locationIds=489002) here to reveal an invisible ice slide used to access Tamarillo fruit location",
+    "coords": [
+      -0.73686330767535,
+      0.78019940515462
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-503555",
+    "mapId": "world",
+    "category": "easter-egg",
+    "title": "Invisible Gym",
+    "description": "Bring [Sunglasses](https://mapgenie.io/baby-steps/maps/world?locationIds=489002) here to reveal a path to the invisible gym",
+    "coords": [
+      -0.73224835010748,
+      0.33572404986481
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-503556",
+    "mapId": "world",
+    "category": "easter-egg",
+    "title": "UFO",
+    "description": "Take a picture with the Polaroid camera to see the UFO in the sky",
+    "coords": [
+      -0.65640896558722,
+      0.64955810018577
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-503557",
+    "mapId": "world",
+    "category": "easter-egg",
+    "title": "Deep Hole",
+    "description": "Enter the deep hole to fall on a matress above",
+    "coords": [
+      -0.70226781595483,
+      0.80009939470351
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-503559",
+    "mapId": "world",
+    "category": "easter-egg",
+    "title": "Invisible Cubes",
+    "description": "Bring [Sunglasses](https://mapgenie.io/baby-steps/maps/world?locationIds=489002) here to reveal invisible cubes floating in the air used to access the cans on the egg",
+    "coords": [
+      -0.73267895288777,
+      0.44940618317295
+    ],
+    "region": "world",
+    "dlc": "base"
+  },
+  {
+    "id": "baby-steps-world-503560",
+    "mapId": "world",
+    "category": "easter-egg",
+    "title": "Invisible Inverted Tower",
+    "description": "Bring [Sunglasses](https://mapgenie.io/baby-steps/maps/world?locationIds=489002) here to reveal an invisible inverted tower",
+    "coords": [
+      -0.71715393721652,
+      0.42865567598452
+    ],
+    "region": "world",
+    "dlc": "base"
+  }
+]

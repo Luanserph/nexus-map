@@ -1,0 +1,256 @@
+{
+  "id": "game-silent-hill-f",
+  "slug": "silent-hill-f",
+  "title": "Silent Hill f",
+  "subtitle": "Ebisugaoka — Omamori, Ema, Documentos, Puzzles & Upgrades",
+  "studio": "NeoBards Entertainment / Konami",
+  "releaseYear": 2025,
+  "genres": [
+    "Survival Horror",
+    "Terror Psicológico",
+    "Aventura"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/silent-hill-f/cover.webp",
+    "bannerImage": "/games/silent-hill-f/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#E11D48",
+    "accentSecondary": "#94A3B8",
+    "accentGlow": "rgba(225, 29, 72, 0.42)",
+    "glassTint": "rgba(20, 10, 14, 0.86)",
+    "surfaceBase": "#0B0608",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "abyssal-contours",
+    "badgeStyle": "minimal"
+  },
+  "maps": [
+    {
+      "id": "ebisugaoka",
+      "name": "Ebisugaoka",
+      "dlc": "base",
+      "pinsCount": 1057,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0B0608",
+      "initialCenter": [
+        0.74009760009609,
+        -0.82281839827908
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          -0.07478,
+          -1.14027
+        ],
+        [
+          1.00948,
+          0.08446
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/silent-hill-f/ebisugaoka/default-v5/{z}/{y}/{x}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              -0.07478,
+              -1.14027
+            ],
+            [
+              1.00948,
+              0.08446
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "area",
+          "groupId": "locations",
+          "name": "Area",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "hokora",
+          "groupId": "locations",
+          "name": "Hokora",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "point-of-interest",
+          "groupId": "locations",
+          "name": "Point of Interest",
+          "icon": "landmark",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "document",
+          "groupId": "collectibles",
+          "name": "Document",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "ema",
+          "groupId": "collectibles",
+          "name": "Ema",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "inventory-upgrade",
+          "groupId": "collectibles",
+          "name": "Inventory Upgrade",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "key-item",
+          "groupId": "collectibles",
+          "name": "Key Item",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "omamori",
+          "groupId": "collectibles",
+          "name": "Omamori",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "pickups",
+      "label": "Pickups",
+      "categories": [
+        {
+          "id": "item",
+          "groupId": "pickups",
+          "name": "Item",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "offering",
+          "groupId": "pickups",
+          "name": "Offering",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "weapon",
+          "groupId": "pickups",
+          "name": "Weapon",
+          "icon": "shopping-bag",
+          "color": "#FACC15",
+          "defaultVisible": false
+        },
+        {
+          "id": "red-capsules",
+          "groupId": "pickups",
+          "name": "Red Capsules",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "enemies",
+      "label": "Enemies",
+      "categories": [
+        {
+          "id": "boss",
+          "groupId": "enemies",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "easter-egg",
+          "groupId": "other",
+          "name": "Easter Egg",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "locked-door",
+          "groupId": "other",
+          "name": "Locked Door",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "puzzle",
+          "groupId": "other",
+          "name": "Puzzle",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "traversal",
+          "groupId": "other",
+          "name": "Traversal",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 1057
+}

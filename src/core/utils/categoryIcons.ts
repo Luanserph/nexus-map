@@ -123,27 +123,30 @@ export function getCategoryIconKey(
 
   // 1. Bosses, Cyberpsychos, Enemies, Combat Camps, Outposts, Notorious Marks & Hunts
   if (
-    /\b(boss|chefe|cyberpsycho|ciberpsicopata|skulltula|guardian|lynel|hinox|talus|gleeok|frox|illegal|gang|bandit|monster|enemy|inimigo|camp|acampamento|outpost|posto|ncpd|arena|pantheon|grimm|notorious|mark|hunt|cacada|classified|esper|cave-master|fiend|genma)\b/.test(
+    /\b(boss|chefe|cyberpsycho|ciberpsicopata|skulltula|guardian|lynel|hinox|talus|gleeok|frox|illegal|gang|bandit|monster|enemy|inimigo|camp|acampamento|outpost|posto|ncpd|arena|pantheon|grimm|notorious|mark|hunt|cacada|classified|esper|cave-master|fiend|genma|dark-zone|convoy|encounter|scav)\b/.test(
       text
     )
   ) {
-    return /\b(camp|acampamento|outpost|posto|ncpd|arena|combat|combate|shooting|tiro|swords|espada|chronolith|trial)\b/.test(
+    return /\b(camp|acampamento|outpost|posto|ncpd|arena|combat|combate|shooting|tiro|swords|espada|chronolith|trial|encounter|convoy)\b/.test(
       text
     )
       ? 'swords'
       : 'skull';
   }
 
-  // 2. Fast Travel, Shrines, Sesters, Bonfires, Towers, Obelisks, Chocobo Stops, Portals
+  // 2. Fast Travel, Extraction Points, Shrines, Oblivion Gates, Bonfires, Towers, Portals
+  if (/\b(extraction|extraction-point|exfil|exfil-point|extract)\b/.test(text)) {
+    return 'navigation';
+  }
   if (
-    /\b(site-of-grace|grace|graca|shrine|santuario|lightroot|bonfire|sester|flame|fogueira|chronolith|save-point|mirror-of-light)\b/.test(
+    /\b(site-of-grace|grace|graca|shrine|santuario|sentinel-shrine|auger-shrine|wayshrine|lightroot|bonfire|sester|flame|fogueira|campfire|chronolith|save-point|mirror-of-light|oblivion-gate|lodestone)\b/.test(
       text
     )
   ) {
     return 'flame';
   }
   if (
-    /\b(tower|torre|remnawave|skyview|sheikah|waygate|portal|oni-portal|teleport|warp|rift|fenda|obelisk|obelisco|control-point)\b/.test(
+    /\b(tower|torre|remnawave|skyview|sheikah|waygate|waypoint|portal|oni-portal|teleport|teleporter|warp|rift|fenda|obelisk|obelisco|control-point|monolith)\b/.test(
       text
     )
   ) {
@@ -162,9 +165,9 @@ export function getCategoryIconKey(
       : 'compass';
   }
 
-  // 3. Quests, Missions, Gigs, Contracts, Substories, Notes, Memos, Treasure Maps
+  // 3. Quests, Missions, Gigs, Contracts, Codex, Notes, Memos, Treasure Maps
   if (
-    /\b(quest|missao|missoes|gig|contract|contrato|main-job|side-job|odd-job|job|substory|substories|notice|noticeboard|aviso|bounty|recompensa|event|evento|story|historia|adventure|side-adventure|renown|note|nota|memo|document|documento|file|arquivo|journal|diario|dossier|lore|treasure-map)\b/.test(
+    /\b(quest|missao|missoes|gig|contract|contrato|main-job|side-job|odd-job|job|substory|substories|sub-order|request|notice|noticeboard|aviso|bounty|recompensa|event|evento|story|historia|adventure|side-adventure|renown|note|nota|memo|document|documento|file|arquivo|journal|diario|diary|dossier|lore|codex|codex-entry|treasure-map|recipe|receita)\b/.test(
       text
     )
   ) {
@@ -173,77 +176,94 @@ export function getCategoryIconKey(
       : 'scroll-text';
   }
 
-  // 4. Treasures, Chests, Caches, Weapon Cases, Safes, Key Items, Locker Keys, Gear
-  if (/\b(safe|cofre|vault|lock|locker-key|coin-locker|chave|key|key-item|keycard|cartao)\b/.test(text)) {
+  // 4. Treasures, Chests, Stashes, Dead Drops, Vaults, Keys, Safes, Inhibitors, Gear
+  if (
+    /\b(safe|cofre|vault|vault-symbol|dragonkin-vault|lock|locker-key|coin-locker|chave|key|key-spawn|key-item|keycard|cartao|slayer-key|locked-room)\b/.test(
+      text
+    )
+  ) {
     return 'lock';
   }
+  if (/\b(inhibitor|inhibited|serum|potion|pocao|elixir|flask|alchem)\b/.test(text)) {
+    return 'flask-conical';
+  }
   if (
-    /\b(chest|bau|baus|treasure|tesouro|loot|spoils|stash|supply|cache|weapon-case|case|crate|caixa|dig-site|buried|glimmer|drop-point)\b/.test(
+    /\b(chest|bau|baus|treasure|tesouro|treasure-pod|loot|spoils|stash|dead-drop|deaddrop|supply|cache|weapon-case|case|crate|caixa|dig-site|buried|glimmer|drop-point|dcon)\b/.test(
       text
     )
   ) {
     return 'box';
   }
-  if (/\b(weapon|arma|armas|sword|espada|phantom-edge|bow|arco|gun|ammo|ammu-nation|iconic)\b/.test(text)) {
+  if (/\b(weapon|arma|armas|sword|espada|phantom-edge|bow|arco|gun|ammo|ammu-nation|iconic|wall-buy)\b/.test(text)) {
     return 'sword';
   }
   if (/\b(armor|armadura|shield|escudo|shell|gear|equipamento|clothing|roupa|outfit|vest|accessory|acessorio)\b/.test(text)) {
     return 'shield';
   }
   if (
-    /\b(bank|banco|jewelry|joalheria|pawn|gem|gema|rupee|ore|minerio|smithing|rune|runa|atm|golden-seed|scadutree|pale-ore|summon-crystal|vision-crystal|crystal|cristal|magicite|tablet-shard|skill-point|ponto-de-habilidade|animus-fragment|animus)\b/.test(
+    /\b(bank|banco|jewelry|joalheria|pawn|gem|gema|rupee|ore|minerio|smithing|rune|runa|atm|golden-seed|scadutree|pale-ore|summon-crystal|vision-crystal|crystal|cristal|magicite|tablet-shard|skill-point|ponto-de-habilidade|animus-fragment|animus|milk-molar|molar|red-brick|pure-lunum|antique-coin|cabin-coin|craftmetal)\b/.test(
       text
     )
   ) {
     return 'gem';
   }
 
-  // 5. NPCs, Shops, Ripperdocs, Vendors, Fixers, Workshops, Blueprints
-  if (/\b(ripperdoc|mod-shop|modshop|paynspray|pay-n-spray|garage|garagem|mechanic|oficina|upgrade|blacksmith|ferreiro|armourer|armeiro|craft|forja|forge|blueprint|esquema)\b/.test(text)) {
+  // 5. NPCs, Preppers, Safe Houses, Benches, Shops, Vendors, Workshops, Blueprints
+  if (/\b(ripperdoc|mod-shop|modshop|paynspray|pay-n-spray|garage|garagem|mechanic|oficina|upgrade|blacksmith|ferreiro|armourer|armeiro|craft|workbench|forja|forge|blueprint|esquema)\b/.test(text)) {
     return 'wrench';
   }
-  if (/\b(shop|loja|store|vendor|vendedor|merchant|mercador|market|mercado|convenience|conveniencia|bar|cafe|food|comida|inn|estalagem|tavern|stable|estabulo|vending|chocoboutique|automat)\b/.test(text)) {
+  if (/\b(shop|loja|store|vendor|vendedor|merchant|mercador|trader|dealer|market|mercado|convenience|conveniencia|bar|cafe|food|comida|inn|estalagem|tavern|stable|estabulo|vending|chocoboutique|automat|perk-machine|pack-a-punch)\b/.test(text)) {
     return 'store';
   }
-  if (/\b(npc|fixer|character|personagem|contact|contato|trainer|gwent|fairy|fada|goddess|deusa|bench|descanso|rest-spot|apartment|apartamento|safehouse|esconderijo|moogle|chadley)\b/.test(text)) {
-    return /\b(bench|descanso|rest-spot|apartment|apartamento|safehouse|esconderijo)\b/.test(text)
+  if (
+    /\b(npc|fixer|character|personagem|contact|contato|trainer|teacher|prepper|preppers|gwent|fairy|fada|goddess|deusa|bench|descanso|rest-spot|apartment|apartamento|safehouse|safe-house|safe-spot|shelter|esconderijo|moogle|chadley)\b/.test(
+      text
+    )
+  ) {
+    return /\b(bench|descanso|rest-spot|apartment|apartamento|safehouse|safe-house|safe-spot|shelter|esconderijo)\b/.test(
+      text
+    )
       ? 'bookmark'
       : 'user';
   }
 
-  // 6. Collectibles: Lucky Emblems, Shanties, Trinkets, Gobbos, PDAs, Cassettes, Speed Traps
-  if (/\b(korok|leaf|folha|herb|erva|flower|flor|mushroom|cogumelo|plant|planta|material|ingredient|seed|semente)\b/.test(text)) {
+  // 6. Collectibles: Echo Logs, Memory Chips, Toys, Gordos, Spools, Secrets, Mask Shards
+  if (/\b(korok|leaf|leafe|folha|herb|erva|flower|flor|mushroom|cogumelo|plant|planta|material|ingredient|seed|semente|habitat)\b/.test(text)) {
     return 'leaf';
   }
-  if (/\b(heart|coracao|mask|mascara|vessel|receptaculo|life|vida|health|saude|sacred-tear|tear|lagrima)\b/.test(text)) {
+  if (/\b(heart|coracao|mask|mask-shard|mascara|vessel|receptaculo|life|life-sigil|vida|health|saude|sacred-tear|tear|lagrima|silk-heart)\b/.test(text)) {
     return 'heart';
   }
   if (/\b(tarot|taro|arcana|card|carta|playing-card|spade|queens-blood|queen-s-blood)\b/.test(text)) {
     return 'spade';
   }
-  if (/\b(waink|radio|drone|signal|sinal|crtv|phone|telefone|antenna|antena|pda|cassette|cassette-tape|tape)\b/.test(text)) {
-    return 'radio';
-  }
-  if (/\b(stunt|salto|race|corrida|hoop|cesta|mural|flag|bandeira|challenge|desafio|minigame|speed-trap|speed-zone|drift-zone|danger-sign|xp-board)\b/.test(text)) {
-    return 'flag';
-  }
   if (
-    /\b(charm|amuleto|talisman|talisma|spell|feitico|incantation|sorcery|magic|magia|ability|habilidade|memory|memoria|memento|postcard|geoglyph|dragon|grub|larva|seashell|maiamai|collectible|colecionavel|relic|reliquia|protorelic|poe|bubbulfrog|materia|lifespring|orchestrion|sheet-music|shanty|scenic|arete|lucky-emblem|hidden-mickey|emblem|emblema|trinket|gobbo)\b/.test(
+    /\b(waink|radio|drone|signal|sinal|crtv|phone|telefone|antenna|antena|pda|cassette|cassette-tape|tape|echo-log|audio-log|optical-disk)\b/.test(
       text
     )
   ) {
-    return /\b(relic|reliquia|protorelic|star|estrela|geoglyph|memory|memoria|memento|postcard|notch|encaixe|orchestrion|sheet-music|shanty|scenic|lucky-emblem|hidden-mickey|emblem|emblema|gobbo)\b/.test(
+    return 'radio';
+  }
+  if (/\b(stunt|salto|race|corrida|hoop|cesta|mural|flag|bandeira|challenge|desafio|minigame|speed-trap|speed-zone|drift-zone|danger-sign|xp-board|graffiti)\b/.test(text)) {
+    return 'flag';
+  }
+  if (
+    /\b(charm|amuleto|talisman|talisma|spell|feitico|incantation|sorcery|magic|magia|ability|habilidade|memory|memory-chip|memoria|memento|postcard|geoglyph|dragon|grub|larva|seashell|maiamai|collectible|colecionavel|relic|reliquia|protorelic|poe|bubbulfrog|materia|lifespring|orchestrion|sheet-music|shanty|scenic|arete|lucky-emblem|hidden-mickey|emblem|emblema|trinket|gobbo|toy|bobblehead|raccoon|gordo|slime-gordo|spool|spool-fragment|crest|secret|segredo|easter-egg|riddler|omamori|ema|picto|pictos|strangeling|lost-flea|lost-gestral|hat|pet|trophy)\b/.test(
+      text
+    )
+  ) {
+    return /\b(relic|reliquia|protorelic|star|estrela|geoglyph|memory|memory-chip|memoria|memento|postcard|notch|encaixe|orchestrion|sheet-music|shanty|scenic|lucky-emblem|hidden-mickey|emblem|emblema|gobbo|toy|bobblehead|raccoon|gordo|slime-gordo|strangeling|lost-flea|lost-gestral|hat|trophy)\b/.test(
       text
     )
       ? 'star'
       : 'sparkles';
   }
 
-  // 7. Locations, Dungeons, Sanctums, Caves, Castles, Mountains, Landmarks, Barn Finds
-  if (/\b(dungeon|masmorra|temple|templo|sanctum|castle|castelo|fort|forte|palace|palacio|ruin|ruina|legacy-dungeon)\b/.test(text)) {
+  // 7. Locations, Dungeons, Ayleid Ruins, Caves, Castles, Mountains, Landmarks, Barn Finds
+  if (/\b(dungeon|masmorra|temple|templo|sanctum|castle|castelo|fort|forte|palace|palacio|ruin|ruina|ayleid|ayleid-ruin|legacy-dungeon)\b/.test(text)) {
     return 'castle';
   }
-  if (/\b(cave|caverna|well|poco|entrance|entrada|interior|mine|mina|tunnel|tunel|chasm|abismo)\b/.test(text)) {
+  if (/\b(cave|caverna|well|poco|entrance|entrada|interior|mine|mina|tunnel|tunel|chasm|abismo|plort-door)\b/.test(text)) {
     return 'door-open';
   }
   if (/\b(mountain|montanha|peak|pico|viewpoint|mirante|cliff|penhasco|island|ilha)\b/.test(text)) {

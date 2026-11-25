@@ -1,0 +1,517 @@
+{
+  "id": "game-hollow-knight-silksong",
+  "slug": "hollow-knight-silksong",
+  "title": "Hollow Knight: Silksong",
+  "subtitle": "Pharloom — Bancos, Fragmentos de Máscara, Carretéis, Pulgas & Chefes",
+  "studio": "Team Cherry",
+  "releaseYear": 2025,
+  "genres": [
+    "Metroidvania",
+    "Ação",
+    "Indie"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox",
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/hollow-knight-silksong/cover.webp",
+    "bannerImage": "/games/hollow-knight-silksong/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#F43F5E",
+    "accentSecondary": "#FDE68A",
+    "accentGlow": "rgba(244, 63, 94, 0.42)",
+    "glassTint": "rgba(20, 10, 14, 0.84)",
+    "surfaceBase": "#0C0608",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "abyssal-contours",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "pharloom",
+      "name": "Pharloom",
+      "dlc": "base",
+      "pinsCount": 1939,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0C0608",
+      "initialCenter": [
+        0.68470466633124,
+        -0.76968992772692
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          0.52612,
+          -1.00835
+        ],
+        [
+          1.02544,
+          -0.35798
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/hollow-knight-silksong/pharloom/default-v9/{z}/{y}/{x}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.52612,
+              -1.00835
+            ],
+            [
+              1.02544,
+              -0.35798
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "points-of-interest",
+      "label": "Points of Interest",
+      "categories": [
+        {
+          "id": "bellway-station",
+          "groupId": "points-of-interest",
+          "name": "Bellway Station",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "bench",
+          "groupId": "points-of-interest",
+          "name": "Bench",
+          "icon": "bookmark",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "npc",
+          "groupId": "points-of-interest",
+          "name": "NPC",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "plasmium-cocoon",
+          "groupId": "points-of-interest",
+          "name": "Plasmium Cocoon",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "point-of-interest",
+          "groupId": "points-of-interest",
+          "name": "Point of Interest",
+          "icon": "landmark",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "vendor",
+          "groupId": "points-of-interest",
+          "name": "Vendor",
+          "icon": "shopping-bag",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "ventrica-station",
+          "groupId": "points-of-interest",
+          "name": "Ventrica Station",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "void-mass",
+          "groupId": "points-of-interest",
+          "name": "Void Mass",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "arcane-egg",
+          "groupId": "collectibles",
+          "name": "Arcane Egg",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "bone-scroll",
+          "groupId": "collectibles",
+          "name": "Bone Scroll",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "choral-commandment",
+          "groupId": "collectibles",
+          "name": "Choral Commandment",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "lost-flea",
+          "groupId": "collectibles",
+          "name": "Lost Flea",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "mask-shard",
+          "groupId": "collectibles",
+          "name": "Mask Shard",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "memento",
+          "groupId": "collectibles",
+          "name": "Memento",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "memory-locket",
+          "groupId": "collectibles",
+          "name": "Memory Locket",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "psalm-cylinder",
+          "groupId": "collectibles",
+          "name": "Psalm Cylinder",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "rune-harp",
+          "groupId": "collectibles",
+          "name": "Rune Harp",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "silk-heart",
+          "groupId": "collectibles",
+          "name": "Silk Heart",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "spool-fragment",
+          "groupId": "collectibles",
+          "name": "Spool Fragment",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "weaver-effigy",
+          "groupId": "collectibles",
+          "name": "Weaver Effigy",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "area-map",
+          "groupId": "items",
+          "name": "Area Map",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "craftmetal",
+          "groupId": "items",
+          "name": "Craftmetal",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "pale-oil",
+          "groupId": "items",
+          "name": "Pale Oil",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "rosary",
+          "groupId": "items",
+          "name": "Rosary",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "rosary-string",
+          "groupId": "items",
+          "name": "Rosary String",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "shard-bundle",
+          "groupId": "items",
+          "name": "Shard Bundle",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "shell-shards",
+          "groupId": "items",
+          "name": "Shell Shards",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "silkeater",
+          "groupId": "items",
+          "name": "Silkeater",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "equipment",
+      "label": "Equipment",
+      "categories": [
+        {
+          "id": "ability",
+          "groupId": "equipment",
+          "name": "Ability",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "crest",
+          "groupId": "equipment",
+          "name": "Crest",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "silk-skill",
+          "groupId": "equipment",
+          "name": "Silk Skill",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "tool",
+          "groupId": "equipment",
+          "name": "Tool",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "upgrade",
+          "groupId": "equipment",
+          "name": "Upgrade",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "enemies",
+      "label": "Enemies",
+      "categories": [
+        {
+          "id": "arena-battle",
+          "groupId": "enemies",
+          "name": "Arena Battle",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "boss",
+          "groupId": "enemies",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "journal-entry",
+          "groupId": "enemies",
+          "name": "Journal Entry",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "objective",
+          "groupId": "quests",
+          "name": "Objective",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "quest-item",
+          "groupId": "quests",
+          "name": "Quest Item",
+          "icon": "scroll-text",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "wish",
+          "groupId": "quests",
+          "name": "Wish",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "achievement",
+          "groupId": "other",
+          "name": "Achievement",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "breakable-surface",
+          "groupId": "other",
+          "name": "Breakable Surface",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "easter-egg",
+          "groupId": "other",
+          "name": "Easter Egg",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "lever",
+          "groupId": "other",
+          "name": "Lever",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "locked-door",
+          "groupId": "other",
+          "name": "Locked Door",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "lore",
+          "groupId": "other",
+          "name": "Lore",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "needolin-door",
+          "groupId": "other",
+          "name": "Needolin Door",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "shortcut",
+          "groupId": "other",
+          "name": "Shortcut",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "silk-wall",
+          "groupId": "other",
+          "name": "Silk Wall",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 1939
+}

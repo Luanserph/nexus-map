@@ -1,0 +1,201 @@
+{
+  "id": "game-baby-steps",
+  "slug": "baby-steps",
+  "title": "Baby Steps",
+  "subtitle": "The Mountain — Chapéus, Grafites, Pets, Cutscenes & Conquistas",
+  "studio": "Gabe Cuzzillo / Maxi Boch / Bennett Foddy",
+  "releaseYear": 2025,
+  "genres": [
+    "Aventura",
+    "Comédia",
+    "Indie"
+  ],
+  "platforms": [
+    "pc",
+    "playstation"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/baby-steps/cover.webp",
+    "bannerImage": "/games/baby-steps/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#FB923C",
+    "accentSecondary": "#34D399",
+    "accentGlow": "rgba(251, 146, 60, 0.40)",
+    "glassTint": "rgba(20, 14, 10, 0.80)",
+    "surfaceBase": "#0E0906",
+    "fontDisplay": "'Space Grotesk', sans-serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "minimal"
+  },
+  "maps": [
+    {
+      "id": "world",
+      "name": "The Mountain",
+      "dlc": "base",
+      "pinsCount": 215,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0E0906",
+      "initialCenter": [
+        0.40079320856591,
+        -0.72264450327768
+      ],
+      "initialZoom": 13,
+      "maxBounds": [
+        [
+          0.26624,
+          -0.80246
+        ],
+        [
+          1.14872,
+          -0.60016
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/baby-steps/world/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.26624,
+              -0.80246
+            ],
+            [
+              1.14872,
+              -0.60016
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "point-of-interest",
+          "groupId": "locations",
+          "name": "Point of Interest",
+          "icon": "landmark",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "key-item",
+          "groupId": "items",
+          "name": "Key Item",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "quest-item",
+          "groupId": "items",
+          "name": "Quest Item",
+          "icon": "scroll-text",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "follower",
+          "groupId": "collectibles",
+          "name": "Follower",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "fruit",
+          "groupId": "collectibles",
+          "name": "Fruit",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "graffiti",
+          "groupId": "collectibles",
+          "name": "Graffiti",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "hat",
+          "groupId": "collectibles",
+          "name": "Hat",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "phone",
+          "groupId": "collectibles",
+          "name": "Phone",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "stack-of-cans",
+          "groupId": "collectibles",
+          "name": "Stack of Cans",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "achievement",
+          "groupId": "other",
+          "name": "Achievement",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "cutscene",
+          "groupId": "other",
+          "name": "Cutscene",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "easter-egg",
+          "groupId": "other",
+          "name": "Easter Egg",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 215
+}
