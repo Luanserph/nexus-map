@@ -1,5 +1,5 @@
 import { Database, MonitorDown, Search, X } from 'lucide-react';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { LanguageSelector, useI18n } from '../../core/i18n';
 import { DesktopPinButton, GlassBadge, GlassInput, NeonButton, NexusLogo } from '../glass';
 
@@ -10,6 +10,7 @@ export interface HubNavbarProps {
   totalCount: number;
   showInstallButton?: boolean;
   onInstallClick?: () => void;
+  onBackupClick?: () => void;
 }
 
 export function HubNavbar({
@@ -19,9 +20,24 @@ export function HubNavbar({
   totalCount,
   showInstallButton = false,
   onInstallClick,
+  onBackupClick,
 }: HubNavbarProps) {
   const { t } = useI18n();
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const [isOnline, setIsOnline] = useState<boolean>(() =>
+    typeof navigator !== 'undefined' ? navigator.onLine : true
+  );
+
+  useEffect(() => {
+    const handleOnline = () => setIsOnline(true);
+    const handleOffline = () => setIsOnline(false);
+    window.addEventListener('online', handleOnline);
+    window.addEventListener('offline', handleOffline);
+    return () => {
+      window.removeEventListener('online', handleOnline);
+      window.removeEventListener('offline', handleOffline);
+    };
+  }, []);
 
   useEffect(() => {
     function handleKeyDown(event: KeyboardEvent) {
@@ -129,14 +145,24 @@ export function HubNavbar({
           )}
           <LanguageSelector />
           <div className="hidden xl:flex">
-            <GlassBadge
-              variant="neutral"
-              size="md"
-              dot
-              icon={<Database className="h-3 w-3 text-[var(--accent-primary)]" />}
+            <button
+              type="button"
+              onClick={onBackupClick}
+              title={t('hub.offlineFirstTooltip')}
+              aria-label={`${t('hub.offlineFirst')} (${isOnline ? t('hub.statusOnline') : t('hub.statusOffline')}) — ${t('hub.offlineFirstTooltip')}`}
+              className="neon-focus-ring group inline-flex h-6 cursor-pointer items-center gap-1.5 rounded-md border border-[var(--glass-border)] bg-[rgba(13,17,24,0.72)] px-2.5 text-xs font-medium text-[var(--text-secondary)] backdrop-blur-md transition-colors hover:border-[color-mix(in_srgb,var(--accent-primary)_45%,transparent)] hover:text-[var(--text-primary)] select-none"
             >
-              {t('hub.offlineFirst')}
-            </GlassBadge>
+              <span
+                aria-hidden="true"
+                className={
+                  isOnline
+                    ? 'h-1.5 w-1.5 rounded-full bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.85)]'
+                    : 'h-1.5 w-1.5 rounded-full bg-amber-400 shadow-[0_0_8px_rgba(251,191,36,0.85)]'
+                }
+              />
+              <Database className="h-3 w-3 shrink-0 text-[var(--accent-primary)] opacity-90" />
+              <span>{t('hub.offlineFirst')}</span>
+            </button>
           </div>
           <span className="rounded-md border border-white/[0.08] bg-white/[0.03] px-2 py-1 font-mono text-[11px] font-medium text-[var(--text-secondary)]">
             {resultsCount}/{totalCount}

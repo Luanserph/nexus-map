@@ -65,43 +65,120 @@ const markersCache = new Map<string, MapMarker[]>();
 const regionsCache = new Map<string, MapRegion[]>();
 const guidesCache = new Map<string, GuidedRoute[]>();
 
-export async function loadMarkersByGameSlug(slug: string): Promise<MapMarker[]> {
+// Deduplicate concurrent dynamic imports (e.g. StrictMode double-mount or rapid navigation)
+const pendingMarkerLoads = new Map<string, Promise<MapMarker[]>>();
+const pendingRegionLoads = new Map<string, Promise<MapRegion[]>>();
+const pendingGuideLoads = new Map<string, Promise<GuidedRoute[]>>();
+
+function createAbortError(): Error {
+  return new DOMException('Aborted', 'AbortError');
+}
+
+function raceWithAbort<T>(promise: Promise<T>, signal?: AbortSignal): Promise<T> {
+  if (!signal) return promise;
+  if (signal.aborted) return Promise.reject(createAbortError());
+
+  return new Promise<T>((resolve, reject) => {
+    const onAbort = () => reject(createAbortError());
+    signal.addEventListener('abort', onAbort, { once: true });
+    promise.then(
+      (value) => {
+        signal.removeEventListener('abort', onAbort);
+        resolve(value);
+      },
+      (err) => {
+        signal.removeEventListener('abort', onAbort);
+        reject(err);
+      }
+    );
+  });
+}
+
+export async function loadMarkersByGameSlug(
+  slug: string,
+  signal?: AbortSignal
+): Promise<MapMarker[]> {
+  if (signal?.aborted) throw createAbortError();
+
   const cached = markersCache.get(slug);
   if (cached) return cached;
 
   const loader = markerLoaderBySlug[slug];
   if (!loader) return [];
 
-  const mod = await loader();
-  const data = (mod.default ?? []) as MapMarker[];
-  markersCache.set(slug, data);
-  return data;
+  let inFlight = pendingMarkerLoads.get(slug);
+  if (!inFlight) {
+    inFlight = loader()
+      .then((mod) => {
+        const data = (mod.default ?? []) as MapMarker[];
+        markersCache.set(slug, data);
+        return data;
+      })
+      .finally(() => {
+        pendingMarkerLoads.delete(slug);
+      });
+    pendingMarkerLoads.set(slug, inFlight);
+  }
+
+  return raceWithAbort(inFlight, signal);
 }
 
-export async function loadRegionsByGameSlug(slug: string): Promise<MapRegion[]> {
+export async function loadRegionsByGameSlug(
+  slug: string,
+  signal?: AbortSignal
+): Promise<MapRegion[]> {
+  if (signal?.aborted) throw createAbortError();
+
   const cached = regionsCache.get(slug);
   if (cached) return cached;
 
   const loader = regionLoaderBySlug[slug];
   if (!loader) return [];
 
-  const mod = await loader();
-  const data = (mod.default ?? []) as MapRegion[];
-  regionsCache.set(slug, data);
-  return data;
+  let inFlight = pendingRegionLoads.get(slug);
+  if (!inFlight) {
+    inFlight = loader()
+      .then((mod) => {
+        const data = (mod.default ?? []) as MapRegion[];
+        regionsCache.set(slug, data);
+        return data;
+      })
+      .finally(() => {
+        pendingRegionLoads.delete(slug);
+      });
+    pendingRegionLoads.set(slug, inFlight);
+  }
+
+  return raceWithAbort(inFlight, signal);
 }
 
-export async function loadGuidesByGameSlug(slug: string): Promise<GuidedRoute[]> {
+export async function loadGuidesByGameSlug(
+  slug: string,
+  signal?: AbortSignal
+): Promise<GuidedRoute[]> {
+  if (signal?.aborted) throw createAbortError();
+
   const cached = guidesCache.get(slug);
   if (cached) return cached;
 
   const loader = guideLoaderBySlug[slug];
   if (!loader) return [];
 
-  const mod = await loader();
-  const data = (mod.default ?? []) as GuidedRoute[];
-  guidesCache.set(slug, data);
-  return data;
+  let inFlight = pendingGuideLoads.get(slug);
+  if (!inFlight) {
+    inFlight = loader()
+      .then((mod) => {
+        const data = (mod.default ?? []) as GuidedRoute[];
+        guidesCache.set(slug, data);
+        return data;
+      })
+      .finally(() => {
+        pendingGuideLoads.delete(slug);
+      });
+    pendingGuideLoads.set(slug, inFlight);
+  }
+
+  return raceWithAbort(inFlight, signal);
 }
 
 export function getCachedMarkersByGameSlug(slug: string): MapMarker[] {

@@ -1,4 +1,4 @@
-import type { ButtonHTMLAttributes, ReactNode } from 'react';
+import type { ButtonHTMLAttributes, ReactNode, Ref } from 'react';
 
 export type NeonButtonVariant = 'primary' | 'glass' | 'ghost';
 export type NeonButtonSize = 'sm' | 'md' | 'lg';
@@ -10,6 +10,7 @@ export interface NeonButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>
   active?: boolean;
   leftIcon?: ReactNode;
   rightIcon?: ReactNode;
+  ref?: Ref<HTMLButtonElement>;
 }
 
 const sizeClasses: Record<NeonButtonSize, string> = {
@@ -27,6 +28,7 @@ export function NeonButton({
   rightIcon,
   className = '',
   type = 'button',
+  ref,
   ...rest
 }: NeonButtonProps) {
   const baseClasses =
@@ -70,6 +72,7 @@ export function NeonButton({
 
   return (
     <button
+      ref={ref}
       type={type}
       aria-pressed={active || undefined}
       className={[baseClasses, sizeClasses[size], variantClasses[variant], className]

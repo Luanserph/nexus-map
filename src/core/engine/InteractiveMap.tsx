@@ -1,5 +1,5 @@
 import L from 'leaflet';
-import { useCallback, useEffect, useImperativeHandle, useMemo, useRef } from 'react';
+import { useCallback, useEffect, useImperativeHandle, useMemo, useRef, useState } from 'react';
 import type { Ref } from 'react';
 import type {
   Category,
@@ -111,6 +111,7 @@ export function InteractiveMap({
 }: InteractiveMapProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const leafletMapRef = useRef<L.Map | null>(null);
+  const [mapReadyVersion, setMapReadyVersion] = useState(0);
   const tileLayerRef = useRef<L.GridLayer | null>(null);
   const regionsLayerRef = useRef<L.LayerGroup | null>(null);
   const markersLayerRef = useRef<L.LayerGroup | null>(null);
@@ -435,84 +436,147 @@ export function InteractiveMap({
     renderVisibleMarkersRef.current = renderVisibleMarkers;
   }, [renderVisibleMarkers]);
 
-  // 1. Initialize Leaflet instance (supports both L.CRS.Simple and L.CRS.EPSG3857)
+  // Keep track of previous mapLayer.id so switching Day/Night tileSets preserves camera position
+  const prevMapIdRef = useRef<string | null>(null);
+
+  // 1. Initialize Leaflet instance only when container exists with valid non-zero dimensions
   useEffect(() => {
     const container = containerRef.current;
     if (!container) return;
+
+    let isActive = true;
+    let resizeRafId: number | null = null;
+    let postMountRafId: number | null = null;
 
     const leafletCrs =
       crsType === 'epsg3857' ? L.CRS.EPSG3857 : L.CRS.Simple;
     const coordPrecision = crsType === 'epsg3857' ? 100000 : 10;
 
-    const map = L.map(container, {
-      crs: leafletCrs,
-      preferCanvas: true,
-      zoomControl: false,
-      attributionControl: false,
-      minZoom: effectiveMinZoom,
-      maxZoom: overzoomMaxZoom,
-      zoomSnap: 0.25,
-      zoomDelta: 0.5,
-      wheelPxPerZoomLevel: 90,
-      maxBounds: resolvedBounds.pad(crsType === 'epsg3857' ? 0.15 : 0.25),
-      maxBoundsViscosity: 0.85,
-      center: resolvedCenter,
-      zoom: defaultZoom,
-    });
+    const initLeafletMap = () => {
+      if (!isActive || leafletMapRef.current) return;
+      if (container.clientWidth === 0 || container.clientHeight === 0) return;
 
-    const regionsGroup = L.layerGroup().addTo(map);
-    const routesGroup = L.layerGroup().addTo(map);
-    const guidedGroup = L.layerGroup().addTo(map);
-    const markerGroup = L.layerGroup().addTo(map);
-    const notesGroup = L.layerGroup().addTo(map);
-
-    map.on('mousemove', (event: L.LeafletMouseEvent) => {
-      onCursorMoveRef.current?.({
-        x: Math.round(event.latlng.lng * coordPrecision) / coordPrecision,
-        y: Math.round(event.latlng.lat * coordPrecision) / coordPrecision,
+      const map = L.map(container, {
+        crs: leafletCrs,
+        preferCanvas: true,
+        zoomControl: false,
+        attributionControl: false,
+        minZoom: effectiveMinZoom,
+        maxZoom: overzoomMaxZoom,
+        zoomSnap: 0.25,
+        zoomDelta: 0.5,
+        wheelPxPerZoomLevel: 90,
+        maxBounds: resolvedBounds.pad(crsType === 'epsg3857' ? 0.15 : 0.25),
+        maxBoundsViscosity: 0.85,
+        center: resolvedCenter,
+        zoom: defaultZoom,
       });
-    });
 
-    map.on('click', (event: L.LeafletMouseEvent) => {
-      if (interactionModeRef.current !== 'explore') {
-        const coords: [number, number] = [
-          Math.round(event.latlng.lng * coordPrecision) / coordPrecision,
-          Math.round(event.latlng.lat * coordPrecision) / coordPrecision,
-        ];
-        onMapClickRef.current?.(coords);
-      }
-    });
+      const regionsGroup = L.layerGroup().addTo(map);
+      const routesGroup = L.layerGroup().addTo(map);
+      const guidedGroup = L.layerGroup().addTo(map);
+      const markerGroup = L.layerGroup().addTo(map);
+      const notesGroup = L.layerGroup().addTo(map);
 
-    map.on('zoomend', () => {
+      map.on('mousemove', (event: L.LeafletMouseEvent) => {
+        onCursorMoveRef.current?.({
+          x: Math.round(event.latlng.lng * coordPrecision) / coordPrecision,
+          y: Math.round(event.latlng.lat * coordPrecision) / coordPrecision,
+        });
+      });
+
+      map.on('click', (event: L.LeafletMouseEvent) => {
+        if (interactionModeRef.current !== 'explore') {
+          const coords: [number, number] = [
+            Math.round(event.latlng.lng * coordPrecision) / coordPrecision,
+            Math.round(event.latlng.lat * coordPrecision) / coordPrecision,
+          ];
+          onMapClickRef.current?.(coords);
+        }
+      });
+
+      map.on('zoomend', () => {
+        onZoomChangeRef.current?.(map.getZoom());
+        renderVisibleMarkersRef.current();
+      });
+
+      map.on('moveend', () => {
+        renderVisibleMarkersRef.current();
+      });
+
+      leafletMapRef.current = map;
+      regionsLayerRef.current = regionsGroup;
+      routesLayerRef.current = routesGroup;
+      guidedLayerRef.current = guidedGroup;
+      markersLayerRef.current = markerGroup;
+      notesLayerRef.current = notesGroup;
       onZoomChangeRef.current?.(map.getZoom());
-      renderVisibleMarkersRef.current();
-    });
 
-    map.on('moveend', () => {
-      renderVisibleMarkersRef.current();
-    });
+      // Ensure Leaflet measures the settled viewport size right after mount
+      postMountRafId = requestAnimationFrame(() => {
+        if (!isActive || leafletMapRef.current !== map) return;
+        map.invalidateSize({ animate: false, pan: false });
+        renderVisibleMarkersRef.current();
+      });
 
-    leafletMapRef.current = map;
-    regionsLayerRef.current = regionsGroup;
-    routesLayerRef.current = routesGroup;
-    guidedLayerRef.current = guidedGroup;
-    markersLayerRef.current = markerGroup;
-    notesLayerRef.current = notesGroup;
-    onZoomChangeRef.current?.(map.getZoom());
+      setMapReadyVersion((v) => v + 1);
+    };
+
+    initLeafletMap();
+
+    const resizeObserver =
+      typeof ResizeObserver !== 'undefined'
+        ? new ResizeObserver((entries) => {
+            if (!isActive) return;
+            const entry = entries[0];
+            const width = entry?.contentRect.width ?? container.clientWidth;
+            const height = entry?.contentRect.height ?? container.clientHeight;
+            if (width <= 0 || height <= 0) return;
+
+            if (!leafletMapRef.current) {
+              initLeafletMap();
+              return;
+            }
+
+            if (resizeRafId !== null) {
+              cancelAnimationFrame(resizeRafId);
+            }
+            resizeRafId = requestAnimationFrame(() => {
+              resizeRafId = null;
+              const activeMap = leafletMapRef.current;
+              if (!isActive || !activeMap) return;
+              activeMap.invalidateSize({ animate: false, pan: false });
+              renderVisibleMarkersRef.current();
+            });
+          })
+        : null;
+
+    resizeObserver?.observe(container);
 
     return () => {
+      isActive = false;
+      resizeObserver?.disconnect();
+      if (resizeRafId !== null) {
+        cancelAnimationFrame(resizeRafId);
+      }
+      if (postMountRafId !== null) {
+        cancelAnimationFrame(postMountRafId);
+      }
       if (chunkRafRef.current !== null) {
         cancelAnimationFrame(chunkRafRef.current);
         chunkRafRef.current = null;
       }
-      map.off();
-      regionsLayerRef.current?.clearLayers();
-      markersLayerRef.current?.clearLayers();
-      notesLayerRef.current?.clearLayers();
-      routesLayerRef.current?.clearLayers();
-      guidedLayerRef.current?.clearLayers();
-      playerMarkerRef.current?.remove();
-      map.remove();
+      const map = leafletMapRef.current;
+      if (map) {
+        map.off();
+        regionsLayerRef.current?.clearLayers();
+        markersLayerRef.current?.clearLayers();
+        notesLayerRef.current?.clearLayers();
+        routesLayerRef.current?.clearLayers();
+        guidedLayerRef.current?.clearLayers();
+        playerMarkerRef.current?.remove();
+        map.remove();
+      }
       leafletMapRef.current = null;
       tileLayerRef.current = null;
       regionsLayerRef.current = null;
@@ -521,13 +585,11 @@ export function InteractiveMap({
       routesLayerRef.current = null;
       guidedLayerRef.current = null;
       playerMarkerRef.current = null;
+      prevMapIdRef.current = null;
     };
     // Re-initialize Leaflet only if the CRS projection changes.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [crsType]);
-
-  // Keep track of previous mapLayer.id so switching Day/Night tileSets preserves camera position
-  const prevMapIdRef = useRef<string | null>(null);
 
   // 2. Swap active tile/fallback layer & update bounds smoothly on layer, tileSet, or theme change
   useEffect(() => {
@@ -539,6 +601,7 @@ export function InteractiveMap({
       tileLayerRef.current = null;
     }
 
+    const wasInitialMount = prevMapIdRef.current === null;
     const isSameLayer = prevMapIdRef.current === mapLayer.id;
     prevMapIdRef.current = mapLayer.id;
 
@@ -585,12 +648,30 @@ export function InteractiveMap({
     nextTileLayer.addTo(map);
     tileLayerRef.current = nextTileLayer;
 
+    map.invalidateSize({ animate: false, pan: false });
+
     if (!isSameLayer) {
-      map.setView(resolvedCenter, defaultZoom, { animate: true, duration: 0.35 });
+      map.setView(
+        resolvedCenter,
+        defaultZoom,
+        wasInitialMount ? { animate: false } : { animate: true, duration: 0.35 }
+      );
       onZoomChangeRef.current?.(defaultZoom);
     }
-    renderVisibleMarkersRef.current();
+
+    let cancelled = false;
+    const rafId = requestAnimationFrame(() => {
+      if (cancelled || leafletMapRef.current !== map) return;
+      map.invalidateSize({ animate: false, pan: false });
+      renderVisibleMarkersRef.current();
+    });
+
+    return () => {
+      cancelled = true;
+      cancelAnimationFrame(rafId);
+    };
   }, [
+    mapReadyVersion,
     crsType,
     mapLayer.id,
     mapLayer.tileUrlTemplate,
@@ -608,7 +689,7 @@ export function InteractiveMap({
   // 3. Re-render culled/clustered markers when filters, found states, or clustering change
   useEffect(() => {
     renderVisibleMarkers();
-  }, [renderVisibleMarkers]);
+  }, [renderVisibleMarkers, mapReadyVersion]);
 
   // 4. Render personal user notes
   useEffect(() => {
@@ -643,7 +724,7 @@ export function InteractiveMap({
 
       noteMarker.addTo(group);
     }
-  }, [userNotes, selectedNoteId]);
+  }, [userNotes, selectedNoteId, mapReadyVersion]);
 
   // 5. Render saved neon routes + live draft route polyline
   useEffect(() => {
@@ -713,7 +794,7 @@ export function InteractiveMap({
         }).addTo(group);
       });
     }
-  }, [routes, hiddenRouteIds, draftRoutePoints, draftRouteColor]);
+  }, [routes, hiddenRouteIds, draftRoutePoints, draftRouteColor, mapReadyVersion]);
 
   // 6. Render Dynamic Guided 100% Route:
   //    - Subtle full path polyline (zero visual clutter even with 400+ steps)
@@ -811,7 +892,7 @@ export function InteractiveMap({
 
       stepMarker.addTo(group);
     });
-  }, [guidedRoute, foundMarkerIds]);
+  }, [guidedRoute, foundMarkerIds, mapReadyVersion]);
 
   // 7. Render Live Telemetry Player directional arrow (60 FPS smooth update)
   useEffect(() => {
@@ -847,7 +928,7 @@ export function InteractiveMap({
     if (followLivePlayer) {
       map.panTo(nextLatLng, { animate: true, duration: 0.25, noMoveStart: true });
     }
-  }, [livePlayer, followLivePlayer, mapLayer.id]);
+  }, [livePlayer, followLivePlayer, mapLayer.id, mapReadyVersion]);
 
   // 8. Expose imperative controls to MapWorkspace HUD
   useImperativeHandle(

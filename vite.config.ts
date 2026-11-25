@@ -1,13 +1,21 @@
+import { readFileSync } from 'node:fs';
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
+
+const pkg = JSON.parse(
+  readFileSync(new URL('./package.json', import.meta.url), 'utf-8')
+) as { version: string };
 
 const isTauriBuild = Boolean(process.env.TAURI_ENV_PLATFORM);
 
 // https://vite.dev/config/
 export default defineConfig({
   clearScreen: false,
+  define: {
+    __APP_VERSION__: JSON.stringify(pkg.version),
+  },
   server: {
     port: 5173,
     strictPort: true,
@@ -56,6 +64,9 @@ export default defineConfig({
             },
             workbox: {
               // Cache only the lightweight app shell (never precache tiles or lazy per-game JSON chunks)
+              cleanupOutdatedCaches: true,
+              clientsClaim: true,
+              skipWaiting: true,
               globPatterns: ['**/*.{js,css,html,ico,svg}'],
               globIgnores: ['tiles/**', 'games/**', '**/*.webp', '**/markers-*.js', '**/regions-*.js', '**/guides-*.js'],
               maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,

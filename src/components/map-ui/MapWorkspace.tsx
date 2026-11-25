@@ -108,6 +108,7 @@ import { DesktopPinButton, GlassBadge, GlassInput, GlassPanel, NeonButton } from
 import { GameCoverArt } from '../hub/GameCoverArt';
 import { GuidedRoutePanel } from './GuidedRoutePanel';
 import { LiveTelemetryWidget } from './LiveTelemetryWidget';
+import { MapLayerSwitcher } from './MapLayerSwitcher';
 import { MapToolbar } from './MapToolbar';
 import { MarkerDetailCard } from './MarkerDetailCard';
 import { NoteEditorCard } from './NoteEditorCard';
@@ -352,46 +353,56 @@ export function MapWorkspace({
 
   const [loadedGameData, setLoadedGameData] = useState<{
     slug: string;
+    status: 'loading' | 'ready' | 'error';
     markers: MapMarker[];
     regions: import('../../types/schema').MapRegion[];
-  }>(() => ({
-    slug: manifest.slug,
-    markers: getCachedMarkersByGameSlug(manifest.slug),
-    regions: getCachedRegionsByGameSlug(manifest.slug),
-  }));
+  }>(() => {
+    const cachedMarkers = getCachedMarkersByGameSlug(manifest.slug);
+    const cachedRegions = getCachedRegionsByGameSlug(manifest.slug);
+    const hasCachedData =
+      cachedMarkers.length > 0 || (activeLayer?.pinsCount ?? 0) === 0;
+    return {
+      slug: manifest.slug,
+      status: hasCachedData ? 'ready' : 'loading',
+      markers: cachedMarkers,
+      regions: cachedRegions,
+    };
+  });
 
   const isLoadingMapData =
-    loadedGameData.slug !== manifest.slug ||
-    (loadedGameData.markers.length === 0 &&
-      (activeLayer?.pinsCount ?? 0) > 0 &&
-      getCachedMarkersByGameSlug(manifest.slug).length === 0);
+    loadedGameData.slug !== manifest.slug || loadedGameData.status === 'loading';
 
   useEffect(() => {
-    let cancelled = false;
+    let isActive = true;
+    const abortController = new AbortController();
+
     Promise.all([
-      loadMarkersByGameSlug(manifest.slug),
-      loadRegionsByGameSlug(manifest.slug),
+      loadMarkersByGameSlug(manifest.slug, abortController.signal),
+      loadRegionsByGameSlug(manifest.slug, abortController.signal),
     ])
       .then(([loadedMarkers, loadedRegions]) => {
-        if (!cancelled) {
-          setLoadedGameData({
-            slug: manifest.slug,
-            markers: loadedMarkers,
-            regions: loadedRegions,
-          });
-        }
+        if (!isActive || abortController.signal.aborted) return;
+        setLoadedGameData({
+          slug: manifest.slug,
+          status: 'ready',
+          markers: loadedMarkers,
+          regions: loadedRegions,
+        });
       })
-      .catch(() => {
-        if (!cancelled) {
-          setLoadedGameData({
-            slug: manifest.slug,
-            markers: [],
-            regions: [],
-          });
-        }
+      .catch((error: unknown) => {
+        if (!isActive || abortController.signal.aborted) return;
+        if (error instanceof DOMException && error.name === 'AbortError') return;
+        setLoadedGameData({
+          slug: manifest.slug,
+          status: 'error',
+          markers: [],
+          regions: [],
+        });
       });
+
     return () => {
-      cancelled = true;
+      isActive = false;
+      abortController.abort();
     };
   }, [manifest.slug]);
 
@@ -997,55 +1008,12 @@ export function MapWorkspace({
           )}
 
           {/* Layer / Map Switcher with DLC & Interior Badges */}
-          {manifest.maps.length > 1 && (
-            <GlassPanel
-              variant="elevated"
-              padding="none"
-              className="max-w-[min(100vw-1.25rem,520px)] overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
-            >
-            <div
-              className="flex items-center gap-1.5 px-2.5 py-2"
-              role="tablist"
-              aria-label="Seletor de camadas do mapa"
-            >
-              <span className="hidden items-center gap-1.5 pr-1 pl-1 font-mono text-[10px] uppercase tracking-wider text-[var(--text-muted)] md:inline-flex">
-                <Layers className="h-3.5 w-3.5 text-[var(--accent-primary)]" />
-                {t('map.layer')}
-              </span>
-              {manifest.maps.map((mapLayer) => {
-                const isActive = activeLayer?.id === mapLayer.id;
-                const layerDlc = mapLayer.dlc ? dlcsById[mapLayer.dlc] : undefined;
-                return (
-                  <NeonButton
-                    key={mapLayer.id}
-                    size="sm"
-                    variant="glass"
-                    active={isActive}
-                    onClick={() => handleSelectLayer(mapLayer.id)}
-                  >
-                    <span>{mapLayer.name}</span>
-                    {mapLayer.isInterior && (
-                      <span className="ml-1.5 rounded bg-white/10 px-1 py-0.5 font-mono text-[9px] uppercase text-[var(--text-secondary)]">
-                        {t('map.interior')}
-                      </span>
-                    )}
-                    {layerDlc && layerDlc.id !== 'base' && (
-                      <span
-                        className="ml-1.5 rounded px-1 py-0.5 font-mono text-[9px] font-semibold uppercase"
-                        style={{
-                          backgroundColor: `color-mix(in srgb, ${layerDlc.accentColor ?? 'var(--accent-secondary)'} 20%, transparent)`,
-                          color: layerDlc.accentColor ?? 'var(--accent-secondary)',
-                        }}
-                      >
-                        {layerDlc.shortLabel ?? 'DLC'}
-                      </span>
-                    )}
-                  </NeonButton>
-                );
-              })}
-            </div>
-          </GlassPanel>
-          )}
+          <MapLayerSwitcher
+            maps={manifest.maps}
+            activeLayerId={activeLayer?.id}
+            dlcsById={dlcsById}
+            onSelectLayer={handleSelectLayer}
+          />
         </div>
       </header>
 

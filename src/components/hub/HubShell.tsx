@@ -1,5 +1,5 @@
-import { ArrowUpDown, Clock, Compass, Download, Globe, Layers, MapPin, RotateCcw, Search, Upload, X } from 'lucide-react';
-import { useMemo, useRef, useState } from 'react';
+import { ArrowUpDown, Clock, Compass, Database, Download, Globe, Layers, MapPin, RotateCcw, Search, Upload, X } from 'lucide-react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import type { ChangeEvent } from 'react';
 import { getGenreLabel, normalizeGenreKey, useI18n } from '../../core/i18n';
 import { usePwaInstall } from '../../core/hooks/usePwaInstall';
@@ -37,9 +37,21 @@ export function HubShell({ games, lastVisited, onOpenGame }: HubShellProps) {
   const [sortBy, setSortBy] = useState<CatalogSortMode>('default');
   const [hoveredAccent, setHoveredAccent] = useState<string | null>(null);
   const [isInstallModalOpen, setIsInstallModalOpen] = useState(false);
+  const [isBackupModalOpen, setIsBackupModalOpen] = useState(false);
   const [backupNotice, setBackupNotice] = useState<string | null>(null);
   const backupInputRef = useRef<HTMLInputElement>(null);
   const pwa = usePwaInstall();
+
+  useEffect(() => {
+    if (!isBackupModalOpen) return;
+    function handleEsc(event: KeyboardEvent) {
+      if (event.key === 'Escape') {
+        setIsBackupModalOpen(false);
+      }
+    }
+    window.addEventListener('keydown', handleEsc);
+    return () => window.removeEventListener('keydown', handleEsc);
+  }, [isBackupModalOpen]);
 
   function showBackupNotice(msg: string) {
     setBackupNotice(msg);
@@ -248,6 +260,7 @@ export function HubShell({ games, lastVisited, onOpenGame }: HubShellProps) {
         totalCount={games.length}
         showInstallButton={pwa.canShowInstallUi}
         onInstallClick={() => void handleInstallClick()}
+        onBackupClick={() => setIsBackupModalOpen(true)}
       />
 
       {/* Main Content Container */}
@@ -565,6 +578,85 @@ export function HubShell({ games, lastVisited, onOpenGame }: HubShellProps) {
         open={isInstallModalOpen}
         onClose={() => setIsInstallModalOpen(false)}
       />
+
+      {/* Local Storage / Offline-First Backup Modal */}
+      {isBackupModalOpen && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4 backdrop-blur-sm"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="nexus-backup-modal-title"
+          onClick={(event) => {
+            if (event.target === event.currentTarget) {
+              setIsBackupModalOpen(false);
+            }
+          }}
+        >
+          <GlassPanel
+            variant="elevated"
+            padding="lg"
+            cornerMarks
+            className="w-full max-w-md !bg-[#090d16]/95"
+          >
+            <div className="flex items-start justify-between gap-3">
+              <div className="flex items-center gap-2.5">
+                <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border border-[color-mix(in_srgb,var(--accent-primary)_40%,transparent)] bg-[color-mix(in_srgb,var(--accent-primary)_12%,rgba(7,9,13,0.9))] text-[var(--accent-primary)]">
+                  <Database className="h-4.5 w-4.5" />
+                </div>
+                <div>
+                  <h2
+                    id="nexus-backup-modal-title"
+                    className="text-base font-bold tracking-tight text-[var(--text-primary)]"
+                    style={{ fontFamily: 'var(--nexus-font-display)' }}
+                  >
+                    {t('hub.backupModalTitle')}
+                  </h2>
+                  <p className="font-mono text-[10px] uppercase tracking-wider text-[var(--text-muted)]">
+                    IndexedDB · {t('hub.offlineFirst')}
+                  </p>
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={() => setIsBackupModalOpen(false)}
+                aria-label="Fechar"
+                className="neon-focus-ring flex h-7 w-7 cursor-pointer items-center justify-center rounded-md border border-white/10 bg-white/[0.04] text-[var(--text-muted)] transition-colors hover:border-white/25 hover:text-[var(--text-primary)]"
+              >
+                <X className="h-4 w-4" />
+              </button>
+            </div>
+
+            <p className="mt-3 text-xs leading-relaxed text-[var(--text-secondary)]">
+              {t('hub.backupModalDesc')}
+            </p>
+
+            {backupNotice && (
+              <p className="mt-3 rounded-md border border-[color-mix(in_srgb,var(--accent-primary)_35%,transparent)] bg-[color-mix(in_srgb,var(--accent-primary)_10%,rgba(7,9,13,0.7))] px-3 py-2 font-mono text-[11px] text-[var(--accent-primary)]">
+                {backupNotice}
+              </p>
+            )}
+
+            <div className="mt-4 grid grid-cols-2 gap-2">
+              <NeonButton
+                size="md"
+                variant="primary"
+                onClick={() => void handleExportHubBackup()}
+                leftIcon={<Download className="h-4 w-4" />}
+              >
+                {t('map.export')}
+              </NeonButton>
+              <NeonButton
+                size="md"
+                variant="glass"
+                onClick={() => backupInputRef.current?.click()}
+                leftIcon={<Upload className="h-4 w-4" />}
+              >
+                {t('map.import')}
+              </NeonButton>
+            </div>
+          </GlassPanel>
+        </div>
+      )}
     </div>
   );
 }

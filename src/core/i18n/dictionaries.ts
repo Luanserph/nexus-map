@@ -11,6 +11,13 @@ const ptBR = {
   'hub.tagline': 'Central de Cartografia Gamer',
   'hub.searchPlaceholder': 'Buscar jogos, mapas, estúdios ou gêneros...',
   'hub.offlineFirst': 'Offline-First',
+  'hub.offlineFirstTooltip':
+    'Progresso salvo localmente neste dispositivo (sem necessidade de conta)',
+  'hub.backupModalTitle': 'Armazenamento Local & Backup',
+  'hub.backupModalDesc':
+    'Todo o seu progresso, notas pessoais, prints e rotas ficam salvos localmente neste dispositivo via IndexedDB, sem necessidade de conta. Exporte um arquivo .json para transferir ou guardar cópia de segurança.',
+  'hub.statusOnline': 'Online',
+  'hub.statusOffline': 'Offline',
   'hub.status': 'Status',
   'hub.statusAll': 'Todos',
   'hub.statusInProgress': 'Em progresso',
@@ -19,7 +26,7 @@ const ptBR = {
   'hub.genre': 'Gênero',
   'hub.searchGenrePlaceholder': 'Filtrar gênero...',
   'hub.clearFilter': 'Limpar filtro',
-  'hub.heroBadge': 'Atlas Interativo v1.5',
+  'hub.heroBadge': `Atlas Interativo v${__APP_VERSION__}`,
   'hub.heroTitle': 'Selecione um universo para explorar',
   'hub.heroDesc':
     'Cada mapa carrega seu próprio manifesto de camadas, marcadores e identidade visual. Seu progresso, notas, prints e rotas são salvos automaticamente no navegador.',
@@ -198,6 +205,13 @@ const enUS: Dictionary = {
   'hub.tagline': 'Gamer Cartography Hub',
   'hub.searchPlaceholder': 'Search games, maps, studios, or genres...',
   'hub.offlineFirst': 'Offline-First',
+  'hub.offlineFirstTooltip':
+    'Progress saved locally on this device (no account required)',
+  'hub.backupModalTitle': 'Local Storage & Backup',
+  'hub.backupModalDesc':
+    'All your progress, personal notes, screenshots, and routes are stored locally on this device via IndexedDB, with no account required. Export a .json file to transfer or back up your data.',
+  'hub.statusOnline': 'Online',
+  'hub.statusOffline': 'Offline',
   'hub.status': 'Status',
   'hub.statusAll': 'All',
   'hub.statusInProgress': 'In Progress',
@@ -206,7 +220,7 @@ const enUS: Dictionary = {
   'hub.genre': 'Genre',
   'hub.searchGenrePlaceholder': 'Filter genre...',
   'hub.clearFilter': 'Clear filter',
-  'hub.heroBadge': 'Interactive Atlas v1.5',
+  'hub.heroBadge': `Interactive Atlas v${__APP_VERSION__}`,
   'hub.heroTitle': 'Select a universe to explore',
   'hub.heroDesc':
     'Each map loads its own manifest of layers, markers, and visual identity. Your progress, notes, screenshots, and routes are saved locally in your browser.',
@@ -376,6 +390,13 @@ const esES: Dictionary = {
   'hub.tagline': 'Central de Cartografía Gamer',
   'hub.searchPlaceholder': 'Buscar juegos, mapas, estudios o géneros...',
   'hub.offlineFirst': 'Offline-First',
+  'hub.offlineFirstTooltip':
+    'Progreso guardado localmente en este dispositivo (sin necesidad de cuenta)',
+  'hub.backupModalTitle': 'Almacenamiento Local y Respaldo',
+  'hub.backupModalDesc':
+    'Todo tu progreso, notas personales, capturas y rutas se guardan localmente en este dispositivo mediante IndexedDB, sin necesidad de cuenta. Exporta un archivo .json para transferir o respaldar tus datos.',
+  'hub.statusOnline': 'En línea',
+  'hub.statusOffline': 'Sin conexión',
   'hub.status': 'Estado',
   'hub.statusAll': 'Todos',
   'hub.statusInProgress': 'En progreso',
@@ -384,7 +405,7 @@ const esES: Dictionary = {
   'hub.genre': 'Género',
   'hub.searchGenrePlaceholder': 'Filtrar género...',
   'hub.clearFilter': 'Limpiar filtro',
-  'hub.heroBadge': 'Atlas Interactivo v1.5',
+  'hub.heroBadge': `Atlas Interactivo v${__APP_VERSION__}`,
   'hub.heroTitle': 'Selecciona un universo para explorar',
   'hub.heroDesc':
     'Cada mapa carga su propio manifiesto de capas, marcadores e identidad visual. Tu progreso, notas, capturas y rutas se guardan localmente en el navegador.',
