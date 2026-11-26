@@ -834,66 +834,66 @@
   },
   {
     "gameSlug": "call-of-duty-black-ops-7",
-    "mapSlug": "ashes-of-the-damned",
-    "name": "Ashes of the Damned",
+    "mapSlug": "zombies-ashes-of-the-damned",
+    "name": "Zombies: Ashes of the Damned",
     "dlc": "base",
-    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/ashes-of-the-damned"
+    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/zombies-ashes-of-the-damned"
   },
   {
     "gameSlug": "call-of-duty-black-ops-7",
-    "mapSlug": "astra-malorum",
-    "name": "Astra Malorum",
+    "mapSlug": "zombies-astra-malorum",
+    "name": "Zombies: Astra Malorum",
     "dlc": "base",
-    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/astra-malorum"
+    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/zombies-astra-malorum"
   },
   {
     "gameSlug": "call-of-duty-black-ops-7",
-    "mapSlug": "paradox-junction",
-    "name": "Paradox Junction",
+    "mapSlug": "zombies-paradox-junction",
+    "name": "Zombies: Paradox Junction",
     "dlc": "base",
-    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/paradox-junction"
+    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/zombies-paradox-junction"
   },
   {
     "gameSlug": "call-of-duty-black-ops-7",
-    "mapSlug": "totenreich",
-    "name": "Totenreich",
+    "mapSlug": "zombies-totenreich",
+    "name": "Zombies: Totenreich",
     "dlc": "base",
-    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/totenreich"
+    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/zombies-totenreich"
   },
   {
     "gameSlug": "call-of-duty-black-ops-7",
-    "mapSlug": "kowakujo",
-    "name": "Kowakujō",
+    "mapSlug": "zombies-kowakujo",
+    "name": "Zombies: Kowakujō",
     "dlc": "base",
-    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/kowakujo"
+    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/zombies-kowakujo"
   },
   {
     "gameSlug": "call-of-duty-black-ops-7",
-    "mapSlug": "rex-infernus",
-    "name": "Rex Infernus",
+    "mapSlug": "zombies-rex-infernus",
+    "name": "Zombies: Rex Infernus",
     "dlc": "base",
-    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/rex-infernus"
+    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/zombies-rex-infernus"
   },
   {
     "gameSlug": "call-of-duty-black-ops-7",
-    "mapSlug": "vandorn-farm",
-    "name": "Vandorn Farm",
+    "mapSlug": "zombies-vandorn-farm",
+    "name": "Zombies: Vandorn Farm",
     "dlc": "base",
-    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/vandorn-farm"
+    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/zombies-vandorn-farm"
   },
   {
     "gameSlug": "call-of-duty-black-ops-7",
-    "mapSlug": "exit-115",
-    "name": "Exit 115",
+    "mapSlug": "zombies-exit-115",
+    "name": "Zombies: Exit 115",
     "dlc": "base",
-    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/exit-115"
+    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/zombies-exit-115"
   },
   {
     "gameSlug": "call-of-duty-black-ops-7",
-    "mapSlug": "zarya-cosmodrome",
-    "name": "Zarya Cosmodrome",
+    "mapSlug": "zombies-zarya-cosmodrome",
+    "name": "Zombies: Zarya Cosmodrome",
     "dlc": "base",
-    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/zarya-cosmodrome"
+    "url": "https://mapgenie.io/call-of-duty-black-ops-7/maps/zombies-zarya-cosmodrome"
   },
   {
     "gameSlug": "pokemon-pokopia",
@@ -1198,10 +1198,24 @@
   },
   {
     "gameSlug": "titan-quest-2",
-    "mapSlug": "world",
-    "name": "Grécia Antiga",
+    "mapSlug": "proti-island",
+    "name": "Proti Island",
     "dlc": "base",
-    "url": "https://mapgenie.io/titan-quest-2/maps/world"
+    "url": "https://mapgenie.io/titan-quest-2/maps/proti-island"
+  },
+  {
+    "gameSlug": "titan-quest-2",
+    "mapSlug": "flooded-farmlands",
+    "name": "Flooded Farmlands",
+    "dlc": "base",
+    "url": "https://mapgenie.io/titan-quest-2/maps/flooded-farmlands"
+  },
+  {
+    "gameSlug": "titan-quest-2",
+    "mapSlug": "northern-beaches",
+    "name": "Northern Beaches",
+    "dlc": "base",
+    "url": "https://mapgenie.io/titan-quest-2/maps/northern-beaches"
   },
   {
     "gameSlug": "hollow-knight-silksong",

@@ -1,0 +1,476 @@
+{
+  "id": "game-oblivion-remastered",
+  "slug": "oblivion-remastered",
+  "title": "The Elder Scrolls IV: Oblivion Remastered",
+  "subtitle": "Cyrodiil & Shivering Isles — Portais de Oblivion, Ruínas Ayleid & Santuários",
+  "studio": "Virtuos / Bethesda Game Studios",
+  "releaseYear": 2025,
+  "genres": [
+    "Action RPG",
+    "RPG",
+    "Mundo Aberto"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/oblivion-remastered/cover.webp",
+    "bannerImage": "/games/oblivion-remastered/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#D4AF37",
+    "accentSecondary": "#EA580C",
+    "accentGlow": "rgba(212, 175, 55, 0.40)",
+    "glassTint": "rgba(20, 16, 10, 0.82)",
+    "surfaceBase": "#0D0A06",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "cyrodiil",
+      "name": "Cyrodiil",
+      "dlc": "base",
+      "pinsCount": 1524,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0D0A06",
+      "initialCenter": [
+        0.7979222578022,
+        -0.85590645932649
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.40542,
+          -1.16608
+        ],
+        [
+          1.14547,
+          -0.28317
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/oblivion/cyrodiil/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0.40542,
+              -1.16608
+            ],
+            [
+              1.14547,
+              -0.28317
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shivering-isles",
+      "name": "Shivering Isles",
+      "dlc": "shivering-isles",
+      "pinsCount": 179,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0D0A06",
+      "initialCenter": [
+        0.71420094856721,
+        -0.76108513319943
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          0.37844,
+          -0.92626
+        ],
+        [
+          1.0047,
+          -0.45262
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/oblivion/shivering-isles/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.37844,
+              -0.92626
+            ],
+            [
+              1.0047,
+              -0.45262
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "ayleid-ruin",
+          "groupId": "locations",
+          "name": "Ayleid Ruin",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "ayleid-well",
+          "groupId": "locations",
+          "name": "Ayleid Well",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "campsite",
+          "groupId": "locations",
+          "name": "Campsite",
+          "icon": "bookmark",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "cave",
+          "groupId": "locations",
+          "name": "Cave",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "chapel",
+          "groupId": "locations",
+          "name": "Chapel",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "city",
+          "groupId": "locations",
+          "name": "City",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "daedric-shrine",
+          "groupId": "locations",
+          "name": "Daedric Shrine",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "fort",
+          "groupId": "locations",
+          "name": "Fort",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "guild-hall",
+          "groupId": "locations",
+          "name": "Guild Hall",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "house",
+          "groupId": "locations",
+          "name": "House",
+          "icon": "bookmark",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "inn",
+          "groupId": "locations",
+          "name": "Inn",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "landmark",
+          "groupId": "locations",
+          "name": "Landmark",
+          "icon": "landmark",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "magical-stone",
+          "groupId": "locations",
+          "name": "Magical Stone",
+          "icon": "sparkles",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "mine",
+          "groupId": "locations",
+          "name": "Mine",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "oblivion-gate",
+          "groupId": "locations",
+          "name": "Oblivion Gate",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "settlement",
+          "groupId": "locations",
+          "name": "Settlement",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "wayshrine",
+          "groupId": "locations",
+          "name": "Wayshrine",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "obelisk-of-order",
+          "groupId": "locations",
+          "name": "Obelisk of Order",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "label": "Services",
+      "categories": [
+        {
+          "id": "alchemist",
+          "groupId": "services",
+          "name": "Alchemist",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "blacksmith",
+          "groupId": "services",
+          "name": "Blacksmith",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "bookstore",
+          "groupId": "services",
+          "name": "Bookstore",
+          "icon": "shopping-bag",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "fence",
+          "groupId": "services",
+          "name": "Fence",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "innkeeper",
+          "groupId": "services",
+          "name": "Innkeeper",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "jeweler",
+          "groupId": "services",
+          "name": "Jeweler",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "magical-supplier",
+          "groupId": "services",
+          "name": "Magical Supplier",
+          "icon": "sparkles",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "merchant",
+          "groupId": "services",
+          "name": "Merchant",
+          "icon": "shopping-bag",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "stable",
+          "groupId": "services",
+          "name": "Stable",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "trainer",
+          "groupId": "services",
+          "name": "Trainer",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "daedric-artifact",
+          "groupId": "items",
+          "name": "Daedric Artifact",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "skill-book",
+          "groupId": "items",
+          "name": "Skill Book",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "unique-item",
+          "groupId": "items",
+          "name": "Unique Item",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "crystal-chest",
+          "groupId": "items",
+          "name": "Crystal Chest",
+          "icon": "gem",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "daedric-quest",
+          "groupId": "quests",
+          "name": "Daedric Quest",
+          "icon": "scroll-text",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "dark-brotherhood-quest",
+          "groupId": "quests",
+          "name": "Dark Brotherhood Quest",
+          "icon": "scroll-text",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "fighter-s-guild-quest",
+          "groupId": "quests",
+          "name": "Fighter's Guild Quest",
+          "icon": "scroll-text",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "mage-s-guild-quest",
+          "groupId": "quests",
+          "name": "Mage's Guild Quest",
+          "icon": "scroll-text",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "main-quest",
+          "groupId": "quests",
+          "name": "Main Quest",
+          "icon": "scroll-text",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "side-quest",
+          "groupId": "quests",
+          "name": "Side Quest",
+          "icon": "scroll-text",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "thieve-s-guild-quest",
+          "groupId": "quests",
+          "name": "Thieve's Guild Quest",
+          "icon": "scroll-text",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "resources",
+      "label": "Resources",
+      "categories": [
+        {
+          "id": "nirnroot",
+          "groupId": "resources",
+          "name": "Nirnroot",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": false
+        }
+      ]
+    }
+  ],
+  "totalPins": 1703
+}

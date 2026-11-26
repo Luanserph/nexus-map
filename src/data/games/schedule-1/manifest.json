@@ -1,0 +1,396 @@
+{
+  "id": "game-schedule-1",
+  "slug": "schedule-1",
+  "title": "Schedule I",
+  "subtitle": "Hyland Point — Dead Drops, Stashes, Revendedores, Lojas & ATMs",
+  "studio": "TVGS",
+  "releaseYear": 2025,
+  "genres": [
+    "Simulação",
+    "Sandbox",
+    "Indie"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/schedule-1/cover.webp",
+    "bannerImage": "/games/schedule-1/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#22C55E",
+    "accentSecondary": "#FACC15",
+    "accentGlow": "rgba(34, 197, 94, 0.40)",
+    "glassTint": "rgba(10, 20, 14, 0.84)",
+    "surfaceBase": "#060E09",
+    "fontDisplay": "'Rajdhani', sans-serif",
+    "backgroundPattern": "tactical-grid",
+    "badgeStyle": "chamfered"
+  },
+  "maps": [
+    {
+      "id": "hyland-point",
+      "name": "Hyland Point",
+      "dlc": "base",
+      "pinsCount": 226,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060E09",
+      "initialCenter": [
+        0.72839071280291,
+        -0.7694074764307
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          0.55453,
+          -0.90349
+        ],
+        [
+          0.89489,
+          -0.5075
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/schedule-1/hyland-point/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.55453,
+              -0.90349
+            ],
+            [
+              0.89489,
+              -0.5075
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "atm",
+          "groupId": "locations",
+          "name": "ATM",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "cash-for-trash-machine",
+          "groupId": "locations",
+          "name": "Cash for Trash Machine",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "cuke-machine",
+          "groupId": "locations",
+          "name": "Cuke Machine",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "dead-drop",
+          "groupId": "locations",
+          "name": "Dead Drop",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "location",
+          "groupId": "locations",
+          "name": "Location",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "payphone",
+          "groupId": "locations",
+          "name": "Payphone",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "stash",
+          "groupId": "locations",
+          "name": "Stash",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "businesses",
+      "label": "Businesses",
+      "categories": [
+        {
+          "id": "taco-ticklers",
+          "groupId": "businesses",
+          "name": "Taco Ticklers",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "the-car-wash",
+          "groupId": "businesses",
+          "name": "The Car Wash",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "the-laundromat",
+          "groupId": "businesses",
+          "name": "The Laundromat",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "the-post-office",
+          "groupId": "businesses",
+          "name": "The Post Office",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "properties",
+      "label": "Properties",
+      "categories": [
+        {
+          "id": "hyland-manor",
+          "groupId": "properties",
+          "name": "Hyland Manor",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "storage-unit",
+          "groupId": "properties",
+          "name": "Storage Unit",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "the-barn",
+          "groupId": "properties",
+          "name": "The Barn",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "the-bungaloo",
+          "groupId": "properties",
+          "name": "The Bungaloo",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "the-docks-warehouse",
+          "groupId": "properties",
+          "name": "The Docks Warehouse",
+          "icon": "bookmark",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "the-motel",
+          "groupId": "properties",
+          "name": "The Motel",
+          "icon": "bookmark",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "the-sweatshop",
+          "groupId": "properties",
+          "name": "The Sweatshop",
+          "icon": "shopping-bag",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "shops",
+      "label": "Shops",
+      "categories": [
+        {
+          "id": "auto-shop",
+          "groupId": "shops",
+          "name": "Auto Shop",
+          "icon": "shopping-bag",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "barbershop",
+          "groupId": "shops",
+          "name": "Barbershop",
+          "icon": "shopping-bag",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "bleuballs-boutique",
+          "groupId": "shops",
+          "name": "Bleuballs Boutique",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "casino",
+          "groupId": "shops",
+          "name": "Casino",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "dan-s-hardware",
+          "groupId": "shops",
+          "name": "Dan's Hardware",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "gas-mart",
+          "groupId": "shops",
+          "name": "Gas Mart",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "handy-hank-s-hardware",
+          "groupId": "shops",
+          "name": "Handy Hank's Hardware",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "hyland-auto",
+          "groupId": "shops",
+          "name": "Hyland Auto",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "pawn-shop",
+          "groupId": "shops",
+          "name": "Pawn Shop",
+          "icon": "shopping-bag",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "ray-s-realty",
+          "groupId": "shops",
+          "name": "Ray's Realty",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "shred-shack",
+          "groupId": "shops",
+          "name": "Shred Shack",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "thrifty-threads",
+          "groupId": "shops",
+          "name": "Thrifty Threads",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "top-tattoos",
+          "groupId": "shops",
+          "name": "Top Tattoos",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "warehouse",
+          "groupId": "shops",
+          "name": "Warehouse",
+          "icon": "bookmark",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "npcs",
+      "label": "NPCs",
+      "categories": [
+        {
+          "id": "customer",
+          "groupId": "npcs",
+          "name": "Customer",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "dealer",
+          "groupId": "npcs",
+          "name": "Dealer",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "graffiti",
+          "groupId": "other",
+          "name": "Graffiti",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 226
+}

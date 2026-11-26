@@ -1,0 +1,382 @@
+{
+  "id": "game-clair-obscur-expedition-33",
+  "slug": "clair-obscur-expedition-33",
+  "title": "Clair Obscur: Expedition 33",
+  "subtitle": "The Continent — Diários, Pictos, Discos, Gestrals & Chefes",
+  "studio": "Sandfall Interactive",
+  "releaseYear": 2025,
+  "genres": [
+    "JRPG",
+    "RPG",
+    "Aventura"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/clair-obscur-expedition-33/cover.webp",
+    "bannerImage": "/games/clair-obscur-expedition-33/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#E2B76E",
+    "accentSecondary": "#9F1239",
+    "accentGlow": "rgba(226, 183, 110, 0.42)",
+    "glassTint": "rgba(20, 14, 14, 0.84)",
+    "surfaceBase": "#0C0808",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "abyssal-contours",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "the-continent",
+      "name": "The Continent",
+      "dlc": "base",
+      "pinsCount": 2815,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0C0808",
+      "initialCenter": [
+        0.68198170340672,
+        -0.72951396769895
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          -0.10375,
+          -1.28788
+        ],
+        [
+          1.40057,
+          0.0954
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "map",
+          "label": "Map",
+          "urlTemplate": "https://tiles.mapgenie.io/games/clair-obscur-expedition-33/the-continent/default-v10/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              -0.10375,
+              -1.28788
+            ],
+            [
+              1.40057,
+              0.0954
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "area",
+          "groupId": "locations",
+          "name": "Area",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "location",
+          "groupId": "locations",
+          "name": "Location",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "point-of-interest",
+          "groupId": "locations",
+          "name": "Point of Interest",
+          "icon": "landmark",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "rest-point",
+          "groupId": "locations",
+          "name": "Rest Point",
+          "icon": "landmark",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "shortcut",
+          "groupId": "locations",
+          "name": "Shortcut",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "underwater-treasure",
+          "groupId": "locations",
+          "name": "Underwater Treasure",
+          "icon": "gem",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "haircut",
+          "groupId": "collectibles",
+          "name": "Haircut",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "journal-entry",
+          "groupId": "collectibles",
+          "name": "Journal Entry",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "lost-gestral",
+          "groupId": "collectibles",
+          "name": "Lost Gestral",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "music-record",
+          "groupId": "collectibles",
+          "name": "Music Record",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "outfit",
+          "groupId": "collectibles",
+          "name": "Outfit",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "paint-cage",
+          "groupId": "collectibles",
+          "name": "Paint Cage",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "pictos",
+          "groupId": "collectibles",
+          "name": "Pictos",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "quest-item",
+          "groupId": "collectibles",
+          "name": "Quest Item",
+          "icon": "scroll-text",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "tint",
+          "groupId": "collectibles",
+          "name": "Tint",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "weapon",
+          "groupId": "collectibles",
+          "name": "Weapon",
+          "icon": "shopping-bag",
+          "color": "#34D399",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "chroma",
+          "groupId": "items",
+          "name": "Chroma",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "chroma-catalyst",
+          "groupId": "items",
+          "name": "Chroma Catalyst",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": false
+        },
+        {
+          "id": "colour-of-lumina",
+          "groupId": "items",
+          "name": "Colour of Lumina",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "recoat",
+          "groupId": "items",
+          "name": "Recoat",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "creatures",
+      "label": "Creatures",
+      "categories": [
+        {
+          "id": "enemy",
+          "groupId": "creatures",
+          "name": "Enemy",
+          "icon": "skull",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "optional-boss",
+          "groupId": "creatures",
+          "name": "Optional Boss",
+          "icon": "skull",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "story-boss",
+          "groupId": "creatures",
+          "name": "Story Boss",
+          "icon": "skull",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "world-boss",
+          "groupId": "creatures",
+          "name": "World Boss",
+          "icon": "skull",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "side-quest",
+          "groupId": "quests",
+          "name": "Side Quest",
+          "icon": "scroll-text",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "character",
+          "groupId": "other",
+          "name": "Character",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": false
+        },
+        {
+          "id": "grapple",
+          "groupId": "other",
+          "name": "Grapple",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "interactable",
+          "groupId": "other",
+          "name": "Interactable",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "merchant",
+          "groupId": "other",
+          "name": "Merchant",
+          "icon": "shopping-bag",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "paint-cage-lock",
+          "groupId": "other",
+          "name": "Paint Cage Lock",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "rope",
+          "groupId": "other",
+          "name": "Rope",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "paint-spike",
+          "groupId": "other",
+          "name": "Paint Spike",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 2815
+}

@@ -1,7 +1,7 @@
 {
   "name": "nexus-maps",
   "private": true,
-  "version": "2.3.0",
+  "version": "2.3.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -14,6 +14,7 @@
     "import-map": "tsx scripts/import-markers/import-tile-map.ts",
     "import-map:all": "tsx scripts/import-markers/import-all-maps.ts",
     "extract-maps": "tsx scripts/import-markers/extract-maps.ts",
+    "sync-readme": "tsx scripts/sync-readme.ts",
     "tauri:dev": "tauri dev",
     "tauri:build": "tauri build",
     "tauri": "tauri"

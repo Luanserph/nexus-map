@@ -1,0 +1,2997 @@
+[
+  {
+    "id": "elden-ring-nightreign-limveld-458754",
+    "mapId": "limveld",
+    "category": "castle",
+    "title": "Castle",
+    "description": "Castle localizado em limveld.",
+    "coords": [
+      -0.7080924510928,
+      0.69760387071543
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458702",
+    "mapId": "limveld",
+    "category": "evergaol",
+    "title": "Evergaol",
+    "description": "Evergaol localizado em limveld.",
+    "coords": [
+      -0.72325229644716,
+      0.68582983443829
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458703",
+    "mapId": "limveld",
+    "category": "evergaol",
+    "title": "Evergaol",
+    "description": "Evergaol localizado em limveld.",
+    "coords": [
+      -0.71024894714304,
+      0.71851277538445
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458704",
+    "mapId": "limveld",
+    "category": "evergaol",
+    "title": "Evergaol",
+    "description": "Evergaol localizado em limveld.",
+    "coords": [
+      -0.70554971694864,
+      0.74301544368947
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458705",
+    "mapId": "limveld",
+    "category": "evergaol",
+    "title": "Evergaol",
+    "description": "Evergaol localizado em limveld.",
+    "coords": [
+      -0.68578720092731,
+      0.72095875700792
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458706",
+    "mapId": "limveld",
+    "category": "evergaol",
+    "title": "Evergaol",
+    "description": "Evergaol localizado em limveld.",
+    "coords": [
+      -0.66489815712126,
+      0.70464146022431
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458707",
+    "mapId": "limveld",
+    "category": "evergaol",
+    "title": "Evergaol",
+    "description": "Evergaol localizado em limveld.",
+    "coords": [
+      -0.6870983108069,
+      0.66788553200797
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458708",
+    "mapId": "limveld",
+    "category": "evergaol",
+    "title": "Evergaol",
+    "description": "Evergaol localizado em limveld.",
+    "coords": [
+      -0.74694156646669,
+      0.72703079341842
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458734",
+    "mapId": "limveld",
+    "category": "major-location",
+    "title": "Major Key Location",
+    "description": "Major Location localizado em limveld.",
+    "coords": [
+      -0.71650137443348,
+      0.66572002697984
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458735",
+    "mapId": "limveld",
+    "category": "major-location",
+    "title": "Major Key Location",
+    "description": "Major Location localizado em limveld.",
+    "coords": [
+      -0.73244690894936,
+      0.68287673171086
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458736",
+    "mapId": "limveld",
+    "category": "major-location",
+    "title": "Major Key Location",
+    "description": "Major Location localizado em limveld.",
+    "coords": [
+      -0.7277154922466,
+      0.69610194475784
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458737",
+    "mapId": "limveld",
+    "category": "major-location",
+    "title": "Major Key Location",
+    "description": "Major Location localizado em limveld.",
+    "coords": [
+      -0.73213577270283,
+      0.71053114205151
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458738",
+    "mapId": "limveld",
+    "category": "major-location",
+    "title": "Major Key Location",
+    "description": "Major Location localizado em limveld.",
+    "coords": [
+      -0.7393348216998,
+      0.7325449678189
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458739",
+    "mapId": "limveld",
+    "category": "major-location",
+    "title": "Major Key Location",
+    "description": "Major Location localizado em limveld.",
+    "coords": [
+      -0.71611762046649,
+      0.74580470563168
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458740",
+    "mapId": "limveld",
+    "category": "major-location",
+    "title": "Major Key Location",
+    "description": "Major Location localizado em limveld.",
+    "coords": [
+      -0.71459412574788,
+      0.72942313061436
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458743",
+    "mapId": "limveld",
+    "category": "major-location",
+    "title": "Major Key Location",
+    "description": "Major Location localizado em limveld.",
+    "coords": [
+      -0.68522930145173,
+      0.72980933739734
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458744",
+    "mapId": "limveld",
+    "category": "major-location",
+    "title": "Major Key Location",
+    "description": "Major Location localizado em limveld.",
+    "coords": [
+      -0.67576646804619,
+      0.74115126671525
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458746",
+    "mapId": "limveld",
+    "category": "major-location",
+    "title": "Major Key Location",
+    "description": "Major Location localizado em limveld.",
+    "coords": [
+      -0.66787004470729,
+      0.71333115209922
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458747",
+    "mapId": "limveld",
+    "category": "major-location",
+    "title": "Major Key Location",
+    "description": "Major Location localizado em limveld.",
+    "coords": [
+      -0.68134546279717,
+      0.70783841048654
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458748",
+    "mapId": "limveld",
+    "category": "major-location",
+    "title": "Major Key Location",
+    "description": "Major Location localizado em limveld.",
+    "coords": [
+      -0.692986249922,
+      0.71168976710693
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458749",
+    "mapId": "limveld",
+    "category": "major-location",
+    "title": "Major Key Location",
+    "description": "Major Location localizado em limveld.",
+    "coords": [
+      -0.68619489669931,
+      0.69072719153169
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458750",
+    "mapId": "limveld",
+    "category": "major-location",
+    "title": "Major Key Location",
+    "description": "Major Location localizado em limveld.",
+    "coords": [
+      -0.66999435425021,
+      0.68588883562198
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458751",
+    "mapId": "limveld",
+    "category": "major-location",
+    "title": "Major Key Location",
+    "description": "Major Location localizado em limveld.",
+    "coords": [
+      -0.68809390068262,
+      0.67739219879368
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458752",
+    "mapId": "limveld",
+    "category": "major-location",
+    "title": "Major Key Location",
+    "description": "Major Location localizado em limveld.",
+    "coords": [
+      -0.6709063053153,
+      0.67239290803137
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458741",
+    "mapId": "limveld",
+    "category": "minor-location",
+    "title": "Minor Key Location",
+    "description": "Minor Location localizado em limveld.",
+    "coords": [
+      -0.70889711379849,
+      0.67631939004971
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458742",
+    "mapId": "limveld",
+    "category": "minor-location",
+    "title": "Minor Key Location",
+    "description": "Minor Location localizado em limveld.",
+    "coords": [
+      -0.69858670234527,
+      0.73840242969587
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458745",
+    "mapId": "limveld",
+    "category": "minor-location",
+    "title": "Minor Key Location",
+    "description": "Minor Location localizado em limveld.",
+    "coords": [
+      -0.67711830138967,
+      0.7201219739689
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458753",
+    "mapId": "limveld",
+    "category": "minor-location",
+    "title": "Minor Key Location",
+    "description": "Minor Location localizado em limveld.",
+    "coords": [
+      -0.69443464279038,
+      0.66139907997267
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458763",
+    "mapId": "limveld",
+    "category": "minor-location",
+    "title": "Minor Key Location",
+    "description": "Minor Location localizado em limveld.",
+    "coords": [
+      -0.74018239974853,
+      0.72256795472819
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458769",
+    "mapId": "limveld",
+    "category": "minor-location",
+    "title": "Minor Key Location",
+    "description": "Minor Location localizado em limveld.",
+    "coords": [
+      -0.697342157365,
+      0.68450491473764
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458771",
+    "mapId": "limveld",
+    "category": "minor-location",
+    "title": "Minor Key Location",
+    "description": "Minor Location localizado em limveld.",
+    "coords": [
+      -0.7208383083323,
+      0.71520855251372
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458772",
+    "mapId": "limveld",
+    "category": "minor-location",
+    "title": "Minor Key Location",
+    "description": "Minor Location localizado em limveld.",
+    "coords": [
+      -0.66525220870827,
+      0.72107676485948
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458773",
+    "mapId": "limveld",
+    "category": "minor-location",
+    "title": "Minor Key Location",
+    "description": "Minor Location localizado em limveld.",
+    "coords": [
+      -0.74252128600901,
+      0.69421380859048
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458774",
+    "mapId": "limveld",
+    "category": "minor-location",
+    "title": "Minor Key Location",
+    "description": "Minor Location localizado em limveld.",
+    "coords": [
+      -0.74302554130423,
+      0.67378756047616
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-467646",
+    "mapId": "limveld",
+    "category": "minor-location",
+    "title": "Minor Key Location",
+    "description": "Minor Location localizado em limveld.",
+    "coords": [
+      -0.66306554015088,
+      0.69136289748451
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458683",
+    "mapId": "limveld",
+    "category": "site-of-grace",
+    "title": "Site of Grace",
+    "description": "Site of Grace localizado em limveld.",
+    "coords": [
+      -0.74006706476393,
+      0.6986900847248
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458684",
+    "mapId": "limveld",
+    "category": "site-of-grace",
+    "title": "Site of Grace",
+    "description": "Site of Grace localizado em limveld.",
+    "coords": [
+      -0.73886007070448,
+      0.67946003697628
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458685",
+    "mapId": "limveld",
+    "category": "site-of-grace",
+    "title": "Site of Grace",
+    "description": "Site of Grace localizado em limveld.",
+    "coords": [
+      -0.70310354232964,
+      0.67462166972945
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458686",
+    "mapId": "limveld",
+    "category": "site-of-grace",
+    "title": "Site of Grace",
+    "description": "Site of Grace localizado em limveld.",
+    "coords": [
+      -0.69469749927586,
+      0.6702392420306
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458687",
+    "mapId": "limveld",
+    "category": "site-of-grace",
+    "title": "Site of Grace",
+    "description": "Site of Grace localizado em limveld.",
+    "coords": [
+      -0.69713562726972,
+      0.68107461299512
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458688",
+    "mapId": "limveld",
+    "category": "site-of-grace",
+    "title": "Site of Grace",
+    "description": "Site of Grace localizado em limveld.",
+    "coords": [
+      -0.66674083471329,
+      0.6923095795938
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458689",
+    "mapId": "limveld",
+    "category": "site-of-grace",
+    "title": "Site of Grace",
+    "description": "Site of Grace localizado em limveld.",
+    "coords": [
+      -0.69303989410082,
+      0.70057908947996
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458690",
+    "mapId": "limveld",
+    "category": "site-of-grace",
+    "title": "Site of Grace",
+    "description": "Site of Grace localizado em limveld.",
+    "coords": [
+      -0.70948988199305,
+      0.70650009013312
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458691",
+    "mapId": "limveld",
+    "category": "site-of-grace",
+    "title": "Site of Grace",
+    "description": "Site of Grace localizado em limveld.",
+    "coords": [
+      -0.72076052427187,
+      0.72099630496307
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458692",
+    "mapId": "limveld",
+    "category": "site-of-grace",
+    "title": "Site of Grace",
+    "description": "Site of Grace localizado em limveld.",
+    "coords": [
+      -0.7361027598385,
+      0.72351738111784
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458693",
+    "mapId": "limveld",
+    "category": "site-of-grace",
+    "title": "Site of Grace",
+    "description": "Site of Grace localizado em limveld.",
+    "coords": [
+      -0.70121526718165,
+      0.73634534574636
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458694",
+    "mapId": "limveld",
+    "category": "site-of-grace",
+    "title": "Site of Grace",
+    "description": "Site of Grace localizado em limveld.",
+    "coords": [
+      -0.67110747098923,
+      0.72145492636436
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458695",
+    "mapId": "limveld",
+    "category": "site-of-grace",
+    "title": "Site of Grace",
+    "description": "Site of Grace localizado em limveld.",
+    "coords": [
+      -0.68279653787624,
+      0.7158575964805
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458709",
+    "mapId": "limveld",
+    "category": "spectral-hawk-tree",
+    "title": "Spectral Hawk Tree",
+    "description": "Spectral Hawk Tree localizado em limveld.",
+    "coords": [
+      -0.70039987563968,
+      0.67234462840453
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458710",
+    "mapId": "limveld",
+    "category": "spectral-hawk-tree",
+    "title": "Spectral Hawk Tree",
+    "description": "Spectral Hawk Tree localizado em limveld.",
+    "coords": [
+      -0.72810173034557,
+      0.70349356143667
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458711",
+    "mapId": "limveld",
+    "category": "spectral-hawk-tree",
+    "title": "Spectral Hawk Tree",
+    "description": "Spectral Hawk Tree localizado em limveld.",
+    "coords": [
+      -0.69010019302297,
+      0.72115186076401
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458712",
+    "mapId": "limveld",
+    "category": "spectral-hawk-tree",
+    "title": "Spectral Hawk Tree",
+    "description": "Spectral Hawk Tree localizado em limveld.",
+    "coords": [
+      -0.72200775146399,
+      0.7353342363382
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458713",
+    "mapId": "limveld",
+    "category": "spectral-hawk-tree",
+    "title": "Spectral Hawk Tree",
+    "description": "Spectral Hawk Tree localizado em limveld.",
+    "coords": [
+      -0.67533731460534,
+      0.72559860569804
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458714",
+    "mapId": "limveld",
+    "category": "spectral-hawk-tree",
+    "title": "Spectral Hawk Tree",
+    "description": "Spectral Hawk Tree localizado em limveld.",
+    "coords": [
+      -0.67742407003104,
+      0.66635298553993
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458715",
+    "mapId": "limveld",
+    "category": "spiritstream",
+    "title": "Spiritstream",
+    "description": "Spiritstream localizado em limveld.",
+    "coords": [
+      -0.74312210083028,
+      0.72580780440822
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458716",
+    "mapId": "limveld",
+    "category": "spiritstream",
+    "title": "Spiritstream",
+    "description": "Spiritstream localizado em limveld.",
+    "coords": [
+      -0.7042461633699,
+      0.73114765092154
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458717",
+    "mapId": "limveld",
+    "category": "spiritstream",
+    "title": "Spiritstream",
+    "description": "Spiritstream localizado em limveld.",
+    "coords": [
+      -0.67359656095408,
+      0.72951968231369
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458718",
+    "mapId": "limveld",
+    "category": "spiritstream",
+    "title": "Spiritstream",
+    "description": "Spiritstream localizado em limveld.",
+    "coords": [
+      -0.67128986120088,
+      0.7228844302136
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458719",
+    "mapId": "limveld",
+    "category": "spiritstream",
+    "title": "Spiritstream",
+    "description": "Spiritstream localizado em limveld.",
+    "coords": [
+      -0.66179752349743,
+      0.71884802513698
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458720",
+    "mapId": "limveld",
+    "category": "spiritstream",
+    "title": "Spiritstream",
+    "description": "Spiritstream localizado em limveld.",
+    "coords": [
+      -0.68205088376831,
+      0.72412082998763
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458721",
+    "mapId": "limveld",
+    "category": "spiritstream",
+    "title": "Spiritstream",
+    "description": "Spiritstream localizado em limveld.",
+    "coords": [
+      -0.68415910005322,
+      0.71572081449798
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458722",
+    "mapId": "limveld",
+    "category": "spiritstream",
+    "title": "Spiritstream",
+    "description": "Spiritstream localizado em limveld.",
+    "coords": [
+      -0.70623099803996,
+      0.71988595821296
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458723",
+    "mapId": "limveld",
+    "category": "spiritstream",
+    "title": "Spiritstream",
+    "description": "Spiritstream localizado em limveld.",
+    "coords": [
+      -0.70747017860529,
+      0.72402427817465
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458724",
+    "mapId": "limveld",
+    "category": "spiritstream",
+    "title": "Spiritstream",
+    "description": "Spiritstream localizado em limveld.",
+    "coords": [
+      -0.71736752986928,
+      0.71832235351562
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458725",
+    "mapId": "limveld",
+    "category": "spiritstream",
+    "title": "Spiritstream",
+    "description": "Spiritstream localizado em limveld.",
+    "coords": [
+      -0.71902245282999,
+      0.71193114728929
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458726",
+    "mapId": "limveld",
+    "category": "spiritstream",
+    "title": "Spiritstream",
+    "description": "Spiritstream localizado em limveld.",
+    "coords": [
+      -0.70547729730535,
+      0.7032226787386
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458727",
+    "mapId": "limveld",
+    "category": "spiritstream",
+    "title": "Spiritstream",
+    "description": "Spiritstream localizado em limveld.",
+    "coords": [
+      -0.72746068239209,
+      0.70503035110134
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458728",
+    "mapId": "limveld",
+    "category": "spiritstream",
+    "title": "Spiritstream",
+    "description": "Spiritstream localizado em limveld.",
+    "coords": [
+      -0.74108362197899,
+      0.70441617169853
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458729",
+    "mapId": "limveld",
+    "category": "spiritstream",
+    "title": "Spiritstream",
+    "description": "Spiritstream localizado em limveld.",
+    "coords": [
+      -0.73756456375125,
+      0.71175413515716
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458730",
+    "mapId": "limveld",
+    "category": "spiritstream",
+    "title": "Spiritstream",
+    "description": "Spiritstream localizado em limveld.",
+    "coords": [
+      -0.739645957947,
+      0.68896778995141
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458731",
+    "mapId": "limveld",
+    "category": "spiritstream",
+    "title": "Spiritstream",
+    "description": "Spiritstream localizado em limveld.",
+    "coords": [
+      -0.72396308183767,
+      0.68844479697736
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458732",
+    "mapId": "limveld",
+    "category": "spiritstream",
+    "title": "Spiritstream",
+    "description": "Spiritstream localizado em limveld.",
+    "coords": [
+      -0.6821313500399,
+      0.67531094961363
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458733",
+    "mapId": "limveld",
+    "category": "spiritstream",
+    "title": "Spiritstream",
+    "description": "Spiritstream localizado em limveld.",
+    "coords": [
+      -0.69129645824276,
+      0.6877340628439
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458696",
+    "mapId": "limveld",
+    "category": "tunnel-entrance",
+    "title": "Tunnel Entrance",
+    "description": "Leads to: [Tunnel Entrance](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458697)",
+    "coords": [
+      -0.68285363783448,
+      0.67181052195957
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458697",
+    "mapId": "limveld",
+    "category": "tunnel-entrance",
+    "title": "Tunnel Entrance",
+    "description": "Leads to: [Tunnel Entrance](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458696)",
+    "coords": [
+      -0.70294797420513,
+      0.67791251094812
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458698",
+    "mapId": "limveld",
+    "category": "tunnel-entrance",
+    "title": "Tunnel Entrance",
+    "description": "Leads to: [Tunnel Entrance](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458699)",
+    "coords": [
+      -0.72576820850301,
+      0.71429974116576
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458699",
+    "mapId": "limveld",
+    "category": "tunnel-entrance",
+    "title": "Tunnel Entrance",
+    "description": "Leads to: [Tunnel Entrance](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458698)",
+    "coords": [
+      -0.7079797983159,
+      0.72639247902052
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458700",
+    "mapId": "limveld",
+    "category": "tunnel-entrance",
+    "title": "Tunnel Entrance",
+    "description": "Leads to: [Tunnel Entrance](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458701)",
+    "coords": [
+      -0.70413127597112,
+      0.72862086861112
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458701",
+    "mapId": "limveld",
+    "category": "tunnel-entrance",
+    "title": "Tunnel Entrance",
+    "description": "Leads to: [Tunnel Entrance](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458700)",
+    "coords": [
+      -0.68831691081218,
+      0.72332964145077
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458764",
+    "mapId": "limveld",
+    "category": "buried-treasure",
+    "title": "Buried Treasure",
+    "description": "Buried Treasure localizado em limveld.",
+    "coords": [
+      -0.73638178794494,
+      0.71870260083578
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458765",
+    "mapId": "limveld",
+    "category": "buried-treasure",
+    "title": "Buried Treasure",
+    "description": "Inside of tower that looks like the one guarding the entrance to Stormveil in base game, near the first Crucible Knight",
+    "coords": [
+      -0.73632592930042,
+      0.70140475302655
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-462272",
+    "mapId": "limveld",
+    "category": "buried-treasure",
+    "title": "Buried Treasure",
+    "description": "Underneath large crumbled ruins",
+    "coords": [
+      -0.69159371117019,
+      0.66877080350699
+    ],
+    "region": "limveld",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1f38e3ff-8312-445a-aaba-35dbd994eb19.jpeg"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-462273",
+    "mapId": "limveld",
+    "category": "buried-treasure",
+    "title": "Buried Treasure",
+    "description": "Behind bushes",
+    "coords": [
+      -0.74189426840124,
+      0.74557482469858
+    ],
+    "region": "limveld",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6c0c3a6c-0936-4bf4-82b0-5af7ac16938c.jpeg"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-462274",
+    "mapId": "limveld",
+    "category": "buried-treasure",
+    "title": "Buried Treasure",
+    "description": "Behind bushes",
+    "coords": [
+      -0.69203452958882,
+      0.74264212943666
+    ],
+    "region": "limveld",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9e0510ba-1c8b-4161-a173-ce293dc22f63.jpeg"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-462275",
+    "mapId": "limveld",
+    "category": "buried-treasure",
+    "title": "Buried Treasure",
+    "description": "At the base of a large tree, near the cliff's edge",
+    "coords": [
+      -0.66179702302102,
+      0.68696905936021
+    ],
+    "region": "limveld",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/972e7dc3-792b-4fd2-914e-768b3443c04b.png"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-462276",
+    "mapId": "limveld",
+    "category": "buried-treasure",
+    "title": "Buried Treasure",
+    "description": "On the north side of some ruins, under the crumbled edges",
+    "coords": [
+      -0.68712507560073,
+      0.70470948693787
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-462277",
+    "mapId": "limveld",
+    "category": "buried-treasure",
+    "title": "Treasure",
+    "description": "Buried Treasure localizado em limveld.",
+    "coords": [
+      -0.73453548460802,
+      0.67198513269021
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-462278",
+    "mapId": "limveld",
+    "category": "buried-treasure",
+    "title": "Buried Treasure",
+    "description": "To the right of spirt stream",
+    "coords": [
+      -0.6724412636934,
+      0.73018315103413
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-462279",
+    "mapId": "limveld",
+    "category": "buried-treasure",
+    "title": "Buried Treasure",
+    "description": "On top of crumbled tower.",
+    "coords": [
+      -0.70551823542255,
+      0.70900464333351
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-462281",
+    "mapId": "limveld",
+    "category": "buried-treasure",
+    "title": "Treasure",
+    "description": "Buried Treasure localizado em limveld.",
+    "coords": [
+      -0.70510628729664,
+      0.68185229096613
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-481519",
+    "mapId": "limveld",
+    "category": "buried-treasure",
+    "title": "Buried Treasure",
+    "description": "Under the giant fallen ruin, guarded by demi humans.",
+    "coords": [
+      -0.72102336915796,
+      0.73724324790273
+    ],
+    "region": "limveld",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/bda74e83-31c9-456b-a392-1d7ffd14882e.png"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458755",
+    "mapId": "limveld",
+    "category": "scarab",
+    "title": "Scarab",
+    "description": "Scarab localizado em limveld.",
+    "coords": [
+      -0.69097995758099,
+      0.69608048867087
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458757",
+    "mapId": "limveld",
+    "category": "scarab",
+    "title": "Scarab",
+    "description": "Scarab localizado em limveld.",
+    "coords": [
+      -0.70755064487446,
+      0.71354034818576
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458758",
+    "mapId": "limveld",
+    "category": "scarab",
+    "title": "Scarab",
+    "description": "Scarab localizado em limveld.",
+    "coords": [
+      -0.71597009897263,
+      0.70213914778702
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458766",
+    "mapId": "limveld",
+    "category": "scarab",
+    "title": "Scarab",
+    "description": "Scarab localizado em limveld.",
+    "coords": [
+      -0.72940076962459,
+      0.67554404552507
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458767",
+    "mapId": "limveld",
+    "category": "scarab",
+    "title": "Scarab",
+    "description": "Scarab localizado em limveld.",
+    "coords": [
+      -0.72592462674052,
+      0.68030731529208
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458768",
+    "mapId": "limveld",
+    "category": "scarab",
+    "title": "Scarab",
+    "description": "Scarab localizado em limveld.",
+    "coords": [
+      -0.71459497586164,
+      0.67807587418314
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458770",
+    "mapId": "limveld",
+    "category": "scarab",
+    "title": "Scarab",
+    "description": "Scarab localizado em limveld.",
+    "coords": [
+      -0.71564675323279,
+      0.71306028387301
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458775",
+    "mapId": "limveld",
+    "category": "scarab",
+    "title": "Scarab",
+    "description": "Scarab localizado em limveld.",
+    "coords": [
+      -0.74144554061735,
+      0.68831450976477
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458776",
+    "mapId": "limveld",
+    "category": "scarab",
+    "title": "Scarab",
+    "description": "Scarab localizado em limveld.",
+    "coords": [
+      -0.73788356704574,
+      0.69427930842478
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458777",
+    "mapId": "limveld",
+    "category": "scarab",
+    "title": "Scarab",
+    "description": "Scarab localizado em limveld.",
+    "coords": [
+      -0.72809886855697,
+      0.719811993831
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458780",
+    "mapId": "limveld",
+    "category": "scarab",
+    "title": "Scarab",
+    "description": "Scarab localizado em limveld.",
+    "coords": [
+      -0.70729551910725,
+      0.67746720300839
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-461328",
+    "mapId": "limveld",
+    "category": "scarab",
+    "title": "Scarab",
+    "description": "Scarab localizado em limveld.",
+    "coords": [
+      -0.67002638574397,
+      0.73450137556087
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-462269",
+    "mapId": "limveld",
+    "category": "scarab",
+    "title": "Scarab",
+    "description": "Scarab",
+    "coords": [
+      -0.6807058909572,
+      0.67350271050003
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-462270",
+    "mapId": "limveld",
+    "category": "scarab",
+    "title": "Scarab",
+    "description": "Scarab localizado em limveld.",
+    "coords": [
+      -0.65916003091257,
+      0.68345795003437
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-462280",
+    "mapId": "limveld",
+    "category": "scarab",
+    "title": "Scarab",
+    "description": "Scarab localizado em limveld.",
+    "coords": [
+      -0.68937522310065,
+      0.7044898199111
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458787",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Wylder Remembrance #1",
+    "description": "Remembrance: [Wylder's Remembrance](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458782) Steps: - Head to the [Journal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459356) and flip to Wylder Chapter 3. - Speak to [The Iron Menial](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459358) - Begin any Expedition as Wylder while the Remembrance is active. Go to the Red Marked Mine, then find the glowing rocks deep inside. Defeat the Tunnel Crystallian that spawns in front of the objective. Collect the Slate Whetstone that drops. - Give the Slate Whetstone to Iron Menial back in the Roundtable Hold - Receive the Mended Earring. Take the Mended Earring into the study just past the Iron Menial, hold them up to the light. Return the Mended Earrings to [the Duchess](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458785), then conclude Remembrance using the Journal. Reward: [Slate Whetstone](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459015)",
+    "coords": [
+      -0.63090652227413,
+      0.75299509291128
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458793",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Ironeye Remembrance #1",
+    "description": "Remembrance: [Ironeye's Remembrance](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458781) Steps: - Head to the [Journal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459356) and flip to Chapter 4. - Speak with [The Priestess](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458784) - Begin any Expedition as Ironeye while the Remembrance is active. Go to the Red Mark west of Limveld. Defeat the Night Huntsman at the end of the road. - Give the Traitor's Letter to the Priestess back in the Roundtable Hold - Conclude the Remembrance at the nearby light stream. Reward: [Ironeye's Chalice](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459378); [Cracked Sealing Wax](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459022)",
+    "coords": [
+      -0.62843084335393,
+      0.72616182757587
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458794",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Guardian Remembrance #1",
+    "description": "Remembrance: [Guardian's Remembrance](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458783) Steps: - Head to the [Journal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459356) and flip to Guardian Chapter 4. - Speak with the Iron Menial and exhaust all dialogue. - Begin any expedition as Guardian while the Remembrance is active. Head to the red marker and interact with the fallen golem. Defeat the Cracked Golem to receive a Stone Stake. - Speak with the Iron Menial and exhaust all dialogue to conclude the Remembrance. Reward: [Stone Stake](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459019)",
+    "coords": [
+      -0.60109376907377,
+      0.75429048779364
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458795",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Wylder Remembrance #2",
+    "description": "Remembrance: [Wylder's Remembrance](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458782) Steps: - Head to the [Journal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459356) and flip to Wylder Chapter 5. - Collect all three notes ([Glowing Note](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459359), [Glowing Note](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459360), [Glowing Note](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459361)) - Enter the [Tomb Entrance](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459362) and speak with the Iron Menial there. - Interact with the three nearby tombs. - Speak with the Duchess to conclude the Remembrance. Reward: [Wylder's Goblet](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458922)",
+    "coords": [
+      -0.62647283077294,
+      0.7529092696338
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458914",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Duchess Remembrance #1",
+    "description": "Remembrance: [The Duchess Remembrance](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458788) Steps: - Head to the [Journal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459356) and flip to Duchess Chapter 3. - Speak with the Raider; exhaust all dialogue. - Speak with Wylder; exhaust all dialogue. - Begin any expedition as Duchess while the Remembrance is active. Head to the marked red objective. Defeat the Guardians of the Dew to acquire the Golden Dew. - Return to Wylder and give him the Golden Dew to acquire the Faded Iron Coins. - Speak with both Raider and the Revenant, exhausting their dialogues. - Speak with the Iron Menial to conclude the Remembrance. Reward: [Golden Dew](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459024)",
+    "coords": [
+      -0.60100793838564,
+      0.72694496964087
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458915",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Raider Remembrance #1",
+    "description": "Remembrance: [Raider Remembrance](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458789) Steps: - Head to the [Journal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459356) and flip to Raider Chapter 2. - Speak with the Iron Menial and exhaust his dialogue. - Touch the monument to be transported to an arena. Defeat the Onestrike Gladiator to receive the Torn Braided Cord. - Follow the Iron Menial's direction to conclude the Remembrance. Reward: [Torn Braided Cord](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459027)",
+    "coords": [
+      -0.62839865684532,
+      0.69673489932738
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458916",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Revenant Remembrance #1",
+    "description": "Remembrance: [Revenant Remembrance](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458790) Steps: - Head to the [Journal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459356) and flip to Revenant Chapter 1. - Speak with both Duchess and Guardian, exhausting their dialogues. - Complete either the Tricephalos or the Darkdrift Knight expedition as Revenant while the Remembrance is active. You will receive Blade of Night as an additional drop from the boss. - Speak with Guardian to complete the Remembrance. Reward: [Small Makeup Brush](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459029)",
+    "coords": [
+      -0.59802532196156,
+      0.6970889247264
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458917",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Recluse Remembrance #1",
+    "description": "Remembrance: [Recluse Remembrance](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458791) Steps: - Head to the [Journal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459356) and flip to Recluse Chapter 2. - Speak with the Iron Menial and exhaust all dialogue. - Begin any expedition as the Recluse while the Remembrance is active. Head to the red marker and defeat the Night-Swallowed Golden Hippopotamus to receive the Night Shard. - Speak with Iron Menial to complete the Remembrance. Reward: [Recluse's Chalice](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459395)",
+    "coords": [
+      -0.63006162643126,
+      0.6676618148436
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458918",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Executor Remembrance #1",
+    "description": "Remembrance: [Executor Remembrance](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458792) Steps: - Head to the [Journal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459356) and flip to Executor Chapter 2. - Speak to the Guardian who is looking at a painting in the Journal room. Choose \"Affirm\", then exhaust his dialogue. - Speak to the Priestess and exhaust her dialogue. - Start any expedition as Executor while the Remembrance is actuve. Head to the red marker and defeat the Stray Bloodhound Knight to receive the Blessed Flowers. - Give them to the Priestess and then conclude the Remembrance from the Journal. Reward: [Executor's Chalice](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459398); [Blessed Flowers](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459033)",
+    "coords": [
+      -0.59553623199145,
+      0.66847178690364
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459037",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Guardian Remembrance #2",
+    "description": "Remembrance: [Guardian's Remembrance](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458783) Steps: - NOTE: Before starting the Remembrance, make sure to have at least 6,200 Murk to spend. - Head to the [Journal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459356) and flip to Guardian Chapter 6. - Speak with the travelling merchant and exhaust all dialogue. - _Optional:_ Buy out the merchant's stock; this is your only chance to do so, and costs 6,200 Murk in total. - Head back to the Roundtable. Watch the cutscene, then speak with the Iron Menial and the Recluse, exhausting all dialogue. - Return to the merchant and defeat him to conclude the Remembrance. Reward: [Guardian's Chalice](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459374)",
+    "coords": [
+      -0.59641599655174,
+      0.75407592966143
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459038",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Executor Remembrance #2",
+    "description": "Remembrance: [Executor Remembrance](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458792) Steps: - Head to the [Journal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459356) and flip to Executor Chapter 6. - Speak with the Priestess, exhausting all dialogue. - Begin any expedition as the Executor while the Remembrance is active. Head to the red marker and defeat the Erdtree Avatar to receive the Golden Sprout. - Speak with the Priestess to trigger a cutscene. Defeat Executor's Cry, then walk in the golden light to trigger another cutscene. -Speak with the Priestess and exhaust all dialogue to complete the Remembrance. Reward: [Golden Sprout](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459034); Executor's Remembrance Outfit at [Change Garb](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459353)",
+    "coords": [
+      -0.58961927890545,
+      0.66835377773771
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459039",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Ironeye Remembrance #2",
+    "description": "Remembrance: [Ironeye's Remembrance](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458781) Steps: - Head to the [Journal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459356) and flip to Ironeye Chapter 6. - Enter [The Tomb](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459363) and speak with the Priestess there. Exhaust all dialogue. - Complete the Darkrift Knight Expedition as Wylder while the Remembrance is active. The boss will drop Edge of Order as an additional drop. - Give the Edge of Order to the Traitor back in the Roundtable Hold - Conclude the Remembrance through the light stream. Reward: [Edge of Order](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459023)",
+    "coords": [
+      -0.62406420707842,
+      0.72602653150545
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459040",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Duchess Remembrance #2",
+    "description": "Remembrance: [The Duchess Remembrance](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458788) Steps: - Head to the [Journal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459356) and flip to Duchess Chapter 6. - Examine the plate next to Wylder, then eat the bread. - Speak with Wylder to obtain the Pita Bread. - Speak with the Iron Menial to conclude the Remembrance. Reward: [Duchess' Chalice](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459382)",
+    "coords": [
+      -0.59605121612648,
+      0.72707370530948
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459041",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Raider Remembrance #2",
+    "description": "Remembrance: [Raider Remembrance](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458789) Steps: - Head to the [Journal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459356) and flip to Raider Chapter 4. - Speak with the Iron Menial and exhaust his dialogue. - Touch the monument to be transported to the arena. Defeat the Blinding Elder Lion. - Speak with the Iron Menial and exhaust all dialogue to complete the Remembrance.# Reward: [Raider's Chalice](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459387)",
+    "coords": [
+      -0.62408566474966,
+      0.69685290779707
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459042",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Revenant Remembrance #2",
+    "description": "Remembrance: [Revenant Remembrance](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458790) Steps: - Head to the [Journal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459356) and flip to Revenant Chapter 5. - Speak with Duchess, choosing the \"Ask about the Night's corrosion\" and \"I'm not afraid of Night\" options. - Speak with Recluse, exhausting her dialogue then sitting on the bench nearby. - Head down the corridor and into the main room. Defeat the Corrosion enemies. - Speak with the doll to complete the Remembrance. Reward: [Revenant's Chalice](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459391)",
+    "coords": [
+      -0.59329926967436,
+      0.69679926758268
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459043",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Recluse Remembrance #2",
+    "description": "Remembrance: [Recluse Remembrance](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458791) Steps: - Head to the [Journal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459356) and flip to Recluse Chapter 4. - Read the note on the table, then speak with Iron Menial, exhausting all dialogue. - Interact with the glowing bed, then speak with Iron Menial to conclude the Remembrance. Reward: [Vestige of the Night](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459031)",
+    "coords": [
+      -0.62559843063082,
+      0.66779055213408
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459365",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Wylder Remembrance #3",
+    "description": "Remembrance: [Wylder's Remembrance Quest](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458782) Steps: - Head to the [Journal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459356) and flip to Wylder Chapter 7. - Pick up the [Thief's Virtuous Key](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459366) - In the Tomb, unlock the chest to obtain the [Torn-Out Paper Scrap](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459367) - Speak with [The Iron Menial](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459358), then [The Recluse](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459368), then The Iron Menial again, exhausting all available dialogue. - Start an Expedition as Wylder while the \"Noklateo, The Shrouded City\" event is active. In the city, collect the Silver Tear. - Bring the Silver Tear to The Iron Menial and conclude the Remembrance at the Journal. Reward: [Silver Tear](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459017); Wylder's Remembrance Outfit at [Change Garb](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459353).",
+    "coords": [
+      -0.62163949012901,
+      0.75303532257217
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459369",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Wylder Remembrance #4",
+    "description": "Remembrance: [Wylder's Remembrance Quest](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458782) Steps: - Complete the Night Aspect expedition. - Instead of returning to the Roundtable Hold, inspect the Nightlord's corpse. Reward: [The Wylder's Earring](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459016)",
+    "coords": [
+      -0.6167256832137,
+      0.75283149228792
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459370",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Guardian Remembrance #3",
+    "description": "Remembrance: [Guardian's Remembrance Quest](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458783) Steps: - Head to the [Journal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459356) and flip to Guardian Chapter 7 - Speak with the Iron Menial. Choose the following options: - I eliminated him. - It was to protect the flock. - Show Merchant's Ledger - Begin any expedition with Guardian while the Remembrance is active. Find the Demon Merchant and purchase the tome for 10,000 Runes. - Speak with the Iron Menial to complete the Remembrance. Reward: [Third Volume](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459018)",
+    "coords": [
+      -0.59169530868377,
+      0.75415102500999
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459371",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Guardian Remembrance #4",
+    "description": "Remembrance: [Guardian's Remembrance Quest](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458783) Steps: - Head to the [Journal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459356) and flip to Guardian Chapter 9. - Interact with the glowing book. - Speak with the Recluse. Exhaust all dialogue, choosing either option to complete the Remembrance. Reward: [Witch's Brooch](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459020) or [Cracked Witch's Brooch](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459021) depending on dialogue option; Guardian's Remembrance Outfit at [Change Garb](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459353)",
+    "coords": [
+      -0.58699607848916,
+      0.75434412732574
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459375",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Ironeye Remembrance #3",
+    "description": "Remembrance: [Ironeye's Remembrance Quest](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458781) Steps: - Complete the Night Aspect expedition. - Head towards the ghostly version of the Roundtable Hold. - Interact with the kneeling man. Choose \"Clench Dagger\". Reward: Ironeye's Rembrance Outfit at [Change Garb](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459353)",
+    "coords": [
+      -0.61975121498071,
+      0.72607600378043
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459383",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Duchess Remembrance #3",
+    "description": "Remembrance: [Duchess Remembrance Quest](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458788) Steps: - Head to the [Journal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459356) and flip to Duchess Chapter 6. - Read the hastily-written note on the table. - Head to the beach and defeat Revenant and her summons. - Speak with Revenant and exhaust her dialogue. - Speak with Raider and exhaust his dialogue. - Begin any expedition as Duchess while the Remembrance is active. Head to the red marked message. Defeat the Fallen Mercenaries to obtain Weathervane's Words. - Share the message with Raider to conclude the Remembrance. Reward: [Crown Medal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459025)",
+    "coords": [
+      -0.5909979343422,
+      0.72715952908648
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459384",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Duchess Remembrance #4",
+    "description": "Remembrance: [Duchess Remembrance Quest](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458788) Steps: - Head to the [Journal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459356) and flip to Duchess Chapter 6. - Bless the iron coin at the Roundtable. - Speak with the Iron Menial and give him the blessed coin. - Speak with Wylder, then Iron Menial, exhausting both their dialogues. - Conclude the remembrance at the glowing strand. Reward: [Blessed Iron Coin](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459026); Duchess' Remembrance Outfit at [Change Garb](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459353)",
+    "coords": [
+      -0.58597683906632,
+      0.72688060180565
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459388",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Raider Remembrance #3",
+    "description": "Remembrance: [Raider Remembrance Quest](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458789) Steps: - Head to the [Journal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459356) and flip to Raider Chapter 7. - Speak with the Iron Menial and exhaust all dialogue. - Head to the marked icon on your map to be transported to the arena. Defeat the White Horn to receive the Black Claw Necklace. - Speak with the Iron Menial and exhaust all dialogue. - Interact with the gravestone and \"Offer\" to complete the Remembrance. Reward: [Black Claw Necklace](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459028); Raider's Remembrance Outfit at [Change Garb](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459353)",
+    "coords": [
+      -0.61953663826031,
+      0.69680999562667
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459389",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Revenant Remembrance #3",
+    "description": "Remembrance: [Revenant Remembrance Quest](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458790) Steps: - Head to the [Journal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459356) and flip to Revenant Chapter 7. - Speak with the Recluse and exhaust her dialogue to be transported to the hallway from the previous chapter. - Head back towards the main room and defeat the Contaminant. - Watch the cutscene and answer \"Bury the Nightlord\" to complete the Remembrance. Reward: Revenant's Remembrance Outfit at [Change Garb](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459353)",
+    "coords": [
+      -0.5883318185783,
+      0.69687972790166
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459392",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Recluse Remembrance #3",
+    "description": "Remembrance: [Recluse Remembrance Quest](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458791) Steps: - Head to the [Journal](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459356) and flip to Recluse Chapter 6. - Find the Iron Menial in the Sparring Grounds. Attack her until she changes form, then exhaust all dialogue. - Head into [The Tomb](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459363). - Interact with the Iron Menial, then speak with him, exhausting all dialogue to complete the Remembrance. Reward: [Bone-like Stone](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459032)",
+    "coords": [
+      -0.62057197093631,
+      0.66771545538218
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459393",
+    "mapId": "limveld",
+    "category": "quest-chapter",
+    "title": "Recluse Remembrance #4",
+    "description": "Remembrance: [Recluse Remembrance Quest](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458791) Steps: - Complete the Night Aspect expedition. - Head towards the eastern wing and interact with the infant on the bed. - Head to the beds again and speak with the Witch of the Wheel, exhausting all dialogue to complete the Remembrance. Reward: Recluse's Remembrance Outfit at [Change Garb](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459353)",
+    "coords": [
+      -0.61623752116918,
+      0.66767254295175
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458781",
+    "mapId": "limveld",
+    "category": "remembrance-quest",
+    "title": "Ironeye's Remembrance Quest",
+    "description": "Quest Steps: 1. [Ironeye Remembrance #1](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458793) 2. [Ironeye Remembrance #2](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459039) 3. [Ironeye Remembrance #3](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459375)",
+    "coords": [
+      -0.62393546104281,
+      0.72999171280915
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458782",
+    "mapId": "limveld",
+    "category": "remembrance-quest",
+    "title": "Wylder's Remembrance Quest",
+    "description": "Quest Steps: 1. [Wylder Remembrance #1](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458787) 2. [Wylder Remembrance #2](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458795) 3. [Wylder Remembrance #3](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459365) 4. [Wylder Remembrance #4](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459369)",
+    "coords": [
+      -0.62407493591456,
+      0.75736939582644
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458783",
+    "mapId": "limveld",
+    "category": "remembrance-quest",
+    "title": "Guardian's Remembrance Quest",
+    "description": "Quest Steps: 1. [Guardian Remembrance #1](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458794) 2. [Guardian Remembrance #2](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459037) 3. [Guardian Remembrance #3](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459370) 4. [Guardian Remembrance #4](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459371)",
+    "coords": [
+      -0.59389472007709,
+      0.75851728083943
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458788",
+    "mapId": "limveld",
+    "category": "remembrance-quest",
+    "title": "Duchess Remembrance Quest",
+    "description": "Quest Steps: 1. [Duchess Remembrance #1](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458914)` 2. [Duchess Remembrance #2](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459040) 3. [Duchess Remembrance #3](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459383) 4. [Duchess Remembrance #4](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459384)",
+    "coords": [
+      -0.59350848197784,
+      0.73060320678835
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458789",
+    "mapId": "limveld",
+    "category": "remembrance-quest",
+    "title": "Raider Remembrance Quest",
+    "description": "Quest Steps: 1. [Raider Remembrance #1](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458915) 2. [Raider Remembrance #2](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459041) 3. [Raider Remembrance #3](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459388)",
+    "coords": [
+      -0.62406420707549,
+      0.70100465842741
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458790",
+    "mapId": "limveld",
+    "category": "remembrance-quest",
+    "title": "Revenant Remembrance Quest",
+    "description": "Quest Steps: 1. [Revenant Remembrance #1](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458916) 2. [Revenant Remembrance #2](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459042) 3. [Revenant Remembrance #3](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459389)",
+    "coords": [
+      -0.59324026107657,
+      0.70104757055947
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458791",
+    "mapId": "limveld",
+    "category": "remembrance-quest",
+    "title": "Recluse Remembrance Quest",
+    "description": "Quest Steps: 1. [Recluse Remembrance #1](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458917) 2. [Recluse Remembrance #2](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459043) 3. [Recluse Remembrance #3](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459392) 4. [Recluse Remembrance #4](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459393)",
+    "coords": [
+      -0.62276601791268,
+      0.67169558165581
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458792",
+    "mapId": "limveld",
+    "category": "remembrance-quest",
+    "title": "Executor Remembrance Quest",
+    "description": "Quest Steps: 1. [Executor Remembrance #1](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458918) 2. [Executor Remembrance #2](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459038)",
+    "coords": [
+      -0.59252142906149,
+      0.67201742460954
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-461317",
+    "mapId": "limveld",
+    "category": "field-boss",
+    "title": "Field Boss",
+    "description": "Field Boss localizado em limveld.",
+    "coords": [
+      -0.73253253599967,
+      0.74336016110655
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-461318",
+    "mapId": "limveld",
+    "category": "field-boss",
+    "title": "Field Boss",
+    "description": "Field Boss localizado em limveld.",
+    "coords": [
+      -0.72809146249068,
+      0.66050382072061
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-461319",
+    "mapId": "limveld",
+    "category": "field-boss",
+    "title": "Field Boss",
+    "description": "Field Boss localizado em limveld.",
+    "coords": [
+      -0.70958095449711,
+      0.67594879016413
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-461320",
+    "mapId": "limveld",
+    "category": "field-boss",
+    "title": "Field Boss",
+    "description": "Field Boss localizado em limveld.",
+    "coords": [
+      -0.67740892405658,
+      0.66875011916572
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-461321",
+    "mapId": "limveld",
+    "category": "field-boss",
+    "title": "Field Boss",
+    "description": "Field Boss localizado em limveld.",
+    "coords": [
+      -0.66758511349101,
+      0.70448595584996
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-461322",
+    "mapId": "limveld",
+    "category": "field-boss",
+    "title": "Field Boss",
+    "description": "Field Boss localizado em limveld.",
+    "coords": [
+      -0.68424133256107,
+      0.74023367461565
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-461323",
+    "mapId": "limveld",
+    "category": "field-boss",
+    "title": "Field Boss",
+    "description": "Field Boss localizado em limveld.",
+    "coords": [
+      -0.72730696339985,
+      0.71843981882141
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-461324",
+    "mapId": "limveld",
+    "category": "field-boss",
+    "title": "Field Boss",
+    "description": "Field Boss localizado em limveld.",
+    "coords": [
+      -0.69743788380839,
+      0.71813943501705
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-461325",
+    "mapId": "limveld",
+    "category": "field-boss",
+    "title": "Field Boss",
+    "description": "Field Boss localizado em limveld.",
+    "coords": [
+      -0.72476485869305,
+      0.7354858512181
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-461327",
+    "mapId": "limveld",
+    "category": "field-boss",
+    "title": "Field Boss",
+    "description": "Field Boss localizado em limveld.",
+    "coords": [
+      -0.70653925902701,
+      0.72243326740855
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459351",
+    "mapId": "limveld",
+    "category": "facility",
+    "title": "Expeditions",
+    "description": "Utility: Launch Expeditions and adjust Expedition settings.",
+    "coords": [
+      -0.51999632408788,
+      0.72053915924504
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459352",
+    "mapId": "limveld",
+    "category": "facility",
+    "title": "Character Selection",
+    "description": "Utility: Select a different character to roam around the Roundtable Hold.",
+    "coords": [
+      -0.51652018120384,
+      0.71890850482538
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459353",
+    "mapId": "limveld",
+    "category": "facility",
+    "title": "Change Garb",
+    "description": "Utility: Change your character's appearance. Each character has 6 appearances, as follows: - *Default Outfit:* Available from the start - *Dawn Outfit:* Purchaseable for 14,000 Murk - *Darkness Outfit:* Purchaseable for 35,000 Murk - *Remembrance Outfit:* Unlocked after completing that character's Journal - *Legacy Outfits:* Purchaseable for 7,500 Murk each, after defeating the final Nightlord at least once. Each legacy outfit is modelled after bosses and enemies of previous Fromsoft games.",
+    "coords": [
+      -0.50729338219335,
+      0.71092687218243
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459354",
+    "mapId": "limveld",
+    "category": "facility",
+    "title": "Relic Rites",
+    "description": "Utility: Change your character's relic setups.",
+    "coords": [
+      -0.5232578902494,
+      0.72023877557949
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459355",
+    "mapId": "limveld",
+    "category": "facility",
+    "title": "Visual Codex",
+    "description": "Utility: Acts as both a written guide to the game (including past tutorials, character mechanics, etc.) and a record keeper (keeping track of past expeditions).",
+    "coords": [
+      -0.52763525536261,
+      0.7105406638006
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459356",
+    "mapId": "limveld",
+    "category": "facility",
+    "title": "Journal",
+    "description": "Utility: Learn the lore behind each character. Also the start point to every character's Remebrance Quests.",
+    "coords": [
+      -0.51390234520636,
+      0.71028319152691
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459357",
+    "mapId": "limveld",
+    "category": "facility",
+    "title": "Sparring Grounds",
+    "description": "Utility: Practice each character's combat mechanics and abilities.",
+    "coords": [
+      -0.50986830284708,
+      0.72513073565605
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458759",
+    "mapId": "limveld",
+    "category": "merchant",
+    "title": "Merchant",
+    "description": "Sells: - 2x Smithing Stone [6,500]",
+    "coords": [
+      -0.70189356021862,
+      0.70142056493167
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458919",
+    "mapId": "limveld",
+    "category": "merchant",
+    "title": "Small Jar Bazaar",
+    "description": "Sells: - [Besmirched Frame](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458920) [1500 Mirk] -",
+    "coords": [
+      -0.52598118781987,
+      0.70576790268194
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-462271",
+    "mapId": "limveld",
+    "category": "merchant",
+    "title": "Libra (Demon Dealer)",
+    "description": "Merchant localizado em limveld.",
+    "coords": [
+      -0.73221761914695,
+      0.73322809230061
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458784",
+    "mapId": "limveld",
+    "category": "miscellaneous",
+    "title": "The Priestess",
+    "description": "Miscellaneous localizado em limveld.",
+    "coords": [
+      -0.52021175622926,
+      0.72206105750678
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459358",
+    "mapId": "limveld",
+    "category": "miscellaneous",
+    "title": "The Iron Menial",
+    "description": "Miscellaneous localizado em limveld.",
+    "coords": [
+      -0.51407400658272,
+      0.70749390765374
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459359",
+    "mapId": "limveld",
+    "category": "miscellaneous",
+    "title": "Glowing Note",
+    "description": "Only appears during [Wylder Remembrance #2](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458795)",
+    "coords": [
+      -0.52702188492003,
+      0.71682848026161
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459360",
+    "mapId": "limveld",
+    "category": "miscellaneous",
+    "title": "Glowing Note",
+    "description": "Only appears during [Wylder Remembrance #2](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458795)",
+    "coords": [
+      -0.5286526679993,
+      0.71189628126359
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459361",
+    "mapId": "limveld",
+    "category": "miscellaneous",
+    "title": "Glowing Note",
+    "description": "Only appears during [Wylder Remembrance #2](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458795)",
+    "coords": [
+      -0.52500486374052,
+      0.70863228370321
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459362",
+    "mapId": "limveld",
+    "category": "miscellaneous",
+    "title": "Tomb Entrance",
+    "description": "Leads to [The Tomb](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459363). Opens during [Wylder Remembrance #2](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458795).",
+    "coords": [
+      -0.52586317062642,
+      0.70361156973328
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459363",
+    "mapId": "limveld",
+    "category": "miscellaneous",
+    "title": "The Tomb",
+    "description": "Accessed through the [Tomb Entrance](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459362)",
+    "coords": [
+      -0.56159019470377,
+      0.68041751817063
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459366",
+    "mapId": "limveld",
+    "category": "miscellaneous",
+    "title": "Thief's Virtuous Key",
+    "description": "Only appears in [Wylder Remembrance #3](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459365)",
+    "coords": [
+      -0.51303614526611,
+      0.70734944174347
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459367",
+    "mapId": "limveld",
+    "category": "miscellaneous",
+    "title": "Torn-Out Paper Scrap",
+    "description": "Only appears in [Wylder Remembrance #3](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459365)",
+    "coords": [
+      -0.5573628219384,
+      0.69748752027924
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458756",
+    "mapId": "limveld",
+    "category": "smithing-table",
+    "title": "Smithing Table",
+    "description": "Smithing Table localizado em limveld.",
+    "coords": [
+      -0.70072541648605,
+      0.70013902891031
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-461326",
+    "mapId": "limveld",
+    "category": "smithing-table",
+    "title": "Smithing Table",
+    "description": "On the parapets.",
+    "coords": [
+      -0.71295935594739,
+      0.69682684111673
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458922",
+    "mapId": "limveld",
+    "category": "chalice",
+    "title": "Wylder's Goblet",
+    "description": "How To Obtain: Purchased from [Small Jar Bazaar](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458919) for 1,200 Mirk Character: [Wylder](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459350) Slots: - Orange - Green - Green",
+    "coords": [
+      -0.62637090683046,
+      0.74260778218378
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459364",
+    "mapId": "limveld",
+    "category": "chalice",
+    "title": "Wylder's Chalice",
+    "description": "How To Obtain: Complete [Wylder Remembrance #2](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458795) Character: [Wylder](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459350) Slots: - Red - Orange - White",
+    "coords": [
+      -0.62162876129133,
+      0.742639965987
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459373",
+    "mapId": "limveld",
+    "category": "chalice",
+    "title": "Guardian's Goblet",
+    "description": "How To Obtain: Purchased from the [Small Jar Bazaar](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458919) for 1,200 Murk. Character: [Guardian](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459380) Slots: - Blue - Blue - Green",
+    "coords": [
+      -0.59614777565039,
+      0.74388440625485
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459374",
+    "mapId": "limveld",
+    "category": "chalice",
+    "title": "Guardian's Chalice",
+    "description": "How To Obtain: Complete [Guardian Remembrance #2](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459037) Character: [Guardian](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459380) Slots: - Blue - Orange - White",
+    "coords": [
+      -0.59142708778393,
+      0.74373421520545
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459377",
+    "mapId": "limveld",
+    "category": "chalice",
+    "title": "Ironeye's Goblet",
+    "description": "How To Obtain: Purchased from [Small Jar Bazaar](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458919) for 1,200 Runes Character: [Ironeye](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459381) Slots: - Red - Blue - Orange",
+    "coords": [
+      -0.62630653381385,
+      0.71732196806693
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459378",
+    "mapId": "limveld",
+    "category": "chalice",
+    "title": "Ironeye's Chalice",
+    "description": "How To Obtain: Complete [Ironeye Remembrance #1](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458793) Character: [Ironeye](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459381) Slots: - Red - Green - White",
+    "coords": [
+      -0.6218111515044,
+      0.71724687209937
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459379",
+    "mapId": "limveld",
+    "category": "chalice",
+    "title": "Duchess' Goblet",
+    "description": "How To Obtain: Purchased from [Small Jar Bazaar](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458919) for 1,200 Runes. Character: [Duchess](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458785) Slots: - Orange - Orange - Green",
+    "coords": [
+      -0.59594392776566,
+      0.71768671989282
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459382",
+    "mapId": "limveld",
+    "category": "chalice",
+    "title": "Duchess' Chalice",
+    "description": "How To Obtain: Complete [The Duchess Remembrance #2](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459040) Character: [Duchess](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458785) Slots: - Blue - Orange - White",
+    "coords": [
+      -0.59082806085479,
+      0.71757371854737
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459386",
+    "mapId": "limveld",
+    "category": "chalice",
+    "title": "Raider's Goblet",
+    "description": "How To Obtain: Purchased from [Small Jar Bazaar](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458919) for 1,200 Murk. Character: [Raider](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459385) Slots: - Red - Blue - Orange",
+    "coords": [
+      -0.62613487243433,
+      0.68814709325734
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459387",
+    "mapId": "limveld",
+    "category": "chalice",
+    "title": "Raider's Chalice",
+    "description": "How to Obtain: Complete [Raider Remembrance #2](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459041) Character: [Raider](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459385) Slots: - Red - Red - White",
+    "coords": [
+      -0.62191382360501,
+      0.68818934850736
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459390",
+    "mapId": "limveld",
+    "category": "chalice",
+    "title": "Revenant's Goblet",
+    "description": "How to Obtain: Purchased from [Small Jar Bazaar](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458919) for 1,200 Runes Character: [Revenant](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458786) Slots: - Red - Red - Green",
+    "coords": [
+      -0.59569576081697,
+      0.68890573529714
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459391",
+    "mapId": "limveld",
+    "category": "chalice",
+    "title": "Revenant's Chalice",
+    "description": "How to Obtain: Complete [Revenant Remembrance #2](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459042) Character: [Revenant](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458786) Slots: - Blue - Green - White",
+    "coords": [
+      -0.59132884641517,
+      0.68890573529714
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459394",
+    "mapId": "limveld",
+    "category": "chalice",
+    "title": "Recluse's Goblet",
+    "description": "How to Obtain: Purchased from [Small Jar Bazaar](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458919) for 1,200 Runes. Character: [Recluse](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459368) Slots: - Red - Blue - Orange",
+    "coords": [
+      -0.62550682397776,
+      0.66020464112074
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459395",
+    "mapId": "limveld",
+    "category": "chalice",
+    "title": "Recluse's Chalice",
+    "description": "How to Obtain: Complete [Recluse Remembrance #1](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458917) Character: [Recluse](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459368) Slots: - Orange - Green - White",
+    "coords": [
+      -0.62039989801298,
+      0.66029046611082
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459397",
+    "mapId": "limveld",
+    "category": "chalice",
+    "title": "Executor's Goblet",
+    "description": "How to Obtain: Purchased from [Small Jar Bazaar](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458919) for 1,200 Murk. Character: [Executor](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459396) Slots: - Red - Blue - Green",
+    "coords": [
+      -0.59560596942987,
+      0.6612142179458
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459398",
+    "mapId": "limveld",
+    "category": "chalice",
+    "title": "Executor's Chalice",
+    "description": "How to Obtain: Complete [Executor Remembrance #1](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458918) Character: [Executor](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459396) Slots: - Blue - Orange - White",
+    "coords": [
+      -0.58953881263881,
+      0.66143950849469
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459399",
+    "mapId": "limveld",
+    "category": "chalice",
+    "title": "Spirit Shelter Grail",
+    "description": "How to Obtain: Purchased from [Small Jar Bazaar](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458919) for 3,000 Murk after defeating four different Nightlords. Character: All Slots: - Green - Green - Green",
+    "coords": [
+      -0.59596002101736,
+      0.65007305119444
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459400",
+    "mapId": "limveld",
+    "category": "chalice",
+    "title": "Giant's Cradle Grail",
+    "description": "How to Obtain: Purchased from [Small Jar Bazaar](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458919) for 3,000 Murk after defeating seven different Nightlords. Character: All Slots: - Blue - Blue - Blue",
+    "coords": [
+      -0.59224247932343,
+      0.65025006559226
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459401",
+    "mapId": "limveld",
+    "category": "chalice",
+    "title": "Sacred Erdtree Grail",
+    "description": "How to Obtain: Purchased from [Small Jar Bazaar](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458919) for 3,000 Murk after defeating all eight different Nightlords. Character: All Slots: - Orange - Orange - Orange",
+    "coords": [
+      -0.58867742321607,
+      0.65037641446976
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458785",
+    "mapId": "limveld",
+    "category": "nightfarer",
+    "title": "Duchess",
+    "description": "Abilities: - *Passive ability: Magnificent Pose* - Attack and dodge optimally, dodging repeatedly when necessary. Reduces stamina reduction from attacks and evasive actions. Allows up to two consecutive evasive actions. - *Character skill: Restage* - Stage reprisal of recent occurrences to damage nearby foes. Damage to the phantom affects the original. This skill can be used at any time - *Ultimate Art: Finale* - Obscure self and surrounding allies to hide from foes. Enemies lose track of the caster, wandering aimlessly or becoming prone to leaving themselves vulnerable. Unlock condition: - Obtain The [Old Pocketwatch](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458921) item by running Expeditions (rewarded randomly). - Then speak to The Hooded Figure and give her the Pocket Watch to unlock The Duchess Remembrance: [Duchess Remembrance Quest](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458788)",
+    "coords": [
+      -0.5934762954723,
+      0.7355917071923
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458786",
+    "mapId": "limveld",
+    "category": "nightfarer",
+    "title": "Revenant",
+    "description": "Abilities: - *Passive ability: Necromancy* - Raise enemy ghosts to fight as allies. Ghosts are summoned to fight, but are fleeting and dissipate after some time. - *Character skill: Summon Spirit* - Play lyre to summon fallen family to rally in battle. Choose to summon Helen the agile page, Frederick the burly cook, or Sebastian the doting butler. - *Ultimate Art: Immortal March* - Release vengeful ire to make self and nearby allies immortal. Revives near-death allies, and transforms family into immortal warriors. Unlock condition: - Unlock [The Duchess](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458785) - Visit the Small Jar Bazaar and purchase the Besmirched Frame for 1500 Mirk - Touch the Phantom (marked on your map with a yellow exclamation mark after purchasing the mirror) - Defeat the Night Idol Remembrance: [Revenant Remembrance Quest](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458790)",
+    "coords": [
+      -0.59333682060097,
+      0.70618690340316
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459350",
+    "mapId": "limveld",
+    "category": "nightfarer",
+    "title": "Wylder",
+    "description": "Abilities: - *Passive ability: Sixth Sense* - Avoids a single fatal blow. Recharges once revived or restored at a Site of Grace. - *Character skill: Claw Shot* - Use a grapple hook to pull small enemies towards you, or pull yourself towards larger enemies or the environment. - *Ultimate Art: Onslaught Strike* - Chargeable area of effect attack, can stun. Unlock condition: None Remembrance: [Wylder's Remembrance Quest](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458782)",
+    "coords": [
+      -0.62403202056996,
+      0.76220767545361
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459368",
+    "mapId": "limveld",
+    "category": "nightfarer",
+    "title": "Recluse",
+    "description": "Abilities: - *Passive ability: Elemental Defense* - Discover affinity residues that can be collected to replenish FP. Affinity attacks create affinity residues. Residues appear for allies, as well, which can also be collected. - *Character skill: Magic Cocktail* - Collect the affinity residues of targets to fire an affinity-exploiting magic cocktail. Affinity residues accumulate. Collect three to wield a magic spell. Complex affinity combinations create more powerful spells. - *Ultimate Art: Soulblood Song* - Unleash forbidden blood chant to brand nearby foes with blood sigils. Brands foes with short-lived Blood Sigils that increase damage taken and restore the HP and FP of caster. Unlock condition: None Remembrance: [Recluse Remembrance Quest](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458791)",
+    "coords": [
+      -0.62294840812643,
+      0.67699525958555
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459380",
+    "mapId": "limveld",
+    "category": "nightfarer",
+    "title": "Guardian",
+    "description": "Abilities: - *Passive ability: Steel Guard* - Plant feet and brace with a shield for a more powerful guard. Greatly improves guard boost, but prevents running while holding up shield. - *Character skill: Whirlwind* - Beat wing to whip up a wind-churning cyclone. Enemies caught in the cyclone are drawn toward the center. Sweeps away lightweight projectiles. Hold to enlarge range. - *Ultimate Art: Wings of Salvation* - Leap up and dive back down to raise protective area. Can move briefly while in the air, and the diving attack is perfect for rescues. Hold to shield nearby allies from damage.. Unlock condition: None Remembrance: [Guardian's Remembrance Quest](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458783)",
+    "coords": [
+      -0.5939054489138,
+      0.7635272053202
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459381",
+    "mapId": "limveld",
+    "category": "nightfarer",
+    "title": "Ironeye",
+    "description": "Abilities: - *Passive ability: Eagle Eye* - A keenly observant eye discovers more items to obtain from foes. The effect of this ability also applies to allies. - *Character skill: Marking* - Cut foe with dagger, creating temporary weak point. Inflict damage on temporary weak point to destroy it and stagger foes. Damaging weak point extends its duration. - *Ultimate Art: Single Shot* - Fire powerful arrow that surpasses sound and ignores defense. Arrow pierces all types of enemies, terrains, and structures. Unlock condition: None Remembrance: [Ironeye's Remembrance Quest](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458781)",
+    "coords": [
+      -0.62390327453727,
+      0.73505530956619
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459385",
+    "mapId": "limveld",
+    "category": "nightfarer",
+    "title": "Raider",
+    "description": "Abilities: - *Passive ability: Fighter's Resolve* - Assume attack stance and pummel vigorously. A defensive posture which reduces incoming damage. - *Character skill: Retaliate* - Taking damage boosts Retaliate potency, cannot be knocked down while using it. Remain standing with a sliver of HP even after taking heavy damage. - *Ultimate Art: Totem Stela* - Drive gravekeeper's wedge into earth to summon a giant tombstone. Tombstone radiates protective aura, boosting strength of nearby allies and blocking arrows. Can also be climbed. Unlock condition: None Remembrance: [Raider Remembrance Quest](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458789)",
+    "coords": [
+      -0.62406420707549,
+      0.70596100707293
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459396",
+    "mapId": "limveld",
+    "category": "nightfarer",
+    "title": "Executor",
+    "description": "Abilities: - *Passive ability: Tenacity* - Receive boost after recovering from status ailments. Effect boosts attack and stamina recovery speed. - *Character skill: Suncatcher* - Draw the Executor's Blade that can deflect enemy attacks. Repeated deflections reveal blade, enabling powerful attacks with the living sword. - *Ultimate Art: Aspects of the Crucible: Beast* - Assume the form of the primordial beast. Use unique attacks in beast form that drain the Ultimate Art gauge. Activate again to quickly undo transformation. Unlock condition: None Remembrance: [Executor Remembrance Quest](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458792)",
+    "coords": [
+      -0.59245705604562,
+      0.677145452803
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458920",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Besmirched Frame",
+    "description": "How To Obtain: Purchasable from the [Small Jar Bazar](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458919) after unlocking [Duchess](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458785) for 1,500 Runes Color: Blue Relic Effect: - Taking attacks improves attack power - Faith +3",
+    "coords": [
+      -0.59779196977667,
+      0.69298812888769
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458921",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Old Pocketwatch",
+    "description": "How to Obtain: Randomly obtained from completing Expeditions. Also drops from defeating the Tricephalos Nightlord for the first time. Color: Green Relic Effect: - FP Restoration upon Successive Attacks - Dexterity +3",
+    "coords": [
+      -0.6210494041448,
+      0.65019642486916
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-458962",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Night of the Beast",
+    "description": "How To Obtain: Defeat the Tricephalos Nightlord for the first time. Color: Green Relic Effect: - Stamina recovers with each succesful attack +1 - Starting armament deals fire damage",
+    "coords": [
+      -0.62532484531411,
+      0.65023397337674
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459008",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Night of the Baron",
+    "description": "How To Obtain: Defeat the Gaping Jaw Nightlord for the first time. Color: Blue Relic Effect: - Improved Critical Hits +1 - Art gauge fills moderately upon critical hit - Critical Hit boosts stamina recovery speed",
+    "coords": [
+      -0.6175732612613,
+      0.64686533467381
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459009",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Night of the Wise",
+    "description": "How To Obtain: Defeat the Sentient Pest Nightlord for the first time. Color: Yellow Relic Effect: - Increased maximum FP - Starting armament inflicts poison - Poison & Rot in vicinity increases Attack Power",
+    "coords": [
+      -0.62104403972685,
+      0.64659713085905
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459010",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Night of the Fathom",
+    "description": "How To Obtain: Defeat the Augur Nightlord for the first time. Color: Red Relic Effect: - Increased maximum HP - Flask also heals allies - Items confer effect to all nearby allies",
+    "coords": [
+      -0.62885999679582,
+      0.64665613569942
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459011",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Night of the Demon",
+    "description": "How To Obtain: Defeat the Equilibrious Beast Nightlord for the first time. Color: Red Relic Effect: - Huge rune discount for shop purchases while on expedition. - Gesture \"Crossed Legs\" build up Madness - Madness continually recovers FP",
+    "coords": [
+      -0.63240051269548,
+      0.6466239512408
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459012",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Night of the Champion",
+    "description": "How To Obtain: Defeat the Darkdrift Knight Nightlord for the first time. Color: Green Relic Effect: - Increased maximum stamina - Guard counter is given a boost based on current HP - HP Restoration upon Thrusting counterattack",
+    "coords": [
+      -0.62529265880642,
+      0.64673962381855
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459013",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Night of the Miasma",
+    "description": "How To Obtain: Defeat the Fissure in the Fog Nightlord for the first time. Color: Yellow Relic Effect: - Nearby Frostbite conceals self - Changes compatible armament's skill to Chilling Mist at start of expedition - Attacks power up when facing Frostbite-inflicted enemy",
+    "coords": [
+      -0.61376452446009,
+      0.64678487353046
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459014",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Fell Omen Fetish",
+    "description": "How To Obtain: Defeat Fell Omen in the tutorial. If you fail to do so at first, you may retry via the [Visual Codex](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459355). Color: Blue Relic Effect: - Switching weapons boosts Attack Power - Improved Throwing Knife damage - Vigor +1",
+    "coords": [
+      -0.62319517135737,
+      0.65370989120942
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459015",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Slate Whetstone",
+    "description": "How To Obtain: Complete [Wylder Remembrance #1](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458787) Color: Red Relic Effect: - Physical Attack Up - If equipped by [Wylder](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459350): Follow-up attacks possible when using Character Skill (greatsword only)",
+    "coords": [
+      -0.62867760658335,
+      0.74787519508592
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459016",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "The Wylder's Earring",
+    "description": "How To Obtain: Complete [Wylder Remembrance #4](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459369) Color: Red Relic Effect: - Stamina recovers on each successful attack - If equipped by [Wylder](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459350): Art activation spreads fire in the area - If equipped by [Wylder](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459350): +1 additional Character Skill use",
+    "coords": [
+      -0.61917185783435,
+      0.747789371705
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459017",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Silver Tear",
+    "description": "How To Obtain: Complete [Wylder Remembrance #3](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459365) Color: Red Relic Effect: - Ultimate Art Gauge +3 - Arcane +3 - If equipped by [Wylder](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459350): Art gauge greatly filled when ability is activated.",
+    "coords": [
+      -0.62382817268428,
+      0.7478644671603
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459018",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Third Volume",
+    "description": "How To Obtain: Complete [Guardian Remembrance #3](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459370) Color: Red Relic Effect: - HP Restoration upon Halberd attacks - If equipped by [Guardian](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459380): Creates whirlwind when charging halberd attacks",
+    "coords": [
+      -0.59616923332177,
+      0.7487548846082
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459019",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Stone Stake",
+    "description": "How To Obtain: Complete [Guardian Remembrance #1](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458794) Color: Red Relic Effect: - Character Skill Cooldown Reduction +3 - If equipped by [Guardian](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459380): Increased duration for Character Skill",
+    "coords": [
+      -0.60126543045121,
+      0.74897337661987
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459020",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Witch's Brooch",
+    "description": "How To Obtain: Complete [Guardian Remembrance #4](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459371), choosing to forgive her Color: Blue Relic Effect: - Vigor +3 - If equipped by [Guardian](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459380): Slowly restores nearby allies' HP while Art is active - If equipped by [Guardian](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459380): Reflect a portion of damaged received when ability is activated",
+    "coords": [
+      -0.59140563011181,
+      0.7488085242054
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459021",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Cracked Witch's Brooch",
+    "description": "How To Obtain: Complete [Guardian Remembrance #4](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459371), choosing to punish her Color: Blue Relic Effect: - Vigor +3 - If equipped by [Guardian](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459380): Slowly restores nearby allies' HP while Art is active - If equipped by [Guardian](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459380): Reflect a portion of damaged received when ability is activated",
+    "coords": [
+      -0.58702826499947,
+      0.74875488460673
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459022",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Cracked Sealing Wax",
+    "description": "How To Obtain: Complete [Ironeye Remembrance #1](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458793) Color: Yellow Relic Effect: - Critical Hits earn runes - If equipped by [Ironeye](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459381): Extends duration of weak point",
+    "coords": [
+      -0.62632799148523,
+      0.72206373950455
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459023",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Edge of Order",
+    "description": "How To Obtain: Complete [Ironeye Remembrance #2](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459039) Color: Yellow Relic Effect: - Starting armament deals holy damage - Improved Bow Attack Power - If equipped by [Ironeye](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459381): Boosts thrusting counterattacks after executing Art",
+    "coords": [
+      -0.62177896499708,
+      0.72193500369323
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459024",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Golden Dew",
+    "description": "How To Obtain: Complete [Duchess Remembrance #1](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458914) Color: Yellow Relic Effect: - Boosts Attack Power of Added Affinity Attacks - If equipped by [Duchess](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458785): Improved Character Skill Attack Power",
+    "coords": [
+      -0.5985295772532,
+      0.72255722674645
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459025",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Crown Medal",
+    "description": "How To Obtain: Complete [Duchess Remembrance #3](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459383) Color: Green Relic Effect: - Improved Dagger Attack Power - If equipped by [Duchess](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458785): Dagger chain attacks reprises event upon enemies",
+    "coords": [
+      -0.5934655666338,
+      0.72258941069522
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459026",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Blessed Iron Coin",
+    "description": "How To Obtain: Complete [Duchess Remembrance #4](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459384) Color: Green Relic Effect: - Continuous HP recovery - Vigor +3 - If equipped by [Duchess](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458785): Defeating enemies while Art is active ups attack power",
+    "coords": [
+      -0.5883693695074,
+      0.72250358683191
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459027",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Torn Braided Cord",
+    "description": "How To Obtain: Complete [Raider Remembrance #1](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458915) Color: Blue Relic Effect: - Strength +3 - If equipped by [Raider](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459385): Damage taken while using Character Skill improves attack power and stamina",
+    "coords": [
+      -0.62597125768622,
+      0.6930069029746
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459028",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Black Claw Necklace",
+    "description": "How To Obtain: Complete [Raider Remembrance #3](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459388) Color: Yellow Relic Effect: - Defeating enemies near Totem Stela ([Raider](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459385)'s Ultimate Art) restores HP - Defeating enemies fills more of the Art gauge - Poise +3",
+    "coords": [
+      -0.62160193920192,
+      0.693004220962
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459029",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Small Makeup Brush",
+    "description": "How To Obtain: Complete [Revenant Remembrance #1](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458916) Color: Blue Relic Effect: - Increased rune acquisition for self and allies - If equipped by [Revenant](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458786): Power up while fighting alongside family",
+    "coords": [
+      -0.5931758880626,
+      0.69288621239856
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459030",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Old Portrait",
+    "description": "How To Obtain: Complete [Revenant Remembrance #3](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459389) Color: Blue Relic Effect: - Defeating enemies fills more of the Art gauge - If equipped by [Revenant](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458786): Trigger ghostflame explosion during Ultimate Art activation - If equipped by [Revenant](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458786): Expend own HP to fully heal nearby allies when activating Art",
+    "coords": [
+      -0.58827012777377,
+      0.69291839655337
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459031",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Vestige of the Night",
+    "description": "How To Obtain: Complete [Recluse Remembrance #2](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459043) Color: Green Relic Effect: - Magie Attack Power Up +2 - If equipped by [Recluse](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459368): Collecting affinity residue activates Terra Magica (an area of effect Strength buff)",
+    "coords": [
+      -0.6254804134357,
+      0.66416445051607
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459032",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Bone-like Stone",
+    "description": "How To Obtain: Complete [Recluse Remembrance #3](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459392) Color: Green Relic Effect: - Intelligence +3 - If equipped by [Recluse](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459368): Activating Ultimate Art raises Max HP - If equipped by [Recluse](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459368): Suffer blood loss and increase attack power upon Art activation",
+    "coords": [
+      -0.62038153409861,
+      0.66397939052491
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459033",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Blessed Flowers",
+    "description": "How To Obtain: Complete [Executor Remembrance #1](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=458918) Color: Green Relic Effect: - Dexterity +3 - If equipped by [Executor](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459396): WHile Character Skill is active, unlocking use of curved sword restores HP",
+    "coords": [
+      -0.59563815593427,
+      0.66507097616856
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459034",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Golden Sprout",
+    "description": "How To Obtain: Complete [Executor Remembrance #2](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459038) Color: Red Relic Effect: - HP Recovery from successful guarding - Slowly restore HP for self and nearby allies when HP is low - If equipped by [Executor](https://mapgenie.io/elden-ring-nightreign/maps/limveld?locationIds=459396): Roaring restores HP while Art is active",
+    "coords": [
+      -0.58961391448995,
+      0.66514070890642
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  },
+  {
+    "id": "elden-ring-nightreign-limveld-459402",
+    "mapId": "limveld",
+    "category": "unique-relic",
+    "title": "Night of the Lord",
+    "description": "How to Obtain: Defeat the Night Aspect Nightlord for the first time. Color: Blue Relic Effect: - Switching weapons adds an affinity attack - Boosts attack power of added affinity attacks - Switching weapons boosts Attack Power",
+    "coords": [
+      -0.62288891362056,
+      0.64392377847877
+    ],
+    "region": "limveld",
+    "dlc": "base"
+  }
+]

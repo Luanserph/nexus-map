@@ -1,0 +1,528 @@
+{
+  "id": "game-resident-evil-requiem",
+  "slug": "resident-evil-requiem",
+  "title": "Resident Evil Requiem",
+  "subtitle": "Raccoon City — Mr. Raccoon, Moedas Antigas, Cofres & Puzzles",
+  "studio": "Capcom",
+  "releaseYear": 2026,
+  "genres": [
+    "Survival Horror",
+    "Ação",
+    "Aventura"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/resident-evil-requiem/cover.webp",
+    "bannerImage": "/games/resident-evil-requiem/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#EF4444",
+    "accentSecondary": "#CBD5E1",
+    "accentGlow": "rgba(239, 68, 68, 0.42)",
+    "glassTint": "rgba(20, 10, 12, 0.86)",
+    "surfaceBase": "#0B0607",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "abyssal-contours",
+    "badgeStyle": "minimal"
+  },
+  "maps": [
+    {
+      "id": "world",
+      "name": "Raccoon City",
+      "dlc": "base",
+      "pinsCount": 1145,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0B0607",
+      "initialCenter": [
+        0.70811799297468,
+        -0.80560599386123
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.33577,
+          -1.252
+        ],
+        [
+          1.17548,
+          -0.1353
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v2",
+          "label": "V2",
+          "urlTemplate": "https://tiles.mapgenie.io/games/resident-evil-requiem/world/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              0.33577,
+              -1.252
+            ],
+            [
+              1.17548,
+              -0.1353
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "boss",
+          "groupId": "locations",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "item-box",
+          "groupId": "locations",
+          "name": "Item Box",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "lock",
+          "groupId": "locations",
+          "name": "Lock",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "microscope",
+          "groupId": "locations",
+          "name": "Microscope",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "power-distributor",
+          "groupId": "locations",
+          "name": "Power Distributor",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "puzzle",
+          "groupId": "locations",
+          "name": "Puzzle",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "save-point",
+          "groupId": "locations",
+          "name": "Save Point",
+          "icon": "landmark",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "security-point-lv-1",
+          "groupId": "locations",
+          "name": "Security Point Lv. 1",
+          "icon": "landmark",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "security-point-lv-2",
+          "groupId": "locations",
+          "name": "Security Point Lv. 2",
+          "icon": "landmark",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "security-point-lv-3",
+          "groupId": "locations",
+          "name": "Security Point Lv. 3",
+          "icon": "landmark",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "supply-box",
+          "groupId": "locations",
+          "name": "Supply Box",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "transition",
+          "groupId": "locations",
+          "name": "Transition",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "antique-coin",
+          "groupId": "collectibles",
+          "name": "Antique Coin",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "blood-specimen",
+          "groupId": "collectibles",
+          "name": "Blood Specimen",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "charm",
+          "groupId": "collectibles",
+          "name": "Charm",
+          "icon": "shopping-bag",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "file",
+          "groupId": "collectibles",
+          "name": "File",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "hip-pouch",
+          "groupId": "collectibles",
+          "name": "Hip Pouch",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "key-item",
+          "groupId": "collectibles",
+          "name": "Key Item",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "map",
+          "groupId": "collectibles",
+          "name": "Map",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "mr-raccoon",
+          "groupId": "collectibles",
+          "name": "Mr Raccoon",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "recipe",
+          "groupId": "collectibles",
+          "name": "Recipe",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "safe",
+          "groupId": "collectibles",
+          "name": "Safe",
+          "icon": "gem",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "weapon",
+          "groupId": "collectibles",
+          "name": "Weapon",
+          "icon": "shopping-bag",
+          "color": "#FACC15",
+          "defaultVisible": false
+        },
+        {
+          "id": "weapon-upgrade",
+          "groupId": "collectibles",
+          "name": "Weapon Upgrade",
+          "icon": "shopping-bag",
+          "color": "#4ADE80",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "pickups",
+      "label": "Pickups",
+      "categories": [
+        {
+          "id": "12-7x55mm-ammo",
+          "groupId": "pickups",
+          "name": "12.7x55mm Ammo",
+          "icon": "shopping-bag",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "hand-grenade",
+          "groupId": "pickups",
+          "name": "Hand Grenade",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "handgun-ammo",
+          "groupId": "pickups",
+          "name": "Handgun Ammo",
+          "icon": "shopping-bag",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "hemolytic-injector",
+          "groupId": "pickups",
+          "name": "Hemolytic Injector",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "ink-ribbon",
+          "groupId": "pickups",
+          "name": "Ink Ribbon",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "knife",
+          "groupId": "pickups",
+          "name": "Knife",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "lockpick",
+          "groupId": "pickups",
+          "name": "Lockpick",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "machine-gun-ammo",
+          "groupId": "pickups",
+          "name": "Machine Gun Ammo",
+          "icon": "shopping-bag",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "random-pickup",
+          "groupId": "pickups",
+          "name": "Random Pickup",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "rifle-ammo",
+          "groupId": "pickups",
+          "name": "Rifle Ammo",
+          "icon": "shopping-bag",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "shotgun-shells",
+          "groupId": "pickups",
+          "name": "Shotgun Shells",
+          "icon": "shopping-bag",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "tracking-module",
+          "groupId": "pickups",
+          "name": "Tracking Module",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "consumables-crafting",
+      "label": "Consumables & Crafting",
+      "categories": [
+        {
+          "id": "empty-bottle",
+          "groupId": "consumables-crafting",
+          "name": "Empty Bottle",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "empty-injector",
+          "groupId": "consumables-crafting",
+          "name": "Empty Injector",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "green-herb",
+          "groupId": "consumables-crafting",
+          "name": "Green Herb",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "gunpowder",
+          "groupId": "consumables-crafting",
+          "name": "Gunpowder",
+          "icon": "shopping-bag",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "infected-blood",
+          "groupId": "consumables-crafting",
+          "name": "Infected Blood",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "med-injector",
+          "groupId": "consumables-crafting",
+          "name": "Med Injector",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "mixed-herb",
+          "groupId": "consumables-crafting",
+          "name": "Mixed Herb",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "rare-metal",
+          "groupId": "consumables-crafting",
+          "name": "Rare Metal",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "scrap",
+          "groupId": "consumables-crafting",
+          "name": "Scrap",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "breakable",
+          "groupId": "other",
+          "name": "Breakable",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "easter-egg",
+          "groupId": "other",
+          "name": "Easter Egg",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "interactable",
+          "groupId": "other",
+          "name": "Interactable",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "lightswitch",
+          "groupId": "other",
+          "name": "Lightswitch",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "seedling",
+          "groupId": "other",
+          "name": "Seedling",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "warped-closet",
+          "groupId": "other",
+          "name": "Warped Closet",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 1145
+}

@@ -1,0 +1,476 @@
+{
+  "id": "game-gothic-1-remake",
+  "slug": "gothic-1-remake",
+  "title": "Gothic 1 Remake",
+  "subtitle": "Vale das Minas — Acampamentos, Baús, Professores & Relíquias",
+  "studio": "Alkimia Interactive",
+  "releaseYear": 2026,
+  "genres": [
+    "Action RPG",
+    "RPG",
+    "Fantasia Sombria"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/gothic-1-remake/cover.webp",
+    "bannerImage": "/games/gothic-1-remake/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#D97706",
+    "accentSecondary": "#94A3B8",
+    "accentGlow": "rgba(217, 119, 6, 0.40)",
+    "glassTint": "rgba(20, 14, 10, 0.84)",
+    "surfaceBase": "#0C0806",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "valley-of-mines",
+      "name": "Valley of Mines",
+      "dlc": "base",
+      "pinsCount": 1714,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0C0806",
+      "initialCenter": [
+        0.67786150852173,
+        -0.75085194042617
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          0.5577,
+          -0.93201
+        ],
+        [
+          0.84628,
+          -0.48369
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/gothic-1-remake/john/stamos-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0.5577,
+              -0.93201
+            ],
+            [
+              0.84628,
+              -0.48369
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "area",
+          "groupId": "locations",
+          "name": "Area",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "camp",
+          "groupId": "locations",
+          "name": "Camp",
+          "icon": "bookmark",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "cave",
+          "groupId": "locations",
+          "name": "Cave",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "area-map",
+          "groupId": "items",
+          "name": "Area Map",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "arrow",
+          "groupId": "items",
+          "name": "Arrow",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "chest",
+          "groupId": "items",
+          "name": "Chest",
+          "icon": "gem",
+          "color": "#FB7185",
+          "defaultVisible": false
+        },
+        {
+          "id": "herb",
+          "groupId": "items",
+          "name": "Herb",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "key",
+          "groupId": "items",
+          "name": "Key",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "material",
+          "groupId": "items",
+          "name": "Material",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "ore-nugget",
+          "groupId": "items",
+          "name": "Ore Nugget",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "potion",
+          "groupId": "items",
+          "name": "Potion",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "quest-item",
+          "groupId": "items",
+          "name": "Quest Item",
+          "icon": "scroll-text",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "recipe",
+          "groupId": "items",
+          "name": "Recipe",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "equipment",
+      "label": "Equipment",
+      "categories": [
+        {
+          "id": "amulet",
+          "groupId": "equipment",
+          "name": "Amulet",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "armor",
+          "groupId": "equipment",
+          "name": "Armor",
+          "icon": "shopping-bag",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "magic-scroll",
+          "groupId": "equipment",
+          "name": "Magic Scroll",
+          "icon": "sparkles",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "ring",
+          "groupId": "equipment",
+          "name": "Ring",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "rune",
+          "groupId": "equipment",
+          "name": "Rune",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "weapon",
+          "groupId": "equipment",
+          "name": "Weapon",
+          "icon": "shopping-bag",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "npcs",
+      "label": "NPCs",
+      "categories": [
+        {
+          "id": "armorer",
+          "groupId": "npcs",
+          "name": "Armorer",
+          "icon": "shopping-bag",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "blacksmith",
+          "groupId": "npcs",
+          "name": "Blacksmith",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "boss",
+          "groupId": "npcs",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "named-npc",
+          "groupId": "npcs",
+          "name": "Named NPC",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": false
+        },
+        {
+          "id": "shadowbeast",
+          "groupId": "npcs",
+          "name": "Shadowbeast",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "teacher",
+          "groupId": "npcs",
+          "name": "Teacher",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "trader",
+          "groupId": "npcs",
+          "name": "Trader",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "new-camp-quest",
+          "groupId": "quests",
+          "name": "New Camp Quest",
+          "icon": "scroll-text",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "old-camp-quest",
+          "groupId": "quests",
+          "name": "Old Camp Quest",
+          "icon": "scroll-text",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "swamp-camp-quest",
+          "groupId": "quests",
+          "name": "Swamp Camp Quest",
+          "icon": "scroll-text",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "the-colony-quest",
+          "groupId": "quests",
+          "name": "The Colony Quest",
+          "icon": "scroll-text",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "crafting-stations",
+      "label": "Crafting Stations",
+      "categories": [
+        {
+          "id": "alchemy-table",
+          "groupId": "crafting-stations",
+          "name": "Alchemy Table",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "anvil",
+          "groupId": "crafting-stations",
+          "name": "Anvil",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "cauldron",
+          "groupId": "crafting-stations",
+          "name": "Cauldron",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "inscription-station",
+          "groupId": "crafting-stations",
+          "name": "Inscription Station",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "pan",
+          "groupId": "crafting-stations",
+          "name": "Pan",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "water-tub",
+          "groupId": "crafting-stations",
+          "name": "Water Tub",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "whetstone",
+          "groupId": "crafting-stations",
+          "name": "Whetstone",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "workbench",
+          "groupId": "crafting-stations",
+          "name": "Workbench",
+          "icon": "bookmark",
+          "color": "#F472B6",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "climbable-wall",
+          "groupId": "other",
+          "name": "Climbable Wall",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "document",
+          "groupId": "other",
+          "name": "Document",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "easter-egg",
+          "groupId": "other",
+          "name": "Easter Egg",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "locked-door",
+          "groupId": "other",
+          "name": "Locked Door",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "transition",
+          "groupId": "other",
+          "name": "Transition",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 1714
+}

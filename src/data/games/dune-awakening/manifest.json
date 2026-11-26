@@ -1,0 +1,314 @@
+{
+  "id": "game-dune-awakening",
+  "slug": "dune-awakening",
+  "title": "Dune: Awakening",
+  "subtitle": "Arrakis — Especiaria, Postos Inimigos, Cavernas, Intel & Chefes",
+  "studio": "Funcom",
+  "releaseYear": 2025,
+  "genres": [
+    "Sobrevivência",
+    "MMORPG",
+    "Mundo Aberto"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/dune-awakening/cover.webp",
+    "bannerImage": "/games/dune-awakening/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#EAB308",
+    "accentSecondary": "#38BDF8",
+    "accentGlow": "rgba(234, 179, 8, 0.42)",
+    "glassTint": "rgba(24, 17, 10, 0.84)",
+    "surfaceBase": "#100B06",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "chamfered"
+  },
+  "maps": [
+    {
+      "id": "arrakis",
+      "name": "Arrakis",
+      "dlc": "base",
+      "pinsCount": 980,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#100B06",
+      "initialCenter": [
+        0.81093529221806,
+        -0.9042798451612
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          -0.08564,
+          -1.14417
+        ],
+        [
+          1.15616,
+          0.08475
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/dune-awakening/arrakis/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              -0.08564,
+              -1.14417
+            ],
+            [
+              1.15616,
+              0.08475
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "aql-cave",
+          "groupId": "locations",
+          "name": "AQL Cave",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "atreides-fortress",
+          "groupId": "locations",
+          "name": "Atreides Fortress",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "cave",
+          "groupId": "locations",
+          "name": "Cave",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "enemy-camp",
+          "groupId": "locations",
+          "name": "Enemy Camp",
+          "icon": "skull",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "enemy-outpost",
+          "groupId": "locations",
+          "name": "Enemy Outpost",
+          "icon": "skull",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "harkonnen-fortress",
+          "groupId": "locations",
+          "name": "Harkonnen Fortress",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "imperial-testing-station",
+          "groupId": "locations",
+          "name": "Imperial Testing Station",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "landmark",
+          "groupId": "locations",
+          "name": "Landmark",
+          "icon": "landmark",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "mining-facility",
+          "groupId": "locations",
+          "name": "Mining Facility",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "shipwreck",
+          "groupId": "locations",
+          "name": "Shipwreck",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "trading-post",
+          "groupId": "locations",
+          "name": "Trading Post",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "npc-s",
+      "label": "NPC's",
+      "categories": [
+        {
+          "id": "bene-gesserit-trainer",
+          "groupId": "npc-s",
+          "name": "Bene Gesserit Trainer",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "contract-board",
+          "groupId": "npc-s",
+          "name": "Contract Board",
+          "icon": "scroll-text",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "house-representative",
+          "groupId": "npc-s",
+          "name": "House Representative",
+          "icon": "bookmark",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "house-vendor",
+          "groupId": "npc-s",
+          "name": "House Vendor",
+          "icon": "shopping-bag",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "mentat-trainer",
+          "groupId": "npc-s",
+          "name": "Mentat Trainer",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "planetologist-trainer",
+          "groupId": "npc-s",
+          "name": "Planetologist Trainer",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "swordmaster-trainer",
+          "groupId": "npc-s",
+          "name": "Swordmaster Trainer",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "taxi-service",
+          "groupId": "npc-s",
+          "name": "Taxi Service",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "trooper-trainer",
+          "groupId": "npc-s",
+          "name": "Trooper Trainer",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "vendor",
+          "groupId": "npc-s",
+          "name": "Vendor",
+          "icon": "shopping-bag",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "intel",
+          "groupId": "collectibles",
+          "name": "Intel",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "schematic-chest",
+          "groupId": "collectibles",
+          "name": "Schematic Chest",
+          "icon": "gem",
+          "color": "#FACC15",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "atriedes-contract",
+          "groupId": "quests",
+          "name": "Atriedes Contract",
+          "icon": "scroll-text",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "contract",
+          "groupId": "quests",
+          "name": "Contract",
+          "icon": "scroll-text",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "harkonnen-contract",
+          "groupId": "quests",
+          "name": "Harkonnen Contract",
+          "icon": "scroll-text",
+          "color": "#F472B6",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 980
+}

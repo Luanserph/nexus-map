@@ -1,0 +1,465 @@
+{
+  "id": "game-dragon-quest-vii-reimagined",
+  "slug": "dragon-quest-vii-reimagined",
+  "title": "Dragon Quest VII Reimagined",
+  "subtitle": "Passado & Presente — Fragmentos, Mini Medalhas & Masmorras",
+  "studio": "Square Enix",
+  "releaseYear": 2026,
+  "genres": [
+    "JRPG",
+    "RPG",
+    "Aventura"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox",
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/dragon-quest-vii-reimagined/cover.webp",
+    "bannerImage": "/games/dragon-quest-vii-reimagined/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#3B82F6",
+    "accentSecondary": "#FACC15",
+    "accentGlow": "rgba(59, 130, 246, 0.40)",
+    "glassTint": "rgba(10, 16, 28, 0.80)",
+    "surfaceBase": "#060A14",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "past",
+      "name": "Passado (Past)",
+      "dlc": "base",
+      "pinsCount": 1616,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060A14",
+      "initialCenter": [
+        0.69588205156431,
+        -0.80141703853994
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          -0.10279,
+          -1.17023
+        ],
+        [
+          1.38767,
+          0.08668
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/dragon-quest-vii/past/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 16,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              -0.10279,
+              -1.17023
+            ],
+            [
+              1.38767,
+              0.08668
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "present",
+      "name": "Presente (Present)",
+      "dlc": "base",
+      "pinsCount": 2040,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060A14",
+      "initialCenter": [
+        0.71165908821786,
+        -0.8270422098098
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          -0.10267,
+          -1.30456
+        ],
+        [
+          1.38604,
+          0.09663
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v2",
+          "label": "V2",
+          "urlTemplate": "https://tiles.mapgenie.io/games/dragon-quest-vii/present/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 16,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              -0.10267,
+              -1.30456
+            ],
+            [
+              1.38604,
+              0.09663
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "castle",
+          "groupId": "locations",
+          "name": "Castle",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "cave",
+          "groupId": "locations",
+          "name": "Cave",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "lucky-panel",
+          "groupId": "locations",
+          "name": "Lucky Panel",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "ruins",
+          "groupId": "locations",
+          "name": "Ruins",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "teleportal",
+          "groupId": "locations",
+          "name": "Teleportal",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "tower",
+          "groupId": "locations",
+          "name": "Tower",
+          "icon": "landmark",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "town",
+          "groupId": "locations",
+          "name": "Town",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "ship-dock",
+          "groupId": "locations",
+          "name": "Ship Dock",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "tablet-pedestal",
+          "groupId": "locations",
+          "name": "Tablet Pedestal",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "label": "Services",
+      "categories": [
+        {
+          "id": "armour-shop",
+          "groupId": "services",
+          "name": "Armour Shop",
+          "icon": "shopping-bag",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "clergy",
+          "groupId": "services",
+          "name": "Clergy",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "goddess-statue",
+          "groupId": "services",
+          "name": "Goddess Statue",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "inn",
+          "groupId": "services",
+          "name": "Inn",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "item-shop",
+          "groupId": "services",
+          "name": "Item Shop",
+          "icon": "shopping-bag",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "mini-medal-exchange",
+          "groupId": "services",
+          "name": "Mini Medal Exchange",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "weapon-shop",
+          "groupId": "services",
+          "name": "Weapon Shop",
+          "icon": "shopping-bag",
+          "color": "#F472B6",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "key",
+          "groupId": "collectibles",
+          "name": "Key",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "mini-medal",
+          "groupId": "collectibles",
+          "name": "Mini Medal",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "monster-heart",
+          "groupId": "collectibles",
+          "name": "Monster Heart",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "seed",
+          "groupId": "collectibles",
+          "name": "Seed",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "sparkly-spot",
+          "groupId": "collectibles",
+          "name": "Sparkly Spot",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "tablet-fragment",
+          "groupId": "collectibles",
+          "name": "Tablet Fragment",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "accessory",
+          "groupId": "items",
+          "name": "Accessory",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "gold-coin",
+          "groupId": "items",
+          "name": "Gold Coin",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "head",
+          "groupId": "items",
+          "name": "Head",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "important-item",
+          "groupId": "items",
+          "name": "Important Item",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "shield",
+          "groupId": "items",
+          "name": "Shield",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "torso",
+          "groupId": "items",
+          "name": "Torso",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "usable-item",
+          "groupId": "items",
+          "name": "Usable Item",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "weapon",
+          "groupId": "items",
+          "name": "Weapon",
+          "icon": "shopping-bag",
+          "color": "#34D399",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "main-story",
+          "groupId": "quests",
+          "name": "Main Story",
+          "icon": "scroll-text",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "sub-story",
+          "groupId": "quests",
+          "name": "Sub Story",
+          "icon": "scroll-text",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "enemies",
+      "label": "Enemies",
+      "categories": [
+        {
+          "id": "boss",
+          "groupId": "enemies",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "enemy",
+          "groupId": "enemies",
+          "name": "Enemy",
+          "icon": "skull",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "locked-door",
+          "groupId": "other",
+          "name": "Locked Door",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "transition",
+          "groupId": "other",
+          "name": "Transition",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": false
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 3656
+}

@@ -7,14 +7,14 @@
 
 [![Acessar Web App](https://img.shields.io/badge/🌐_Acessar_Web_App-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://nexus-map-zeta.vercel.app)
 [![Download Windows](https://img.shields.io/badge/⬇️_Download_Windows-Tauri_v2_(.exe)-06B6D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Luanserph/nexus-map/releases/latest)
-[![Versão](https://img.shields.io/badge/Release-v2.3.0-8B5CF6?style=for-the-badge)](https://github.com/Luanserph/nexus-map/releases/tag/v2.3.0)
+[![Versão](https://img.shields.io/badge/Release-v2.3.1-8B5CF6?style=for-the-badge)](https://github.com/Luanserph/nexus-map/releases/tag/v2.3.1)
 [![Build Windows](https://img.shields.io/github/actions/workflow/status/Luanserph/nexus-map/release.yml?style=for-the-badge&label=Build_Windows&logo=githubactions&logoColor=white)](https://github.com/Luanserph/nexus-map/actions/workflows/release.yml)
 [![Licença](https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge)](LICENSE)
 
 <br />
 
 **Central de cartografia interativa de alta performance para jogos de mundo aberto.**  
-**52 jogos** • **123 mapas/camadas** • **126.449 marcadores** • Web (PWA) &amp; App Desktop Nativo para Windows (~12 MB)
+**69 jogos** • **152 mapas/camadas** • **168.644 marcadores** • Web (PWA) &amp; App Desktop Nativo para Windows (~12 MB)
 
 </div>
 
@@ -41,7 +41,7 @@ O **Nexus Maps** foi criado para oferecer um único lugar rápido, limpo e sem d
 
 ---
 
-## 🎮 Vitrine do Catálogo (52 Jogos • 123 Mapas • 126.449 Pins)
+## 🎮 Vitrine do Catálogo (69 Jogos • 152 Mapas • 168.644 Pins)
 
 > Organizado em ordem alfabética com contagem real de mapas/camadas e pins extraída de `src/data/games/`.
 
@@ -86,11 +86,15 @@ O **Nexus Maps** foi criado para oferecer um único lugar rápido, limpo e sem d
       <b>Castlevania: Belmont's Curse</b><br /><sub>1 mapa • 1.339 pins</sub>
     </td>
     <td align="center" width="20%">
-      <img src="public/games/control-resonant/cover.webp" width="160" alt="Control Resonant" /><br />
-      <b>Control Resonant</b><br /><sub>1 mapa • 2.121 pins</sub>
+      <img src="public/games/clair-obscur-expedition-33/cover.webp" width="160" alt="Clair Obscur: Expedition 33" /><br />
+      <b>Clair Obscur: Expedition 33</b><br /><sub>1 mapa • 2.815 pins</sub>
     </td>
   </tr>
   <tr>
+    <td align="center" width="20%">
+      <img src="public/games/control-resonant/cover.webp" width="160" alt="Control Resonant" /><br />
+      <b>Control Resonant</b><br /><sub>1 mapa • 2.121 pins</sub>
+    </td>
     <td align="center" width="20%">
       <img src="public/games/crimson-desert/cover.webp" width="160" alt="Crimson Desert" /><br />
       <b>Crimson Desert</b><br /><sub>1 mapa • 15.572 pins</sub>
@@ -104,6 +108,20 @@ O **Nexus Maps** foi criado para oferecer um único lugar rápido, limpo e sem d
       <b>Cyberpunk 2077</b><br /><sub>1 mapa • 2.754 pins</sub>
     </td>
     <td align="center" width="20%">
+      <img src="public/games/death-stranding-2/cover.webp" width="160" alt="Death Stranding 2: On the Beach" /><br />
+      <b>Death Stranding 2: On the Beach</b><br /><sub>2 mapas • 336 pins</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="20%">
+      <img src="public/games/dragon-quest-vii-reimagined/cover.webp" width="160" alt="Dragon Quest VII Reimagined" /><br />
+      <b>Dragon Quest VII Reimagined</b><br /><sub>2 mapas • 3.656 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/dune-awakening/cover.webp" width="160" alt="Dune: Awakening" /><br />
+      <b>Dune: Awakening</b><br /><sub>1 mapa • 980 pins</sub>
+    </td>
+    <td align="center" width="20%">
       <img src="public/games/dying-light-the-beast/cover.webp" width="160" alt="Dying Light: The Beast" /><br />
       <b>Dying Light: The Beast</b><br /><sub>1 mapa • 422 pins</sub>
     </td>
@@ -111,8 +129,16 @@ O **Nexus Maps** foi criado para oferecer um único lugar rápido, limpo e sem d
       <img src="public/games/elden-ring/cover.webp" width="160" alt="Elden Ring" /><br />
       <b>Elden Ring</b><br /><sub>2 mapas • 7.578 pins</sub>
     </td>
+    <td align="center" width="20%">
+      <img src="public/games/elden-ring-nightreign/cover.webp" width="160" alt="Elden Ring Nightreign" /><br />
+      <b>Elden Ring Nightreign</b><br /><sub>1 mapa • 230 pins</sub>
+    </td>
   </tr>
   <tr>
+    <td align="center" width="20%">
+      <img src="public/games/escape-from-tarkov/cover.webp" width="160" alt="Escape from Tarkov" /><br />
+      <b>Escape from Tarkov</b><br /><sub>5 mapas • 4.306 pins</sub>
+    </td>
     <td align="center" width="20%">
       <img src="public/games/final-fantasy-resonance/cover.webp" width="160" alt="Final Fantasy Resonance" /><br />
       <b>Final Fantasy Resonance</b><br /><sub>1 mapa • 1.317 pins</sub>
@@ -129,20 +155,30 @@ O **Nexus Maps** foi criado para oferecer um único lugar rápido, limpo e sem d
       <img src="public/games/forza-horizon-6/cover.webp" width="160" alt="Forza Horizon 6" /><br />
       <b>Forza Horizon 6</b><br /><sub>1 mapa • 806 pins</sub>
     </td>
+  </tr>
+  <tr>
     <td align="center" width="20%">
       <img src="public/games/goat-simulator-3/cover.webp" width="160" alt="Goat Simulator 3" /><br />
       <b>Goat Simulator 3</b><br /><sub>4 mapas • 1.876 pins</sub>
     </td>
-  </tr>
-  <tr>
+    <td align="center" width="20%">
+      <img src="public/games/gothic-1-remake/cover.webp" width="160" alt="Gothic 1 Remake" /><br />
+      <b>Gothic 1 Remake</b><br /><sub>1 mapa • 1.714 pins</sub>
+    </td>
     <td align="center" width="20%">
       <img src="public/games/gta-vi/cover.webp" width="160" alt="Grand Theft Auto VI" /><br />
       <b>Grand Theft Auto VI</b><br /><sub>1 mapa • 2.690 pins</sub>
     </td>
     <td align="center" width="20%">
+      <img src="public/games/grounded-2/cover.webp" width="160" alt="Grounded 2" /><br />
+      <b>Grounded 2</b><br /><sub>1 mapa • 11.899 pins</sub>
+    </td>
+    <td align="center" width="20%">
       <img src="public/games/hollow-knight/cover.webp" width="160" alt="Hollow Knight" /><br />
       <b>Hollow Knight</b><br /><sub>1 mapa • 979 pins</sub>
     </td>
+  </tr>
+  <tr>
     <td align="center" width="20%">
       <img src="public/games/hollow-knight-silksong/cover.webp" width="160" alt="Hollow Knight: Silksong" /><br />
       <b>Hollow Knight: Silksong</b><br /><sub>1 mapa • 1.939 pins</sub>
@@ -152,15 +188,19 @@ O **Nexus Maps** foi criado para oferecer um único lugar rápido, limpo e sem d
       <b>Kingdom Hearts III</b><br /><sub>10 mapas • 822 pins</sub>
     </td>
     <td align="center" width="20%">
+      <img src="public/games/marathon/cover.webp" width="160" alt="Marathon" /><br />
+      <b>Marathon</b><br /><sub>4 mapas • 530 pins</sub>
+    </td>
+    <td align="center" width="20%">
       <img src="public/games/metal-gear-solid-5-the-phantom-pain/cover.webp" width="160" alt="Metal Gear Solid V: The Phantom Pain" /><br />
       <b>Metal Gear Solid V: The Phantom Pain</b><br /><sub>2 mapas • 488 pins</sub>
     </td>
-  </tr>
-  <tr>
     <td align="center" width="20%">
       <img src="public/games/metal-gear-solid-peace-walker/cover.webp" width="160" alt="Metal Gear Solid: Peace Walker" /><br />
       <b>Metal Gear Solid: Peace Walker</b><br /><sub>1 mapa • 659 pins</sub>
     </td>
+  </tr>
+  <tr>
     <td align="center" width="20%">
       <img src="public/games/mina-the-hollower/cover.webp" width="160" alt="Mina the Hollower" /><br />
       <b>Mina the Hollower</b><br /><sub>1 mapa • 1.584 pins</sub>
@@ -177,19 +217,45 @@ O **Nexus Maps** foi criado para oferecer um único lugar rápido, limpo e sem d
       <img src="public/games/onimusha-way-of-the-sword/cover.webp" width="160" alt="Onimusha: Way of the Sword" /><br />
       <b>Onimusha: Way of the Sword</b><br /><sub>9 mapas • 2.205 pins</sub>
     </td>
-  </tr>
-  <tr>
     <td align="center" width="20%">
       <img src="public/games/phantom-blade-zero/cover.webp" width="160" alt="Phantom Blade Zero" /><br />
       <b>Phantom Blade Zero</b><br /><sub>8 mapas • 2.680 pins</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="20%">
+      <img src="public/games/pokemon-pokopia/cover.webp" width="160" alt="Pokémon Pokopia" /><br />
+      <b>Pokémon Pokopia</b><br /><sub>1 mapa • 2.531 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/resident-evil-requiem/cover.webp" width="160" alt="Resident Evil Requiem" /><br />
+      <b>Resident Evil Requiem</b><br /><sub>1 mapa • 1.145 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/runescape-dragonwilds/cover.webp" width="160" alt="RuneScape: Dragonwilds" /><br />
+      <b>RuneScape: Dragonwilds</b><br /><sub>1 mapa • 6.092 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/schedule-1/cover.webp" width="160" alt="Schedule I" /><br />
+      <b>Schedule I</b><br /><sub>1 mapa • 226 pins</sub>
     </td>
     <td align="center" width="20%">
       <img src="public/games/silent-hill-f/cover.webp" width="160" alt="Silent Hill f" /><br />
       <b>Silent Hill f</b><br /><sub>1 mapa • 1.057 pins</sub>
     </td>
+  </tr>
+  <tr>
     <td align="center" width="20%">
       <img src="public/games/silent-hill-townfall/cover.webp" width="160" alt="Silent Hill: Townfall" /><br />
       <b>Silent Hill: Townfall</b><br /><sub>1 mapa • 844 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/slime-rancher-2/cover.webp" width="160" alt="Slime Rancher 2" /><br />
+      <b>Slime Rancher 2</b><br /><sub>1 mapa • 285 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/starrupture/cover.webp" width="160" alt="StarRupture" /><br />
+      <b>StarRupture</b><br /><sub>1 mapa • 2.436 pins</sub>
     </td>
     <td align="center" width="20%">
       <img src="public/games/subnautica-2/cover.webp" width="160" alt="Subnautica 2" /><br />
@@ -203,11 +269,15 @@ O **Nexus Maps** foi criado para oferecer um único lugar rápido, limpo e sem d
   <tr>
     <td align="center" width="20%">
       <img src="public/games/the-adventures-of-elliot/cover.webp" width="160" alt="The Adventures of Elliot: The Millennium Tales" /><br />
-      <b>The Adventures of Elliot</b><br /><sub>4 mapas • 2.303 pins</sub>
+      <b>The Adventures of Elliot: The Millennium Tales</b><br /><sub>4 mapas • 2.303 pins</sub>
     </td>
     <td align="center" width="20%">
       <img src="public/games/the-blood-of-dawnwalker/cover.webp" width="160" alt="The Blood of Dawnwalker" /><br />
       <b>The Blood of Dawnwalker</b><br /><sub>1 mapa • 719 pins</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="public/games/oblivion-remastered/cover.webp" width="160" alt="The Elder Scrolls IV: Oblivion Remastered" /><br />
+      <b>The Elder Scrolls IV: Oblivion Remastered</b><br /><sub>2 mapas • 1.703 pins</sub>
     </td>
     <td align="center" width="20%">
       <img src="public/games/the-legend-of-zelda/cover.webp" width="160" alt="The Legend of Zelda" /><br />
@@ -215,48 +285,54 @@ O **Nexus Maps** foi criado para oferecer um único lugar rápido, limpo e sem d
     </td>
     <td align="center" width="20%">
       <img src="public/games/zelda-a-link-between-worlds/cover.webp" width="160" alt="The Legend of Zelda: A Link Between Worlds" /><br />
-      <b>Zelda: A Link Between Worlds</b><br /><sub>1 mapa • 332 pins</sub>
-    </td>
-    <td align="center" width="20%">
-      <img src="public/games/zelda-a-link-to-the-past/cover.webp" width="160" alt="The Legend of Zelda: A Link to the Past" /><br />
-      <b>Zelda: A Link to the Past</b><br /><sub>1 mapa • 815 pins</sub>
+      <b>The Legend of Zelda: A Link Between Worlds</b><br /><sub>1 mapa • 332 pins</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="20%">
+      <img src="public/games/zelda-a-link-to-the-past/cover.webp" width="160" alt="The Legend of Zelda: A Link to the Past" /><br />
+      <b>The Legend of Zelda: A Link to the Past</b><br /><sub>1 mapa • 815 pins</sub>
+    </td>
+    <td align="center" width="20%">
       <img src="public/games/zelda-breath-of-the-wild/cover.webp" width="160" alt="The Legend of Zelda: Breath of the Wild" /><br />
-      <b>Zelda: Breath of the Wild</b><br /><sub>1 mapa • 16.504 pins</sub>
+      <b>The Legend of Zelda: Breath of the Wild</b><br /><sub>1 mapa • 16.504 pins</sub>
     </td>
     <td align="center" width="20%">
       <img src="public/games/zelda-echoes-of-wisdom/cover.webp" width="160" alt="The Legend of Zelda: Echoes of Wisdom" /><br />
-      <b>Zelda: Echoes of Wisdom</b><br /><sub>1 mapa • 696 pins</sub>
+      <b>The Legend of Zelda: Echoes of Wisdom</b><br /><sub>1 mapa • 696 pins</sub>
     </td>
     <td align="center" width="20%">
       <img src="public/games/zelda-links-awakening/cover.webp" width="160" alt="The Legend of Zelda: Link's Awakening" /><br />
-      <b>Zelda: Link's Awakening</b><br /><sub>1 mapa • 409 pins</sub>
+      <b>The Legend of Zelda: Link's Awakening</b><br /><sub>1 mapa • 409 pins</sub>
     </td>
     <td align="center" width="20%">
       <img src="public/games/zelda-ocarina-of-time/cover.webp" width="160" alt="The Legend of Zelda: Ocarina of Time" /><br />
-      <b>Zelda: Ocarina of Time</b><br /><sub>2 mapas • 3.218 pins</sub>
-    </td>
-    <td align="center" width="20%">
-      <img src="public/games/zelda-tears-of-the-kingdom/cover.webp" width="160" alt="The Legend of Zelda: Tears of the Kingdom" /><br />
-      <b>Zelda: Tears of the Kingdom</b><br /><sub>1 mapa • 7.956 pins</sub>
+      <b>The Legend of Zelda: Ocarina of Time</b><br /><sub>2 mapas • 3.218 pins</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="20%">
+      <img src="public/games/zelda-tears-of-the-kingdom/cover.webp" width="160" alt="The Legend of Zelda: Tears of the Kingdom" /><br />
+      <b>The Legend of Zelda: Tears of the Kingdom</b><br /><sub>1 mapa • 7.956 pins</sub>
+    </td>
+    <td align="center" width="20%">
       <img src="public/games/zelda-wind-waker/cover.webp" width="160" alt="The Legend of Zelda: The Wind Waker" /><br />
-      <b>Zelda: The Wind Waker</b><br /><sub>1 mapa • 1.232 pins</sub>
+      <b>The Legend of Zelda: The Wind Waker</b><br /><sub>1 mapa • 1.232 pins</sub>
     </td>
     <td align="center" width="20%">
       <img src="public/games/the-witcher-3-wild-hunt/cover.webp" width="160" alt="The Witcher 3: Wild Hunt" /><br />
       <b>The Witcher 3: Wild Hunt</b><br /><sub>6 mapas • 3.000 pins</sub>
     </td>
     <td align="center" width="20%">
-      <img src="public/games/ghost-recon-wildlands/cover.webp" width="160" alt="Tom Clancy's Ghost Recon Wildlands" /><br />
-      <b>Ghost Recon Wildlands</b><br /><sub>2 mapas • 2.528 pins</sub>
+      <img src="public/games/titan-quest-2/cover.webp" width="160" alt="Titan Quest II" /><br />
+      <b>Titan Quest II</b><br /><sub>3 mapas • 1.311 pins</sub>
     </td>
+    <td align="center" width="20%">
+      <img src="public/games/ghost-recon-wildlands/cover.webp" width="160" alt="Tom Clancy's Ghost Recon Wildlands" /><br />
+      <b>Tom Clancy's Ghost Recon Wildlands</b><br /><sub>2 mapas • 2.528 pins</sub>
+    </td>
+  </tr>
+  <tr>
     <td align="center" width="20%">
       <img src="public/games/world-of-warcraft-forever/cover.webp" width="160" alt="World of Warcraft: Forever" /><br />
       <b>World of Warcraft: Forever</b><br /><sub>1 mapa • 6.054 pins</sub>
@@ -265,8 +341,6 @@ O **Nexus Maps** foi criado para oferecer um único lugar rápido, limpo e sem d
       <img src="public/games/yakuza-0/cover.webp" width="160" alt="Yakuza 0 Director's Cut" /><br />
       <b>Yakuza 0 Director's Cut</b><br /><sub>2 mapas • 433 pins</sub>
     </td>
-  </tr>
-  <tr>
     <td align="center" width="20%">
       <img src="public/games/yakuza-kiwami/cover.webp" width="160" alt="Yakuza Kiwami" /><br />
       <b>Yakuza Kiwami</b><br /><sub>1 mapa • 256 pins</sub>
@@ -275,8 +349,6 @@ O **Nexus Maps** foi criado para oferecer um único lugar rápido, limpo e sem d
       <img src="public/games/zelda-2-adventure-of-link/cover.webp" width="160" alt="Zelda II: The Adventure of Link" /><br />
       <b>Zelda II: The Adventure of Link</b><br /><sub>1 mapa • 258 pins</sub>
     </td>
-    <td align="center" width="20%"></td>
-    <td align="center" width="20%"></td>
     <td align="center" width="20%"></td>
   </tr>
 </table>

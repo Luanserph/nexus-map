@@ -1,0 +1,650 @@
+{
+  "id": "game-runescape-dragonwilds",
+  "slug": "runescape-dragonwilds",
+  "title": "RuneScape: Dragonwilds",
+  "subtitle": "Ashenfall — Cofres Dragonkin, Lodestones, Pergaminhos & Chefes",
+  "studio": "Jagex",
+  "releaseYear": 2025,
+  "genres": [
+    "Sobrevivência",
+    "RPG",
+    "Mundo Aberto"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/runescape-dragonwilds/cover.webp",
+    "bannerImage": "/games/runescape-dragonwilds/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#10B981",
+    "accentSecondary": "#F59E0B",
+    "accentGlow": "rgba(16, 185, 129, 0.40)",
+    "glassTint": "rgba(10, 20, 16, 0.82)",
+    "surfaceBase": "#060E0B",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "ashenfall",
+      "name": "Ashenfall",
+      "dlc": "base",
+      "pinsCount": 6092,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060E0B",
+      "initialCenter": [
+        0.69121201020077,
+        -0.77505574038537
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          0.46225,
+          -1.0069
+        ],
+        [
+          0.96402,
+          -0.42805
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "1-0-v1",
+          "label": "1-0-v1",
+          "urlTemplate": "https://tiles.mapgenie.io/games/runescape-dragonwilds/ashenfall/1-0-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "anima-vent",
+          "groupId": "locations",
+          "name": "Anima Vent",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "dragonkin-vault",
+          "groupId": "locations",
+          "name": "Dragonkin Vault",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "lodestone",
+          "groupId": "locations",
+          "name": "Lodestone",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "nodestone",
+          "groupId": "locations",
+          "name": "Nodestone",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "purification-pool",
+          "groupId": "locations",
+          "name": "Purification Pool",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "spectral-door",
+          "groupId": "locations",
+          "name": "Spectral Door",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "agility-course",
+          "groupId": "locations",
+          "name": "Agility Course",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "lore-scrap",
+          "groupId": "collectibles",
+          "name": "Lore Scrap",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "recipe",
+          "groupId": "collectibles",
+          "name": "Recipe",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "chest",
+          "groupId": "items",
+          "name": "Chest",
+          "icon": "gem",
+          "color": "#E879F9",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "enemies",
+      "label": "Enemies",
+      "categories": [
+        {
+          "id": "enemy",
+          "groupId": "enemies",
+          "name": "Enemy",
+          "icon": "skull",
+          "color": "#FACC15",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "primary-quest",
+          "groupId": "quests",
+          "name": "Primary Quest",
+          "icon": "scroll-text",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "secondary-quest",
+          "groupId": "quests",
+          "name": "Secondary Quest",
+          "icon": "scroll-text",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "crumbled-wall",
+          "groupId": "other",
+          "name": "Crumbled Wall",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "net-fishing-spot",
+          "groupId": "other",
+          "name": "Net Fishing Spot",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "nightmare-crucible",
+          "groupId": "other",
+          "name": "Nightmare Crucible",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "npc",
+          "groupId": "other",
+          "name": "NPC",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "rod-fishing-spot",
+          "groupId": "other",
+          "name": "Rod Fishing Spot",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "sanguine-urn",
+          "groupId": "other",
+          "name": "Sanguine Urn",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "statue",
+          "groupId": "other",
+          "name": "Statue",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "thorny-vine",
+          "groupId": "other",
+          "name": "Thorny Vine",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "transition",
+          "groupId": "other",
+          "name": "Transition",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "resources",
+      "label": "Resources",
+      "categories": [
+        {
+          "id": "adamantite-node",
+          "groupId": "resources",
+          "name": "Adamantite Node",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "anima-infused-tree",
+          "groupId": "resources",
+          "name": "Anima-Infused Tree",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "barrel-cactus",
+          "groupId": "resources",
+          "name": "Barrel Cactus",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "bittercap-mushroom",
+          "groupId": "resources",
+          "name": "Bittercap Mushroom",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "blightwood-root",
+          "groupId": "resources",
+          "name": "Blightwood Root",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "bloodwood-tree",
+          "groupId": "resources",
+          "name": "Bloodwood Tree",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "bunny-cactus",
+          "groupId": "resources",
+          "name": "Bunny Cactus",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "cabbage",
+          "groupId": "resources",
+          "name": "Cabbage",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "cadavaberries",
+          "groupId": "resources",
+          "name": "Cadavaberries",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "clay-node",
+          "groupId": "resources",
+          "name": "Clay Node",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "coal-node",
+          "groupId": "resources",
+          "name": "Coal Node",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": false
+        },
+        {
+          "id": "copper-ore-node",
+          "groupId": "resources",
+          "name": "Copper Ore Node",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "corpse-cotton",
+          "groupId": "resources",
+          "name": "Corpse Cotton",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "desert-weed",
+          "groupId": "resources",
+          "name": "Desert Weed",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "dragon-s-skull",
+          "groupId": "resources",
+          "name": "Dragon's Skull",
+          "icon": "skull",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "dwellberries",
+          "groupId": "resources",
+          "name": "Dwellberries",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "fibrous-pipe-cactus",
+          "groupId": "resources",
+          "name": "Fibrous Pipe Cactus",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "flax",
+          "groupId": "resources",
+          "name": "Flax",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "gold-ore-node",
+          "groupId": "resources",
+          "name": "Gold Ore Node",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "granite-deposit",
+          "groupId": "resources",
+          "name": "Granite Deposit",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "gypsum-node",
+          "groupId": "resources",
+          "name": "Gypsum Node",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "harralander",
+          "groupId": "resources",
+          "name": "Harralander",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "iron-ore-node",
+          "groupId": "resources",
+          "name": "Iron Ore Node",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": false
+        },
+        {
+          "id": "limestone-rock",
+          "groupId": "resources",
+          "name": "Limestone Rock",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "luminite-deposit",
+          "groupId": "resources",
+          "name": "Luminite Deposit",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "marrentill",
+          "groupId": "resources",
+          "name": "Marrentill",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "magic-tree",
+          "groupId": "resources",
+          "name": "Magic Tree",
+          "icon": "sparkles",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "mithril-ore-node",
+          "groupId": "resources",
+          "name": "Mithril Ore Node",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "onion",
+          "groupId": "resources",
+          "name": "Onion",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "potato",
+          "groupId": "resources",
+          "name": "Potato",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "pumpkin",
+          "groupId": "resources",
+          "name": "Pumpkin",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "redberry-bush",
+          "groupId": "resources",
+          "name": "Redberry Bush",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "rune-geyser",
+          "groupId": "resources",
+          "name": "Rune Geyser",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "runite-deposit",
+          "groupId": "resources",
+          "name": "Runite Deposit",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "salvage",
+          "groupId": "resources",
+          "name": "Salvage",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": false
+        },
+        {
+          "id": "sandstone-rock",
+          "groupId": "resources",
+          "name": "Sandstone Rock",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": false
+        },
+        {
+          "id": "silver-ore-node",
+          "groupId": "resources",
+          "name": "Silver Ore Node",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "snapdragon",
+          "groupId": "resources",
+          "name": "Snapdragon",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "swamp-tar",
+          "groupId": "resources",
+          "name": "Swamp Tar",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "swamp-weed",
+          "groupId": "resources",
+          "name": "Swamp Weed",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "thorny-irit-root",
+          "groupId": "resources",
+          "name": "Thorny Irit Root",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "tin-ore-node",
+          "groupId": "resources",
+          "name": "Tin Ore Node",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "toadflax",
+          "groupId": "resources",
+          "name": "Toadflax",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 6092
+}

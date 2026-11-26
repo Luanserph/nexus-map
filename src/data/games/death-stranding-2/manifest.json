@@ -1,0 +1,278 @@
+{
+  "id": "game-death-stranding-2",
+  "slug": "death-stranding-2",
+  "title": "Death Stranding 2: On the Beach",
+  "subtitle": "México & Austrália — Instalações APAC, Preppers, Fontes Termais & Chips",
+  "studio": "Kojima Productions",
+  "releaseYear": 2025,
+  "genres": [
+    "Ação",
+    "Aventura",
+    "Mundo Aberto"
+  ],
+  "platforms": [
+    "playstation"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/death-stranding-2/cover.webp",
+    "bannerImage": "/games/death-stranding-2/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#38BDF8",
+    "accentSecondary": "#F59E0B",
+    "accentGlow": "rgba(56, 189, 248, 0.40)",
+    "glassTint": "rgba(10, 16, 22, 0.84)",
+    "surfaceBase": "#060A0F",
+    "fontDisplay": "'Space Grotesk', sans-serif",
+    "backgroundPattern": "tactical-grid",
+    "badgeStyle": "chamfered"
+  },
+  "maps": [
+    {
+      "id": "australia",
+      "name": "Austrália",
+      "dlc": "base",
+      "pinsCount": 297,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060A0F",
+      "initialCenter": [
+        0.70720030766699,
+        -0.82881278794042
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.36079,
+          -1.03451
+        ],
+        [
+          0.99427,
+          -0.33528
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/death-stranding-2/australia/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 16,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              0.36079,
+              -1.03451
+            ],
+            [
+              0.99427,
+              -0.33528
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mexico",
+      "name": "México",
+      "dlc": "base",
+      "pinsCount": 39,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060A0F",
+      "initialCenter": [
+        0.77777983643418,
+        -0.80734416849964
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.3435,
+          -1.04297
+        ],
+        [
+          0.93255,
+          -0.35666
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/death-stranding-2/asdasdjgfewo/joaienbea-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0.3435,
+              -1.04297
+            ],
+            [
+              0.93255,
+              -0.35666
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "apac-facility",
+          "groupId": "locations",
+          "name": "APAC Facility",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "bt-territory",
+          "groupId": "locations",
+          "name": "BT Territory",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "enemy-territory",
+          "groupId": "locations",
+          "name": "Enemy Territory",
+          "icon": "skull",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "hot-spring",
+          "groupId": "locations",
+          "name": "Hot Spring",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "location",
+          "groupId": "locations",
+          "name": "Location",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "magellan-dock",
+          "groupId": "locations",
+          "name": "Magellan Dock",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "mine",
+          "groupId": "locations",
+          "name": "Mine",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "photo-spot",
+          "groupId": "locations",
+          "name": "Photo Spot",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "point-of-interest",
+          "groupId": "locations",
+          "name": "Point of Interest",
+          "icon": "landmark",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "prepper-shelter",
+          "groupId": "locations",
+          "name": "Prepper Shelter",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "warning",
+          "groupId": "locations",
+          "name": "Warning",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "orders",
+      "label": "Orders",
+      "categories": [
+        {
+          "id": "main-order",
+          "groupId": "orders",
+          "name": "Main Order",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "sub-order",
+          "groupId": "orders",
+          "name": "Sub Order",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "auto-paver",
+          "groupId": "other",
+          "name": "Auto-Paver",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "tracklayer",
+          "groupId": "other",
+          "name": "Tracklayer",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "mule-postbox",
+          "groupId": "other",
+          "name": "MULE Postbox",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 336
+}

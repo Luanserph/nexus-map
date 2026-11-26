@@ -1,0 +1,3959 @@
+[
+  {
+    "id": "slime-rancher-2-rainbow-island-355807",
+    "mapId": "rainbow-island",
+    "category": "gordo-slime",
+    "title": "Cotton Gordo",
+    "description": "Food Requirement: 30 Veggies (Water Lettuce Counts as 2 Veggies) Location: Covering a hole at the top of a hill Drops: - x12 Cotton Slimes - x1 Jar Unlocks: - The path to the [Teleporter Activator](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355799)",
+    "coords": [
+      -0.67641081257509,
+      0.65586856890934
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/585888a7-6071-4130-968e-eab2b7a8c11c.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355812",
+    "mapId": "rainbow-island",
+    "category": "gordo-slime",
+    "title": "Phosphor Gordo",
+    "description": "Food Requirement: 30 Fruit (Cuberry counts as 2 Fruit) Location: Inside a cave covering one of the cave doors Drops: - x12 Phosphor Slimes - x1 Jar Unlocks: - The path to the [Tabby Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355813)",
+    "coords": [
+      -0.64715707029654,
+      0.67994391051495
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/0d86b407-952c-4919-8a84-5fa79e6d3904.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355835",
+    "mapId": "rainbow-island",
+    "category": "gordo-slime",
+    "title": "Pink Gordo",
+    "description": "Food Requirement: 30 of any food Location: In the open at the end of a path Drops: - x12 Pink Slimes - x1 Jar Unlocks: - A geyser, allowing a launch up to the cliff containing the [Teleporter Activator](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355837)",
+    "coords": [
+      -0.68843772995336,
+      0.70111121771755
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/8c3bb01c-c422-4519-9414-5b54f21c32c8.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355914",
+    "mapId": "rainbow-island",
+    "category": "gordo-slime",
+    "title": "Honey Gordo",
+    "description": "Food Requirement: 50 Fruit (Mint Mango Counts as 2 Fruit) Location: On top of a ledge across a rock arch blocking a tunnel Drops: - x12 Honey Slimes - x1 Jar Unlocks: - A cave that leads to: - [Phosphor Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355915) - [Phosphor Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355916) - [Treasure Pod](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355917)",
+    "coords": [
+      -0.67372433551563,
+      0.56350343557251
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/37ab25ea-73d3-4534-932e-903956562259.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355931",
+    "mapId": "rainbow-island",
+    "category": "gordo-slime",
+    "title": "Ringtail Gordo",
+    "description": "Food Requirement: 50 of any food Location: In the open on top of a teleporter Drops: - x12 Ringtail Slimes - x1 Jar Unlocks: - [Starlight Strand Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355932)",
+    "coords": [
+      -0.65211616690894,
+      0.5013116772982
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/db4f53e8-6214-4d43-8589-9a77433338be.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355935",
+    "mapId": "rainbow-island",
+    "category": "gordo-slime",
+    "title": "Angler Gordo",
+    "description": "Food Requirement: 50 Meat (Sea Hen Counts as 2 Meat) Location: Underground at the end of a cave just about the water level Drops: - x12 Angler Slimes - x1 Jar Unlocks: - A Geyser",
+    "coords": [
+      -0.63924014568343,
+      0.49195400383195
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/256a9e6a-3927-49e5-8b53-0171f04f1fb9.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355938",
+    "mapId": "rainbow-island",
+    "category": "gordo-slime",
+    "title": "Flutter Gordo",
+    "description": "Food Requirement: 15 Moondew Nectar Location: On top of a circular platform up the large ruin walls Drops: - x12 Flutter Slimes - x1 Jar Unlocks: - A hole into a cave containing a [Research Drone](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355940) and a [Treasure Pod](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355939)",
+    "coords": [
+      -0.68161648915975,
+      0.48108692940583
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1b55a912-a6f0-4c4a-9567-42e6c8565fbe.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355945",
+    "mapId": "rainbow-island",
+    "category": "gordo-slime",
+    "title": "Hunter Gordo",
+    "description": "Food Requirement: 50 Meat (Roostro Counts as 2 Meat) Location: In an alcove of a cliff covering a cave above the water Drops: - x12 Hunter Slimes - x1 Jar Unlocks: - A cave that contains a [Treasure Pod](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355946) and acts as a shortcut to another part of the island if the [Hunter Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355949) and the [Rock Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355948) are unlocked",
+    "coords": [
+      -0.70772230625084,
+      0.51793287123718
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6d63fb27-d0e5-4d93-b565-0f0316103cca.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356085",
+    "mapId": "rainbow-island",
+    "category": "gordo-slime",
+    "title": "Tabby Gordo",
+    "description": "Food Requirement: 50 Meat (Stony Hens Count as 2 Meat) Location: On a teleporter on top of a plateau island Drops: - x12 Tabby Slimes - x1 Jar Unlocks: - [Ember Valley Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356086)",
+    "coords": [
+      -0.8497238159176,
+      0.80506536568991
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/5ecad869-3f64-4e7f-8bb0-70f3e77e5d30.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356094",
+    "mapId": "rainbow-island",
+    "category": "gordo-slime",
+    "title": "Crystal Gordo",
+    "description": "Food Requirement: 50 Veggies (Odd Onion Counts as 2 veggies) Location: On top of a hill near a waterfall Drops: - x12 Crystal Slimes - x1 Jar Unlocks: - A geyser to the upper part of the cliffs",
+    "coords": [
+      -0.83889785733547,
+      0.76398277714132
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/130b46d4-9a0f-4f8b-89b1-9a9224582713.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356101",
+    "mapId": "rainbow-island",
+    "category": "gordo-slime",
+    "title": "Rock Gordo",
+    "description": "Food Requirement: 50 Veggies (Heart Beet Counts as 2 Veggies) Location: Underground in a cave on top of a plateaued rock Drops: - x12 Rock Slimes - x1 Jar Unlocks: - A geyser that leads to an upper cliff containing a [Treasure Pod](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356102)",
+    "coords": [
+      -0.7936764690684,
+      0.73882262388119
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/52fae3f0-be5f-4e45-961d-48796f9bb45d.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356121",
+    "mapId": "rainbow-island",
+    "category": "gordo-slime",
+    "title": "Batty Gordo",
+    "description": "Food Requirement: 50 Fruit (Pomegranate Counts as 2 fruit) Location: Underground at the end of a large cave system to the east Drops: - x12 Batty Slimes - x1 Jar Unlocks: - A tunnel that acts as a shortcut to another part of the island",
+    "coords": [
+      -0.86910572996379,
+      0.70398703390963
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/dd2433aa-0091-44d4-9692-c40a44dedc7f.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356124",
+    "mapId": "rainbow-island",
+    "category": "gordo-slime",
+    "title": "Boom Gordo",
+    "description": "Food Requirement: 50 Meat (Briar Hens Count as 2 Meat) Location: Against the ruins wall covering a hole Drops: - x12 Boom Slimes - x1 Jar Unlocks: - A ruins room containing a [Treasure Pod](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356126), a [Treasure Pod](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356125), and a [Research Drone](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356127)",
+    "coords": [
+      -0.9159878962964,
+      0.72662875914654
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b20f19b5-e40c-4513-8bf3-9c60be8a03be.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356141",
+    "mapId": "rainbow-island",
+    "category": "gordo-slime",
+    "title": "Saber Gordo",
+    "description": "Food Requirement: 50 Meat (Thundercluck Hens Count as 2 Meat) Location: In the open on top of a teleporter Drops: - x12 Saber Slimes - x1 Jar Unlocks: - [Powderfall Bluffs Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356142)",
+    "coords": [
+      -0.84905862807972,
+      0.90596953515272
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/406ddfac-0413-4291-8335-ca7033f23f5e.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-461329",
+    "mapId": "rainbow-island",
+    "category": "gordo-slime",
+    "title": "Sloomber Gordo",
+    "description": "Food Requirement: 30 meat, or 15 candied hens Location: In the open on the end of the path Drops: - 12 Sloomber Slimes - Jar Unlocks: - [Conservatory Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=461335)",
+    "coords": [
+      -0.73815302640153,
+      0.90747798140073
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/a5c1a6d2-fa00-45ca-a170-a94f5a1f22e0.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-461350",
+    "mapId": "rainbow-island",
+    "category": "gordo-slime",
+    "title": "Twin Gordo",
+    "description": "Food Requirement: 50 Fruit (Polaricherry Counts as 2 Fruit) Location: Behind the door Drops: - 12 Twin Slimes - Jar Unlocks: [Rainbow Fields Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=461349)",
+    "coords": [
+      -0.68487295246319,
+      0.8496728291619
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/74e9c5ce-0c8e-4cd0-b2ff-e7ab04a88c34.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485670",
+    "mapId": "rainbow-island",
+    "category": "gordo-slime",
+    "title": "Hyper Gordo",
+    "description": "Food Requirement: 30 veggies (turbo taters count as 2) Location: High up on the middle of the east wall Drops: - Unlock switch used for door puzzle Unlocks: - ??",
+    "coords": [
+      -0.61318193948779,
+      0.865964268963
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1f13a4f9-8bab-4d15-a3af-44614f912d64.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355813",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Tabby Plort Door",
+    "description": "Required Plort: Tabby Plort x1 Location: Underground inside a cave behind the [Phosphor Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355812) Unlocks: The path to the [Treasure Pod](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355820)",
+    "coords": [
+      -0.64897119998875,
+      0.68911798279444
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/721a6cdc-0207-40fd-bbcd-3584e45d1706.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355845",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Hunter Plort Door",
+    "description": "Required Plort: Hunter Plort Location: On a ledge up a cliff Unlocks: A shortcut to the [Starlight Strand Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355801)",
+    "coords": [
+      -0.72492246839511,
+      0.59604161854125
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/82386af5-47c5-4738-b3d1-b9b99651f707.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355909",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Honey Plort Door",
+    "description": "Required Plort: Honey Plort Location: In a small cave next to the water Unlocks: A cave that leads to a [Treasure Pod](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355910)",
+    "coords": [
+      -0.70475368854395,
+      0.5674912302736
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/a79acfba-769c-4189-8c9d-7ca5fa3505bf.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355912",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Rock Plort Door",
+    "description": "Required Plort: Rock Plort Location: At the end of a stream Unlocks: A cave that leads to a [Treasure Pod](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355910)",
+    "coords": [
+      -0.69041996356896,
+      0.55959518888928
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9e3616f0-0285-4ae6-9dff-406676ed4a8a.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355915",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Phosphor Plort Door",
+    "description": "Required Plort: Phosphor Plort Location: At the end of a cave tunnel past the [Honey Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355914) Unlocks: A path to the other part of the island",
+    "coords": [
+      -0.68178797713702,
+      0.57139282455041
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/a00ebf99-f332-46c8-ad7e-8ace38f96413.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355916",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Phosphor Plort Door",
+    "description": "Required Plort: Phosphor Plort Location: At the end of a cave tunnel past the [Honey Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355914) Unlocks: A path to the other part of the island",
+    "coords": [
+      -0.6674516201017,
+      0.5652127382275
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/05aa2f74-a36b-4f19-a59c-4d11276bab88.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355921",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Flutter Plort Door",
+    "description": "Required Plort: Flutter Plort Location: On a ledge up the cliff over the water Unlocks: A cave system that leads to a [Treasure Pod](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355922)",
+    "coords": [
+      -0.65535608179636,
+      0.5556110073787
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1d1049d0-b35c-48d0-821d-2dda0b2dc588.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355924",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Angler Plort Door",
+    "description": "Required Plort: Angler Plort Location: Inside a small tunnel behind a waterfall Unlocks: A cave system that leads to a [Treasure Pod](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355922)",
+    "coords": [
+      -0.67123475916458,
+      0.54822991063867
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/cb502d54-829e-4a1c-8ace-3519b574eaec.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355926",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Pink Plort Door",
+    "description": "Required Plort: Pink Plort Location: On a ledge half-way up a cliff Unlocks: A cave that leads to a [Treasure Pod](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355927)",
+    "coords": [
+      -0.69080415614619,
+      0.53784486379995
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ec6109a3-cfd7-4c43-b7d3-ba7388fd2401.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355944",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Hunter Plort Door",
+    "description": "Required Plort: Hunter Plort Location: At the end of the main path Unlocks: A small room containing a [Treasure Pod](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355947)",
+    "coords": [
+      -0.71209967136556,
+      0.52530864035111
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f1c08cca-e0ae-454d-88ee-45d74a9aefd0.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355948",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Rock Plort Door",
+    "description": "Required Plort: Rock Plort Location: On a lower ledge next to the water Unlocks: A cave the contains a [Hunter Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355949)",
+    "coords": [
+      -0.71487843990241,
+      0.49835351555687
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b22b1a90-3842-43d6-b23b-802d56f26ac5.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355949",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Hunter Plort Door",
+    "description": "Required Plort: Hunter Plort Location: Underground in a cave accessible from the [Rock Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355948) Unlocks: A cave that acts as a shortcut to another part of the island and contains a [Treasure Pod](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355946)",
+    "coords": [
+      -0.71307599544329,
+      0.50995093834143
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/23b69512-4fb1-49d4-8cdb-57b76e082036.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356076",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Flutter Plort Door",
+    "description": "Required Plort: Flutter Plort Location: Up the ledge on the ruins wall Unlocks: A small cave containing a [Treasure Pod](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356077)",
+    "coords": [
+      -0.70005298903641,
+      0.47646341712023
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/734899d6-20e0-4e96-95d8-cc4fa54ff1da.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356091",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Boom/Tabby/Batty Plort Door",
+    "description": "Required Plort: Boom Plort & Tabby Plort & Batty Plort Location: Underground inside a cave accessible from a large waterfall on the east side of the cliff Unlocks: A tunnel that leads to an [Ember Valley Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356092)",
+    "coords": [
+      -0.85947364568747,
+      0.7626314269575
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/cdf09813-5db5-4998-8ede-7683c1a4ef48.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356099",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Boom Plort Door",
+    "description": "Required Plort: x3 Boom Plort Location: Underground inside a cave accessible from the north side of a cliff Unlocks: A cave that contains a [Treasure Pod](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356100)",
+    "coords": [
+      -0.8002357633184,
+      0.75011765426196
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9bd5d8cd-1c67-48ef-825e-c582da8c50a1.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356104",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Batty Plort Door",
+    "description": "Required Plort: Batty Plort Location: Down a path from the teleporter on a ledge above the water Unlocks: A small cave containing a [Treasure Pod](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356105)",
+    "coords": [
+      -0.76457986563932,
+      0.71693756444193
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/0841ad07-a251-4a6d-9283-dd64a1946643.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356108",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Angler Plort Door",
+    "description": "Required Plort: Angler Plort Location: Above a ledge on the lower parts of the ruins Unlocks: A small ruins room containing a [Treasure Pod](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356109)",
+    "coords": [
+      -0.79582214355455,
+      0.67678069783901
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/79e2db3d-7fdb-426e-bdea-f6283c55264c.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-425340",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Slime Gate",
+    "description": "Location: Inside the ruins behind the [Boom Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356124). Only able to unlock after speaking with Viktor and using two radiant projectors to realign the beam. Unlocks: [The Grey Labyrinth Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425341)",
+    "coords": [
+      -0.93732906695234,
+      0.72723308497143
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ed1b2621-9466-4575-a5d8-7dca5ddbec98.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-425343",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Rock Plort Door",
+    "description": "Associated Statue(s): - [Rock Statue](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425348) Location: At the end of the hallway after exiting the [Ember Valley Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425342) Unlocks: [Rock Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425345)",
+    "coords": [
+      -0.64834356307935,
+      0.82952462307605
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/c16b9736-4c20-43c0-9b08-915cf99ed135.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-425344",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Boom Plort Door",
+    "description": "Associated Statue(s): - [Boom Statue](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425350) Location: Under the main area on a ledge over some lava Unlocks: [Rock Statue](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425349)",
+    "coords": [
+      -0.64593762159333,
+      0.83592369788329
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/826c84b5-351f-4c78-acef-8e9a947c391c.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-425345",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Rock Plort Door",
+    "description": "Associated Statue(s): - [Rock Statue](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425349) Location: Between the other two plort doors Unlocks: A shortcut from the west to east) / [Map Data Node](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425347)",
+    "coords": [
+      -0.65008431673064,
+      0.82955412428285
+    ],
+    "region": "rainbow-island",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-425346",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Rock Plort Door",
+    "description": "Associated Statue(s): - [Rock Statue](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425352) Location: Behind the second [Rock Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425345) Unlocks: A shortcut from the west to east / [Map Data Node](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425347)",
+    "coords": [
+      -0.65197259187715,
+      0.82959703512883
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f590eaed-5899-4ead-9653-e1a13eaec350.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-425375",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Sloomber/Shadow/Twin Plort Door",
+    "description": "Associated Statue(s): - [Sloomber Statue](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425378) - [Shadow Statue](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425384) - [Twin Statue](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=426302) Location: At the end of a walkway to the tower Unlocks: Room with a shadow plort door, teleporter, and stabilizing gate.",
+    "coords": [
+      -0.68268742898445,
+      0.83880615492869
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/4d78b875-43a0-4a8c-a022-faa08e2e77f1.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-425393",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Shadow Plort Door",
+    "description": "Location: On a ledge at the top of a walkway Required Plort: 60 Shadow Plorts Unlocks: A room with Stabilizing Gate",
+    "coords": [
+      -0.68903101277749,
+      0.8319728779158
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3bc9be45-c34e-4fcc-ba9a-ec2d050dff9d.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-461332",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Shadow Plort Door",
+    "description": "Required Plort: 25 Shadow Plort Unlocks: Power Chip",
+    "coords": [
+      -0.71022057329327,
+      0.80442520563859
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/82a68958-44f3-44df-ad71-fb6ce1aa566f.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-461333",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Shadow Plort Collector",
+    "description": "Required Plort: 60 Shadow Plort Unlocks: Storage Cell",
+    "coords": [
+      -0.71407504290303,
+      0.80923014329828
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/769ca7be-aec5-4786-9e1d-1240a20dd674.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-461340",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Shadow Plort Door",
+    "description": "Unlock Cost: 15 Shadow Plorts Unlocks: Shortcut from Sloomber area to The Aquarium's entry portal. Can only be unlocked from Sloomber side.",
+    "coords": [
+      -0.74603234075272,
+      0.8383110892235
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/0c5afcc5-2e07-46c4-8a64-0326abe6f3fa.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-461341",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Shadow Plort Door",
+    "description": "Required Plort: 60 Shadow Plorts Unlocks: Injector Module",
+    "coords": [
+      -0.75228839389194,
+      0.84623477139141
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/c3322055-91d4-4414-883f-e6922dff293f.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-461342",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Shadow Plort Door",
+    "description": "Required Plort: 25 Shadow Plorts Unlocks: Gold Twisted Tree Blueprint",
+    "coords": [
+      -0.75366707228713,
+      0.86683124448213
+    ],
+    "region": "rainbow-island",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-461344",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Angler/Boom Plort Door",
+    "description": "Opens door to terrarium-like room.",
+    "coords": [
+      -0.70739310601246,
+      0.81380986300472
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/5cf7f99c-10aa-4d35-930f-ba48ea9ec222.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-461345",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Rock Plort Door",
+    "description": "Plort Door localizado em rainbow-island.",
+    "coords": [
+      -0.71419471412159,
+      0.80434683615147
+    ],
+    "region": "rainbow-island",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-461346",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Batty Plort Door",
+    "description": "Required Plort: Batty Plort Location: On a ledge after climbing a tower and pressing two sets of buttons to open doors. It is also under a map node. Unlocks: Unlocks a path into a room with Rock Plort Door",
+    "coords": [
+      -0.70349799932677,
+      0.80097968230288
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3b4f6adc-0a90-44bd-af1d-1dda3ed6333d.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-461348",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Shadow Plort Door",
+    "description": "Required Plort: 25 Shadow Plorts Unlocks: Grey Labyrinth Portal",
+    "coords": [
+      -0.67217569119396,
+      0.83568416749424
+    ],
+    "region": "rainbow-island",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-461352",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Shadow Plort Door",
+    "description": "Plort Needed: 15 Shadow Plorts Loot: Stabilizer Flag",
+    "coords": [
+      -0.73576042272231,
+      0.84947513646627
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d12deefc-12f0-4289-9388-c8f1d04da298.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-461353",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Shadow Plort Door",
+    "description": "Plort Needed 15 Shadow Plorts Loot: Ancient Purple Oak Blueprint",
+    "coords": [
+      -0.71559091671071,
+      0.85786392623103
+    ],
+    "region": "rainbow-island",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-483345",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Shadow Plort Door",
+    "description": "Required Plort: 60 Shadow Plorts Unlocks: Regen Module",
+    "coords": [
+      -0.75808653749488,
+      0.90372612938684
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/965f1a0c-b4cf-4bf5-ba59-2c675f2d2ab0.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-483725",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Shadow Plort Door",
+    "description": "Required Plort: 25 Shadow Plort Unlocks: Aquarium",
+    "coords": [
+      -0.69882192895878,
+      0.79992267325743
+    ],
+    "region": "rainbow-island",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-484603",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Shadow Plort Collector",
+    "description": "Location: Inside the tower at the very top Plort Required 15 shadow plorts Unlocks - Blueprint: Young Cedaroak",
+    "coords": [
+      -0.69306091477571,
+      0.83977941408462
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/47cffaf9-3b74-4562-b260-34ed66a7a3ac.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-484604",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Shadow Plort Door",
+    "description": "Requires 25 shadow plorts Location: In front of a [Rock Plort Statue](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425349) Unlocks: Heart Cell",
+    "coords": [
+      -0.64958295491618,
+      0.82887581875607
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e49e0967-55bb-490c-9630-02e6e7c328d9.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485658",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Shadow Plort Door",
+    "description": "Location directly above [Rock Statue](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425352) Required Plort: 25 shadow plorts Unlocks Blueprint: Magma Fountain",
+    "coords": [
+      -0.65503705555469,
+      0.82981276105966
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d4c9909d-9273-41f9-ac59-553fd9256f97.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485659",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Shadow Plort Collector",
+    "description": "Plorts Required - 15 shadow plorts Location: to the left after reaching the top of the lavafall Unlocks: Blueprint: Potted Lava Plants",
+    "coords": [
+      -0.6468932704725,
+      0.84500317029227
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f7653d71-9573-4fd6-b959-7ed052927bf7.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485664",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Shadow Plort Door",
+    "description": "Location: Up some stairs hidden by leaves Plorts Required 60 Shadow plorts Unlocks: Angler Fountain",
+    "coords": [
+      -0.72048425604092,
+      0.84615923712632
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/364cf8f0-3016-49b1-bac0-179c7199e038.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485671",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Shadow Plort Collector",
+    "description": "Plorts Required 60 Shadow plorts Location: On a lily pad in a pond above the building Unlocks: Storage Cell",
+    "coords": [
+      -0.61910425699529,
+      0.86596426896114
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ded4618d-b0c3-493a-90bb-2d8bf6798a49.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485673",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Angler Plort Door",
+    "description": "Associated Statue(s): - [Angler Plort Statue](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=485672) Location: Down a corridor in the ice cave area Unlocks: a room with a hyper slime gordo",
+    "coords": [
+      -0.61605726755207,
+      0.85974224966809
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1a02fa1f-2795-4057-a83a-c81f59a21a03.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485675",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Boom Plort Door",
+    "description": "Associated Statue(s): - [Boom Statue](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=485676) Location: Down a hole at the end of the path after unlocking the Shadow Plort Door Unlocks: Shortcut between Terrarium and Lava Depths",
+    "coords": [
+      -0.63827374738787,
+      0.83425781370642
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1db84068-01a4-4e44-bc3a-e6fe3c25d7ff.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485677",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Shadow Plort Door",
+    "description": "Required Plorts: 15 Shadow Plorts Location: after unlocking the shadow plort collector above this Unlocks: Prismatic Flower Lamp Blueprint",
+    "coords": [
+      -0.63428262037399,
+      0.83631753133069
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/c7510939-6a11-41e9-ac3b-ea5f5a3edc4c.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485679",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Shadow Plort Collector",
+    "description": "Location: High up on a ledge Plorts Needed: 25 Shadow Plorts Unlocks: Trydro Turret Blueprint",
+    "coords": [
+      -0.62117364156603,
+      0.84800848527981
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/77dfce33-b020-4975-bdbe-b8ddd08595d8.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485681",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Shadow Plort Door",
+    "description": "25 Shadow plorts Location: up high hidden by leaves Unlocks: Blueprint: Dream Lantern II",
+    "coords": [
+      -0.63304986170019,
+      0.84804201886456
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f20923de-4a68-4111-b13a-ced9ce9616b9.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-504054",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Shadow Plort Door",
+    "description": "Required Plorts: 15 Shadow Plorts Location: Hallway ending in gold Unlocks: Shortcut to Lava Depths",
+    "coords": [
+      -0.63752783336682,
+      0.84605053147271
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/41ac181b-5e20-48ea-b268-d946f8deb65f.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-504055",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Shadow Plort Door",
+    "description": "Required plorts: - 60 shadow plorts Location: Behind a large slime statue in the lava walkways room. Unlocks: Storage cell",
+    "coords": [
+      -0.66023777322806,
+      0.84881544862898
+    ],
+    "region": "rainbow-island",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-504056",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Hunter Plort Door",
+    "description": "Associated Statue(s): - [Hunter Plort Statue](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=504057) Location: ?? Unlocks: ??",
+    "coords": [
+      -0.63424462749043,
+      0.86138339606843
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ae03cf28-0686-48c4-9a3c-37ffc7933d9d.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-504060",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Shadow Plort Collector",
+    "description": "Required Plort: 25 shadow plorts Location: Behind a wall on the right in the area with the Twin Gordo. Unlocks Unlocks: Gold Teleporter Blueprint",
+    "coords": [
+      -0.6805861484066,
+      0.85293403531583
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/16ed9bce-2749-489e-a91a-d07f2c0757cb.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-507219",
+    "mapId": "rainbow-island",
+    "category": "plort-door",
+    "title": "Shadow Plort Collector",
+    "description": "Required Plorts: 25 Location: Behind a Nullifier wall in a shallow pool of water Unlocks: Miniatures Dome",
+    "coords": [
+      -0.61809014741934,
+      0.87193390323631
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e1e1d094-9b5e-4c7d-8c3f-fd5af7a963bb.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-425348",
+    "mapId": "rainbow-island",
+    "category": "plort-statue",
+    "title": "Rock Plort Statue",
+    "description": "Required Plort: Rock Plort Associated Door: [Rock Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425343)",
+    "coords": [
+      -0.64845140240325,
+      0.83135509124727
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/07e6dac2-09c1-4ae3-be0a-14a5008c5d2e.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-425349",
+    "mapId": "rainbow-island",
+    "category": "plort-statue",
+    "title": "Rock Plort Statue",
+    "description": "Required Plort: Rock Plort Location: Under the ground, through Boom Plort door and Iron Gate. Associated Door: [Rock Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425345)",
+    "coords": [
+      -0.64836557171563,
+      0.82779349102911
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b998cf51-3606-4dc8-b272-33b4ac8ca60a.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-425350",
+    "mapId": "rainbow-island",
+    "category": "plort-statue",
+    "title": "Boom Plort Statue",
+    "description": "Required Plort: Boom Plort Location: Down the dangerous area on the left in a hallway. Place is reachable with a jetpack. Associated Door: [Boom Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425344)",
+    "coords": [
+      -0.63624445460923,
+      0.84017507634496
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/696f84aa-77cd-4f9c-93db-2f8c12391718.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-425352",
+    "mapId": "rainbow-island",
+    "category": "plort-statue",
+    "title": "Rock Statue",
+    "description": "Required Plort: Rock Plort Associated Door: [Rock Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425346)",
+    "coords": [
+      -0.6536114215852,
+      0.82961312669664
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/7b7a273f-9811-496b-90cc-48dca1eb8bd1.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-425378",
+    "mapId": "rainbow-island",
+    "category": "plort-statue",
+    "title": "Sloomber Plort Statue",
+    "description": "Required Plort: Sloomber Plort Associated Door: [Sloomber/Shadow/Twin Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425375)",
+    "coords": [
+      -0.68268742898445,
+      0.83515873987649
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1abac553-d976-4e69-88ce-1136c61fd675.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-425384",
+    "mapId": "rainbow-island",
+    "category": "plort-statue",
+    "title": "Shadow Statue",
+    "description": "Required Plort: Shadow Plort Associated Door: [Sloomber/Shadow/Twin Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425375)",
+    "coords": [
+      -0.69233549428395,
+      0.83956808571678
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/7c7d7d99-9e29-4ac0-a69a-32d84f2e7cca.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-426302",
+    "mapId": "rainbow-island",
+    "category": "plort-statue",
+    "title": "Twin Plort Statue",
+    "description": "Required Plort: Twin Plort Associated Door: [Sloomber/Shadow/Twin Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425375)",
+    "coords": [
+      -0.6986007267698,
+      0.83208300129411
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b8710c79-eeef-40ca-915e-32b91525c967.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-461343",
+    "mapId": "rainbow-island",
+    "category": "plort-statue",
+    "title": "Shadow Plort Collector",
+    "description": "Plort Needed 15 Shadow Plorts Loot Wall Lighting Blueprint",
+    "coords": [
+      -0.73762644287899,
+      0.82198872989504
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b29402b6-442c-4290-8d61-878261f477c0.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485666",
+    "mapId": "rainbow-island",
+    "category": "plort-statue",
+    "title": "Rock Statue",
+    "description": "Required Plort: 1 rock plort Associated Door: [Rock Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=461345)",
+    "coords": [
+      -0.71411776882516,
+      0.80365404408288
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d4a5ac49-7867-4674-b0fa-6571f548396f.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485672",
+    "mapId": "rainbow-island",
+    "category": "plort-statue",
+    "title": "Angler Plort Statue",
+    "description": "Required Plort: 1 Angler Plort Associated Door: [Angler Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=485673)",
+    "coords": [
+      -0.61498438394534,
+      0.85999971273662
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/7d7c9e7f-7f59-49cf-8589-d62f21a37425.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485676",
+    "mapId": "rainbow-island",
+    "category": "plort-statue",
+    "title": "Boom Statue",
+    "description": "Required Plort: Boom plort Associated Door: [Boom Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=485675)",
+    "coords": [
+      -0.63874581617478,
+      0.83515894029954
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/15c68d5b-b7c1-40c2-8ad4-7e14eda3440a.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-504057",
+    "mapId": "rainbow-island",
+    "category": "plort-statue",
+    "title": "Hunter Plort Statue",
+    "description": "Required Plort: Hunter Plort Associated Door: [Hunter Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=504056)",
+    "coords": [
+      -0.63273023668353,
+      0.86199003085461
+    ],
+    "region": "rainbow-island",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355796",
+    "mapId": "rainbow-island",
+    "category": "refinery-link",
+    "title": "Refinery Link",
+    "description": "Location: Next to a cliff that has slime statues along the cliff side",
+    "coords": [
+      -0.69367289543175,
+      0.6698557123659
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f4048f64-0b5c-45f5-8d80-3189c5a4a4a5.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355800",
+    "mapId": "rainbow-island",
+    "category": "teleporter",
+    "title": "Rainbow Fields Teleporter",
+    "description": "Teleports to: [Starlight Strand Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355801#L) Activates from: [Teleporter Activator](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355799#L)",
+    "coords": [
+      -0.71243969917768,
+      0.65080459438234
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355801",
+    "mapId": "rainbow-island",
+    "category": "teleporter",
+    "title": "Starlight Strand Teleporter",
+    "description": "Teleports to: [Rainbow Fields Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355800) Activates from: [Teleporter Activator](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355799)",
+    "coords": [
+      -0.72542118957136,
+      0.58956283282353
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355838",
+    "mapId": "rainbow-island",
+    "category": "teleporter",
+    "title": "Rainbow Fields Teleporter",
+    "description": "Teleports to: [Ember Valley Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355839#L) Activates from: [Teleporter Activator](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355837)",
+    "coords": [
+      -0.71597813761804,
+      0.70085663760473
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355839",
+    "mapId": "rainbow-island",
+    "category": "teleporter",
+    "title": "Ember Valley Teleporter",
+    "description": "Teleports to: [Rainbow Fields Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355838#L) Activates from: [Teleporter Activator](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355837)",
+    "coords": [
+      -0.76899678134762,
+      0.71501830597731
+    ],
+    "region": "Ember Valley",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355932",
+    "mapId": "rainbow-island",
+    "category": "teleporter",
+    "title": "Starlight Strand Teleporter",
+    "description": "Teleports to: [Rainbow Fields Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355933#L) Activates from: Bursting the [Ringtail Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355931)",
+    "coords": [
+      -0.65039813518527,
+      0.50113754260849
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355933",
+    "mapId": "rainbow-island",
+    "category": "teleporter",
+    "title": "Rainbow Fields Teleporter",
+    "description": "Teleports to: [Starlight Strand Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355932#L) Activates from: Bursting the [Ringtail Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355931) in the Starlight Strand",
+    "coords": [
+      -0.65082300837921,
+      0.64763421492286
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356086",
+    "mapId": "rainbow-island",
+    "category": "teleporter",
+    "title": "Ember Valley Teleporter",
+    "description": "Teleports to: [Rainbow Fields Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356087#L) Activates from: Bursting the [Tabby Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356085)",
+    "coords": [
+      -0.84729960030293,
+      0.80520060528116
+    ],
+    "region": "Ember Valley",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356087",
+    "mapId": "rainbow-island",
+    "category": "teleporter",
+    "title": "Rainbow Fields Teleporter",
+    "description": "Teleports to: [Ember Valley Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356086) Activates from: Bursting the [Tabby Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356085) in the Ember Valley",
+    "coords": [
+      -0.66392699463745,
+      0.73010252526723
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356092",
+    "mapId": "rainbow-island",
+    "category": "teleporter",
+    "title": "Ember Valley Teleporter",
+    "description": "Teleports to: [Powderfall Bluffs Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356093#L) Activates from: Automatically activated past the [Boom/Tabby/Batty Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356091)",
+    "coords": [
+      -0.87604003242612,
+      0.78117031550248
+    ],
+    "region": "Ember Valley",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356093",
+    "mapId": "rainbow-island",
+    "category": "teleporter",
+    "title": "Powderfall Bluffs Teleporter",
+    "description": "Teleports to: [Ember Valley Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356092#L) Activates from: Automatically activated after going through the [Ember Valley Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356092)",
+    "coords": [
+      -0.86483998567456,
+      0.84950884719073
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356142",
+    "mapId": "rainbow-island",
+    "category": "teleporter",
+    "title": "Powderfall Bluffs Teleporter",
+    "description": "Teleports to: [Ember Valley Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356143#L) Activates from: Bursting the [Saber Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356141)",
+    "coords": [
+      -0.8473438324333,
+      0.90605389290535
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356143",
+    "mapId": "rainbow-island",
+    "category": "teleporter",
+    "title": "Ember Valley Teleporter",
+    "description": "Teleports to: [Powderfall Bluffs Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356142#L) Activates from: Bursting the [Saber Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356141) in the Powderfall Bluffs",
+    "coords": [
+      -0.85784554481543,
+      0.6621743847364
+    ],
+    "region": "Ember Valley",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-425341",
+    "mapId": "rainbow-island",
+    "category": "teleporter",
+    "title": "The Grey Labyrinth Teleporter",
+    "description": "Teleports to: [Ember Valley Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425342#L)",
+    "coords": [
+      -0.94110667705598,
+      0.72697178956928
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ce279e2b-33d6-4302-af3e-235e21b18dff.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-425342",
+    "mapId": "rainbow-island",
+    "category": "teleporter",
+    "title": "Ember Valley Teleporter",
+    "description": "Teleports to: [The Grey Labyrinth Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425341)",
+    "coords": [
+      -0.63440917076829,
+      0.82976732395736
+    ],
+    "region": "rainbow-island",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-461335",
+    "mapId": "rainbow-island",
+    "category": "teleporter",
+    "title": "Terrarium Teleporter",
+    "description": "Teleports to: The Terrarium Activates from: Bursting the [Sloomber Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=461329)",
+    "coords": [
+      -0.73839873075337,
+      0.9068652808602
+    ],
+    "region": "rainbow-island",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-461337",
+    "mapId": "rainbow-island",
+    "category": "teleporter",
+    "title": "Grey Labyrinth Teleporter",
+    "description": "Teleports to: Grey Labyrinth Activates from: [Starlight Strands](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=461338)",
+    "coords": [
+      -0.73065722298685,
+      0.83163947740337
+    ],
+    "region": "rainbow-island",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-461338",
+    "mapId": "rainbow-island",
+    "category": "teleporter",
+    "title": "Grey Labyrinth Teleporter",
+    "description": "Teleports to: [Grey Labyrinth Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=461337#L) Activates from: Cave behind the [Flutter Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355938), after placing 2 Radiant Projectors to unlock the door mechanism.",
+    "coords": [
+      -0.67843098559075,
+      0.46558606259737
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-461349",
+    "mapId": "rainbow-island",
+    "category": "teleporter",
+    "title": "Grey Labyrinth Teleporter",
+    "description": "Teleports to: [Rainbow Fields Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=461351) Activates from: Bursting the [Twin Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=461350)",
+    "coords": [
+      -0.68438024754502,
+      0.85030459904617
+    ],
+    "region": "rainbow-island",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-461351",
+    "mapId": "rainbow-island",
+    "category": "teleporter",
+    "title": "Rainbow Fields Teleporter",
+    "description": "Teleports to: [Grey Labyrinth Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=461349#L) Activates from: Bursting the [Twin Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=461350)",
+    "coords": [
+      -0.71066758331588,
+      0.67799855493796
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f7110f84-e00d-482a-bc14-fc077cbb7246.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485660",
+    "mapId": "rainbow-island",
+    "category": "teleporter",
+    "title": "Dream Land Teleporter",
+    "description": "Teleports to: [Dream Land](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=461335)",
+    "coords": [
+      -0.64149457529916,
+      0.86813664424908
+    ],
+    "region": "rainbow-island",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355799",
+    "mapId": "rainbow-island",
+    "category": "teleporter-activator",
+    "title": "Teleporter Activator",
+    "description": "Activates: - [Rainbow Fields Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355800#L) - [Starlight Strand Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355801#L)",
+    "coords": [
+      -0.69454677872699,
+      0.65063319591647
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355837",
+    "mapId": "rainbow-island",
+    "category": "teleporter-activator",
+    "title": "Teleporter Activator",
+    "description": "Activates: [Rainbow Fields Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355838) / [Ember Valley Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355839)",
+    "coords": [
+      -0.69949313031799,
+      0.70291274309722
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-425354",
+    "mapId": "rainbow-island",
+    "category": "gigi-node",
+    "title": "Gigi Node",
+    "description": "Location: Inside a destroyed part of the wall near down the hallway",
+    "coords": [
+      -0.64665194364684,
+      0.83147925035738
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/54a4b4d6-c183-494f-9e00-287403435a15.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-425356",
+    "mapId": "rainbow-island",
+    "category": "gigi-node",
+    "title": "Gigi Node",
+    "description": "Location: On top of a ledge next to some stone bricks",
+    "coords": [
+      -0.67237251291226,
+      0.82873295659306
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/a4d84203-4ae4-4f80-aa14-2542081c39c9.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-425364",
+    "mapId": "rainbow-island",
+    "category": "gigi-node",
+    "title": "Gigi Node",
+    "description": "Location: In the corner of a ramp and a building",
+    "coords": [
+      -0.68693604807976,
+      0.82880793853678
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9405e1e0-1493-4f8d-842f-60f8133a71c4.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-425381",
+    "mapId": "rainbow-island",
+    "category": "gigi-node",
+    "title": "Gigi Node",
+    "description": "Location: On top of a high walkway next to a pile of tools Unlocks - Disruption Detector - Blueprint: Disruption Detector",
+    "coords": [
+      -0.68797433872354,
+      0.84498421183915
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/95fe3dba-088f-486b-99a8-b3de4045c0a0.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-425390",
+    "mapId": "rainbow-island",
+    "category": "gigi-node",
+    "title": "Gigi Node",
+    "description": "Location: Next to a shadow plort door",
+    "coords": [
+      -0.68997515035076,
+      0.83291691584225
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/4a77588d-191c-4d2e-9f90-13090e8ce606.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-461336",
+    "mapId": "rainbow-island",
+    "category": "gigi-node",
+    "title": "Gigi Node",
+    "description": "Location: At the end of the hallway",
+    "coords": [
+      -0.72905774061979,
+      0.80843313393243
+    ],
+    "region": "rainbow-island",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-484188",
+    "mapId": "rainbow-island",
+    "category": "gigi-node",
+    "title": "Gigi Node",
+    "description": "Location: Inside tower containing the spinning twin plort statue.",
+    "coords": [
+      -0.69774180650683,
+      0.83119814573867
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/280ea147-c95d-442e-8bb1-b1b7700ee464.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-484601",
+    "mapId": "rainbow-island",
+    "category": "gigi-node",
+    "title": "Gigi Node",
+    "description": "Location: At the end of the path after unlocking the shadow door",
+    "coords": [
+      -0.7397039284626,
+      0.8375324006935
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2b435c9a-86f0-4d5c-9bda-fc98b0d43aca.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485655",
+    "mapId": "rainbow-island",
+    "category": "gigi-node",
+    "title": "Gigi Node",
+    "description": "Location: right after entering the prismacore",
+    "coords": [
+      -0.68444580210999,
+      0.91832266484266
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/651445b4-0d66-42ec-91df-2e71d4d2da81.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485657",
+    "mapId": "rainbow-island",
+    "category": "gigi-node",
+    "title": "Gigi Node",
+    "description": "Location: At the bottom of a pit",
+    "coords": [
+      -0.6840821758482,
+      0.85794335614874
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3fdb74ee-1f0c-4025-984a-3f9c8542ac0f.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485661",
+    "mapId": "rainbow-island",
+    "category": "gigi-node",
+    "title": "Gigi Node",
+    "description": "Location: At the end of a raised path in front of two leaning trees",
+    "coords": [
+      -0.71949838031583,
+      0.89556629797539
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/337d4c6c-c005-40a9-b997-0c65d631f262.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485663",
+    "mapId": "rainbow-island",
+    "category": "gigi-node",
+    "title": "Gigi Node",
+    "description": "Location: In a corner under fairy lights",
+    "coords": [
+      -0.72012400953014,
+      0.87065713322359
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/fd8d2bb8-e8f7-42b8-95c3-a8c0c28fa63d.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485667",
+    "mapId": "rainbow-island",
+    "category": "gigi-node",
+    "title": "Gigi Node",
+    "description": "Location: Next to some science equipment",
+    "coords": [
+      -0.65064183461797,
+      0.86127486461238
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/47c16c41-8022-4215-a1a1-e3dca4550fd6.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485668",
+    "mapId": "rainbow-island",
+    "category": "gigi-node",
+    "title": "Gigi Node",
+    "description": "Location: In between two tall trees up high on a ledge",
+    "coords": [
+      -0.62983309308694,
+      0.86862471550101
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/dd8d815a-71bd-4610-8e6e-dda59eb76f14.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485669",
+    "mapId": "rainbow-island",
+    "category": "gigi-node",
+    "title": "Gigi Node",
+    "description": "Location: Up on a cliff",
+    "coords": [
+      -0.61318193948779,
+      0.86394747762344
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/71d27b36-e7ac-4098-bbbd-e9b99199493b.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485680",
+    "mapId": "rainbow-island",
+    "category": "gigi-node",
+    "title": "Gigi Node",
+    "description": "Location: Next to shadow plort collector that is covered in gold",
+    "coords": [
+      -0.63815678766909,
+      0.84641141407157
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/592a3013-e2e8-4b23-b3d0-50e6b8c4c271.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355794",
+    "mapId": "rainbow-island",
+    "category": "map-data-node",
+    "title": "Map Data Node",
+    "description": "Location: Next to a big rock near the edge of a ledge over the water",
+    "coords": [
+      -0.68322863125172,
+      0.66227203546703
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/27d8bb42-d8a4-47e6-9fb1-94462a17cf15.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355795",
+    "mapId": "rainbow-island",
+    "category": "map-data-node",
+    "title": "Map Data Node",
+    "description": "Location: Near the edge of the top of a cliff",
+    "coords": [
+      -0.70096935348735,
+      0.67792552020649
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/4e62a516-58d6-4a70-aa08-2dbd1e14b7b0.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355846",
+    "mapId": "rainbow-island",
+    "category": "map-data-node",
+    "title": "Map Data Node",
+    "description": "Location: On the edge of a high ledge on an island",
+    "coords": [
+      -0.72562473671292,
+      0.61188816978894
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/770a07c4-f840-4b35-bb61-9aa2d7016178.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355848",
+    "mapId": "rainbow-island",
+    "category": "map-data-node",
+    "title": "Map Data Node",
+    "description": "Location: On top of a ruin ledge between two ruin walls",
+    "coords": [
+      -0.66873371601045,
+      0.47537317854714
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/13a0c594-cd60-4f2e-81e3-f91803218efa.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355849",
+    "mapId": "rainbow-island",
+    "category": "map-data-node",
+    "title": "Map Data Node",
+    "description": "Location: On a ledge next to a rock",
+    "coords": [
+      -0.68868367318143,
+      0.55537510468122
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/cc76ee49-85d1-4c1b-aa00-35192a7bc3d5.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356082",
+    "mapId": "rainbow-island",
+    "category": "map-data-node",
+    "title": "Map Data Node",
+    "description": "Location: On a ledge up a cliff in front of a large fossilized shell",
+    "coords": [
+      -0.81961609891897,
+      0.73640352276709
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/86aa9981-811a-4bda-89a3-f91ddb30ccbf.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356083",
+    "mapId": "rainbow-island",
+    "category": "map-data-node",
+    "title": "Map Data Node",
+    "description": "Location: On a ledge overlooking a pit and a pond across from a waterfall",
+    "coords": [
+      -0.84483996406107,
+      0.77625555179303
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1cdb96a9-721c-4081-b4c2-b518302d4776.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356084",
+    "mapId": "rainbow-island",
+    "category": "map-data-node",
+    "title": "Map Data Node",
+    "description": "Location: On top of a plateau above the lava",
+    "coords": [
+      -0.88763177934652,
+      0.714904593901
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3aa7ff4e-efed-45bf-80d2-61a756022850.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356137",
+    "mapId": "rainbow-island",
+    "category": "map-data-node",
+    "title": "Map Data Node",
+    "description": "Location: On a grass ledge near some trees over the water",
+    "coords": [
+      -0.88462436773241,
+      0.91578604224233
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/8539b6ee-6082-4dac-beb5-acdc2a710998.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356138",
+    "mapId": "rainbow-island",
+    "category": "map-data-node",
+    "title": "Map Data Node",
+    "description": "Location: On an ice cube next to a patch of deep snow",
+    "coords": [
+      -0.83741748907059,
+      0.88943929074711
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/4c3ff05e-6d64-4105-9c90-aa4ebd08b7e0.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-425347",
+    "mapId": "rainbow-island",
+    "category": "map-data-node",
+    "title": "Map Data Node",
+    "description": "Location: In a small hallway after opening the second [Rock Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=425345)",
+    "coords": [
+      -0.65111428499239,
+      0.8282667986863
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/599a7780-e505-4f4d-af8c-a8e8b07da0e1.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-425359",
+    "mapId": "rainbow-island",
+    "category": "map-data-node",
+    "title": "Map Data Node",
+    "description": "Location: Inside a tower on a ledge, accessible by heading through the hole in the upper part of the tower",
+    "coords": [
+      -0.68290919065507,
+      0.83007173633415
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/507cdcc1-c30f-45c2-973b-cbf909a3923d.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-461330",
+    "mapId": "rainbow-island",
+    "category": "map-data-node",
+    "title": "Map Data Node",
+    "description": "Location: Up the hill to the south of the Sloomber Gordo",
+    "coords": [
+      -0.73692247342686,
+      0.90269559257069
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/5d4f3229-d928-4728-b886-edcb019056ac.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-461331",
+    "mapId": "rainbow-island",
+    "category": "map-data-node",
+    "title": "Map Data Node Dream Zone",
+    "description": "Located to the left of the Shadow Plort Door after the maze.",
+    "coords": [
+      -0.75239851634331,
+      0.8451590948478
+    ],
+    "region": "rainbow-island",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-461347",
+    "mapId": "rainbow-island",
+    "category": "map-data-node",
+    "title": "Map Data Node",
+    "description": "Accessed by scaling the area to reach the platform just above the Batty Plort Door, roughly halfway up the large open room. Reveals map for Grey Labyrinth Aquarium.",
+    "coords": [
+      -0.70150648623044,
+      0.80200363200336
+    ],
+    "region": "rainbow-island",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-484598",
+    "mapId": "rainbow-island",
+    "category": "map-data-node",
+    "title": "Map Data Node",
+    "description": "Location: At the top of a cliff",
+    "coords": [
+      -0.62826956961752,
+      0.84863765917785
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6d274f7c-4a5b-4b85-bae6-8b5253d28222.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485656",
+    "mapId": "rainbow-island",
+    "category": "map-data-node",
+    "title": "Activator",
+    "description": "Location: At the bottom of a pit at the end of the room with the [Twin Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=461350). Also clears the clouds from the bottom of this area.",
+    "coords": [
+      -0.68296637689619,
+      0.8584582825118
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/5f3c7d90-a427-44ff-bee8-f90547f4fb9f.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485674",
+    "mapId": "rainbow-island",
+    "category": "map-data-node",
+    "title": "Map Data Node",
+    "description": "Location: Next to a tree up on a cliff after unlocking the angler plort door",
+    "coords": [
+      -0.61348234689791,
+      0.8680668800702
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/aea2f55e-905d-4891-8c35-005137be120b.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355547",
+    "mapId": "rainbow-island",
+    "category": "research-drone",
+    "title": "Research Drone",
+    "description": "Location: On a ledge up a cliff near the tunnel entrance",
+    "coords": [
+      -0.60471109646511,
+      0.71947723029109
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/0f7c56dc-4cfd-4b96-8cd4-453fdb040dc9.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355548",
+    "mapId": "rainbow-island",
+    "category": "research-drone",
+    "title": "Research Drone",
+    "description": "Location: On top of the cliff over the tunnel entrance",
+    "coords": [
+      -0.60780100125018,
+      0.70737604140402
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/10913b37-dc52-4c9d-9f93-b0fbb26d2a21.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355621",
+    "mapId": "rainbow-island",
+    "category": "research-drone",
+    "title": "Research Drone",
+    "description": "Location: On top of a stone arch near a plot",
+    "coords": [
+      -0.5622578438599,
+      0.738037349317
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1dd80c1e-f695-43f7-804d-b8f4572f6672.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355775",
+    "mapId": "rainbow-island",
+    "category": "research-drone",
+    "title": "Research Drone",
+    "description": "Location: On the edge of an island next to a rock",
+    "coords": [
+      -0.53228974342309,
+      0.67424350445958
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/31046ab1-4955-4f76-8149-8a70b53321ca.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355779",
+    "mapId": "rainbow-island",
+    "category": "research-drone",
+    "title": "Research Drone",
+    "description": "Location: On top of a mushroom growing on the side of the central pillar of a cave",
+    "coords": [
+      -0.59034538880093,
+      0.64594977540256
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6447e618-45ec-4892-b260-78cf0bb7b106.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355797",
+    "mapId": "rainbow-island",
+    "category": "research-drone",
+    "title": "Research Drone",
+    "description": "Location: Next to a cliff wall near a [Refinery Link](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355796) and a tunnel entrance",
+    "coords": [
+      -0.69307208061207,
+      0.66736679187656
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f2250ba5-1b34-4604-b68d-5490afcbe488.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355827",
+    "mapId": "rainbow-island",
+    "category": "research-drone",
+    "title": "Research Drone",
+    "description": "Location: On a small ledge next to a tree",
+    "coords": [
+      -0.6756106811078,
+      0.68915629758449
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/30b64f97-a916-411f-a688-e36c39aad197.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355896",
+    "mapId": "rainbow-island",
+    "category": "research-drone",
+    "title": "Research Drone",
+    "description": "Location: On a small ledge at the end of a path next to the top of a waterfall",
+    "coords": [
+      -0.71282177326506,
+      0.55933770912384
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/26c9ed90-2c2c-4435-8d61-ebc72b61756a.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355913",
+    "mapId": "rainbow-island",
+    "category": "research-drone",
+    "title": "Research Drone",
+    "description": "Location: On a ledge past a rock arch near a waterfall",
+    "coords": [
+      -0.67363850482721,
+      0.55680896182092
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/7fbdb041-5e20-4457-8904-256925bfe7d5.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355925",
+    "mapId": "rainbow-island",
+    "category": "research-drone",
+    "title": "Research Drone",
+    "description": "Location: On a small ledge under a tree",
+    "coords": [
+      -0.68737092860752,
+      0.5421362076316
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/37b984ee-d37a-48c0-af61-63badc41ad81.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355929",
+    "mapId": "rainbow-island",
+    "category": "research-drone",
+    "title": "Research Drone",
+    "description": "Location: On a small ledge on top of a cliff next to a rock",
+    "coords": [
+      -0.64344726737411,
+      0.52251101107474
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/37db67cc-9432-4eba-9644-8a22567e22e8.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355940",
+    "mapId": "rainbow-island",
+    "category": "research-drone",
+    "title": "Research Drone",
+    "description": "Location: In the middle of the cave next to a rock and some equipment underneath the [Flutter Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355938)",
+    "coords": [
+      -0.68154602459819,
+      0.47688137263204
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ac6b484e-227e-4de0-901e-f55fbff9d368.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355943",
+    "mapId": "rainbow-island",
+    "category": "research-drone",
+    "title": "Research Drone",
+    "description": "Location: On a mushroom in the open",
+    "coords": [
+      -0.71041524410305,
+      0.51299244217236
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/278731df-1046-44fa-9f4c-c25b627694b2.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356088",
+    "mapId": "rainbow-island",
+    "category": "research-drone",
+    "title": "Research Drone",
+    "description": "Location: At the edge of the plateau island to the side of the [Ember Valley Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356086) / [Tabby Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356085)",
+    "coords": [
+      -0.84436850838125,
+      0.80639355126786
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d3c4c30e-bfbe-44a4-88fe-444307c995a5.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356107",
+    "mapId": "rainbow-island",
+    "category": "research-drone",
+    "title": "Research Drone",
+    "description": "Location: On a rock next to a flower bed on the lower part of the ruins",
+    "coords": [
+      -0.79093123338421,
+      0.68304475254646
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6fa6f62c-6f16-4c41-a69e-a4e9ba9e6576.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356111",
+    "mapId": "rainbow-island",
+    "category": "research-drone",
+    "title": "Research Drone",
+    "description": "Location: In the open at the edge of a ledge",
+    "coords": [
+      -0.8202305417436,
+      0.72550163925254
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/76b4493e-a0e2-42d6-8cb9-7accc4460cd3.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356119",
+    "mapId": "rainbow-island",
+    "category": "research-drone",
+    "title": "Research Drone",
+    "description": "Location: Underground in a cave on a ledge protruding off a central rock pillar",
+    "coords": [
+      -0.85408535948045,
+      0.69523295633117
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/13599c87-6499-4dda-a0fa-fc7c264e670b.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356127",
+    "mapId": "rainbow-island",
+    "category": "research-drone",
+    "title": "Research Drone",
+    "description": "Location: Inside the room past a [Boom Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356124) on a ruin stone",
+    "coords": [
+      -0.92199604449337,
+      0.72431151631918
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/8972cb15-2013-42aa-bf3e-469e56749eb6.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356128",
+    "mapId": "rainbow-island",
+    "category": "research-drone",
+    "title": "Research Drone",
+    "description": "Location: On a ledge up a cliff underneath a large rock overhang",
+    "coords": [
+      -0.88797669648372,
+      0.70619997476206
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2759dd40-2343-4e7b-a79b-0ffa08fdce4d.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356139",
+    "mapId": "rainbow-island",
+    "category": "research-drone",
+    "title": "Research Drone",
+    "description": "Location: On top of a snow pile at the very edge of a ledge over the water",
+    "coords": [
+      -0.83269961936105,
+      0.88990654346985
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/5fc4506e-c3a5-4a9d-8a12-2472d468671d.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356160",
+    "mapId": "rainbow-island",
+    "category": "research-drone",
+    "title": "Research Drone",
+    "description": "Location: Underground on a small ledge next to a large cave opening",
+    "coords": [
+      -0.85807649729793,
+      0.859504526194
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/bbffa503-a0f0-4d42-b3ea-fdd0a3eb0ad1.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356168",
+    "mapId": "rainbow-island",
+    "category": "research-drone",
+    "title": "Research Drone",
+    "description": "Location: Underground in a small alcove from the glowing flower cave",
+    "coords": [
+      -0.84042083549531,
+      0.8885413298668
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/737727be-6578-4248-abf3-c607d0e12388.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356173",
+    "mapId": "rainbow-island",
+    "category": "research-drone",
+    "title": "Research Drone",
+    "description": "Location: At the end of a side path near the edge of a cliff",
+    "coords": [
+      -0.88534402842748,
+      0.87443043081612
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/bf2ff697-451d-4e18-be77-945a5e1cfffb.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355620",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a small ledge up a cliff Contents: - Blueprint: Meat Flag",
+    "coords": [
+      -0.61287745767888,
+      0.72421973357054
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b9c19c3a-ceb3-41ea-a9c0-c6cce3bd3e33.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355774",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On top of the tallest pillar just past the archway Contents: - Blueprint: Fruit Flag",
+    "coords": [
+      -0.54301857948175,
+      0.67776231775416
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e6f98df7-76ae-406a-882d-8e428f0cd5ec.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355781",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a rock on top of a ledge on a cliff over the water Contents: - Blueprint: Veggie Flag",
+    "coords": [
+      -0.57502068298615,
+      0.62713305571937
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3150a272-4ed4-48b7-97a7-79b54be73cab.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355802",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: In a crevice in a cliff near a rock arch Contents: - Blueprint: Swing",
+    "coords": [
+      -0.71381299019362,
+      0.64848731475769
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/633ec6f2-1aac-4717-928f-a6acff49138d.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355803",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: In a lower cave on the ocean level against a cave wall Contents: - Power Chip",
+    "coords": [
+      -0.69201199532043,
+      0.66179020175764
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9f41a3db-8379-4bbb-ae6e-f0584f1ebdeb.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355808",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: In a cave underneath the teleporter area Contents: - Blueprint: Pink Warp Depot",
+    "coords": [
+      -0.64748655851812,
+      0.64741704677485
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/aa7898cf-03e0-4da2-9d6a-1762e66428cb.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355809",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ledge on an island near the teleporter area Contents: - Blueprint: Beach Umbrella",
+    "coords": [
+      -0.64779968203834,
+      0.63874790885029
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/fa634a7a-6060-4d94-866e-4533628014ea.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355810",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: At the base of a mountain on a ledge Contents: - Blueprint: Large Pink Bonsai",
+    "coords": [
+      -0.67775459231538,
+      0.67779829392234
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/950ab592-00af-4b5b-a415-dcab7334cb08.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355811",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ledge up a mountain Contents: - Blueprint: #1 Slime Stage",
+    "coords": [
+      -0.67831361021425,
+      0.67549918099409
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/94f2428b-1842-424a-bd06-d5db0e725cd3.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355820",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Underground past the [Tabby Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355813) Contents: - Tank Liner",
+    "coords": [
+      -0.65394937992241,
+      0.68954710517824
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/01a5f1f7-7221-4571-b4a9-46ca3f405439.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355828",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: In a small alcove in a cliff Contents: - Heart Cell",
+    "coords": [
+      -0.66537870509214,
+      0.70172790218707
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/58e8fd37-6436-4be5-a39c-d73db9130cbd.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355829",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Wedged in-between two rocks near the top of a cliff Contents: - Blueprint: Small Boulder",
+    "coords": [
+      -0.67369987296428,
+      0.70537895935898
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/c978424e-01a5-450d-92b9-2da0d432dbf4.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355831",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: At the bottom of the canyon next to the ledge that has a tunnel entrance Contents: - Blueprint: Hydro Turret",
+    "coords": [
+      -0.66410061123537,
+      0.71918430466857
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/22fadd5f-2451-4a0b-86d8-cb121e6273a7.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355833",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ledge next to a tunnel entrance Contents: - Blueprint: Conservatory Bench",
+    "coords": [
+      -0.66933628321377,
+      0.73317358316591
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/29cc45a9-aec0-4342-ba37-7ec3e9759ac4.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355834",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On top of a cliff next to a slime statue Contents: - Blueprint: Boombox",
+    "coords": [
+      -0.66277642683349,
+      0.75212861395171
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9eb96cd7-86b4-41d5-809d-8b643306d341.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355840",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ledge over the water past the path down from the teleporter Contents: - Blueprint: Emerald Cypress Cluster",
+    "coords": [
+      -0.72566087569291,
+      0.70340177812638
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/19d9b22b-0a82-4248-bdbb-416073ea6d11.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355842",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a cliff surrounded by bushes and a tree Contents: - Blueprint: Overjoyed Statue",
+    "coords": [
+      -0.69213644008184,
+      0.6882056219475
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/759e73c5-1c90-4a81-b730-80e86d0c12e5.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355843",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: In a small cave underneath a rock arch Contents: - Blueprint: Emerald Cypress",
+    "coords": [
+      -0.70432439784534,
+      0.67927986595062
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/73872024-6e58-4708-ae88-65fe573d5eaf.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355844",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ledge of the stone ruins above the teleporter Contents: - Blueprint: Cheerful Statue",
+    "coords": [
+      -0.72904234144787,
+      0.59021955953284
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f16e9eb5-f536-44a6-bd95-974b5e1f9107.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355850",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: In the corner of a rock structure near the water Contents: - Blueprint: Beach Lantern",
+    "coords": [
+      -0.75657483276328,
+      0.60577665194535
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/abc9063f-c095-49c2-8661-84845e6a0359.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355857",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Under a ruin arch accessible from a lower ledge above the water Contents: - Blueprint: Trellis Arch",
+    "coords": [
+      -0.72567781636616,
+      0.62392875661037
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/fd83278a-cee6-44d2-8966-764650df7e59.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355863",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ledge on a cliff over the water next to a group of coral columns Contents: - Blueprint: Coastal Rock Pillar",
+    "coords": [
+      -0.70272724159926,
+      0.60270577699367
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/3f4afa2c-eb42-459c-8489-53e4e4b3aac0.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355908",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On the highest ledge over the water behind a ruin arch Contents: - Blueprint: Easy Breezy Fan",
+    "coords": [
+      -0.72827129718786,
+      0.54577709098349
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/de85b44a-7a2b-4faa-ae21-e64ee03787bb.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355910",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Past the [Honey Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355909) or the [Rock Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355912) against a cave wall Contents: - Storage Cell",
+    "coords": [
+      -0.6989172017274,
+      0.56156920023786
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/703df112-9636-4b9d-bc95-940883806d07.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355911",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ledge up a cliff underneath a large root Contents: - Blueprint: Violet Warp Depot",
+    "coords": [
+      -0.69685726520709,
+      0.5593377090994
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/cd9d0328-2186-4191-ad33-f9016ceb2f9c.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355917",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: At the end of a cave path past the [Honey Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355914) next to the [Phosphor Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355916) statue Contents: - Blueprint: Tall Pink Coral Columns",
+    "coords": [
+      -0.66565180770172,
+      0.56589993102524
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/13b74a09-4140-49e3-a43f-3d7e46196040.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355918",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ledge up a cliff between two rocks Contents: - Blueprint: Veggie Slime Bait",
+    "coords": [
+      -0.669685850061,
+      0.57817975482725
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ac73a5a9-2e20-4ec2-919d-161e3bff5221.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355919",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Underground in a cave next to a stream just above the water Contents: - Tank Liner",
+    "coords": [
+      -0.67363406171501,
+      0.57328765257562
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e653b34b-d47d-49cd-b8ed-1d00f3db32a5.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355920",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On top of a cliff above an island past a rock arch Contents: - Blueprint: Mossy Hen Statue",
+    "coords": [
+      -0.64297803085938,
+      0.56479445207185
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/bfbb5337-5205-426f-9012-29566c394867.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355922",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Underground in a small corner past the [Flutter Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355921) Contents: - Blueprint: Cave Pillar",
+    "coords": [
+      -0.65801560878774,
+      0.54170695529292
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/08adf91e-1575-4950-be87-14d611df8c03.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355923",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: In the pond above the waterfall up the cliff Contents: - Blueprint: Wide Trellis",
+    "coords": [
+      -0.66402498133274,
+      0.55260707376495
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/587daf0b-6886-4228-bd77-c528415dc347.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355927",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Underground in the corner of a ledge in the cave past the [Pink Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355926) Contents: - Blueprint: Root Tangle",
+    "coords": [
+      -0.68307939418398,
+      0.53355351695292
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/c939aea7-e135-4732-a3d9-b74339981b9c.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355928",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On top of a cliff surrounded by roots Contents: - Dash Boot Module",
+    "coords": [
+      -0.68599763759224,
+      0.5292621671118
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d0bdc836-fb4f-4f8c-8d98-a018f8fcb251.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355930",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: In a pond under a tree on a ledge up a cliff Contents: - Blueprint: Golden Flutter Statue",
+    "coords": [
+      -0.65537773307079,
+      0.51701807303952
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/dcd4a8ec-1008-4f50-b9c7-7755a653194f.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355934",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On the top of a hill up a cliff next to a rock Contents: - Tank Liner",
+    "coords": [
+      -0.62533699210479,
+      0.49178482866158
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6b345a1f-d0c2-4a74-874c-64f2148d68ed.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355936",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Underground against a pillar in a cave near the [Angler Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355935) Contents: - Blueprint: Mushroom Planter",
+    "coords": [
+      -0.6375249498673,
+      0.49058324317826
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f5c800df-d4cc-428a-96fc-b69ccde99d15.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355937",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: In a small tunnel accessible from a hole behind a slime statue Contents: - Blueprint: Spring Pad",
+    "coords": [
+      -0.66659611867641,
+      0.46907104611297
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/64734942-5d44-48e6-8729-966845df819a.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355939",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: At the back of the cave underneath the [Flutter Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355938) Contents: - Blueprint: Starlight Strand Portal",
+    "coords": [
+      -0.68249016217055,
+      0.47147422443776
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/05efdc85-a5d1-4172-9c14-fc02644f06b8.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355941",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ledge up a cliff Contents: - Blueprint: Starbloom Flowers",
+    "coords": [
+      -0.67330627850464,
+      0.5028012930419
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/8dfe184a-94c3-49be-823b-1b7dd3241aea.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355942",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: In the corner of a ledge up a cliff behind a rounded ruin wall Contents: - Blueprint: Azure Mangrove",
+    "coords": [
+      -0.69293130845159,
+      0.49914409299551
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6d7fb0cc-dece-432f-949d-363a32474047.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355946",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Underground in a cave behind the [Hunter Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355945) or the [Hunter Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355949) Contents: - Blueprint: Dainty Teacup",
+    "coords": [
+      -0.71495890617604,
+      0.52243343247538
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/074879f8-a202-4f01-97cb-f4a9104d3c92.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355947",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: In a small room accessible by opening the [Hunter Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355944) Contents: - Blueprint: Novice Gordo Snare",
+    "coords": [
+      -0.71289896965266,
+      0.52329170362057
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2270efc8-4bb4-4529-aa86-e41bfc70a6bf.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-355950",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Underground on a ledge connected to a central pillar behind the [Rock Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355948) Contents: - Blueprint: Tall Violet Swirl Shroom",
+    "coords": [
+      -0.70493222062248,
+      0.49582271002438
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f9b4ae83-f43b-406d-b5a2-374768e9e299.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356075",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ledge on the outside of the circular ruin wall over the water Contents: - Blueprint: Golden Cotton Statue",
+    "coords": [
+      -0.71884275863064,
+      0.50784290791479
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/dd8c7a7d-6d49-4894-afeb-5d60ce72a2e6.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356077",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: In a small room behind a [Flutter Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356076) in a small pond Contents: - Golden Sureshot Module",
+    "coords": [
+      -0.69867969802206,
+      0.4674515005858
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/47ed6054-8d61-45ef-ba1b-213739db9fa6.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356078",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ledge up a coral rock column above a pond Contents: - Power Chip",
+    "coords": [
+      -0.73387028029697,
+      0.46470500941633
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/7fefd74e-c0b6-4788-8071-70b56ce8b252.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356079",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Underground at the back of a room down a passageway next to the large ruins wall Contents: - Blueprint: Stunt Cannon",
+    "coords": [
+      -0.77566982558514,
+      0.48255718257623
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/046079fe-b1cb-44da-9978-bcf79c3d518d.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356080",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a rock above a ledge up a cliff on an island Contents: - Blueprint: Golden Tangle Statue",
+    "coords": [
+      -0.7534031411121,
+      0.56453549578532
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/10735257-27ee-4477-87b2-7d8a01b84f60.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356081",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On top of a stone staircase up a cliff Contents: - Blueprint: Ferris Wheel",
+    "coords": [
+      -0.64905166626093,
+      0.54334302944174
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/39e1a58c-d2fc-45fd-ad55-46cb4d1ac1da.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356089",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Inside a small room made of stone bricks on a lower ledge of the plateau island Contents: - Blueprint: Blue Warp Depot",
+    "coords": [
+      -0.8491750269352,
+      0.80168189303583
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2c268c00-b65c-49d0-ab68-f45e942f3e09.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356090",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a rock behind a waterfall in a pond up on a cliff Contents: - Blueprint: Golden Angler Statue",
+    "coords": [
+      -0.85449652961719,
+      0.76391991539522
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2f93ea0f-7be1-4d9b-9683-38780c6f83bc.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356095",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: At the end of a path on a ledge surrounded by cliffs Contents: - Blueprint: Round Bumper",
+    "coords": [
+      -0.83231953369167,
+      0.78080406342275
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2d35955d-bf4c-4f8f-b51b-2ecb17906f51.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356096",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: In a small cave at the bottom of a cliff just over the water Contents: - Blueprint: Happy Statue",
+    "coords": [
+      -0.83841351255202,
+      0.75909086000722
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/63ee0796-3c52-41f9-82d5-47ce49bfc392.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356097",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ledge down the cliff under an overhang Contents: - Heart Cell",
+    "coords": [
+      -0.8421042321568,
+      0.75608704851189
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9bd49844-8614-410a-a64b-64e2a190277d.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356098",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a lower ledge over the water Contents: - Blueprint: Pink Striped Lamp",
+    "coords": [
+      -0.80279377683306,
+      0.78346456683271
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/4ba9dde5-eee8-48b7-87a0-05be5bf683c0.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356100",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Underground on a ledge high in the cave over the [Boom Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356099) Contents: - Blueprint: Wind Chimes",
+    "coords": [
+      -0.80186654639976,
+      0.74891612743745
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/51993628-f847-443b-9c02-e3ec15bef754.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356102",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Against a cliff in an area surrounded by rocks accessible from the geyser that's unlocked after bursting the [Rock Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356101) Contents: - Jetpack Drive",
+    "coords": [
+      -0.78766832087413,
+      0.73805021183871
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6b2bafdb-04ca-4231-9948-8bb821c4cfdc.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356103",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Inside a small room through the wall of a broken stone column Contents: - Blueprint: Stony Egg Lamp",
+    "coords": [
+      -0.78294763302065,
+      0.72440424374787
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e443b4ed-a939-45fc-b5c9-fb9371c073a5.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356105",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Underground past a [Batty Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356104) against a central rock pillar Contents: - Storage Cell",
+    "coords": [
+      -0.76947221488257,
+      0.71805327590506
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/7ec537ea-832e-405f-be93-3dea3cbaf5e2.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356106",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On top of a cliff inside a ruined stone column Contents: - Blueprint: Meat Slime Bait",
+    "coords": [
+      -0.8008017625622,
+      0.7153146881401
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/0271dcbc-d833-4091-bfd0-b8da9b93d797.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356109",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Underground in a small ruins room behind an [Angler Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356108) Contents: - Golden Sureshot Module",
+    "coords": [
+      -0.79384947679344,
+      0.67935429378355
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/125c64c8-943c-4c5d-bcc8-d4949aafbaca.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356110",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: At the top of a cliff inside a ruined rock column Contents: - Blueprint: Dash Pad",
+    "coords": [
+      -0.81937223486625,
+      0.72007170594755
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/52a8a0b4-6f6e-4cc5-bab4-2de2b3077a39.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356112",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ledge over the water wedged in the corner of two ruined columns Contents: - Blueprint: Conservatory Lamp",
+    "coords": [
+      -0.83641534721303,
+      0.73902436085226
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/16e0978e-8a83-4ba8-b7cb-7fdbb82c0d2c.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356113",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: In a small alcove of a cliff and a ruined stone column Contents: - Blueprint: Amber Cypress Cluster",
+    "coords": [
+      -0.83719711927378,
+      0.72845347233844
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/144a825c-1895-419f-a321-ed678bec7a2f.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356114",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ledge up a cliff underneath a rock arch against a stone coral column Contents: - Blueprint: Bountiful Teacup",
+    "coords": [
+      -0.82209091809801,
+      0.70322121954332
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b02452d4-dad1-4650-9be3-b5d565496926.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356115",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: In a pond up a cliff next to a waterfall Contents: - Vac Tank",
+    "coords": [
+      -0.83716464365207,
+      0.70632558001329
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/8a14d551-e0a4-418a-b479-b4c6307e5d2c.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356116",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ledge over the water under an overhang Contents: - Blueprint: Wheelbarrow",
+    "coords": [
+      -0.83227229440885,
+      0.6938810592933
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e4319dc1-7665-4eca-bfed-63b4e3df6390.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356117",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On top of a rock pile on a ledge over the ruins Contents: - Blueprint: Golden Chicken Statue",
+    "coords": [
+      -0.85089755380764,
+      0.67620120128873
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1e169216-b0df-45ce-98b7-d03e986e8f11.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356118",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: In the middle of the tallest lava pond Contents: - Blueprint: Grey Warp Depot",
+    "coords": [
+      -0.86069432250449,
+      0.72758511608217
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/4d0f8be3-c3e2-4842-9793-4901a183c833.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356120",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Underground in a cave on a ledge protruding off a central rock pillar above a [Research Drone](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356119) Contents: - Blueprint: Stalagmite",
+    "coords": [
+      -0.85571614256091,
+      0.69488965884149
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e0decec5-6f42-455a-9762-99da36b75df7.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356122",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Inside a small cave in the large rock formation accessible from a hole behind a cover of vines Contents: - Blueprint: Fruit Slime Bait",
+    "coords": [
+      -0.87665651993615,
+      0.7325313911919
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/598d0792-e3f2-47c8-9821-8ccddb17f275.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356123",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ledge up a tall rock formation over the lava Contents: - Blueprint: Medium Palm",
+    "coords": [
+      -0.88648760646919,
+      0.721031004225
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/12e3c624-b393-4839-bb01-fd15b901212d.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356125",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Inside the room past a [Boom Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356124) on the ground next to another [Treasure Pod](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356126) Contents: - x1 Strange Diamond",
+    "coords": [
+      -0.91933529315028,
+      0.72568469739548
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/8651f0bc-e74e-4494-8e67-3f37ae309104.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356126",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Inside the room past a [Boom Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356124) on a box next to another [Treasure Pod](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356125) Contents: - Blueprint: Ember Valley Portal",
+    "coords": [
+      -0.92113773760849,
+      0.72697205427511
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d9f0dd3b-2ce9-4612-9d64-075589d34217.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356129",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ledge up a cliff underneath a [Research Drone](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356128) Contents: - Blueprint: Tall Magma Clump",
+    "coords": [
+      -0.88660340546846,
+      0.70474096366279
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/76e48779-8204-4313-8a44-5e14e0c57753.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356130",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a small ledge under an overhang just over the lava near the bottom of a lavafall Contents: - Blueprint: Magma Pool",
+    "coords": [
+      -0.87647538422837,
+      0.69178149217366
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/d140a309-b146-4bdf-ba25-ba1bbd22f7c7.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356131",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Near the edge of a ledge against a cliff Contents: - Blueprint: Potted Plants",
+    "coords": [
+      -0.87054364817601,
+      0.68118521428701
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/23eff3b0-81f5-42b9-8454-6e010d00041a.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356132",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ledge protruding out of the outside of the spherical ruins Contents: - Blueprint: Carousel",
+    "coords": [
+      -0.89728030625304,
+      0.65803899349326
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e9b4f4c7-04a7-4739-87d6-13f1b4007962.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356133",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Inside a room in the lower parts of a ruined stone column Contents: - Blueprint: Display Case",
+    "coords": [
+      -0.8600288629529,
+      0.66224411751344
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/33fe8704-1836-4a36-9a59-dbdc99da550f.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356134",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ledge up a small cliff over the water Contents: - Blueprint: Accelerator",
+    "coords": [
+      -0.83553237528852,
+      0.68028898644488
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/84022e9c-2407-4e2d-a643-9f7277684ff9.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356135",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Under a small overhang where the lava flows from Contents: - Blueprint: Golden Dervish Statue",
+    "coords": [
+      -0.89930457682243,
+      0.69728223468513
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/7816a67f-dd5f-4ed4-ae6e-e3feb751982e.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356136",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Underground in the corner next to a [Boom/Tabby/Batty Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356091) Contents: - Blueprint: Tall Amber Cypress",
+    "coords": [
+      -0.85961705238623,
+      0.76534976781035
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9da5330b-c372-4da0-b350-9df6f9f3a611.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356140",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a pile of snow down the cliff underneath a ledge Contents: - Blueprint: Aurora Pine",
+    "coords": [
+      -0.83647616965422,
+      0.89848856704987
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9ad3b296-53f5-4a6f-8170-602bcc578fca.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356144",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ledge down the cliff next to a waterfall Contents: - Storage Cell",
+    "coords": [
+      -0.84846222696819,
+      0.91720778975819
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b11a2d21-ffc4-4623-aae2-93e40edc14ad.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356145",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ledge down the cliff over the water Contents: - Blueprint: Majestic Snowflake",
+    "coords": [
+      -0.87069237529505,
+      0.92639048487437
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/065dbc7d-0141-4225-917d-42ffa912e5c4.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356147",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ledge near the top of the very tall cliff island Contents: - Blueprint: Ice Treeo",
+    "coords": [
+      -0.89962941403624,
+      0.93632098111681
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/7f5b13d8-ea15-441a-afe3-7a4f878ea989.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356149",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a piece of ice at the bottom of a cliff just above the water Contents: - Blueprint: Snowy Bush",
+    "coords": [
+      -0.88199846711566,
+      0.89876134419967
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2fdc6669-f412-496d-840e-693660b553d0.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356150",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a small magma pond surrounded by water Contents: - Blueprint: Frozen Flame",
+    "coords": [
+      -0.86809389558147,
+      0.90554112807219
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b20673d1-f909-4f7e-b707-b54d66eff6fc.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356156",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Underground in a cave in a corner accessible from a hole behind a waterfall Contents: - Blueprint: Hydro Shower",
+    "coords": [
+      -0.85597872734098,
+      0.91162292052022
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b6b8b888-a8b2-4b8d-9244-18cd11e87cc3.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356157",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Underground in an area with feral slimes next to a pile of snow Contents: - Blueprint: Snowball Machine",
+    "coords": [
+      -0.85211695912332,
+      0.90621365250175
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2fa37a04-1028-4160-9ba6-e5d238d4bbce.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356158",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Underground on a lower ledge above the water Contents: - Blueprint: Frosted Shell",
+    "coords": [
+      -0.88069857838545,
+      0.88578844652133
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/b29b76b0-6da4-4220-bf5c-207166376341.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356159",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Underground at the end of a side path against a cave wall Contents: - Blueprint: Crystal Spires",
+    "coords": [
+      -0.85121004221355,
+      0.87598212841039
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/c1e0fb75-8c29-4441-a0f5-083cb8b977fc.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356161",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Underground on a ledge between a hole down and the cave Contents: - Blueprint: Snowz Bench",
+    "coords": [
+      -0.85910646555777,
+      0.89108653348643
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/64bb01df-0395-48bd-bdea-5ca650676fc1.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356162",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Underground in the upper caves accessible through a crack in the top of a mountain on a ledge between two cave walls Contents: - Blueprint: Snowy Teleporter",
+    "coords": [
+      -0.85217963981498,
+      0.8924890646679
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1a2e623e-8b04-478e-a259-c9e4a4f8b399.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356163",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On top of a mountain surrounded by ice cubes Contents: - Golden Sureshot Module",
+    "coords": [
+      -0.84780227470395,
+      0.89085847906701
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/4f6208bc-5651-4911-9857-6abc85b01d1b.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356164",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Underground on a high ledge up the cave wall Contents: - Blueprint: Powderfall Bluffs Portal",
+    "coords": [
+      -0.85183631706323,
+      0.88922789274459
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9394ad5b-a816-45d5-90af-c9de65f4e0a9.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356165",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Underground on a lower ledge near the water behind a glowing flower Contents: - Blueprint: Fire Flower",
+    "coords": [
+      -0.84213744926512,
+      0.89360472808235
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/886fabd0-29ef-4d4f-b340-a3d6bc38dd38.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356166",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On top of a large ice cube Contents: - Blueprint: Ice Cubed",
+    "coords": [
+      -0.86617004203848,
+      0.88227643772801
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9ce88889-9aa4-4efb-b291-5f0db6dd0000.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356167",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ledge down a cliff over the water Contents: - Blueprint: Chilly Slime Stack",
+    "coords": [
+      -0.87071906852722,
+      0.87721302404064
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/0f94355b-6900-4b8c-b98a-9dc156201db8.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356169",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Above a ledge on a piece of ice sticking out of the water Contents: - Blueprint: Glacial Crystal",
+    "coords": [
+      -0.86521878125603,
+      0.83781741375542
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/fbefc6cf-43ba-4eee-8f8d-74e3f798ae6e.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356170",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a lower ledge down a cliff under an overhang Contents: - Blueprint: Ice Lamp",
+    "coords": [
+      -0.89407675181994,
+      0.869658004321
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/bc714dd9-b92e-4438-9058-bab09c34c766.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356171",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On top of an ice plateau next to a group of coral columns Contents: - Power Chip",
+    "coords": [
+      -0.88703863536304,
+      0.87686694475703
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2c9c4130-7de0-479a-9b71-f4a514ea4326.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356172",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ice ledge down a cliff under an overhang Contents: - Blueprint: Snowy Warp Depot",
+    "coords": [
+      -0.8882402649912,
+      0.88136257711889
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/93218c85-a33d-40ea-a8ac-1c2ea0391ccd.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356174",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a ledge underneath the main part of the island over the water Contents: - Blueprint: Aurora Flowers",
+    "coords": [
+      -0.9284310340413,
+      0.92592248639365
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/7e6589f6-a825-4a3d-864e-f1364879040f.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-356175",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On a lower ledge of the tall stone island in the water Contents: - Blueprint: Snow Globe",
+    "coords": [
+      -0.91995780259367,
+      0.89196638102158
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/fba6abcc-50b3-42bc-a40d-910d961b2194.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-425000",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: In the cave near the [Tabby Plort Door](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355813) Contents: - Blueprint: Coastal Rock",
+    "coords": [
+      -0.65151929855477,
+      0.68520760329936
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/573999e2-2439-4d39-9b04-0ea026777bc1.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-425016",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: On the second highest hill, close to a bush, a tree and a rock Contents: - x3 Sun Sap",
+    "coords": [
+      -0.89258148239756,
+      0.913781276097
+    ],
+    "region": "Powderfall Bluffs",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/11f3e944-66c5-4ba4-aa3c-771c591d8dda.jpg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-483346",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: At the base of a pillar under a coral arch after activating the [Rainbow Fields Teleporter](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=483346) Contents: - x3 Jellystone - x2 Deep Brine - x1 Strange Diamond",
+    "coords": [
+      -0.6507878660772,
+      0.65092083451749
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/9e31f284-4e29-44b9-86a1-0b6f3e89f227.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-483709",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: Next to the Teleporter to Rainbow Fields after activating the Ember Valley Teleporter. Contents: - x1 Strange Diamond - x2 Deep Brine - x3 Jellystone",
+    "coords": [
+      -0.66223556695968,
+      0.72587856602371
+    ],
+    "region": "Rainbow Fields",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/e206df82-40cd-4889-bb84-4b8cf4d3430b.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-484605",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: At the bottom of the cave unlocked by the [Flutter Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355938) on a ledge sticking out of the west wall Contents: - 1x Strange Diamond",
+    "coords": [
+      -0.68323272264553,
+      0.47621281751341
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ce96b62d-dcf2-48e2-b63a-463019c85fda.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-504058",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: In the cave after feeding the [Batty Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=356121) Contents: - Strange Diamond - 3 Primordy Oil - 2 Lava Dust",
+    "coords": [
+      -0.8714685283222,
+      0.70550286657887
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/1b390a52-7951-46c9-bc33-e53b0f9a25c5.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-504059",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: on a ledge on the side of the wall in the tunnel the [Angler Gordo](https://mapgenie.io/slime-rancher-2/maps/rainbow-island?locationIds=355935) unlocks Contents: - Wax x3 - Honey x2 - Diamond",
+    "coords": [
+      -0.63921516668165,
+      0.49264310387521
+    ],
+    "region": "Starlight Strand",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/ff203d52-7235-410f-b7ab-eecbdce336a5.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-504064",
+    "mapId": "rainbow-island",
+    "category": "treasure-pod",
+    "title": "Treasure Pod",
+    "description": "Location: At the top of the cliff southeast of the geyser Contents: - Strange Diamond - Radiant Ore x3 - Silky Sand x2",
+    "coords": [
+      -0.83611284319602,
+      0.76356347840982
+    ],
+    "region": "Ember Valley",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/6e2d80e1-13fa-46c3-af1a-b2c63a618f33.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-484599",
+    "mapId": "rainbow-island",
+    "category": "placeholder-10",
+    "title": "Stabilizing Gate",
+    "description": "Placeholder 10 localizado em rainbow-island.",
+    "coords": [
+      -0.6817417947432,
+      0.85006921072345
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/85b116e4-bc62-4550-8a44-20177f4fc8ea.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-484600",
+    "mapId": "rainbow-island",
+    "category": "placeholder-10",
+    "title": "Stabilizing Gate",
+    "description": "Placeholder 10 localizado em rainbow-island.",
+    "coords": [
+      -0.69313217620032,
+      0.84268549720505
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f203b7f7-f76e-4225-b5cc-b693c1fa7e8f.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-484602",
+    "mapId": "rainbow-island",
+    "category": "placeholder-10",
+    "title": "Stabilizing Gate",
+    "description": "Location in the middle of the maze",
+    "coords": [
+      -0.74715851429471,
+      0.84645411286769
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/2ef4633b-893d-4fe1-9eb0-dcd8fecc3ab9.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-485662",
+    "mapId": "rainbow-island",
+    "category": "placeholder-10",
+    "title": "Stabilizing Gate",
+    "description": "Placeholder 10 localizado em rainbow-island.",
+    "coords": [
+      -0.72835284638833,
+      0.89988319519992
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/49ffd91e-f185-4525-97f6-b60b2910562b.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-504061",
+    "mapId": "rainbow-island",
+    "category": "placeholder-10",
+    "title": "Stabilizing Gate",
+    "description": "Placeholder 10 localizado em rainbow-island.",
+    "coords": [
+      -0.71622347126868,
+      0.85809503215094
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/19b570f6-2ef5-40b6-b244-036d4bc3ca1d.png"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-504062",
+    "mapId": "rainbow-island",
+    "category": "placeholder-10",
+    "title": "Stabilizing Gate",
+    "description": "Placeholder 10 localizado em rainbow-island.",
+    "coords": [
+      -0.68986417517573,
+      0.83226076777271
+    ],
+    "region": "rainbow-island",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-504063",
+    "mapId": "rainbow-island",
+    "category": "placeholder-10",
+    "title": "Stabilizing Gate",
+    "description": "Placeholder 10 localizado em rainbow-island.",
+    "coords": [
+      -0.75101438522546,
+      0.87536279819487
+    ],
+    "region": "rainbow-island",
+    "dlc": "base"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-518607",
+    "mapId": "rainbow-island",
+    "category": "placeholder-10",
+    "title": "Fire Harmonizer",
+    "description": "Use Nullifier to open the door",
+    "coords": [
+      -0.645610856198,
+      0.84740616746961
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/7e96e86f-3671-4c28-a2de-e6a297d19460.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-518608",
+    "mapId": "rainbow-island",
+    "category": "placeholder-10",
+    "title": "Water Harmonizer",
+    "description": "Use the Nullifier to open the door",
+    "coords": [
+      -0.73206202150422,
+      0.81032261864441
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/f394ca5b-82f7-4654-8710-5eece38ab8ca.jpeg"
+  },
+  {
+    "id": "slime-rancher-2-rainbow-island-518609",
+    "mapId": "rainbow-island",
+    "category": "placeholder-10",
+    "title": "Electro Harmonizer",
+    "description": "Use the nullifier to open the door",
+    "coords": [
+      -0.61828577482029,
+      0.87146188908356
+    ],
+    "region": "rainbow-island",
+    "dlc": "base",
+    "imageUrl": "https://media.mapgenie.io/storage/media/91eb6563-363e-4534-b5f5-ce068e6565f5.jpeg"
+  }
+]

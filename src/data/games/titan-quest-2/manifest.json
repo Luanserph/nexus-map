@@ -1,0 +1,384 @@
+{
+  "id": "game-titan-quest-2",
+  "slug": "titan-quest-2",
+  "title": "Titan Quest II",
+  "subtitle": "Grécia Antiga — Santuários, Waypoints, Chefes Mitológicos & Segredos",
+  "studio": "Grimlore Games",
+  "releaseYear": 2025,
+  "genres": [
+    "Action RPG",
+    "RPG",
+    "Hack and Slash"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/titan-quest-2/cover.webp",
+    "bannerImage": "/games/titan-quest-2/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#F59E0B",
+    "accentSecondary": "#0EA5E9",
+    "accentGlow": "rgba(245, 158, 11, 0.40)",
+    "glassTint": "rgba(20, 15, 10, 0.82)",
+    "surfaceBase": "#0D0A06",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "flooded-farmlands",
+      "name": "Flooded Farmlands",
+      "dlc": "base",
+      "pinsCount": 632,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0D0A06",
+      "initialCenter": [
+        0.43280958385134,
+        -0.79378405035166
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          0.19594,
+          -1.0846
+        ],
+        [
+          1.43891,
+          -0.31229
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/titan-quest-2/flooded-farmlands/default-v3/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0.19594,
+              -1.0846
+            ],
+            [
+              1.43891,
+              -0.31229
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "northern-beaches",
+      "name": "Northern Beaches",
+      "dlc": "base",
+      "pinsCount": 586,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0D0A06",
+      "initialCenter": [
+        0.42716948814261,
+        -0.66205631387388
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          0.20882,
+          -1.19047
+        ],
+        [
+          1.16692,
+          -0.32026
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/titan-quest-2/northern-beaches/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0.20882,
+              -1.19047
+            ],
+            [
+              1.16692,
+              -0.32026
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proti-island",
+      "name": "Proti Island",
+      "dlc": "base",
+      "pinsCount": 93,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0D0A06",
+      "initialCenter": [
+        0.69337267186589,
+        -0.82669575828808
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.43818,
+          -0.98816
+        ],
+        [
+          1.00133,
+          -0.30009
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/titan-quest-2/proti-island/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 13,
+          "maxZoom": 14,
+          "tileBounds": [
+            [
+              0.43818,
+              -0.98816
+            ],
+            [
+              1.00133,
+              -0.30009
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "arcanist",
+          "groupId": "locations",
+          "name": "Arcanist",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "armorer",
+          "groupId": "locations",
+          "name": "Armorer",
+          "icon": "shopping-bag",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "caravan",
+          "groupId": "locations",
+          "name": "Caravan",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "cave",
+          "groupId": "locations",
+          "name": "Cave",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "general-merchant",
+          "groupId": "locations",
+          "name": "General Merchant",
+          "icon": "shopping-bag",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "location",
+          "groupId": "locations",
+          "name": "Location",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "ritual-shrine",
+          "groupId": "locations",
+          "name": "Ritual Shrine",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "scavenger",
+          "groupId": "locations",
+          "name": "Scavenger",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "waypoint",
+          "groupId": "locations",
+          "name": "Waypoint",
+          "icon": "navigation",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "chest",
+          "groupId": "collectibles",
+          "name": "Chest",
+          "icon": "gem",
+          "color": "#E879F9",
+          "defaultVisible": false
+        },
+        {
+          "id": "lore-item",
+          "groupId": "collectibles",
+          "name": "Lore Item",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "quest-item",
+          "groupId": "collectibles",
+          "name": "Quest Item",
+          "icon": "scroll-text",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "unique-weapon",
+          "groupId": "collectibles",
+          "name": "Unique Weapon",
+          "icon": "shopping-bag",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "fated-quest",
+          "groupId": "quests",
+          "name": "Fated Quest",
+          "icon": "scroll-text",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "secret-quest",
+          "groupId": "quests",
+          "name": "Secret Quest",
+          "icon": "scroll-text",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "world-quest",
+          "groupId": "quests",
+          "name": "World Quest",
+          "icon": "scroll-text",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "enemies",
+      "label": "Enemies",
+      "categories": [
+        {
+          "id": "boss",
+          "groupId": "enemies",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "easter-egg",
+          "groupId": "other",
+          "name": "Easter Egg",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "loot-pile",
+          "groupId": "other",
+          "name": "Loot Pile",
+          "icon": "gem",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "npc",
+          "groupId": "other",
+          "name": "NPC",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "placeholder-4",
+          "groupId": "other",
+          "name": "Placeholder 4",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "secret",
+          "groupId": "other",
+          "name": "Secret",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 1311
+}

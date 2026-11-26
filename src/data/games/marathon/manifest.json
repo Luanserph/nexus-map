@@ -1,0 +1,468 @@
+{
+  "id": "game-marathon",
+  "slug": "marathon",
+  "title": "Marathon",
+  "subtitle": "Tau Ceti IV — 4 Zonas de Extração, Contratos & Cofres",
+  "studio": "Bungie",
+  "releaseYear": 2026,
+  "genres": [
+    "FPS",
+    "Ficção Científica",
+    "Tático"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/marathon/cover.webp",
+    "bannerImage": "/games/marathon/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#C0FF00",
+    "accentSecondary": "#00F0FF",
+    "accentGlow": "rgba(192, 255, 0, 0.40)",
+    "glassTint": "rgba(10, 16, 12, 0.84)",
+    "surfaceBase": "#060A08",
+    "fontDisplay": "'Rajdhani', sans-serif",
+    "backgroundPattern": "cyber-grid",
+    "badgeStyle": "chamfered"
+  },
+  "maps": [
+    {
+      "id": "cryo-archive",
+      "name": "Cryo Archive",
+      "dlc": "base",
+      "pinsCount": 80,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060A08",
+      "initialCenter": [
+        0.69536063769571,
+        -0.8517796188699
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          -0.06557,
+          -1.1562
+        ],
+        [
+          1.02458,
+          -0.18281
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/marathon/cryo-archive/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              -0.06557,
+              -1.1562
+            ],
+            [
+              1.02458,
+              -0.18281
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dire-marsh",
+      "name": "Dire Marsh",
+      "dlc": "base",
+      "pinsCount": 182,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060A08",
+      "initialCenter": [
+        0.70006518200165,
+        -0.81925004868387
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.47344,
+          -1.06782
+        ],
+        [
+          0.93871,
+          -0.32211
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v2",
+          "label": "V2",
+          "urlTemplate": "https://tiles.mapgenie.io/games/marathon/dire-marsh/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0.47344,
+              -1.06782
+            ],
+            [
+              0.93871,
+              -0.32211
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outpost",
+      "name": "Outpost",
+      "dlc": "base",
+      "pinsCount": 160,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060A08",
+      "initialCenter": [
+        0.65329322711425,
+        -0.74277802204912
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          0.42318,
+          -0.96622
+        ],
+        [
+          0.96254,
+          -0.39877
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/marathon/outpost/default-v1/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.42318,
+              -0.96622
+            ],
+            [
+              0.96254,
+              -0.39877
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "perimeter",
+      "name": "Perimeter",
+      "dlc": "base",
+      "pinsCount": 108,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060A08",
+      "initialCenter": [
+        0.73160990591794,
+        -0.80303326936954
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          -0.08054,
+          -0.98003
+        ],
+        [
+          1.09498,
+          0.07212
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v5",
+          "label": "V5",
+          "urlTemplate": "https://tiles.mapgenie.io/games/marathon/perimeter/default-v5/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              -0.08054,
+              -0.98003
+            ],
+            [
+              1.09498,
+              0.07212
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "area",
+          "groupId": "locations",
+          "name": "Area",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "dcon",
+          "groupId": "locations",
+          "name": "DCON",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "exfil-station",
+          "groupId": "locations",
+          "name": "Exfil Station",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "guarded-exfil",
+          "groupId": "locations",
+          "name": "Guarded Exfil",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "locked-room",
+          "groupId": "locations",
+          "name": "Locked Room",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "spawn-point",
+          "groupId": "locations",
+          "name": "Spawn Point",
+          "icon": "landmark",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "anomaly",
+          "groupId": "locations",
+          "name": "Anomaly",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "exfil",
+          "groupId": "locations",
+          "name": "Exfil",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "restricted-exfil",
+          "groupId": "locations",
+          "name": "Restricted Exfil",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "loot",
+      "label": "Loot",
+      "categories": [
+        {
+          "id": "access-card",
+          "groupId": "loot",
+          "name": "Access Card",
+          "icon": "gem",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "key-item",
+          "groupId": "loot",
+          "name": "Key Item",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "treasure",
+          "groupId": "loot",
+          "name": "Treasure",
+          "icon": "gem",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "vault",
+          "groupId": "loot",
+          "name": "Vault",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "lockbox",
+          "groupId": "loot",
+          "name": "Lockbox",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "loose-loot",
+          "groupId": "loot",
+          "name": "Loose Loot",
+          "icon": "gem",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "supply-drop",
+          "groupId": "loot",
+          "name": "Supply Drop",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "container",
+          "groupId": "loot",
+          "name": "Container",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "health-container",
+          "groupId": "loot",
+          "name": "Health Container",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "enemies",
+      "label": "Enemies",
+      "categories": [
+        {
+          "id": "target",
+          "groupId": "enemies",
+          "name": "Target",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "priority-hostile",
+          "groupId": "enemies",
+          "name": "Priority Hostile",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "battery",
+          "groupId": "other",
+          "name": "Battery",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "elevator",
+          "groupId": "other",
+          "name": "Elevator",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "security-monitor",
+          "groupId": "other",
+          "name": "Security Monitor",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "contract-objective",
+          "groupId": "other",
+          "name": "Contract Objective",
+          "icon": "scroll-text",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "tad",
+          "groupId": "other",
+          "name": "TAD",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "missions",
+      "label": "Missions",
+      "categories": [
+        {
+          "id": "primary-contract",
+          "groupId": "missions",
+          "name": "Primary Contract",
+          "icon": "scroll-text",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "activity",
+          "groupId": "missions",
+          "name": "Activity",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 530
+}

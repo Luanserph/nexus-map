@@ -1,0 +1,2940 @@
+[
+  {
+    "id": "schedule-1-hyland-point-442757",
+    "mapId": "hyland-point",
+    "category": "atm",
+    "title": "ATM",
+    "description": "ATM localizado em hyland-point.",
+    "coords": [
+      -0.63785271616356,
+      0.74038965904633
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442759",
+    "mapId": "hyland-point",
+    "category": "atm",
+    "title": "ATM",
+    "description": "ATM localizado em hyland-point.",
+    "coords": [
+      -0.76266968929531,
+      0.77387262701916
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442763",
+    "mapId": "hyland-point",
+    "category": "atm",
+    "title": "ATM",
+    "description": "ATM localizado em hyland-point.",
+    "coords": [
+      -0.75388960785151,
+      0.7485561718135
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442768",
+    "mapId": "hyland-point",
+    "category": "atm",
+    "title": "ATM",
+    "description": "ATM localizado em hyland-point.",
+    "coords": [
+      -0.73963526230389,
+      0.81475247228995
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442770",
+    "mapId": "hyland-point",
+    "category": "atm",
+    "title": "ATM",
+    "description": "ATM localizado em hyland-point.",
+    "coords": [
+      -0.72176598178353,
+      0.76598544167079
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442773",
+    "mapId": "hyland-point",
+    "category": "atm",
+    "title": "ATM",
+    "description": "Inside the [Warehouse](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442441), only available 6PM-6AM",
+    "coords": [
+      -0.75112044811266,
+      0.7326093355768
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442777",
+    "mapId": "hyland-point",
+    "category": "atm",
+    "title": "ATM",
+    "description": "ATM localizado em hyland-point.",
+    "coords": [
+      -0.75057517602323,
+      0.64895939921827
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442782",
+    "mapId": "hyland-point",
+    "category": "atm",
+    "title": "ATM",
+    "description": "ATM localizado em hyland-point.",
+    "coords": [
+      -0.6977374958069,
+      0.69719934263826
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442787",
+    "mapId": "hyland-point",
+    "category": "atm",
+    "title": "ATM",
+    "description": "ATM localizado em hyland-point.",
+    "coords": [
+      -0.73268325684236,
+      0.72039458915177
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442789",
+    "mapId": "hyland-point",
+    "category": "atm",
+    "title": "ATM",
+    "description": "Inside the [Casino](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442444), only available 4PM-5AM",
+    "coords": [
+      -0.70185899734443,
+      0.78086879365804
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442792",
+    "mapId": "hyland-point",
+    "category": "atm",
+    "title": "ATM",
+    "description": "ATM localizado em hyland-point.",
+    "coords": [
+      -0.68915083547606,
+      0.7577205682116
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442799",
+    "mapId": "hyland-point",
+    "category": "atm",
+    "title": "ATM",
+    "description": "Inside the [Handy Hank's Hardware](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442567), only available 6AM-8PM",
+    "coords": [
+      -0.61665058136109,
+      0.72951431833293
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442800",
+    "mapId": "hyland-point",
+    "category": "atm",
+    "title": "ATM",
+    "description": "ATM localizado em hyland-point.",
+    "coords": [
+      -0.593039141926,
+      0.74673409566518
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442801",
+    "mapId": "hyland-point",
+    "category": "atm",
+    "title": "ATM",
+    "description": "ATM localizado em hyland-point.",
+    "coords": [
+      -0.63729790484371,
+      0.69630621552562
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442806",
+    "mapId": "hyland-point",
+    "category": "atm",
+    "title": "ATM",
+    "description": "ATM localizado em hyland-point.",
+    "coords": [
+      -0.81387868926012,
+      0.76234745050475
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-443654",
+    "mapId": "hyland-point",
+    "category": "atm",
+    "title": "ATM",
+    "description": "Inside the [Pawn Shop](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442561), only available 6AM-6PM",
+    "coords": [
+      -0.7672512531291,
+      0.74959166228297
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442756",
+    "mapId": "hyland-point",
+    "category": "cash-for-trash-machine",
+    "title": "Cash for Trash Machine",
+    "description": "Cash for Trash Machine localizado em hyland-point.",
+    "coords": [
+      -0.61409044170543,
+      0.71957880984057
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442760",
+    "mapId": "hyland-point",
+    "category": "cash-for-trash-machine",
+    "title": "Cash for Trash Machine",
+    "description": "Cash for Trash Machine localizado em hyland-point.",
+    "coords": [
+      -0.7572623559208,
+      0.78786172992626
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442765",
+    "mapId": "hyland-point",
+    "category": "cash-for-trash-machine",
+    "title": "Cash for Trash Machine",
+    "description": "Cash for Trash Machine localizado em hyland-point.",
+    "coords": [
+      -0.7413602607584,
+      0.83670212870753
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442775",
+    "mapId": "hyland-point",
+    "category": "cash-for-trash-machine",
+    "title": "Cash for Trash Machine",
+    "description": "Cash for Trash Machine localizado em hyland-point.",
+    "coords": [
+      -0.62984081353048,
+      0.62899425388308
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442779",
+    "mapId": "hyland-point",
+    "category": "cash-for-trash-machine",
+    "title": "Cash for Trash Machine",
+    "description": "Cash for Trash Machine localizado em hyland-point.",
+    "coords": [
+      -0.75366508080867,
+      0.66071743553663
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442781",
+    "mapId": "hyland-point",
+    "category": "cash-for-trash-machine",
+    "title": "Cash for Trash Machine",
+    "description": "Cash for Trash Machine localizado em hyland-point.",
+    "coords": [
+      -0.70520476570439,
+      0.6848406224108
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442788",
+    "mapId": "hyland-point",
+    "category": "cash-for-trash-machine",
+    "title": "Cash for Trash Machine",
+    "description": "Cash for Trash Machine localizado em hyland-point.",
+    "coords": [
+      -0.72384269592862,
+      0.73103674078656
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442791",
+    "mapId": "hyland-point",
+    "category": "cash-for-trash-machine",
+    "title": "Cash for Trash Machine",
+    "description": "Cash for Trash Machine localizado em hyland-point.",
+    "coords": [
+      -0.68890763635986,
+      0.76862009865542
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442794",
+    "mapId": "hyland-point",
+    "category": "cash-for-trash-machine",
+    "title": "Cash for Trash Machine",
+    "description": "Cash for Trash Machine localizado em hyland-point.",
+    "coords": [
+      -0.65860940332649,
+      0.7544206619456
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442798",
+    "mapId": "hyland-point",
+    "category": "cash-for-trash-machine",
+    "title": "Cash for Trash Machine",
+    "description": "Cash for Trash Machine localizado em hyland-point.",
+    "coords": [
+      -0.60567592005935,
+      0.76371392514368
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442803",
+    "mapId": "hyland-point",
+    "category": "cash-for-trash-machine",
+    "title": "Cash for Trash Machine",
+    "description": "Cash for Trash Machine localizado em hyland-point.",
+    "coords": [
+      -0.75721362072863,
+      0.81270318635032
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442804",
+    "mapId": "hyland-point",
+    "category": "cash-for-trash-machine",
+    "title": "Cash for Trash Machine",
+    "description": "Cash for Trash Machine localizado em hyland-point.",
+    "coords": [
+      -0.81413618132527,
+      0.78045608433507
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442811",
+    "mapId": "hyland-point",
+    "category": "cash-for-trash-machine",
+    "title": "Cash for Trash Machine",
+    "description": "Cash for Trash Machine localizado em hyland-point.",
+    "coords": [
+      -0.84799945852109,
+      0.78719997490478
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442755",
+    "mapId": "hyland-point",
+    "category": "cuke-machine",
+    "title": "Cuke Machine",
+    "description": "Cuke Machine localizado em hyland-point.",
+    "coords": [
+      -0.61700868511264,
+      0.71957880984057
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442761",
+    "mapId": "hyland-point",
+    "category": "cuke-machine",
+    "title": "Cuke Machine",
+    "description": "Cuke Machine localizado em hyland-point.",
+    "coords": [
+      -0.76187186187425,
+      0.76975449085332
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442766",
+    "mapId": "hyland-point",
+    "category": "cuke-machine",
+    "title": "Cuke Machine",
+    "description": "Cuke Machine localizado em hyland-point.",
+    "coords": [
+      -0.75336817246003,
+      0.82196151471547
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442772",
+    "mapId": "hyland-point",
+    "category": "cuke-machine",
+    "title": "Cuke Machine",
+    "description": "Inside the [Warehouse](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442441), only available 6PM-6AM",
+    "coords": [
+      -0.74734389781983,
+      0.7326093355768
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442776",
+    "mapId": "hyland-point",
+    "category": "cuke-machine",
+    "title": "Cuke Machine",
+    "description": "Cuke Machine localizado em hyland-point.",
+    "coords": [
+      -0.75589667870534,
+      0.6432949339594
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442783",
+    "mapId": "hyland-point",
+    "category": "cuke-machine",
+    "title": "Cuke Machine",
+    "description": "Cuke Machine localizado em hyland-point.",
+    "coords": [
+      -0.69430426826767,
+      0.70234879985954
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442785",
+    "mapId": "hyland-point",
+    "category": "cuke-machine",
+    "title": "Cuke Machine",
+    "description": "Cuke Machine localizado em hyland-point.",
+    "coords": [
+      -0.70985229370217,
+      0.75438072648237
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442805",
+    "mapId": "hyland-point",
+    "category": "cuke-machine",
+    "title": "Cuke Machine",
+    "description": "Cuke Machine localizado em hyland-point.",
+    "coords": [
+      -0.80452314421609,
+      0.76054516521604
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442807",
+    "mapId": "hyland-point",
+    "category": "cuke-machine",
+    "title": "Cuke Machine",
+    "description": "Cuke Machine localizado em hyland-point.",
+    "coords": [
+      -0.82417837187697,
+      0.77110139685833
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442809",
+    "mapId": "hyland-point",
+    "category": "cuke-machine",
+    "title": "Cuke Machine",
+    "description": "Cuke Machine localizado em hyland-point.",
+    "coords": [
+      -0.84098979117928,
+      0.77138014252805
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442812",
+    "mapId": "hyland-point",
+    "category": "cuke-machine",
+    "title": "Cuke Machine",
+    "description": "Inside the [Casino](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442444), only available 4PM-5AM",
+    "coords": [
+      -0.70180782185733,
+      0.78506196858322
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-443655",
+    "mapId": "hyland-point",
+    "category": "cuke-machine",
+    "title": "Cuke Machine",
+    "description": "Inside the [Pawn Shop](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442561), only available 6AM-6PM",
+    "coords": [
+      -0.76201591139002,
+      0.74959374571883
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442555",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "Fountain",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.67178305724715,
+      0.73265339437543
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442596",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "Gazebo",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.63158352680048,
+      0.59452585985957
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442597",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "Grey Docks Building",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.75072733507997,
+      0.64393095013953
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442736",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "Behind Auto Shop",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.70869199054985,
+      0.70262188569426
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442737",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "Central Canal",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.68929425495412,
+      0.71832769407135
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442738",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "Alleyway Behind The Laundromat",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.73935668142335,
+      0.72777161180508
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442739",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "Behind Randy's Bait & Tackle",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.79548687780317,
+      0.67418689673629
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442740",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "Behind Bank",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.64704745333032,
+      0.73732797656075
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442741",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "Behind Crimson Canary",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.6726287935555,
+      0.76290514142921
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442742",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "Behind Medical Practice",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.62722435935893,
+      0.7670246472868
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442743",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "Behind Fire Station",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.61452141748799,
+      0.7386171420099
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442744",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "Alleyway Behind Slop Shop",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.71384263468016,
+      0.73261143210041
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442745",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "Alleyway Behind Grocery Store",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.70689034890381,
+      0.7672840593968
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442746",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "Behind Casino",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.70521280079657,
+      0.78088449718598
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442747",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "Behind Thompson Construction",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.74364058016312,
+      0.80206902193412
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442748",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "North Arcade Wall",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.75373028089138,
+      0.83281473992589
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442749",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "Under West Bridge",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.78944165826488,
+      0.76403351855615
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442750",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "Behind Gas-Mart",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.8097481727595,
+      0.75226827697944
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442751",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "Alleyway Behind Top Tattoo",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.83055004371974,
+      0.76951346430886
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442752",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "Taco Ticklers Exterior Wall",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.73380987177256,
+      0.77666501711219
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442753",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "Pawn Shop West Wall",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.76891449564505,
+      0.75080826720098
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442754",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "Behind Motel Office",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.76857117289123,
+      0.77252151254585
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442992",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "Skate Park",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.74690272522921,
+      0.78037149521137
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-448882",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "Behind the Supermarket",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.69266889860128,
+      0.76414800722819
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-448883",
+    "mapId": "hyland-point",
+    "category": "dead-drop",
+    "title": "Brown Apartment Block",
+    "description": "Dead Drop localizado em hyland-point.",
+    "coords": [
+      -0.85841417312679,
+      0.78423733396431
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442422",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "RV",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.7007646560665,
+      0.63531578851965
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442425",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Motel",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.77158212449757,
+      0.78554890331637
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442442",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Hyland Police Station",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.69983369629867,
+      0.73090310001653
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442556",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Supermarket",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.69587770462229,
+      0.75810440118461
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442557",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "The Butter Box",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.6760179084074,
+      0.75723774231899
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442558",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "The Crimson Canary",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.67710471920711,
+      0.7643013897905
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442559",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Slop Shop",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.71731671878004,
+      0.739986093596
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442562",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Liquor Store",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.75236636701845,
+      0.74609889021316
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442564",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Town Hall",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.66163403119441,
+      0.73351462364215
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442565",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Courthouse",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.64469880837166,
+      0.72819050457649
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442566",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Hyland Bank",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.64370870590051,
+      0.7421214860323
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442568",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Fire Station",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.62188113383368,
+      0.74191558545262
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442569",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Hyland Medical",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.6236672401422,
+      0.7616498253054
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442570",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "HAM Legal",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.63365945133475,
+      0.76166040142354
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442571",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Hyland Tower 1",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.66270642500652,
+      0.76208052084634
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442572",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Church",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.58933496475058,
+      0.74270798343153
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442573",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Les Ordures Pauntes",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.67399974944448,
+      0.7768952174651
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442574",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Parking Garage",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.71496000906603,
+      0.77646424289838
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442576",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Randy's Bait & Tackle",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.7905466057658,
+      0.67667804636525
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442577",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Chinese Restaurant",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.76242332217424,
+      0.82486499947854
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442578",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Basketball Court",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.77571630477922,
+      0.82320063202563
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442579",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Arcade",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.75325012207,
+      0.83058666638688
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442580",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Pharmacy",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.75607086794105,
+      0.80933835709804
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442581",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Bud's Bar",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.73659000828854,
+      0.80947950866175
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442582",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Thompson Construction & Demo",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.74859917163937,
+      0.79839268296826
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442583",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Sauerkraut Supreme",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.73596596717832,
+      0.8317398949108
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442584",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Koyama Chemical Company",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.80223463696584,
+      0.79708453361997
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442585",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Construction Site",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.82766418278788,
+      0.79962480784192
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442586",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Community Center",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.83627521991792,
+      0.77141755632321
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442587",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Suburbia Park",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.63268009317898,
+      0.60246600283769
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442588",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Hyland Tower 2",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.64810240916319,
+      0.76172954984398
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442589",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Skatepark",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.75143044183181,
+      0.7752046245207
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442590",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Motel Office",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.76484117854869,
+      0.76941735868049
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442591",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Bridge",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.78686301988517,
+      0.76574738112208
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442592",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Canal",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.78658068858613,
+      0.78014496712431
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442593",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Canal",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.71373921333958,
+      0.70730963333826
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442594",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Brown Apartment Block",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.85735201835544,
+      0.79100658987491
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442595",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Bridge",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.78588604010301,
+      0.81202023596951
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442802",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Mayor's House",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.63538481155757,
+      0.78523260841735
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-479669",
+    "mapId": "hyland-point",
+    "category": "location",
+    "title": "Stash & Dash",
+    "description": "Location localizado em hyland-point.",
+    "coords": [
+      -0.71424420291095,
+      0.79612080174137
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442758",
+    "mapId": "hyland-point",
+    "category": "payphone",
+    "title": "Payphone",
+    "description": "Payphone localizado em hyland-point.",
+    "coords": [
+      -0.6997254278144,
+      0.68809460891605
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442762",
+    "mapId": "hyland-point",
+    "category": "payphone",
+    "title": "Payphone",
+    "description": "Payphone localizado em hyland-point.",
+    "coords": [
+      -0.75620703643466,
+      0.76932537611812
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442764",
+    "mapId": "hyland-point",
+    "category": "payphone",
+    "title": "Payphone",
+    "description": "Payphone localizado em hyland-point.",
+    "coords": [
+      -0.74874169996724,
+      0.84468352348445
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442767",
+    "mapId": "hyland-point",
+    "category": "payphone",
+    "title": "Payphone",
+    "description": "Payphone localizado em hyland-point.",
+    "coords": [
+      -0.75165155868996,
+      0.81406589614652
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442769",
+    "mapId": "hyland-point",
+    "category": "payphone",
+    "title": "Payphone",
+    "description": "Payphone localizado em hyland-point.",
+    "coords": [
+      -0.73336962205022,
+      0.79037894828021
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442771",
+    "mapId": "hyland-point",
+    "category": "payphone",
+    "title": "Payphone",
+    "description": "Payphone localizado em hyland-point.",
+    "coords": [
+      -0.74991952509151,
+      0.73733217438217
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442774",
+    "mapId": "hyland-point",
+    "category": "payphone",
+    "title": "Payphone",
+    "description": "Payphone localizado em hyland-point.",
+    "coords": [
+      -0.61670871819643,
+      0.61208659999264
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442778",
+    "mapId": "hyland-point",
+    "category": "payphone",
+    "title": "Payphone",
+    "description": "Payphone localizado em hyland-point.",
+    "coords": [
+      -0.75898658349448,
+      0.65513880860578
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442780",
+    "mapId": "hyland-point",
+    "category": "payphone",
+    "title": "Payphone",
+    "description": "Payphone localizado em hyland-point.",
+    "coords": [
+      -0.73304645337814,
+      0.68052131907103
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442784",
+    "mapId": "hyland-point",
+    "category": "payphone",
+    "title": "Payphone",
+    "description": "Payphone localizado em hyland-point.",
+    "coords": [
+      -0.64759310421363,
+      0.71997914521374
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442786",
+    "mapId": "hyland-point",
+    "category": "payphone",
+    "title": "Payphone",
+    "description": "Payphone localizado em hyland-point.",
+    "coords": [
+      -0.71886451599758,
+      0.71352867165876
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442790",
+    "mapId": "hyland-point",
+    "category": "payphone",
+    "title": "Payphone",
+    "description": "Payphone localizado em hyland-point.",
+    "coords": [
+      -0.69353149371088,
+      0.77923792766099
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442793",
+    "mapId": "hyland-point",
+    "category": "payphone",
+    "title": "Payphone",
+    "description": "Payphone localizado em hyland-point.",
+    "coords": [
+      -0.67105485315597,
+      0.74600997552145
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442795",
+    "mapId": "hyland-point",
+    "category": "payphone",
+    "title": "Payphone",
+    "description": "Payphone localizado em hyland-point.",
+    "coords": [
+      -0.65081737473469,
+      0.77652379657339
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442796",
+    "mapId": "hyland-point",
+    "category": "payphone",
+    "title": "Payphone",
+    "description": "Payphone localizado em hyland-point.",
+    "coords": [
+      -0.6375808846503,
+      0.75493560140384
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442797",
+    "mapId": "hyland-point",
+    "category": "payphone",
+    "title": "Payphone",
+    "description": "Payphone localizado em hyland-point.",
+    "coords": [
+      -0.60386798814778,
+      0.77643797377586
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442808",
+    "mapId": "hyland-point",
+    "category": "payphone",
+    "title": "Payphone",
+    "description": "Payphone localizado em hyland-point.",
+    "coords": [
+      -0.83352252127878,
+      0.75739098534798
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442810",
+    "mapId": "hyland-point",
+    "category": "payphone",
+    "title": "Payphone",
+    "description": "Payphone localizado em hyland-point.",
+    "coords": [
+      -0.83563983938035,
+      0.78900224885497
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442686",
+    "mapId": "hyland-point",
+    "category": "stash",
+    "title": "Albert Hoover's Stash",
+    "description": "Stash localizado em hyland-point.",
+    "coords": [
+      -0.72801348244565,
+      0.83146351543489
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442687",
+    "mapId": "hyland-point",
+    "category": "stash",
+    "title": "Shirley Watts's Stash",
+    "description": "Stash localizado em hyland-point.",
+    "coords": [
+      -0.76807636253108,
+      0.73383873999917
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442688",
+    "mapId": "hyland-point",
+    "category": "stash",
+    "title": "Salvador Moreno's Stash",
+    "description": "Stash localizado em hyland-point.",
+    "coords": [
+      -0.58559928666836,
+      0.73627331949511
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-511119",
+    "mapId": "hyland-point",
+    "category": "stash",
+    "title": "Fungal Phil's Stash",
+    "description": "Behind the gas station",
+    "coords": [
+      -0.69971422190594,
+      0.70671494977874
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442430",
+    "mapId": "hyland-point",
+    "category": "taco-ticklers",
+    "title": "Taco Ticklers",
+    "description": "Sale Price: $50,000 Daily Launder Amount: $8,000",
+    "coords": [
+      -0.73858875220307,
+      0.76842291676317
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442553",
+    "mapId": "hyland-point",
+    "category": "the-car-wash",
+    "title": "Car Wash",
+    "description": "Sale Price: $20,000 Daily Launder Amount: $6,000",
+    "coords": [
+      -0.7140803433991,
+      0.69304423760488
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442432",
+    "mapId": "hyland-point",
+    "category": "the-laundromat",
+    "title": "Laundromat",
+    "description": "Sale Price: $4,000 Daily Launder Amount: $2,000",
+    "coords": [
+      -0.73579046914179,
+      0.72757146639984
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442429",
+    "mapId": "hyland-point",
+    "category": "the-post-office",
+    "title": "Post Office",
+    "description": "Sale Price: $10,000 Daily Launder Amount: $4,000",
+    "coords": [
+      -0.67142995876864,
+      0.70574656602125
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-479670",
+    "mapId": "hyland-point",
+    "category": "hyland-manor",
+    "title": "Hyland Manor",
+    "description": "Sale Price: $250,000 Payment Method: Card Employee Limit: 10 Loading Bays: 2 Available at the end of the Cartel quest line",
+    "coords": [
+      -0.57181108524472,
+      0.657534612788
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-479668",
+    "mapId": "hyland-point",
+    "category": "storage-unit",
+    "title": "Storage Unit",
+    "description": "Sale Price: $4,000 Payment Method: Card Employee Limit: 3 Loading Bays: 0",
+    "coords": [
+      -0.71781277656481,
+      0.80024859099123
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442680",
+    "mapId": "hyland-point",
+    "category": "the-barn",
+    "title": "Barn",
+    "description": "Sale Price: $25,000 Payment Method: Card Employee Limit: 10 Loading Bays: 2",
+    "coords": [
+      -0.54750368158443,
+      0.69667620074985
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442679",
+    "mapId": "hyland-point",
+    "category": "the-bungaloo",
+    "title": "Bungalow",
+    "description": "Sale Price: $6,000 Payment Method: Card Employee Limit: 5 Loading Bays: 1",
+    "coords": [
+      -0.8579024705505,
+      0.80831002463955
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442426",
+    "mapId": "hyland-point",
+    "category": "the-docks-warehouse",
+    "title": "Docks Warehouse",
+    "description": "Sale Price: $50,000 Payment Method: Card Employee Limit: 10 Loading Bays: 2",
+    "coords": [
+      -0.7859730121144,
+      0.66265608041138
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442677",
+    "mapId": "hyland-point",
+    "category": "the-motel",
+    "title": "Motel Room",
+    "description": "Sale Price: $75 Payment Method: Cash Employee Limit: 0 Loading Bays: 0",
+    "coords": [
+      -0.77159511285706,
+      0.77795965854435
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442678",
+    "mapId": "hyland-point",
+    "category": "the-sweatshop",
+    "title": "Sweatshop",
+    "description": "Sale Price: $800 Payment Method: Cash Employee Limit: 1 Loading Bays: 0",
+    "coords": [
+      -0.76111611453743,
+      0.8287514643399
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442440",
+    "mapId": "hyland-point",
+    "category": "auto-shop",
+    "title": "Body Shop",
+    "description": "Opening Hours: 6AM-6PM Payment Method: Card Sells: - Car Towing - Vehicle Repainting",
+    "coords": [
+      -0.7072218904429,
+      0.697305585968
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442560",
+    "mapId": "hyland-point",
+    "category": "barbershop",
+    "title": "Barbershop",
+    "description": "Opening Hours: 6AM-6PM Payment Method: Card Sells: - Haircuts",
+    "coords": [
+      -0.73606420504038,
+      0.73414496885736
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442563",
+    "mapId": "hyland-point",
+    "category": "bleuballs-boutique",
+    "title": "Bleuball Boutique",
+    "description": "Opening Hours: 6AM-6PM Payment Method: Card Sells: - Furniture",
+    "coords": [
+      -0.65145394594757,
+      0.69524931004302
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442444",
+    "mapId": "hyland-point",
+    "category": "casino",
+    "title": "Casino",
+    "description": "Opening Hours: 4PM-5AM Payment Method: Cash",
+    "coords": [
+      -0.69789428017285,
+      0.78423163924627
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442445",
+    "mapId": "hyland-point",
+    "category": "dan-s-hardware",
+    "title": "Dan's Hardware",
+    "description": "Opening Hours: 6AM-8PM Payment Method: Card Sells: - Legal Goods",
+    "coords": [
+      -0.72569055858619,
+      0.82601520640634
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442437",
+    "mapId": "hyland-point",
+    "category": "gas-mart",
+    "title": "Gas Mart",
+    "description": "Opening Hours: 24/7 Payment Method: Card Sells: - Mixing Ingredients - Trash Bags - Baggies - Jars - Beds",
+    "coords": [
+      -0.69845393684932,
+      0.70196904336868
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442448",
+    "mapId": "hyland-point",
+    "category": "gas-mart",
+    "title": "Gas Mart",
+    "description": "Opening Hours: 24/7 Payment Method: Card Sells: - Mixing Ingredients - Trash Bags - Baggies - Jars - Beds",
+    "coords": [
+      -0.80929219722535,
+      0.75862992374294
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442567",
+    "mapId": "hyland-point",
+    "category": "handy-hank-s-hardware",
+    "title": "Handy Hank's Hardware",
+    "description": "Opening Hours: 6AM-8PM Payment Method: Card Sells: - Legal Goods",
+    "coords": [
+      -0.6124698746429,
+      0.72756316318973
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442436",
+    "mapId": "hyland-point",
+    "category": "hyland-auto",
+    "title": "Hyland Auto",
+    "description": "Opening Hours: 6AM-6PM Payment Method: Card Sells: - The Shitbox - $5,000 - The Veeper - $9,000 - The Bruiser - $12,000 - The Dinkler - $15,000 - The Hounddog - $25,000 - The Hotbox - $30,000 - The Cheetah - $40,000",
+    "coords": [
+      -0.69267081852192,
+      0.67007090347323
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442561",
+    "mapId": "hyland-point",
+    "category": "pawn-shop",
+    "title": "Pawn Shop",
+    "description": "Opening Hours: 6AM-6PM Payment Method: Cash Buys: - Legal Items",
+    "coords": [
+      -0.76460659503925,
+      0.74943610747337
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442435",
+    "mapId": "hyland-point",
+    "category": "ray-s-realty",
+    "title": "Ray's Realty",
+    "description": "Opening Hours: 6AM-6PM Payment Method: Card Sells: - [Storage Unit](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=479668) - $4,000 - [Laundromat](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442432) - $4,000 - [Post Office](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442429) - $10,000 - [Car Wash](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442553) - $20,000 - [Taco Ticklers](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442430) - $50,000 - [Bungaloo](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442679) - $6,000 - [Ray's Realty](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442435) - $25,000 - [Docks Warehouse](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442426) - $50,000",
+    "coords": [
+      -0.64214126266921,
+      0.69268888416772
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442446",
+    "mapId": "hyland-point",
+    "category": "shred-shack",
+    "title": "Shred Shack",
+    "description": "Opening Hours: 6AM-6PM Payment Method: Cash Sells: - Cheap Skateboard - $75 - Skateboard - $250 - Lightweight Skateboard - $500 - Cruiser - $500 - Golden Skateboard - $1,500",
+    "coords": [
+      -0.74583819663059,
+      0.80680228008106
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442438",
+    "mapId": "hyland-point",
+    "category": "thrifty-threads",
+    "title": "Thrifty Threads",
+    "description": "Hours Open: 6AM-6PM Payment Method: Card Sells: - Clothes",
+    "coords": [
+      -0.73613748208089,
+      0.71633246280804
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442447",
+    "mapId": "hyland-point",
+    "category": "top-tattoos",
+    "title": "Top Tattoo",
+    "description": "Hours Open: 6AM-6PM Payment Method: Card Sells: - Tattoos",
+    "coords": [
+      -0.82736150980912,
+      0.76874922827621
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442441",
+    "mapId": "hyland-point",
+    "category": "warehouse",
+    "title": "Warehouse",
+    "description": "Opening Hours: 6PM-6AM Payment Method: Cash Sells: - Guns - Melee Weapons - Ammo - Illegal Goods - Employees",
+    "coords": [
+      -0.75516580690066,
+      0.73256120717876
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442940",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Meg Cooley",
+    "description": "Area: Westville Standards: Low Favorite Effects: - Sneaky - Slippery - Thought-Provoking Connections: - [Trent Sherman](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442971) - Shirley Watts - [Keith Wagner](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442943)",
+    "coords": [
+      -0.82794506925129,
+      0.82795960747663
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442941",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Cranky Frank",
+    "description": "Area: Docks Standards: Moderate Favorite Effects: - Laxative - Toxic - Tropic Thunder Connections: - [Anna Chesterfield](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442976) - [Genghis Barn](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442965) - [Marco Barone](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442978) - [Melissa Wood](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442942)",
+    "coords": [
+      -0.79098343849276,
+      0.75585676184089
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442942",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Melissa Wood",
+    "description": "Area: Docks Standards: Moderate Favorite Effects: - Anti-gravity - Refreshing - Slippery Connections: - [Cranky Frank](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442941) - [Jane Lucero](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442554)",
+    "coords": [
+      -0.69543242454688,
+      0.78658672830713
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442943",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Keith Wagner",
+    "description": "Area: Westville Standards: Very Low Favorite Effects: - Slippery - Sneaky - Tropic Thunder Connections: - [Meg Cooley](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442940) - [Joyce Ball](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442951) - [Jerry Montero](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442944)",
+    "coords": [
+      -0.86135846202757,
+      0.79250667566664
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442944",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Jerry Montero",
+    "description": "Area: Westville Standards: Low Favorite Effects: - Gingeritis - Smelly - Thought-Provoking Connections: - [Keith Wagner](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442943) - Shirley Watts - [Kim Delaney](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442953) - [Dean Webster](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442945) - [Molly Presley](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442682)",
+    "coords": [
+      -0.79303801059802,
+      0.76112415875785
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442945",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Dean Webster",
+    "description": "Area: Westville Standards: Low Favorite Effects: - Glowing - Laxative - Spicy Connections: - [Jerry Montero](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442944) - [George Greene](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442946)",
+    "coords": [
+      -0.86349139460981,
+      0.81977124200773
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442946",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "George Greene",
+    "description": "Area: Westville Standards: Low Favorite Effects: - Energizing - Focused - Thought-Provoking Connections: - [Dean Webster](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442945) - [Molly Presley](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442682)",
+    "coords": [
+      -0.84815204143572,
+      0.82875222776437
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442947",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Lucy Pennington",
+    "description": "Area: Downtown Standards: Moderate Favorite Effects: - Calorie-Dense - Euphoric - Glowing Connections: - [Jennifer Rivera](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442977) - [Eugene Buckley](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442959) - [Philip Wentworth](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442962)",
+    "coords": [
+      -0.77603018746339,
+      0.81511501474232
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442948",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Elizabeth Homley",
+    "description": "Area: Downtown Standards: Moderate Favorite Effects: - Sedating - Tropic Thunder - Toxic Connections: - [Louis Fourier](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442956) - [Jennifer Rivera](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442977)",
+    "coords": [
+      -0.70963366707275,
+      0.74497852754435
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442949",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Chloe Bowers",
+    "description": "Area: Northtown Standards: Low Favorite Effects: - Euphoric - Shrinking - Munchies Connections: - [Sam Thompson](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442987) - [Benji Coleman](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442681)",
+    "coords": [
+      -0.71853082807829,
+      0.7648789002849
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442950",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Donna Martin",
+    "description": "Area: Northtown Standards: Low Favorite Effects: - Refreshing - Lethal - Munchies Connections: - [Kathy Henderson](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442986) - [Peggy Myers](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442954)",
+    "coords": [
+      -0.76500046071598,
+      0.76986067660104
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442951",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Joyce Ball",
+    "description": "Area: Westville Standards: Low Favorite Effects: - Euphoric - Thought-Provoking - Calorie-Dense Connections: - [Trent Sherman](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442971) - [Keith Wagner](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442943) - [Doris Lubbin](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442969)",
+    "coords": [
+      -0.7955539226534,
+      0.75202153501284
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442952",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Peter File",
+    "description": "Area: Northtown Standards: Low Favorite Effects: - Focused - Refreshing - Sneaky Connections: - [Sam Thompson](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442987) - [Ludwig Meyer](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442955)",
+    "coords": [
+      -0.76843048510051,
+      0.78737973025221
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442953",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Kim Delaney",
+    "description": "Area: Westville Standards: Low Favorite Effects: - Shrinking - Jennerising - Focused Connections: - [Doris Lubbin](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442969) - [Jerry Montero](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442944) - [Charles Rowland](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442957)",
+    "coords": [
+      -0.77692386721745,
+      0.84161042017082
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442954",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Peggy Myers",
+    "description": "Area: Northtown Standards: Low Favorite Effects: - Bright-Eyed - Refreshing - Energizing Connections: - [Donna Martin](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442950) - [Geraldine Poon](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442963) - [Beth Penn](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442973)",
+    "coords": [
+      -0.77383396243221,
+      0.84169624159897
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442955",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Ludwig Meyer",
+    "description": "Area: Northtown Standards: Low Favorite Effects: - Euphoric - Refreshing - Energizing Connections: - [Peter File](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442952) - [Benji Coleman](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442681) - [Mrs. Ming](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442970)",
+    "coords": [
+      -0.73933002566451,
+      0.83225587322225
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442956",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Louis Fourier",
+    "description": "Area: Downtown Standards: Moderate Favorite Effects: - Shrinking - Seizure-Inducing - Paranoia Connections: - [Elizabeth Homley](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442948) - [Kevin Oakley](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442958) - [Eugene Buckley](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442959)",
+    "coords": [
+      -0.75073453113001,
+      0.74733327580483
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442957",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Charles Rowland",
+    "description": "Area: Westville Standards: Low Favorite Effects: - Sedating - Disorienting - Foggy Connections: - [Kim Delaney](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442953) - [Molly Presley](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442682)",
+    "coords": [
+      -0.81332087516915,
+      0.75793261047403
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442958",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Kevin Oakley",
+    "description": "Area: Downtown Standards: Moderate Favorite Effects: - None Connections: - [Randy Caulfield](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442966) - [Louis Fourier](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442956)",
+    "coords": [
+      -0.71547328550906,
+      0.76492491547056
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442959",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Eugene Buckley",
+    "description": "Area: Downtown Standards: Moderate Favorite Effects: - Schizophrenic - Toxic - Calming Connections: - [Louis Fourier](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442956) - [Lucy Pennington](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442947) - [Brad Crosby](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442683) - [Greg Figgle](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442960) - [Philip Wentworth](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442962)",
+    "coords": [
+      -0.65166888310901,
+      0.76278950350424
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442960",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Greg Figgle",
+    "description": "Area: Downtown Standards: Very Low Favorite Effects: - Euphoric - Tropic Thunder - Toxic Connections: - [Brad Crosby](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442683) - [Eugene Buckley](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442959) - [Jeff Gilmore](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442961)",
+    "coords": [
+      -0.7530462741841,
+      0.74529512906334
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442961",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Jeff Gilmore",
+    "description": "Area: Downtown Standards: Moderate Favorite Effects: - Sedating - Long Faced - Laxative Connections: - [Randy Caulfield](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442966) - [Greg Figgle](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442960) - [Philip Wentworth](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442962)",
+    "coords": [
+      -0.71254368218004,
+      0.76497542047784
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442962",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Philip Wentworth",
+    "description": "Area: Downtown Standards: Moderate Favorite Effects: - Refreshing - Shrinking - Foggy Connections: - [Lucy Pennington](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442947) - [Eugene Buckley](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442959) - [Jeff Gilmore](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442961)",
+    "coords": [
+      -0.69254205162756,
+      0.78655590358778
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442963",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Geraldine Poon",
+    "description": "Area: Northtown Standards: Very Low Favorite Effects: - Balding - Long Faced - Sedating Connections: - [Kathy Henderson](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442986) - [Mick Lubbin](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442972) - [Peggy Myers](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442954)",
+    "coords": [
+      -0.73938697254005,
+      0.85489352718557
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442964",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Lisa Gardener",
+    "description": "Area: Docks Standards: Moderate Favorite Effects: - Laxative - Schizophrenic - Anti-Gravity Connections: - [Javier Pérez](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442967) - [Anna Chesterfield](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442976)",
+    "coords": [
+      -0.75446059290871,
+      0.63840608465222
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442965",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Genghis Barn",
+    "description": "Area: Docks Standards: Very Low Favorite Effects: - Electrifying - Gengeritis - Athletic Connections: - [Javier Pérez](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442967) - [Cranky Frank](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442941)",
+    "coords": [
+      -0.76896138200252,
+      0.67002189732834
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442966",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Randy Caulfield",
+    "description": "Area: Downtown Standards: Moderate Favorite Effects: - None Connections: - [Kevin Oakley](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442958) - [Brad Crosby](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442683) - [Jeff Gilmore](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442961)",
+    "coords": [
+      -0.79201365829911,
+      0.67764305997876
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442967",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Javier Pérez",
+    "description": "Area: Docks Standards: Moderate Favorite Effects: - None Connections: - [Lisa Gardener](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442964) - [Genghis Barn](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442965) - [Marco Barone](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442978) - Salvador Moreno",
+    "coords": [
+      -0.70173494515709,
+      0.70236057481119
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442968",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Karen Kennedy",
+    "description": "Area: Suburbia Standards: High Favorite Effects: - None Connections: - [Chris Sullivan](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443163) - [Hank Stevenson](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442981) - [Jeremy Wilkinson](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442979)",
+    "coords": [
+      -0.67223801434682,
+      0.6264148067913
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442969",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Doris Lubbin",
+    "description": "Area: Westville Standards: Low Favorite Effects: - Spicy - Tropic Thunder - Balding Connections: - [Joyce Ball](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442951) - [Kim Delaney](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442953)",
+    "coords": [
+      -0.81088678079564,
+      0.74374612572846
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442970",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Mrs. Ming",
+    "description": "Area: Northtown Standards: Low Favorite Effects: - Gingeritis - Shrinking - Electrifying Connections: - [Ludwig Meyer](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442955) - [Beth Penn](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442973)",
+    "coords": [
+      -0.76681001688934,
+      0.82588451105802
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442971",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Trent Sherman",
+    "description": "Area: Westville Standards: Low Favorite Effects: - Athletic - Balding - Calorie-Dense Connections: - [Meg Cooley](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442940) - [Joyce Ball](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442951)",
+    "coords": [
+      -0.80955788239129,
+      0.73177966788093
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442972",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Mick Lubbin",
+    "description": "Area: Northtown Standards: Low Favorite Effects: - Euphoric - Bright-Eyed - Sneaky Connections: - [Geraldine Poon](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442963) - [Sam Thompson](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442987)",
+    "coords": [
+      -0.80792963504715,
+      0.74370739537467
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442973",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Beth Penn",
+    "description": "Area: Northtown Standards: Low Favorite Effects: - Schizophrenic - Lethal - Seizure-Inducing Connections: - [Peggy Myers](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442954) - [Benji Coleman](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442681) - [Mrs. Ming](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442970)",
+    "coords": [
+      -0.76857626437908,
+      0.79313069642949
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442974",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Jessi Waters",
+    "description": "Area: Northtown Standards: Very Low Favorite Effects: - Energizing - Paranoia - Sneaky Connections: - [Kyle Cooley](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442975) - Albert Hoover - [Sam Thompson](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442987)",
+    "coords": [
+      -0.76857626437908,
+      0.79913826461502
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442975",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Kyle Cooley",
+    "description": "Area: Northtown Standards: Low Favorite Effects: - Calming - Munchies - Smelly Connections: - [Austin Steiner](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442985) - Albert Hoover - [Jessi Waters](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442974)",
+    "coords": [
+      -0.73862135410232,
+      0.77347730564408
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442976",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Anna Chesterfield",
+    "description": "Area: Docks Standards: Moderate Favorite Effects: - Refreshing - Thought-Provoking - Euphoric Connections: - [Lisa Gardener](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442964) - [Cranky Frank](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442941)",
+    "coords": [
+      -0.70952475070942,
+      0.76488428235763
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442977",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Jennifer Rivera",
+    "description": "Area: Downtown Standards: Moderate Favorite Effects: - Shrinking - Slippery - Toxic Connections: - [Elizabeth Homley](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442948) - [Lucy Pennington](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442947)",
+    "coords": [
+      -0.68973606630109,
+      0.78646449095278
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442978",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Marco Barone",
+    "description": "Area: Docks Standards: Moderate Favorite Effects: - Sneaky - Long Faced - Refreshing Connections: - [Cranky Frank](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442941) - [Javier Pérez](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442967) - [Mac Cooper](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442989)",
+    "coords": [
+      -0.71019165271952,
+      0.69739423190607
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442979",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Jeremy Wilkinson",
+    "description": "Area: Suburbia Standards: High Favorite Effects: - Balding - Slippery - Calorie-Dense Connections: - [Karen Kennedy](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442968) - [Alison Knight](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442980) - [Wei Long](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442684)",
+    "coords": [
+      -0.65147897771857,
+      0.60081568271832
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442980",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Alison Knight",
+    "description": "Area: Suburbia Standards: High Favorite Effects: - None Connections: - [Chris Sullivan](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443163) - [Jeremy Wilkinson](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442979) - [Carl Bundy](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442988)",
+    "coords": [
+      -0.61361432075583,
+      0.62604731288509
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442981",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Hank Stevenson",
+    "description": "Area: Suburbia Standards: High Favorite Effects: - Sneaky - Toxic - Schizophrenic Connections: - [Karen Kennedy](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442968) - [Jackie Stevenson](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442982)",
+    "coords": [
+      -0.59034961624394,
+      0.60234473554165
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442982",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Jackie Stevenson",
+    "description": "Area: Suburbia Standards: High Favorite Effects: - None Connections: - [Hank Stevenson](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442981) - [Wei Long](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442684) - [Dennis Kennedy](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443156)",
+    "coords": [
+      -0.58708805008175,
+      0.60243056148644
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442983",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Fiona Hancock",
+    "description": "Area: Uptown Standards: High Favorite Effects: - Lethal - Thought-Provoking - Tropic Thunder Connections: - [Lily Turner](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443162) - [Walter Cussler](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442991)",
+    "coords": [
+      -0.61069517258738,
+      0.77467476370587
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442984",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Jen Heard",
+    "description": "Area: Uptown Standards: High Favorite Effects: - Disorienting - Energizing - Sneaky Connections: - [Lily Turner](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443162) - [Ray Hoffman](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443159) - [Herbert Bleuball](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443158) - [Walter Cussler](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442991)",
+    "coords": [
+      -0.60777783393877,
+      0.77458763884636
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442985",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Austin Steiner",
+    "description": "Area: Northtown Standards: Low Favorite Effects: - Calorie-Dense - Euphoric - Munchies Connections: - [Kyle Cooley](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442975) - Albert Hoover - [Kathy Henderson](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442986)",
+    "coords": [
+      -0.82500252111333,
+      0.82803053292783
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442986",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Kathy Henderson",
+    "description": "Area: Northtown Standards: Low Favorite Effects: - Athletic - Energizing - Focused Connections: - [Austin Steiner](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442985) - [Donna Martin](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442950) - [Geraldine Poon](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442963)",
+    "coords": [
+      -0.8614182843659,
+      0.78431102415024
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442987",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Sam Thompson",
+    "description": "Area: Northtown Standards: Low Favorite Effects: - Munchies - Athletic - Smelly Connections: - [Jessi Waters](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442974) - [Mick Lubbin](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442972) - Albert Hoover - [Chloe Bowers](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442949) - [Peter File](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442952)",
+    "coords": [
+      -0.75572311878051,
+      0.79842486635192
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442988",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Carl Bundy",
+    "description": "Area: Suburbia Standards: High Favorite Effects: - Glowing - Athletic - Disorienting Connections: - [Alison Knight](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442980) - [Harold Colt](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443155) - [Jack Knight](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443154)",
+    "coords": [
+      -0.6719419645195,
+      0.60434634025737
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442989",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Mac Cooper",
+    "description": "Area: Docks Standards: Moderate Favorite Effects: - Focused - Spicy - Long Faced Connections: - [Marco Barone](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442978) - Salvador Moreno - [Billy Kramer](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442990)",
+    "coords": [
+      -0.76995796923092,
+      0.64512974357456
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442990",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Billy Kramer",
+    "description": "Area: Docks Standards: Moderate Favorite Effects: - Spicy - Schizophrenic - Long Faced Connections: - [Mac Cooper](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442989) - [Jane Lucero](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442554)",
+    "coords": [
+      -0.7515914446401,
+      0.63947041213657
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442991",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Walter Cussler",
+    "description": "Area: Uptown Standards: High Favorite Effects: - Schizophrenic - Calming - Balding Connections: - [Fiona Hancock](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442983) - [Jen Heard](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442984) - [Pearl Moore](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443157)",
+    "coords": [
+      -0.59273464022795,
+      0.74291703663449
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-443154",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Jack Knight",
+    "description": "Area: Suburbia Standards: High Favorite Effects: - Shrinking - Thought-Provoking - Lethal Connections: - [Carl Bundy](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442988) - [Dennis Kennedy](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443156)",
+    "coords": [
+      -0.61067390257392,
+      0.62612710240546
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-443155",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Harold Colt",
+    "description": "Area: Suburbia Standards: High Favorite Effects: - Foggy - Spicy - Jennerising Connections: - [Carl Bundy](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442988) - [Wei Long](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442684) - [Dennis Kennedy](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443156)",
+    "coords": [
+      -0.61170387083521,
+      0.59917780718442
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-443156",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Dennis Kennedy",
+    "description": "Area: Suburbia Standards: High Favorite Effects: - Athletic - Focused - Bright-Eyed Connections: - [Jackie Stevenson](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442982) - [Harold Colt](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443155) - [Jack Knight](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443154)",
+    "coords": [
+      -0.66906911280617,
+      0.62647321774836
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-443157",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Pearl Moore",
+    "description": "Area: Uptown Standards: High Favorite Effects: - Schizophrenic - Gingeritis - Explosive Connections: - [Walter Cussler](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442991) - [Herbert Bleuball](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443158) - [Tobas Wentworth](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443160)",
+    "coords": [
+      -0.58978287336578,
+      0.74295404424548
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-443158",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Herbert Bleuball",
+    "description": "Area: Uptown Standards: High Favorite Effects: - Slippery - Foggy - Explosive Connections: - [Jen Heard](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442984) - [Pearl Moore](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443157) - [Tobas Wentworth](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443160)",
+    "coords": [
+      -0.61080806354772,
+      0.77044772522657
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-443159",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Ray Hoffman",
+    "description": "Area: Uptown Standards: High Favorite Effects: - None Connections: - [Jen Heard](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442984) - [Leo Rivers](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442685)",
+    "coords": [
+      -0.60788982013932,
+      0.77053354815455
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-443160",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Tobas Wentworth",
+    "description": "Area: Uptown Standards: High Favorite Effects: - Lethal - Disorienting - Spicy Connections: - [Pearl Moore](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443157) - [Herbert Bleuball](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443158) - [Michael Boog](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443161)",
+    "coords": [
+      -0.63748863531549,
+      0.78651084960531
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-443161",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Michael Boog",
+    "description": "Area: Uptown Standards: High Favorite Effects: - Jennerising - Calming - Schizophrenic Connections: - [Tobas Wentworth](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443160) - [Leo Rivers](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442685)",
+    "coords": [
+      -0.59378405629261,
+      0.80607604258735
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-443162",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Lily Turner",
+    "description": "Area: Uptown Standards: High Favorite Effects: - None Connections: - [Fiona Hancock](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442983) - [Jen Heard](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442984)",
+    "coords": [
+      -0.61093055585999,
+      0.76620199120401
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-443163",
+    "mapId": "hyland-point",
+    "category": "customer",
+    "title": "Chris Sullivan",
+    "description": "Area: Suburbia Standards: High Favorite Effects: - Sneak - Euphoric - Electrifying Connections: - [Karen Kennedy](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442968) - [Alison Knight](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442980)",
+    "coords": [
+      -0.64719198395153,
+      0.74312089573974
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442554",
+    "mapId": "hyland-point",
+    "category": "dealer",
+    "title": "Jane Lucero",
+    "description": "Location: Lives in the RV Contact Section: Docks Buy-In Amount: $3.000 Connections: - [Melissa Wood](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442942) - [Billy Kramer](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442990)",
+    "coords": [
+      -0.73675049122926,
+      0.6340217064823
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442681",
+    "mapId": "hyland-point",
+    "category": "dealer",
+    "title": "Benji Coleman",
+    "description": "Location: Lives in Motel Room #2 Contact Section: Northtown Buy-In Amount: $500 Connections: - [Chloe Bowers](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442949) - [Beth Penn](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442973) - [Ludwig Meyer](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442955)",
+    "coords": [
+      -0.7683597498397,
+      0.78090284957446
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442682",
+    "mapId": "hyland-point",
+    "category": "dealer",
+    "title": "Molly Presley",
+    "description": "Location: Lives in Brown Apartment Room #1 Contact Section: Westville Buy-In Amount: $1,000 Connections: - [Jerry Montero](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442944) - [Charles Rowland](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442957) - [George Greene](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442946)",
+    "coords": [
+      -0.85200342588297,
+      0.78476467491322
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442683",
+    "mapId": "hyland-point",
+    "category": "dealer",
+    "title": "Brad Crosby",
+    "description": "Location: Lives inside the parking garage Contact Section: Downtown Buy-In Amount: $2,000 Connections: - [Randy Caulfield](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442966) - [Greg Figgle](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442960) - [Eugene Buckley](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442959)",
+    "coords": [
+      -0.71298584874748,
+      0.78071002642375
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442684",
+    "mapId": "hyland-point",
+    "category": "dealer",
+    "title": "Wei Long",
+    "description": "Location: Lives inside a small shack Contact Section: Suburbia Buy-In Amount: $4,000 Connections: - [Jeremy Wilkinson](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442979) - [Jackie Stevenson](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=442982) - [Harold Colt](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443155)",
+    "coords": [
+      -0.65825740008762,
+      0.6504460991262
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-442685",
+    "mapId": "hyland-point",
+    "category": "dealer",
+    "title": "Leo Rivers",
+    "description": "Location: Lives inside a shipping container Contact Section: Uptown Buy-In Amount: $5,000 Connections: - [Ray Hoffman](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443159) - [Michael Boog](https://mapgenie.io/schedule-1/maps/hyland-point?locationIds=443161)",
+    "coords": [
+      -0.5818786615676,
+      0.76140610916877
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-929576",
+    "mapId": "hyland-point",
+    "category": "graffiti",
+    "title": "Graffiti",
+    "description": "Graffiti localizado em hyland-point.",
+    "coords": [
+      -0.84921459587744,
+      0.78880129052719
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-929577",
+    "mapId": "hyland-point",
+    "category": "graffiti",
+    "title": "Graffiti",
+    "description": "Graffiti localizado em hyland-point.",
+    "coords": [
+      -0.67076539314689,
+      0.77190711026462
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-932464",
+    "mapId": "hyland-point",
+    "category": "graffiti",
+    "title": "Graffiti",
+    "description": "Graffiti localizado em hyland-point.",
+    "coords": [
+      -0.72172737872177,
+      0.70708684772269
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  },
+  {
+    "id": "schedule-1-hyland-point-932465",
+    "mapId": "hyland-point",
+    "category": "graffiti",
+    "title": "Graffiti",
+    "description": "Graffiti localizado em hyland-point.",
+    "coords": [
+      -0.71907391997394,
+      0.6998242672215
+    ],
+    "region": "hyland-point",
+    "dlc": "base"
+  }
+]

@@ -1,6 +1,6 @@
 [package]
 name = "nexus-maps"
-version = "2.3.0"
+version = "2.3.1"
 description = "Nexus Maps — Central de Cartografia Gamer"
 authors = ["Nexus Maps"]
 edition = "2021"

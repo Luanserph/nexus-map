@@ -1,0 +1,418 @@
+{
+  "id": "game-starrupture",
+  "slug": "starrupture",
+  "title": "StarRupture",
+  "subtitle": "Arcadia-7 — Sobrevivência Alienígena, Recursos & Monólitos",
+  "studio": "Creepy Jar",
+  "releaseYear": 2025,
+  "genres": [
+    "Sobrevivência",
+    "Ficção Científica",
+    "Mundo Aberto"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/starrupture/cover.webp",
+    "bannerImage": "/games/starrupture/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#F97316",
+    "accentSecondary": "#38BDF8",
+    "accentGlow": "rgba(249, 115, 22, 0.40)",
+    "glassTint": "rgba(22, 12, 10, 0.82)",
+    "surfaceBase": "#0E0706",
+    "fontDisplay": "'Rajdhani', sans-serif",
+    "backgroundPattern": "cyber-grid",
+    "badgeStyle": "chamfered"
+  },
+  "maps": [
+    {
+      "id": "arcadia-7",
+      "name": "Arcadia-7",
+      "dlc": "base",
+      "pinsCount": 2436,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0E0706",
+      "initialCenter": [
+        0.72743226803341,
+        -0.83908112883753
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          0.16654,
+          -1.03486
+        ],
+        [
+          1.17881,
+          -0.28374
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "no-radiation",
+          "label": "No Radiation",
+          "urlTemplate": "https://tiles.mapgenie.io/games/starrupture/arcadia-7/no-rads-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0.16654,
+              -1.03486
+            ],
+            [
+              1.17881,
+              -0.28374
+            ]
+          ]
+        },
+        {
+          "id": "radiation",
+          "label": "Radiation",
+          "urlTemplate": "https://tiles.mapgenie.io/games/starrupture/arcadia-7/default-v2/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0.16654,
+              -1.03486
+            ],
+            [
+              1.17881,
+              -0.28374
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "points-of-interest",
+      "label": "Points of Interest",
+      "categories": [
+        {
+          "id": "abandoned-base",
+          "groupId": "points-of-interest",
+          "name": "Abandoned Base",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "cave",
+          "groupId": "points-of-interest",
+          "name": "Cave",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "forgotten-engine",
+          "groupId": "points-of-interest",
+          "name": "Forgotten Engine",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "geo-scanner",
+          "groupId": "points-of-interest",
+          "name": "Geo Scanner",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "monolith",
+          "groupId": "points-of-interest",
+          "name": "Monolith",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "orbital-lander",
+          "groupId": "points-of-interest",
+          "name": "Orbital Lander",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "buildings-equipment",
+      "label": "Buildings & Equipment",
+      "categories": [
+        {
+          "id": "food-station",
+          "groupId": "buildings-equipment",
+          "name": "Food Station",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "item-printer",
+          "groupId": "buildings-equipment",
+          "name": "Item Printer",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "ore-excavator",
+          "groupId": "buildings-equipment",
+          "name": "Ore Excavator",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "personal-storage",
+          "groupId": "buildings-equipment",
+          "name": "Personal Storage",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "storage-depot",
+          "groupId": "buildings-equipment",
+          "name": "Storage Depot",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "sulfur-extractor",
+          "groupId": "buildings-equipment",
+          "name": "Sulfur Extractor",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "loot",
+      "label": "Loot",
+      "categories": [
+        {
+          "id": "dead-body",
+          "groupId": "loot",
+          "name": "Dead Body",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "drone",
+          "groupId": "loot",
+          "name": "Drone",
+          "icon": "radio",
+          "color": "#F472B6",
+          "defaultVisible": false
+        },
+        {
+          "id": "loot-box",
+          "groupId": "loot",
+          "name": "Loot Box",
+          "icon": "gem",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "rubble-pile",
+          "groupId": "loot",
+          "name": "Rubble Pile",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "audiocom",
+          "groupId": "collectibles",
+          "name": "Audiocom",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "blueprint-storage-box",
+          "groupId": "collectibles",
+          "name": "Blueprint Storage Box",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "keycard",
+          "groupId": "collectibles",
+          "name": "Keycard",
+          "icon": "gem",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "mainframe",
+          "groupId": "collectibles",
+          "name": "Mainframe",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "tablet",
+          "groupId": "collectibles",
+          "name": "Tablet",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "resources-pure",
+      "label": "Resources: Pure",
+      "categories": [
+        {
+          "id": "calcium-p",
+          "groupId": "resources-pure",
+          "name": "Calcium (P)",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "titanium-p",
+          "groupId": "resources-pure",
+          "name": "Titanium (P)",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "wolfram-p",
+          "groupId": "resources-pure",
+          "name": "Wolfram (P)",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "resources-normal",
+      "label": "Resources: Normal",
+      "categories": [
+        {
+          "id": "calcium-n",
+          "groupId": "resources-normal",
+          "name": "Calcium (N)",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "geothite",
+          "groupId": "resources-normal",
+          "name": "Geothite",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": false
+        },
+        {
+          "id": "titanium-n",
+          "groupId": "resources-normal",
+          "name": "Titanium (N)",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "wolfram-n",
+          "groupId": "resources-normal",
+          "name": "Wolfram (N)",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "resources-impure",
+      "label": "Resources: Impure",
+      "categories": [
+        {
+          "id": "calcium-i",
+          "groupId": "resources-impure",
+          "name": "Calcium (I)",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "titanium-i",
+          "groupId": "resources-impure",
+          "name": "Titanium (I)",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "wolfram-i",
+          "groupId": "resources-impure",
+          "name": "Wolfram (I)",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "resources",
+      "label": "Resources",
+      "categories": [
+        {
+          "id": "helium-3-geyser",
+          "groupId": "resources",
+          "name": "Helium-3 Geyser",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "powerium-deposit",
+          "groupId": "resources",
+          "name": "Powerium Deposit",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "sulphur-deposit",
+          "groupId": "resources",
+          "name": "Sulphur Deposit",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 2436
+}

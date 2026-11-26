@@ -1,0 +1,1111 @@
+{
+  "id": "game-grounded-2",
+  "slug": "grounded-2",
+  "title": "Grounded 2",
+  "subtitle": "Brookhollow Park — Milk Molars, Discos Ópticos, Laboratórios & Segredos",
+  "studio": "Obsidian Entertainment / Eidos-Montréal",
+  "releaseYear": 2025,
+  "genres": [
+    "Sobrevivência",
+    "Aventura",
+    "Co-op"
+  ],
+  "platforms": [
+    "pc",
+    "xbox"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/grounded-2/cover.webp",
+    "bannerImage": "/games/grounded-2/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#84CC16",
+    "accentSecondary": "#38BDF8",
+    "accentGlow": "rgba(132, 204, 22, 0.40)",
+    "glassTint": "rgba(12, 20, 10, 0.82)",
+    "surfaceBase": "#080E06",
+    "fontDisplay": "'Space Grotesk', sans-serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "minimal"
+  },
+  "maps": [
+    {
+      "id": "brookhollow-park",
+      "name": "Brookhollow Park",
+      "dlc": "base",
+      "pinsCount": 11899,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#080E06",
+      "initialCenter": [
+        0.78289321106625,
+        -0.79602971348629
+      ],
+      "initialZoom": 14,
+      "maxBounds": [
+        [
+          -0.07017,
+          -0.90646
+        ],
+        [
+          0.94733,
+          0.06715
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default-v5",
+          "label": "default-v5",
+          "urlTemplate": "https://tiles.mapgenie.io/games/grounded-2/brookhollow-park/default-v5/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "places",
+      "label": "Places",
+      "categories": [
+        {
+          "id": "mix-r",
+          "groupId": "places",
+          "name": "MIX.R",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "ominent-facility",
+          "groupId": "places",
+          "name": "Ominent Facility",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "outpost",
+          "groupId": "places",
+          "name": "Outpost",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "pneumatic-transit",
+          "groupId": "places",
+          "name": "Pneumatic Transit",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "point-of-interest",
+          "groupId": "places",
+          "name": "Point of Interest",
+          "icon": "landmark",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "tunnel-entrance",
+          "groupId": "places",
+          "name": "Tunnel Entrance",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": false
+        },
+        {
+          "id": "wonder",
+          "groupId": "places",
+          "name": "Wonder",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "buried-treasure",
+          "groupId": "collectibles",
+          "name": "Buried Treasure",
+          "icon": "gem",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "chest",
+          "groupId": "collectibles",
+          "name": "Chest",
+          "icon": "gem",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "key",
+          "groupId": "collectibles",
+          "name": "Key",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "log",
+          "groupId": "collectibles",
+          "name": "Log",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "mega-milk-molar",
+          "groupId": "collectibles",
+          "name": "Mega Milk Molar",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "milk-molar",
+          "groupId": "collectibles",
+          "name": "Milk Molar",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "moldy-milk-molar",
+          "groupId": "collectibles",
+          "name": "Moldy Milk Molar",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "optical-disk",
+          "groupId": "collectibles",
+          "name": "Optical Disk",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "recipe",
+          "groupId": "collectibles",
+          "name": "Recipe",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "sca-b-scheme",
+          "groupId": "collectibles",
+          "name": "SCA.B Scheme",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "trinket",
+          "groupId": "collectibles",
+          "name": "Trinket",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "unique-item",
+          "groupId": "collectibles",
+          "name": "Unique Item",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "resources",
+      "label": "Resources",
+      "categories": [
+        {
+          "id": "acorn",
+          "groupId": "resources",
+          "name": "Acorn",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "apple",
+          "groupId": "resources",
+          "name": "Apple",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "billy-hog",
+          "groupId": "resources",
+          "name": "Billy Hog",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "blueberry",
+          "groupId": "resources",
+          "name": "Blueberry",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "brittle-marble",
+          "groupId": "resources",
+          "name": "Brittle Marble",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": false
+        },
+        {
+          "id": "brittle-quartzite",
+          "groupId": "resources",
+          "name": "Brittle Quartzite",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "bur-weed",
+          "groupId": "resources",
+          "name": "Bur Weed",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "carrot",
+          "groupId": "resources",
+          "name": "Carrot",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "charcoal",
+          "groupId": "resources",
+          "name": "Charcoal",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "chewed-gum",
+          "groupId": "resources",
+          "name": "Chewed Gum",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "chocolate-chip",
+          "groupId": "resources",
+          "name": "Chocolate Chip",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "chrysalis-hide",
+          "groupId": "resources",
+          "name": "Chrysalis Hide",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "clay",
+          "groupId": "resources",
+          "name": "Clay",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "clover",
+          "groupId": "resources",
+          "name": "Clover",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "cookie-sandwich",
+          "groupId": "resources",
+          "name": "Cookie Sandwich",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "corn-hog",
+          "groupId": "resources",
+          "name": "Corn Hog",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "crow-feather",
+          "groupId": "resources",
+          "name": "Crow Feather",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "dandelion",
+          "groupId": "resources",
+          "name": "Dandelion",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "donut",
+          "groupId": "resources",
+          "name": "Donut",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "fertilizer",
+          "groupId": "resources",
+          "name": "Fertilizer",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "fresh-mint",
+          "groupId": "resources",
+          "name": "Fresh Mint",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "gloom-shroom",
+          "groupId": "resources",
+          "name": "Gloom Shroom",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "hosta-plant",
+          "groupId": "resources",
+          "name": "Hosta Plant",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "hot-chachas",
+          "groupId": "resources",
+          "name": "Hot Chachas",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "husky-weed",
+          "groupId": "resources",
+          "name": "Husky Weed",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "icicle",
+          "groupId": "resources",
+          "name": "Icicle",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "lingonberry",
+          "groupId": "resources",
+          "name": "Lingonberry",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "lint-clump",
+          "groupId": "resources",
+          "name": "Lint Clump",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "milkweed-pod",
+          "groupId": "resources",
+          "name": "Milkweed Pod",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "mushroom",
+          "groupId": "resources",
+          "name": "Mushroom",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "needle-bundle",
+          "groupId": "resources",
+          "name": "Needle Bundle",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": false
+        },
+        {
+          "id": "pinecone",
+          "groupId": "resources",
+          "name": "Pinecone",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "pop-cap",
+          "groupId": "resources",
+          "name": "Pop Cap",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "potato",
+          "groupId": "resources",
+          "name": "Potato",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "pretzel",
+          "groupId": "resources",
+          "name": "Pretzel",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "pupa",
+          "groupId": "resources",
+          "name": "Pupa",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "raw-science",
+          "groupId": "resources",
+          "name": "Raw Science",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "rust",
+          "groupId": "resources",
+          "name": "Rust",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "sap-clump",
+          "groupId": "resources",
+          "name": "Sap Clump",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": false
+        },
+        {
+          "id": "seasonal-resource",
+          "groupId": "resources",
+          "name": "Seasonal Resource",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "sour-candy",
+          "groupId": "resources",
+          "name": "Sour Candy",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "splinter",
+          "groupId": "resources",
+          "name": "Splinter",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "sturdy-marble",
+          "groupId": "resources",
+          "name": "Sturdy Marble",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "sturdy-quartzite",
+          "groupId": "resources",
+          "name": "Sturdy Quartzite",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "sunken-bone",
+          "groupId": "resources",
+          "name": "Sunken Bone",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "thistle",
+          "groupId": "resources",
+          "name": "Thistle",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "toadstool",
+          "groupId": "resources",
+          "name": "Toadstool",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": false
+        },
+        {
+          "id": "toenail",
+          "groupId": "resources",
+          "name": "Toenail",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "wasp-paper",
+          "groupId": "resources",
+          "name": "Wasp Paper",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "gold-foil",
+          "groupId": "resources",
+          "name": "Gold Foil",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "spew-spore",
+          "groupId": "resources",
+          "name": "Spew Spore",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "flower-petal",
+          "groupId": "resources",
+          "name": "Flower Petal",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": false
+        },
+        {
+          "id": "slime-mold",
+          "groupId": "resources",
+          "name": "Slime Mold",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "creatures",
+      "label": "Creatures",
+      "categories": [
+        {
+          "id": "aphid",
+          "groupId": "creatures",
+          "name": "Aphid",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": false
+        },
+        {
+          "id": "bee",
+          "groupId": "creatures",
+          "name": "Bee",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "black-ant",
+          "groupId": "creatures",
+          "name": "Black Ant",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "blue-butterfly",
+          "groupId": "creatures",
+          "name": "Blue Butterfly",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "bombardier-beetle",
+          "groupId": "creatures",
+          "name": "Bombardier Beetle",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "caterpillar",
+          "groupId": "creatures",
+          "name": "Caterpillar",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "cockroach",
+          "groupId": "creatures",
+          "name": "Cockroach",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "cockroach-queen",
+          "groupId": "creatures",
+          "name": "Cockroach Queen",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "creature-egg",
+          "groupId": "creatures",
+          "name": "Creature Egg",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "cricket",
+          "groupId": "creatures",
+          "name": "Cricket",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "diving-bell-spider",
+          "groupId": "creatures",
+          "name": "Diving Bell Spider",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "earwig",
+          "groupId": "creatures",
+          "name": "Earwig",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "firefly",
+          "groupId": "creatures",
+          "name": "Firefly",
+          "icon": "flame",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "garden-snail",
+          "groupId": "creatures",
+          "name": "Garden Snail",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "gnat",
+          "groupId": "creatures",
+          "name": "Gnat",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "green-shield-bug",
+          "groupId": "creatures",
+          "name": "Green Shield Bug",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": false
+        },
+        {
+          "id": "grub",
+          "groupId": "creatures",
+          "name": "Grub",
+          "icon": "gem",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "ladybug",
+          "groupId": "creatures",
+          "name": "Ladybug",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": false
+        },
+        {
+          "id": "larvae",
+          "groupId": "creatures",
+          "name": "Larvae",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "mite",
+          "groupId": "creatures",
+          "name": "Mite",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "mosquito",
+          "groupId": "creatures",
+          "name": "Mosquito",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "northern-scorpion",
+          "groupId": "creatures",
+          "name": "Northern Scorpion",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "northern-scorpionling",
+          "groupId": "creatures",
+          "name": "Northern Scorpionling",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "orb-weaver-spider",
+          "groupId": "creatures",
+          "name": "Orb Weaver Spider",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": false
+        },
+        {
+          "id": "potato-beetle",
+          "groupId": "creatures",
+          "name": "Potato Beetle",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "praying-mantis",
+          "groupId": "creatures",
+          "name": "Praying Mantis",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "red-ant",
+          "groupId": "creatures",
+          "name": "Red Ant",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "rust-beetle",
+          "groupId": "creatures",
+          "name": "Rust Beetle",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "spiderling",
+          "groupId": "creatures",
+          "name": "Spiderling",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "stinkbug",
+          "groupId": "creatures",
+          "name": "Stinkbug",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "tadpole",
+          "groupId": "creatures",
+          "name": "Tadpole",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "termite",
+          "groupId": "creatures",
+          "name": "Termite",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "tick",
+          "groupId": "creatures",
+          "name": "Tick",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "unique-creature",
+          "groupId": "creatures",
+          "name": "Unique Creature",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": false
+        },
+        {
+          "id": "wasp",
+          "groupId": "creatures",
+          "name": "Wasp",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "water-boatman",
+          "groupId": "creatures",
+          "name": "Water Boatman",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "water-flea",
+          "groupId": "creatures",
+          "name": "Water Flea",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "weevil",
+          "groupId": "creatures",
+          "name": "Weevil",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": false
+        },
+        {
+          "id": "wolf-spider",
+          "groupId": "creatures",
+          "name": "Wolf Spider",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "wooly-aphid",
+          "groupId": "creatures",
+          "name": "Wooly Aphid",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "toe-biter",
+          "groupId": "creatures",
+          "name": "Toe Biter",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "tiger-mosquito",
+          "groupId": "creatures",
+          "name": "Tiger Mosquito",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "pond-jockey-swarm",
+          "groupId": "creatures",
+          "name": "Pond Jockey Swarm",
+          "icon": "shopping-bag",
+          "color": "#2DD4BF",
+          "defaultVisible": false
+        },
+        {
+          "id": "striped-bark-scorpion",
+          "groupId": "creatures",
+          "name": "Striped Bark Scorpion",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "striped-bark-scorpionling",
+          "groupId": "creatures",
+          "name": "Striped Bark Scorpionling",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "o-g-r-r-creature",
+          "groupId": "creatures",
+          "name": "O.G.R.R. Creature",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "body",
+          "groupId": "other",
+          "name": "Body",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "cracked-rock",
+          "groupId": "other",
+          "name": "Cracked Rock",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "dead-root",
+          "groupId": "other",
+          "name": "Dead Root",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "o-r-c-transmitter",
+          "groupId": "other",
+          "name": "O.R.C. Transmitter",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "soggy-root",
+          "groupId": "other",
+          "name": "Soggy Root",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "web-bridge",
+          "groupId": "other",
+          "name": "Web Bridge",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 11899
+}

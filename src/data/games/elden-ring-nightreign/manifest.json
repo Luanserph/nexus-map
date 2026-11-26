@@ -1,0 +1,278 @@
+{
+  "id": "game-elden-ring-nightreign",
+  "slug": "elden-ring-nightreign",
+  "title": "Elden Ring Nightreign",
+  "subtitle": "Limveld — Locais de Graça, Chefes Noturnos, Relíquias & Cálices",
+  "studio": "FromSoftware",
+  "releaseYear": 2025,
+  "genres": [
+    "Action RPG",
+    "Soulslike",
+    "Co-op"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/elden-ring-nightreign/cover.webp",
+    "bannerImage": "/games/elden-ring-nightreign/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#60A5FA",
+    "accentSecondary": "#D4AF37",
+    "accentGlow": "rgba(96, 165, 250, 0.42)",
+    "glassTint": "rgba(10, 14, 24, 0.86)",
+    "surfaceBase": "#060810",
+    "fontDisplay": "'Cinzel', Georgia, serif",
+    "backgroundPattern": "abyssal-contours",
+    "badgeStyle": "ornate"
+  },
+  "maps": [
+    {
+      "id": "limveld",
+      "name": "Limveld",
+      "dlc": "base",
+      "pinsCount": 230,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#060810",
+      "initialCenter": [
+        0.70238792076132,
+        -0.71881334950635
+      ],
+      "initialZoom": 14,
+      "maxBounds": [
+        [
+          0.60392,
+          -0.78694
+        ],
+        [
+          0.80353,
+          -0.46729
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v3",
+          "label": "V3",
+          "urlTemplate": "https://tiles.mapgenie.io/games/elden-ring-nightreign/limveld/default-v3/{z}/{y}/{x}.jpg",
+          "minZoom": 9,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              0.60392,
+              -0.78694
+            ],
+            [
+              0.80353,
+              -0.46729
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "castle",
+          "groupId": "locations",
+          "name": "Castle",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "evergaol",
+          "groupId": "locations",
+          "name": "Evergaol",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "major-location",
+          "groupId": "locations",
+          "name": "Major Location",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "minor-location",
+          "groupId": "locations",
+          "name": "Minor Location",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "site-of-grace",
+          "groupId": "locations",
+          "name": "Site of Grace",
+          "icon": "navigation",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "spectral-hawk-tree",
+          "groupId": "locations",
+          "name": "Spectral Hawk Tree",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "spiritstream",
+          "groupId": "locations",
+          "name": "Spiritstream",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "tunnel-entrance",
+          "groupId": "locations",
+          "name": "Tunnel Entrance",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "upgrades",
+      "label": "Upgrades",
+      "categories": [
+        {
+          "id": "buried-treasure",
+          "groupId": "upgrades",
+          "name": "Buried Treasure",
+          "icon": "gem",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "scarab",
+          "groupId": "upgrades",
+          "name": "Scarab",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "quests",
+      "label": "Quests",
+      "categories": [
+        {
+          "id": "quest-chapter",
+          "groupId": "quests",
+          "name": "Quest Chapter",
+          "icon": "scroll-text",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "remembrance-quest",
+          "groupId": "quests",
+          "name": "Remembrance Quest",
+          "icon": "scroll-text",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "enemies",
+      "label": "Enemies",
+      "categories": [
+        {
+          "id": "field-boss",
+          "groupId": "enemies",
+          "name": "Field Boss",
+          "icon": "skull",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "facility",
+          "groupId": "other",
+          "name": "Facility",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "merchant",
+          "groupId": "other",
+          "name": "Merchant",
+          "icon": "shopping-bag",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "other",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "smithing-table",
+          "groupId": "other",
+          "name": "Smithing Table",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "chalice",
+          "groupId": "collectibles",
+          "name": "Chalice",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "nightfarer",
+          "groupId": "collectibles",
+          "name": "Nightfarer",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "unique-relic",
+          "groupId": "collectibles",
+          "name": "Unique Relic",
+          "icon": "gem",
+          "color": "#FB923C",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 230
+}

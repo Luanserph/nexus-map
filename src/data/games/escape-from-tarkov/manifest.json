@@ -1,0 +1,664 @@
+{
+  "id": "game-escape-from-tarkov",
+  "slug": "escape-from-tarkov",
+  "title": "Escape from Tarkov",
+  "subtitle": "10 Mapas Táticos — Extrações, Stashes, Chaves, Quests & Bosses",
+  "studio": "Battlestate Games",
+  "releaseYear": 2025,
+  "genres": [
+    "FPS",
+    "Tático",
+    "Sobrevivência"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/escape-from-tarkov/cover.webp",
+    "bannerImage": "/games/escape-from-tarkov/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#A3A375",
+    "accentSecondary": "#EF4444",
+    "accentGlow": "rgba(163, 163, 117, 0.38)",
+    "glassTint": "rgba(16, 17, 14, 0.86)",
+    "surfaceBase": "#090A08",
+    "fontDisplay": "'Rajdhani', sans-serif",
+    "backgroundPattern": "tactical-grid",
+    "badgeStyle": "chamfered"
+  },
+  "maps": [
+    {
+      "id": "customs",
+      "name": "Customs",
+      "dlc": "base",
+      "pinsCount": 922,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#090A08",
+      "initialCenter": [
+        0.71568060545399,
+        -0.87337023216007
+      ],
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          -1.28711,
+          -1.4965
+        ],
+        [
+          1.46979,
+          2.07636
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "light",
+          "label": "Light",
+          "urlTemplate": "https://tiles.mapgenie.io/games/tarkov/customs/default-v4/{z}/{x}/{y}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              -1.28711,
+              -1.4965
+            ],
+            [
+              1.46979,
+              2.07636
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "factory",
+      "name": "Factory",
+      "dlc": "base",
+      "pinsCount": 307,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#090A08",
+      "initialCenter": [
+        0.76558695844488,
+        -0.83770751953125
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          -1.24973,
+          -1.16276
+        ],
+        [
+          1.41981,
+          1.30827
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "light",
+          "label": "Light",
+          "urlTemplate": "https://tiles.mapgenie.io/games/tarkov/factory/default-v3/{z}/{x}/{y}.png",
+          "minZoom": 9,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              -1.24973,
+              -1.16276
+            ],
+            [
+              1.41981,
+              1.30827
+            ]
+          ]
+        },
+        {
+          "id": "0-14",
+          "label": "0.14",
+          "urlTemplate": "https://tiles.mapgenie.io/games/tarkov/factory/default-v2/{z}/{x}/{y}.png",
+          "minZoom": 9,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interchange",
+      "name": "Interchange",
+      "dlc": "base",
+      "pinsCount": 1215,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#090A08",
+      "initialCenter": [
+        0.74803778135935,
+        -0.75944172948483
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          -2.33155,
+          -1.66948
+        ],
+        [
+          1.22454,
+          5.26441
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "light",
+          "label": "Light",
+          "urlTemplate": "https://tiles.mapgenie.io/games/tarkov/interchange/default-v2/{z}/{x}/{y}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 16,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              -2.33155,
+              -1.66948
+            ],
+            [
+              1.22454,
+              5.26441
+            ]
+          ]
+        },
+        {
+          "id": "old",
+          "label": "Old",
+          "urlTemplate": "https://tiles.mapgenie.io/games/tarkov/interchange/default-v1/{z}/{x}/{y}.png",
+          "minZoom": 8,
+          "maxNativeZoom": 16,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shoreline",
+      "name": "Shoreline",
+      "dlc": "base",
+      "pinsCount": 1053,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#090A08",
+      "initialCenter": [
+        1.01818119759262,
+        -0.82200203237312
+      ],
+      "initialZoom": 10,
+      "maxBounds": [
+        [
+          -2.65455,
+          -1.38697
+        ],
+        [
+          1.61665,
+          2.97122
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "0-14",
+          "label": "0.14",
+          "urlTemplate": "https://tiles.mapgenie.io/games/tarkov/shoreline/default-v3/{z}/{x}/{y}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              -2.65455,
+              -1.38697
+            ],
+            [
+              1.61665,
+              2.97122
+            ]
+          ]
+        },
+        {
+          "id": "0-13",
+          "label": "0.13",
+          "urlTemplate": "https://tiles.mapgenie.io/games/tarkov/shoreline/default-v1/{z}/{x}/{y}.png",
+          "minZoom": 9,
+          "maxNativeZoom": 16,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "woods",
+      "name": "Woods",
+      "dlc": "base",
+      "pinsCount": 809,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#090A08",
+      "initialCenter": [
+        0.70435080937144,
+        -0.84255231843709
+      ],
+      "initialZoom": 11,
+      "maxBounds": [
+        [
+          -0.7703,
+          -1.1923
+        ],
+        [
+          1.40387,
+          1.2691
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "light",
+          "label": "Light",
+          "urlTemplate": "https://tiles.mapgenie.io/games/tarkov/woods/default-v11/{z}/{x}/{y}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 16,
+          "maxZoom": 17,
+          "tileBounds": [
+            [
+              -0.7703,
+              -1.1923
+            ],
+            [
+              1.40387,
+              1.2691
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "loot",
+      "label": "Loot",
+      "categories": [
+        {
+          "id": "ammo-box",
+          "groupId": "loot",
+          "name": "Ammo Box",
+          "icon": "shopping-bag",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "armor",
+          "groupId": "loot",
+          "name": "Armor",
+          "icon": "shopping-bag",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "cache",
+          "groupId": "loot",
+          "name": "Cache",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "crate",
+          "groupId": "loot",
+          "name": "Crate",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "dead-scav",
+          "groupId": "loot",
+          "name": "Dead Scav",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "duffle-bag",
+          "groupId": "loot",
+          "name": "Duffle Bag",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "filing-cabinet",
+          "groupId": "loot",
+          "name": "Filing Cabinet",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "grenade",
+          "groupId": "loot",
+          "name": "Grenade",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "jacket",
+          "groupId": "loot",
+          "name": "Jacket",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "key",
+          "groupId": "loot",
+          "name": "Key",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "loose-loot",
+          "groupId": "loot",
+          "name": "Loose Loot",
+          "icon": "gem",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "meds",
+          "groupId": "loot",
+          "name": "Meds",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "money",
+          "groupId": "loot",
+          "name": "Money",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "other-loot",
+          "groupId": "loot",
+          "name": "Other Loot",
+          "icon": "gem",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "pc-block",
+          "groupId": "loot",
+          "name": "PC Block",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "provisions",
+          "groupId": "loot",
+          "name": "Provisions",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "safe",
+          "groupId": "loot",
+          "name": "Safe",
+          "icon": "gem",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "toolbox",
+          "groupId": "loot",
+          "name": "Toolbox",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "valuable",
+          "groupId": "loot",
+          "name": "Valuable",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "weapon-box",
+          "groupId": "loot",
+          "name": "Weapon Box",
+          "icon": "shopping-bag",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "weapon-mods",
+          "groupId": "loot",
+          "name": "Weapon Mods",
+          "icon": "shopping-bag",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "battle-pass-documents",
+          "groupId": "loot",
+          "name": "Battle Pass Documents",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "suitcase",
+          "groupId": "loot",
+          "name": "Suitcase",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "enemies",
+      "label": "Enemies",
+      "categories": [
+        {
+          "id": "boss",
+          "groupId": "enemies",
+          "name": "Boss",
+          "icon": "skull",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "cultists",
+          "groupId": "enemies",
+          "name": "Cultists",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "scav",
+          "groupId": "enemies",
+          "name": "Scav",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "scav-sniper",
+          "groupId": "enemies",
+          "name": "Scav Sniper",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "black-division",
+          "groupId": "enemies",
+          "name": "Black Division",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "mine",
+          "groupId": "enemies",
+          "name": "Mine",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "scav-spawn",
+          "groupId": "enemies",
+          "name": "Scav Spawn",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "easter-egg",
+          "groupId": "locations",
+          "name": "Easter Egg",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "extraction",
+          "groupId": "locations",
+          "name": "Extraction",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "location",
+          "groupId": "locations",
+          "name": "Location",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "locked-door",
+          "groupId": "locations",
+          "name": "Locked Door",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "map-edit",
+          "groupId": "locations",
+          "name": "Map Edit",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "miscellaneous",
+          "groupId": "locations",
+          "name": "Miscellaneous",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "quest-item",
+          "groupId": "locations",
+          "name": "Quest Item",
+          "icon": "scroll-text",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "spawn-point",
+          "groupId": "locations",
+          "name": "Spawn Point",
+          "icon": "landmark",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "transit",
+          "groupId": "locations",
+          "name": "Transit",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "transition",
+          "groupId": "locations",
+          "name": "Transition",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "emplacement",
+          "groupId": "locations",
+          "name": "Emplacement",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "btr-stop",
+          "groupId": "locations",
+          "name": "BTR Stop",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 4306
+}

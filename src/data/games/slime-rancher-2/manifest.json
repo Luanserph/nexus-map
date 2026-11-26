@@ -1,0 +1,188 @@
+{
+  "id": "game-slime-rancher-2",
+  "slug": "slime-rancher-2",
+  "title": "Slime Rancher 2",
+  "subtitle": "Rainbow Island — Slime Gordos, Treasure Pods, Portas Plort & Drones",
+  "studio": "Monomi Park",
+  "releaseYear": 2025,
+  "genres": [
+    "Aventura",
+    "Simulação",
+    "Exploração"
+  ],
+  "platforms": [
+    "pc",
+    "playstation",
+    "xbox"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/slime-rancher-2/cover.webp",
+    "bannerImage": "/games/slime-rancher-2/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#F472B6",
+    "accentSecondary": "#38BDF8",
+    "accentGlow": "rgba(244, 114, 182, 0.40)",
+    "glassTint": "rgba(20, 12, 24, 0.80)",
+    "surfaceBase": "#0D0712",
+    "fontDisplay": "'Space Grotesk', sans-serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "minimal"
+  },
+  "maps": [
+    {
+      "id": "rainbow-island",
+      "name": "Rainbow Island",
+      "dlc": "base",
+      "pinsCount": 285,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#0D0712",
+      "initialCenter": [
+        0.64155660740437,
+        -0.7626959350589
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          -0.07491,
+          -1.0164
+        ],
+        [
+          1.01123,
+          0.07529
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "default",
+          "label": "Default",
+          "urlTemplate": "https://tiles.mapgenie.io/games/slime-rancher-2/rainbow-island/default-v4/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 14,
+          "maxZoom": 15,
+          "tileBounds": [
+            [
+              -0.07491,
+              -1.0164
+            ],
+            [
+              1.01123,
+              0.07529
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "gordo-slime",
+          "groupId": "locations",
+          "name": "Gordo Slime",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "plort-door",
+          "groupId": "locations",
+          "name": "Plort Door",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "plort-statue",
+          "groupId": "locations",
+          "name": "Plort Statue",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "refinery-link",
+          "groupId": "locations",
+          "name": "Refinery Link",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "teleporter",
+          "groupId": "locations",
+          "name": "Teleporter",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "teleporter-activator",
+          "groupId": "locations",
+          "name": "Teleporter Activator",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "gigi-node",
+          "groupId": "collectibles",
+          "name": "Gigi Node",
+          "icon": "scroll-text",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "map-data-node",
+          "groupId": "collectibles",
+          "name": "Map Data Node",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "research-drone",
+          "groupId": "collectibles",
+          "name": "Research Drone",
+          "icon": "radio",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "treasure-pod",
+          "groupId": "collectibles",
+          "name": "Treasure Pod",
+          "icon": "gem",
+          "color": "#E879F9",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "categories": [
+        {
+          "id": "placeholder-10",
+          "groupId": "other",
+          "name": "Placeholder 10",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 285
+}

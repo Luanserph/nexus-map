@@ -1,0 +1,4370 @@
+[
+  {
+    "id": "death-stranding-2-australia-462665",
+    "mapId": "australia",
+    "category": "apac-facility",
+    "title": "Western Environmental Observatory",
+    "description": "Occupants: Peter Gates Linking requirements: Complete main order [010 - Liberate the Western Environmental Observatory From the Brigands](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462917) ##### Unlocks - ★: Chiral Network connection, Battle Skeleton Lv1, Grenade Pistol [MP], MP Grenade - ★★: Backpack Electric Shock Absorber - ★★★: Battle Skeleton Lv2 - ★★★★: Battle Skeleton Lv3 - ★★★★★: Peter Gates Hologram, Pickup Off-Roader Patch #58",
+    "coords": [
+      -0.94244241714583,
+      0.58934602977864
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462667",
+    "mapId": "australia",
+    "category": "apac-facility",
+    "title": "West Fort Knot (F1)",
+    "description": "Occupants: Olivia Westbury Linking requirements: Complete main order [012 - Investigate the Unusual Tar Currents Near F1](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462921) ##### Unlocks - ★: Chiral Network connection, Floating Carrier Lv1, Pickup Off-Roader (complete [Order 013](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462922)) - ★★: Vehicle Battery Unit Lv1 - ★★★: Floating Carrier Lv2 - ★★★★: Vehicle Battery Unit Lv2 - ★★★★★: Olivia Westbury Hologram, Monorail Patch #61",
+    "coords": [
+      -0.9605376437446,
+      0.67552216875036
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462674",
+    "mapId": "australia",
+    "category": "apac-facility",
+    "title": "F5 East Distribution Center",
+    "description": "Occupants: Viktor Frank Linking requirements: Complete main order ##### Unlocks - ★: Chiral Network connection, Grenade Launcher [MP], PCC Lv2 (Cargo Catapult), Junji Porter Suit - ★★: Absolute Boots - ★★★: LW Grenade Launcher - ★★★★: Color (Ludens Duck) - ★★★★★: Viktor Frank Hologram, Lundens Patch #1",
+    "coords": [
+      -0.71696846499208,
+      0.59215568868541
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462676",
+    "mapId": "australia",
+    "category": "apac-facility",
+    "title": "F7 North Distribution Center",
+    "description": "Occupants: Bianca North Linking requirements: Complete main order ##### Unlocks - ★: Chiral Network connection, Quadruple Rocket Launcher, Without You song - ★★: Fragile Express Patch #5 - ★★★: LW Seven-Rocket Launcher - ★★★★: Color (Rainbow Purple) - ★★★★★: Bianca North Hologram, Monobike Patch #60",
+    "coords": [
+      -0.53355708718149,
+      0.55895276363584
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462678",
+    "mapId": "australia",
+    "category": "apac-facility",
+    "title": "Eastern Environmental Observatory",
+    "description": "Occupants: Ridge Frost Linking requirements: Complete main order ##### Unlocks - ★: Chiral Network connection, Oxygen Mask - ★★: Stabilizer Lv1 - ★★★: Stabilizer Lv2 - ★★★★: Stabilizer Lv3 - ★★★★★: Ridge Frost Hologram, Like Patch #43",
+    "coords": [
+      -0.59529608866575,
+      0.64492430506368
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462679",
+    "mapId": "australia",
+    "category": "apac-facility",
+    "title": "Southern Environmental Observatory",
+    "description": "Occupants: Gregory Southall Linking requirements: Complete main order ##### Unlocks - ★: Chiral Network connection - ★★: LW Machine Gun [MP] Lv1 - ★★★: Color (Blood Red) - ★★★★: LW Machine Gun [MP] Lv2 - ★★★★★: Gregory Southall Hologram, Higg's Guitar Patch #66",
+    "coords": [
+      -0.50942793488485,
+      0.49680325720976
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462680",
+    "mapId": "australia",
+    "category": "apac-facility",
+    "title": "F6 South Fort Knot",
+    "description": "Occupants: Pierre Southern Linking requirements: Complete main order ##### Unlocks - ★: Chiral Network connection, Chiral Cannon, Pickup Off-Roader Spiked Tires, Asylums for the Feeling song - ★★: Vehicle Active Defense System - ★★★: Vehicle Electrical Defense Unit - ★★★★: Color (Grass Green) - ★★★★★: Pierre Southern Hologram, DHV Magellan Patch #56",
+    "coords": [
+      -0.433419728481,
+      0.50116523095713
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462683",
+    "mapId": "australia",
+    "category": "apac-facility",
+    "title": "East Fort Knot (F4)",
+    "description": "Occupants: Leon Easton Linking requirements: Complete main order ##### Unlocks - ★: Chiral Network connection, Bokka Skeleton Lv1, The Bride and the Bachelor song, TTL-02 sunglasses - ★★: Snow Porter Suit, Road Upgrade Lv2 - ★★★: Bokka Skeleton Lv2 - ★★★★: Bokka Skeleton Lv3 - ★★★★★: Leon Easton Hologram, Tentacle in BB Pod Patch #39",
+    "coords": [
+      -0.39883740574999,
+      0.73068529274516
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462693",
+    "mapId": "australia",
+    "category": "apac-facility",
+    "title": "Heartman's Lab",
+    "description": "Occupants: The Hydrologist Linking requirements: Complete main order 023 ##### Unlocks - ★: Chiral Network connection, Backpack Extra Battery Lv1, PCC Lv2 (Jump Ramp, Safe House) - ★★: Backpack Extra Battery Lv2 - ★★★: Backpack Extra Battery Lv3 - ★★★★: Backpack Extra Battery Lv4 - ★★★★★: Heartman Hologram, Hydrologist Hologram, Hot Spring Patch #29",
+    "coords": [
+      -0.64385143184461,
+      0.85641165409808
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462698",
+    "mapId": "australia",
+    "category": "apac-facility",
+    "title": "F2 South Distribution Center",
+    "description": "Occupants: Samson Hook Linking requirements: Complete main order [019 - Deliver Necrobiotes to F2 South Distribution Center](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462983) ##### Unlocks - ★: Chiral Network connection, Combat Boots, Vehicle Sticky Cannon, Vehicle Heavy Machine Gun - ★★: Combat Power Gloves Lv1 - ★★★: Combat Power Gloves Lv2 - ★★★★: Boxing Kangaroos Backpack Accessory - ★★★★★: Samson Hook Hologram, Boxing Kangaroos Patch #69",
+    "coords": [
+      -0.80709133414683,
+      0.86008973879919
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462699",
+    "mapId": "australia",
+    "category": "apac-facility",
+    "title": "Northern Environmental Observatory",
+    "description": "Occupants: Mike Northcote Linking requirements: Complete main order [016 - Deliver Aid Packages to Northern Environmental Observatory](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462928) ##### Unlocks - ★: Chiral Network connection, Square Porter Suit, Blood Boomerang - ★★: Guidepost - ★★★: Backpack Utility Pouch - ★★★★: Bell Backpack Accessory - ★★★★★: Mike Northcote Hologram, Blood Boomerang Patch #65",
+    "coords": [
+      -0.73293507099064,
+      0.78413005565226
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462848",
+    "mapId": "australia",
+    "category": "apac-facility",
+    "title": "Terminal Fort Knot (F8)",
+    "description": "Occupants: James Ender Linking requirements: Complete [Main Order 046](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=463181) ##### Unlocks - ★: Chiral Network connection - ★★: Chiral Mammal Patch #53 - ★★★: Color (Lightning Blue) - ★★★★: BT Octopoid Patch #45 - ★★★★★: James Ender Hologram, BT Megalocarcinus Patch #52",
+    "coords": [
+      -0.61790515385135,
+      0.40448298537079
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462660",
+    "mapId": "australia",
+    "category": "bt-territory",
+    "title": "BT Area North of the Plate Gate",
+    "description": "Description: *A BT area located to the north of the plate gate. The chiral density here is much high than in Mexico, and the area is shrouded in a red mist. There is a fear that this is somehow affecting the BTs in the area.*",
+    "coords": [
+      -0.92855532442124,
+      0.53116165757292
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462703",
+    "mapId": "australia",
+    "category": "bt-territory",
+    "title": "BT Area West of the Lone Commander",
+    "description": "Description: *A BT area shrouded in red mist and packed with huge rocks -- some of which are taller than a fully extended ladder. These make for a landscape that is difficult to navigate, and easy to become lost in.*",
+    "coords": [
+      -0.85902692710687,
+      0.54797621702679
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462787",
+    "mapId": "australia",
+    "category": "bt-territory",
+    "title": "BT Area Northwest of the Northern Environmental Observatory",
+    "description": "Description: *A BT area in the basin of the Pitchfork River, located to the northwest of the Northern Environmental Observatory. The area is often cut off when water levels rise, and the risk of being stranded means very few people choose to pass through here.*",
+    "coords": [
+      -0.75648336633199,
+      0.81087786752546
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462790",
+    "mapId": "australia",
+    "category": "bt-territory",
+    "title": "BT Area South of the Metagenomicist",
+    "description": "Description: *A BT area to the south of the Metagenomicist's shelter. The area features a series of gentle slopes, and is bordered to the west by a giant tar lake. Chiral density is extremely high, and BT activity has been observed.*",
+    "coords": [
+      -0.72720158840363,
+      0.69284710416834
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462791",
+    "mapId": "australia",
+    "category": "bt-territory",
+    "title": "BT Area North of the F5 East Distribution Center",
+    "description": "Description: *A BT area to the north of the F5 East Distribution Center. The area is known for its steep slopes, rugged terrain, and the enormous tar lake to the west. Chiral density is extremely high, and BT encounters have been reported here.*",
+    "coords": [
+      -0.7236358007325,
+      0.63759316983813
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462806",
+    "mapId": "australia",
+    "category": "bt-territory",
+    "title": "BT Area North of F6",
+    "description": "Description: *A BT area on the banks of the White River. It is thought to have developed after numerous people became lost in the snow, and eventually turned necro.*",
+    "coords": [
+      -0.45997820846856,
+      0.55056058474015
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462816",
+    "mapId": "australia",
+    "category": "bt-territory",
+    "title": "BT Area Near the Chronobiologist: Southeast",
+    "description": "Description: *A BT area that appeared as a result of a gate quake. Cargo sometimes washes up from the tar currents here, and the Phantom Smith always keeps an eye on the place. There are currently large numbers of gazers in the area, making it very dangerous to pass through.*",
+    "coords": [
+      -0.53723805217092,
+      0.70725471719057
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462941",
+    "mapId": "australia",
+    "category": "bt-territory",
+    "title": "BT Area Northwest of the Pizza Chef",
+    "description": "Description: *A BT area that spreads across an elevated plateau in northeastern Australia. It is filled with ruined buildings from a bygone age. The terrain is flat, making it easy to move around.*",
+    "coords": [
+      -0.67619147422525,
+      0.80962493471958
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462954",
+    "mapId": "australia",
+    "category": "bt-territory",
+    "title": "BT Area Northwest of F4",
+    "description": "Description: *A BT area located along the side of an old road. Timefall has destroyed most of the road, which now lies as little more than a ruin.*",
+    "coords": [
+      -0.49711311150955,
+      0.76596521247706
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462702",
+    "mapId": "australia",
+    "category": "enemy-territory",
+    "title": "Brigand Base North of the Government's Base",
+    "description": "Description: *A newly established Brigand base to the north of the Government's Base. The eroded terrain in the area forms a series of natural barricades protecting the base. It seem the Brigands are using this location to conduct surveillance on the Government.*",
+    "coords": [
+      -0.89587387263671,
+      0.57385911239822
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462716",
+    "mapId": "australia",
+    "category": "enemy-territory",
+    "title": "Brigand Base Southeast of F1",
+    "description": "Description: *A Brigand base located in a patch of ruins in the desert. Reports suggest that some of the hostiles based here are equipped with full-body armor. The base covers a wide area, and you can expect to encounter a significant amount of resistance.*",
+    "coords": [
+      -0.91531896101677,
+      0.61723603375255
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462747",
+    "mapId": "australia",
+    "category": "enemy-territory",
+    "title": "Brigand Base West of the Northern Environmental Observatory",
+    "description": "Description: *A Brigand base located in a patch of ruins at the bottom of a cliff. The sheer cliff face protects one side of the base, making it easy to spot potential threats. Lots of cargo has been transported to the base, and heavily armed hostiles clad in red have also been seen, increasing the threat level.*",
+    "coords": [
+      -0.77061641156928,
+      0.77467654516018
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462781",
+    "mapId": "australia",
+    "category": "enemy-territory",
+    "title": "Armed Survivalist Base East of the F2 South Distribution Center",
+    "description": "Description: *An Armed Survivalist base, established in what was once known as the Twin Valley Mine. The Armed Survivalists are a very dangerous group, equipped with the latest weapons, and willing to use lethal force. Some of the Survivalists spotted here are wearing heavy armor that provides excellent protection while also boosting mobility.*",
+    "coords": [
+      -0.70598711518559,
+      0.84333942390309
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462817",
+    "mapId": "australia",
+    "category": "enemy-territory",
+    "title": "Armed Survivalist Base Southeast of the Phantom Smith",
+    "description": "Description: *An Armed Survivalist base located among the snowy mountains. It offers excellent visibility over the surrounding area, but the rocky terrain creates numerous blind spots. Heavily armored hostiles equipped with electromagnetic shields have been spotted.*",
+    "coords": [
+      -0.51770339850302,
+      0.58415171774703
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462820",
+    "mapId": "australia",
+    "category": "enemy-territory",
+    "title": "Armed Survivalist Base South of Heartman's Lab",
+    "description": "Description: *An Armed Survivalist base established among an area of ruins in northern Australia. Guard towers have been installed around the perimeter to survey the surrounding area. The Survivalists based here are known to carry lethal weapons, terrifying the civilians that live nearby.*",
+    "coords": [
+      -0.63939465211789,
+      0.81758926106978
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462821",
+    "mapId": "australia",
+    "category": "enemy-territory",
+    "title": "Armed Survivalist Base Southwest of the Motherhood",
+    "description": "Description: *An Armed Survivalist base surrounded by rivers. A bridge on the north side allows for vehicle access. From here the Survivalists patrol the surrounding area. Reports suggest that they attack porters who operate nearby.*",
+    "coords": [
+      -0.50854404606267,
+      0.82372134133638
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462952",
+    "mapId": "australia",
+    "category": "hot-spring",
+    "title": "Miracle Spring",
+    "description": "Description: *The radium in the surrounding waters makes this hot spring radioactive -- although the doses of chiral radiation are so minute as to have no harmful effects on the human body. In fact, this spring is known for its reviving properties, helping the body to flush out toxins and improving it in every way. Little wonder it's known as the \"Miracle Spring.\"* Effect: None",
+    "coords": [
+      -0.47703193835244,
+      0.90080081687326
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462980",
+    "mapId": "australia",
+    "category": "hot-spring",
+    "title": "Heartman's Spring",
+    "description": "Location: Inside [Heartman's Lab](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462693) Description: *An indoor spring dug by the Hydrologist. Bathing in its warm sulfuric waters has a restorative effect, and suppresses any sense of nausea you might be feeling. It also boosts stamina.* Effect: Boosts Stamina",
+    "coords": [
+      -0.64231802569245,
+      0.85818539690227
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462981",
+    "mapId": "australia",
+    "category": "hot-spring",
+    "title": "Chiral Spring",
+    "description": "Description: A sulfuric hot spring that contains molten chiralium. No toxic compounds have been detected, however, and even non-DOOMS sufferers are able to enjoy bathing here. These waters have a curious effect on bathers, temporarily allowing them to carry heavier cargo loads. Effect: Increases carry weight capacity Reward: Chiral Tea",
+    "coords": [
+      -0.69914288195318,
+      0.90411807290762
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462982",
+    "mapId": "australia",
+    "category": "hot-spring",
+    "title": "Healing Spring",
+    "description": "Description: *The water in the hot spring is rich in calcium sulphates, making it effective at healing all kinds of injuries including cuts, bruises, and sprains. It also rapidly restores stamina and helps overcome fatigue. Animals in need of healing have been known to make use of this spring too.* Effect: Increased stamina regeneration Reward: Apples",
+    "coords": [
+      -0.82874889836333,
+      0.78754261830315
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-464329",
+    "mapId": "australia",
+    "category": "hot-spring",
+    "title": "Digestive Spring",
+    "description": "Description: *The water in this chloride spring is so salty that its composition is very similar to sea water -- something that is caused by the tar from the tar lake, according to one theory. Bathing here stimulates the digestive system, boosting the effects of anything you eat or drink.* Effect: Improves effectiveness of consumables Reward: Tangerines",
+    "coords": [
+      -0.8113168577579,
+      0.58273876486297
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-464330",
+    "mapId": "australia",
+    "category": "hot-spring",
+    "title": "Metallic Spring",
+    "description": "Description: *A hot spring rich in iron. The blend of chiralium and various metals gives the surface of the water a silvery gleam. Placing cargo containers in this spring will cause the metals in the water to cling to their surface, repairing any dents or cracks.* Effect: Repairs cargo containers Reward: Yuzu",
+    "coords": [
+      -0.59729757835439,
+      0.73132020363465
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-464339",
+    "mapId": "australia",
+    "category": "hot-spring",
+    "title": "Recharging Spring",
+    "description": "Description: *The special minerals at the bottom of this spring appear to have been affected by the underground tar, and now emit an electrical current that can recharge batteries. The water also has a restorative effect on the body, but be careful not to share your bath with a battery...* Effect: Recharges batteries Reward: Eucalyptus Leaves",
+    "coords": [
+      -0.59029414876045,
+      0.57732560190342
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-464340",
+    "mapId": "australia",
+    "category": "hot-spring",
+    "title": "Clairovoyant Spring",
+    "description": "Description: *This hot spring's vivid purple water is a byproduct of a special type of algae that only lives at high altitudes. Bathing here has the effect of sharpening one's senses, making you more aware of your surroundings and what they contain.* Effect: Highlights nearby items and points of interest Reward: Ludens Ducks",
+    "coords": [
+      -0.53198078143285,
+      0.64775030405102
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-464341",
+    "mapId": "australia",
+    "category": "hot-spring",
+    "title": "Tar Spring",
+    "description": "Description: *The water in this slightly alkaline hot spring contains tar particles that have seeped in from the ground below. The chiral density here is very low, however, and there is no risk of chiral contamination. The combined effect of the soil and tar in this spring makes it temporarily harder for BTs to detect you.* Effect: Decreases effective BT detection Reward: Sweet Flag Leaves",
+    "coords": [
+      -0.43257664128467,
+      0.61757437468073
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462659",
+    "mapId": "australia",
+    "category": "location",
+    "title": "Plate Gate",
+    "description": "Location localizado em australia.",
+    "coords": [
+      -0.94140941634404,
+      0.49808856711623
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462823",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "Plate Gate",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.94761883778023,
+      0.50231481115766
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462824",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "The Government's Base",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.89995388677485,
+      0.55990454530979
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462825",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "Western Environmental Observatory",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.95026230925791,
+      0.5803186665059
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462826",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "West Fort Knot (F1)",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.95346646069117,
+      0.66972740555586
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462827",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "The Musician",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.85922436801889,
+      0.669108417337
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462828",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "Rainbow Valley",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.86852150533991,
+      0.70945922071709
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462829",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "Animal Shelter",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.82075554469174,
+      0.7561939458442
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462830",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "The Metagenomicist",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.73437507590927,
+      0.73693213474741
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462831",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "Northern Environmental Observatory",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.7348390198587,
+      0.79283075444219
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462832",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "F2 South Distribution Center",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.81684356224659,
+      0.85922916849151
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462833",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "The Dowser",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.74899770581337,
+      0.930071400773
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462834",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "Heartman's Lab",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.65237535325812,
+      0.85794452661833
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462835",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "The Pizza Chef",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.64353029125439,
+      0.79402597374244
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462836",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "The Chronobiologist",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.58187541702549,
+      0.74469134403388
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462837",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "East Fort Knot (F4)",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.3931759758712,
+      0.74134264712904
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462838",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "The Data Scientist",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.57541051397871,
+      0.84060407028815
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462839",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "The Motherhood",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.47277798288334,
+      0.89590917815759
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462840",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "The Mechanic",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.4173068477433,
+      0.8704095505726
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462841",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "F5 East Distribution Center",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.71378875990015,
+      0.59548707817005
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462958",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "Terminal Fort Knot (F8)",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.61052411135711,
+      0.40855763956775
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462959",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "F7 North Distribution Center",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.53603567222549,
+      0.54322663239918
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462960",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "Southern Environmental Observatory",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.51780138041795,
+      0.49519696440154
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462961",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "South Fort Knot",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.42670174956254,
+      0.52543861949979
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462976",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "Eastern Environmental Observatory",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.6034726084012,
+      0.66276906239126
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462977",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "The Phantom Smith",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.57193184294778,
+      0.62878822253201
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462978",
+    "mapId": "australia",
+    "category": "magellan-dock",
+    "title": "The Adventurer",
+    "description": "Magellan Dock localizado em australia.",
+    "coords": [
+      -0.6245849712945,
+      0.53165349028211
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462664",
+    "mapId": "australia",
+    "category": "mine",
+    "title": "Smoke Hill Mine",
+    "description": "Materials Required to Mine: x800 Chiral Crystals Materials Mined: x960 Ceramics",
+    "coords": [
+      -0.87612280430463,
+      0.59566249461486
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462670",
+    "mapId": "australia",
+    "category": "mine",
+    "title": "Mine North of F1",
+    "description": "Materials Required to Mine: x2000 Chiral Crystals Materials Mined: x4800 Special Alloys",
+    "coords": [
+      -0.91336057744394,
+      0.76345022535679
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462681",
+    "mapId": "australia",
+    "category": "mine",
+    "title": "Mine North of F6",
+    "description": "Materials Required to Mine: x1000 Chiral Crystals Materials Mined: x3200 Resin",
+    "coords": [
+      -0.43467843537039,
+      0.59255787701622
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462686",
+    "mapId": "australia",
+    "category": "mine",
+    "title": "Savanna Mine",
+    "description": "Materials Required to Mine: x900 Chiral Crystals Materials Mined: x1920 Special alloy",
+    "coords": [
+      -0.47404691576827,
+      0.80395369965071
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462689",
+    "mapId": "australia",
+    "category": "mine",
+    "title": "Northeastern Mine",
+    "description": "Materials Required to Mine: x1200 Chiral Crystals Materials Mined: x4000 Metal",
+    "coords": [
+      -0.47079782412794,
+      0.94334750882047
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462695",
+    "mapId": "australia",
+    "category": "mine",
+    "title": "Twin Valley Mine",
+    "description": "Materials Required to Mine: Chiral Crystal x1200 Materials Mined: Chemicals x720",
+    "coords": [
+      -0.70394590074133,
+      0.84454737578396
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462697",
+    "mapId": "australia",
+    "category": "mine",
+    "title": "Mine Near F3 Crater",
+    "description": "Materials Required to Mine: Chiral Crystal x1000 Materials Mined: Resins x3200",
+    "coords": [
+      -0.70157957209466,
+      0.95058462611767
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462701",
+    "mapId": "australia",
+    "category": "mine",
+    "title": "Mine North of Tar Lake",
+    "description": "Materials Required to Mine: x1600 Chiral Crystals Materials Mined: x3200 Ceramic",
+    "coords": [
+      -0.70244436632927,
+      0.77699653019913
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-464338",
+    "mapId": "australia",
+    "category": "mine",
+    "title": "South Edge Mine",
+    "description": "Materials Required to Mine: x600 Chiral Crystals Materials Mined: x1200 Metals",
+    "coords": [
+      -0.52510545414432,
+      0.44737001348179
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462706",
+    "mapId": "australia",
+    "category": "photo-spot",
+    "title": "Orange Coast",
+    "description": "Description: *A rocky area bordered by the ocean to the west. Pass through during the orange glow of the sunset, and you'll see a landscape you won't soon forget.*",
+    "coords": [
+      -0.94667122715512,
+      0.55881737831274
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462786",
+    "mapId": "australia",
+    "category": "photo-spot",
+    "title": "Great Falls",
+    "description": "Description: *The largest waterfall on the Australian continent. Located on the upper course of the Cliffside River, it is over 80m in height. It is well known as a spot for taking photographs.*",
+    "coords": [
+      -0.71227469134593,
+      0.8068753074724
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462943",
+    "mapId": "australia",
+    "category": "photo-spot",
+    "title": "North Edge Ridge",
+    "description": "Description: *A ridge that stretches along the continent's northern edge. In times gone by, it offered an excellent vantage point to look over the ocean to the northeast. Nowadays, bottomless tar stretches as far as the eye can see.*",
+    "coords": [
+      -0.70254559919204,
+      0.90738712312051
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462708",
+    "mapId": "australia",
+    "category": "point-of-interest",
+    "title": "Brigand Base North of the Government's Base: Northeastern Area",
+    "description": "Description: *A series of ditches worn away by erosion resulting in a maze-like plateau. Visibility is poor, and there are several blind spots.*",
+    "coords": [
+      -0.89345925872101,
+      0.57586505806898
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462709",
+    "mapId": "australia",
+    "category": "point-of-interest",
+    "title": "Brigand Base North of the Government's Base: Southeastern Area",
+    "description": "Description: *Numerous rocky plateaus standing at the bottom of the Red Mist Cliffs. The top of each plateau makes for a good vantage point over the ditches below.*",
+    "coords": [
+      -0.88871781588267,
+      0.56787039253884
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462718",
+    "mapId": "australia",
+    "category": "point-of-interest",
+    "title": "Brigand Base Southeast of F1: Southern Area",
+    "description": "Description: *An area of undulating sand dunes dotted with rocks. There are numerous patches of tall grass in which it should be possible to crouch and hide.*",
+    "coords": [
+      -0.91118126592488,
+      0.61096560125952
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462719",
+    "mapId": "australia",
+    "category": "point-of-interest",
+    "title": "Brigand Base Southeast of F1: Western Area",
+    "description": "Description: *An area containing numerous large rocks. Several of them block the sight of the Brigand watchtower nearby.*",
+    "coords": [
+      -0.9257509435071,
+      0.6141265168704
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462722",
+    "mapId": "australia",
+    "category": "point-of-interest",
+    "title": "Ruins of West River Bridge",
+    "description": "Description: *A large bridge across the West River. It has been damaged beyond repair. The remains on each bank do at least narrow the river, however.*",
+    "coords": [
+      -0.93216742047818,
+      0.65472689407532
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462728",
+    "mapId": "australia",
+    "category": "point-of-interest",
+    "title": "Rainbow Valley Entrance",
+    "description": "Description: *A perilous point on the route to Rainbow Valley that passes through Rocky Town. The southern bank of the river has been badly eroded, but there is evidence that people once used this place as a crossing point.*",
+    "coords": [
+      -0.88703336368349,
+      0.70344636169446
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462736",
+    "mapId": "australia",
+    "category": "point-of-interest",
+    "title": "Chiral Soil",
+    "description": "Description: *An area where the soil is rich in chiralium and the underground tar currents sit close to the surface. Large chiral crystals area often found here as a result, especially on the shoals and near the mine.*",
+    "coords": [
+      -0.91676342278768,
+      0.74919159890757
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462745",
+    "mapId": "australia",
+    "category": "point-of-interest",
+    "title": "Remains of the Scarlet River",
+    "description": "Description: *The bed of a river that used to flow through Scarlet Canyon. It has now completely dried up, and doesn't run even during periods of timefall. The river basin shows no sign of brushfires.*",
+    "coords": [
+      -0.83272884145578,
+      0.73434339549667
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462782",
+    "mapId": "australia",
+    "category": "point-of-interest",
+    "title": "Twin Valley Tunnel",
+    "description": "Description: *A tunnel once used to transport goods to and from the Twin Valley Mine. It's in good condition, and large enough to accommodate vehicles. Unfortunately, it also used by the Armed Survivalists to access their base -- proceed with caution.*",
+    "coords": [
+      -0.72203745397269,
+      0.84256703123505
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462818",
+    "mapId": "australia",
+    "category": "point-of-interest",
+    "title": "Armed Survivalist Base Southeast of the Phantom Smith: Eastern Area",
+    "description": "Point of Interest localizado em australia.",
+    "coords": [
+      -0.51301298828827,
+      0.59003442129688
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462819",
+    "mapId": "australia",
+    "category": "point-of-interest",
+    "title": "Armed Survivalist Base Southeast of the Phantom Smith: Northern Area",
+    "description": "Point of Interest localizado em australia.",
+    "coords": [
+      -0.51894626663824,
+      0.60473047927179
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462931",
+    "mapId": "australia",
+    "category": "point-of-interest",
+    "title": "Red Mist Cliffs: Western Area",
+    "description": "Description: *Separating the Government's Base from the Lone Commander's shelter, these cliffs are frequently seen shrouded in a crimson fog. Some slopes area not as steep as they look, and there area routes that can be navigated with relative ease.*",
+    "coords": [
+      -0.87750062728657,
+      0.55426300029538
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462944",
+    "mapId": "australia",
+    "category": "point-of-interest",
+    "title": "Armed Survivalist Base East of the F2 South Distribution Center: Northeastern Area",
+    "description": "Description: *An area located to the northeast of what was once known as the Twin Valley Mine. While there are many steep slopes and large rock formations in the vicinity, this area is comparatively obstacle free, and can be traversed with relative ease.*",
+    "coords": [
+      -0.6866073785996,
+      0.85242189936561
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462947",
+    "mapId": "australia",
+    "category": "point-of-interest",
+    "title": "Remains of Twin Valley River",
+    "description": "Description: *The remains of a river that used to flow through Twin Valley. It has now completely dried up, though the height of its banks suggest the water was once deep enough to drown in.*",
+    "coords": [
+      -0.63658213076943,
+      0.82971457079701
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462662",
+    "mapId": "australia",
+    "category": "prepper-shelter",
+    "title": "The Government's Base",
+    "description": "Occupants: Old Oz Linking requirements: Complete main order [009 - Deliver the Chiral Decontaminator to the Government's Base](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462912) ##### Unlocks - ★: Chiral Network connection, Bola Gun - ★★: Backpack Antigravity Device - ★★★: Backpack Large Spare Ammo Container Lv1 - ★★★★: Backpack Large Spare Ammo Container Lv2 - ★★★★★: Old Oz Hologram, Australian Cryptobiote Patch #32",
+    "coords": [
+      -0.89338063364471,
+      0.55819656765148
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462663",
+    "mapId": "australia",
+    "category": "prepper-shelter",
+    "title": "The Lone Commander",
+    "description": "Occupants: The Lone Commander Linking requirements: Complete sub order [100 - [Breakable Cargo] Deliver the Dismantled Rifle to the Lone Commander](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462911) ##### Unlocks - ★: Chiral Network connection, Tranq Sniper Rifle, Smoke Grenade - ★★: Smoke Grenade - ★★★: SL Tranq Handgun - ★★★★: LW Tranq Sniper Rifle - ★★★★★: SL-LW Tranq Sniper Rifle, The Lone Commander Hologram, ! Patch #26",
+    "coords": [
+      -0.842150270568,
+      0.55055042229728
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462666",
+    "mapId": "australia",
+    "category": "prepper-shelter",
+    "title": "The Musician",
+    "description": "Occupants: Gen Hoshino Linking requirements: Complete main order [011 - Destroy Communications Disruptor and Deliver Mysterious Recording to Musician](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462919) ##### Unlocks - ★: Chiral Network connection, Shotgun [MP] Lv1 - ★★: LW Shotgun [MP] Lv1, Miira No Sakebi Song - ★★★: Shotgun [MP] Lv2, Kaiju Muhou Chitai Song - ★★★★: LW Shotgun [MP] Lv2, Licky Sticky Private Room Item - ★★★★★: Gen Hoshino Hologram, I Love BB Patch #58",
+    "coords": [
+      -0.84607022613233,
+      0.65697115940588
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462668",
+    "mapId": "australia",
+    "category": "prepper-shelter",
+    "title": "Rainbow Valley",
+    "description": "Occupants: Glenn Rain Linking requirements: Complete main order [014 - Deliver All Terraforming Equipment to Rainbow Valley](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462926) ##### Unlocks - ★: Chiral Network connection, Tar Cannon - ★★: Backpack Solar Generator - ★★★: Backpack Mini Extra Battery - ★★★★: Electrobiote Backpack Accessory - ★★★★★: Glenn Rain Hologram, Electrobiote Patch #33",
+    "coords": [
+      -0.85891789042356,
+      0.69867052810203
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462669",
+    "mapId": "australia",
+    "category": "prepper-shelter",
+    "title": "Rainy's Shelter",
+    "description": "Occupants: Rainy Linking requirements: ?? ##### Unlocks - ★: None - ★★: None - ★★★: None - ★★★★: None - ★★★★★: Rainy Hologram",
+    "coords": [
+      -0.86256568823788,
+      0.71546817046656
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462671",
+    "mapId": "australia",
+    "category": "prepper-shelter",
+    "title": "The Inventor",
+    "description": "Occupants: The Inventor Linking requirements: Deliver Lost Cargo. Access The Inventor's island by carefully wading though the tar (using your Odradek, follow the path through the yellow areas, avoiding the red areas). Alternatively, the Monorail can be restored in this area and runs over the island - ride the rail line and drop off when over the island. ##### Unlocks - ★: Chiral Network connection, Otter Head Hat - ★★: Stun Bomb - ★★★: Remote Stun Bomb - ★★★★: Bola Stun Gun - ★★★★★: The Inventor Hologram, Otter Hood Patch #63",
+    "coords": [
+      -0.91237717126208,
+      0.79505189719382
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462672",
+    "mapId": "australia",
+    "category": "prepper-shelter",
+    "title": "Animal Shelter",
+    "description": "Occupants: Animal Shelter Staff Linking requirements: Complete main order [015 - Deliver Test Subject Kangaroo to Animal Shelter](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462927) ##### Unlocks - ★: Chiral Network connection, Decoy Hologrenade - ★★: Stealth Hologrenade - ★★★: BT Hologrenade - ★★★★: Quokka Backpack Accessory - ★★★★★: Animal Shelter Staff Hologram, Quokka Hologram, Rest at Animal Shelter Patch #28",
+    "coords": [
+      -0.82134068012166,
+      0.76244368895506
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462673",
+    "mapId": "australia",
+    "category": "prepper-shelter",
+    "title": "The Fisherman",
+    "description": "Occupants: The Fisherman Linking requirements: Deliver Lost Cargo ##### Unlocks - ★: Chiral Network connection, RD Grenade Launcher [MP] - ★★: Backpack Cover Lv1 - ★★★: LW-RD Grenade Launcher [MP] - ★★★★: Backpack Cover Lv2 - ★★★★★: The Fisherman Hologram, BT Cetus Patch #48",
+    "coords": [
+      -0.76022157969908,
+      0.70472976427676
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462675",
+    "mapId": "australia",
+    "category": "prepper-shelter",
+    "title": "The Adventurer",
+    "description": "Occupants: The Adventurer Linking requirements: Complete [Main Order 037](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=463033) ##### Unlocks - ★: Chiral Network connection, Climbing Power Gloves Lvl 1, Yotei Mask (Return to Adventurer) - ★★: Thermal Pad, Chiral Boots (Return to Adventurer) - ★★★: Climbing Power Gloves Lvl 2 (Return to Adventurer) - ★★★★: Rescue Porter Suit, Breathe In song (Return to Adventurer) - ★★★★★: The Adventurer Hologram, Necrobiote Patch #35, BT Bestia Patch #46",
+    "coords": [
+      -0.61879523759401,
+      0.52959303305019
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462677",
+    "mapId": "australia",
+    "category": "prepper-shelter",
+    "title": "The Phantom Smith",
+    "description": "Occupants: The Phantom Smith Linking requirements: Complete main order ##### Unlocks - ★: Chiral Network connection, Chiral Shock Cannon, Hope song - ★★: Multirocket Launcher - ★★★: Santa hat - ★★★★: LW Multirocket Launcher - ★★★★★: The Phantom Smith Hologram, BT Raia Patch #51",
+    "coords": [
+      -0.56636047896842,
+      0.61766544900675
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462682",
+    "mapId": "australia",
+    "category": "prepper-shelter",
+    "title": "The Tar Therapist",
+    "description": "Occupants: The Tar Therapist Linking requirements: Deliver lost cargo ##### Unlocks - ★: Chiral Network connection, Golden Hunters Magellan weapon - ★★: Canteen Lv2 - ★★★: To Another World sign - ★★★★: Color (Emergency Yellow) - ★★★★★: The Tar Therapist Hologram, Handprint Patch #44",
+    "coords": [
+      -0.43380975723215,
+      0.62786171864911
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462684",
+    "mapId": "australia",
+    "category": "prepper-shelter",
+    "title": "The Chronobiologist",
+    "description": "Occupants: The Chronobiologist Linking requirements: Complete main order ##### Unlocks - ★: Are You Leaving song, Cryptobiote - ★★: Chiral Tea - ★★★: Love Knot - ★★★★: Cryptobiote Roulette - ★★★★★: The Chronobiologist Hologram, Chronobiote Patch #36",
+    "coords": [
+      -0.58103955261618,
+      0.73875522909351
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462685",
+    "mapId": "australia",
+    "category": "prepper-shelter",
+    "title": "The Ghost Hunter",
+    "description": "Occupants: The Ghost Hunter Linking requirements: Deliver lost cargo / Complete sub order [110 - [Elimination] Uncover the Identity of the Headless Riders and Remove the Threat](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462984) ##### Unlocks - ★: Chiral Network connection, Blackdrift song - ★★: Rocket Box [MP], Woodland Porter Suit - ★★★: Phantom Gas Grenade - ★★★★: Backpack Large Grenade Pouch, BT Kheir Patch #50 - ★★★★★: The Ghost Hunter Hologram, BT Gigas Patch #47",
+    "coords": [
+      -0.52550375461772,
+      0.78334960584947
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462687",
+    "mapId": "australia",
+    "category": "prepper-shelter",
+    "title": "The Motherhood",
+    "description": "Occupants: The Doctor Linking requirements: Complete main order 026 ##### Unlocks - ★: Chiral Network connection, Rome Song - ★★: BB Pod pattern customization - ★★★: High-Capacity Blood Bag - ★★★★: Backpack Auto-Resuscitation Device - ★★★★★: The Doctor Hologram, BB In Pod Patch #38",
+    "coords": [
+      -0.46939807777733,
+      0.9029475691258
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462688",
+    "mapId": "australia",
+    "category": "prepper-shelter",
+    "title": "The Mechanic",
+    "description": "Occupants: The Mechanic Linking requirements: ?? ##### Unlocks - ★: Chiral Network connection - ★★: Vehicle Antigravity Unit, Vehicle Additional Armor - ★★★: Pickup Off-Roader Mortar - ★★★★: Pickup Off-Roader Rocket Launcher - ★★★★★: The Mechanic Hologram, Coffin Board Patch #59",
+    "coords": [
+      -0.42092236951919,
+      0.8746724778434
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462690",
+    "mapId": "australia",
+    "category": "prepper-shelter",
+    "title": "The Pioneer",
+    "description": "Occupants: The Pioneer Linking requirements: Deliver Lost Cargo ##### Unlocks - ★: Chiral Network connection, Deployable Shield - ★★: Camel Hood Hat - ★★★: Fireworks Magellan weapon - ★★★★: Desert Rod Porter Suit - ★★★★★: The Pioneer Hologram, Camel Hood Patch #64",
+    "coords": [
+      -0.54621287765059,
+      0.91759579164031
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462691",
+    "mapId": "australia",
+    "category": "prepper-shelter",
+    "title": "The Data Scientist",
+    "description": "Occupants: The Data Scientist Linking requirements: Complete main order 025 ##### Unlocks - ★: Chiral Network connection, AI Camo Porter Suit, Sneaking Boots, SL-LW Assault Rifle [MP] Lv1 - ★★: Nousagi Hat - ★★★: Pekorandombrain Song - ★★★★: SL-LW Assault Rifle [MP] Lv2 - ★★★★★: The Data Scientist Hologram, Love It! Patch #27",
+    "coords": [
+      -0.56849652464479,
+      0.83979927977954
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462692",
+    "mapId": "australia",
+    "category": "prepper-shelter",
+    "title": "The Pizza Chef",
+    "description": "Occupants: The Pizza Chef Linking requirements: Complete main order 024 ##### Unlocks - ★: Chiral Network connection, Machine Gun [MP] Lv1 - ★★: Rubber Pizza, Secrets of Pizza-Do Acrobatic Karate: Striking - ★★★: Machine Gun [MP] Lv2, Secrets of Pizza-Do Acrobatic Karate: Kicking - ★★★★: Secrets of Pizza-Do Acrobatic Karate: Slamming - ★★★★★: Pizza Chef's Suit, Pizza Chef's Boots, Pizza Chef's Hat, The Pizza Chef Hologram",
+    "coords": [
+      -0.65219500557768,
+      0.7935718955202
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462694",
+    "mapId": "australia",
+    "category": "prepper-shelter",
+    "title": "The Architect",
+    "description": "Occupants: The Architect Linking requirements: Deliver Lost Cargo ##### Unlocks - ★: Chiral Network connection, PCC Lv2 (Chiral Bridge) - ★★: Electric Trap - ★★★: Construction Speed Boost APAS Enhancement - ★★★★: The Architect repairs your structures - ★★★★★: The Architect Hologram, Wooden Blocks Patch #40",
+    "coords": [
+      -0.7057419525209,
+      0.81750307430235
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462696",
+    "mapId": "australia",
+    "category": "prepper-shelter",
+    "title": "The Dowser",
+    "description": "Occupants: The Dowser Linking requirements: Complete main order 021 ##### Unlocks - ★: Chiral Network connection, PCC Lv2 (Zip-Line), Boost Skeleton Lv1, Give Up Song - ★★: Desert Green Porter Suit - ★★★: Boost Skeleton Lv2 - ★★★★: Boost Skeleton Lv3 - ★★★★★: The Dowser Hologram, Chlorobiote Patch #34",
+    "coords": [
+      -0.73802684689298,
+      0.92509012457528
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462700",
+    "mapId": "australia",
+    "category": "prepper-shelter",
+    "title": "The Metagenomicist",
+    "description": "Occupants: The Metagenomicist Linking requirements: Complete main order ##### Unlocks - ★: Chiral Network connection, EX Capture Grenade, Afraid song - ★★: Chiral Rodent hat - ★★★: Chiral Crystal Yield Boost APAS Enhancement - ★★★★: Chiral Spider hat - ★★★★★: The Metagenomicist Hologram, Chiral Spider Patch #55",
+    "coords": [
+      -0.72771267989239,
+      0.73850661599181
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462956",
+    "mapId": "australia",
+    "category": "prepper-shelter",
+    "title": "Mr. Impossible",
+    "description": "Occupants: Mr. Impossible Linking requirements: Deliver lost cargo / Complete sub order ##### Unlocks - ★: Chiral Network connection, Die-Hardman Praise Hologram, Color (Omnireflector) - ★★: Die-Hardman Dance Hologram, Color (Chiral Gold) - ★★★: Red Samurai Hologram, Red Mask Lv2 - ★★★★: Higgs Hologram, Golden Mask Lv2 - ★★★★★: Mr. Impossible Hologram, Impossible Shape Patch #67, Chiral Sculpture",
+    "coords": [
+      -0.77224548505677,
+      0.54097882115865
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462957",
+    "mapId": "australia",
+    "category": "prepper-shelter",
+    "title": "BPAS",
+    "description": "Occupants: BPAS Linking requirements: Deliver Lost Cargo ##### Unlocks - ★: Chiral Network connection, Super Chiralium Extraction APAS Enhancement - ★★: Super Balance Assistance APAS Enhancement - ★★★: Super Enhancement Switch APAS Enhancement - ★★★★: Super Aim Assistance APAS Enhancement - ★★★★★: BPAS Hologram, APAS Patch #3, Super EM Plasma APAS Enhancement",
+    "coords": [
+      -0.58487993431569,
+      0.54611286681182
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462965",
+    "mapId": "australia",
+    "category": "prepper-shelter",
+    "title": "The Aeronautical Engineer",
+    "description": "Occupants: The Aeronautical Engineer Linking requirements: Deliver Lost Cargo / Complete sub order ##### Unlocks - ★: Chiral Network connection, Floating Sentry Gun, Improved Cargo Catapult - ★★: Improved Blood Boomerang - ★★★: Goggles - ★★★★: Improved Jump Ramp - ★★★★★: The Aeronautical Engineer Hologram, Cargo Catapult Patch #62",
+    "coords": [
+      -0.63356370335228,
+      0.69310031296106
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462661",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Red River",
+    "description": "Warning Type: Deep River Description: *A river that flows to the southwest of the Government's Base. Its basin is often filled with a red mist. Erosion of the riverbank suggests the surrounding area is prone to frequent flooding. When the water level rises, you will need to head upstream to find a safe place to cross.*",
+    "coords": [
+      -0.91565850042292,
+      0.56352363145787
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462704",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Red Mist Cliffs: Southern Area",
+    "description": "Warning Type: Cliff Description: *Extending to the south of the Lone Commander's shelter, these cliffs are frequently engulfed in a red mist. Visibility is poor and accidents are common. Their southern side is tall and steep.*",
+    "coords": [
+      -0.8473280126081,
+      0.53385660242689
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462705",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Red Mist Cliffs: Northwestern Area",
+    "description": "Warning Type: Cliff Description: *Stretching northwest of the Lone Commander's shelter, these cliffs are drenched in a red fog. Many slips and falls have been reported, as travelers claim the cliffs suddenly appear through the mist before their eyes.*",
+    "coords": [
+      -0.8672717925316,
+      0.56362058239476
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462710",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Desert River",
+    "description": "Warning Type: Deep River Description: *??*",
+    "coords": [
+      -0.91266852585869,
+      0.58796940925944
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462717",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Brigand Base Southeast of F1: Southwestern Area",
+    "description": "Warning Type: Standard Description: *A watchtower allowing for surveillance of the surrounding region. Clusters of large rocks can be found to the west.*",
+    "coords": [
+      -0.91732355870636,
+      0.61235332055074
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462723",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "West River",
+    "description": "Warning Type: Deep River Description: *A river that flows past West Fort Knot (F1), comprising a main stream and multiple tributaries. The main stream is wider than the length of two ladders joined together, and very deep. Many people find themselves stranded and unable to cross when its water levels rise.*",
+    "coords": [
+      -0.92686902706859,
+      0.67602151894489
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462730",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "West River/Upstream",
+    "description": "Warning Type: Deep River Description: *This upstream stretch of the river that flows through Rainbow Valley is relatively narrow. Despite this, there have been reports of inattentive porters getting in trouble when crossing at night.*",
+    "coords": [
+      -0.84960649746219,
+      0.70365291143591
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462734",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Windy Plateau",
+    "description": "Warning Type: Standard Description: *An elevated plateau known for its strong winds, located to the north of the giant tar lake. Large parts of the plateau are covered in rocks, and there have been sightings of wild animals and chiral creatures in the area.*",
+    "coords": [
+      -0.77308360618599,
+      0.73073706309823
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462735",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Causeway Cay",
+    "description": "Warning Type: Standard Description: *A shallow beach where scattered sandbars for a path. Porters have reported being attacked by groups of chiral creatures in this area.*",
+    "coords": [
+      -0.92023697959419,
+      0.7312774324307
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462741",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Northwest Coast",
+    "description": "Warning Type: Standard Description: *A section of Australia's northwestern coastline. It is often affected by the tar currents that flow beneath it, and earthquakes are a common occurrence. There are a number of rivers in the northern part of this area. The monorail track can be restored using the terminals nearby.*",
+    "coords": [
+      -0.88388967587719,
+      0.79653338820857
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462742",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Twin Creeks",
+    "description": "Warning Type: Deep River Description: *Two small rivers that flow from the base of a steep cliff. Many people used to run into trouble here when the water levels rose, so a monorail line was built to span both rivers. Timefall has taken a terrible toll on the track, however, and the monorail is not currently operational.*",
+    "coords": [
+      -0.90108094707031,
+      0.74352716418082
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462743",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Scarlet Canyon",
+    "description": "Warning Type: Standard Description: *An impressive canyon named for its red soil and rocks. Flanked by high, sheer cliffs, it is home to eucalypts and many other plant species. The land is also prone to dryness, so when a forest fire breaks out, it spreads quickly and dangerously.*",
+    "coords": [
+      -0.82664862839138,
+      0.7284978696192
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462744",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Firehawk's Valley",
+    "description": "Warning Type: Standard Description: *A valley littered with blackened and charred objects. It got its name from the hawks that would use fire to drive their prey here before moving in for the kill. There aren't many alternative routes through the area, but do be careful if the flames force you down into the valley.*",
+    "coords": [
+      -0.82491824879637,
+      0.73245527505307
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462746",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Rampart Rocks",
+    "description": "Warning Type: Cliff Description: *A soaring group of rocks that resemble a castle wall. Climbing to the top provides an excellent vantage point over the ruins below. It is very treacherous underfoot, however, and many people have slipped and fallen here.*",
+    "coords": [
+      -0.77244037681155,
+      0.76109493234841
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462751",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Cape Fort River",
+    "description": "Warning Type: Deep River Description: *A river that flows past the F2 South Distribution Center. It once flowed into Cape Fort Knot (F2), but the city has since been submerged in the tar. The lower course of the river, marked by the merging of two streams, is very wide. But the upper course is relatively easy to cross, even when the water levels are high.*",
+    "coords": [
+      -0.79782352019123,
+      0.84566449572048
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462775",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Northern Desert",
+    "description": "Warning Type: Standard Description: *The largest desert in Australia, located in the northeastern part of the continent. Lying next to the ocean, its sands are often whipped up into storms by the powerful sea breeze. Visibility is often poor as a result, and many people find themselves lost, unable to work out which direction they're traveling in. A BT area that contains large quantities of chiral crystals is known to lie somewhere among the sands.*",
+    "coords": [
+      -0.55665666815375,
+      0.88191750616566
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462784",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Cliffside River: Tributary",
+    "description": "Warning Type: Deep River Description: *A tributary of the upper course of the Cliffside River. The Cliffside River is famous for being difficult to cross, but gets narrower upstream beyond this point. In some places, it is even possible to jump across.*",
+    "coords": [
+      -0.75631651046575,
+      0.78378239877581
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462788",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Pitchfork River",
+    "description": "Warning Type: Deep River Description: *A river that is shaped like a pitchfork and flows through Australia's northwestern plains. It has a number of tributaries that are usually dried up. A BT area stretches across the river basin, where timefall is a frequent occurrence. When the water levels rise, the tributaries fill up, changing the river's overall shape.*",
+    "coords": [
+      -0.76374630339978,
+      0.8221783060195
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462789",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Cliffside River",
+    "description": "Warning Type: Deep River Description: *A river that runs along the bottom of a steep cliff in the northwestern part of the continent. Its upper course flows over a sheer drop, forming a waterfall. A number of tributaries join the main flow midway along, causing the river to widen significantly. It is therefore famous for being difficult to cross.*",
+    "coords": [
+      -0.79301406365619,
+      0.79790603504831
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462792",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Giant Tar Lake",
+    "description": "Warning Type: Standard Description: *Australia's largest tar lake, formed by a number of voidouts. The tar is said to be bottomless, and emerging alive after being submerged is easier said than done. Cargo washes up on the shores of the lake from time to time.*",
+    "coords": [
+      -0.78501340953065,
+      0.64049660822825
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462799",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Great Crater Cliffs: Southern Area",
+    "description": "Warning Type: Cliff Description: *A wall of cliffs encircling a giant tar lake. Formed by a series of voidouts, the sheer rock faces are extremely treacherous to traverse. The top of the cliffs offers a good view of the ghost mech factory.*",
+    "coords": [
+      -0.7392211127341,
+      0.56361941185935
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462805",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "White River",
+    "description": "Warning Type: Deep River Description: *A river that flows to the west of South Fort Knot (F6). It is supplied by water that runs down from the snowy mountains. A BT area covers the basin of the river. The fast-flowing water and snow-covered ground makes this terrain difficult to traverse.*",
+    "coords": [
+      -0.4635143422679,
+      0.54052864392163
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462813",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Icy Mountain Trail",
+    "description": "Warning Type: Standard Description: *A path once used to scale the peaks of the snowy mountains. Very little of the path now remains. It is very steep in places, and it is clear that rockfalls often take place here.*",
+    "coords": [
+      -0.47717730925893,
+      0.73249062749039
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462814",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Warrigal Cliff",
+    "description": "Warning Type: Cliff Description: *A cliff located in the southern part of Australia's Central Highlands. There are signs that a gate quake has destroyed part of the cliff face, where many climbers who follow the ridge then find themselves at an impasse -- standing atop a jagged rock, like a wild wolf of old.*",
+    "coords": [
+      -0.60821593817874,
+      0.61662796036738
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462815",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Central Highlands: Eastern Area",
+    "description": "Warning Type: Standard Description: *The eastern part of the mountain range that rises in the center of the Australian continent. Its peaks are clustered tightly together in a severe string of ups and downs. Deep snow and low temperatures will drain your stamina, making these inclines a daunting prospect. Many mountaineers misjudge their route, and suffer painful falls.*",
+    "coords": [
+      -0.53785388953443,
+      0.67821265822043
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462942",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "North Edge River",
+    "description": "Warning Type: Deep River Description: *A river that flows through northern Australia, originating in the mining regions to the south. The river is known for being narrow but deep.*",
+    "coords": [
+      -0.72391153425491,
+      0.90237515881161
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462945",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "North Edge Ridge: Southeastern Area",
+    "description": "Warning Type: Cliff Description: *The southeastern portion of a ridge that stretches along the continent's northern edge. There are a number of steep cliffs here, and evidence that many aspiring mountaineers have tried and failed to scale them.*",
+    "coords": [
+      -0.65471147127312,
+      0.86758000144977
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462946",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "North Edge Ridge: Southern Area",
+    "description": "Warning Type: Standard Description: *The southern portion of a ridge that stretches along the continent's northern edge. Timefall and gate quakes have destabilized the terrain, and it is clear that numerous rockfalls have taken place.*",
+    "coords": [
+      -0.68619597143115,
+      0.88958702276776
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462948",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Bushfire Zone",
+    "description": "Warning Type: Fire Description: *Many flammable trees grow in this area, and bushfires area a regular occurrence. These are triggered by simple natural causes: high temperatures and extreme drought.*",
+    "coords": [
+      -0.60844937849907,
+      0.79971026724004
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462949",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Pillar Rocks: Southern Area",
+    "description": "Warning Type: Standard Description: *An area filled with sandstone formations that have eroded into strange shapes. Wild animals have been spotted in the southern part of this area. Porters have also reported being attacked by chiral creatures, so be careful.*",
+    "coords": [
+      -0.59090442202753,
+      0.81364477589862
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462950",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Pillar Rocks",
+    "description": "Warning Type: Standard Description: *An area filled with sandstone formations that have eroded into strange shapes. Some of them look like settlements, and numerous porters appear to have been lured into the rocks only to be attacked by chiral creatures.*",
+    "coords": [
+      -0.59318294768306,
+      0.82273659689278
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462951",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "East River",
+    "description": "Warning Type: Deep River Description: *A wide river that flows through the area of savannah in eastern Australia. There are a number of places where the water is usually shallow enough to cross, but a bridge will be your only option should the water levels begin to rise.*",
+    "coords": [
+      -0.53852435664041,
+      0.79373269289097
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462953",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Northern Desert: Southern Area",
+    "description": "Warning Type: Standard Description: *Australia's largest desert extends across the northeast of the continent. This area is located in the southern part of that desert. Porters have reported hearing strange explosions when traveling nearby.*",
+    "coords": [
+      -0.51544158393099,
+      0.84491551937504
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462966",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "South Edge River",
+    "description": "Warning Type: Deep River Description: *A wide river that flows to the east of Terminal Fort Knot (F8). It can only be crossed via a bridge when the water levels rise, but during calmer times, when the water is shallow, it is possible to wade across.*",
+    "coords": [
+      -0.56638753190703,
+      0.50034544976015
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462970",
+    "mapId": "australia",
+    "category": "warning",
+    "title": "Pincer Rivers",
+    "description": "Warning Type: Deep River Description: *Rivers that flow south of East Fort Knot (F4) toward the east of the continent. They are narrow and relatively easy too cross. Their shape resembles the pincers of a crab, hence their name. Wild animals are often spotted near these rivers.*",
+    "coords": [
+      -0.42164436132671,
+      0.65746860615776
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462912",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "009 - Deliver the Chiral Decontaminator to the Government's Base",
+    "description": "Destination: [The Government's Base](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462662) Cargo for Delivery: - Chiral Decontaminator [52kg] Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.93517164643865,
+      0.49479158392869
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462917",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "010 - Liberate the Western Environmental Observatory From the Brigands",
+    "description": "Destination: [Western Environmental Observatory](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462665) Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.89341700076932,
+      0.56096432432608
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462919",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "011 - Destroy Communications Disruptor and Deliver Mysterious Recording to Musician",
+    "description": "Destination: ?? Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.94645778402005,
+      0.5896287379166
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462921",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "012 - Investigate the Unusual Tar Currents Near F1",
+    "description": "Destination: ?? Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.84269322309586,
+      0.65702946324129
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462922",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "013 - Restore the Monorail and Deliver Special Alloys to F1",
+    "description": "Destination: ?? Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.85613038475032,
+      0.6689660737897
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462926",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "014 - Deliver All Terraforming Equipment to Rainbow Valley",
+    "description": "Destination: [Rainbow Valley](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462668) Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.9569681208776,
+      0.67597862213401
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462927",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "015 - Deliver Test Subject Kangaroo to Animal Shelter",
+    "description": "Destination: [Animal Shelter](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462672) Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.85554828807213,
+      0.69887020989901
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462928",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "016 - Deliver Aid Packages to Northern Environmental Observatory",
+    "description": "Destination: [Northern Environmental Observatory](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462699) Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.81918954849164,
+      0.76274406975647
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462929",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "017 - Escape the Strange Realm",
+    "description": "Destination: ?? Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.73073834180806,
+      0.78560647317821
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462930",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "018 - Recover Weapon Sets and Burrowing Bombs Stolen by Brigands",
+    "description": "Destination: ?? Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.72950184345214,
+      0.78532754965288
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462983",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "019 - Deliver Necrobiotes to F2 South Distribution Center",
+    "description": "Destination: [F2 South Distribution Center](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462698) Cargo for Delivery: - Necrobiotes - 44kg - L x1",
+    "coords": [
+      -0.7284431586308,
+      0.78454714615435
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463013",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "020 - Deliver Aid Packages and Chiral Printer Parts to F1",
+    "description": "Destination: [West Fort Knot (F1)](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462667) Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.80490596498325,
+      0.86051462379291
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463014",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "021 - Rescue Dowser's Friend From the Armed Survivalists",
+    "description": "Destination: [The Dowser](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462696) Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.80284200521982,
+      0.86012008773007
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463015",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "022 - Search for Tomorrow",
+    "description": "Destination: ?? Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.73487020254606,
+      0.92515082135962
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463016",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "023 - Deliver Tar Magnetite to Heartman's Lab",
+    "description": "Destination: [Heartman's Lab](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462693) Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.73195637699632,
+      0.92527221492884
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463017",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "024 - Deliver Beach Yeast to the Pizza Chef",
+    "description": "Destination: [The Pizza Chef](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462692) Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.64044165486894,
+      0.85652250323953
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463018",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "025 - Deliver Piping Hot Pizza to the Data Scientist",
+    "description": "Destination: [The Data Scientist](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462691) Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.64994893171703,
+      0.79436098084015
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463019",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "026 - Recover Old BB Pod From Armed Survivalists Base",
+    "description": "Destination: [The Motherhood](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462687) Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.56628674268777,
+      0.83981248511256
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463021",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "027 - Deliver All Tar Dissolvent to the DHV Magellan",
+    "description": "Destination: [F2 South Distribution Center](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462698) / [The Motherhood](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462687) Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.46740728181629,
+      0.90310690439402
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463023",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "028 - Extract Weapons Fabricators Data Using Ring Terminal Expansion",
+    "description": "Destination: ?? Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.4644638102213,
+      0.90310082508111
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463024",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "029 - Recover the Coffin From Armed Survivalists Base",
+    "description": "Destination: [Armed Survivalist Base Southwest of the Motherhood](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462821) / [The Mechanic](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462688) Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.46196222305397,
+      0.90328766044816
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463026",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "030 - Deliver All Prototype Life Support Systems to F4",
+    "description": "Destination: [East Fort Knot (F4)](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462683) Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.41832804679746,
+      0.87470411805798
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463027",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "031 - Escape From the Strange Realm",
+    "description": "Destination: ?? Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.39606256178402,
+      0.73094954210208
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463028",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "032 - Deliver the Cryptobiote Variants to the Chronobiologist",
+    "description": "Destination: [The Chronobiologist](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462684) Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.39308845996763,
+      0.73055493095337
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463029",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "033 - Deliver Timefall-Resistant Emu to the Metagenomicist",
+    "description": "Destination: [The Metagenomicist](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462700) Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.57833254337368,
+      0.73897894815597
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463030",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "035 - Deliver Chiral Microbes to F5 East Distribution Center",
+    "description": "Destination: [F5 East Distribution Center](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462674) Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.72473824024217,
+      0.73870281214849
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463031",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "035 - Extract Data From Mech Fabricators Using Ring Terminal",
+    "description": "Destination: ?? Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.71386328246012,
+      0.5924199454188
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463032",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "036 - Cross Snowy Peaks to Deliver Meteorite to Adventurer",
+    "description": "Destination: [The Adventurer](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462675) Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.71101605892076,
+      0.59280589529266
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463033",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "037 - Rescue the Adventurer From the Snowy Mountains",
+    "description": "Destination: [The Adventurer](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462675) Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - 446 Likes - S Rating Adventurer Damage 5% or Less: 105 Additional Likes - 20 APAS Points - Unlocks Climbing Power Gloves Lv1 - Unlocks Patience Song",
+    "coords": [
+      -0.61571717262095,
+      0.53000767126808
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463034",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "038 - Deliver Chiral Decontaminators and Sedatives to Eastern Environmental Observatory",
+    "description": "Destination: [Eastern Environmental Observatory](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462678) Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - 131 Likes - Unlocks Oxygen Mask - Unlocks Little Nest Song - 20 APAS Points",
+    "coords": [
+      -0.61255753040166,
+      0.5300934982839
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463035",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "039 - Destroy the Giant Ghost Mech",
+    "description": "Destination: ?? Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.467365246046,
+      0.90015737443808
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463175",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "040 - Recover All Stranded Cargo",
+    "description": "Destination: [The Phantom Smith](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462677) Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.46464505058378,
+      0.9007257335123
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463176",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "041 - Deliver the Chiral Field Controller Prototypes to F6",
+    "description": "Destination: [South Fort Knot](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462680) Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.56437628877262,
+      0.61799612814505
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463177",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "042 - Deliver Chiral Cyclotron Parts and Special Materials to DHV Magellan",
+    "description": "Destination: ?? Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.43119932516723,
+      0.50272417771704
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463178",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "043 - Destroy the Chiral Jammers Threat to Southern Environmental Observatory",
+    "description": "Destination: ?? Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.42916789234786,
+      0.50423588330722
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463179",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "044 - Deliver Network Stabilizer to F7 North Distribution Center",
+    "description": "Destination: [F7 North Distribution Center](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462676) Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.64049720556079,
+      0.85468749056751
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463180",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "045 - Return From the Strange Realm",
+    "description": "Destination: ?? Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.53147841173947,
+      0.55940154718591
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463181",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "046 - Deliver the Drawbridge Terminal Unit to F8",
+    "description": "Destination: [Terminal Fort Knot (F8)](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462848) Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.52925970564999,
+      0.55935264421575
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463182",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "047 - Find Item With a Deep Connection to Higgs",
+    "description": "Destination: ?? Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.61516508167617,
+      0.40467000994731
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463183",
+    "mapId": "australia",
+    "category": "main-order",
+    "title": "048 - Defeat Higgs and Save Tomorrow",
+    "description": "Destination: ?? Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.6132281341043,
+      0.40481173428202
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462911",
+    "mapId": "australia",
+    "category": "sub-order",
+    "title": "100 - [Breakable Cargo] Deliver the Dismantled Rifle to the Lone Commander",
+    "description": "Requested By: [The Government's Base](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462662) How To Unlock: Complete [009 - Deliver the Chiral Decontaminator to the Government's Base](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462912) Rewards: - 230 Likes",
+    "coords": [
+      -0.88972091674748,
+      0.5581481391652
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462913",
+    "mapId": "australia",
+    "category": "sub-order",
+    "title": "101 - Recover the Mementos from the BT Area",
+    "description": "Requested By: [The Lone Commander](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462663) How To Unlock: Complete [100 - [Breakable Cargo] Deliver the Dismantled Rifle to the Lone Commander](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462911) Rewards: - 300 likes - The Lone Commander chiral network coverage - Tranq Sniper Rifle - Smoke Grenade",
+    "coords": [
+      -0.83765982159113,
+      0.55005861432242
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462914",
+    "mapId": "australia",
+    "category": "sub-order",
+    "title": "102 - Recover All Brigand's Reconnaissance Equipment",
+    "description": "Requested By: [The Lone Commander](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462663) How To Unlock: Complete [101 - Recover the Mementos from the BT Area](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462913) Rewards: - ??",
+    "coords": [
+      -0.83336116037742,
+      0.55000913172887
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462915",
+    "mapId": "australia",
+    "category": "sub-order",
+    "title": "103 - [Breakable Cargo] Recover the Stolen Record Collection",
+    "description": "Requested By: [The Lone Commander](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462663) How To Unlock: Complete [102 - Recover All Brigand's Reconnaissance Equipment](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462914) Rewards: - ??",
+    "coords": [
+      -0.82888318031652,
+      0.55001056909835
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462916",
+    "mapId": "australia",
+    "category": "sub-order",
+    "title": "104 - Restore Smoke Hill Mine",
+    "description": "Requested By: ?? How To Unlock: Complete [10 - Liberate the Western Environmental Observatory From the Brigands](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462917) Rewards: - ??",
+    "coords": [
+      -0.93980312347159,
+      0.58919583401895
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462979",
+    "mapId": "australia",
+    "category": "sub-order",
+    "title": "123 - [Breakable Cargo] Recover all the Chiral Sculptures from their inaccessible locations",
+    "description": "Requested By: [Mr. Impossible](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462956) How To Unlock: Deliver Lost Cargo to [Mr. Impossible](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462956) Total Cargo Weight: 75kg Rewards: - ??",
+    "coords": [
+      -0.77313211682966,
+      0.5417800084934
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462984",
+    "mapId": "australia",
+    "category": "sub-order",
+    "title": "110 - [Elimination] Uncover the Identity of the Headless Riders and Remove the Threat",
+    "description": "Requested By: [The Ghost Hunter](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462685) How To Unlock: Complete [Sub-Order 109 - [Breakeable Cargo] Deliver Proof of an Attack to the Ghost Hunter](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=463042) Rewards: - ??",
+    "coords": [
+      -0.52456531872855,
+      0.78447475857655
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463036",
+    "mapId": "australia",
+    "category": "sub-order",
+    "title": "105 - [Keep Flat/Express] Deliver a Piping Hot Pepperoni Pizza to the Architect",
+    "description": "Requested By: ?? How To Unlock: Complete [Main Order 024 - Deliver Beach Yeast to the Pizza Chef](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=463017) Rewards: - Connects [The Architect](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462694) - 490 Likes - Chiral Bridge Schematics",
+    "coords": [
+      -0.65013847023573,
+      0.79202452598356
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463037",
+    "mapId": "australia",
+    "category": "sub-order",
+    "title": "106 - Recover the Ghost Mech Cargo from the Weapons Factory",
+    "description": "Requested By: [The Mechanic](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462688) How To Unlock: Complete [Main Order 029 - Recover the Coffin From Armed Survivalists Base](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=463024) Rewards: - 780 Likes - Dog Mine (Weapon)",
+    "coords": [
+      -0.42342960834654,
+      0.87485001231488
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463040",
+    "mapId": "australia",
+    "category": "sub-order",
+    "title": "108 - Deliver Dog Mech Sam Rescued to the Animal Shelter",
+    "description": "Requested By: [The Mechanic](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462688) How To Unlock: Complete [Sub-Order 106 - Recover the Ghost Mech Cargo from the Weapons Factory](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=463037) Rewards: - 362 Likes - Dog Mech in your shelter",
+    "coords": [
+      -0.42615473270618,
+      0.87478135486005
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463041",
+    "mapId": "australia",
+    "category": "sub-order",
+    "title": "109 - [Breakeable Cargo] Deliver Proof of an Attack to the Ghost Hunter",
+    "description": "Requested By: [The Chronobiologist](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462684) How To Unlock: Complete [Main Order 032 - Deliver the Cryptobiote Variants to the Chronobiologist](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=463028) Rewards: - ??",
+    "coords": [
+      -0.58390630486912,
+      0.73972267744863
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463042",
+    "mapId": "australia",
+    "category": "sub-order",
+    "title": "109 - [Breakeable Cargo] Deliver Proof of an Attack to the Ghost Hunter",
+    "description": "Requested By: [The Chronobiologist](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462684) How To Unlock: Complete [Main Order 032 - Deliver the Cryptobiote Variants to the Chronobiologist](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=463028) Rewards: - 295 Likes",
+    "coords": [
+      -0.58390617370642,
+      0.73871868696355
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463043",
+    "mapId": "australia",
+    "category": "sub-order",
+    "title": "107 - Recover One or More Empty Pizza Containers from the Armed Survivalist's Base",
+    "description": "Requested By: [The Data Scientist](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462691) How To Unlock: Complete [Main Order 025 - Deliver Piping Hot Pizza to the Data Scientist](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=463018) Rewards: - 1,032 Likes",
+    "coords": [
+      -0.57040661573373,
+      0.83989562465956
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463044",
+    "mapId": "australia",
+    "category": "sub-order",
+    "title": "107 - Recover One or More Empty Pizza Containers from the Armed Survivalist's Base",
+    "description": "Requested By: [The Data Scientist](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462691) How To Unlock: Complete [Main Order 025 - Deliver Piping Hot Pizza to the Data Scientist](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=463018) Rewards: - ??",
+    "coords": [
+      -0.5703633421198,
+      0.83998165039721
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463045",
+    "mapId": "australia",
+    "category": "sub-order",
+    "title": "115 - Deliver the Emu Sam Rescued to the Animal Shelter",
+    "description": "Requested By: [The Metagenomicist](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=462700) How To Unlock: Complete [Main Order 033](https://mapgenie.io/death-stranding-2/maps/australia?locationIds=463029) Rewards: - 272 Likes - Emu for your Animal Farm",
+    "coords": [
+      -0.72981566190637,
+      0.73866794632741
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462707",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-01-04",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.91931121345351,
+      0.57421999261318
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462711",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-01-03",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.93557390989807,
+      0.59854498788
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462712",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-01-05",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.88927236503923,
+      0.58965634580278
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462713",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-01-06",
+    "description": "550 360",
+    "coords": [
+      -0.85153185802452,
+      0.5967007392204
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462714",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-01-07",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.83145530932848,
+      0.58197638400804
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462715",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-01-08",
+    "description": "1800 cc 5400 m 5760 c",
+    "coords": [
+      -0.81857859029648,
+      0.57608005677498
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462720",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-01-02",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.91932748705551,
+      0.62668702822675
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462721",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-01-01",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.91418977405286,
+      0.65004063796735
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462724",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-02-01",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.93627478333696,
+      0.70512084684876
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462727",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-02-02",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.89716728190101,
+      0.7156439561589
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462729",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-02-03",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.84862760141937,
+      0.69737443970968
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462731",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-02-04",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.82787025115459,
+      0.70376007969232
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462732",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-02-05",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.81042334987902,
+      0.72775477511279
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462733",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-02-06",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.78848129366293,
+      0.74288231683722
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462748",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-02-09",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.82392402961315,
+      0.83702801777096
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462752",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-03-01",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.78354347094697,
+      0.85408554790183
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462753",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-03-02",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.75867402903299,
+      0.84405626294584
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462754",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-03-03",
+    "description": "- Chiral Crystals: 1000 - Metals: 2300 - Ceramics: 2500",
+    "coords": [
+      -0.73594527027038,
+      0.84874959392327
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462755",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-03-04",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.70700324475615,
+      0.84333551133477
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462756",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-03-06",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.62336116115381,
+      0.83102224044896
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462757",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-03-07",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.59768589564362,
+      0.82610678573866
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462758",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-03-08",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.55976470172482,
+      0.83969206155186
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462759",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-03-09",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.53412285383669,
+      0.82272118543906
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462760",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-03-10",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.50967307962785,
+      0.80923244548507
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462761",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-03-11",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.49104782024654,
+      0.79985636720887
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462762",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-03-12",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.45595721172501,
+      0.79224831883694
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462763",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-03-13",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.43505846333741,
+      0.79770233204511
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462764",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-03-14",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.39730016101652,
+      0.7608731525019
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462770",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-04-05",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.49229519252108,
+      0.93920870438805
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462771",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-04-04",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.51455496651857,
+      0.92160125158178
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462772",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-04-03",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.53354135471849,
+      0.90439689635728
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462773",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-04-01",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.55124570035059,
+      0.86184859432741
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462774",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-04-02",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.54605352914632,
+      0.88417367123662
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462783",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-02-11",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.75376304746445,
+      0.79025678008469
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462785",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-02-10",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.77838611154283,
+      0.79097006418273
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462797",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-01-11",
+    "description": "- Chiral Crystals: 95 - Metals: 2400 - Ceramics: 3840",
+    "coords": [
+      -0.72726463843594,
+      0.58591847638849
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462803",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-06-05",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.51776285818698,
+      0.51449540976735
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462808",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-05-06",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.41543064317375,
+      0.55144993524249
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462812",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-05-04",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.41182262997384,
+      0.63048724500877
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462939",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-01-09",
+    "description": "2000 cc 5700 M 6840 C",
+    "coords": [
+      -0.7886700701321,
+      0.56388862257448
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462940",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-01-10",
+    "description": "1700 cc 5200 M 4480 C",
+    "coords": [
+      -0.75804499948572,
+      0.56443892554756
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462955",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-06-06",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.52097247935976,
+      0.53280294648492
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462968",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-05-07",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.41781289406023,
+      0.52307600784043
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462969",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-05-05",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.41795384861408,
+      0.59319910996284
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462971",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-05-02",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.40075808568304,
+      0.69163426634397
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462973",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-05-01",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.38349851638915,
+      0.71480944012393
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463047",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-Highway-03-05",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.65421675556573,
+      0.83458908300524
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463401",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-02-07",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.8063383009555,
+      0.79715281581628
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-463948",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-02-08",
+    "description": "Chiral Crystals 700 Metals 1600 Ceramics 1920",
+    "coords": [
+      -0.81499796975356,
+      0.81087885973903
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-464332",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-06-04",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.52918811079851,
+      0.47702419883431
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-464333",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-06-03",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.49805326267071,
+      0.46275634132607
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-464334",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-06-02",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.48397703486259,
+      0.46635559620229
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-464335",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto Paver AUS-HIGHWAY-06-01",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.4587337378394,
+      0.47210657931228
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-464336",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-07-01",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.52747428463641,
+      0.45137385202037
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-464337",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-05-03",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.42189817477805,
+      0.64926363818537
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-467547",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-Highway-07-02",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.55188535794727,
+      0.43752791392899
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-467548",
+    "mapId": "australia",
+    "category": "auto-paver",
+    "title": "Auto-Paver AUS-HIGHWAY-07-03",
+    "description": "Auto-Paver localizado em australia.",
+    "coords": [
+      -0.58152905733553,
+      0.44983629482969
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-467549",
+    "mapId": "australia",
+    "category": "miscellaneous",
+    "title": "Albino Lyrebird",
+    "description": "_White Animal_",
+    "coords": [
+      -0.47043375490361,
+      0.81346157360645
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-561360",
+    "mapId": "australia",
+    "category": "miscellaneous",
+    "title": "Albino Kangaroo",
+    "description": "Miscellaneous localizado em australia.",
+    "coords": [
+      -0.5497359768913,
+      0.88113928593232
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-942623",
+    "mapId": "australia",
+    "category": "miscellaneous",
+    "title": "Albino Koala",
+    "description": "On this mountain below the tree, it is recommended to have a ladder",
+    "coords": [
+      -0.98628331953472,
+      0.49458859052635
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462725",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-NW01-01",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.92998110569758,
+      0.67957181048308
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462726",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-NW01-02",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.92254028427917,
+      0.70672001352204
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462738",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-NW01-03",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.91164316708276,
+      0.75083079844708
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462739",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-NW02-01",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.91675793103002,
+      0.77186553612698
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462740",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-NW02-02",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.89013385844098,
+      0.79634064127323
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462749",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-NW02-03",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.84263565330491,
+      0.83376662042014
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462750",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-NW02-04",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.80563442929167,
+      0.84703795338319
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462765",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-EC01-05",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.39937919409309,
+      0.76645640325347
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462766",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-EC01-04",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.43617541712999,
+      0.81927871426595
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462767",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-EC01-03",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.46166900969453,
+      0.85717941714368
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462768",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-EC01-02",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.48477433470853,
+      0.88796352057759
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462769",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-EC01-01",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.48646980528633,
+      0.94478772733845
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462776",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-NW03-05",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.70192832407477,
+      0.93491299031113
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462777",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-NW03-04",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.73659289327108,
+      0.93668458175726
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462778",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-NW03-03",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.77103733589092,
+      0.92807345499361
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462779",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-NW03-02",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.82230853181318,
+      0.89243851979614
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462780",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-NW03-01",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.81316620520846,
+      0.87364449840175
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462793",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-TC02-05",
+    "description": "- Chiral Crystals: 800 - Resins: 1440 - Special Alloys: 1560",
+    "coords": [
+      -0.70665726458142,
+      0.77039644566007
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462794",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-TC02-04",
+    "description": "- Ciral Crystals: 800 - Resin: 1,440 - Special Alloys: 1,560",
+    "coords": [
+      -0.70529880846499,
+      0.7196773138552
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462795",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-TC02-03",
+    "description": "- Chiral Crystals: 800 - Resins: 1440 - Special Alloys: 1560",
+    "coords": [
+      -0.71137603702982,
+      0.67728179994972
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462796",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-EC02-01",
+    "description": "- Chiral Crystals: 80 - Resins: 144 - Special Alloys: 1560",
+    "coords": [
+      -0.72765087652621,
+      0.59342826391294
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462798",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-TC01-05",
+    "description": "- Chiral Crystals: 800 - Resins: 1440 - Special Alloys: 1560",
+    "coords": [
+      -0.70862077325194,
+      0.58065500957279
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462800",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-TC01-04",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.69939887020038,
+      0.52160111328463
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462801",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-TC01-03",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.66806570794813,
+      0.481702257012
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462802",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-TC01-02",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.64828424171432,
+      0.47228427111762
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462804",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-EC03-03",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.44616697074702,
+      0.51379606662006
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462807",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-EC03-02",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.43939051579531,
+      0.54379199558042
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462809",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-EC03-01",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.43569481150467,
+      0.5709452909182
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462810",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-EC02-03",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.42959580312279,
+      0.6022467403636
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462811",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-EC02-02",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.40656550028012,
+      0.62735461362499
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462967",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-TC01-01",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.59756120664096,
+      0.45226957793864
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-462972",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "Tracklayer AUS-RAIL-EC02-01",
+    "description": "Tracklayer localizado em australia.",
+    "coords": [
+      -0.39737361659343,
+      0.69701586795797
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-australia-464331",
+    "mapId": "australia",
+    "category": "tracklayer",
+    "title": "TRACKLAYER AUS-RAIL-TC02-02",
+    "description": "- Chiral Crystals: 800 - Resins: 1440 - Special Alloys: 1560",
+    "coords": [
+      -0.70572443106997,
+      0.62344913831639
+    ],
+    "region": "australia",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462459",
+    "mapId": "mexico",
+    "category": "apac-facility",
+    "title": "Sam's Shelter",
+    "description": "APAC Facility localizado em mexico.",
+    "coords": [
+      -0.40498069721863,
+      0.89184293061747
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462460",
+    "mapId": "mexico",
+    "category": "apac-facility",
+    "title": "Ciudad Nudo del Norte (C1)",
+    "description": "Occupants: Norberto Puente Linking requirements: [002 - Deliver the Chiral Network Gateway to C1](https://mapgenie.io/death-stranding-2/maps/mexico?locationIds=462461) ##### Unlocks - ★: Chiral Network connection, Blood Bag, Container Repair Spray, Ladder, Climbing Anchor, Transporter Boots, Assault Rifle [MP] Lv1, Maser Handgun - ★★: Machine Pistol [MP] - ★★★: SL Machine Pistol [MP] - ★★★★: Big-Bore Handgun [MP] - ★★★★★: Norberto Puente Hologram, Mexico Cryptobiote Patch #31",
+    "coords": [
+      -0.61454772949105,
+      0.70342919327203
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462466",
+    "mapId": "mexico",
+    "category": "apac-facility",
+    "title": "Villa Libre",
+    "description": "Occupants: La Madre Linking requirements: ?? ##### Unlocks - ★: Chiral Network connection, PCC Lv1 (Watchtower, Postbox) - ★★: Custom Electric Rod - ★★★: Custom High Voltage Rod - ★★★★: Custom Twin Rod - ★★★★★: La Madre Hologram, Chiral Rodent Patch #54",
+    "coords": [
+      -0.80885012411721,
+      0.81993064506453
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462882",
+    "mapId": "mexico",
+    "category": "apac-facility",
+    "title": "Former Geophysics Research Lab",
+    "description": "Occupants: Alex Weatherstone Linking requirements: [005 - Defeat the BTs Near the Former Geophysics Lab and Deliver the Prototype MP Bullets](https://mapgenie.io/death-stranding-2/maps/mexico?locationIds=462892) ##### Unlocks - ★: Chiral Network connection, Anti-BT Effect for MP bullets - ★★: Additional Armor for Tri-Cruiser - ★★★: LW Assault Rifle [MP] Lv1 - ★★★★: LW Assault Rifle [MP] Lv2 - ★★★★★: Deadman Hologram, Alex Weatherstone Hologram, Tri-Cruiser Patch #57",
+    "coords": [
+      -0.91499805450297,
+      0.45444727283338
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462884",
+    "mapId": "mexico",
+    "category": "apac-facility",
+    "title": "C1 South Distribution Center",
+    "description": "Occupants: Benjamin Rivera Linking requirements: ?? ##### Unlocks - ★: Chiral Network connection, Blood Grenade Lv1, PCC Lv1 (Timefall Shelter) - ★★: EX Grenade - ★★★: Blood Grenade Lv2 - ★★★★: Assault Rifle [MP] Lv2 - ★★★★★: Benjamin Rivera Hologram, Smile Patch #25, Improved Cannon Cooldown APAS Enhancement",
+    "coords": [
+      -0.80701258910031,
+      0.53971771207407
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462900",
+    "mapId": "mexico",
+    "category": "bt-territory",
+    "title": "BT Area South of C1",
+    "description": "Description: *A BT area that spreads out to the south of the Ciudad Nudo del Norte (C1). The tar in this area has been used to dispose of corpses from C1 for a long time. As a result, chiral density has increased and BTs have started appearing in the vicinity.*",
+    "coords": [
+      -0.60411975340523,
+      0.68286403868245
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462904",
+    "mapId": "mexico",
+    "category": "bt-territory",
+    "title": "BT Area North of the Research Lab",
+    "description": "Description: *High chiral density has been detected in this BT area. According to reports, abandoned cargo can be found around the ruined church at its center.*",
+    "coords": [
+      -0.9159361527293,
+      0.53299119142133
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462885",
+    "mapId": "mexico",
+    "category": "enemy-territory",
+    "title": "Bandit Base Near North of the C1 South Distribution Center",
+    "description": "Description: *A group of ruined buildings that now house a Bandit base. The dilapidated structures and dense vegetation make it difficult to see and anticipate enemy attacks. Great care must be taken when traversing this area.*",
+    "coords": [
+      -0.7992151223842,
+      0.63474040667283
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462886",
+    "mapId": "mexico",
+    "category": "enemy-territory",
+    "title": "Bandit Base Northwest of C1",
+    "description": "Description: *A Bandit base northwest of Ciudad Nudo del Norte (C1). Multiple reports have noted porters en route to and from C1 being attacked and robbed by Bandits. Freight vehicles have also been seen here.*",
+    "coords": [
+      -0.68826108518311,
+      0.75188666161009
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462890",
+    "mapId": "mexico",
+    "category": "enemy-territory",
+    "title": "Bandit Base at the Old Border",
+    "description": "Description: *A base established in a former border checkpoint that now belongs to an armed group known as the Bandits. They will attack any porter that passes through the area, with many already suffering at their hands.*",
+    "coords": [
+      -0.49312412738863,
+      0.80962198640761
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462893",
+    "mapId": "mexico",
+    "category": "location",
+    "title": "Plate Gate",
+    "description": "Location localizado em mexico.",
+    "coords": [
+      -0.99563598632997,
+      0.38412163994464
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462918",
+    "mapId": "mexico",
+    "category": "magellan-dock",
+    "title": "Ciudad Nudo del Norte (C1)",
+    "description": "Magellan Dock localizado em mexico.",
+    "coords": [
+      -0.59374847298469,
+      0.71097409782678
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462920",
+    "mapId": "mexico",
+    "category": "magellan-dock",
+    "title": "Former Geophysics Research Lab",
+    "description": "Magellan Dock localizado em mexico.",
+    "coords": [
+      -0.90357735006154,
+      0.51592665113692
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462923",
+    "mapId": "mexico",
+    "category": "magellan-dock",
+    "title": "C1 South Distribution Center",
+    "description": "Magellan Dock localizado em mexico.",
+    "coords": [
+      -0.7823284792494,
+      0.56310916448118
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462924",
+    "mapId": "mexico",
+    "category": "magellan-dock",
+    "title": "Villa Libre",
+    "description": "Magellan Dock localizado em mexico.",
+    "coords": [
+      -0.78120729385449,
+      0.81968623563125
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462925",
+    "mapId": "mexico",
+    "category": "magellan-dock",
+    "title": "Sam's Shelter",
+    "description": "Magellan Dock localizado em mexico.",
+    "coords": [
+      -0.41556124136241,
+      0.88950978432739
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462897",
+    "mapId": "mexico",
+    "category": "point-of-interest",
+    "title": "Border Bridges",
+    "description": "Description: *A large bridge that spans the old border. It was the only means of crossing the Frontier River without wading through the water. Bandits have been known to attack travelers along the bridge, which now sits littered with abandoned cars.*",
+    "coords": [
+      -0.53237967633373,
+      0.80026884015507
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462905",
+    "mapId": "mexico",
+    "category": "point-of-interest",
+    "title": "Old Crater",
+    "description": "Description: *The remains of an old crater. It is unclear when or how it was formed. Pieces of cargo that are believed to have become stranded are often found in the area.*",
+    "coords": [
+      -0.91374892368236,
+      0.51267985099751
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462888",
+    "mapId": "mexico",
+    "category": "prepper-shelter",
+    "title": "The Bokka",
+    "description": "Occupants: The Bokka Linking requirements: Deliver Lost Cargo after extending the Chiral Network to the [Former Geophysics Research Lab](https://mapgenie.io/death-stranding-2/maps/mexico?locationIds=462882) ##### Unlocks - ★: Chiral Network connection, Trekking Boots - ★★: Sticky Gun - ★★★: Porter Patch #9 - ★★★★: Porter Backpack Accessory - ★★★★★: The Bokka Hologram, Porter Patch #42",
+    "coords": [
+      -0.72170734405674,
+      0.67817534902797
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462891",
+    "mapId": "mexico",
+    "category": "prepper-shelter",
+    "title": "The Artist",
+    "description": "Occupants: Lauren Tsai Linking requirements: Deliver Lost Cargo after extending the Chiral Network to the [Former Geophysics Research Lab](https://mapgenie.io/death-stranding-2/maps/mexico?locationIds=462887) ##### Unlocks - ★: Chiral Network connection, Color Data (Coyote Brown, Bright Yellow) - ★★: Color Data (Navy Blue, Volcano Orange) - ★★★: Color Data (Desert Pink, Ghost Green) - ★★★★: Color Data (Express Purple, Signal Green) - ★★★★★: Color Data (Sand Tan, Rose Pink), Lauren Tsai Hologram, BT Magniceps Patch #49",
+    "coords": [
+      -0.87729732432274,
+      0.61890031648791
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462898",
+    "mapId": "mexico",
+    "category": "warning",
+    "title": "Great Canyon Creek",
+    "description": "Description: *A river known for the cacti that grow along its banks. It has been known to swell to the width of one or two ladders in times of heavy timefall upstream.*",
+    "coords": [
+      -0.44841883818117,
+      0.84138487106196
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462899",
+    "mapId": "mexico",
+    "category": "warning",
+    "title": "Frontier River",
+    "description": "Description: *Joining the sea at the Gulf of Mexico, this river once formed part of the US-Mexico border. Its tributaries upstream area usually dried up, but the water level has been known to rise rapidly during periods of heavy timefall.*",
+    "coords": [
+      -0.65432682948804,
+      0.76540870543697
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462901",
+    "mapId": "mexico",
+    "category": "warning",
+    "title": "Spider Hill",
+    "description": "Description: *A steep hill with dense vegetation located between Villa Libre and the C1 South Distribution Center. The hill takes its name from the mysterious spider-like creatures that many people have reported seeing in the area.*",
+    "coords": [
+      -0.8053510076536,
+      0.75424810814341
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462902",
+    "mapId": "mexico",
+    "category": "warning",
+    "title": "Central River",
+    "description": "Description: *A river that flows through central Mexico. It passes through Bandit territory, and many porters have reported being attacked while trying to cross.*",
+    "coords": [
+      -0.81372912319608,
+      0.63769285731203
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462903",
+    "mapId": "mexico",
+    "category": "warning",
+    "title": "Shoeslasher Slope",
+    "description": "Warning Type: Cliff Description: *A steep slope that has tested even the most capable of porters. Legend has it that no pair of boots are sturdy enough to survive the climb. True or not, you'd do well to remember such warnings if you try to scramble up...*",
+    "coords": [
+      -0.86234351768135,
+      0.54930554148787
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462461",
+    "mapId": "mexico",
+    "category": "main-order",
+    "title": "002 - Deliver the Chiral Network Gateway to C1",
+    "description": "Destination: [Ciudad Nudo del Norte](https://mapgenie.io/death-stranding-2/maps/mexico?locationIds=462460) Cargo for Delivery: - 1x Chiral Network Gateway (L) Equipment Provided: - 1x Maser Handgun - 1x Blood Bag - 1x Assault Rifle [MP] Lv1 - 1x Ladder Rewards: - ??",
+    "coords": [
+      -0.40398715791272,
+      0.89192946679782
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462467",
+    "mapId": "mexico",
+    "category": "main-order",
+    "title": "003 - Deliver One or More Remote Medical Units to Villa Libre",
+    "description": "Destination: [Villa Libre](https://mapgenie.io/death-stranding-2/maps/mexico?locationIds=462466) Cargo for Delivery: - 2x Remote Medical Unit Equipment Provided: - None Rewards: - ??",
+    "coords": [
+      -0.61084628105141,
+      0.70354183755916
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462889",
+    "mapId": "mexico",
+    "category": "main-order",
+    "title": "004 - Recover All Chiral Density Gauges Stolen by Bandits",
+    "description": "Destination: ?? Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.60800313949559,
+      0.70352574551893
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462892",
+    "mapId": "mexico",
+    "category": "main-order",
+    "title": "005 - Defeat the BTs Near the Former Geophysics Lab and Deliver the Prototype MP Bullets",
+    "description": "Destination: ?? Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.8041477203399,
+      0.5442522573464
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462894",
+    "mapId": "mexico",
+    "category": "main-order",
+    "title": "006 - Defeat the Giant BT",
+    "description": "Destination: ?? Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.91225698070124,
+      0.45462581191795
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462895",
+    "mapId": "mexico",
+    "category": "main-order",
+    "title": "007 - Deliver the Present for Lou",
+    "description": "Destination: ?? Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.90935542915,
+      0.45451238621695
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462896",
+    "mapId": "mexico",
+    "category": "main-order",
+    "title": "008 - Connect the Australian Plate Gate Terminal to the Chiral Network",
+    "description": "Destination: [Mexico Plate Gate](https://mapgenie.io/death-stranding-2/maps/mexico?locationIds=462893) Cargo for Delivery: - ?? Equipment Provided: - ?? Rewards: - ??",
+    "coords": [
+      -0.9065782291986,
+      0.45443192247818
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462462",
+    "mapId": "mexico",
+    "category": "mule-postbox",
+    "title": "MULE Postbox",
+    "description": "Location: Outside the compound, on the corner of the building. Contents: - [Air Purifier](https://mapgenie.io/death-stranding-2/maps/mexico?locationIds=462463) - 1x Ladder - 1x Climbing Anchor - 1x Bandit Boots",
+    "coords": [
+      -0.49846172332673,
+      0.82594156576933
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462464",
+    "mapId": "mexico",
+    "category": "mule-postbox",
+    "title": "MULE Postbox",
+    "description": "Location: In the parking lot, beside a broken school bus Contents: - Sports Belt - 1x Blood Bag - 1x Bandit Boots - 1x Maser Handgun",
+    "coords": [
+      -0.49605846405041,
+      0.81167367093518
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462906",
+    "mapId": "mexico",
+    "category": "mule-postbox",
+    "title": "MULE Postbox",
+    "description": "MULE Postbox localizado em mexico.",
+    "coords": [
+      -0.68303790601163,
+      0.77609538302347
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462907",
+    "mapId": "mexico",
+    "category": "mule-postbox",
+    "title": "MULE Postbox",
+    "description": "MULE Postbox localizado em mexico.",
+    "coords": [
+      -0.69751380299249,
+      0.74451569361682
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462908",
+    "mapId": "mexico",
+    "category": "mule-postbox",
+    "title": "MULE Postbox",
+    "description": "MULE Postbox localizado em mexico.",
+    "coords": [
+      -0.68580499495246,
+      0.72830543901389
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462909",
+    "mapId": "mexico",
+    "category": "mule-postbox",
+    "title": "MULE Postbox",
+    "description": "MULE Postbox localizado em mexico.",
+    "coords": [
+      -0.80066695861427,
+      0.64943015696036
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  },
+  {
+    "id": "death-stranding-2-mexico-462910",
+    "mapId": "mexico",
+    "category": "mule-postbox",
+    "title": "MULE Postbox",
+    "description": "MULE Postbox localizado em mexico.",
+    "coords": [
+      -0.79590502317095,
+      0.63222230985085
+    ],
+    "region": "mexico",
+    "dlc": "base"
+  }
+]

@@ -1,0 +1,400 @@
+{
+  "id": "game-pokemon-pokopia",
+  "slug": "pokemon-pokopia",
+  "title": "Pokémon Pokopia",
+  "subtitle": "Kanto — Habitats, Spawns, Receitas, Relíquias & Diários",
+  "studio": "Koei Tecmo / Omega Force / Game Freak",
+  "releaseYear": 2026,
+  "genres": [
+    "Simulação",
+    "Aventura",
+    "Sandbox"
+  ],
+  "platforms": [
+    "switch"
+  ],
+  "status": "available",
+  "assets": {
+    "coverImage": "/games/pokemon-pokopia/cover.webp",
+    "bannerImage": "/games/pokemon-pokopia/banner.webp"
+  },
+  "theme": {
+    "accentPrimary": "#34D399",
+    "accentSecondary": "#FACC15",
+    "accentGlow": "rgba(52, 211, 153, 0.40)",
+    "glassTint": "rgba(10, 22, 18, 0.80)",
+    "surfaceBase": "#06100D",
+    "fontDisplay": "'Space Grotesk', sans-serif",
+    "backgroundPattern": "topographic-rings",
+    "badgeStyle": "minimal"
+  },
+  "maps": [
+    {
+      "id": "kanto",
+      "name": "Kanto",
+      "dlc": "base",
+      "pinsCount": 2531,
+      "icon": "map",
+      "crs": "epsg3857",
+      "backgroundColor": "#06100D",
+      "initialCenter": [
+        0.71458812118073,
+        -0.76433865444363
+      ],
+      "initialZoom": 12,
+      "maxBounds": [
+        [
+          -0.08355,
+          -1.0523
+        ],
+        [
+          1.12794,
+          0.07795
+        ]
+      ],
+      "tileSets": [
+        {
+          "id": "v5",
+          "label": "v5",
+          "urlTemplate": "https://tiles.mapgenie.io/games/pokopia/kanto/v5/{z}/{y}/{x}.jpg",
+          "minZoom": 8,
+          "maxNativeZoom": 15,
+          "maxZoom": 16,
+          "tileBounds": [
+            [
+              0,
+              -1.40625
+            ],
+            [
+              1.40611,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryGroups": [
+    {
+      "id": "locations",
+      "label": "Locations",
+      "categories": [
+        {
+          "id": "area-gate",
+          "groupId": "locations",
+          "name": "Area Gate",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "pc",
+          "groupId": "locations",
+          "name": "PC",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "point-of-interest",
+          "groupId": "locations",
+          "name": "Point of Interest",
+          "icon": "landmark",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "pokemon-center",
+          "groupId": "locations",
+          "name": "Pokémon Center",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "transition",
+          "groupId": "locations",
+          "name": "Transition",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "workbench",
+          "groupId": "locations",
+          "name": "Workbench",
+          "icon": "bookmark",
+          "color": "#FB7185",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "label": "Collectibles",
+      "categories": [
+        {
+          "id": "diary-entry",
+          "groupId": "collectibles",
+          "name": "Diary Entry",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "fossil",
+          "groupId": "collectibles",
+          "name": "Fossil",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "highlight-reel",
+          "groupId": "collectibles",
+          "name": "Highlight Reel",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "letters",
+          "groupId": "collectibles",
+          "name": "Letters",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "lost-relic-l",
+          "groupId": "collectibles",
+          "name": "Lost Relic (L)",
+          "icon": "gem",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "lost-relic-s",
+          "groupId": "collectibles",
+          "name": "Lost Relic (S)",
+          "icon": "gem",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "magazine",
+          "groupId": "collectibles",
+          "name": "Magazine",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        },
+        {
+          "id": "newspapers",
+          "groupId": "collectibles",
+          "name": "Newspapers",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": true
+        },
+        {
+          "id": "notes",
+          "groupId": "collectibles",
+          "name": "Notes",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": true
+        },
+        {
+          "id": "papers",
+          "groupId": "collectibles",
+          "name": "Papers",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "photos",
+          "groupId": "collectibles",
+          "name": "Photos",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": true
+        },
+        {
+          "id": "recipe",
+          "groupId": "collectibles",
+          "name": "Recipe",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "treasure-map",
+          "groupId": "collectibles",
+          "name": "Treasure Map",
+          "icon": "gem",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "pokemon",
+      "label": "Pokémon",
+      "categories": [
+        {
+          "id": "habitat",
+          "groupId": "pokemon",
+          "name": "Habitat",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": false
+        },
+        {
+          "id": "habitat-event",
+          "groupId": "pokemon",
+          "name": "Habitat (Event)",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": true
+        },
+        {
+          "id": "pokemon",
+          "groupId": "pokemon",
+          "name": "Pokémon",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": false
+        },
+        {
+          "id": "pokemon-event",
+          "groupId": "pokemon",
+          "name": "Pokémon (Event)",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": true
+        },
+        {
+          "id": "habitat-basin",
+          "groupId": "pokemon",
+          "name": "Habitat (Basin)",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "pokemon-basin",
+          "groupId": "pokemon",
+          "name": "Pokémon (Basin)",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "label": "Items",
+      "categories": [
+        {
+          "id": "blocks",
+          "groupId": "items",
+          "name": "Blocks",
+          "icon": "map-pin",
+          "color": "#F472B6",
+          "defaultVisible": false
+        },
+        {
+          "id": "buildings",
+          "groupId": "items",
+          "name": "Buildings",
+          "icon": "map-pin",
+          "color": "#FBBF24",
+          "defaultVisible": false
+        },
+        {
+          "id": "food",
+          "groupId": "items",
+          "name": "Food",
+          "icon": "map-pin",
+          "color": "#34D399",
+          "defaultVisible": true
+        },
+        {
+          "id": "furniture",
+          "groupId": "items",
+          "name": "Furniture",
+          "icon": "map-pin",
+          "color": "#A78BFA",
+          "defaultVisible": false
+        },
+        {
+          "id": "key-items",
+          "groupId": "items",
+          "name": "Key Items",
+          "icon": "map-pin",
+          "color": "#FB7185",
+          "defaultVisible": true
+        },
+        {
+          "id": "kits",
+          "groupId": "items",
+          "name": "Kits",
+          "icon": "map-pin",
+          "color": "#2DD4BF",
+          "defaultVisible": true
+        },
+        {
+          "id": "materials",
+          "groupId": "items",
+          "name": "Materials",
+          "icon": "map-pin",
+          "color": "#FB923C",
+          "defaultVisible": true
+        },
+        {
+          "id": "misc",
+          "groupId": "items",
+          "name": "Misc",
+          "icon": "map-pin",
+          "color": "#60A5FA",
+          "defaultVisible": false
+        },
+        {
+          "id": "nature",
+          "groupId": "items",
+          "name": "Nature",
+          "icon": "map-pin",
+          "color": "#E879F9",
+          "defaultVisible": true
+        },
+        {
+          "id": "other",
+          "groupId": "items",
+          "name": "Other",
+          "icon": "map-pin",
+          "color": "#FACC15",
+          "defaultVisible": false
+        },
+        {
+          "id": "outdoor",
+          "groupId": "items",
+          "name": "Outdoor",
+          "icon": "map-pin",
+          "color": "#4ADE80",
+          "defaultVisible": true
+        },
+        {
+          "id": "utilities",
+          "groupId": "items",
+          "name": "Utilities",
+          "icon": "map-pin",
+          "color": "#38BDF8",
+          "defaultVisible": true
+        }
+      ]
+    }
+  ],
+  "totalPins": 2531
+}
